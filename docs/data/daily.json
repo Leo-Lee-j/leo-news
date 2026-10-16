@@ -294,6 +294,100 @@
      ]
     }
    ]
+  },
+  {
+   "id": "tech-ai",
+   "title": "AI 与大模型",
+   "shortTitle": "AI 大模型",
+   "description": "大模型发布与更新",
+   "items": [
+    {
+     "rank": "01",
+     "title": "Meta 发布 Muse Spark Open：816B 参数开放权重模型，联合 Apple 实现桌面集群推理",
+     "summary": "Meta 发布开放权重模型 Muse Spark Open，总参数 816B、每次激活 42B，原生多模态，上下文窗口 100 万 token，主打编程与长程 agent 任务。Meta 称其为\"美国迄今最强的开放权重模型\"。同日 Meta 宣布与 Apple 合作：通过 Apple 最新的 MLX 框架，两台 M5 Ultra Mac Studio（共 1TB 统一内存）可作为一台\"超级计算机\"在桌面端运行该模型，权重已在 Huggi",
+     "url": "https://www.channelnewsasia.com/business/meta-releases-open-weight-muse-spark-model-coding-agentic-tasks-6464096",
+     "source": "CNA / MacRumors｜2026-10-15（美国时间）",
+     "tags": [
+      "AI 大模型"
+     ]
+    },
+    {
+     "rank": "02",
+     "title": "NVIDIA 发布 Nemotron 3.5 Super VL：120B 开放权重多模态 agent 模型",
+     "summary": "NVIDIA 发布 Nemotron 3.5 Super VL，120B 参数 MoE 架构，面向 PDF、图表、网页等多模态输入的 agentic 推理，开放权重并允许商用、微调和再分发。同日生态公司 Mindbeam 宣布推出衍生版 Litespark：针对 CUDA 内核生成做了后训练，在 KernelBench Level 1 上通过率从 72.7% 提升到 83.9%，Level 2 从 22.8% 提升到 82.1%（官方宣",
+     "url": "https://tech-insider.org/nvidia-nemotron-3-5-super-vl-2026/",
+     "source": "Tech Insider / NVIDIA 博客｜2026-10-15",
+     "tags": [
+      "AI 大模型"
+     ]
+    },
+    {
+     "rank": "03",
+     "title": "Apple Intelligence 确认进入中国：10 月测试版，12 月正式发布",
+     "summary": "Tim Cook 在上海接受采访时确认，Apple Intelligence 已获准在中国使用，测试版将于 10 月稍晚推出。另据 Bloomberg 报道，正式版计划 12 月随 iOS 27.3 推送：首批为功能受限版本，包含 Genmoji、通知摘要、写作工具等两年前在美国首发的功能，不含新的 Gemini 驱动 Siri 和增强版照片功能；搜索与 Siri 接入百度技术，模型侧与阿里巴巴合作，支持 iPhone 15 Pro 及",
+     "url": "https://lapaasvoice.com/apple-intelligence-gets-china-approval-beta-expected-in-october/",
+     "source": "Reuters（经 lapaasvoice 整理）/ Bloomberg（经 ChosunBiz 报道）｜2026-10-15",
+     "tags": [
+      "AI 大模型"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "tech-dev",
+   "title": "AI 工程与开发工具",
+   "shortTitle": "开发工具",
+   "description": "模型部署 · AI 编程 · Agent",
+   "items": [
+    {
+     "rank": "04",
+     "title": "Liquid AI 发布 LFM2.5-24B-A2B：专为本地 agent 打造的开放权重推理模型",
+     "summary": "LFM2.5 家族收官之作：24B 参数 MoE，每 token 仅激活约 2.45B 参数，13.1 万 token 上下文，纯推理架构（每次回答先输出思考链）。官方称在 OpenClaw、Pi、OpenCode 等 agent 框架内做了强化学习，在 8 项 agent/工具调用基准中的 5 项上持平或超过参数多 50% 的 Qwen3.6-35B-A3B（官方自报数据）。Base 与后训练版权重均已上架 Hugging Face。",
+     "url": "https://www.liquid.ai/blog/lfm2-5-24b-a2b",
+     "source": "Liquid AI 官方博客 / TechRepublic｜2026-10-13（10-15 登上 Hacker News 首页引发讨论）",
+     "tags": [
+      "开发工具"
+     ]
+    },
+    {
+     "rank": "05",
+     "title": "Black Forest Labs 发布 FLUX 3 Image Klein：5.6B 开放权重图像模型，8GB 显存可跑",
+     "summary": "FLUX 3 家族的轻量版：5.6B 参数，支持文生图、图像编辑、最多 10 张参考图的多图参考生成，原生 4K 输出、像素级精确编辑和 bounding box 布局控制。提供 base（微调）与蒸馏（低延迟）两个版本，以及 FP8/INT8/NVFP4 量化版——INT8 版在 8GB 显存的消费级 RTX 显卡上即可通过 ComfyUI/Diffusers 运行。采用 FLUX Kommunity License：年收入低于 50",
+     "url": "https://www.manilatimes.net/2026/10/15/tmt-newswire/globenewswire/black-forest-labs-expands-access-to-frontier-visual-intelligence-with-open-weights-release-of-flux-3-image-klein/2446851/amp",
+     "source": "BFL 官方新闻稿（GlobeNewswire）｜2026-10-15",
+     "tags": [
+      "开发工具"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "tech-industry",
+   "title": "科技行业动态",
+   "shortTitle": "行业动态",
+   "description": "公司动态 · 产品发布 · 芯片与云",
+   "items": [
+    {
+     "rank": "06",
+     "title": "Volvo 与 NVIDIA 扩大自动驾驶合作：下一代车型将搭载 Hyperion + Halos 方案",
+     "summary": "双方宣布扩大合作，下一代 Volvo 车型将整合 NVIDIA Hyperion 传感器与计算架构、Halos 操作系统及 Alpamayo 自动驾驶软件栈，目标实现从高速到城区的\"门到门\"驾驶。Volvo 软件工程负责人表示首批落地仍是 supervised 驾驶，逐步向\"eyes-off/mind-off\"演进；技术将在 2030 年前上车，多地区同步推出（不含中国），定价模式未定。",
+     "url": "https://www.reuters.com/business/autos-transportation/volvo-cars-expands-automated-driving-partnership-with-nvidia-2026-10-15/",
+     "source": "Reuters｜2026-10-15",
+     "tags": [
+      "行业动态"
+     ]
+    },
+    {
+     "rank": "07",
+     "title": "Adobe 与 NVIDIA 扩大合作：RTX Spark 加速创意软件 AI 功能",
+     "summary": "Photoshop、Premiere、Substance 3D、Frame.io 等 Adobe 旗舰应用将针对 NVIDIA RTX Spark 超级芯片优化，官方称部分 AI 处理任务速度最高提升 2 倍；Adobe 的 Brand Concierge 企业平台还将接入 NVIDIA Nemotron 模型，预计今年稍晚向企业客户提供。",
+     "url": "https://www.morningstar.com/news/dow-jones/202610156827/adobe-nvidia-expand-partnership-to-speed-ai-powered-creative-tools",
+     "source": "Dow Jones（经 Morningstar）｜2026-10-15",
+     "tags": [
+      "行业动态"
+     ]
+    }
+   ]
   }
  ],
  "_pipelines": {
@@ -314,15 +408,37 @@
    ],
    "highlight": "Agent Skills 生态彻底爆发：mattpocock/skills、obra/superpowers、affaan-m/ECC 等 skills 仓库动辄二三十万 star，而 morluto/rea 把逆向工程做成 MCP 服务器，单周狂揽 24 万 star，增速史无前例。",
    "date": "2026-10-16"
+  },
+  "tech-news": {
+   "digest": [
+    {
+     "title": "Meta 发布开放权重旗舰模型 Muse Spark Open（816B 参数），并联合 Apple 展示桌面集群推理",
+     "text": "Meta 发布开放权重旗舰模型 Muse Spark Open（816B 参数），并联合 Apple 展示桌面集群推理：\"美国迄今最强开放权重模型\"，一天之内两大开放权重旗舰相继发布，这是今天最重要的消息。"
+    },
+    {
+     "title": "NVIDIA 发布 120B 开放权重多模态模型 Nemotron 3.5 Super VL",
+     "text": "NVIDIA 发布 120B 开放权重多模态模型 Nemotron 3.5 Super VL：同一天生态伙伴已推出 CUDA 内核生成衍生版，开放权重竞赛升温。"
+    },
+    {
+     "title": "Apple Intelligence 终于进入中国",
+     "text": "Apple Intelligence 终于进入中国：Tim Cook 在上海确认 10 月稍晚推出测试版；Bloomberg 称 12 月随 iOS 27.3 正式发布。"
+    }
+   ],
+   "highlight": "Meta 发布开放权重旗舰模型 Muse Spark Open（816B 参数），并联合 Apple 展示桌面集群推理：\"美国迄今最强开放权重模型\"，一天之内两大开放权重旗舰相继发布，这是今天最重要的消息。",
+   "date": "2026-10-16"
   }
  },
  "digest": [
   {
    "title": "Agent Skills",
    "text": "Agent Skills 生态彻底爆发：mattpocock/skills、obra/superpowers、affaan-m/ECC 等 skills 仓库动辄二三十万 star，而 morluto/rea 把逆向工程做成 MCP 服务器，单周狂揽 24 万 star，增速史无前例。"
+  },
+  {
+   "title": "Meta 发布开放权重旗舰模型 Muse Spark Open（816B 参数），并联合 Apple 展示桌面集群推理",
+   "text": "Meta 发布开放权重旗舰模型 Muse Spark Open（816B 参数），并联合 Apple 展示桌面集群推理：\"美国迄今最强开放权重模型\"，一天之内两大开放权重旗舰相继发布，这是今天最重要的消息。"
   }
  ],
- "intro": "Agent Skills 生态彻底爆发：mattpocock/skills、obra/superpowers、affaan-m/ECC 等 skills 仓库动辄二三十万 star，而 morluto/rea 把逆向工程做成 MCP 服务器，单周狂揽 24 万 star，增速史无前例。",
+ "intro": "Agent Skills 生态彻底爆发：mattpocock/skills、obra/superpowers、affaan-m/ECC 等 skills 仓库动辄二三十万 star，而 morluto/rea 把逆向工程做成 MCP 服务器，单周狂揽 24 万 star，增速史无前例。 Meta 发布开放权重旗舰模型 Muse Spark Open（816B 参数），并联合 Apple 展示桌面集群推理：\"美国迄今最强开放权重模型\"，一天之内两大开放权重旗舰相继发布，这是今天最重要的消息。",
  "tasks": [
   {
    "icon": "GH",
