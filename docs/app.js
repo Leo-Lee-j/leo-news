@@ -125,9 +125,36 @@
     const items = filteredItems();
     renderFeatured(items);
     renderSections(items);
+    renderToc();
     const hasItems = items.length > 0;
     $('#emptyState').hidden = hasItems;
     if (!hasItems) { $('#featuredSection').hidden = true; $('#sectionsContainer').innerHTML = ''; }
+  }
+
+  function renderToc() {
+    const nav = $('#tocList');
+    if (!nav || !state.data) return;
+    nav.innerHTML = state.data.sections.map(s =>
+      `<a class="toc-link" href="#${escapeHtml(s.id)}" data-section="${escapeHtml(s.id)}">` +
+      `<span class="toc-dot"></span><span class="toc-name">${escapeHtml(s.shortTitle || s.title)}</span>` +
+      `<span class="toc-count">${s.items.length}</span></a>`
+    ).join('');
+    if (renderToc.observer) renderToc.observer.disconnect();
+    const links = [...nav.querySelectorAll('.toc-link')];
+    const byId = Object.fromEntries(links.map(a => [a.dataset.section, a]));
+    renderToc.observer = new IntersectionObserver(entries => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting) {
+          links.forEach(a => a.classList.remove('is-active'));
+          const link = byId[entry.target.id];
+          if (link) link.classList.add('is-active');
+        }
+      });
+    }, { rootMargin: '-25% 0px -65% 0px' });
+    state.data.sections.forEach(s => {
+      const el = document.getElementById(s.id);
+      if (el) renderToc.observer.observe(el);
+    });
   }
 
   async function init() {
