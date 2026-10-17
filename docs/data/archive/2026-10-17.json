@@ -1,0 +1,434 @@
+{
+ "sections": [
+  {
+   "id": "tech-ai",
+   "title": "AI 与大模型",
+   "shortTitle": "AI 大模型",
+   "description": "大模型发布与更新",
+   "items": [
+    {
+     "rank": "01",
+     "title": "Meta 发布 Muse Spark Open：816B 参数开放权重模型，联合 Apple 实现桌面集群推理",
+     "summary": "Meta 发布开放权重模型 Muse Spark Open，总参数 816B、每次激活 42B，原生多模态，上下文窗口 100 万 token，主打编程与长程 agent 任务。Meta 称其为\"美国迄今最强的开放权重模型\"。同日 Meta 宣布与 Apple 合作：通过 Apple 最新的 MLX 框架，两台 M5 Ultra Mac Studio（共 1TB 统一内存）可作为一台\"超级计算机\"在桌面端运行该模型，权重已在 Huggi",
+     "url": "https://www.channelnewsasia.com/business/meta-releases-open-weight-muse-spark-model-coding-agentic-tasks-6464096",
+     "source": "CNA / MacRumors｜2026-10-15（美国时间）",
+     "tags": [
+      "AI 大模型"
+     ]
+    },
+    {
+     "rank": "02",
+     "title": "NVIDIA 发布 Nemotron 3.5 Super VL：120B 开放权重多模态 agent 模型",
+     "summary": "NVIDIA 发布 Nemotron 3.5 Super VL，120B 参数 MoE 架构，面向 PDF、图表、网页等多模态输入的 agentic 推理，开放权重并允许商用、微调和再分发。同日生态公司 Mindbeam 宣布推出衍生版 Litespark：针对 CUDA 内核生成做了后训练，在 KernelBench Level 1 上通过率从 72.7% 提升到 83.9%，Level 2 从 22.8% 提升到 82.1%（官方宣",
+     "url": "https://tech-insider.org/nvidia-nemotron-3-5-super-vl-2026/",
+     "source": "Tech Insider / NVIDIA 博客｜2026-10-15",
+     "tags": [
+      "AI 大模型"
+     ]
+    },
+    {
+     "rank": "03",
+     "title": "Apple Intelligence 确认进入中国：10 月测试版，12 月正式发布",
+     "summary": "Tim Cook 在上海接受采访时确认，Apple Intelligence 已获准在中国使用，测试版将于 10 月稍晚推出。另据 Bloomberg 报道，正式版计划 12 月随 iOS 27.3 推送：首批为功能受限版本，包含 Genmoji、通知摘要、写作工具等两年前在美国首发的功能，不含新的 Gemini 驱动 Siri 和增强版照片功能；搜索与 Siri 接入百度技术，模型侧与阿里巴巴合作，支持 iPhone 15 Pro 及",
+     "url": "https://lapaasvoice.com/apple-intelligence-gets-china-approval-beta-expected-in-october/",
+     "source": "Reuters（经 lapaasvoice 整理）/ Bloomberg（经 ChosunBiz 报道）｜2026-10-15",
+     "tags": [
+      "AI 大模型"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "tech-dev",
+   "title": "AI 工程与开发工具",
+   "shortTitle": "开发工具",
+   "description": "模型部署 · AI 编程 · Agent",
+   "items": [
+    {
+     "rank": "04",
+     "title": "Liquid AI 发布 LFM2.5-24B-A2B：专为本地 agent 打造的开放权重推理模型",
+     "summary": "LFM2.5 家族收官之作：24B 参数 MoE，每 token 仅激活约 2.45B 参数，13.1 万 token 上下文，纯推理架构（每次回答先输出思考链）。官方称在 OpenClaw、Pi、OpenCode 等 agent 框架内做了强化学习，在 8 项 agent/工具调用基准中的 5 项上持平或超过参数多 50% 的 Qwen3.6-35B-A3B（官方自报数据）。Base 与后训练版权重均已上架 Hugging Face。",
+     "url": "https://www.liquid.ai/blog/lfm2-5-24b-a2b",
+     "source": "Liquid AI 官方博客 / TechRepublic｜2026-10-13（10-15 登上 Hacker News 首页引发讨论）",
+     "tags": [
+      "开发工具"
+     ]
+    },
+    {
+     "rank": "05",
+     "title": "Black Forest Labs 发布 FLUX 3 Image Klein：5.6B 开放权重图像模型，8GB 显存可跑",
+     "summary": "FLUX 3 家族的轻量版：5.6B 参数，支持文生图、图像编辑、最多 10 张参考图的多图参考生成，原生 4K 输出、像素级精确编辑和 bounding box 布局控制。提供 base（微调）与蒸馏（低延迟）两个版本，以及 FP8/INT8/NVFP4 量化版——INT8 版在 8GB 显存的消费级 RTX 显卡上即可通过 ComfyUI/Diffusers 运行。采用 FLUX Kommunity License：年收入低于 50",
+     "url": "https://www.manilatimes.net/2026/10/15/tmt-newswire/globenewswire/black-forest-labs-expands-access-to-frontier-visual-intelligence-with-open-weights-release-of-flux-3-image-klein/2446851/amp",
+     "source": "BFL 官方新闻稿（GlobeNewswire）｜2026-10-15",
+     "tags": [
+      "开发工具"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "tech-industry",
+   "title": "科技行业动态",
+   "shortTitle": "行业动态",
+   "description": "公司动态 · 产品发布 · 芯片与云",
+   "items": [
+    {
+     "rank": "06",
+     "title": "Volvo 与 NVIDIA 扩大自动驾驶合作：下一代车型将搭载 Hyperion + Halos 方案",
+     "summary": "双方宣布扩大合作，下一代 Volvo 车型将整合 NVIDIA Hyperion 传感器与计算架构、Halos 操作系统及 Alpamayo 自动驾驶软件栈，目标实现从高速到城区的\"门到门\"驾驶。Volvo 软件工程负责人表示首批落地仍是 supervised 驾驶，逐步向\"eyes-off/mind-off\"演进；技术将在 2030 年前上车，多地区同步推出（不含中国），定价模式未定。",
+     "url": "https://www.reuters.com/business/autos-transportation/volvo-cars-expands-automated-driving-partnership-with-nvidia-2026-10-15/",
+     "source": "Reuters｜2026-10-15",
+     "tags": [
+      "行业动态"
+     ]
+    },
+    {
+     "rank": "07",
+     "title": "Adobe 与 NVIDIA 扩大合作：RTX Spark 加速创意软件 AI 功能",
+     "summary": "Photoshop、Premiere、Substance 3D、Frame.io 等 Adobe 旗舰应用将针对 NVIDIA RTX Spark 超级芯片优化，官方称部分 AI 处理任务速度最高提升 2 倍；Adobe 的 Brand Concierge 企业平台还将接入 NVIDIA Nemotron 模型，预计今年稍晚向企业客户提供。",
+     "url": "https://www.morningstar.com/news/dow-jones/202610156827/adobe-nvidia-expand-partnership-to-speed-ai-powered-creative-tools",
+     "source": "Dow Jones（经 Morningstar）｜2026-10-15",
+     "tags": [
+      "行业动态"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "github-hot",
+   "title": "GitHub 今日热门",
+   "shortTitle": "GitHub 热榜",
+   "description": "综合热度、活跃度与实用价值排序",
+   "items": [
+    {
+     "rank": "01",
+     "title": "morluto/rea",
+     "summary": "解决了\"想抄一个功能、却看不懂它怎么实现\"的问题——把逆向工程封装成 MCP，让 agent 替你从应用行为一路钻到二进制。单周 +24.9 万且较昨日不降反升，现象仍在发酵，npm 一行安装，值得亲自体验一轮。",
+     "url": "https://github.com/morluto/rea",
+     "stars": "291.0k",
+     "tags": [
+      "强烈推荐"
+     ],
+     "featured": true
+    },
+    {
+     "rank": "02",
+     "title": "storytold/artcraft",
+     "summary": "\"艺术家的 IDE\"：2D 合成环境里的交互式 AI 图像与视频创作工具。 ① 面向艺术家/设计师/电影人的创作 IDE；② 交互式 AI 图像与视频生成管线；③ 配套桌面端下载与源码构建。",
+     "url": "https://github.com/storytold/artcraft",
+     "stars": "30.6k",
+     "tags": [
+      "值得关注"
+     ]
+    },
+    {
+     "rank": "03",
+     "title": "anthropics/claude-plugins-official",
+     "summary": "Anthropic 官方维护的高质量 Claude Code 插件目录。 ① 官方背书的插件清单，含内部插件与审核过的第三方插件；② `/plugin install {name}@claude-plugins-official` 一键安装；③ 附插件提交规范与安全提示。",
+     "url": "https://github.com/anthropics/claude-plugins-official",
+     "stars": "40.5k",
+     "trend": "+1,552",
+     "tags": [
+      "值得关注"
+     ]
+    },
+    {
+     "rank": "04",
+     "title": "openai/math",
+     "summary": "OpenAI 官方仓库：内部模型在开放数学问题上产出的数学手稿与证明产物（含 Lean 形式化证明）。 ① 719 份手稿、372 个家族的完整目录（含 PDF、源码、引用与构建说明）；② Lean 形式化证明库与形式化目录；③ 随模型评估推进持续更新。",
+     "url": "https://github.com/openai/math",
+     "stars": "15.0k",
+     "tags": [
+      "值得关注"
+     ]
+    },
+    {
+     "rank": "05",
+     "title": "debpalash/VoiceStudio",
+     "summary": "开源、完全本地的 ElevenLabs 平替：语音克隆、音色设计、视频配音、听写、转录、有声书制作。 ① 646 种语言的语音克隆与合成；② 视频配音与有声书一站式制作；③ 全本地运行，音频数据不出本机。",
+     "url": "https://github.com/debpalash/VoiceStudio",
+     "stars": "71.2k",
+     "trend": "+2,301",
+     "tags": [
+      "强烈推荐"
+     ]
+    },
+    {
+     "rank": "06",
+     "title": "xerj-org/xerj",
+     "summary": "为 AI 打造的新一代数据搜索：一条命令索引代码、文档、日志、PDF，让 agent 不再靠 grep 大海捞针。 ① autoindex 自动建索引，token 消耗号称只有 grep 的 1/40；② 兼容 Elasticsearch，已有客户端无缝接入；③ 覆盖代码、文档、日志、PDF，顺带做 RAG 与安全审计。",
+     "url": "https://github.com/xerj-org/xerj",
+     "stars": "6.9k",
+     "trend": "+1,648",
+     "tags": [
+      "值得关注"
+     ]
+    },
+    {
+     "rank": "07",
+     "title": "ruvnet/ruflo",
+     "summary": "自称\"最初的 agent harness\"：部署智能多玩家 swarm，协调自主工作流。 ① 多智能体 swarm 编排；② 自主工作流协调；③ TypeScript 实现。",
+     "url": "https://github.com/ruvnet/ruflo",
+     "stars": "75.6k",
+     "trend": "+672",
+     "tags": [
+      "了解即可"
+     ]
+    },
+    {
+     "rank": "08",
+     "title": "android/skills",
+     "summary": "Android 官方出品的 AI 优化 skills 库：帮助 agent 按 developer.android.com 最佳实践做 Android 开发。 ① 模块化 SKILL.md，专攻\"LLM 评估中表现不佳\"的场景（如 r8-analyzer）；② 遵循开放 Agent Skills 标准；③ 通过 Android CLI 一键安装到各 agent 目录。",
+     "url": "https://github.com/android/skills",
+     "stars": "8.1k",
+     "trend": "+36",
+     "tags": [
+      "值得关注"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "github-rising",
+   "title": "Star 增长最快",
+   "shortTitle": "增长最快",
+   "description": "按实际 Star 增量排序",
+   "items": [
+    {
+     "rank": "01",
+     "title": "morluto/rea",
+     "summary": "⚠️ 增速异常、持续爆火：较昨日口径（+239,477）不降反升，直奔 30 万 star。",
+     "url": "https://github.com/morluto/rea",
+     "stars": "291.0k",
+     "trend": "+248,962",
+     "tags": [
+      "高增长"
+     ]
+    },
+    {
+     "rank": "02",
+     "title": "storytold/artcraft",
+     "summary": "⚠️ 老项目突然回春：被纯 Rust 系列反哺带火，单周拿下三分之二总 star。",
+     "url": "https://github.com/storytold/artcraft",
+     "stars": "30.6k",
+     "trend": "+20,267",
+     "tags": [
+      "高增长"
+     ]
+    },
+    {
+     "rank": "03",
+     "title": "boykopovar/AnyPS5",
+     "summary": "PS5 可执行文件自动移植到 Linux/Windows，较昨日（+25,174）略有降温但仍是第二梯队头部。",
+     "url": "https://github.com/boykopovar/AnyPS5",
+     "stars": "39.9k",
+     "trend": "+20,518",
+     "tags": [
+      "高增长"
+     ]
+    },
+    {
+     "rank": "04",
+     "title": "mattpocock/skills",
+     "summary": "skills 赛道热度稳定，即将突破 30 万。",
+     "url": "https://github.com/mattpocock/skills",
+     "stars": "294.1k",
+     "trend": "+11,937",
+     "tags": [
+      "高增长"
+     ]
+    },
+    {
+     "rank": "05",
+     "title": "cathrynlavery/diagram-design",
+     "summary": "为各 coding agent 打造的编辑级图表设计 skill，AI 绘图继续向\"好看\"卷。",
+     "url": "https://github.com/cathrynlavery/diagram-design",
+     "stars": "56.4k",
+     "trend": "+9,024",
+     "tags": [
+      "高增长"
+     ]
+    },
+    {
+     "rank": "06",
+     "title": "NationalSecurityAgency/ghidra",
+     "summary": "⚠️ 老项目回春加速：上周 +6,614，本周更快，rea 带起的逆向热潮后劲十足。",
+     "url": "https://github.com/NationalSecurityAgency/ghidra",
+     "stars": "89.6k",
+     "trend": "+7,510",
+     "tags": [
+      "高增长"
+     ]
+    },
+    {
+     "rank": "07",
+     "title": "heygen-com/hyperframes",
+     "summary": "\"写 HTML，渲染视频，为 agent 而造\"，增速稳定。",
+     "url": "https://github.com/heygen-com/hyperframes",
+     "stars": "65.3k",
+     "trend": "+5,601",
+     "tags": [
+      "高增长"
+     ]
+    },
+    {
+     "rank": "08",
+     "title": "mksglu/context-mode",
+     "summary": "新上周榜：工具输出沙箱化号称省 98% token，直击 agent 时代最痛的账单问题。",
+     "url": "https://github.com/mksglu/context-mode",
+     "stars": "30.2k",
+     "trend": "+4,207",
+     "tags": [
+      "高增长"
+     ]
+    },
+    {
+     "rank": "09",
+     "title": "anthropics/claude-plugins-official",
+     "summary": "今日单日爆发 5 倍，插件生态 adoption 加速的信号。",
+     "url": "https://github.com/anthropics/claude-plugins-official",
+     "stars": "40.5k",
+     "trend": "+2,328",
+     "tags": [
+      "高增长"
+     ]
+    },
+    {
+     "rank": "10",
+     "title": "ranxianglei/billion-context",
+     "summary": "中文开发者作品：上下文压缩插件，较昨日（+659）加速，持续跟踪中。",
+     "url": "https://github.com/ranxianglei/billion-context",
+     "stars": "1.5k",
+     "trend": "+779",
+     "tags": [
+      "高增长"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "github-new",
+   "title": "值得关注的新项目",
+   "shortTitle": "新项目",
+   "description": "近期创建、增长迅速的有潜力项目",
+   "items": [
+    {
+     "rank": "01",
+     "title": "openai/math",
+     "summary": "OpenAI 官方开源的数学研究产物库：内部模型在开放数学问题上生成的 719 份手稿与 Lean 形式化证明。 ① 372 个家族的手稿目录，含 PDF、源码、引用与构建说明；② Lean 形式化证明库与形式化目录持续更新；③ 按数学分支分类，可检索。",
+     "url": "https://github.com/openai/math",
+     "stars": "15.0k",
+     "tags": [
+      "强烈推荐"
+     ]
+    },
+    {
+     "rank": "02",
+     "title": "wheresryan22/anatomy",
+     "summary": "一个 agent skill：让 AI 生成真实机器与复杂系统的精细交互式等距插图（SVG + 可选 WebGL 着色器/3D 效果）。 ① 面向 agent 的插图生成 skill；② 输出精致的 SVG，可选 WebGL 着色器与 3D 效果；③ 针对\"真实世界机器\"场景优化。",
+     "url": "https://github.com/wheresryan22/anatomy",
+     "stars": "14.0k",
+     "tags": [
+      "值得关注"
+     ]
+    },
+    {
+     "rank": "03",
+     "title": "shihabal3amri/DiPlay",
+     "summary": "独立的 CarPlay 接收端：让兼容的安卓车机支持 CarPlay，有线/无线公开预览版。 ① 安卓车机上运行 CarPlay；② 有线与无线两种连接；③ 公开预览，可直接装。",
+     "url": "https://github.com/shihabal3amri/DiPlay",
+     "stars": "11.1k",
+     "tags": [
+      "了解即可"
+     ]
+    },
+    {
+     "rank": "04",
+     "title": "rehan-remade/universal-modder",
+     "summary": "让 Claude Code 给几乎任何 PC 游戏做 mod：侦察、逆向、AI 生成美术/3D/音频、游戏内测试、展示视频一条龙。 ① skills + 工具 + fal MCP 的组合；② 覆盖侦察、逆向工程、资源生成、测试全流程；③ 指向游戏即可开工。",
+     "url": "https://github.com/rehan-remade/universal-modder",
+     "stars": "8.1k",
+     "tags": [
+      "值得关注"
+     ]
+    },
+    {
+     "rank": "05",
+     "title": "zai-org/ZCode",
+     "summary": "Z.ai（智谱）官方出品的 coding agent harness：强大、可扩展。 ① 完整的 coding agent harness；② 可扩展架构；③ TypeScript 实现。",
+     "url": "https://github.com/zai-org/ZCode",
+     "stars": "7.9k",
+     "tags": [
+      "了解即可"
+     ]
+    }
+   ]
+  }
+ ],
+ "_pipelines": {
+  "github": {
+   "digest": [
+    {
+     "title": "大厂官方下场 Agent",
+     "text": "大厂官方下场 Agent Skills 生态：Anthropic 官方插件目录单日 +1,552 star（昨日 +307，爆发 5 倍），Android 官方发布 AI 优化 skills 仓库，老牌 harness ruvnet/ruflo 也重回日榜，\"skills\"正从社区玩法变成平台标配。"
+    },
+    {
+     "title": "OpenAI 官方发布 ",
+     "text": "OpenAI 官方发布 openai/math：内部模型产出的 719 份数学手稿 + Lean 形式化证明仓库，11 天收获 1.5 万 star，\"AI 搞数学\"从刷题进入直接产出研究成果的阶段。"
+    },
+    {
+     "title": "速览",
+     "text": "rea 现象级热度延续（单周 +24.9 万）；storytold 的 artcraft 本体借系列东风单周 +2 万；ghidra 逆向回春加速，单周 +7,510 超过上周（+6,614）。"
+    }
+   ],
+   "highlight": "大厂官方下场 Agent Skills 生态：Anthropic 官方插件目录单日 +1,552 star（昨日 +307，爆发 5 倍），Android 官方发布 AI 优化 skills 仓库，老牌 harness ruvnet/ruflo 也重回日榜，\"skills\"正从社区玩法变成平台标配。",
+   "date": "2026-10-17"
+  },
+  "tech-news": {
+   "digest": [
+    {
+     "title": "Meta 发布开放权重旗舰模型 Muse Spark Open（816B 参数），并联合 Apple 展示桌面集群推理",
+     "text": "Meta 发布开放权重旗舰模型 Muse Spark Open（816B 参数），并联合 Apple 展示桌面集群推理：\"美国迄今最强开放权重模型\"，一天之内两大开放权重旗舰相继发布，这是今天最重要的消息。"
+    },
+    {
+     "title": "NVIDIA 发布 120B 开放权重多模态模型 Nemotron 3.5 Super VL",
+     "text": "NVIDIA 发布 120B 开放权重多模态模型 Nemotron 3.5 Super VL：同一天生态伙伴已推出 CUDA 内核生成衍生版，开放权重竞赛升温。"
+    },
+    {
+     "title": "Apple Intelligence 终于进入中国",
+     "text": "Apple Intelligence 终于进入中国：Tim Cook 在上海确认 10 月稍晚推出测试版；Bloomberg 称 12 月随 iOS 27.3 正式发布。"
+    }
+   ],
+   "highlight": "Meta 发布开放权重旗舰模型 Muse Spark Open（816B 参数），并联合 Apple 展示桌面集群推理：\"美国迄今最强开放权重模型\"，一天之内两大开放权重旗舰相继发布，这是今天最重要的消息。",
+   "date": "2026-10-16"
+  }
+ },
+ "digest": [
+  {
+   "title": "大厂官方下场 Agent",
+   "text": "大厂官方下场 Agent Skills 生态：Anthropic 官方插件目录单日 +1,552 star（昨日 +307，爆发 5 倍），Android 官方发布 AI 优化 skills 仓库，老牌 harness ruvnet/ruflo 也重回日榜，\"skills\"正从社区玩法变成平台标配。"
+  },
+  {
+   "title": "Meta 发布开放权重旗舰模型 Muse Spark Open（816B 参数），并联合 Apple 展示桌面集群推理",
+   "text": "Meta 发布开放权重旗舰模型 Muse Spark Open（816B 参数），并联合 Apple 展示桌面集群推理：\"美国迄今最强开放权重模型\"，一天之内两大开放权重旗舰相继发布，这是今天最重要的消息。"
+  }
+ ],
+ "intro": "大厂官方下场 Agent Skills 生态：Anthropic 官方插件目录单日 +1,552 star（昨日 +307，爆发 5 倍），Android 官方发布 AI 优化 skills 仓库，老牌 harness ruvnet/ruflo 也重回日榜，\"skills\"正从社区玩法变成平台标配。 Meta 发布开放权重旗舰模型 Muse Spark Open（816B 参数），并联合 Apple 展示桌面集群推理：\"美国迄今最强开放权重模型\"，一天之内两大开放权重旗舰相继发布，这是今天最重要的消息。",
+ "tasks": [
+  {
+   "icon": "GH",
+   "name": "GitHub 开源情报",
+   "detail": "Trending · Star 增速 · 新项目",
+   "time": "08:30"
+  },
+  {
+   "icon": "NW",
+   "name": "科技新闻日报",
+   "detail": "新闻聚合 · 中文简报",
+   "time": "09:00"
+  }
+ ],
+ "date": "2026-10-17",
+ "issue": "017",
+ "updatedAt": "00:33 更新"
+}
