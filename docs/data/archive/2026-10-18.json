@@ -1,0 +1,426 @@
+{
+ "sections": [
+  {
+   "id": "tech-ai",
+   "title": "AI 与大模型",
+   "shortTitle": "AI 大模型",
+   "description": "大模型发布与更新",
+   "items": [
+    {
+     "rank": "01",
+     "title": "四个 Gemini 4 Argon 智能体 27 小时自主通关 Minecraft",
+     "summary": "四个 Gemini 4 Argon 智能体各自操控一个 Mineflayer 机器人，仅通过游戏内聊天和共享记忆协作，从随机世界出发，编写了 2,783 个 JavaScript 程序、死亡 605 次，最终在 27 小时 14 分钟后击败末影龙。研究人员称这是首次由通用 AI 智能体端到端自主通关 Minecraft，无需人类编写游戏逻辑或预设角色。",
+     "url": "https://arxiv.org/pdf/2610.22319",
+     "source": "Google DeepMind 研究人员技术报告（arXiv，2026-10-15）；多家媒体 10-16 跟进",
+     "tags": [
+      "AI 大模型"
+     ]
+    },
+    {
+     "rank": "02",
+     "title": "Anthropic 为 Claude 接入美国官方投票信息，中期选举前上线",
+     "summary": "Anthropic 宣布本月内在 Claude 中接入非营利组织 Democracy Works 的官方投票信息和选举结果数据，美国用户查询投票流程时将直接引用州和地方选举来源。据称美国 Claude 对话中约 5.75% 涉及政治话题，0.51% 专门关于选举和投票。",
+     "url": "https://www.channelnewsasia.com/business/anthropic-add-us-voting-information-claude-midterms-oct-14-6460616",
+     "source": "Channel News Asia｜2026-10-14（更新 10-16）",
+     "tags": [
+      "AI 大模型"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "tech-dev",
+   "title": "AI 工程与开发工具",
+   "shortTitle": "开发工具",
+   "description": "模型部署 · AI 编程 · Agent",
+   "items": [
+    {
+     "rank": "01",
+     "title": "Reflection 开放 501B 参数 MoE 模型 Beam 权重（Apache 2.0）",
+     "summary": "Reflection 在 Hugging Face 发布首个开放权重模型 Beam：501B 参数混合专家架构，在 10.5K 张 NVIDIA GB300 上用 23.8 万亿 token 预训练、经 1 亿多次 RL rollout 精调，附带模型卡、终版基准和安全技术报告。公司同时开放 platform.reflection.ai 免费公测 API，宣称组建了 40 多家合作伙伴的生态，定位为\"Agent 的开放操作系统\"。",
+     "url": "https://www.unite.ai/reflection-releases-beams-open-weights-under-apache-2-0-license/",
+     "source": "Unite.AI｜2026-10-16",
+     "tags": [
+      "开发工具"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "tech-industry",
+   "title": "科技行业动态",
+   "shortTitle": "行业动态",
+   "description": "公司动态 · 产品发布 · 芯片与云",
+   "items": [
+    {
+     "rank": "01",
+     "title": "NVIDIA RTX Spark 笔记本全球开售，端侧 AI Agent 走进消费级",
+     "summary": "NVIDIA 宣布 RTX Spark 笔记本全球上市，华硕、戴尔、惠普、联想、微软、MSI 六家厂商首发，起售价 $2,599。核心是 Grace CPU + Blackwell 架构 RTX GPU 的超级芯片（联发科参与定制 CPU 设计），CPU/GPU 共享最高 128GB 统一内存，FP4 精度下 AI 算力达 1 PFLOPS，可直接在笔记本上运行大语言模型和 AI Agent。",
+     "url": "https://www.unite.ai/nvidia-rtx-spark-laptops-launch-worldwide-with-local-ai-agent-support/",
+     "source": "Unite.AI / ChosunBiz｜2026-10-16",
+     "tags": [
+      "行业动态"
+     ]
+    },
+    {
+     "rank": "02",
+     "title": "英国 CMA 拟认定微软在企业软件市场具\"战略市场地位\"，剑指捆绑与 Copilot",
+     "summary": "英国竞争与市场管理局（CMA）提议给予微软在企业软件领域的\"战略市场地位\"认定，认为其在 Excel、Teams 等产品上的捆绑存在反竞争嫌疑，英国约有 2000 万月活用户。CMA 还在评估用户能否自由选择 AI 工具、竞争对手能否与 Copilot 公平竞争，以及安全产品捆绑和云许可 practices 是否限制选择。微软表示不认同该提议。最终决定预计明年 2 月前做出。",
+     "url": "https://kelofm.com/2026/10/16/uk-competition-regulator-targets-microsofts-business-software-grip/",
+     "source": "Reuters（经 KELO-FM 转载）｜2026-10-16",
+     "tags": [
+      "行业动态"
+     ]
+    },
+    {
+     "rank": "03",
+     "title": "苹果首款折叠屏 iPhone Duo 预售几分钟内售罄",
+     "summary": "苹果首款折叠屏手机 iPhone Duo 于 10 月 16 日开启预售，几分钟内售罄，交付日期从 10 月 23 日迅速推迟到明年 1 月底。该机配备 5.4 英寸外屏和 7.6 英寸可折叠内屏，256GB 起售价 $1,999，2TB 顶配 $3,199。苹果股价受此推动回升至接近 52 周高点。",
+     "url": "https://www.fool.com/coverage/stock-market-today/2026/10/16/stock-market-today-oct-16-apple-edges-higher-on-iphone-duo-preorder-surge/",
+     "source": "Motley Fool｜2026-10-16",
+     "tags": [
+      "行业动态"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "github-hot",
+   "title": "GitHub 今日热门",
+   "shortTitle": "GitHub 热榜",
+   "description": "综合热度、活跃度与实用价值排序",
+   "items": [
+    {
+     "rank": "01",
+     "title": "morluto/rea",
+     "summary": "解决了\"想抄一个功能、却看不懂它怎么实现\"的问题——把逆向工程封装成 MCP，让 agent 替你从应用行为一路钻到二进制。总数突破 30 万、连续三天霸榜，现象仍在发酵，npm 一行安装，值得亲自体验一轮。",
+     "url": "https://github.com/morluto/rea",
+     "stars": "307.7k",
+     "tags": [
+      "强烈推荐"
+     ],
+     "featured": true
+    },
+    {
+     "rank": "02",
+     "title": "MadsLorentzen/ai-job-search",
+     "summary": "基于 Claude Code 的 AI 求职框架：fork 仓库、填好个人档案，让 Claude 替你筛职位、改简历、写求职信、准备面试。 ① Claude 自动评估招聘帖与你的匹配度；② 针对岗位定制简历与求职信；③ 面试准备流程一并打包。",
+     "url": "https://github.com/MadsLorentzen/ai-job-search",
+     "stars": "50.4k",
+     "trend": "+1,365",
+     "tags": [
+      "值得关注"
+     ]
+    },
+    {
+     "rank": "03",
+     "title": "debpalash/VoiceStudio",
+     "summary": "开源、完全本地的 ElevenLabs 平替：语音克隆、音色设计、视频配音、听写、转录、有声书制作。 ① 646 种语言的语音克隆与合成；② 视频配音与有声书一站式制作；③ 全本地运行，音频数据不出本机。",
+     "url": "https://github.com/debpalash/VoiceStudio",
+     "stars": "73.3k",
+     "trend": "+2,125",
+     "tags": [
+      "强烈推荐"
+     ]
+    },
+    {
+     "rank": "04",
+     "title": "stablyai/orca",
+     "summary": "Agent 舰队的工作台：一个地方同时驾驭 Grok Bot、Claude Code 等多个 agent。 ① 多 agent 统一管理与调度的工作台；② macOS/Windows/Linux 全平台桌面应用；③ MIT 协议，社区 Discord 活跃。",
+     "url": "https://github.com/stablyai/orca",
+     "stars": "95.4k",
+     "trend": "+830",
+     "tags": [
+      "值得关注"
+     ]
+    },
+    {
+     "rank": "05",
+     "title": "anthropics/claude-plugins-official",
+     "summary": "Anthropic 官方维护的高质量 Claude Code 插件目录。 ① 官方背书的插件清单，含内部插件与审核过的第三方插件；② `/plugin install {name}@claude-plugins-official` 一键安装；③ 附插件提交规范与安全提示。",
+     "url": "https://github.com/anthropics/claude-plugins-official",
+     "stars": "41.7k",
+     "trend": "+1,397",
+     "tags": [
+      "值得关注"
+     ]
+    },
+    {
+     "rank": "06",
+     "title": "HKUDS/CLI-Anything",
+     "summary": "\"让所有软件都 agent 原生\"：把任意 CLI 软件变成 agent 可调用、可编排的能力（附 CLI-Hub 导航站）。 ① 统一的 agent-native CLI 封装规范；② CLI-Hub 导航站聚合可用工具；③ 面向\"软件即 agent 工具\"的改造路线。",
+     "url": "https://github.com/HKUDS/CLI-Anything",
+     "stars": "54.1k",
+     "trend": "+574",
+     "tags": [
+      "了解即可"
+     ]
+    },
+    {
+     "rank": "07",
+     "title": "xerj-org/xerj",
+     "summary": "为 AI 打造的新一代数据搜索：一条命令索引代码、文档、日志、PDF，让 agent 不再靠 grep 大海捞针。 ① autoindex 自动建索引，token 消耗号称只有 grep 的 1/40；② 兼容 Elasticsearch，已有客户端无缝接入；③ 覆盖代码、文档、日志、PDF，顺带做 RAG 与安全审计。",
+     "url": "https://github.com/xerj-org/xerj",
+     "stars": "7.8k",
+     "trend": "+1,160",
+     "tags": [
+      "值得关注"
+     ]
+    },
+    {
+     "rank": "08",
+     "title": "android/skills",
+     "summary": "Android 官方出品的 AI 优化 skills 库：帮助 agent 按 developer.android.com 最佳实践做 Android 开发。 ① 模块化 SKILL.md，专攻\"LLM 评估中表现不佳\"的场景（如 r8-analyzer）；② 遵循开放 Agent Skills 标准；③ 通过 Android CLI 一键安装到各 agent 目录。",
+     "url": "https://github.com/android/skills",
+     "stars": "8.4k",
+     "trend": "+355",
+     "tags": [
+      "值得关注"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "github-rising",
+   "title": "Star 增长最快",
+   "shortTitle": "增长最快",
+   "description": "按实际 Star 增量排序",
+   "items": [
+    {
+     "rank": "01",
+     "title": "morluto/rea",
+     "summary": "⚠️ 突破 30 万：较昨日口径（+248,962）略有降温，但仍是周榜第一，现象级热度第三天。",
+     "url": "https://github.com/morluto/rea",
+     "stars": "307.7k",
+     "trend": "+239,923",
+     "tags": [
+      "高增长"
+     ]
+    },
+    {
+     "rank": "02",
+     "title": "storytold/artcraft",
+     "summary": "老项目回春：较昨日（+20,267）略降温，系列反哺效应仍在。",
+     "url": "https://github.com/storytold/artcraft",
+     "stars": "31.8k",
+     "trend": "+18,479",
+     "tags": [
+      "高增长"
+     ]
+    },
+    {
+     "rank": "03",
+     "title": "boykopovar/AnyPS5",
+     "summary": "PS5 可执行文件自动移植到 Linux/Windows，较昨日（+20,518）降温但仍居前三。",
+     "url": "https://github.com/boykopovar/AnyPS5",
+     "stars": "41.7k",
+     "trend": "+16,250",
+     "tags": [
+      "高增长"
+     ]
+    },
+    {
+     "rank": "04",
+     "title": "mattpocock/skills",
+     "summary": "距 30 万只差一步，skills 赛道热度稳定。",
+     "url": "https://github.com/mattpocock/skills",
+     "stars": "295.1k",
+     "trend": "+11,272",
+     "tags": [
+      "高增长"
+     ]
+    },
+    {
+     "rank": "05",
+     "title": "cathrynlavery/diagram-design",
+     "summary": "为各 coding agent 打造的编辑级图表设计 skill，AI 绘图继续向\"好看\"卷。",
+     "url": "https://github.com/cathrynlavery/diagram-design",
+     "stars": "57.0k",
+     "trend": "+8,382",
+     "tags": [
+      "高增长"
+     ]
+    },
+    {
+     "rank": "06",
+     "title": "NationalSecurityAgency/ghidra",
+     "summary": "⚠️ 老项目回春加速：6,614→7,510→7,608，连续三周提速，rea 带起的逆向热潮后劲十足。",
+     "url": "https://github.com/NationalSecurityAgency/ghidra",
+     "stars": "90.3k",
+     "trend": "+7,608",
+     "tags": [
+      "高增长"
+     ]
+    },
+    {
+     "rank": "07",
+     "title": "heygen-com/hyperframes",
+     "summary": "\"写 HTML，渲染视频，为 agent 而造\"，增速稳定。",
+     "url": "https://github.com/heygen-com/hyperframes",
+     "stars": "66.0k",
+     "trend": "+5,639",
+     "tags": [
+      "高增长"
+     ]
+    },
+    {
+     "rank": "08",
+     "title": "mksglu/context-mode",
+     "summary": "工具输出沙箱化号称省 98% token，直击 agent 时代最痛的账单问题。",
+     "url": "https://github.com/mksglu/context-mode",
+     "stars": "30.5k",
+     "trend": "+4,438",
+     "tags": [
+      "高增长"
+     ]
+    },
+    {
+     "rank": "09",
+     "title": "anthropics/claude-plugins-official",
+     "summary": "周增量环比加速 54%，插件生态 adoption 爆发的信号。",
+     "url": "https://github.com/anthropics/claude-plugins-official",
+     "stars": "41.7k",
+     "trend": "+3,581",
+     "tags": [
+      "高增长"
+     ]
+    },
+    {
+     "rank": "10",
+     "title": "ranxianglei/billion-context",
+     "summary": "中文开发者作品：上下文压缩插件，较昨日（+779）继续加速，持续跟踪中。",
+     "url": "https://github.com/ranxianglei/billion-context",
+     "stars": "1.7k",
+     "trend": "+888",
+     "tags": [
+      "高增长"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "github-new",
+   "title": "值得关注的新项目",
+   "shortTitle": "新项目",
+   "description": "近期创建、增长迅速的有潜力项目",
+   "items": [
+    {
+     "rank": "01",
+     "title": "storytold/effectcraft",
+     "summary": "纯 Rust 从零重写的 After Effects：动态图形与视觉特效合成工具。 ① 合成、图层、关键帧、306 个特效、图层样式、表达式；② 3D 相机与灯光、渲染队列；③ macOS/Windows/Linux 原生 + 浏览器可跑。",
+     "url": "https://github.com/storytold/effectcraft",
+     "stars": "7.2k",
+     "tags": [
+      "值得关注"
+     ]
+    },
+    {
+     "rank": "02",
+     "title": "KKKKhazix/AIHOT",
+     "summary": "一个自己找热点、自己写日报的网站框架：把信源和精选标准换成你的，它就是你的行业热点站。 ① 多信源流入、中间精选层、再分发到法律/HR/金融等行业频道；② 线上原站 aihot.news 可直接看效果；③ MIT 协议，Node.js 24 + PostgreSQL 17，Docker Compose 一键起。",
+     "url": "https://github.com/KKKKhazix/AIHOT",
+     "stars": "7.9k",
+     "tags": [
+      "值得关注"
+     ]
+    },
+    {
+     "rank": "03",
+     "title": "Droid-Deck/DroidDeck",
+     "summary": "把 SteamOS 的体验搬到安卓上：安卓设备的游戏机化改造方案。 ① SteamOS 风格的游戏库界面与体验；② 面向安卓设备（Kotlin 编写）；③ 持续更新中。",
+     "url": "https://github.com/Droid-Deck/DroidDeck",
+     "stars": "10.2k",
+     "tags": [
+      "了解即可"
+     ]
+    },
+    {
+     "rank": "04",
+     "title": "mizorewww/laya-mlx",
+     "summary": "Laya 决策模型的原生 MLX 运行时：Mac 上 7–14ms 完成一次类型化决策。 ① 为 laya 非自回归决策模型提供 Apple Silicon 原生推理；② M3 Max 上单次决策 7–14ms；③ 纯 Python，无重型依赖。",
+     "url": "https://github.com/mizorewww/laya-mlx",
+     "stars": "7.0k",
+     "tags": [
+      "了解即可"
+     ]
+    },
+    {
+     "rank": "05",
+     "title": "jev-chat/jev-chat-jarvis",
+     "summary": "聊天决策助手：你回复之前，Jev 先读聊天记录、判断意图与风险。 ① 回复前自动分析对话上下文；② 意图识别与风险提示；③ Kotlin 实现。",
+     "url": "https://github.com/jev-chat/jev-chat-jarvis",
+     "stars": "7.9k",
+     "tags": [
+      "了解即可"
+     ]
+    }
+   ]
+  }
+ ],
+ "_pipelines": {
+  "github": {
+   "digest": [
+    {
+     "title": "速览",
+     "text": "rea 总 star 数突破 30 万（307,655，单周 +239,923），现象级热度进入第三天；ghidra 借逆向东风连续三周加速，本周 +7,608，已是 2019 年老项目的第三个增长峰。"
+    },
+    {
+     "title": "Agent 应用层开始向",
+     "text": "Agent 应用层开始向下渗透到具体场景：求职 agent 框架 ai-job-search 单日 +1,365 新上日榜第二，stablyai/orca（agent 舰队工作台）、HKUDS/CLI-Anything（让所有软件 agent 原生化）同日上榜，\"agent 化一切\"从口号变成工程清单。"
+    },
+    {
+     "title": "速览",
+     "text": "storytold 纯 Rust 系列再添 effectcraft（After Effects 重写版，306 个特效），矩阵已达 7 个项目；中文项目 KKKKhazix/AIHOT（自动找热点、写日报的网站框架）单月 7,946 star。"
+    }
+   ],
+   "highlight": "rea 总 star 数突破 30 万（307,655，单周 +239,923），现象级热度进入第三天；ghidra 借逆向东风连续三周加速，本周 +7,608，已是 2019 年老项目的第三个增长峰。",
+   "date": "2026-10-18"
+  },
+  "tech-news": {
+   "digest": [
+    {
+     "title": "四个 Gemini 4 ",
+     "text": "四个 Gemini 4 Argon 智能体用 27 小时自主通关 Minecraft：多智能体长时程协作和\"开放操作系统 Agent\"成为新前沿。"
+    },
+    {
+     "title": "速览",
+     "text": "Reflection 发布 501B 参数 MoE 模型 Beam 的开放权重（Apache 2.0），开放权重军备赛继续加码。"
+    },
+    {
+     "title": "最重要的一条",
+     "text": "最重要的一条：NVIDIA RTX Spark 笔记本全球开售，128GB 统一内存把大模型推理带进消费级笔记本，端侧 AI 硬件战争正式开打。"
+    }
+   ],
+   "highlight": "四个 Gemini 4 Argon 智能体用 27 小时自主通关 Minecraft：多智能体长时程协作和\"开放操作系统 Agent\"成为新前沿。",
+   "date": "2026-10-17"
+  }
+ },
+ "digest": [
+  {
+   "title": "速览",
+   "text": "rea 总 star 数突破 30 万（307,655，单周 +239,923），现象级热度进入第三天；ghidra 借逆向东风连续三周加速，本周 +7,608，已是 2019 年老项目的第三个增长峰。"
+  },
+  {
+   "title": "四个 Gemini 4 ",
+   "text": "四个 Gemini 4 Argon 智能体用 27 小时自主通关 Minecraft：多智能体长时程协作和\"开放操作系统 Agent\"成为新前沿。"
+  }
+ ],
+ "intro": "rea 总 star 数突破 30 万（307,655，单周 +239,923），现象级热度进入第三天；ghidra 借逆向东风连续三周加速，本周 +7,608，已是 2019 年老项目的第三个增长峰。 四个 Gemini 4 Argon 智能体用 27 小时自主通关 Minecraft：多智能体长时程协作和\"开放操作系统 Agent\"成为新前沿。",
+ "tasks": [
+  {
+   "icon": "GH",
+   "name": "GitHub 开源情报",
+   "detail": "Trending · Star 增速 · 新项目",
+   "time": "08:30"
+  },
+  {
+   "icon": "NW",
+   "name": "科技新闻日报",
+   "detail": "新闻聚合 · 中文简报",
+   "time": "09:00"
+  }
+ ],
+ "date": "2026-10-18",
+ "issue": "018",
+ "updatedAt": "00:37 更新"
+}
