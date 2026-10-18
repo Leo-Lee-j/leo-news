@@ -1,276 +1,6 @@
 {
  "sections": [
   {
-   "id": "github-hot",
-   "title": "GitHub 今日热门",
-   "shortTitle": "GitHub 热榜",
-   "description": "综合热度、活跃度与实用价值排序",
-   "items": [
-    {
-     "rank": "01",
-     "title": "morluto/rea",
-     "summary": "解决了\"想抄一个功能、却看不懂它怎么实现\"的问题——把逆向工程封装成 MCP，让 agent 替你从应用行为一路钻到二进制。单周 +24.9 万且较昨日不降反升，现象仍在发酵，npm 一行安装，值得亲自体验一轮。",
-     "url": "https://github.com/morluto/rea",
-     "stars": "291.0k",
-     "tags": [
-      "强烈推荐"
-     ],
-     "featured": true
-    },
-    {
-     "rank": "02",
-     "title": "storytold/artcraft",
-     "summary": "\"艺术家的 IDE\"：2D 合成环境里的交互式 AI 图像与视频创作工具。 ① 面向艺术家/设计师/电影人的创作 IDE；② 交互式 AI 图像与视频生成管线；③ 配套桌面端下载与源码构建。",
-     "url": "https://github.com/storytold/artcraft",
-     "stars": "30.6k",
-     "tags": [
-      "值得关注"
-     ]
-    },
-    {
-     "rank": "03",
-     "title": "anthropics/claude-plugins-official",
-     "summary": "Anthropic 官方维护的高质量 Claude Code 插件目录。 ① 官方背书的插件清单，含内部插件与审核过的第三方插件；② `/plugin install {name}@claude-plugins-official` 一键安装；③ 附插件提交规范与安全提示。",
-     "url": "https://github.com/anthropics/claude-plugins-official",
-     "stars": "40.5k",
-     "trend": "+1,552",
-     "tags": [
-      "值得关注"
-     ]
-    },
-    {
-     "rank": "04",
-     "title": "openai/math",
-     "summary": "OpenAI 官方仓库：内部模型在开放数学问题上产出的数学手稿与证明产物（含 Lean 形式化证明）。 ① 719 份手稿、372 个家族的完整目录（含 PDF、源码、引用与构建说明）；② Lean 形式化证明库与形式化目录；③ 随模型评估推进持续更新。",
-     "url": "https://github.com/openai/math",
-     "stars": "15.0k",
-     "tags": [
-      "值得关注"
-     ]
-    },
-    {
-     "rank": "05",
-     "title": "debpalash/VoiceStudio",
-     "summary": "开源、完全本地的 ElevenLabs 平替：语音克隆、音色设计、视频配音、听写、转录、有声书制作。 ① 646 种语言的语音克隆与合成；② 视频配音与有声书一站式制作；③ 全本地运行，音频数据不出本机。",
-     "url": "https://github.com/debpalash/VoiceStudio",
-     "stars": "71.2k",
-     "trend": "+2,301",
-     "tags": [
-      "强烈推荐"
-     ]
-    },
-    {
-     "rank": "06",
-     "title": "xerj-org/xerj",
-     "summary": "为 AI 打造的新一代数据搜索：一条命令索引代码、文档、日志、PDF，让 agent 不再靠 grep 大海捞针。 ① autoindex 自动建索引，token 消耗号称只有 grep 的 1/40；② 兼容 Elasticsearch，已有客户端无缝接入；③ 覆盖代码、文档、日志、PDF，顺带做 RAG 与安全审计。",
-     "url": "https://github.com/xerj-org/xerj",
-     "stars": "6.9k",
-     "trend": "+1,648",
-     "tags": [
-      "值得关注"
-     ]
-    },
-    {
-     "rank": "07",
-     "title": "ruvnet/ruflo",
-     "summary": "自称\"最初的 agent harness\"：部署智能多玩家 swarm，协调自主工作流。 ① 多智能体 swarm 编排；② 自主工作流协调；③ TypeScript 实现。",
-     "url": "https://github.com/ruvnet/ruflo",
-     "stars": "75.6k",
-     "trend": "+672",
-     "tags": [
-      "了解即可"
-     ]
-    },
-    {
-     "rank": "08",
-     "title": "android/skills",
-     "summary": "Android 官方出品的 AI 优化 skills 库：帮助 agent 按 developer.android.com 最佳实践做 Android 开发。 ① 模块化 SKILL.md，专攻\"LLM 评估中表现不佳\"的场景（如 r8-analyzer）；② 遵循开放 Agent Skills 标准；③ 通过 Android CLI 一键安装到各 agent 目录。",
-     "url": "https://github.com/android/skills",
-     "stars": "8.1k",
-     "trend": "+36",
-     "tags": [
-      "值得关注"
-     ]
-    }
-   ]
-  },
-  {
-   "id": "github-rising",
-   "title": "Star 增长最快",
-   "shortTitle": "增长最快",
-   "description": "按实际 Star 增量排序",
-   "items": [
-    {
-     "rank": "01",
-     "title": "morluto/rea",
-     "summary": "⚠️ 增速异常、持续爆火：较昨日口径（+239,477）不降反升，直奔 30 万 star。",
-     "url": "https://github.com/morluto/rea",
-     "stars": "291.0k",
-     "trend": "+248,962",
-     "tags": [
-      "高增长"
-     ]
-    },
-    {
-     "rank": "02",
-     "title": "storytold/artcraft",
-     "summary": "⚠️ 老项目突然回春：被纯 Rust 系列反哺带火，单周拿下三分之二总 star。",
-     "url": "https://github.com/storytold/artcraft",
-     "stars": "30.6k",
-     "trend": "+20,267",
-     "tags": [
-      "高增长"
-     ]
-    },
-    {
-     "rank": "03",
-     "title": "boykopovar/AnyPS5",
-     "summary": "PS5 可执行文件自动移植到 Linux/Windows，较昨日（+25,174）略有降温但仍是第二梯队头部。",
-     "url": "https://github.com/boykopovar/AnyPS5",
-     "stars": "39.9k",
-     "trend": "+20,518",
-     "tags": [
-      "高增长"
-     ]
-    },
-    {
-     "rank": "04",
-     "title": "mattpocock/skills",
-     "summary": "skills 赛道热度稳定，即将突破 30 万。",
-     "url": "https://github.com/mattpocock/skills",
-     "stars": "294.1k",
-     "trend": "+11,937",
-     "tags": [
-      "高增长"
-     ]
-    },
-    {
-     "rank": "05",
-     "title": "cathrynlavery/diagram-design",
-     "summary": "为各 coding agent 打造的编辑级图表设计 skill，AI 绘图继续向\"好看\"卷。",
-     "url": "https://github.com/cathrynlavery/diagram-design",
-     "stars": "56.4k",
-     "trend": "+9,024",
-     "tags": [
-      "高增长"
-     ]
-    },
-    {
-     "rank": "06",
-     "title": "NationalSecurityAgency/ghidra",
-     "summary": "⚠️ 老项目回春加速：上周 +6,614，本周更快，rea 带起的逆向热潮后劲十足。",
-     "url": "https://github.com/NationalSecurityAgency/ghidra",
-     "stars": "89.6k",
-     "trend": "+7,510",
-     "tags": [
-      "高增长"
-     ]
-    },
-    {
-     "rank": "07",
-     "title": "heygen-com/hyperframes",
-     "summary": "\"写 HTML，渲染视频，为 agent 而造\"，增速稳定。",
-     "url": "https://github.com/heygen-com/hyperframes",
-     "stars": "65.3k",
-     "trend": "+5,601",
-     "tags": [
-      "高增长"
-     ]
-    },
-    {
-     "rank": "08",
-     "title": "mksglu/context-mode",
-     "summary": "新上周榜：工具输出沙箱化号称省 98% token，直击 agent 时代最痛的账单问题。",
-     "url": "https://github.com/mksglu/context-mode",
-     "stars": "30.2k",
-     "trend": "+4,207",
-     "tags": [
-      "高增长"
-     ]
-    },
-    {
-     "rank": "09",
-     "title": "anthropics/claude-plugins-official",
-     "summary": "今日单日爆发 5 倍，插件生态 adoption 加速的信号。",
-     "url": "https://github.com/anthropics/claude-plugins-official",
-     "stars": "40.5k",
-     "trend": "+2,328",
-     "tags": [
-      "高增长"
-     ]
-    },
-    {
-     "rank": "10",
-     "title": "ranxianglei/billion-context",
-     "summary": "中文开发者作品：上下文压缩插件，较昨日（+659）加速，持续跟踪中。",
-     "url": "https://github.com/ranxianglei/billion-context",
-     "stars": "1.5k",
-     "trend": "+779",
-     "tags": [
-      "高增长"
-     ]
-    }
-   ]
-  },
-  {
-   "id": "github-new",
-   "title": "值得关注的新项目",
-   "shortTitle": "新项目",
-   "description": "近期创建、增长迅速的有潜力项目",
-   "items": [
-    {
-     "rank": "01",
-     "title": "openai/math",
-     "summary": "OpenAI 官方开源的数学研究产物库：内部模型在开放数学问题上生成的 719 份手稿与 Lean 形式化证明。 ① 372 个家族的手稿目录，含 PDF、源码、引用与构建说明；② Lean 形式化证明库与形式化目录持续更新；③ 按数学分支分类，可检索。",
-     "url": "https://github.com/openai/math",
-     "stars": "15.0k",
-     "tags": [
-      "强烈推荐"
-     ]
-    },
-    {
-     "rank": "02",
-     "title": "wheresryan22/anatomy",
-     "summary": "一个 agent skill：让 AI 生成真实机器与复杂系统的精细交互式等距插图（SVG + 可选 WebGL 着色器/3D 效果）。 ① 面向 agent 的插图生成 skill；② 输出精致的 SVG，可选 WebGL 着色器与 3D 效果；③ 针对\"真实世界机器\"场景优化。",
-     "url": "https://github.com/wheresryan22/anatomy",
-     "stars": "14.0k",
-     "tags": [
-      "值得关注"
-     ]
-    },
-    {
-     "rank": "03",
-     "title": "shihabal3amri/DiPlay",
-     "summary": "独立的 CarPlay 接收端：让兼容的安卓车机支持 CarPlay，有线/无线公开预览版。 ① 安卓车机上运行 CarPlay；② 有线与无线两种连接；③ 公开预览，可直接装。",
-     "url": "https://github.com/shihabal3amri/DiPlay",
-     "stars": "11.1k",
-     "tags": [
-      "了解即可"
-     ]
-    },
-    {
-     "rank": "04",
-     "title": "rehan-remade/universal-modder",
-     "summary": "让 Claude Code 给几乎任何 PC 游戏做 mod：侦察、逆向、AI 生成美术/3D/音频、游戏内测试、展示视频一条龙。 ① skills + 工具 + fal MCP 的组合；② 覆盖侦察、逆向工程、资源生成、测试全流程；③ 指向游戏即可开工。",
-     "url": "https://github.com/rehan-remade/universal-modder",
-     "stars": "8.1k",
-     "tags": [
-      "值得关注"
-     ]
-    },
-    {
-     "rank": "05",
-     "title": "zai-org/ZCode",
-     "summary": "Z.ai（智谱）官方出品的 coding agent harness：强大、可扩展。 ① 完整的 coding agent harness；② 可扩展架构；③ TypeScript 实现。",
-     "url": "https://github.com/zai-org/ZCode",
-     "stars": "7.9k",
-     "tags": [
-      "了解即可"
-     ]
-    }
-   ]
-  },
-  {
    "id": "tech-ai",
    "title": "AI 与大模型",
    "shortTitle": "AI 大模型",
@@ -353,26 +83,298 @@
      ]
     }
    ]
+  },
+  {
+   "id": "github-hot",
+   "title": "GitHub 今日热门",
+   "shortTitle": "GitHub 热榜",
+   "description": "综合热度、活跃度与实用价值排序",
+   "items": [
+    {
+     "rank": "01",
+     "title": "morluto/rea",
+     "summary": "解决了\"想抄一个功能、却看不懂它怎么实现\"的问题——把逆向工程封装成 MCP，让 agent 替你从应用行为一路钻到二进制。总数突破 30 万、连续三天霸榜，现象仍在发酵，npm 一行安装，值得亲自体验一轮。",
+     "url": "https://github.com/morluto/rea",
+     "stars": "307.7k",
+     "tags": [
+      "强烈推荐"
+     ],
+     "featured": true
+    },
+    {
+     "rank": "02",
+     "title": "MadsLorentzen/ai-job-search",
+     "summary": "基于 Claude Code 的 AI 求职框架：fork 仓库、填好个人档案，让 Claude 替你筛职位、改简历、写求职信、准备面试。 ① Claude 自动评估招聘帖与你的匹配度；② 针对岗位定制简历与求职信；③ 面试准备流程一并打包。",
+     "url": "https://github.com/MadsLorentzen/ai-job-search",
+     "stars": "50.4k",
+     "trend": "+1,365",
+     "tags": [
+      "值得关注"
+     ]
+    },
+    {
+     "rank": "03",
+     "title": "debpalash/VoiceStudio",
+     "summary": "开源、完全本地的 ElevenLabs 平替：语音克隆、音色设计、视频配音、听写、转录、有声书制作。 ① 646 种语言的语音克隆与合成；② 视频配音与有声书一站式制作；③ 全本地运行，音频数据不出本机。",
+     "url": "https://github.com/debpalash/VoiceStudio",
+     "stars": "73.3k",
+     "trend": "+2,125",
+     "tags": [
+      "强烈推荐"
+     ]
+    },
+    {
+     "rank": "04",
+     "title": "stablyai/orca",
+     "summary": "Agent 舰队的工作台：一个地方同时驾驭 Grok Bot、Claude Code 等多个 agent。 ① 多 agent 统一管理与调度的工作台；② macOS/Windows/Linux 全平台桌面应用；③ MIT 协议，社区 Discord 活跃。",
+     "url": "https://github.com/stablyai/orca",
+     "stars": "95.4k",
+     "trend": "+830",
+     "tags": [
+      "值得关注"
+     ]
+    },
+    {
+     "rank": "05",
+     "title": "anthropics/claude-plugins-official",
+     "summary": "Anthropic 官方维护的高质量 Claude Code 插件目录。 ① 官方背书的插件清单，含内部插件与审核过的第三方插件；② `/plugin install {name}@claude-plugins-official` 一键安装；③ 附插件提交规范与安全提示。",
+     "url": "https://github.com/anthropics/claude-plugins-official",
+     "stars": "41.7k",
+     "trend": "+1,397",
+     "tags": [
+      "值得关注"
+     ]
+    },
+    {
+     "rank": "06",
+     "title": "HKUDS/CLI-Anything",
+     "summary": "\"让所有软件都 agent 原生\"：把任意 CLI 软件变成 agent 可调用、可编排的能力（附 CLI-Hub 导航站）。 ① 统一的 agent-native CLI 封装规范；② CLI-Hub 导航站聚合可用工具；③ 面向\"软件即 agent 工具\"的改造路线。",
+     "url": "https://github.com/HKUDS/CLI-Anything",
+     "stars": "54.1k",
+     "trend": "+574",
+     "tags": [
+      "了解即可"
+     ]
+    },
+    {
+     "rank": "07",
+     "title": "xerj-org/xerj",
+     "summary": "为 AI 打造的新一代数据搜索：一条命令索引代码、文档、日志、PDF，让 agent 不再靠 grep 大海捞针。 ① autoindex 自动建索引，token 消耗号称只有 grep 的 1/40；② 兼容 Elasticsearch，已有客户端无缝接入；③ 覆盖代码、文档、日志、PDF，顺带做 RAG 与安全审计。",
+     "url": "https://github.com/xerj-org/xerj",
+     "stars": "7.8k",
+     "trend": "+1,160",
+     "tags": [
+      "值得关注"
+     ]
+    },
+    {
+     "rank": "08",
+     "title": "android/skills",
+     "summary": "Android 官方出品的 AI 优化 skills 库：帮助 agent 按 developer.android.com 最佳实践做 Android 开发。 ① 模块化 SKILL.md，专攻\"LLM 评估中表现不佳\"的场景（如 r8-analyzer）；② 遵循开放 Agent Skills 标准；③ 通过 Android CLI 一键安装到各 agent 目录。",
+     "url": "https://github.com/android/skills",
+     "stars": "8.4k",
+     "trend": "+355",
+     "tags": [
+      "值得关注"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "github-rising",
+   "title": "Star 增长最快",
+   "shortTitle": "增长最快",
+   "description": "按实际 Star 增量排序",
+   "items": [
+    {
+     "rank": "01",
+     "title": "morluto/rea",
+     "summary": "⚠️ 突破 30 万：较昨日口径（+248,962）略有降温，但仍是周榜第一，现象级热度第三天。",
+     "url": "https://github.com/morluto/rea",
+     "stars": "307.7k",
+     "trend": "+239,923",
+     "tags": [
+      "高增长"
+     ]
+    },
+    {
+     "rank": "02",
+     "title": "storytold/artcraft",
+     "summary": "老项目回春：较昨日（+20,267）略降温，系列反哺效应仍在。",
+     "url": "https://github.com/storytold/artcraft",
+     "stars": "31.8k",
+     "trend": "+18,479",
+     "tags": [
+      "高增长"
+     ]
+    },
+    {
+     "rank": "03",
+     "title": "boykopovar/AnyPS5",
+     "summary": "PS5 可执行文件自动移植到 Linux/Windows，较昨日（+20,518）降温但仍居前三。",
+     "url": "https://github.com/boykopovar/AnyPS5",
+     "stars": "41.7k",
+     "trend": "+16,250",
+     "tags": [
+      "高增长"
+     ]
+    },
+    {
+     "rank": "04",
+     "title": "mattpocock/skills",
+     "summary": "距 30 万只差一步，skills 赛道热度稳定。",
+     "url": "https://github.com/mattpocock/skills",
+     "stars": "295.1k",
+     "trend": "+11,272",
+     "tags": [
+      "高增长"
+     ]
+    },
+    {
+     "rank": "05",
+     "title": "cathrynlavery/diagram-design",
+     "summary": "为各 coding agent 打造的编辑级图表设计 skill，AI 绘图继续向\"好看\"卷。",
+     "url": "https://github.com/cathrynlavery/diagram-design",
+     "stars": "57.0k",
+     "trend": "+8,382",
+     "tags": [
+      "高增长"
+     ]
+    },
+    {
+     "rank": "06",
+     "title": "NationalSecurityAgency/ghidra",
+     "summary": "⚠️ 老项目回春加速：6,614→7,510→7,608，连续三周提速，rea 带起的逆向热潮后劲十足。",
+     "url": "https://github.com/NationalSecurityAgency/ghidra",
+     "stars": "90.3k",
+     "trend": "+7,608",
+     "tags": [
+      "高增长"
+     ]
+    },
+    {
+     "rank": "07",
+     "title": "heygen-com/hyperframes",
+     "summary": "\"写 HTML，渲染视频，为 agent 而造\"，增速稳定。",
+     "url": "https://github.com/heygen-com/hyperframes",
+     "stars": "66.0k",
+     "trend": "+5,639",
+     "tags": [
+      "高增长"
+     ]
+    },
+    {
+     "rank": "08",
+     "title": "mksglu/context-mode",
+     "summary": "工具输出沙箱化号称省 98% token，直击 agent 时代最痛的账单问题。",
+     "url": "https://github.com/mksglu/context-mode",
+     "stars": "30.5k",
+     "trend": "+4,438",
+     "tags": [
+      "高增长"
+     ]
+    },
+    {
+     "rank": "09",
+     "title": "anthropics/claude-plugins-official",
+     "summary": "周增量环比加速 54%，插件生态 adoption 爆发的信号。",
+     "url": "https://github.com/anthropics/claude-plugins-official",
+     "stars": "41.7k",
+     "trend": "+3,581",
+     "tags": [
+      "高增长"
+     ]
+    },
+    {
+     "rank": "10",
+     "title": "ranxianglei/billion-context",
+     "summary": "中文开发者作品：上下文压缩插件，较昨日（+779）继续加速，持续跟踪中。",
+     "url": "https://github.com/ranxianglei/billion-context",
+     "stars": "1.7k",
+     "trend": "+888",
+     "tags": [
+      "高增长"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "github-new",
+   "title": "值得关注的新项目",
+   "shortTitle": "新项目",
+   "description": "近期创建、增长迅速的有潜力项目",
+   "items": [
+    {
+     "rank": "01",
+     "title": "storytold/effectcraft",
+     "summary": "纯 Rust 从零重写的 After Effects：动态图形与视觉特效合成工具。 ① 合成、图层、关键帧、306 个特效、图层样式、表达式；② 3D 相机与灯光、渲染队列；③ macOS/Windows/Linux 原生 + 浏览器可跑。",
+     "url": "https://github.com/storytold/effectcraft",
+     "stars": "7.2k",
+     "tags": [
+      "值得关注"
+     ]
+    },
+    {
+     "rank": "02",
+     "title": "KKKKhazix/AIHOT",
+     "summary": "一个自己找热点、自己写日报的网站框架：把信源和精选标准换成你的，它就是你的行业热点站。 ① 多信源流入、中间精选层、再分发到法律/HR/金融等行业频道；② 线上原站 aihot.news 可直接看效果；③ MIT 协议，Node.js 24 + PostgreSQL 17，Docker Compose 一键起。",
+     "url": "https://github.com/KKKKhazix/AIHOT",
+     "stars": "7.9k",
+     "tags": [
+      "值得关注"
+     ]
+    },
+    {
+     "rank": "03",
+     "title": "Droid-Deck/DroidDeck",
+     "summary": "把 SteamOS 的体验搬到安卓上：安卓设备的游戏机化改造方案。 ① SteamOS 风格的游戏库界面与体验；② 面向安卓设备（Kotlin 编写）；③ 持续更新中。",
+     "url": "https://github.com/Droid-Deck/DroidDeck",
+     "stars": "10.2k",
+     "tags": [
+      "了解即可"
+     ]
+    },
+    {
+     "rank": "04",
+     "title": "mizorewww/laya-mlx",
+     "summary": "Laya 决策模型的原生 MLX 运行时：Mac 上 7–14ms 完成一次类型化决策。 ① 为 laya 非自回归决策模型提供 Apple Silicon 原生推理；② M3 Max 上单次决策 7–14ms；③ 纯 Python，无重型依赖。",
+     "url": "https://github.com/mizorewww/laya-mlx",
+     "stars": "7.0k",
+     "tags": [
+      "了解即可"
+     ]
+    },
+    {
+     "rank": "05",
+     "title": "jev-chat/jev-chat-jarvis",
+     "summary": "聊天决策助手：你回复之前，Jev 先读聊天记录、判断意图与风险。 ① 回复前自动分析对话上下文；② 意图识别与风险提示；③ Kotlin 实现。",
+     "url": "https://github.com/jev-chat/jev-chat-jarvis",
+     "stars": "7.9k",
+     "tags": [
+      "了解即可"
+     ]
+    }
+   ]
   }
  ],
  "_pipelines": {
   "github": {
    "digest": [
     {
-     "title": "大厂官方下场 Agent",
-     "text": "大厂官方下场 Agent Skills 生态：Anthropic 官方插件目录单日 +1,552 star（昨日 +307，爆发 5 倍），Android 官方发布 AI 优化 skills 仓库，老牌 harness ruvnet/ruflo 也重回日榜，\"skills\"正从社区玩法变成平台标配。"
+     "title": "速览",
+     "text": "rea 总 star 数突破 30 万（307,655，单周 +239,923），现象级热度进入第三天；ghidra 借逆向东风连续三周加速，本周 +7,608，已是 2019 年老项目的第三个增长峰。"
     },
     {
-     "title": "OpenAI 官方发布 ",
-     "text": "OpenAI 官方发布 openai/math：内部模型产出的 719 份数学手稿 + Lean 形式化证明仓库，11 天收获 1.5 万 star，\"AI 搞数学\"从刷题进入直接产出研究成果的阶段。"
+     "title": "Agent 应用层开始向",
+     "text": "Agent 应用层开始向下渗透到具体场景：求职 agent 框架 ai-job-search 单日 +1,365 新上日榜第二，stablyai/orca（agent 舰队工作台）、HKUDS/CLI-Anything（让所有软件 agent 原生化）同日上榜，\"agent 化一切\"从口号变成工程清单。"
     },
     {
      "title": "速览",
-     "text": "rea 现象级热度延续（单周 +24.9 万）；storytold 的 artcraft 本体借系列东风单周 +2 万；ghidra 逆向回春加速，单周 +7,510 超过上周（+6,614）。"
+     "text": "storytold 纯 Rust 系列再添 effectcraft（After Effects 重写版，306 个特效），矩阵已达 7 个项目；中文项目 KKKKhazix/AIHOT（自动找热点、写日报的网站框架）单月 7,946 star。"
     }
    ],
-   "highlight": "大厂官方下场 Agent Skills 生态：Anthropic 官方插件目录单日 +1,552 star（昨日 +307，爆发 5 倍），Android 官方发布 AI 优化 skills 仓库，老牌 harness ruvnet/ruflo 也重回日榜，\"skills\"正从社区玩法变成平台标配。",
-   "date": "2026-10-17"
+   "highlight": "rea 总 star 数突破 30 万（307,655，单周 +239,923），现象级热度进入第三天；ghidra 借逆向东风连续三周加速，本周 +7,608，已是 2019 年老项目的第三个增长峰。",
+   "date": "2026-10-18"
   },
   "tech-news": {
    "digest": [
@@ -395,15 +397,15 @@
  },
  "digest": [
   {
-   "title": "大厂官方下场 Agent",
-   "text": "大厂官方下场 Agent Skills 生态：Anthropic 官方插件目录单日 +1,552 star（昨日 +307，爆发 5 倍），Android 官方发布 AI 优化 skills 仓库，老牌 harness ruvnet/ruflo 也重回日榜，\"skills\"正从社区玩法变成平台标配。"
+   "title": "速览",
+   "text": "rea 总 star 数突破 30 万（307,655，单周 +239,923），现象级热度进入第三天；ghidra 借逆向东风连续三周加速，本周 +7,608，已是 2019 年老项目的第三个增长峰。"
   },
   {
    "title": "四个 Gemini 4 ",
    "text": "四个 Gemini 4 Argon 智能体用 27 小时自主通关 Minecraft：多智能体长时程协作和\"开放操作系统 Agent\"成为新前沿。"
   }
  ],
- "intro": "大厂官方下场 Agent Skills 生态：Anthropic 官方插件目录单日 +1,552 star（昨日 +307，爆发 5 倍），Android 官方发布 AI 优化 skills 仓库，老牌 harness ruvnet/ruflo 也重回日榜，\"skills\"正从社区玩法变成平台标配。 四个 Gemini 4 Argon 智能体用 27 小时自主通关 Minecraft：多智能体长时程协作和\"开放操作系统 Agent\"成为新前沿。",
+ "intro": "rea 总 star 数突破 30 万（307,655，单周 +239,923），现象级热度进入第三天；ghidra 借逆向东风连续三周加速，本周 +7,608，已是 2019 年老项目的第三个增长峰。 四个 Gemini 4 Argon 智能体用 27 小时自主通关 Minecraft：多智能体长时程协作和\"开放操作系统 Agent\"成为新前沿。",
  "tasks": [
   {
    "icon": "GH",
@@ -418,7 +420,7 @@
    "time": "09:00"
   }
  ],
- "date": "2026-10-17",
- "issue": "017",
- "updatedAt": "01:01 更新"
+ "date": "2026-10-18",
+ "issue": "018",
+ "updatedAt": "00:37 更新"
 }
