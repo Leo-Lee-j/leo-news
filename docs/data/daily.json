@@ -1,278 +1,6 @@
 {
  "sections": [
   {
-   "id": "github-hot",
-   "title": "GitHub 今日热门",
-   "shortTitle": "GitHub 热榜",
-   "description": "综合热度、活跃度与实用价值排序",
-   "items": [
-    {
-     "rank": "01",
-     "title": "morluto/rea",
-     "summary": "解决了\"想抄一个功能、却看不懂它怎么实现\"的问题——把逆向工程封装成 MCP，让 agent 替你从应用行为一路钻到二进制。总数突破 30 万、连续三天霸榜，现象仍在发酵，npm 一行安装，值得亲自体验一轮。",
-     "url": "https://github.com/morluto/rea",
-     "stars": "307.7k",
-     "tags": [
-      "强烈推荐"
-     ],
-     "featured": true
-    },
-    {
-     "rank": "02",
-     "title": "MadsLorentzen/ai-job-search",
-     "summary": "基于 Claude Code 的 AI 求职框架：fork 仓库、填好个人档案，让 Claude 替你筛职位、改简历、写求职信、准备面试。 ① Claude 自动评估招聘帖与你的匹配度；② 针对岗位定制简历与求职信；③ 面试准备流程一并打包。",
-     "url": "https://github.com/MadsLorentzen/ai-job-search",
-     "stars": "50.4k",
-     "trend": "+1,365",
-     "tags": [
-      "值得关注"
-     ]
-    },
-    {
-     "rank": "03",
-     "title": "debpalash/VoiceStudio",
-     "summary": "开源、完全本地的 ElevenLabs 平替：语音克隆、音色设计、视频配音、听写、转录、有声书制作。 ① 646 种语言的语音克隆与合成；② 视频配音与有声书一站式制作；③ 全本地运行，音频数据不出本机。",
-     "url": "https://github.com/debpalash/VoiceStudio",
-     "stars": "73.3k",
-     "trend": "+2,125",
-     "tags": [
-      "强烈推荐"
-     ]
-    },
-    {
-     "rank": "04",
-     "title": "stablyai/orca",
-     "summary": "Agent 舰队的工作台：一个地方同时驾驭 Grok Bot、Claude Code 等多个 agent。 ① 多 agent 统一管理与调度的工作台；② macOS/Windows/Linux 全平台桌面应用；③ MIT 协议，社区 Discord 活跃。",
-     "url": "https://github.com/stablyai/orca",
-     "stars": "95.4k",
-     "trend": "+830",
-     "tags": [
-      "值得关注"
-     ]
-    },
-    {
-     "rank": "05",
-     "title": "anthropics/claude-plugins-official",
-     "summary": "Anthropic 官方维护的高质量 Claude Code 插件目录。 ① 官方背书的插件清单，含内部插件与审核过的第三方插件；② `/plugin install {name}@claude-plugins-official` 一键安装；③ 附插件提交规范与安全提示。",
-     "url": "https://github.com/anthropics/claude-plugins-official",
-     "stars": "41.7k",
-     "trend": "+1,397",
-     "tags": [
-      "值得关注"
-     ]
-    },
-    {
-     "rank": "06",
-     "title": "HKUDS/CLI-Anything",
-     "summary": "\"让所有软件都 agent 原生\"：把任意 CLI 软件变成 agent 可调用、可编排的能力（附 CLI-Hub 导航站）。 ① 统一的 agent-native CLI 封装规范；② CLI-Hub 导航站聚合可用工具；③ 面向\"软件即 agent 工具\"的改造路线。",
-     "url": "https://github.com/HKUDS/CLI-Anything",
-     "stars": "54.1k",
-     "trend": "+574",
-     "tags": [
-      "了解即可"
-     ]
-    },
-    {
-     "rank": "07",
-     "title": "xerj-org/xerj",
-     "summary": "为 AI 打造的新一代数据搜索：一条命令索引代码、文档、日志、PDF，让 agent 不再靠 grep 大海捞针。 ① autoindex 自动建索引，token 消耗号称只有 grep 的 1/40；② 兼容 Elasticsearch，已有客户端无缝接入；③ 覆盖代码、文档、日志、PDF，顺带做 RAG 与安全审计。",
-     "url": "https://github.com/xerj-org/xerj",
-     "stars": "7.8k",
-     "trend": "+1,160",
-     "tags": [
-      "值得关注"
-     ]
-    },
-    {
-     "rank": "08",
-     "title": "android/skills",
-     "summary": "Android 官方出品的 AI 优化 skills 库：帮助 agent 按 developer.android.com 最佳实践做 Android 开发。 ① 模块化 SKILL.md，专攻\"LLM 评估中表现不佳\"的场景（如 r8-analyzer）；② 遵循开放 Agent Skills 标准；③ 通过 Android CLI 一键安装到各 agent 目录。",
-     "url": "https://github.com/android/skills",
-     "stars": "8.4k",
-     "trend": "+355",
-     "tags": [
-      "值得关注"
-     ]
-    }
-   ]
-  },
-  {
-   "id": "github-rising",
-   "title": "Star 增长最快",
-   "shortTitle": "增长最快",
-   "description": "按实际 Star 增量排序",
-   "items": [
-    {
-     "rank": "01",
-     "title": "morluto/rea",
-     "summary": "⚠️ 突破 30 万：较昨日口径（+248,962）略有降温，但仍是周榜第一，现象级热度第三天。",
-     "url": "https://github.com/morluto/rea",
-     "stars": "307.7k",
-     "trend": "+239,923",
-     "tags": [
-      "高增长"
-     ]
-    },
-    {
-     "rank": "02",
-     "title": "storytold/artcraft",
-     "summary": "老项目回春：较昨日（+20,267）略降温，系列反哺效应仍在。",
-     "url": "https://github.com/storytold/artcraft",
-     "stars": "31.8k",
-     "trend": "+18,479",
-     "tags": [
-      "高增长"
-     ]
-    },
-    {
-     "rank": "03",
-     "title": "boykopovar/AnyPS5",
-     "summary": "PS5 可执行文件自动移植到 Linux/Windows，较昨日（+20,518）降温但仍居前三。",
-     "url": "https://github.com/boykopovar/AnyPS5",
-     "stars": "41.7k",
-     "trend": "+16,250",
-     "tags": [
-      "高增长"
-     ]
-    },
-    {
-     "rank": "04",
-     "title": "mattpocock/skills",
-     "summary": "距 30 万只差一步，skills 赛道热度稳定。",
-     "url": "https://github.com/mattpocock/skills",
-     "stars": "295.1k",
-     "trend": "+11,272",
-     "tags": [
-      "高增长"
-     ]
-    },
-    {
-     "rank": "05",
-     "title": "cathrynlavery/diagram-design",
-     "summary": "为各 coding agent 打造的编辑级图表设计 skill，AI 绘图继续向\"好看\"卷。",
-     "url": "https://github.com/cathrynlavery/diagram-design",
-     "stars": "57.0k",
-     "trend": "+8,382",
-     "tags": [
-      "高增长"
-     ]
-    },
-    {
-     "rank": "06",
-     "title": "NationalSecurityAgency/ghidra",
-     "summary": "⚠️ 老项目回春加速：6,614→7,510→7,608，连续三周提速，rea 带起的逆向热潮后劲十足。",
-     "url": "https://github.com/NationalSecurityAgency/ghidra",
-     "stars": "90.3k",
-     "trend": "+7,608",
-     "tags": [
-      "高增长"
-     ]
-    },
-    {
-     "rank": "07",
-     "title": "heygen-com/hyperframes",
-     "summary": "\"写 HTML，渲染视频，为 agent 而造\"，增速稳定。",
-     "url": "https://github.com/heygen-com/hyperframes",
-     "stars": "66.0k",
-     "trend": "+5,639",
-     "tags": [
-      "高增长"
-     ]
-    },
-    {
-     "rank": "08",
-     "title": "mksglu/context-mode",
-     "summary": "工具输出沙箱化号称省 98% token，直击 agent 时代最痛的账单问题。",
-     "url": "https://github.com/mksglu/context-mode",
-     "stars": "30.5k",
-     "trend": "+4,438",
-     "tags": [
-      "高增长"
-     ]
-    },
-    {
-     "rank": "09",
-     "title": "anthropics/claude-plugins-official",
-     "summary": "周增量环比加速 54%，插件生态 adoption 爆发的信号。",
-     "url": "https://github.com/anthropics/claude-plugins-official",
-     "stars": "41.7k",
-     "trend": "+3,581",
-     "tags": [
-      "高增长"
-     ]
-    },
-    {
-     "rank": "10",
-     "title": "ranxianglei/billion-context",
-     "summary": "中文开发者作品：上下文压缩插件，较昨日（+779）继续加速，持续跟踪中。",
-     "url": "https://github.com/ranxianglei/billion-context",
-     "stars": "1.7k",
-     "trend": "+888",
-     "tags": [
-      "高增长"
-     ]
-    }
-   ]
-  },
-  {
-   "id": "github-new",
-   "title": "值得关注的新项目",
-   "shortTitle": "新项目",
-   "description": "近期创建、增长迅速的有潜力项目",
-   "items": [
-    {
-     "rank": "01",
-     "title": "storytold/effectcraft",
-     "summary": "纯 Rust 从零重写的 After Effects：动态图形与视觉特效合成工具。 ① 合成、图层、关键帧、306 个特效、图层样式、表达式；② 3D 相机与灯光、渲染队列；③ macOS/Windows/Linux 原生 + 浏览器可跑。",
-     "url": "https://github.com/storytold/effectcraft",
-     "stars": "7.2k",
-     "tags": [
-      "值得关注"
-     ]
-    },
-    {
-     "rank": "02",
-     "title": "KKKKhazix/AIHOT",
-     "summary": "一个自己找热点、自己写日报的网站框架：把信源和精选标准换成你的，它就是你的行业热点站。 ① 多信源流入、中间精选层、再分发到法律/HR/金融等行业频道；② 线上原站 aihot.news 可直接看效果；③ MIT 协议，Node.js 24 + PostgreSQL 17，Docker Compose 一键起。",
-     "url": "https://github.com/KKKKhazix/AIHOT",
-     "stars": "7.9k",
-     "tags": [
-      "值得关注"
-     ]
-    },
-    {
-     "rank": "03",
-     "title": "Droid-Deck/DroidDeck",
-     "summary": "把 SteamOS 的体验搬到安卓上：安卓设备的游戏机化改造方案。 ① SteamOS 风格的游戏库界面与体验；② 面向安卓设备（Kotlin 编写）；③ 持续更新中。",
-     "url": "https://github.com/Droid-Deck/DroidDeck",
-     "stars": "10.2k",
-     "tags": [
-      "了解即可"
-     ]
-    },
-    {
-     "rank": "04",
-     "title": "mizorewww/laya-mlx",
-     "summary": "Laya 决策模型的原生 MLX 运行时：Mac 上 7–14ms 完成一次类型化决策。 ① 为 laya 非自回归决策模型提供 Apple Silicon 原生推理；② M3 Max 上单次决策 7–14ms；③ 纯 Python，无重型依赖。",
-     "url": "https://github.com/mizorewww/laya-mlx",
-     "stars": "7.0k",
-     "tags": [
-      "了解即可"
-     ]
-    },
-    {
-     "rank": "05",
-     "title": "jev-chat/jev-chat-jarvis",
-     "summary": "聊天决策助手：你回复之前，Jev 先读聊天记录、判断意图与风险。 ① 回复前自动分析对话上下文；② 意图识别与风险提示；③ Kotlin 实现。",
-     "url": "https://github.com/jev-chat/jev-chat-jarvis",
-     "stars": "7.9k",
-     "tags": [
-      "了解即可"
-     ]
-    }
-   ]
-  },
-  {
    "id": "tech-ai",
    "title": "AI 与大模型",
    "shortTitle": "AI 大模型",
@@ -345,26 +73,301 @@
      ]
     }
    ]
+  },
+  {
+   "id": "github-hot",
+   "title": "GitHub 今日热门",
+   "shortTitle": "GitHub 热榜",
+   "description": "综合热度、活跃度与实用价值排序",
+   "items": [
+    {
+     "rank": "01",
+     "title": "morluto/rea",
+     "summary": "把逆向工程做成 MCP 服务器，让 AI agent 从应用行为一路分析到原生二进制。 ① 一个 MCP 搞定二进制、应用与运行时行为的逆向分析；② 看中某个功能，直接追到二进制层面理解实现；③ 以 npm 包 rea-agents 分发，插上 Claude Code 等 agent 即用。",
+     "url": "https://github.com/morluto/rea",
+     "stars": "322.1k",
+     "tags": [
+      "强烈推荐"
+     ]
+    },
+    {
+     "rank": "02",
+     "title": "MadsLorentzen/ai-job-search",
+     "summary": "基于 Claude Code 的 AI 求职框架：fork 仓库、填好个人档案，让 Claude 替你筛职位、改简历、写求职信、准备面试。 ① Claude 自动评估招聘帖与你的匹配度；② 针对岗位定制简历与求职信；③ 面试准备流程一并打包。",
+     "url": "https://github.com/MadsLorentzen/ai-job-search",
+     "stars": "53.1k",
+     "trend": "+2,232",
+     "tags": [
+      "值得关注"
+     ]
+    },
+    {
+     "rank": "03",
+     "title": "debpalash/VoiceStudio",
+     "summary": "开源、完全本地的 ElevenLabs 平替：语音克隆、音色设计、视频配音、听写、转录、有声书制作。 ① 646 种语言的语音克隆与合成；② 视频配音与有声书一站式制作；③ 全本地运行，音频数据不出本机。",
+     "url": "https://github.com/debpalash/VoiceStudio",
+     "stars": "75.3k",
+     "trend": "+2,082",
+     "tags": [
+      "强烈推荐"
+     ]
+    },
+    {
+     "rank": "04",
+     "title": "anomalyco/opencode",
+     "summary": "它解决的是\"不想被单一商业 agent 绑定\"的问题——21.6 万 star 的开源 coding agent 以单日 1400+ 的增速杀回日榜，证明开放、可自己掌控的编程助手依然有强大需求。npm 一行安装，想找 Claude Code/Cursor 之外的开放选项的人值得亲自对比体验。",
+     "url": "https://github.com/anomalyco/opencode",
+     "stars": "216.6k",
+     "trend": "+1,414",
+     "tags": [
+      "值得关注"
+     ],
+     "featured": true
+    },
+    {
+     "rank": "05",
+     "title": "anthropics/claude-plugins-official",
+     "summary": "Anthropic 官方维护的高质量 Claude Code 插件目录。 ① 官方背书的插件清单，含内部插件与审核过的第三方插件；② `/plugin install {name}@claude-plugins-official` 一键安装；③ 附插件提交规范与安全提示。",
+     "url": "https://github.com/anthropics/claude-plugins-official",
+     "stars": "42.7k",
+     "trend": "+1,175",
+     "tags": [
+      "值得关注"
+     ]
+    },
+    {
+     "rank": "06",
+     "title": "stablyai/orca",
+     "summary": "Agent 舰队的工作台：一个地方同时驾驭 Grok Bot、Claude Code 等多个 agent，桌面/移动/远程运行时全覆盖。 ① 多 agent 统一管理与调度的工作台；② 桌面、移动、远程运行时全平台；③ MIT 协议，社区 Discord 活跃。",
+     "url": "https://github.com/stablyai/orca",
+     "stars": "96.6k",
+     "trend": "+1,146",
+     "tags": [
+      "值得关注"
+     ]
+    },
+    {
+     "rank": "07",
+     "title": "akitaonrails/ai-memory",
+     "summary": "AI coding agent 的跨工具长期记忆：Claude Code 里干到一半的活，换 Codex 打开同一目录接着干，不用重新解释架构、失败尝试和遗留问题。 ① 20+ 种 harness（Claude Code、Codex、Cursor、Gemini CLI、OpenCode、Grok、Devin、Kimi、Kiro 等）共享同一份记忆；② 类型化 handoff 协议：每个交接有归属人",
+     "url": "https://github.com/akitaonrails/ai-memory",
+     "stars": "10.5k",
+     "trend": "+512",
+     "tags": [
+      "值得关注"
+     ]
+    },
+    {
+     "rank": "08",
+     "title": "cursor/plugins",
+     "summary": "Cursor 官方插件仓库：流行开发工具、框架与 SaaS 产品的官方插件集合，外加 Cursor 插件规范本身。 ① 官方插件清单（teaching、continual-learning、cursor-team-kit、thermos、ralph-loop、agent-compatibility 等）；② 每个插件是仓库根目录下的独立目录，带 `.cursor-plugin/plugin.jso",
+     "url": "https://github.com/cursor/plugins",
+     "stars": "12.7k",
+     "trend": "+350",
+     "tags": [
+      "值得关注"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "github-rising",
+   "title": "Star 增长最快",
+   "shortTitle": "增长最快",
+   "description": "按实际 Star 增量排序",
+   "items": [
+    {
+     "rank": "01",
+     "title": "morluto/rea",
+     "summary": "⚠️ 突破 32 万：较昨日口径（+239,923）略有降温，但仍是周榜第一，现象级热度第四天。",
+     "url": "https://github.com/morluto/rea",
+     "stars": "322.1k",
+     "trend": "+229,268",
+     "tags": [
+      "高增长"
+     ]
+    },
+    {
+     "rank": "02",
+     "title": "storytold/artcraft",
+     "summary": "较昨日（+18,479）降温，纯 Rust 系列矩阵（已达 8 个项目）的反哺效应仍在。",
+     "url": "https://github.com/storytold/artcraft",
+     "stars": "32.7k",
+     "trend": "+16,379",
+     "tags": [
+      "高增长"
+     ]
+    },
+    {
+     "rank": "03",
+     "title": "boykopovar/AnyPS5",
+     "summary": "PS5 可执行文件自动移植到 Linux/Windows，较昨日（+16,250）降温但仍居前三。",
+     "url": "https://github.com/boykopovar/AnyPS5",
+     "stars": "43.2k",
+     "trend": "+14,224",
+     "tags": [
+      "高增长"
+     ]
+    },
+    {
+     "rank": "04",
+     "title": "cathrynlavery/diagram-design",
+     "summary": "为各 coding agent 打造的编辑级图表设计 skill，AI 绘图继续向\"好看\"卷。",
+     "url": "https://github.com/cathrynlavery/diagram-design",
+     "stars": "57.7k",
+     "trend": "+7,901",
+     "tags": [
+      "高增长"
+     ]
+    },
+    {
+     "rank": "05",
+     "title": "NationalSecurityAgency/ghidra",
+     "summary": "⚠️ 老项目回春第四周（6,614→7,510→7,608→7,602）：增速企稳，rea 带起的逆向热潮后劲仍在。",
+     "url": "https://github.com/NationalSecurityAgency/ghidra",
+     "stars": "90.9k",
+     "trend": "+7,602",
+     "tags": [
+      "高增长"
+     ]
+    },
+    {
+     "rank": "06",
+     "title": "heygen-com/hyperframes",
+     "summary": "\"写 HTML，渲染视频，为 agent 而造\"，较昨日（+5,639）小幅升温。",
+     "url": "https://github.com/heygen-com/hyperframes",
+     "stars": "66.7k",
+     "trend": "+5,883",
+     "tags": [
+      "高增长"
+     ]
+    },
+    {
+     "rank": "07",
+     "title": "MadsLorentzen/ai-job-search",
+     "summary": "新上周榜：单日增速连续三天爬升。",
+     "url": "https://github.com/MadsLorentzen/ai-job-search",
+     "stars": "53.1k",
+     "trend": "+5,742",
+     "tags": [
+      "高增长"
+     ]
+    },
+    {
+     "rank": "08",
+     "title": "anthropics/claude-plugins-official",
+     "summary": "周增量连续加速（2,328→3,581→4,774），插件生态 adoption 爆发的信号。",
+     "url": "https://github.com/anthropics/claude-plugins-official",
+     "stars": "42.7k",
+     "trend": "+4,774",
+     "tags": [
+      "高增长"
+     ]
+    },
+    {
+     "rank": "09",
+     "title": "mksglu/context-mode",
+     "summary": "工具输出沙箱化号称省 98% token，直击 agent 时代最痛的账单问题；较昨日（+4,438）略降温。",
+     "url": "https://github.com/mksglu/context-mode",
+     "stars": "30.8k",
+     "trend": "+4,138",
+     "tags": [
+      "高增长"
+     ]
+    },
+    {
+     "rank": "10",
+     "title": "cursor/plugins",
+     "summary": "新上周榜：Cursor 官方插件货架开张。",
+     "url": "https://github.com/cursor/plugins",
+     "stars": "12.7k",
+     "trend": "+1,717",
+     "tags": [
+      "高增长"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "github-new",
+   "title": "值得关注的新项目",
+   "shortTitle": "新项目",
+   "description": "近期创建、增长迅速的有潜力项目",
+   "items": [
+    {
+     "rank": "01",
+     "title": "akitaonrails/ai-memory",
+     "summary": "AI coding agent 的跨工具长期记忆：Claude Code 里干到一半的活，换 Codex 打开同一目录接着干，不用重新解释。 ① 20+ 种 harness 共享同一份记忆；② 类型化 handoff 协议记录停在哪、什么失败了、还剩什么；③ Rust 编写，MIT 协议。",
+     "url": "https://github.com/akitaonrails/ai-memory",
+     "stars": "10.5k",
+     "trend": "+512",
+     "tags": [
+      "值得关注"
+     ]
+    },
+    {
+     "rank": "02",
+     "title": "cursor/plugins",
+     "summary": "Cursor 官方插件仓库：流行开发工具、框架与 SaaS 产品的官方插件集合，外加插件规范本身。 ① 官方插件清单（teaching、thermos、ralph-loop 等）；② 每个插件独立目录 + `.cursor-plugin/plugin.json` manifest；③ 附插件脚手架 `create-plugin`。",
+     "url": "https://github.com/cursor/plugins",
+     "stars": "12.7k",
+     "trend": "+350",
+     "tags": [
+      "值得关注"
+     ]
+    },
+    {
+     "rank": "03",
+     "title": "yetone/magpie",
+     "summary": "每个 agent 的模型，一个地方管：菜单栏一键切换\"Claude Code 用 Kimi、Codex 用 DeepSeek、Gemini CLI 用 GLM\"，配额用完自动换下一个账号。 ① 一个本地网关服务所有 coding agent；② 菜单栏切换模型与账号组合；③ 配额耗尽静默切换，不中断工作流。",
+     "url": "https://github.com/yetone/magpie",
+     "stars": "15.9k",
+     "tags": [
+      "值得关注"
+     ]
+    },
+    {
+     "rank": "04",
+     "title": "google-research/harness2",
+     "summary": "Google Research 官方开源的递归 agent 框架 \"Harness²\"：为开放世界任务设计的 agent harness，附 arXiv 论文与 JobBench 评测。 ① 递归式 agent 编排框架；② 配套 JobBench 基准评测；③ Apache 2.0 协议，研究与工程双导向。",
+     "url": "https://github.com/google-research/harness2",
+     "stars": "6.3k",
+     "tags": [
+      "了解即可"
+     ]
+    },
+    {
+     "rank": "05",
+     "title": "anomalyco/opencode",
+     "summary": "opencode.ai 官方仓库：开源 AI 编程 agent，以 CLI（npm `@opencode/cli`）分发。 ① 开源的 AI coding agent；② npm 一行安装；③ 15+ 语言 README，社区国际化程度高。",
+     "url": "https://github.com/anomalyco/opencode",
+     "stars": "216.6k",
+     "trend": "+1,414",
+     "tags": [
+      "值得关注"
+     ]
+    }
+   ]
   }
  ],
  "_pipelines": {
   "github": {
    "digest": [
     {
-     "title": "速览",
-     "text": "rea 总 star 数突破 30 万（307,655，单周 +239,923），现象级热度进入第三天；ghidra 借逆向东风连续三周加速，本周 +7,608，已是 2019 年老项目的第三个增长峰。"
+     "title": "Agent 工具层全面接",
+     "text": "Agent 工具层全面接管日榜：今日日榜 13 个项目中有 8 个直接服务 agent 工作流（求职框架、语音、opencode、官方插件、orca、CLI-Anything、harness、agent 记忆），\"agent 化一切\"从基础设施下沉到具体工作流与插件货架。"
     },
     {
-     "title": "Agent 应用层开始向",
-     "text": "Agent 应用层开始向下渗透到具体场景：求职 agent 框架 ai-job-search 单日 +1,365 新上日榜第二，stablyai/orca（agent 舰队工作台）、HKUDS/CLI-Anything（让所有软件 agent 原生化）同日上榜，\"agent 化一切\"从口号变成工程清单。"
+     "title": "老将回春成主线",
+     "text": "老将回春成主线：21.6 万 star 的 opencode 首次杀回日榜（+1,414），rea 总数突破 32 万、ghidra 连续四周回春；Cursor 官方插件仓库新上周榜，插件目录正成为各 coding agent 的标配货架。"
     },
     {
-     "title": "速览",
-     "text": "storytold 纯 Rust 系列再添 effectcraft（After Effects 重写版，306 个特效），矩阵已达 7 个项目；中文项目 KKKKhazix/AIHOT（自动找热点、写日报的网站框架）单月 7,946 star。"
+     "title": "新物种继续涌现",
+     "text": "新物种继续涌现：agent 模型菜单栏切换器 magpie（26 天 1.6 万 star）、Google Research 官方开源递归 agent 框架 harness2，\"一键换模型\"和\"官方 harness\"两个新切口值得盯。"
     }
    ],
-   "highlight": "rea 总 star 数突破 30 万（307,655，单周 +239,923），现象级热度进入第三天；ghidra 借逆向东风连续三周加速，本周 +7,608，已是 2019 年老项目的第三个增长峰。",
-   "date": "2026-10-18"
+   "highlight": "Agent 工具层全面接管日榜：今日日榜 13 个项目中有 8 个直接服务 agent 工作流（求职框架、语音、opencode、官方插件、orca、CLI-Anything、harness、agent 记忆），\"agent 化一切\"从基础设施下沉到具体工作流与插件货架。",
+   "date": "2026-10-19"
   },
   "tech-news": {
    "digest": [
@@ -387,15 +390,15 @@
  },
  "digest": [
   {
-   "title": "速览",
-   "text": "rea 总 star 数突破 30 万（307,655，单周 +239,923），现象级热度进入第三天；ghidra 借逆向东风连续三周加速，本周 +7,608，已是 2019 年老项目的第三个增长峰。"
+   "title": "Agent 工具层全面接",
+   "text": "Agent 工具层全面接管日榜：今日日榜 13 个项目中有 8 个直接服务 agent 工作流（求职框架、语音、opencode、官方插件、orca、CLI-Anything、harness、agent 记忆），\"agent 化一切\"从基础设施下沉到具体工作流与插件货架。"
   },
   {
    "title": "DeepSeek 发布 V4.1-Flash-1017",
    "text": "DeepSeek 发布 V4.1-Flash-1017：模型更快更便宜，同时开放自有 Search/Fetch API，开始打「模型 + 搜索 + agent 框架」全栈牌。"
   }
  ],
- "intro": "rea 总 star 数突破 30 万（307,655，单周 +239,923），现象级热度进入第三天；ghidra 借逆向东风连续三周加速，本周 +7,608，已是 2019 年老项目的第三个增长峰。 DeepSeek 发布 V4.1-Flash-1017：模型更快更便宜，同时开放自有 Search/Fetch API，开始打「模型 + 搜索 + agent 框架」全栈牌。",
+ "intro": "Agent 工具层全面接管日榜：今日日榜 13 个项目中有 8 个直接服务 agent 工作流（求职框架、语音、opencode、官方插件、orca、CLI-Anything、harness、agent 记忆），\"agent 化一切\"从基础设施下沉到具体工作流与插件货架。 DeepSeek 发布 V4.1-Flash-1017：模型更快更便宜，同时开放自有 Search/Fetch API，开始打「模型 + 搜索 + agent 框架」全栈牌。",
  "tasks": [
   {
    "icon": "GH",
@@ -410,7 +413,7 @@
    "time": "09:00"
   }
  ],
- "date": "2026-10-18",
- "issue": "018",
- "updatedAt": "01:04 更新"
+ "date": "2026-10-19",
+ "issue": "019",
+ "updatedAt": "00:37 更新"
 }
