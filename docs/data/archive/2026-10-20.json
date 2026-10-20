@@ -1,0 +1,452 @@
+{
+ "sections": [
+  {
+   "id": "tech-ai",
+   "title": "AI 与大模型",
+   "shortTitle": "AI 大模型",
+   "description": "大模型发布与更新",
+   "items": [
+    {
+     "rank": "01",
+     "title": "Anthropic 公开征求公众意见，决定 Claude 的\"价值观\"",
+     "summary": "Anthropic 于 10 月 18 日启动公众咨询计划，开放公众对 Claude 价值观训练（宪法 AI 框架）的反馈，并发布框架文件；首批意见拟在 2027 年初纳入训练，之后将形成常态化周期。",
+     "url": "https://emergent.sh/news/anthropic-opens-claude-values-public-input",
+     "source": "Anthropic 官方公告｜2026-10-18",
+     "tags": [
+      "AI 大模型"
+     ]
+    },
+    {
+     "rank": "02",
+     "title": "Claude Fable 5.5 传闻发酵，多方泄漏指向\"最快下周发布\"（传闻，未经证实）",
+     "summary": "泄漏者称合作伙伴已拿到 Fable 5.5；Azure 模型目录曾短暂出现其条目（1M 上下文、与 5.1 同价）；Artificial Analysis 前端出现代号 \"claude-onigiri-eap\"；有用户称 Claude Code 已灰度路由到新模型。",
+     "url": "https://madrobot.blog/2026/10/16/claude-fable-5-5-release-date-is-it-out/",
+     "source": "TestingCatalog / 多位爆料者汇总｜2026-10-13～17（泄漏信号，非官方）",
+     "tags": [
+      "AI 大模型"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "tech-dev",
+   "title": "AI 工程与开发工具",
+   "shortTitle": "开发工具",
+   "description": "模型部署 · AI 编程 · Agent",
+   "items": [
+    {
+     "rank": "03",
+     "title": "Claude Code 首 token 延迟大降近 3 倍，Opus 5.5 fast mode 全量开放",
+     "summary": "本地会话首 token p90 延迟从 4.07s 降至 1.33s（近 3 倍），云端会话从 16.99s 降至 6s，Web/API 也有 1.5x 提升；优化手段是压缩对话数据 + 用户输入完成前提前启动云端会话。10 月 15 日起 Opus 5.5 的 fast mode 不再需要 beta 头，所有 Start/Build/Scale tier 默认可用（超限返回 429）。",
+     "url": "https://cryptobriefing.com/anthropic-claude-code-latency-cut/",
+     "source": "Anthropic（经 ClaudeDevs 官方账号）/ API 文档｜2026-10-15（fast mode GA）、10-17（延迟优化）",
+     "tags": [
+      "开发工具"
+     ]
+    },
+    {
+     "rank": "04",
+     "title": "OpenCode 密钥泄露事件：第三方控制台暴露用户 API 密钥（据报道，未经多方证实）",
+     "summary": "据该报道，OpenCode 背后的 Anomaly Innovations 于 10 月 17 日晚向用户发邮件，称其正在下线的旧版控制台可能暴露了用户存储的 OpenAI、Anthropic、Google API 密钥，最早暴露时间约为通知前 22 小时；已有两名用户报告出现未授权的 Claude API 调用（约 100 美元盗刷）。",
+     "url": "https://aitoolsrecap.com/Blog/ai-news-october-18-2026",
+     "source": "aitoolsrecap 转述｜2026-10-18",
+     "tags": [
+      "开发工具"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "tech-industry",
+   "title": "科技行业动态",
+   "shortTitle": "行业动态",
+   "description": "公司动态 · 产品发布 · 芯片与云",
+   "items": [
+    {
+     "rank": "05",
+     "title": "Disney 破产后吸纳 Character.AI 大部分员工",
+     "summary": "Character.AI 本周申请破产；法律文件显示 Disney 同意向至少 60 名员工发出录用邀约（其员工大多数），年薪总计约 6000 万美元，此前 Disney 已以 2000 万美元收购其部分资产；但这是\"stalking horse\"竞标，理论上仍可被更高出价者截胡。",
+     "url": "https://techcrunch.com/2026/10/18/disney-agrees-to-hire-the-majority-of-character-ais-workforce/",
+     "source": "TechCrunch｜2026-10-18",
+     "tags": [
+      "行业动态"
+     ]
+    },
+    {
+     "rank": "06",
+     "title": "Anthropic 筹备 600 亿美元 TPU 债务融资，算力融资成本飙升",
+     "summary": "Anthropic 正组建代号 Project North Star 的 600 亿美元债务融资，用于采购约 1.5GW 的 Google TPU：约 420 亿美元高级债（Broadcom 担保）、180 亿美元次级债；Blackstone 旗下基金认购 90 亿美元次级债，票面利率略超 10%，叠加折价后综合收益更高。4 个月前同类融资（Project Big Sky，44 亿美元）利率仅为 8.5%。",
+     "url": "https://www.tokenpost.com/news/business/33920",
+     "source": "金融时报（多家媒体转述）｜2026-10-17",
+     "tags": [
+      "行业动态"
+     ]
+    },
+    {
+     "rank": "07",
+     "title": "中国就 23 项 AI 技术出口管制发布草案征求意见",
+     "summary": "草案（2026 年第 48 号公告）将 40 项技术纳入《禁止/限制出口目录》，其中 23 项为 AI：大模型、智能体、算力集群、数据处理软件；模型权重、checkpoint、源代码、训练方法在达到 10²⁶ FLOPs、2 万亿参数或全球公开评测前十时受管制；针对关键基础设施的自主恶意软件工具禁止出口；已开源技术豁免，开源发布可走\"自动许可\"快速通道。",
+     "url": "https://onthewire.ai/article/china-proposes-export-controls-on-23-ai-technologies-from-large-models-to-agents",
+     "source": "商务部、科技部公告（多家媒体报道）｜2026-10-16 发布，征求意见至 11-15",
+     "tags": [
+      "行业动态"
+     ]
+    },
+    {
+     "rank": "08",
+     "title": "Anthropic 向美国国会推销自家起草的前沿 AI 安全法案",
+     "summary": "法案草案规定：仅当模型带来\"可预见的紧迫风险\"——可能造成超 10 亿美元损失，或导致 50 人以上死亡/重伤——政府才能叫停其发布或使用；风险须源于生物武器、模型逃逸控制或网络攻击；独立评估机构向商务部注册并定期评估，72 小时内上报风险，商务部可请求法官下令暂停。",
+     "url": "https://www.reuters.com/legal/litigation/anthropic-quietly-pitches-its-own-ai-safety-bill-lawmakers-politico-reports-2026-10-16/",
+     "source": "Politico（Reuters 转述），Anthropic 发言人向 Reuters 确认｜2026-10-16",
+     "tags": [
+      "行业动态"
+     ]
+    },
+    {
+     "rank": "09",
+     "title": "微软退出英国 Nscale 数据中心协议：电网供电要等到 2030 年代",
+     "summary": "微软终止了作为 Nscale 埃塞克斯 Loughton 数据中心（号称英国最大\"主权 AI 数据中心\"，原计划明年上线、部署数千块 NVIDIA 芯片） anchor tenant 的协议；原因是英国电网方面告知该站点要到 2030 年代初才能获得足够电力。Nscale 称与微软关系依然稳固，正在寻找替代电源。",
+     "url": "https://www.business-standard.com/world-news/microsoft-exits-nscale-data-centre-deal-in-uk-amid-power-delays-report-126101800779_1.html",
+     "source": "英国《每日电讯报》（Reuters 转述）｜2026-10-18",
+     "tags": [
+      "行业动态"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "github-hot",
+   "title": "GitHub 今日热门",
+   "shortTitle": "GitHub 热榜",
+   "description": "综合热度、活跃度与实用价值排序",
+   "items": [
+    {
+     "rank": "01",
+     "title": "morluto/rea",
+     "summary": "把逆向工程做成 MCP 服务器，让 AI agent 从应用行为一路分析到原生二进制。 ① 一个 MCP 搞定二进制、应用与运行时行为的逆向分析；② 看中某个功能，直接追到二进制层面理解实现；③ 以 npm 包 rea-agents 分发，插上 Claude Code 等 agent 即用。",
+     "url": "https://github.com/morluto/rea",
+     "stars": "336.7k",
+     "tags": [
+      "强烈推荐"
+     ]
+    },
+    {
+     "rank": "02",
+     "title": "MadsLorentzen/ai-job-search",
+     "summary": "它解决的不是写代码的问题，而是\"找工作\"这个具体生活问题——fork 仓库、填好档案，让 Claude 替你筛职位、改简历、写求职信。单日增速连续四天爬升、今日拿下日榜冠军并新上周榜，agent 从\"开发者玩具\"走向\"普通人工具\"的标志性案例，正在求职的人可以直接用起来。",
+     "url": "https://github.com/MadsLorentzen/ai-job-search",
+     "stars": "57.2k",
+     "trend": "+3,856",
+     "tags": [
+      "强烈推荐"
+     ],
+     "featured": true
+    },
+    {
+     "rank": "03",
+     "title": "debpalash/VoiceStudio",
+     "summary": "开源、完全本地的 ElevenLabs 平替：语音克隆、音色设计、视频配音、听写、转录、有声书制作。 ① 646 种语言的语音克隆与合成；② 视频配音与有声书一站式制作；③ 全本地运行，音频数据不出本机。",
+     "url": "https://github.com/debpalash/VoiceStudio",
+     "stars": "77.5k",
+     "tags": [
+      "强烈推荐"
+     ]
+    },
+    {
+     "rank": "04",
+     "title": "storytold/photocraft",
+     "summary": "纯 Rust 从零重写的 Photoshop：图层、蒙版、调整图层、画笔，还能读写真正的 PSD 文件。 ① 图层、蒙版、调整图层、图层样式、文字、矢量、画笔全套；② 真实 PSD 文件读写；③ 原生应用（macOS/Windows/Linux/FreeBSD/Web），完全离线。",
+     "url": "https://github.com/storytold/photocraft",
+     "stars": "68.6k",
+     "tags": [
+      "值得关注"
+     ]
+    },
+    {
+     "rank": "05",
+     "title": "K-Dense-AI/scientific-agent-skills",
+     "summary": "把任意 AI agent 变成\"AI 科学家\"：177 个科学领域 skills + 100+ 数据库，一键装进 Cursor、Claude Code、Codex。 ① 177 个 skills 覆盖科学计算各环节；② 100+ 科学数据库接入；③ 遵循 Agent Skills 标准，附 arXiv 论文与安全扫描/技能测试 CI。",
+     "url": "https://github.com/K-Dense-AI/scientific-agent-skills",
+     "stars": "52.9k",
+     "tags": [
+      "值得关注"
+     ]
+    },
+    {
+     "rank": "06",
+     "title": "stablyai/orca",
+     "summary": "Agent 舰队的工作台：一个地方同时驾驭 Grok Bot、Claude Code 等多个 agent，桌面/移动/远程运行时全覆盖。 ① 多 agent 统一管理与调度的工作台；② 桌面、移动、远程运行时全平台；③ MIT 协议，社区 Discord 活跃。",
+     "url": "https://github.com/stablyai/orca",
+     "stars": "98.3k",
+     "trend": "+1,590",
+     "tags": [
+      "值得关注"
+     ]
+    },
+    {
+     "rank": "07",
+     "title": "headroomlabs-ai/headroom",
+     "summary": "AI agent 的上下文压缩层：工具输出、日志、文件、RAG 片段先压缩再喂给模型，关键行字节级保留。 ① 压缩一切进模型的文本（工具输出/日志/文件/RAG）；② 关键行（如 FATAL）字节级不丢失；③ PyPI/npm 双分发。",
+     "url": "https://github.com/headroomlabs-ai/headroom",
+     "stars": "76.2k",
+     "trend": "+310",
+     "tags": [
+      "值得关注"
+     ]
+    },
+    {
+     "rank": "08",
+     "title": "anthropics/claude-plugins-official",
+     "summary": "Anthropic 官方维护的高质量 Claude Code 插件目录。 ① 官方背书的插件清单，含内部插件与审核过的第三方插件；② `/plugin install {name}@claude-plugins-official` 一键安装；③ 附插件提交规范与安全提示。",
+     "url": "https://github.com/anthropics/claude-plugins-official",
+     "stars": "43.2k",
+     "tags": [
+      "值得关注"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "github-rising",
+   "title": "Star 增长最快",
+   "shortTitle": "增长最快",
+   "description": "按实际 Star 增量排序",
+   "items": [
+    {
+     "rank": "01",
+     "title": "morluto/rea",
+     "summary": "⚠️ 较昨日口径（+229,268）继续降温，但仍是周榜第一（第五天），总数突破 33.6 万。",
+     "url": "https://github.com/morluto/rea",
+     "stars": "336.7k",
+     "trend": "+201,065",
+     "tags": [
+      "高增长"
+     ]
+    },
+    {
+     "rank": "02",
+     "title": "debpalash/VoiceStudio",
+     "summary": "新上周榜：本地语音工具需求持续爆发。",
+     "url": "https://github.com/debpalash/VoiceStudio",
+     "stars": "77.5k",
+     "trend": "+17,291",
+     "tags": [
+      "高增长"
+     ]
+    },
+    {
+     "rank": "03",
+     "title": "storytold/artcraft",
+     "summary": "较昨日（+16,379）降温，纯 Rust 系列矩阵（8 个项目）的反哺效应仍在。",
+     "url": "https://github.com/storytold/artcraft",
+     "stars": "33.7k",
+     "trend": "+13,572",
+     "tags": [
+      "高增长"
+     ]
+    },
+    {
+     "rank": "04",
+     "title": "boykopovar/AnyPS5",
+     "summary": "PS5 可执行文件自动移植到 Linux/Windows，较昨日（+14,224）降温但仍居前五。",
+     "url": "https://github.com/boykopovar/AnyPS5",
+     "stars": "44.5k",
+     "trend": "+12,389",
+     "tags": [
+      "高增长"
+     ]
+    },
+    {
+     "rank": "05",
+     "title": "MadsLorentzen/ai-job-search",
+     "summary": "新上周榜：单日增速连续四天爬升（1,365→2,232→3,856）。",
+     "url": "https://github.com/MadsLorentzen/ai-job-search",
+     "stars": "57.2k",
+     "trend": "+9,073",
+     "tags": [
+      "高增长"
+     ]
+    },
+    {
+     "rank": "06",
+     "title": "NationalSecurityAgency/ghidra",
+     "summary": "⚠️ 老项目回春第五周（6,614→7,510→7,608→7,602→7,152）：增速企稳，rea 带起的逆向热潮后劲仍在。",
+     "url": "https://github.com/NationalSecurityAgency/ghidra",
+     "stars": "91.6k",
+     "trend": "+7,152",
+     "tags": [
+      "高增长"
+     ]
+    },
+    {
+     "rank": "07",
+     "title": "cathrynlavery/diagram-design",
+     "summary": "为各 coding agent 打造的编辑级图表设计 skill，较昨日（+7,901）降温。",
+     "url": "https://github.com/cathrynlavery/diagram-design",
+     "stars": "58.4k",
+     "trend": "+6,638",
+     "tags": [
+      "高增长"
+     ]
+    },
+    {
+     "rank": "08",
+     "title": "heygen-com/hyperframes",
+     "summary": "\"写 HTML，渲染视频，为 agent 而造\"，较昨日（+5,883）小幅升温。",
+     "url": "https://github.com/heygen-com/hyperframes",
+     "stars": "67.7k",
+     "trend": "+5,945",
+     "tags": [
+      "高增长"
+     ]
+    },
+    {
+     "rank": "09",
+     "title": "anthropics/claude-plugins-official",
+     "summary": "周增量四连加速（2,328→3,581→4,774→5,441），插件生态 adoption 爆发的信号。",
+     "url": "https://github.com/anthropics/claude-plugins-official",
+     "stars": "43.2k",
+     "trend": "+5,441",
+     "tags": [
+      "高增长"
+     ]
+    },
+    {
+     "rank": "10",
+     "title": "K-Dense-AI/scientific-agent-skills",
+     "summary": "新上周榜：177 个科学 skills，把 agent 变成 AI 科学家。",
+     "url": "https://github.com/K-Dense-AI/scientific-agent-skills",
+     "stars": "52.9k",
+     "trend": "+4,355",
+     "tags": [
+      "高增长"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "github-new",
+   "title": "值得关注的新项目",
+   "shortTitle": "新项目",
+   "description": "近期创建、增长迅速的有潜力项目",
+   "items": [
+    {
+     "rank": "01",
+     "title": "storytold/photocraft",
+     "summary": "纯 Rust 从零重写的 Photoshop：图层、蒙版、调整图层、画笔，还能读写真正的 PSD 文件。 ① 图层/蒙版/调整图层/图层样式/文字/矢量/画笔全套；② 真实 PSD 文件读写；③ macOS/Windows/Linux/FreeBSD/Web 原生，完全离线。",
+     "url": "https://github.com/storytold/photocraft",
+     "stars": "68.6k",
+     "tags": [
+      "值得关注"
+     ]
+    },
+    {
+     "rank": "02",
+     "title": "wheresryan22/anatomy",
+     "summary": "一个 Claude skill：把你的想法画成\"能拆开看\"的机械解剖图——精细、可交互的等距插图，SVG/WebGL/3D 全支持。 ① 输入一个想法，输出带大量精密零件的等距机械风插图；② SVG + 可选 WebGL 着色器与 3D 效果；③ 零依赖，Node 20.10+ 即可跑，兼容 Claude Code/OpenCode/Codex。",
+     "url": "https://github.com/wheresryan22/anatomy",
+     "stars": "16.8k",
+     "tags": [
+      "值得关注"
+     ]
+    },
+    {
+     "rank": "03",
+     "title": "openai/math",
+     "summary": "OpenAI 官方开源的数学手稿库：内部模型在开放数学问题上的证明产物，719 篇手稿、372 个家族，部分已用 Lean 形式化。 ① 719 篇数学手稿按 372 个家族组织，附预印本 PDF 与源码；② Lean 形式化库持续更新中；③ 附总览 PDF 与手稿地图，可按数学分支检索。",
+     "url": "https://github.com/openai/math",
+     "stars": "15.2k",
+     "tags": [
+      "了解即可"
+     ]
+    },
+    {
+     "rank": "04",
+     "title": "tangency-labs/solidcraft",
+     "summary": "纯 Rust 的开源参数化 3D CAD：画草图、加约束、拉实体，改个尺寸模型自动重建，还能让 AI agent 通过 MCP 直接建模。 ① 参数化特征时间线，改尺寸自动重建；② 桌面/浏览器/Snap 全平台；③ 内置 MCP 服务器，agent 可直接驱动建模。",
+     "url": "https://github.com/tangency-labs/solidcraft",
+     "stars": "7.3k",
+     "tags": [
+      "了解即可"
+     ]
+    },
+    {
+     "rank": "05",
+     "title": "rehan-remade/universal-modder",
+     "summary": "指着你电脑里的任何 PC 游戏，让 AI coding agent 给它打 mod：找游戏、读代码、做 mod、生成美术音效、进游戏实测、剪展示视频，一条龙。 ① skills + 工具 + 共享知识库，agent 自动识别游戏引擎与 mod 路线；② fal 生成美术/3D/音频素材；③ 在运行中的游戏里实测，知识沉淀给下一个 agent。",
+     "url": "https://github.com/rehan-remade/universal-modder",
+     "stars": "8.5k",
+     "tags": [
+      "值得关注"
+     ]
+    }
+   ]
+  }
+ ],
+ "_pipelines": {
+  "github": {
+   "digest": [
+    {
+     "title": "速览",
+     "text": "求职 agent 框架 ai-job-search 单日增速三级跳（1,365→2,232→3,856），拿下日榜冠军并新上周榜（+9,073）——agent 从\"开发者工具\"切入\"普通人场景\"的标志性案例仍在加速。"
+    },
+    {
+     "title": "速览",
+     "text": "rea 周增量略有降温但仍霸榜（7d +201,065，总数突破 33.6 万），逆向热潮进入第五天；VoiceStudio 以周增 +17,291 新上周榜，本地语音工具的需求依旧强劲。"
+    },
+    {
+     "title": "新物种爆发",
+     "text": "新物种爆发：storytold 矩阵新成员 photocraft（20 天 6.8 万 star，纯 Rust 重写 Photoshop）、OpenAI 官方开源数学手稿库 math、177 个科学技能的 scientific-agent-skills；\"省 token\"赛道再添 headroom（上下文压缩层，7.6 万 star 新上日榜）。"
+    }
+   ],
+   "highlight": "求职 agent 框架 ai-job-search 单日增速三级跳（1,365→2,232→3,856），拿下日榜冠军并新上周榜（+9,073）——agent 从\"开发者工具\"切入\"普通人场景\"的标志性案例仍在加速。",
+   "date": "2026-10-20"
+  },
+  "tech-news": {
+   "digest": [
+    {
+     "title": "速览",
+     "text": "Disney 在 Character.AI 破产后同意吸纳其大部分员工（至少 60 人、年薪约 6000 万美元），AI 创业公司\"资产+人才被巨头收编\"模式延续。"
+    },
+    {
+     "title": "速览",
+     "text": "Anthropic 被曝筹备 600 亿美元债务融资采购 Google TPU（代号 Project North Star），次级债收益率超 10%——算力融资成本四个月飙升近 200 基点。"
+    },
+    {
+     "title": "中国就 23 项 AI ",
+     "text": "中国就 23 项 AI 技术出口管制发布草案征求意见：大模型权重、智能体首次纳入管制范围，门槛为 2 万亿参数 / 10²⁶ FLOPs / 全球前十。"
+    }
+   ],
+   "highlight": "Disney 在 Character.AI 破产后同意吸纳其大部分员工（至少 60 人、年薪约 6000 万美元），AI 创业公司\"资产+人才被巨头收编\"模式延续。",
+   "date": "2026-10-19"
+  }
+ },
+ "digest": [
+  {
+   "title": "速览",
+   "text": "求职 agent 框架 ai-job-search 单日增速三级跳（1,365→2,232→3,856），拿下日榜冠军并新上周榜（+9,073）——agent 从\"开发者工具\"切入\"普通人场景\"的标志性案例仍在加速。"
+  },
+  {
+   "title": "速览",
+   "text": "Disney 在 Character.AI 破产后同意吸纳其大部分员工（至少 60 人、年薪约 6000 万美元），AI 创业公司\"资产+人才被巨头收编\"模式延续。"
+  }
+ ],
+ "intro": "求职 agent 框架 ai-job-search 单日增速三级跳（1,365→2,232→3,856），拿下日榜冠军并新上周榜（+9,073）——agent 从\"开发者工具\"切入\"普通人场景\"的标志性案例仍在加速。 Disney 在 Character.AI 破产后同意吸纳其大部分员工（至少 60 人、年薪约 6000 万美元），AI 创业公司\"资产+人才被巨头收编\"模式延续。",
+ "tasks": [
+  {
+   "icon": "GH",
+   "name": "GitHub 开源情报",
+   "detail": "Trending · Star 增速 · 新项目",
+   "time": "08:30"
+  },
+  {
+   "icon": "NW",
+   "name": "科技新闻日报",
+   "detail": "新闻聚合 · 中文简报",
+   "time": "09:00"
+  }
+ ],
+ "date": "2026-10-20",
+ "issue": "020",
+ "updatedAt": "00:35 更新"
+}
