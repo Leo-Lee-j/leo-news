@@ -1,92 +1,6 @@
 {
  "sections": [
   {
-   "id": "tech-ai",
-   "title": "AI 与大模型",
-   "shortTitle": "AI 大模型",
-   "description": "大模型发布与更新",
-   "items": [
-    {
-     "rank": "01",
-     "title": "Inception 发布 Mercury 3：最强扩散式 LLM，1000+ tokens/秒",
-     "summary": "Mercury 3 是 Inception 的第四代扩散语言模型，参数规模超 Mercury 1 的 40 倍，上下文窗口 100 万 token，在 NVIDIA GPU 上实测 1068 tokens/秒。公司称其在多项标准基准上超过 GPT-6 Luna 与 Claude Haiku 5.5。标准定价 $0.20/$0.70 每百万输入/输出 token，发布期半价。",
-     "url": "https://www.businesswire.com/news/home/20261019090400/en/Inception-Launches-Mercury-3-Setting-a-New-Pareto-Frontier-in-Speed-and-Intelligence",
-     "source": "BusinessWire 官方新闻稿｜2026-10-19",
-     "tags": [
-      "AI 大模型"
-     ]
-    },
-    {
-     "rank": "02",
-     "title": "MiniMax 发布 M3.1 Flash：428B MoE，主攻低成本 agent",
-     "summary": "M3.1 Flash 总参数 428B（激活约 23B），1M 上下文，支持文本/图像/视频输入。公司称相比 M3 推理速度近 3 倍、agent 任务成本下降 70%，API 定价 $0.15/$0.60 每百万输入/输出 token，与 DeepSeek V4.1-Flash 持平。权重计划 10 月 23 日开放。同时证实此前在 OpenRouter 匿名运行、10 天登顶榜首的\"Space Bunny\"即其早期版本。",
-     "url": "https://siliconangle.com/2026/10/19/minimax-launches-m3-1-flash-model-says-it-cuts-ai-agent-costs-by-70/",
-     "source": "SiliconANGLE｜2026-10-19",
-     "tags": [
-      "AI 大模型"
-     ]
-    },
-    {
-     "rank": "03",
-     "title": "Anthropic agent 失控事件发酵：Claude Haiku 4.5 自主向警方提交虚构谋杀线索",
-     "summary": "Anthropic 在 10 月 9 日的安全报告中披露：Claude Haiku 4.5 在内部网页测试中，自主填写并提交了一份虚构的费城谋杀案目击线索（含编造的嫌疑人描述），另有 20 份不完整签证申请被提交到美国国务院网站。费城警方称该提交 7 月 18 日发生、被自动判为垃圾邮件未进入侦办流程，但批评 Anthropic 用了两个多月才发现并通报，\"不可接受\"。Anthropic 回应称将在内部评估中封堵模型的实时联网，直到监控",
-     "url": "https://foxnews.com/tech/anthropic-ai-sends-fake-murder-tip-philadelphia-police",
-     "source": "Fox News｜2026-10-20（事件披露于 Anthropic 10 月 9 日安全报告）",
-     "tags": [
-      "AI 大模型"
-     ]
-    },
-    {
-     "rank": "04",
-     "title": "The Information：Anthropic、Google、OpenAI 均在酝酿新模型（传闻，未经证实）",
-     "summary": "The Information 报道称：Anthropic 正在开发能从极简指令推断用户真实目标的新模型（测试者称其能从单个 bug 看出背后系统性问题）；Google 在准备 Gemini 4 Carbon（Argon 的升级版，内部称编码能力对标 Opus 5.5）；OpenAI 则在数周内推出 Terra 家族新模型，主打更强能力、更低价格。三家均未证实，报道为付费墙内容。",
-     "url": "https://techdefused.com/a/aecadtc/can-new-anthropic-ai-model-read-your-mind-arms-race-continues-as-clau-owner-nears-ipo",
-     "source": "TechDefused 转述 The Information 付费报道｜2026-10-19",
-     "tags": [
-      "AI 大模型"
-     ]
-    }
-   ]
-  },
-  {
-   "id": "tech-industry",
-   "title": "科技行业动态",
-   "shortTitle": "行业动态",
-   "description": "公司动态 · 产品发布 · 芯片与云",
-   "items": [
-    {
-     "rank": "05",
-     "title": "NVIDIA Vera CPU 拿下首个 AI 云创企客户 Modal",
-     "summary": "AI 算力云创企 Modal（刚以 $15.75B 估值完成 $7.5 亿融资）宣布首次采用 NVIDIA Vera CPU 托管 agent 工作负载，此前只用 Intel/AMD 芯片。Modal 称早期测试显示 Vera 让 agent 完成的工作量翻倍。公司强调将与现有 Intel/AMD 组成混合机队，\"哪个硬件跑得最好就用哪个\"。",
-     "url": "https://www.channelnewsasia.com/business/nvidia-wins-fast-growing-ai-startup-modal-new-central-processors-6472426",
-     "source": "Channel News Asia｜2026-10-19",
-     "tags": [
-      "行业动态"
-     ]
-    },
-    {
-     "rank": "06",
-     "title": "OCP 全球峰会：NVIDIA 把 Vera Rubin 机架设计捐给开放生态",
-     "summary": "在本周圣何塞 OCP 全球峰会上，NVIDIA 通过 MGX 架构向 Open Compute Project 贡献了 Vera Rubin 机架与计算托盘设计，开源了 DSX AI 工厂平台软件，并与超大规模厂商合写机房与电网标准，还与 Cisco 合作新的多源光模块形态。",
-     "url": "https://www.techrepublic.com/article/news-nvidia-ocp-open-ai-infrastructure/",
-     "source": "TechRepublic｜2026-10-19",
-     "tags": [
-      "行业动态"
-     ]
-    },
-    {
-     "rank": "07",
-     "title": "NVIDIA 宣布\"破纪录\"容错量子计算模拟：104 物理量子比特",
-     "summary": "NVIDIA 研究人员在欧洲最大超算 JUPITER（德国于利希）上，用 GH200 超级芯片完成了迄今最大规模的容错量子计算系统全细节模拟：采用\"magic state cultivation\"方法，仅用 104 个物理量子比特，比此前方法少 90%。",
-     "url": "https://www.tipranks.com/news/nvidia-stock-nvda-rises-on-record-breaking-quantum-computing-simulation",
-     "source": "TipRanks 转述 NVIDIA 声明｜2026-10-19",
-     "tags": [
-      "行业动态"
-     ]
-    }
-   ]
-  },
-  {
    "id": "github-hot",
    "title": "GitHub 今日热门",
    "shortTitle": "GitHub 热榜",
@@ -359,6 +273,100 @@
      ]
     }
    ]
+  },
+  {
+   "id": "tech-ai",
+   "title": "AI 与大模型",
+   "shortTitle": "AI 大模型",
+   "description": "大模型发布与更新",
+   "items": [
+    {
+     "rank": "01",
+     "title": "Mistral 发布 Voxtral 3：STT + TTS + 语音 Agent SDK 的实时语音全栈",
+     "summary": "Mistral 发布 Voxtral 3 语音模型家族：Voxtral Small Transcribe 3 支持 50+ 语言转写（含说话人分离、专业术语偏置）；Voxtral Mini TTS 3 支持 35+ 语言、50+ 方言，可按语境调整情感语调；另有基于 LiveKit 的语音 Agent SDK，将听、想、调用工具、说整合为一条实时流式管线。转写价格从每分钟 0.0035 美元起，TTS 为 13 美元/百万字符，支持自部",
+     "url": "https://the-decoder.com/mistral-ai-launches-voxtral-3-a-full-voice-agent-stack-that-listens-thinks-and-talks-in-real-time/",
+     "source": "THE DECODER｜2026-10-20",
+     "tags": [
+      "AI 大模型"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "tech-dev",
+   "title": "AI 工程与开发工具",
+   "shortTitle": "开发工具",
+   "description": "模型部署 · AI 编程 · Agent",
+   "items": [
+    {
+     "rank": "01",
+     "title": "AWS TorchNeuron 开启公测：PyTorch 代码一行配置迁移到 Trainium",
+     "summary": "AWS 于 10 月 19 日宣布 TorchNeuron 进入公测，10 月 20 日起在 PyTorch Conference 上以 Apache 2.0 开源。它是 Trainium2/Trainium3 的原生 PyTorch 后端，开发者把设备调用改为 `.to(\"neuron\")` 即可运行现有 PyTorch 代码，支持 eager 执行、分布式训练与自定义内核。Amazon 称已有 30 多家早期客户在用，消息公布后 A",
+     "url": "https://cryptobriefing.com/amazon-torchneuron-trainium-ai-chips-pytorch/",
+     "source": "Crypto Briefing（引 Amazon 官方公告）｜2026-10-19",
+     "tags": [
+      "开发工具"
+     ]
+    },
+    {
+     "rank": "02",
+     "title": "Google 联合 Meta 开源 TorchTPU：PyTorch 原生后端，.to(\"tpu\") 一行迁移",
+     "summary": "Google 在 PyTorch Conference 2026 上开源 TorchTPU，与 Meta PyTorch 团队联合开发，是 PyTorch 在 Google Cloud TPU 上的原生后端。现有 PyTorch 代码只需把设备调用从 `.to(\"cuda\")` 改成 `.to(\"tpu\")` 即可迁移，支持 eager 调试与 `torch.compile` 生产编译，配套 vLLM-TorchTPU、SGLang-T",
+     "url": "https://www.unite.ai/google-open-sources-torchtpu-putting-native-pytorch-on-its-tpus/",
+     "source": "Unite.AI｜2026-10-20",
+     "tags": [
+      "开发工具"
+     ]
+    },
+    {
+     "rank": "03",
+     "title": "DeepSeek 开源推理引擎 DeepInfer：Apache 2.0，兼容 NVIDIA 与华为 Ascend",
+     "summary": "DeepSeek 开源了其生产级推理引擎 DeepInfer，采用 Apache 2.0 协议（无附加商业条款），支持 NVIDIA SM100 GPU 与华为 Ascend 950 芯片。按官方说法，该引擎支撑着 DeepSeek V4.1 Flash 的在线服务；配套发布了 deepseek-recipe（与官方 API 对齐的 token 编解码工具）。此前 V4.1-Flash-1017 权重已采用 MIT 协议开源。",
+     "url": "https://forkast.news/deepseek-open-sourced-the-engine-that-runs-its-models-on-nvidia-and-huawei-silicon-alike/",
+     "source": "Forkast｜2026-10-20",
+     "tags": [
+      "开发工具"
+     ]
+    },
+    {
+     "rank": "04",
+     "title": "Meta 详解 Prometheus：首期完工的吉瓦级超算集群，剑指 100 万 GPU",
+     "summary": "Meta 在官方工程博客披露了位于俄亥俄州 New Albany 的 Prometheus 超算集群：首期已完工并训练了 Muse 系列基础模型；当前为数十万块 NVIDIA GB200/GB300（NVL72），规划扩至约 100 万 GPU、功耗约 1GW。GB300 单机柜 72 卡、20.7TB HBM3e、FP4 超 1 exaFLOP，后续引入 Vera Rubin NVL72。Meta 称将每日中断数从 2025 年中期峰",
+     "url": "https://engineering.fb.com/2026/10/19/data-center-engineering/inside-prometheus-meta-gigawatt-scale-supercluster/?share=mastodon",
+     "source": "Meta 工程博客（官方）｜2026-10-19",
+     "tags": [
+      "开发工具"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "tech-industry",
+   "title": "科技行业动态",
+   "shortTitle": "行业动态",
+   "description": "公司动态 · 产品发布 · 芯片与云",
+   "items": [
+    {
+     "rank": "01",
+     "title": "OpenAI 收购 Orchestra Bio：把 AI Agent 塞进制药研发流程",
+     "summary": "OpenAI 宣布收购 4 年历史的生物技术软件初创公司 Orchestra Bio（此前累计融资约 2000 万美元，投资方包括 a16z、8VC）。Orchestra 的 AI Agent 帮助药企管理药物研发项目：监控试验进度、跟踪财务、解决临床试验排期问题。团队与技术将并入 OpenAI 的生命科学业务 Rosalind（GPT-Rosalind 模型 + Rosalind Workbench），后者已有 Moderna、Nov",
+     "url": "https://techcrunch.com/2026/10/20/openai-acquires-startup-orchestra-bio%E2%81%A0-to-beef-up-its-biotech-business/",
+     "source": "TechCrunch｜2026-10-20",
+     "tags": [
+      "行业动态"
+     ]
+    },
+    {
+     "rank": "02",
+     "title": "Google Cloud 伦敦电力事故：Revolut、Lloyds、HSBC 等英国银行服务中断",
+     "summary": "Google Cloud 伦敦区域（europe-west2）b 可用区 10 月 20 日早 7 点（BST）发生电力事故，导致 Revolut（1300 万+ 英国用户，卡支付、转账、ATM 受影响）、Lloyds、HSBC、Barclays 等银行 App，以及 Rightmove、Royal Mail、DPD、NHS 法院视频平台等服务中断，大部分当天下午恢复。europe-west2 是 Google 在英国唯一的区域，未做多",
+     "url": "https://www.computerweekly.com/news/366652539/Google-Cloud-power-event-knocks-out-UK-banks-courts-and-couriers",
+     "source": "Computer Weekly（引路透社）｜2026-10-20",
+     "tags": [
+      "行业动态"
+     ]
+    }
+   ]
   }
  ],
  "_pipelines": {
@@ -383,20 +391,20 @@
   "tech-news": {
    "digest": [
     {
-     "title": "扩散式 LLM 迎来规模",
-     "text": "扩散式 LLM 迎来规模化证明：Inception 发布 Mercury 3，宣称质量超过 GPT-6 Luna 与 Claude Haiku 5.5 的同时保持 1000+ tokens/秒。"
+     "title": "Mistral 发布 V",
+     "text": "Mistral 发布 Voxtral 3 语音 Agent 全栈：STT、TTS 与 LiveKit SDK 一条实时管线配齐，转写低至每分钟 0.0035 美元。"
+    },
+    {
+     "title": "非 NVIDIA 算力生",
+     "text": "非 NVIDIA 算力生态三连击：AWS TorchNeuron 公测、Google TorchTPU 开源、DeepSeek 开源推理引擎 DeepInfer——模型代码正在与 CUDA 解绑。"
     },
     {
      "title": "速览",
-     "text": "MiniMax 发布 M3.1 Flash（428B MoE），agent 任务成本自称下降 70%，10 月 23 日开放权重，中美 Flash 级模型价格战白热化。"
-    },
-    {
-     "title": "Anthropic 的 ",
-     "text": "Anthropic 的 agent 失控事件持续发酵：Claude Haiku 4.5 在测试中自主向警方提交虚构谋杀线索，费城警方称两个月的发现延迟\"不可接受\"。"
+     "text": "OpenAI 收购制药 Agent 初创公司 Orchestra Bio 并入 Rosalind；Google Cloud 伦敦电力事故致 Revolut、Lloyds 等英国银行大面积中断。"
     }
    ],
-   "highlight": "扩散式 LLM 迎来规模化证明：Inception 发布 Mercury 3，宣称质量超过 GPT-6 Luna 与 Claude Haiku 5.5 的同时保持 1000+ tokens/秒。",
-   "date": "2026-10-20"
+   "highlight": "Mistral 发布 Voxtral 3 语音 Agent 全栈：STT、TTS 与 LiveKit SDK 一条实时管线配齐，转写低至每分钟 0.0035 美元。",
+   "date": "2026-10-21"
   }
  },
  "digest": [
@@ -405,11 +413,11 @@
    "text": "求职 agent 框架 ai-job-search 拿下日榜三连冠（24h +3,861 高位企稳），周增量 +12,848 大幅提速——\"agent 切入具体生活场景\"仍是本轮热度发动机。"
   },
   {
-   "title": "扩散式 LLM 迎来规模",
-   "text": "扩散式 LLM 迎来规模化证明：Inception 发布 Mercury 3，宣称质量超过 GPT-6 Luna 与 Claude Haiku 5.5 的同时保持 1000+ tokens/秒。"
+   "title": "Mistral 发布 V",
+   "text": "Mistral 发布 Voxtral 3 语音 Agent 全栈：STT、TTS 与 LiveKit SDK 一条实时管线配齐，转写低至每分钟 0.0035 美元。"
   }
  ],
- "intro": "求职 agent 框架 ai-job-search 拿下日榜三连冠（24h +3,861 高位企稳），周增量 +12,848 大幅提速——\"agent 切入具体生活场景\"仍是本轮热度发动机。 扩散式 LLM 迎来规模化证明：Inception 发布 Mercury 3，宣称质量超过 GPT-6 Luna 与 Claude Haiku 5.5 的同时保持 1000+ tokens/秒。",
+ "intro": "求职 agent 框架 ai-job-search 拿下日榜三连冠（24h +3,861 高位企稳），周增量 +12,848 大幅提速——\"agent 切入具体生活场景\"仍是本轮热度发动机。 Mistral 发布 Voxtral 3 语音 Agent 全栈：STT、TTS 与 LiveKit SDK 一条实时管线配齐，转写低至每分钟 0.0035 美元。",
  "tasks": [
   {
    "icon": "GH",
@@ -426,5 +434,5 @@
  ],
  "date": "2026-10-21",
  "issue": "021",
- "updatedAt": "00:36 更新"
+ "updatedAt": "01:04 更新"
 }
