@@ -1,0 +1,438 @@
+{
+ "sections": [
+  {
+   "id": "tech-ai",
+   "title": "AI 与大模型",
+   "shortTitle": "AI 大模型",
+   "description": "大模型发布与更新",
+   "items": [
+    {
+     "rank": "01",
+     "title": "Mistral 发布 Voxtral 3：STT + TTS + 语音 Agent SDK 的实时语音全栈",
+     "summary": "Mistral 发布 Voxtral 3 语音模型家族：Voxtral Small Transcribe 3 支持 50+ 语言转写（含说话人分离、专业术语偏置）；Voxtral Mini TTS 3 支持 35+ 语言、50+ 方言，可按语境调整情感语调；另有基于 LiveKit 的语音 Agent SDK，将听、想、调用工具、说整合为一条实时流式管线。转写价格从每分钟 0.0035 美元起，TTS 为 13 美元/百万字符，支持自部",
+     "url": "https://the-decoder.com/mistral-ai-launches-voxtral-3-a-full-voice-agent-stack-that-listens-thinks-and-talks-in-real-time/",
+     "source": "THE DECODER｜2026-10-20",
+     "tags": [
+      "AI 大模型"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "tech-dev",
+   "title": "AI 工程与开发工具",
+   "shortTitle": "开发工具",
+   "description": "模型部署 · AI 编程 · Agent",
+   "items": [
+    {
+     "rank": "01",
+     "title": "AWS TorchNeuron 开启公测：PyTorch 代码一行配置迁移到 Trainium",
+     "summary": "AWS 于 10 月 19 日宣布 TorchNeuron 进入公测，10 月 20 日起在 PyTorch Conference 上以 Apache 2.0 开源。它是 Trainium2/Trainium3 的原生 PyTorch 后端，开发者把设备调用改为 `.to(\"neuron\")` 即可运行现有 PyTorch 代码，支持 eager 执行、分布式训练与自定义内核。Amazon 称已有 30 多家早期客户在用，消息公布后 A",
+     "url": "https://cryptobriefing.com/amazon-torchneuron-trainium-ai-chips-pytorch/",
+     "source": "Crypto Briefing（引 Amazon 官方公告）｜2026-10-19",
+     "tags": [
+      "开发工具"
+     ]
+    },
+    {
+     "rank": "02",
+     "title": "Google 联合 Meta 开源 TorchTPU：PyTorch 原生后端，.to(\"tpu\") 一行迁移",
+     "summary": "Google 在 PyTorch Conference 2026 上开源 TorchTPU，与 Meta PyTorch 团队联合开发，是 PyTorch 在 Google Cloud TPU 上的原生后端。现有 PyTorch 代码只需把设备调用从 `.to(\"cuda\")` 改成 `.to(\"tpu\")` 即可迁移，支持 eager 调试与 `torch.compile` 生产编译，配套 vLLM-TorchTPU、SGLang-T",
+     "url": "https://www.unite.ai/google-open-sources-torchtpu-putting-native-pytorch-on-its-tpus/",
+     "source": "Unite.AI｜2026-10-20",
+     "tags": [
+      "开发工具"
+     ]
+    },
+    {
+     "rank": "03",
+     "title": "DeepSeek 开源推理引擎 DeepInfer：Apache 2.0，兼容 NVIDIA 与华为 Ascend",
+     "summary": "DeepSeek 开源了其生产级推理引擎 DeepInfer，采用 Apache 2.0 协议（无附加商业条款），支持 NVIDIA SM100 GPU 与华为 Ascend 950 芯片。按官方说法，该引擎支撑着 DeepSeek V4.1 Flash 的在线服务；配套发布了 deepseek-recipe（与官方 API 对齐的 token 编解码工具）。此前 V4.1-Flash-1017 权重已采用 MIT 协议开源。",
+     "url": "https://forkast.news/deepseek-open-sourced-the-engine-that-runs-its-models-on-nvidia-and-huawei-silicon-alike/",
+     "source": "Forkast｜2026-10-20",
+     "tags": [
+      "开发工具"
+     ]
+    },
+    {
+     "rank": "04",
+     "title": "Meta 详解 Prometheus：首期完工的吉瓦级超算集群，剑指 100 万 GPU",
+     "summary": "Meta 在官方工程博客披露了位于俄亥俄州 New Albany 的 Prometheus 超算集群：首期已完工并训练了 Muse 系列基础模型；当前为数十万块 NVIDIA GB200/GB300（NVL72），规划扩至约 100 万 GPU、功耗约 1GW。GB300 单机柜 72 卡、20.7TB HBM3e、FP4 超 1 exaFLOP，后续引入 Vera Rubin NVL72。Meta 称将每日中断数从 2025 年中期峰",
+     "url": "https://engineering.fb.com/2026/10/19/data-center-engineering/inside-prometheus-meta-gigawatt-scale-supercluster/?share=mastodon",
+     "source": "Meta 工程博客（官方）｜2026-10-19",
+     "tags": [
+      "开发工具"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "tech-industry",
+   "title": "科技行业动态",
+   "shortTitle": "行业动态",
+   "description": "公司动态 · 产品发布 · 芯片与云",
+   "items": [
+    {
+     "rank": "01",
+     "title": "OpenAI 收购 Orchestra Bio：把 AI Agent 塞进制药研发流程",
+     "summary": "OpenAI 宣布收购 4 年历史的生物技术软件初创公司 Orchestra Bio（此前累计融资约 2000 万美元，投资方包括 a16z、8VC）。Orchestra 的 AI Agent 帮助药企管理药物研发项目：监控试验进度、跟踪财务、解决临床试验排期问题。团队与技术将并入 OpenAI 的生命科学业务 Rosalind（GPT-Rosalind 模型 + Rosalind Workbench），后者已有 Moderna、Nov",
+     "url": "https://techcrunch.com/2026/10/20/openai-acquires-startup-orchestra-bio%E2%81%A0-to-beef-up-its-biotech-business/",
+     "source": "TechCrunch｜2026-10-20",
+     "tags": [
+      "行业动态"
+     ]
+    },
+    {
+     "rank": "02",
+     "title": "Google Cloud 伦敦电力事故：Revolut、Lloyds、HSBC 等英国银行服务中断",
+     "summary": "Google Cloud 伦敦区域（europe-west2）b 可用区 10 月 20 日早 7 点（BST）发生电力事故，导致 Revolut（1300 万+ 英国用户，卡支付、转账、ATM 受影响）、Lloyds、HSBC、Barclays 等银行 App，以及 Rightmove、Royal Mail、DPD、NHS 法院视频平台等服务中断，大部分当天下午恢复。europe-west2 是 Google 在英国唯一的区域，未做多",
+     "url": "https://www.computerweekly.com/news/366652539/Google-Cloud-power-event-knocks-out-UK-banks-courts-and-couriers",
+     "source": "Computer Weekly（引路透社）｜2026-10-20",
+     "tags": [
+      "行业动态"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "github-hot",
+   "title": "GitHub 今日热门",
+   "shortTitle": "GitHub 热榜",
+   "description": "综合热度、活跃度与实用价值排序",
+   "items": [
+    {
+     "rank": "01",
+     "title": "cloudflare/security-audit-skill",
+     "summary": "Cloudflare 官方开源的安全审计 skill：指挥一队隔离的 agent 做多阶段安全审计，输出机器可读的漏洞发现报告。 ① 六阶段流程：侦察→覆盖式猎捕→候选验证→结构化输出→独立复核→中立报告；② 每个候选漏洞都由\"新鲜\" agent 独立证伪，误报率可控；③ 输出 findings.json 机器可读格式，附 report-schema 校验。",
+     "url": "https://github.com/cloudflare/security-audit-skill",
+     "stars": "36.5k",
+     "trend": "+2,012",
+     "tags": [
+      "强烈推荐"
+     ]
+    },
+    {
+     "rank": "02",
+     "title": "DietrichGebert/ponytail",
+     "summary": "让 AI agent 像\"最懒的高级工程师\"一样思考：最好的代码是永远不用写的代码。 ① 一套 agent 行为哲学/提示词层，约束 agent 少写代码多复用；② 支持 20 种 agent（Claude Code 等）；③ npm 包 @dietrichgebert/ponytail 分发，MIT 协议。",
+     "url": "https://github.com/DietrichGebert/ponytail",
+     "stars": "171.6k",
+     "trend": "+2,079",
+     "tags": [
+      "值得关注"
+     ]
+    },
+    {
+     "rank": "03",
+     "title": "Graphify-Labs/graphify",
+     "summary": "一个 Claude Code skill：把代码库、文档、PDF、截图一股脑变成可查询的知识图谱，号称比读原始文件省 71.5 倍 token。 ① `/graphify` 一行命令扫描任意目录，输出交互式 graph.html + Obsidian 仓库 + wiki；② 多模态：代码、PDF、截图、白板照片全吃，用 Claude vision 抽概念；③ 本地确定性 AST 解析，诚实标注\"发",
+     "url": "https://github.com/Graphify-Labs/graphify",
+     "stars": "131.6k",
+     "trend": "+1,433",
+     "tags": [
+      "值得关注"
+     ]
+    },
+    {
+     "rank": "04",
+     "title": "stablyai/orca",
+     "summary": "Agent 舰队的工作台：一个地方同时驾驭 Grok Bot、Claude Code 等多个 agent，桌面/移动/远程运行时全覆盖。 ① 多 agent 统一管理与调度的工作台；② 桌面、移动、远程运行时全平台；③ MIT 协议，社区 Discord 活跃。",
+     "url": "https://github.com/stablyai/orca",
+     "stars": "101.2k",
+     "trend": "+1,541",
+     "tags": [
+      "值得关注"
+     ]
+    },
+    {
+     "rank": "05",
+     "title": "strelov1/freehire",
+     "summary": "它解决的是\"招聘信息都被中介和聚合站污染\"的问题——直接从企业官网抓 330 万+实时职位，无转载、无死链，完全开源，Go 编写、架构文档齐全。正在找工作的人可以直接用 freehire.me；和 ai-job-search（agent 帮你投简历）搭配，就是一套完整的\"开源求职流水线\"。",
+     "url": "https://github.com/strelov1/freehire",
+     "stars": "2.4k",
+     "trend": "+360",
+     "tags": [
+      "值得关注"
+     ],
+     "featured": true
+    },
+    {
+     "rank": "06",
+     "title": "akitaonrails/ai-memory",
+     "summary": "给 AI 编程 agent 的长期记忆：Claude Code 里做到一半的任务，换到 Codex 同一目录接着干，不用重新解释架构、失败尝试和未解问题。 ① 跨 agent 共享记忆：20+ 种 harness（Claude Code、Codex、Cursor、Gemini CLI、OpenCode、Grok 等）喂给同一份记忆；② Rust 编写的高性能本地服务，官网 aimemory.sh；",
+     "url": "https://github.com/akitaonrails/ai-memory",
+     "stars": "12.3k",
+     "trend": "+286",
+     "tags": [
+      "值得关注"
+     ]
+    },
+    {
+     "rank": "07",
+     "title": "earthtojake/text-to-cad",
+     "summary": "给你的 agent CAD 超能力：让 agent 直接生成可制造的 3D 模型（基于 Open CASCADE 内核与 build123d）。 ① agent 原生的 CAD 生成 skill，输出真实可制造的几何体；② PyPI 包 `cadgen` 即装即用，附完整文档站 texttocad.dev；③ 测试与 CI 齐全，MIT 协议。",
+     "url": "https://github.com/earthtojake/text-to-cad",
+     "stars": "22.3k",
+     "tags": [
+      "值得关注"
+     ]
+    },
+    {
+     "rank": "08",
+     "title": "vllm-project/vllm",
+     "summary": "大模型高性能推理与 serving 引擎：PagedAttention 开创者，LLM 部署的事实标准之一。 ① 高吞吐、低延迟的 LLM serving；② 持续批处理、量化、投机解码等生产特性拉满；③ OpenAI 兼容 API，生态最广。",
+     "url": "https://github.com/vllm-project/vllm",
+     "stars": "94.9k",
+     "trend": "+441",
+     "tags": [
+      "了解即可"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "github-rising",
+   "title": "Star 增长最快",
+   "shortTitle": "增长最快",
+   "description": "按实际 Star 增量排序",
+   "items": [
+    {
+     "rank": "01",
+     "title": "morluto/rea",
+     "summary": "⚠️ 较昨日口径（+157,631）继续降温，但仍是周榜第一（第七天），总数突破 35.7 万。",
+     "url": "https://github.com/morluto/rea",
+     "stars": "357.7k",
+     "trend": "+129,417",
+     "tags": [
+      "高增长"
+     ]
+    },
+    {
+     "rank": "02",
+     "title": "debpalash/VoiceStudio",
+     "summary": "较昨日（+17,057）继续降温，本地语音工具需求仍在高位。",
+     "url": "https://github.com/debpalash/VoiceStudio",
+     "stars": "80.4k",
+     "trend": "+15,125",
+     "tags": [
+      "高增长"
+     ]
+    },
+    {
+     "rank": "03",
+     "title": "stablyai/orca",
+     "summary": "总数突破 10 万，连续六天日榜。",
+     "url": "https://github.com/stablyai/orca",
+     "stars": "101.2k",
+     "trend": "+8,705",
+     "tags": [
+      "高增长"
+     ]
+    },
+    {
+     "rank": "04",
+     "title": "anomalyco/opencode",
+     "summary": "开源 coding agent 元老，增长稳健。",
+     "url": "https://github.com/anomalyco/opencode",
+     "stars": "219.7k",
+     "trend": "+6,545",
+     "tags": [
+      "高增长"
+     ]
+    },
+    {
+     "rank": "05",
+     "title": "NationalSecurityAgency/ghidra",
+     "summary": "⚠️ 老项目回春第七周（6,614→7,510→7,608→7,602→7,152→6,184→5,769）：增速继续温和回落但总数逼近 9.3 万，rea 带起的逆向热潮后劲仍在。",
+     "url": "https://github.com/NationalSecurityAgency/ghidra",
+     "stars": "92.6k",
+     "trend": "+5,769",
+     "tags": [
+      "高增长"
+     ]
+    },
+    {
+     "rank": "06",
+     "title": "heygen-com/hyperframes",
+     "summary": "\"写 HTML，渲染视频，为 agent 而造\"，较昨日（+5,994）小幅降温。",
+     "url": "https://github.com/heygen-com/hyperframes",
+     "stars": "69.2k",
+     "trend": "+5,740",
+     "tags": [
+      "高增长"
+     ]
+    },
+    {
+     "rank": "07",
+     "title": "anthropics/claude-plugins-official",
+     "summary": "周增量六连加速（2,328→3,581→4,774→5,441→5,650→5,703），插件生态 adoption 爆发的信号。",
+     "url": "https://github.com/anthropics/claude-plugins-official",
+     "stars": "43.6k",
+     "trend": "+5,703",
+     "tags": [
+      "高增长"
+     ]
+    },
+    {
+     "rank": "08",
+     "title": "K-Dense-AI/scientific-agent-skills",
+     "summary": "较昨日（+4,549）继续升温，177 个科学 skills 的\"AI 科学家\"货架。",
+     "url": "https://github.com/K-Dense-AI/scientific-agent-skills",
+     "stars": "53.6k",
+     "trend": "+4,719",
+     "tags": [
+      "高增长"
+     ]
+    },
+    {
+     "rank": "09",
+     "title": "HKUDS/CLI-Anything",
+     "summary": "新上周榜，终端 agent 工具链的一员。",
+     "url": "https://github.com/HKUDS/CLI-Anything",
+     "stars": "55.9k",
+     "trend": "+3,681",
+     "tags": [
+      "高增长"
+     ]
+    },
+    {
+     "rank": "10",
+     "title": "ruvnet/ruflo",
+     "summary": "较昨日（+3,143）升温。",
+     "url": "https://github.com/ruvnet/ruflo",
+     "stars": "78.2k",
+     "trend": "+3,590",
+     "tags": [
+      "高增长"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "github-new",
+   "title": "值得关注的新项目",
+   "shortTitle": "新项目",
+   "description": "近期创建、增长迅速的有潜力项目",
+   "items": [
+    {
+     "rank": "01",
+     "title": "akitaonrails/ai-memory",
+     "summary": "给 AI 编程 agent 的长期记忆：Claude Code 里做到一半的任务，换到 Codex 同一目录接着干，不用重新解释架构、失败尝试和未解问题。 ① 跨 agent 共享记忆：20+ 种 harness（Claude Code、Codex、Cursor、Gemini CLI、OpenCode、Grok 等）喂给同一份记忆；② Rust 编写的高性能本地服务；③ 交接（handoff）机制",
+     "url": "https://github.com/akitaonrails/ai-memory",
+     "stars": "12.3k",
+     "trend": "+286",
+     "tags": [
+      "值得关注"
+     ]
+    },
+    {
+     "rank": "02",
+     "title": "strelov1/freehire",
+     "summary": "每个 IT 职位，直接来自源头：从企业官网直抓的 330 万+实时招聘信息——无中介、无转载、无死链，完全开源。 ① 直接从公司 career 页面抓取职位，绕过招聘中介与聚合站；② 去重、去死链，数据质量优先；③ 在线站点 freehire.me 可直接体验，附 API 与\"添加数据源\"文档。",
+     "url": "https://github.com/strelov1/freehire",
+     "stars": "2.4k",
+     "trend": "+360",
+     "tags": [
+      "值得关注"
+     ]
+    },
+    {
+     "rank": "03",
+     "title": "earthtojake/text-to-cad",
+     "summary": "给你的 agent CAD 超能力：让 agent 直接生成可制造的 3D 模型（基于 Open CASCADE 内核与 build123d）。 ① agent 原生的 CAD 生成 skill，输出真实可制造的几何体；② PyPI 包 `cadgen` 即装即用，附完整文档站；③ 测试与 CI 齐全，MIT 协议。",
+     "url": "https://github.com/earthtojake/text-to-cad",
+     "stars": "22.3k",
+     "tags": [
+      "值得关注"
+     ]
+    },
+    {
+     "rank": "04",
+     "title": "Gathin23/cleanyourtv",
+     "summary": "给安卓电视/谷歌电视\"洗澡\"：Wi-Fi 无线去臃肿，换上干净的类 Apple TV 启动器，不用 root、一键还原。 ① 通过 Wi-Fi 给电视去 bloatware；② 替换广告满屏的默认桌面为干净启动器；③ 不 root、不删东西，一行命令还原。",
+     "url": "https://github.com/Gathin23/cleanyourtv",
+     "stars": "19.1k",
+     "tags": [
+      "强烈推荐"
+     ]
+    },
+    {
+     "rank": "05",
+     "title": "deepseek-ai/DeepInfer",
+     "summary": "DeepSeek 官方开源的生产级大模型推理框架：就是支撑 DeepSeek 线上大规模服务的那套推理引擎的开源版本。 ① FlashMLA/DeepGEMM/DeepEP/TileLang 自研算子全家桶；② MoE EP + EPLB 并行、异步调度、确定性采样、结构化输出；③ 首批支持 DeepSeek-V4.1-Flash，离线推理开箱即用。",
+     "url": "https://github.com/deepseek-ai/DeepInfer",
+     "stars": "17.8k",
+     "tags": [
+      "强烈推荐"
+     ]
+    }
+   ]
+  }
+ ],
+ "_pipelines": {
+  "github": {
+   "digest": [
+    {
+     "title": "大厂\"方法论 skill",
+     "text": "大厂\"方法论 skill 化\"成为明确趋势：Cloudflare security-audit-skill +2,012 拿下日榜第一且较昨日加速，Anthropic 官方插件库周增量 +5,703 实现六连加速。"
+    },
+    {
+     "title": "给 agent 做减法",
+     "text": "\"给 agent 做减法\"赛道正式成型：ponytail +2,079 大幅加速、graphify +1,433 加速、headroom 连续三天日榜——从哲学约束到上下文压缩，省 token 工具矩阵正在长齐。"
+    },
+    {
+     "title": "新物种三连击",
+     "text": "新物种三连击：freehire（3.3M 招聘信息企业官网直抓、无中介）、ai-memory（Rust 写的跨 agent 长期记忆）、text-to-cad（给 agent 的 CAD 超能力）；cleanyourtv 单日 +7,400 继续爆、orca 总数突破 10 万。"
+    }
+   ],
+   "highlight": "大厂\"方法论 skill 化\"成为明确趋势：Cloudflare security-audit-skill +2,012 拿下日榜第一且较昨日加速，Anthropic 官方插件库周增量 +5,703 实现六连加速。",
+   "date": "2026-10-22"
+  },
+  "tech-news": {
+   "digest": [
+    {
+     "title": "Mistral 发布 V",
+     "text": "Mistral 发布 Voxtral 3 语音 Agent 全栈：STT、TTS 与 LiveKit SDK 一条实时管线配齐，转写低至每分钟 0.0035 美元。"
+    },
+    {
+     "title": "非 NVIDIA 算力生",
+     "text": "非 NVIDIA 算力生态三连击：AWS TorchNeuron 公测、Google TorchTPU 开源、DeepSeek 开源推理引擎 DeepInfer——模型代码正在与 CUDA 解绑。"
+    },
+    {
+     "title": "速览",
+     "text": "OpenAI 收购制药 Agent 初创公司 Orchestra Bio 并入 Rosalind；Google Cloud 伦敦电力事故致 Revolut、Lloyds 等英国银行大面积中断。"
+    }
+   ],
+   "highlight": "Mistral 发布 Voxtral 3 语音 Agent 全栈：STT、TTS 与 LiveKit SDK 一条实时管线配齐，转写低至每分钟 0.0035 美元。",
+   "date": "2026-10-21"
+  }
+ },
+ "digest": [
+  {
+   "title": "大厂\"方法论 skill",
+   "text": "大厂\"方法论 skill 化\"成为明确趋势：Cloudflare security-audit-skill +2,012 拿下日榜第一且较昨日加速，Anthropic 官方插件库周增量 +5,703 实现六连加速。"
+  },
+  {
+   "title": "Mistral 发布 V",
+   "text": "Mistral 发布 Voxtral 3 语音 Agent 全栈：STT、TTS 与 LiveKit SDK 一条实时管线配齐，转写低至每分钟 0.0035 美元。"
+  }
+ ],
+ "intro": "大厂\"方法论 skill 化\"成为明确趋势：Cloudflare security-audit-skill +2,012 拿下日榜第一且较昨日加速，Anthropic 官方插件库周增量 +5,703 实现六连加速。 Mistral 发布 Voxtral 3 语音 Agent 全栈：STT、TTS 与 LiveKit SDK 一条实时管线配齐，转写低至每分钟 0.0035 美元。",
+ "tasks": [
+  {
+   "icon": "GH",
+   "name": "GitHub 开源情报",
+   "detail": "Trending · Star 增速 · 新项目",
+   "time": "08:30"
+  },
+  {
+   "icon": "NW",
+   "name": "科技新闻日报",
+   "detail": "新闻聚合 · 中文简报",
+   "time": "09:00"
+  }
+ ],
+ "date": "2026-10-22",
+ "issue": "022",
+ "updatedAt": "00:39 更新"
+}
