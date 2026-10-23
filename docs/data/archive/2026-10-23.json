@@ -1,110 +1,6 @@
 {
  "sections": [
   {
-   "id": "tech-ai",
-   "title": "AI 与大模型",
-   "shortTitle": "AI 大模型",
-   "description": "大模型发布与更新",
-   "items": [
-    {
-     "rank": "01",
-     "title": "Anthropic 正式推出 Claude Duet：常驻型主动 AI Agent 应用",
-     "summary": "Duet 是面向专业人士和小企业主的独立 AI Agent 应用，基于 Claude Opus 5.5，可用性为候补制 research preview，暂限美国 Claude Pro/Max 订阅用户（共享既有用量额度）。它常驻运行：每天晨间推送重要事项简报，每隔几小时检查已连接应用、发现需处理事项即主动提醒，并可独立完成排会、构建财务预测、开发 Web 应用等任务，支持通过 Stripe Link 与 Shopify Shop Pa",
-     "url": "https://www.channelnewsasia.com/business/anthropic-unveils-claude-duet-ai-agent-app-6480311",
-     "source": "Channel News Asia｜2026-10-22（对应美东 10-21 发布）",
-     "tags": [
-      "AI 大模型"
-     ]
-    },
-    {
-     "rank": "02",
-     "title": "GPT-6 登陆 Google Cloud：Astra、6.1 Sol、Luna 三款模型进驻模型花园",
-     "summary": "Google Cloud 宣布 GPT-6 Astra、GPT-6.1 Sol、GPT-6 Luna 以私有预览方式进驻其模型花园，仅面向部分企业客户；OpenAI 同步发文确认 GA 计划在未来数周内到来，并强调\"微软仍是 OpenAI 的首要云合作伙伴\"。采购走 Google Cloud Marketplace，单张 Google 账单结算、可抵扣已有云承诺消费额并计入 Flexible Savings Plans。核心场景之一是 ",
-     "url": "https://www.digitalapplied.com/blog/openai-models-google-cloud-model-garden-preview",
-     "source": "Digital Applied（综合 Google Cloud 与 OpenAI 官方公告）｜2026-10-21",
-     "tags": [
-      "AI 大模型"
-     ]
-    },
-    {
-     "rank": "03",
-     "title": "OpenAI：近 2000 个 GPT-Rosalind Agent 32 分钟解析小鼠全脑 CRISPR 图谱",
-     "summary": "OpenAI 与 PerturbAI、Scripps Research 合作，发布\"分布式生物推理\"研究：约 2000 个基于 GPT-Rosalind（OpenAI 生命科学模型）的 Agent 并行分析一个覆盖近 800 万个小鼠脑细胞、近 2000 个基因扰动的全脑 CRISPR 图谱，32 分钟完成人类团队需数月到一年的分析与文献回顾。各 Agent 逐个研究基因扰动效应、检索文献并撰写报告，再汇总成含 3397 条发现、可公开",
-     "url": "https://www.unite.ai/openai-unveils-mouse-brain-reasoning-atlas-from-gpt-rosalind-agents/",
-     "source": "Unite.AI（源自 OpenAI 研究公告 + bioRxiv 预印本）｜2026-10-21",
-     "tags": [
-      "AI 大模型"
-     ]
-    }
-   ]
-  },
-  {
-   "id": "tech-dev",
-   "title": "AI 工程与开发工具",
-   "shortTitle": "开发工具",
-   "description": "模型部署 · AI 编程 · Agent",
-   "items": [
-    {
-     "rank": "04",
-     "title": "Anthropic 为 Claude Security 增加持续扫描与自动修复跟踪",
-     "summary": "Claude Security 从定时扫描转向基于提交触发的持续监控：接入仓库后先做一次深度基线扫描，之后随代码变更做轻量增量扫描；每个漏洞独立跟踪，检测到修复提交后自动标记关闭、复发则重开。单个项目最多接入 8 个仓库（GitHub/GitLab），发现可经 API/MCP 流入外部工具。面向 Claude Enterprise 客户公测，符合条件机构可获每月 2.5 万美元用量抵扣（持续 2 个月，截止 2026-12-31）。An",
-     "url": "https://www.unite.ai/anthropic-adds-continuous-scanning-and-fix-tracking-to-claude-security/",
-     "source": "Unite.AI｜2026-10-21",
-     "tags": [
-      "开发工具"
-     ]
-    },
-    {
-     "rank": "05",
-     "title": "Glean 推出无头 Agent 构建：在 Claude Code、Cursor、Codex 中以代码方式编写 Agent",
-     "summary": "企业知识平台 Glean 正式 GA\"无头 Agent 构建\"功能：开发者可在 Claude Code、Cursor、Codex 等编码环境中以代码方式创建、测试、发布 Agent，成品运行在 Glean 的托管运行时上，复用其知识图谱、275+ 企业数据源的权限访问与审计链路。与低代码可视化 Agent 构建器并存，Glean 强调以软件工程的严谨性（版本控制、测试、评审、回滚）管理 Agent。",
-     "url": "https://www.unite.ai/glean-adds-headless-agent-building-for-claude-code-cursor-and-codex/",
-     "source": "Unite.AI｜2026-10-21",
-     "tags": [
-      "开发工具"
-     ]
-    }
-   ]
-  },
-  {
-   "id": "tech-industry",
-   "title": "科技行业动态",
-   "shortTitle": "行业动态",
-   "description": "公司动态 · 产品发布 · 芯片与云",
-   "items": [
-    {
-     "rank": "06",
-     "title": "NVIDIA 在 GTC Berlin 发布 OpenShell 全栈安全 Agent 参考架构",
-     "summary": "NVIDIA 发布 OpenShell 参考架构，把 OpenShell 安全运行时扩展为全栈企业级 Agent 基建：Vera Rubin 算力跑模型（含 Nemotron 开闭源模型）、Vera CPU 跑 Agent harness、开源 OpenShell 软件做运行时沙箱、BlueField DPU 运行 Sentry 安全框架做带外持续监控与芯片级策略执行。覆盖 Linux/K8s（Canonical、SUSE、Red Ha",
-     "url": "https://www.morningstar.com/news/globe-newswire/9850318/nvidia-launches-openshell-reference-architecture-for-safe-ai-agents",
-     "source": "NVIDIA 官方新闻稿（经 Morningstar/GlobeNewswire）｜2026-10-21",
-     "tags": [
-      "行业动态"
-     ]
-    },
-    {
-     "rank": "07",
-     "title": "Google Cloud × NVIDIA：A5X 实例 11 月 GA，首批 Vera Rubin NVL72 云实例",
-     "summary": "双方宣布基于 NVIDIA Vera Rubin NVL72 的 Google Cloud A5X 实例将于 11 月正式 GA，并计划扩展到欧洲。配置包括 Vera Rubin NVL72、ConnectX-9 SuperNIC、Google Virgo 网络与第四代液冷，定位高要求 Agentic 推理与强化学习工作负载。首批客户为 David Silver 创办的 Ineffable Intelligence（用于持续学习的 RL",
-     "url": "https://blockchain.news/news/google-cloud-nvidia-a5x-general-availability-november-2026",
-     "source": "Blockchain.News（引自 NVIDIA 公告）｜2026-10-21",
-     "tags": [
-      "行业动态"
-     ]
-    },
-    {
-     "rank": "08",
-     "title": "美国 DHS 下令联邦文职机构移除 DeepSeek：7 月签发、10 月公开",
-     "summary": "依据《2018 联邦采购供应链安全法》，DHS 发布第 2026-01 号排除与移除令：联邦文职机构须停止采购杭州深度求索及其关联实体的 IT 产品与服务，并从现有系统中移除 DeepSeek 产品——包括\"使用 DeepSeek 实现构建的\"第三方产品与服务。DHS 给出的理由是\"多重威胁向量\"：政府雇员或供应商使用可能导致敏感数据传至中国、模型本身可能含恶意软件或漏洞。命令仅约束文职机构的采购与运行，不限制企业与公众；国防与情报系统",
-     "url": "https://thehackernews.com/2026/10/us-orders-deepseek-removed-from-federal.html",
-     "source": "The Hacker News｜2026-10-21（命令由 DHS 部长 Markwayne Mullin 于 2026-07-24 签发，10-19 公开查阅、10-20 登联邦公报，编号 2026-21447）",
-     "tags": [
-      "行业动态"
-     ]
-    }
-   ]
-  },
-  {
    "id": "github-hot",
    "title": "GitHub 今日热门",
    "shortTitle": "GitHub 热榜",
@@ -365,6 +261,120 @@
      ]
     }
    ]
+  },
+  {
+   "id": "tech-ai",
+   "title": "AI 与大模型",
+   "shortTitle": "AI 大模型",
+   "description": "大模型发布与更新",
+   "items": [
+    {
+     "rank": "01",
+     "title": "Recursive 开源 40B MoE 本地编程模型 Flint：Apache 2.0，小团队加 AI 四个月从零训练",
+     "summary": "Recursive（Richard Socher 创办）发布 Flint：400 亿参数 MoE 编程模型，每 token 仅激活 25 亿参数，Apache 2.0 开源权重。在 M4 Pro MacBook Pro 上短上下文推理 125+ tok/s，64GB NVIDIA RTX Spark 上 150+ tok/s；SWE-Bench Pro v2、Terminal-Bench 2.1、SWE-Bench Verified 上",
+     "url": "https://forkast.news/recursive-si-launches-flint-40b-open-weights-that-run-on-the-developers-own-machine/",
+     "source": "Forkast / The Decoder / OpenHands｜2026-10-21",
+     "tags": [
+      "AI 大模型"
+     ]
+    },
+    {
+     "rank": "02",
+     "title": "讯飞星火 X2.6 发布：293B MoE、百万上下文，号称全程国产算力训练",
+     "summary": "科大讯飞在 1024 全球开发者节发布星火 X2.6：293B 总参数、激活 30B 的 MoE 架构，上下文窗口扩展至 100 万 tokens，主打代码生成与多步任务执行。董事长刘庆峰称这是业界唯一全程基于国产算力训练的大模型，并突破了国产芯片长任务训练的效率瓶颈；轻量版 X2.6-4B 开源，推理定价 0.9–3.6 元/百万 tokens。",
+     "url": "https://www.kucoin.com/news/flash/iflytek-launches-x2-6-end-cloud-ai-model-based-on-fully-domestic-compute-power",
+     "source": "IT Home（经 KuCoin 转载）｜2026-10-22（1024 开发者节）",
+     "tags": [
+      "AI 大模型"
+     ]
+    },
+    {
+     "rank": "03",
+     "title": "彭博：DeepSeek 正完成约 150 亿美元融资",
+     "summary": "彭博报道 DeepSeek 正在完成约 150 亿美元融资，以在 AI 竞赛中追赶美国头部实验室。此前 9 月路透报道其已聘请中信证券筹备科创板 IPO。上月发布的 DeepSeek-V4.1-Flash 主打更快推理与更高吞吐，10 月 17 日又推出 1017 版本并开放 Search/Fetch API。",
+     "url": "https://ktwb.com/2026/10/21/deepseek-raises-15-billion-in-challenge-to-leading-us-labs-bloomberg-news-reports/",
+     "source": "彭博社（经第三方转载）｜2026-10-22",
+     "tags": [
+      "AI 大模型"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "tech-dev",
+   "title": "AI 工程与开发工具",
+   "shortTitle": "开发工具",
+   "description": "模型部署 · AI 编程 · Agent",
+   "items": [
+    {
+     "rank": "04",
+     "title": "OpenAI Decisions API 正式 GA：GPT-6 Luna 驱动，决策型推理快 10 倍",
+     "summary": "OpenAI 宣布 Decisions API 结束公测正式 GA：由 GPT-6 Luna 驱动，返回有界的 typed 答案（概率、选项、评分），用于内容分类、请求路由、工作优先级排序，输入价格 $0.10/百万 tokens。官方称相比经由 Responses API 调用 Luna 提问，决策端点快 10 倍。",
+     "url": "https://www.unite.ai/openai-makes-decisions-api-generally-available-with-gpt-6-luna/",
+     "source": "Unite.AI｜2026-10-22",
+     "tags": [
+      "开发工具"
+     ]
+    },
+    {
+     "rank": "05",
+     "title": "NVIDIA 发布 Kumo 开放权重模型家族：专攻企业结构化数据推理",
+     "summary": "黄仁勋在 GTC Berlin 发布 Agent Knowledge Foundation，其中的 Kumo 模型家族（Tabular、Relational、Time Series、Forecast 四款）专为 agent 推理企业结构化数据设计，与 Nemotron Retriever（非结构化文档）互补。开放权重已上架 Hugging Face，并以 NVIDIA NIM 微服务形式提供；Kumo Tabular 在 agentic",
+     "url": "https://blogs.nvidia.com/blog/gtc-berlin-2026-keynote/",
+     "source": "NVIDIA 官方博客（GTC Berlin 主题演讲实录）｜2026-10-21",
+     "tags": [
+      "开发工具"
+     ]
+    },
+    {
+     "rank": "06",
+     "title": "1Password 推出 1Password for Agents：AI 登录，密码不出 vault",
+     "summary": "1Password 发布 1Password for Agents 平台：agent 需要登录时向 1Password 出示数字身份密钥，用户在自己设备上逐次审批后，1Password 直接把凭证填入登录表单——agent 与其背后的模型永远看不到密码和一次性验证码。首批支持 Meta Muse、Grok Bot，随后接入 Claude Duet、ChatGPT Work、Dots 等；个人与家庭版免费。",
+     "url": "https://www.macrumors.com/2026/10/22/1password-for-agents/",
+     "source": "MacRumors / Digital Trends｜2026-10-22",
+     "tags": [
+      "开发工具"
+     ]
+    },
+    {
+     "rank": "07",
+     "title": "Framer 推出官方 MCP 服务器：AI agent 可直接设计、构建网站",
+     "summary": "网站搭建工具 Framer 发布 Framer MCP：远程 MCP 服务器加 OAuth，ChatGPT、Claude、Codex、Cursor、Grok 等 AI agent 可在用户权限下操作画布、组件、CMS 与项目设置，无需打开编辑器，改动保留在项目或分支中直到显式发布。Framer 称 MCP 已取代旧的本地 External Agents CLI，成为官方推荐的 AI 接入方式。",
+     "url": "https://dealroom.co/news/x-2113279156339290319-amsterdam-founded-framer-launches-an-mcp-server-so-chatgpt-claude-cursor/",
+     "source": "Dealroom｜2026-10-22",
+     "tags": [
+      "开发工具"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "tech-industry",
+   "title": "科技行业动态",
+   "shortTitle": "行业动态",
+   "description": "公司动态 · 产品发布 · 芯片与云",
+   "items": [
+    {
+     "rank": "08",
+     "title": "NVIDIA 发布 DSX POD：Vera Rubin AI 工厂参考设计，部署周期从数月压缩到 14 天",
+     "summary": "NVIDIA 在 GTC Berlin 发布 DSX POD：完整的 Vera Rubin AI 工厂参考设计，由 Bull、戴尔、HPE、联想、施耐德电气、Vertiv 等生态伙伴以模块化集装箱形式工厂预集成、预验证后交付；准备就绪的站点部署时间从约六个月压缩到最短 14 天，加速\"首个生产 token\"上线。",
+     "url": "https://www.storagenewsletter.com/2026/10/22/nvidia-gtc-berlin-2026-nvidia-introduces-dsx-pod-ai-factories-to-accelerate-europes-infrastructure-deployment/",
+     "source": "StorageNewsletter（新闻稿整理）｜2026-10-22（GTC Berlin）",
+     "tags": [
+      "行业动态"
+     ]
+    },
+    {
+     "rank": "09",
+     "title": "Agility Robotics：人形机器人 Digit 5 全系采用 NVIDIA IGX Thor",
+     "summary": "Agility Robotics 宣布下一代人形机器人 Digit 5 的车载算力将统一标准化为 NVIDIA IGX Thor 模块，NVIDIA 成为其量产版唯一车载算力供应商；此前双方已在 NVIDIA Halos 安全平台上合作。Digit 5 正为工厂与仓储场景的规模化商用部署做准备。",
+     "url": "https://www.manilatimes.net/2026/10/22/tmt-newswire/globenewswire/agility-robotics-expands-nvidia-collaboration-as-it-prepares-digit-5-for-commercial-scale/2451676",
+     "source": "GlobeNewswire（经 Manila Times）｜2026-10-22",
+     "tags": [
+      "行业动态"
+     ]
+    }
+   ]
   }
  ],
  "_pipelines": {
@@ -389,20 +399,20 @@
   "tech-news": {
    "digest": [
     {
-     "title": "Anthropic 正式",
-     "text": "Anthropic 正式推出主动式 AI Agent 产品 Claude Duet：常驻后台、每日简报、跨 6000+ 连接器自主执行任务，首批仅面向美国 Pro/Max 订阅用户（waitlist research preview）。"
-    },
-    {
-     "title": "OpenAI 与 Goo",
-     "text": "OpenAI 与 Google Cloud 同日宣布：GPT-6 Astra、GPT-6.1 Sol、GPT-6 Luna 以私有预览方式进驻 Google Cloud 模型花园，微软、AWS 之后第三家上架 GPT-6 的云厂商，GA 计划数周内到来。"
+     "title": "Recursive 开源",
+     "text": "Recursive 开源 40B MoE 本地编程模型 Flint：Apache 2.0 权重，M4 Pro 上 125+ tok/s，小团队加 AI 四个月从零训练。"
     },
     {
      "title": "速览",
-     "text": "NVIDIA 在 GTC Berlin 发布 OpenShell 全栈安全 Agent 参考架构；同场宣布 Google Cloud A5X（Vera Rubin NVL72）11 月 GA。Agent 的安全与算力基建正在同步成型。"
+     "text": "讯飞星火 X2.6 发布（293B MoE、百万上下文，号称全程国产算力训练）；DeepSeek 正完成约 150 亿美元融资（彭博）。"
+    },
+    {
+     "title": "OpenAI Decis",
+     "text": "OpenAI Decisions API 正式 GA：决策型推理快 10 倍；1Password 推出 Agent 凭证平台，密码不出 vault。"
     }
    ],
-   "highlight": "Anthropic 正式推出主动式 AI Agent 产品 Claude Duet：常驻后台、每日简报、跨 6000+ 连接器自主执行任务，首批仅面向美国 Pro/Max 订阅用户（waitlist research preview）。",
-   "date": "2026-10-22"
+   "highlight": "Recursive 开源 40B MoE 本地编程模型 Flint：Apache 2.0 权重，M4 Pro 上 125+ tok/s，小团队加 AI 四个月从零训练。",
+   "date": "2026-10-23"
   }
  },
  "digest": [
@@ -411,11 +421,11 @@
    "text": "大厂\"方法论 skill 化\"路线连续三天领跑：Cloudflare 安全审计 skill +2,979 大幅加速（昨日 +2,012），总数逼近 4 万；Anthropic 官方插件库周增量七连加速中断（+5,703→+5,649），生态 adoption 进入高位消化期。"
   },
   {
-   "title": "Anthropic 正式",
-   "text": "Anthropic 正式推出主动式 AI Agent 产品 Claude Duet：常驻后台、每日简报、跨 6000+ 连接器自主执行任务，首批仅面向美国 Pro/Max 订阅用户（waitlist research preview）。"
+   "title": "Recursive 开源",
+   "text": "Recursive 开源 40B MoE 本地编程模型 Flint：Apache 2.0 权重，M4 Pro 上 125+ tok/s，小团队加 AI 四个月从零训练。"
   }
  ],
- "intro": "大厂\"方法论 skill 化\"路线连续三天领跑：Cloudflare 安全审计 skill +2,979 大幅加速（昨日 +2,012），总数逼近 4 万；Anthropic 官方插件库周增量七连加速中断（+5,703→+5,649），生态 adoption 进入高位消化期。 Anthropic 正式推出主动式 AI Agent 产品 Claude Duet：常驻后台、每日简报、跨 6000+ 连接器自主执行任务，首批仅面向美国 Pro/Max 订阅用户（waitlist research preview）。",
+ "intro": "大厂\"方法论 skill 化\"路线连续三天领跑：Cloudflare 安全审计 skill +2,979 大幅加速（昨日 +2,012），总数逼近 4 万；Anthropic 官方插件库周增量七连加速中断（+5,703→+5,649），生态 adoption 进入高位消化期。 Recursive 开源 40B MoE 本地编程模型 Flint：Apache 2.0 权重，M4 Pro 上 125+ tok/s，小团队加 AI 四个月从零训练。",
  "tasks": [
   {
    "icon": "GH",
@@ -432,5 +442,5 @@
  ],
  "date": "2026-10-23",
  "issue": "023",
- "updatedAt": "00:33 更新"
+ "updatedAt": "01:04 更新"
 }
