@@ -1,0 +1,436 @@
+{
+ "sections": [
+  {
+   "id": "tech-ai",
+   "title": "AI 与大模型",
+   "shortTitle": "AI 大模型",
+   "description": "大模型发布与更新",
+   "items": [
+    {
+     "rank": "01",
+     "title": "Anthropic 正式推出 Claude Duet：常驻型主动 AI Agent 应用",
+     "summary": "Duet 是面向专业人士和小企业主的独立 AI Agent 应用，基于 Claude Opus 5.5，可用性为候补制 research preview，暂限美国 Claude Pro/Max 订阅用户（共享既有用量额度）。它常驻运行：每天晨间推送重要事项简报，每隔几小时检查已连接应用、发现需处理事项即主动提醒，并可独立完成排会、构建财务预测、开发 Web 应用等任务，支持通过 Stripe Link 与 Shopify Shop Pa",
+     "url": "https://www.channelnewsasia.com/business/anthropic-unveils-claude-duet-ai-agent-app-6480311",
+     "source": "Channel News Asia｜2026-10-22（对应美东 10-21 发布）",
+     "tags": [
+      "AI 大模型"
+     ]
+    },
+    {
+     "rank": "02",
+     "title": "GPT-6 登陆 Google Cloud：Astra、6.1 Sol、Luna 三款模型进驻模型花园",
+     "summary": "Google Cloud 宣布 GPT-6 Astra、GPT-6.1 Sol、GPT-6 Luna 以私有预览方式进驻其模型花园，仅面向部分企业客户；OpenAI 同步发文确认 GA 计划在未来数周内到来，并强调\"微软仍是 OpenAI 的首要云合作伙伴\"。采购走 Google Cloud Marketplace，单张 Google 账单结算、可抵扣已有云承诺消费额并计入 Flexible Savings Plans。核心场景之一是 ",
+     "url": "https://www.digitalapplied.com/blog/openai-models-google-cloud-model-garden-preview",
+     "source": "Digital Applied（综合 Google Cloud 与 OpenAI 官方公告）｜2026-10-21",
+     "tags": [
+      "AI 大模型"
+     ]
+    },
+    {
+     "rank": "03",
+     "title": "OpenAI：近 2000 个 GPT-Rosalind Agent 32 分钟解析小鼠全脑 CRISPR 图谱",
+     "summary": "OpenAI 与 PerturbAI、Scripps Research 合作，发布\"分布式生物推理\"研究：约 2000 个基于 GPT-Rosalind（OpenAI 生命科学模型）的 Agent 并行分析一个覆盖近 800 万个小鼠脑细胞、近 2000 个基因扰动的全脑 CRISPR 图谱，32 分钟完成人类团队需数月到一年的分析与文献回顾。各 Agent 逐个研究基因扰动效应、检索文献并撰写报告，再汇总成含 3397 条发现、可公开",
+     "url": "https://www.unite.ai/openai-unveils-mouse-brain-reasoning-atlas-from-gpt-rosalind-agents/",
+     "source": "Unite.AI（源自 OpenAI 研究公告 + bioRxiv 预印本）｜2026-10-21",
+     "tags": [
+      "AI 大模型"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "tech-dev",
+   "title": "AI 工程与开发工具",
+   "shortTitle": "开发工具",
+   "description": "模型部署 · AI 编程 · Agent",
+   "items": [
+    {
+     "rank": "04",
+     "title": "Anthropic 为 Claude Security 增加持续扫描与自动修复跟踪",
+     "summary": "Claude Security 从定时扫描转向基于提交触发的持续监控：接入仓库后先做一次深度基线扫描，之后随代码变更做轻量增量扫描；每个漏洞独立跟踪，检测到修复提交后自动标记关闭、复发则重开。单个项目最多接入 8 个仓库（GitHub/GitLab），发现可经 API/MCP 流入外部工具。面向 Claude Enterprise 客户公测，符合条件机构可获每月 2.5 万美元用量抵扣（持续 2 个月，截止 2026-12-31）。An",
+     "url": "https://www.unite.ai/anthropic-adds-continuous-scanning-and-fix-tracking-to-claude-security/",
+     "source": "Unite.AI｜2026-10-21",
+     "tags": [
+      "开发工具"
+     ]
+    },
+    {
+     "rank": "05",
+     "title": "Glean 推出无头 Agent 构建：在 Claude Code、Cursor、Codex 中以代码方式编写 Agent",
+     "summary": "企业知识平台 Glean 正式 GA\"无头 Agent 构建\"功能：开发者可在 Claude Code、Cursor、Codex 等编码环境中以代码方式创建、测试、发布 Agent，成品运行在 Glean 的托管运行时上，复用其知识图谱、275+ 企业数据源的权限访问与审计链路。与低代码可视化 Agent 构建器并存，Glean 强调以软件工程的严谨性（版本控制、测试、评审、回滚）管理 Agent。",
+     "url": "https://www.unite.ai/glean-adds-headless-agent-building-for-claude-code-cursor-and-codex/",
+     "source": "Unite.AI｜2026-10-21",
+     "tags": [
+      "开发工具"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "tech-industry",
+   "title": "科技行业动态",
+   "shortTitle": "行业动态",
+   "description": "公司动态 · 产品发布 · 芯片与云",
+   "items": [
+    {
+     "rank": "06",
+     "title": "NVIDIA 在 GTC Berlin 发布 OpenShell 全栈安全 Agent 参考架构",
+     "summary": "NVIDIA 发布 OpenShell 参考架构，把 OpenShell 安全运行时扩展为全栈企业级 Agent 基建：Vera Rubin 算力跑模型（含 Nemotron 开闭源模型）、Vera CPU 跑 Agent harness、开源 OpenShell 软件做运行时沙箱、BlueField DPU 运行 Sentry 安全框架做带外持续监控与芯片级策略执行。覆盖 Linux/K8s（Canonical、SUSE、Red Ha",
+     "url": "https://www.morningstar.com/news/globe-newswire/9850318/nvidia-launches-openshell-reference-architecture-for-safe-ai-agents",
+     "source": "NVIDIA 官方新闻稿（经 Morningstar/GlobeNewswire）｜2026-10-21",
+     "tags": [
+      "行业动态"
+     ]
+    },
+    {
+     "rank": "07",
+     "title": "Google Cloud × NVIDIA：A5X 实例 11 月 GA，首批 Vera Rubin NVL72 云实例",
+     "summary": "双方宣布基于 NVIDIA Vera Rubin NVL72 的 Google Cloud A5X 实例将于 11 月正式 GA，并计划扩展到欧洲。配置包括 Vera Rubin NVL72、ConnectX-9 SuperNIC、Google Virgo 网络与第四代液冷，定位高要求 Agentic 推理与强化学习工作负载。首批客户为 David Silver 创办的 Ineffable Intelligence（用于持续学习的 RL",
+     "url": "https://blockchain.news/news/google-cloud-nvidia-a5x-general-availability-november-2026",
+     "source": "Blockchain.News（引自 NVIDIA 公告）｜2026-10-21",
+     "tags": [
+      "行业动态"
+     ]
+    },
+    {
+     "rank": "08",
+     "title": "美国 DHS 下令联邦文职机构移除 DeepSeek：7 月签发、10 月公开",
+     "summary": "依据《2018 联邦采购供应链安全法》，DHS 发布第 2026-01 号排除与移除令：联邦文职机构须停止采购杭州深度求索及其关联实体的 IT 产品与服务，并从现有系统中移除 DeepSeek 产品——包括\"使用 DeepSeek 实现构建的\"第三方产品与服务。DHS 给出的理由是\"多重威胁向量\"：政府雇员或供应商使用可能导致敏感数据传至中国、模型本身可能含恶意软件或漏洞。命令仅约束文职机构的采购与运行，不限制企业与公众；国防与情报系统",
+     "url": "https://thehackernews.com/2026/10/us-orders-deepseek-removed-from-federal.html",
+     "source": "The Hacker News｜2026-10-21（命令由 DHS 部长 Markwayne Mullin 于 2026-07-24 签发，10-19 公开查阅、10-20 登联邦公报，编号 2026-21447）",
+     "tags": [
+      "行业动态"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "github-hot",
+   "title": "GitHub 今日热门",
+   "shortTitle": "GitHub 热榜",
+   "description": "综合热度、活跃度与实用价值排序",
+   "items": [
+    {
+     "rank": "01",
+     "title": "cloudflare/security-audit-skill",
+     "summary": "它解决的是\"agent 写代码快、但安全审计跟不上\"的问题——Cloudflare 把内部漏洞挖掘 harness 的方法论 skill 化：六阶段流程、每个漏洞候选由独立 agent 证伪、输出机器可读报告，单日 +2,979 三连加速。做 agent 安全或想给代码做深度审计的人，这是目前最成体系的开源方案。",
+     "url": "https://github.com/cloudflare/security-audit-skill",
+     "stars": "39.6k",
+     "trend": "+2,979",
+     "tags": [
+      "强烈推荐"
+     ],
+     "featured": true
+    },
+    {
+     "rank": "02",
+     "title": "DietrichGebert/ponytail",
+     "summary": "让 AI agent 像\"最懒的高级工程师\"一样思考：最好的代码是永远不用写的代码。 ① 一套 agent 行为哲学/提示词层，约束 agent 少写代码多复用；② 支持 20 种 agent（Claude Code 等）；③ npm 包 @dietrichgebert/ponytail 分发，MIT 协议。",
+     "url": "https://github.com/DietrichGebert/ponytail",
+     "stars": "173.5k",
+     "trend": "+1,948",
+     "tags": [
+      "值得关注"
+     ]
+    },
+    {
+     "rank": "03",
+     "title": "Graphify-Labs/graphify",
+     "summary": "一个 Claude Code skill：把代码库、文档、PDF、截图一股脑变成可查询的知识图谱，号称比读原始文件省 71.5 倍 token。 ① `/graphify` 一行命令扫描任意目录，输出交互式 graph.html + Obsidian 仓库 + wiki；② 多模态：代码、PDF、截图、白板照片全吃，用 Claude vision 抽概念；③ 本地确定性 AST 解析，诚实标注\"发",
+     "url": "https://github.com/Graphify-Labs/graphify",
+     "stars": "132.9k",
+     "trend": "+1,408",
+     "tags": [
+      "值得关注"
+     ]
+    },
+    {
+     "rank": "04",
+     "title": "stablyai/orca",
+     "summary": "Agent 舰队的工作台：一个地方同时驾驭 Grok Bot、Claude Code 等多个 agent，桌面/移动/远程运行时全覆盖。 ① 多 agent 统一管理与调度的工作台；② 桌面、移动、远程运行时全平台；③ MIT 协议，社区 Discord 活跃。",
+     "url": "https://github.com/stablyai/orca",
+     "stars": "102.7k",
+     "tags": [
+      "值得关注"
+     ]
+    },
+    {
+     "rank": "05",
+     "title": "luongnv89/claude-howto",
+     "summary": "\"一个周末精通 Claude Code\"：可视化、示例驱动的 Claude Code 学习路径——从基础概念到高级 agent 编排，附可复制粘贴的模板。 ① 从输入 `claude` 到编排 agents、hooks、skills、MCP servers 的完整学习路线；② 可视化教程 + 复制即用模板；③ 英/越/中/乌/日五语言版本，附功能目录 CATALOG.md。",
+     "url": "https://github.com/luongnv89/claude-howto",
+     "stars": "43.2k",
+     "trend": "+177",
+     "tags": [
+      "值得关注"
+     ]
+    },
+    {
+     "rank": "06",
+     "title": "supabase/supabase",
+     "summary": "Postgres 开发平台：给你一个专属 Postgres 数据库，再把认证、实时订阅、存储、Edge Functions 一站式配齐的开源后端。 ① 专属 Postgres 数据库即开即用；② 内置认证、实时、存储、向量支持；③ 开源可自托管，也有托管版。",
+     "url": "https://github.com/supabase/supabase",
+     "stars": "113.5k",
+     "trend": "+693",
+     "tags": [
+      "了解即可"
+     ]
+    },
+    {
+     "rank": "07",
+     "title": "Meloong-Git/PCL",
+     "summary": "开源 Minecraft 启动器 Plain Craft Launcher：大部分源代码公开，含 UI 库、动画模块、下载模块、Minecraft 启动模块。 ① Minecraft 启动与版本管理；② 自研 UI 库与动画模块；③ 代码随每次发布同步更新，社区支持活跃（B 站动态、爱发电）。",
+     "url": "https://github.com/Meloong-Git/PCL",
+     "stars": "8.7k",
+     "trend": "+119",
+     "tags": [
+      "了解即可"
+     ]
+    },
+    {
+     "rank": "08",
+     "title": "fastapi/fastapi",
+     "summary": "高性能、易学、开箱即用的 Python Web 框架：类型注解即文档，自动生成 OpenAPI，AI 服务接口的事实标准之一。 ① 基于类型提示的参数校验与文档生成；② 异步原生支持，性能拉满；③ 庞大的中间件与生态。",
+     "url": "https://github.com/fastapi/fastapi",
+     "stars": "103.7k",
+     "trend": "+101",
+     "tags": [
+      "了解即可"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "github-rising",
+   "title": "Star 增长最快",
+   "shortTitle": "增长最快",
+   "description": "按实际 Star 增量排序",
+   "items": [
+    {
+     "rank": "01",
+     "title": "morluto/rea",
+     "summary": "⚠️ 较昨日口径（+129,417）继续降温，但仍是周榜第一（第八天），总数突破 36.6 万。",
+     "url": "https://github.com/morluto/rea",
+     "stars": "366.2k",
+     "trend": "+106,341",
+     "tags": [
+      "高增长"
+     ]
+    },
+    {
+     "rank": "02",
+     "title": "debpalash/VoiceStudio",
+     "summary": "较昨日（+15,125）继续降温，本地语音工具需求仍在高位。",
+     "url": "https://github.com/debpalash/VoiceStudio",
+     "stars": "81.8k",
+     "trend": "+13,581",
+     "tags": [
+      "高增长"
+     ]
+    },
+    {
+     "rank": "03",
+     "title": "stablyai/orca",
+     "summary": "较昨日（+8,705）逆势反弹，舰队管理需求回升。",
+     "url": "https://github.com/stablyai/orca",
+     "stars": "102.7k",
+     "trend": "+9,401",
+     "tags": [
+      "高增长"
+     ]
+    },
+    {
+     "rank": "04",
+     "title": "anomalyco/opencode",
+     "summary": "较昨日（+6,545）小幅升温，开源 coding agent 元老增长稳健。",
+     "url": "https://github.com/anomalyco/opencode",
+     "stars": "220.2k",
+     "trend": "+6,750",
+     "tags": [
+      "高增长"
+     ]
+    },
+    {
+     "rank": "05",
+     "title": "heygen-com/hyperframes",
+     "summary": "\"写 HTML，渲染视频，为 agent 而造\"，较昨日（+5,740）小幅降温。",
+     "url": "https://github.com/heygen-com/hyperframes",
+     "stars": "70.0k",
+     "trend": "+5,669",
+     "tags": [
+      "高增长"
+     ]
+    },
+    {
+     "rank": "06",
+     "title": "anthropics/claude-plugins-official",
+     "summary": "⚠️ 七连加速中断（2,328→3,581→4,774→5,441→5,650→5,703→5,649）：微降 54，插件生态 adoption 进入高位消化期。",
+     "url": "https://github.com/anthropics/claude-plugins-official",
+     "stars": "43.9k",
+     "trend": "+5,649",
+     "tags": [
+      "高增长"
+     ]
+    },
+    {
+     "rank": "07",
+     "title": "NationalSecurityAgency/ghidra",
+     "summary": "⚠️ 老项目回春第八周（6,614→7,510→7,608→7,602→7,152→6,184→5,769→4,892）：增速温和回落但总数逼近 9.3 万，rea 带起的逆向热潮后劲仍在。",
+     "url": "https://github.com/NationalSecurityAgency/ghidra",
+     "stars": "93.2k",
+     "trend": "+4,892",
+     "tags": [
+      "高增长"
+     ]
+    },
+    {
+     "rank": "08",
+     "title": "Comfy-Org/ComfyUI",
+     "summary": "新上周榜，14.2 万 star 的扩散模型 GUI 老将回暖。",
+     "url": "https://github.com/Comfy-Org/ComfyUI",
+     "stars": "142.0k",
+     "trend": "+4,375",
+     "tags": [
+      "高增长"
+     ]
+    },
+    {
+     "rank": "09",
+     "title": "K-Dense-AI/scientific-agent-skills",
+     "summary": "较昨日（+4,719）降温，177 个科学 skills 的\"AI 科学家\"货架。",
+     "url": "https://github.com/K-Dense-AI/scientific-agent-skills",
+     "stars": "53.9k",
+     "trend": "+3,967",
+     "tags": [
+      "高增长"
+     ]
+    },
+    {
+     "rank": "10",
+     "title": "ruvnet/ruflo",
+     "summary": "较昨日（+3,590）升温，agent harness 赛道仍在加码。",
+     "url": "https://github.com/ruvnet/ruflo",
+     "stars": "78.5k",
+     "trend": "+3,708",
+     "tags": [
+      "高增长"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "github-new",
+   "title": "值得关注的新项目",
+   "shortTitle": "新项目",
+   "description": "近期创建、增长迅速的有潜力项目",
+   "items": [
+    {
+     "rank": "01",
+     "title": "deepseek-ai/DeepInfer",
+     "summary": "DeepSeek 官方开源的生产级大模型推理框架：就是支撑 DeepSeek 线上大规模服务的那套推理引擎的开源版本。 ① FlashMLA/DeepGEMM/DeepEP/TileLang 自研算子全家桶；② MoE EP + EPLB 并行、异步调度、确定性采样、结构化输出；③ 首批支持 DeepSeek-V4.1-Flash，离线推理开箱即用。",
+     "url": "https://github.com/deepseek-ai/DeepInfer",
+     "stars": "19.9k",
+     "tags": [
+      "强烈推荐"
+     ]
+    },
+    {
+     "rank": "02",
+     "title": "Gathin23/cleanyourtv",
+     "summary": "给安卓电视/谷歌电视\"洗澡\"：Wi-Fi 无线去臃肿，换上干净的类 Apple TV 启动器，不用 root、一键还原。 ① 通过 Wi-Fi 给电视去 bloatware；② 替换广告满屏的默认桌面为干净启动器；③ 不 root、不删东西，一行命令还原。",
+     "url": "https://github.com/Gathin23/cleanyourtv",
+     "stars": "24.0k",
+     "tags": [
+      "强烈推荐"
+     ]
+    },
+    {
+     "rank": "03",
+     "title": "KnifeLemon/Filee",
+     "summary": "免费开源的拖拽式文件转换器：按住按键、把文件拖到光标处弹出的格式圆环上，244+ 种格式离线互转。 ① 图片/PDF/Word/Excel/PPT/HWP/视频等 244+ 格式离线转换；② 独创的\"拖拽到格式圆环\"交互；③ 命令行模式 + 官网 filee.sh，C# 编写。",
+     "url": "https://github.com/KnifeLemon/Filee",
+     "stars": "10.1k",
+     "tags": [
+      "值得关注"
+     ]
+    },
+    {
+     "rank": "04",
+     "title": "yihui-dev/awesome-opus5-5-videos",
+     "summary": "用 Claude Opus 5.5 做出的 418 个病毒视频合集：每个视频附带原作者分享的 prompt，教你\"让模型写代码做动画\"。 ① 418 个视频案例（游戏、3D 场景、科普动画、动效），每个可对照原版与复刻版；② 703 个可直接复制的 prompt，覆盖 HTML/Canvas/SVG/Three.js；③ 按类型整理的索引，挑一个复制 prompt 就能自己跑。",
+     "url": "https://github.com/yihui-dev/awesome-opus5-5-videos",
+     "stars": "9.3k",
+     "tags": [
+      "了解即可"
+     ]
+    }
+   ]
+  }
+ ],
+ "_pipelines": {
+  "github": {
+   "digest": [
+    {
+     "title": "大厂\"方法论 skill",
+     "text": "大厂\"方法论 skill 化\"路线连续三天领跑：Cloudflare 安全审计 skill +2,979 大幅加速（昨日 +2,012），总数逼近 4 万；Anthropic 官方插件库周增量七连加速中断（+5,703→+5,649），生态 adoption 进入高位消化期。"
+    },
+    {
+     "title": "给 agent 做减法",
+     "text": "\"给 agent 做减法\"矩阵分化：ponytail（+1,948）、graphify（+1,408）微降但仍霸榜，orca 周增量反弹至 +9,401——省 token 工具从\"爆发\"进入\"稳态增长\"，而舰队管理需求在回升。"
+    },
+    {
+     "title": "求职 agent ai-",
+     "text": "求职 agent ai-job-search 掉出双榜（连续四天日榜后热度退潮）；新面孔：Claude Code 周末速成教程 claude-howto、开源 MC 启动器 PCL 新上日榜，cleanyourtv 单日再涨 4,900、Filee 单日 +2,100 继续爆。"
+    }
+   ],
+   "highlight": "大厂\"方法论 skill 化\"路线连续三天领跑：Cloudflare 安全审计 skill +2,979 大幅加速（昨日 +2,012），总数逼近 4 万；Anthropic 官方插件库周增量七连加速中断（+5,703→+5,649），生态 adoption 进入高位消化期。",
+   "date": "2026-10-23"
+  },
+  "tech-news": {
+   "digest": [
+    {
+     "title": "Anthropic 正式",
+     "text": "Anthropic 正式推出主动式 AI Agent 产品 Claude Duet：常驻后台、每日简报、跨 6000+ 连接器自主执行任务，首批仅面向美国 Pro/Max 订阅用户（waitlist research preview）。"
+    },
+    {
+     "title": "OpenAI 与 Goo",
+     "text": "OpenAI 与 Google Cloud 同日宣布：GPT-6 Astra、GPT-6.1 Sol、GPT-6 Luna 以私有预览方式进驻 Google Cloud 模型花园，微软、AWS 之后第三家上架 GPT-6 的云厂商，GA 计划数周内到来。"
+    },
+    {
+     "title": "速览",
+     "text": "NVIDIA 在 GTC Berlin 发布 OpenShell 全栈安全 Agent 参考架构；同场宣布 Google Cloud A5X（Vera Rubin NVL72）11 月 GA。Agent 的安全与算力基建正在同步成型。"
+    }
+   ],
+   "highlight": "Anthropic 正式推出主动式 AI Agent 产品 Claude Duet：常驻后台、每日简报、跨 6000+ 连接器自主执行任务，首批仅面向美国 Pro/Max 订阅用户（waitlist research preview）。",
+   "date": "2026-10-22"
+  }
+ },
+ "digest": [
+  {
+   "title": "大厂\"方法论 skill",
+   "text": "大厂\"方法论 skill 化\"路线连续三天领跑：Cloudflare 安全审计 skill +2,979 大幅加速（昨日 +2,012），总数逼近 4 万；Anthropic 官方插件库周增量七连加速中断（+5,703→+5,649），生态 adoption 进入高位消化期。"
+  },
+  {
+   "title": "Anthropic 正式",
+   "text": "Anthropic 正式推出主动式 AI Agent 产品 Claude Duet：常驻后台、每日简报、跨 6000+ 连接器自主执行任务，首批仅面向美国 Pro/Max 订阅用户（waitlist research preview）。"
+  }
+ ],
+ "intro": "大厂\"方法论 skill 化\"路线连续三天领跑：Cloudflare 安全审计 skill +2,979 大幅加速（昨日 +2,012），总数逼近 4 万；Anthropic 官方插件库周增量七连加速中断（+5,703→+5,649），生态 adoption 进入高位消化期。 Anthropic 正式推出主动式 AI Agent 产品 Claude Duet：常驻后台、每日简报、跨 6000+ 连接器自主执行任务，首批仅面向美国 Pro/Max 订阅用户（waitlist research preview）。",
+ "tasks": [
+  {
+   "icon": "GH",
+   "name": "GitHub 开源情报",
+   "detail": "Trending · Star 增速 · 新项目",
+   "time": "08:30"
+  },
+  {
+   "icon": "NW",
+   "name": "科技新闻日报",
+   "detail": "新闻聚合 · 中文简报",
+   "time": "09:00"
+  }
+ ],
+ "date": "2026-10-23",
+ "issue": "023",
+ "updatedAt": "00:33 更新"
+}
