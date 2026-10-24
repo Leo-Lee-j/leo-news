@@ -1,268 +1,6 @@
 {
  "sections": [
   {
-   "id": "github-hot",
-   "title": "GitHub 今日热门",
-   "shortTitle": "GitHub 热榜",
-   "description": "综合热度、活跃度与实用价值排序",
-   "items": [
-    {
-     "rank": "01",
-     "title": "cloudflare/security-audit-skill",
-     "summary": "它解决的是\"agent 写代码快、但安全审计跟不上\"的问题——Cloudflare 把内部漏洞挖掘 harness 的方法论 skill 化：六阶段流程、每个漏洞候选由独立 agent 证伪、输出机器可读报告，单日 +2,979 三连加速。做 agent 安全或想给代码做深度审计的人，这是目前最成体系的开源方案。",
-     "url": "https://github.com/cloudflare/security-audit-skill",
-     "stars": "39.6k",
-     "trend": "+2,979",
-     "tags": [
-      "强烈推荐"
-     ],
-     "featured": true
-    },
-    {
-     "rank": "02",
-     "title": "DietrichGebert/ponytail",
-     "summary": "让 AI agent 像\"最懒的高级工程师\"一样思考：最好的代码是永远不用写的代码。 ① 一套 agent 行为哲学/提示词层，约束 agent 少写代码多复用；② 支持 20 种 agent（Claude Code 等）；③ npm 包 @dietrichgebert/ponytail 分发，MIT 协议。",
-     "url": "https://github.com/DietrichGebert/ponytail",
-     "stars": "173.5k",
-     "trend": "+1,948",
-     "tags": [
-      "值得关注"
-     ]
-    },
-    {
-     "rank": "03",
-     "title": "Graphify-Labs/graphify",
-     "summary": "一个 Claude Code skill：把代码库、文档、PDF、截图一股脑变成可查询的知识图谱，号称比读原始文件省 71.5 倍 token。 ① `/graphify` 一行命令扫描任意目录，输出交互式 graph.html + Obsidian 仓库 + wiki；② 多模态：代码、PDF、截图、白板照片全吃，用 Claude vision 抽概念；③ 本地确定性 AST 解析，诚实标注\"发",
-     "url": "https://github.com/Graphify-Labs/graphify",
-     "stars": "132.9k",
-     "trend": "+1,408",
-     "tags": [
-      "值得关注"
-     ]
-    },
-    {
-     "rank": "04",
-     "title": "stablyai/orca",
-     "summary": "Agent 舰队的工作台：一个地方同时驾驭 Grok Bot、Claude Code 等多个 agent，桌面/移动/远程运行时全覆盖。 ① 多 agent 统一管理与调度的工作台；② 桌面、移动、远程运行时全平台；③ MIT 协议，社区 Discord 活跃。",
-     "url": "https://github.com/stablyai/orca",
-     "stars": "102.7k",
-     "tags": [
-      "值得关注"
-     ]
-    },
-    {
-     "rank": "05",
-     "title": "luongnv89/claude-howto",
-     "summary": "\"一个周末精通 Claude Code\"：可视化、示例驱动的 Claude Code 学习路径——从基础概念到高级 agent 编排，附可复制粘贴的模板。 ① 从输入 `claude` 到编排 agents、hooks、skills、MCP servers 的完整学习路线；② 可视化教程 + 复制即用模板；③ 英/越/中/乌/日五语言版本，附功能目录 CATALOG.md。",
-     "url": "https://github.com/luongnv89/claude-howto",
-     "stars": "43.2k",
-     "trend": "+177",
-     "tags": [
-      "值得关注"
-     ]
-    },
-    {
-     "rank": "06",
-     "title": "supabase/supabase",
-     "summary": "Postgres 开发平台：给你一个专属 Postgres 数据库，再把认证、实时订阅、存储、Edge Functions 一站式配齐的开源后端。 ① 专属 Postgres 数据库即开即用；② 内置认证、实时、存储、向量支持；③ 开源可自托管，也有托管版。",
-     "url": "https://github.com/supabase/supabase",
-     "stars": "113.5k",
-     "trend": "+693",
-     "tags": [
-      "了解即可"
-     ]
-    },
-    {
-     "rank": "07",
-     "title": "Meloong-Git/PCL",
-     "summary": "开源 Minecraft 启动器 Plain Craft Launcher：大部分源代码公开，含 UI 库、动画模块、下载模块、Minecraft 启动模块。 ① Minecraft 启动与版本管理；② 自研 UI 库与动画模块；③ 代码随每次发布同步更新，社区支持活跃（B 站动态、爱发电）。",
-     "url": "https://github.com/Meloong-Git/PCL",
-     "stars": "8.7k",
-     "trend": "+119",
-     "tags": [
-      "了解即可"
-     ]
-    },
-    {
-     "rank": "08",
-     "title": "fastapi/fastapi",
-     "summary": "高性能、易学、开箱即用的 Python Web 框架：类型注解即文档，自动生成 OpenAPI，AI 服务接口的事实标准之一。 ① 基于类型提示的参数校验与文档生成；② 异步原生支持，性能拉满；③ 庞大的中间件与生态。",
-     "url": "https://github.com/fastapi/fastapi",
-     "stars": "103.7k",
-     "trend": "+101",
-     "tags": [
-      "了解即可"
-     ]
-    }
-   ]
-  },
-  {
-   "id": "github-rising",
-   "title": "Star 增长最快",
-   "shortTitle": "增长最快",
-   "description": "按实际 Star 增量排序",
-   "items": [
-    {
-     "rank": "01",
-     "title": "morluto/rea",
-     "summary": "⚠️ 较昨日口径（+129,417）继续降温，但仍是周榜第一（第八天），总数突破 36.6 万。",
-     "url": "https://github.com/morluto/rea",
-     "stars": "366.2k",
-     "trend": "+106,341",
-     "tags": [
-      "高增长"
-     ]
-    },
-    {
-     "rank": "02",
-     "title": "debpalash/VoiceStudio",
-     "summary": "较昨日（+15,125）继续降温，本地语音工具需求仍在高位。",
-     "url": "https://github.com/debpalash/VoiceStudio",
-     "stars": "81.8k",
-     "trend": "+13,581",
-     "tags": [
-      "高增长"
-     ]
-    },
-    {
-     "rank": "03",
-     "title": "stablyai/orca",
-     "summary": "较昨日（+8,705）逆势反弹，舰队管理需求回升。",
-     "url": "https://github.com/stablyai/orca",
-     "stars": "102.7k",
-     "trend": "+9,401",
-     "tags": [
-      "高增长"
-     ]
-    },
-    {
-     "rank": "04",
-     "title": "anomalyco/opencode",
-     "summary": "较昨日（+6,545）小幅升温，开源 coding agent 元老增长稳健。",
-     "url": "https://github.com/anomalyco/opencode",
-     "stars": "220.2k",
-     "trend": "+6,750",
-     "tags": [
-      "高增长"
-     ]
-    },
-    {
-     "rank": "05",
-     "title": "heygen-com/hyperframes",
-     "summary": "\"写 HTML，渲染视频，为 agent 而造\"，较昨日（+5,740）小幅降温。",
-     "url": "https://github.com/heygen-com/hyperframes",
-     "stars": "70.0k",
-     "trend": "+5,669",
-     "tags": [
-      "高增长"
-     ]
-    },
-    {
-     "rank": "06",
-     "title": "anthropics/claude-plugins-official",
-     "summary": "⚠️ 七连加速中断（2,328→3,581→4,774→5,441→5,650→5,703→5,649）：微降 54，插件生态 adoption 进入高位消化期。",
-     "url": "https://github.com/anthropics/claude-plugins-official",
-     "stars": "43.9k",
-     "trend": "+5,649",
-     "tags": [
-      "高增长"
-     ]
-    },
-    {
-     "rank": "07",
-     "title": "NationalSecurityAgency/ghidra",
-     "summary": "⚠️ 老项目回春第八周（6,614→7,510→7,608→7,602→7,152→6,184→5,769→4,892）：增速温和回落但总数逼近 9.3 万，rea 带起的逆向热潮后劲仍在。",
-     "url": "https://github.com/NationalSecurityAgency/ghidra",
-     "stars": "93.2k",
-     "trend": "+4,892",
-     "tags": [
-      "高增长"
-     ]
-    },
-    {
-     "rank": "08",
-     "title": "Comfy-Org/ComfyUI",
-     "summary": "新上周榜，14.2 万 star 的扩散模型 GUI 老将回暖。",
-     "url": "https://github.com/Comfy-Org/ComfyUI",
-     "stars": "142.0k",
-     "trend": "+4,375",
-     "tags": [
-      "高增长"
-     ]
-    },
-    {
-     "rank": "09",
-     "title": "K-Dense-AI/scientific-agent-skills",
-     "summary": "较昨日（+4,719）降温，177 个科学 skills 的\"AI 科学家\"货架。",
-     "url": "https://github.com/K-Dense-AI/scientific-agent-skills",
-     "stars": "53.9k",
-     "trend": "+3,967",
-     "tags": [
-      "高增长"
-     ]
-    },
-    {
-     "rank": "10",
-     "title": "ruvnet/ruflo",
-     "summary": "较昨日（+3,590）升温，agent harness 赛道仍在加码。",
-     "url": "https://github.com/ruvnet/ruflo",
-     "stars": "78.5k",
-     "trend": "+3,708",
-     "tags": [
-      "高增长"
-     ]
-    }
-   ]
-  },
-  {
-   "id": "github-new",
-   "title": "值得关注的新项目",
-   "shortTitle": "新项目",
-   "description": "近期创建、增长迅速的有潜力项目",
-   "items": [
-    {
-     "rank": "01",
-     "title": "deepseek-ai/DeepInfer",
-     "summary": "DeepSeek 官方开源的生产级大模型推理框架：就是支撑 DeepSeek 线上大规模服务的那套推理引擎的开源版本。 ① FlashMLA/DeepGEMM/DeepEP/TileLang 自研算子全家桶；② MoE EP + EPLB 并行、异步调度、确定性采样、结构化输出；③ 首批支持 DeepSeek-V4.1-Flash，离线推理开箱即用。",
-     "url": "https://github.com/deepseek-ai/DeepInfer",
-     "stars": "19.9k",
-     "tags": [
-      "强烈推荐"
-     ]
-    },
-    {
-     "rank": "02",
-     "title": "Gathin23/cleanyourtv",
-     "summary": "给安卓电视/谷歌电视\"洗澡\"：Wi-Fi 无线去臃肿，换上干净的类 Apple TV 启动器，不用 root、一键还原。 ① 通过 Wi-Fi 给电视去 bloatware；② 替换广告满屏的默认桌面为干净启动器；③ 不 root、不删东西，一行命令还原。",
-     "url": "https://github.com/Gathin23/cleanyourtv",
-     "stars": "24.0k",
-     "tags": [
-      "强烈推荐"
-     ]
-    },
-    {
-     "rank": "03",
-     "title": "KnifeLemon/Filee",
-     "summary": "免费开源的拖拽式文件转换器：按住按键、把文件拖到光标处弹出的格式圆环上，244+ 种格式离线互转。 ① 图片/PDF/Word/Excel/PPT/HWP/视频等 244+ 格式离线转换；② 独创的\"拖拽到格式圆环\"交互；③ 命令行模式 + 官网 filee.sh，C# 编写。",
-     "url": "https://github.com/KnifeLemon/Filee",
-     "stars": "10.1k",
-     "tags": [
-      "值得关注"
-     ]
-    },
-    {
-     "rank": "04",
-     "title": "yihui-dev/awesome-opus5-5-videos",
-     "summary": "用 Claude Opus 5.5 做出的 418 个病毒视频合集：每个视频附带原作者分享的 prompt，教你\"让模型写代码做动画\"。 ① 418 个视频案例（游戏、3D 场景、科普动画、动效），每个可对照原版与复刻版；② 703 个可直接复制的 prompt，覆盖 HTML/Canvas/SVG/Three.js；③ 按类型整理的索引，挑一个复制 prompt 就能自己跑。",
-     "url": "https://github.com/yihui-dev/awesome-opus5-5-videos",
-     "stars": "9.3k",
-     "tags": [
-      "了解即可"
-     ]
-    }
-   ]
-  },
-  {
    "id": "tech-ai",
    "title": "AI 与大模型",
    "shortTitle": "AI 大模型",
@@ -375,26 +113,285 @@
      ]
     }
    ]
+  },
+  {
+   "id": "github-hot",
+   "title": "GitHub 今日热门",
+   "shortTitle": "GitHub 热榜",
+   "description": "综合热度、活跃度与实用价值排序",
+   "items": [
+    {
+     "rank": "01",
+     "title": "cloudflare/security-audit-skill",
+     "summary": "Cloudflare 官方开源的安全审计 skill：指挥一队隔离的 agent 做多阶段安全审计，输出机器可读的漏洞发现报告。 ① 六阶段流程：侦察→覆盖式猎捕→候选验证→结构化输出→独立复核→中立报告；② 每个候选漏洞都由\"新鲜\" agent 独立证伪，误报率可控；③ 输出 findings.json 机器可读格式，附 report-schema 校验。",
+     "url": "https://github.com/cloudflare/security-audit-skill",
+     "stars": "42.1k",
+     "trend": "+2,716",
+     "tags": [
+      "强烈推荐"
+     ]
+    },
+    {
+     "rank": "02",
+     "title": "NVIDIA/OpenShell",
+     "summary": "解决的是\"agent 舰队生产化\"的安全底座问题——agent 能干活的前提是可控；NVIDIA 官方背书 + Apache 2.0 + PyPI 即装，让这层基础设施第一次有了大厂级选项。适合在生产环境跑多 agent 的团队，现在就开始评估授权模型设计。",
+     "url": "https://github.com/NVIDIA/OpenShell",
+     "stars": "18.8k",
+     "trend": "+1,119",
+     "tags": [
+      "强烈推荐"
+     ],
+     "featured": true
+    },
+    {
+     "rank": "03",
+     "title": "anthropics/knowledge-work-plugins",
+     "summary": "Anthropic 官方开源的 11 个知识工作插件：把 Claude 变成你所在岗位的专家——销售、生产力等角色开箱即用，再按公司定制。 ① 每个插件打包该岗位的 skills、连接器、斜杠命令和子 agent；② 覆盖 Slack、Notion、Asana、Linear、Jira 等主流工具连接器；③ 为 Claude Cowork 打造，同时兼容 Claude Code，可按公司术语和流程二",
+     "url": "https://github.com/anthropics/knowledge-work-plugins",
+     "stars": "32.2k",
+     "trend": "+635",
+     "tags": [
+      "值得关注"
+     ]
+    },
+    {
+     "rank": "04",
+     "title": "stablyai/orca",
+     "summary": "Agent 舰队的工作台：一个地方同时驾驭 Grok Bot、Claude Code 等多个 agent，桌面/移动/远程运行时全覆盖。 ① 多 agent 统一管理与调度的工作台；② 桌面、移动、远程运行时全平台；③ MIT 协议，社区 Discord 活跃。",
+     "url": "https://github.com/stablyai/orca",
+     "stars": "103.9k",
+     "tags": [
+      "值得关注"
+     ]
+    },
+    {
+     "rank": "05",
+     "title": "android/skills",
+     "summary": "Google 官方的 Android 开发 agent skills 仓库：把 developer.android.com 的最佳实践做成 AI 可读的模块化指令，专治 LLM 在安卓开发里掉链子的场景。 ① 遵循开放标准 SKILL.md，LLM 在评估中表现差的工作流优先覆盖；② 一行命令安装：`android skills add r8-analyzer --project=.`；③ 配套官",
+     "url": "https://github.com/android/skills",
+     "stars": "9.4k",
+     "tags": [
+      "值得关注"
+     ]
+    },
+    {
+     "rank": "06",
+     "title": "cursor/plugins",
+     "summary": "Cursor 官方插件仓库：给流行开发工具、框架和 SaaS 产品做的官方插件，每个插件独立目录 + `.cursor-plugin/plugin.json` 清单。 ① 官方维护的插件目录（如 teaching、thermos 深度代码审查、ralph-loop 迭代循环）；② 社区作者也可贡献，插件即目录、结构简单；③ 与 Cursor 插件规范对齐，开箱即装。",
+     "url": "https://github.com/cursor/plugins",
+     "stars": "13.8k",
+     "tags": [
+      "值得关注"
+     ]
+    },
+    {
+     "rank": "07",
+     "title": "akitaonrails/ai-memory",
+     "summary": "给 AI 编程 agent 的长期记忆：Claude Code 里做到一半的任务，换到 Codex 同一目录接着干，不用重新解释架构、失败尝试和未解问题。 ① 跨 agent 共享记忆：20+ 种 harness（Claude Code、Codex、Cursor、Gemini CLI、OpenCode、Grok 等）喂给同一份记忆；② Rust 编写的高性能本地服务；③ 交接（handoff）机制",
+     "url": "https://github.com/akitaonrails/ai-memory",
+     "stars": "13.0k",
+     "tags": [
+      "值得关注"
+     ]
+    },
+    {
+     "rank": "08",
+     "title": "php/php-src",
+     "summary": "PHP 语言解释器本尊：十几年历史的老牌语言仓库。 ① PHP 语言本身的实现与演进；② 庞大的扩展生态与存量系统；③ 持续的版本迭代与性能优化。",
+     "url": "https://github.com/php/php-src",
+     "stars": "41.6k",
+     "trend": "+716",
+     "tags": [
+      "了解即可"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "github-rising",
+   "title": "Star 增长最快",
+   "shortTitle": "增长最快",
+   "description": "按实际 Star 增量排序",
+   "items": [
+    {
+     "rank": "01",
+     "title": "morluto/rea",
+     "summary": "⚠️ 较昨日口径（+106,341）继续降温，但仍是周榜第一（第九天），总数突破 37.3 万。",
+     "url": "https://github.com/morluto/rea",
+     "stars": "373.2k",
+     "trend": "+88,243",
+     "tags": [
+      "高增长"
+     ]
+    },
+    {
+     "rank": "02",
+     "title": "debpalash/VoiceStudio",
+     "summary": "较昨日（+13,581）继续降温，本地语音工具需求仍在高位。",
+     "url": "https://github.com/debpalash/VoiceStudio",
+     "stars": "83.3k",
+     "trend": "+12,526",
+     "tags": [
+      "高增长"
+     ]
+    },
+    {
+     "rank": "03",
+     "title": "stablyai/orca",
+     "summary": "较昨日（+9,401）逆势三连升，舰队管理需求持续回升。",
+     "url": "https://github.com/stablyai/orca",
+     "stars": "103.9k",
+     "trend": "+9,545",
+     "tags": [
+      "高增长"
+     ]
+    },
+    {
+     "rank": "04",
+     "title": "anomalyco/opencode",
+     "summary": "较昨日（+6,750）小幅升温，开源 coding agent 元老增长稳健。",
+     "url": "https://github.com/anomalyco/opencode",
+     "stars": "220.6k",
+     "trend": "+6,765",
+     "tags": [
+      "高增长"
+     ]
+    },
+    {
+     "rank": "05",
+     "title": "heygen-com/hyperframes",
+     "summary": "\"写 HTML，渲染视频，为 agent 而造\"，较昨日（+5,669）小幅降温。",
+     "url": "https://github.com/heygen-com/hyperframes",
+     "stars": "70.8k",
+     "trend": "+5,553",
+     "tags": [
+      "高增长"
+     ]
+    },
+    {
+     "rank": "06",
+     "title": "Comfy-Org/ComfyUI",
+     "summary": "较昨日（+4,375）继续升温，扩散模型 GUI 老将持续回暖。",
+     "url": "https://github.com/Comfy-Org/ComfyUI",
+     "stars": "142.3k",
+     "trend": "+4,531",
+     "tags": [
+      "高增长"
+     ]
+    },
+    {
+     "rank": "07",
+     "title": "anthropics/claude-plugins-official",
+     "summary": "⚠️ 消化期继续（5,703→5,649→4,250），但 Anthropic 同步加码知识工作插件供给侧。",
+     "url": "https://github.com/anthropics/claude-plugins-official",
+     "stars": "44.1k",
+     "trend": "+4,250",
+     "tags": [
+      "高增长"
+     ]
+    },
+    {
+     "rank": "08",
+     "title": "NationalSecurityAgency/ghidra",
+     "summary": "⚠️ 老项目回春第九周（6,614→7,510→7,608→7,602→7,152→6,184→5,769→4,892→4,221）：增速继续温和回落但总数逼近 9.4 万，rea 带起的逆向热潮后劲仍在。",
+     "url": "https://github.com/NationalSecurityAgency/ghidra",
+     "stars": "93.7k",
+     "trend": "+4,221",
+     "tags": [
+      "高增长"
+     ]
+    },
+    {
+     "rank": "09",
+     "title": "akitaonrails/ai-memory",
+     "summary": "较昨日（+2,833）明显加速，多 agent 记忆中台需求被验证。",
+     "url": "https://github.com/akitaonrails/ai-memory",
+     "stars": "13.0k",
+     "trend": "+3,449",
+     "tags": [
+      "高增长"
+     ]
+    },
+    {
+     "rank": "10",
+     "title": "ruvnet/ruflo",
+     "summary": "较昨日（+3,708）降温，agent harness 赛道仍在加码。",
+     "url": "https://github.com/ruvnet/ruflo",
+     "stars": "78.8k",
+     "trend": "+3,349",
+     "tags": [
+      "高增长"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "github-new",
+   "title": "值得关注的新项目",
+   "shortTitle": "新项目",
+   "description": "近期创建、增长迅速的有潜力项目",
+   "items": [
+    {
+     "rank": "01",
+     "title": "google-research/harness2",
+     "summary": "Google Research 开源的递归 agent harness：给开放世界任务设计的 agent 脚手架，附 arXiv 论文，重新思考\"模型之外的系统\"该怎么做。 ① 递归式 agent 编排框架，面向开放世界任务；② 附完整论文（arXiv:2610.14224）与 benchmark 指南（JobBench 等）；③ Apache 2.0 协议，文档站齐全。",
+     "url": "https://github.com/google-research/harness2",
+     "stars": "18.6k",
+     "tags": [
+      "强烈推荐"
+     ]
+    },
+    {
+     "rank": "02",
+     "title": "tangency-labs/solidcraft",
+     "summary": "纯 Rust 写的开源参数化 3D CAD：画草图、加约束、拉伸成实体，改个尺寸模型自动重建——还能让 AI agent 通过内置 MCP 服务器直接建模。 ① 参数化特征时间线，改尺寸即重建；② 桌面端（Win/macOS/Linux）、浏览器端、Snap 全覆盖；③ 内置 MCP 服务器，agent 可直接调用建模。",
+     "url": "https://github.com/tangency-labs/solidcraft",
+     "stars": "9.7k",
+     "tags": [
+      "值得关注"
+     ]
+    },
+    {
+     "rank": "03",
+     "title": "wheresryan22/anatomy",
+     "summary": "一个 Claude skill：把你的想法\"造\"成一个真实可交互的等距 3D 小物件来讲解——SVG、WebGL、3D 全支持，零依赖。 ① 用精致的等距小部件把抽象概念做成可交互实物；② 兼容 Claude Code、Antigravity、OpenCode、Codex、MiniMax Code；③ MIT 协议，零依赖，Node 20.10+ 即跑。",
+     "url": "https://github.com/wheresryan22/anatomy",
+     "stars": "19.7k",
+     "tags": [
+      "值得关注"
+     ]
+    },
+    {
+     "rank": "04",
+     "title": "openai/math",
+     "summary": "OpenAI 开源的内部模型数学手稿：模型在开放数学问题上的产出，719 篇手稿、372 个家族，部分附 Lean 形式化证明。 ① 719 篇数学手稿按学科分类归档；② 部分结果附 Lean 形式化证明，持续更新；③ 坦诚标注\"未形式化的结果可能有问题\"，社区可参与修正。",
+     "url": "https://github.com/openai/math",
+     "stars": "15.4k",
+     "tags": [
+      "了解即可"
+     ]
+    }
+   ]
   }
  ],
  "_pipelines": {
   "github": {
    "digest": [
     {
-     "title": "大厂\"方法论 skill",
-     "text": "大厂\"方法论 skill 化\"路线连续三天领跑：Cloudflare 安全审计 skill +2,979 大幅加速（昨日 +2,012），总数逼近 4 万；Anthropic 官方插件库周增量七连加速中断（+5,703→+5,649），生态 adoption 进入高位消化期。"
+     "title": "大厂\"官方 skill ",
+     "text": "大厂\"官方 skill 化\"全面开花：NVIDIA OpenShell（agent 安全运行时，24h +1,119 新上日榜）、Anthropic knowledge-work-plugins（11 个知识工作插件）、android/skills（官方安卓开发 skills 周增 +1,471）、cursor/plugins（官方插件库周增 +1,946）——\"把官方方法论装进 agent\"已成各大厂标准动作。"
     },
     {
-     "title": "给 agent 做减法",
-     "text": "\"给 agent 做减法\"矩阵分化：ponytail（+1,948）、graphify（+1,408）微降但仍霸榜，orca 周增量反弹至 +9,401——省 token 工具从\"爆发\"进入\"稳态增长\"，而舰队管理需求在回升。"
+     "title": "增速格局分化",
+     "text": "增速格局分化：security-audit-skill 连续四天日榜第一但 24h 增量从 +2,979 回落到 +2,716；rea 周增量 +88,243 继续降温但仍是周榜第一（第九天）；orca 周增量 +9,545 逆势三连升；ai-memory 周增量加速到 +3,449。"
     },
     {
-     "title": "求职 agent ai-",
-     "text": "求职 agent ai-job-search 掉出双榜（连续四天日榜后热度退潮）；新面孔：Claude Code 周末速成教程 claude-howto、开源 MC 启动器 PCL 新上日榜，cleanyourtv 单日再涨 4,900、Filee 单日 +2,100 继续爆。"
+     "title": "新物种三连击",
+     "text": "新物种三连击：google-research/harness2（Google Research 递归 agent harness，附 arXiv 论文）、openai/math（OpenAI 内部模型数学手稿开源，719 篇）、SolidCraft（纯 Rust 参数化 3D CAD，内置 MCP 让 agent 直接建模）；国产紫微斗数排盘引擎上日榜。"
     }
    ],
-   "highlight": "大厂\"方法论 skill 化\"路线连续三天领跑：Cloudflare 安全审计 skill +2,979 大幅加速（昨日 +2,012），总数逼近 4 万；Anthropic 官方插件库周增量七连加速中断（+5,703→+5,649），生态 adoption 进入高位消化期。",
-   "date": "2026-10-23"
+   "highlight": "大厂\"官方 skill 化\"全面开花：NVIDIA OpenShell（agent 安全运行时，24h +1,119 新上日榜）、Anthropic knowledge-work-plugins（11 个知识工作插件）、android/skills（官方安卓开发 skills 周增 +1,471）、cursor/plugins（官方插件库周增 +1,946）——\"把官方方法论装进 agent\"已成各大厂标准动作。",
+   "date": "2026-10-24"
   },
   "tech-news": {
    "digest": [
@@ -417,15 +414,15 @@
  },
  "digest": [
   {
-   "title": "大厂\"方法论 skill",
-   "text": "大厂\"方法论 skill 化\"路线连续三天领跑：Cloudflare 安全审计 skill +2,979 大幅加速（昨日 +2,012），总数逼近 4 万；Anthropic 官方插件库周增量七连加速中断（+5,703→+5,649），生态 adoption 进入高位消化期。"
+   "title": "大厂\"官方 skill ",
+   "text": "大厂\"官方 skill 化\"全面开花：NVIDIA OpenShell（agent 安全运行时，24h +1,119 新上日榜）、Anthropic knowledge-work-plugins（11 个知识工作插件）、android/skills（官方安卓开发 skills 周增 +1,471）、cursor/plugins（官方插件库周增 +1,946）——\"把官方方法论装进 agent\"已成各大厂标准动作。"
   },
   {
    "title": "Recursive 开源",
    "text": "Recursive 开源 40B MoE 本地编程模型 Flint：Apache 2.0 权重，M4 Pro 上 125+ tok/s，小团队加 AI 四个月从零训练。"
   }
  ],
- "intro": "大厂\"方法论 skill 化\"路线连续三天领跑：Cloudflare 安全审计 skill +2,979 大幅加速（昨日 +2,012），总数逼近 4 万；Anthropic 官方插件库周增量七连加速中断（+5,703→+5,649），生态 adoption 进入高位消化期。 Recursive 开源 40B MoE 本地编程模型 Flint：Apache 2.0 权重，M4 Pro 上 125+ tok/s，小团队加 AI 四个月从零训练。",
+ "intro": "大厂\"官方 skill 化\"全面开花：NVIDIA OpenShell（agent 安全运行时，24h +1,119 新上日榜）、Anthropic knowledge-work-plugins（11 个知识工作插件）、android/skills（官方安卓开发 skills 周增 +1,471）、cursor/plugins（官方插件库周增 +1,946）——\"把官方方法论装进 agent\"已成各大厂标准动作。 Recursive 开源 40B MoE 本地编程模型 Flint：Apache 2.0 权重，M4 Pro 上 125+ tok/s，小团队加 AI 四个月从零训练。",
  "tasks": [
   {
    "icon": "GH",
@@ -440,7 +437,7 @@
    "time": "09:00"
   }
  ],
- "date": "2026-10-23",
- "issue": "023",
- "updatedAt": "01:04 更新"
+ "date": "2026-10-24",
+ "issue": "024",
+ "updatedAt": "00:36 更新"
 }
