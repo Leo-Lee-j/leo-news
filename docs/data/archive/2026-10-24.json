@@ -1,0 +1,443 @@
+{
+ "sections": [
+  {
+   "id": "tech-ai",
+   "title": "AI 与大模型",
+   "shortTitle": "AI 大模型",
+   "description": "大模型发布与更新",
+   "items": [
+    {
+     "rank": "01",
+     "title": "Recursive 开源 40B MoE 本地编程模型 Flint：Apache 2.0，小团队加 AI 四个月从零训练",
+     "summary": "Recursive（Richard Socher 创办）发布 Flint：400 亿参数 MoE 编程模型，每 token 仅激活 25 亿参数，Apache 2.0 开源权重。在 M4 Pro MacBook Pro 上短上下文推理 125+ tok/s，64GB NVIDIA RTX Spark 上 150+ tok/s；SWE-Bench Pro v2、Terminal-Bench 2.1、SWE-Bench Verified 上",
+     "url": "https://forkast.news/recursive-si-launches-flint-40b-open-weights-that-run-on-the-developers-own-machine/",
+     "source": "Forkast / The Decoder / OpenHands｜2026-10-21",
+     "tags": [
+      "AI 大模型"
+     ]
+    },
+    {
+     "rank": "02",
+     "title": "讯飞星火 X2.6 发布：293B MoE、百万上下文，号称全程国产算力训练",
+     "summary": "科大讯飞在 1024 全球开发者节发布星火 X2.6：293B 总参数、激活 30B 的 MoE 架构，上下文窗口扩展至 100 万 tokens，主打代码生成与多步任务执行。董事长刘庆峰称这是业界唯一全程基于国产算力训练的大模型，并突破了国产芯片长任务训练的效率瓶颈；轻量版 X2.6-4B 开源，推理定价 0.9–3.6 元/百万 tokens。",
+     "url": "https://www.kucoin.com/news/flash/iflytek-launches-x2-6-end-cloud-ai-model-based-on-fully-domestic-compute-power",
+     "source": "IT Home（经 KuCoin 转载）｜2026-10-22（1024 开发者节）",
+     "tags": [
+      "AI 大模型"
+     ]
+    },
+    {
+     "rank": "03",
+     "title": "彭博：DeepSeek 正完成约 150 亿美元融资",
+     "summary": "彭博报道 DeepSeek 正在完成约 150 亿美元融资，以在 AI 竞赛中追赶美国头部实验室。此前 9 月路透报道其已聘请中信证券筹备科创板 IPO。上月发布的 DeepSeek-V4.1-Flash 主打更快推理与更高吞吐，10 月 17 日又推出 1017 版本并开放 Search/Fetch API。",
+     "url": "https://ktwb.com/2026/10/21/deepseek-raises-15-billion-in-challenge-to-leading-us-labs-bloomberg-news-reports/",
+     "source": "彭博社（经第三方转载）｜2026-10-22",
+     "tags": [
+      "AI 大模型"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "tech-dev",
+   "title": "AI 工程与开发工具",
+   "shortTitle": "开发工具",
+   "description": "模型部署 · AI 编程 · Agent",
+   "items": [
+    {
+     "rank": "04",
+     "title": "OpenAI Decisions API 正式 GA：GPT-6 Luna 驱动，决策型推理快 10 倍",
+     "summary": "OpenAI 宣布 Decisions API 结束公测正式 GA：由 GPT-6 Luna 驱动，返回有界的 typed 答案（概率、选项、评分），用于内容分类、请求路由、工作优先级排序，输入价格 $0.10/百万 tokens。官方称相比经由 Responses API 调用 Luna 提问，决策端点快 10 倍。",
+     "url": "https://www.unite.ai/openai-makes-decisions-api-generally-available-with-gpt-6-luna/",
+     "source": "Unite.AI｜2026-10-22",
+     "tags": [
+      "开发工具"
+     ]
+    },
+    {
+     "rank": "05",
+     "title": "NVIDIA 发布 Kumo 开放权重模型家族：专攻企业结构化数据推理",
+     "summary": "黄仁勋在 GTC Berlin 发布 Agent Knowledge Foundation，其中的 Kumo 模型家族（Tabular、Relational、Time Series、Forecast 四款）专为 agent 推理企业结构化数据设计，与 Nemotron Retriever（非结构化文档）互补。开放权重已上架 Hugging Face，并以 NVIDIA NIM 微服务形式提供；Kumo Tabular 在 agentic",
+     "url": "https://blogs.nvidia.com/blog/gtc-berlin-2026-keynote/",
+     "source": "NVIDIA 官方博客（GTC Berlin 主题演讲实录）｜2026-10-21",
+     "tags": [
+      "开发工具"
+     ]
+    },
+    {
+     "rank": "06",
+     "title": "1Password 推出 1Password for Agents：AI 登录，密码不出 vault",
+     "summary": "1Password 发布 1Password for Agents 平台：agent 需要登录时向 1Password 出示数字身份密钥，用户在自己设备上逐次审批后，1Password 直接把凭证填入登录表单——agent 与其背后的模型永远看不到密码和一次性验证码。首批支持 Meta Muse、Grok Bot，随后接入 Claude Duet、ChatGPT Work、Dots 等；个人与家庭版免费。",
+     "url": "https://www.macrumors.com/2026/10/22/1password-for-agents/",
+     "source": "MacRumors / Digital Trends｜2026-10-22",
+     "tags": [
+      "开发工具"
+     ]
+    },
+    {
+     "rank": "07",
+     "title": "Framer 推出官方 MCP 服务器：AI agent 可直接设计、构建网站",
+     "summary": "网站搭建工具 Framer 发布 Framer MCP：远程 MCP 服务器加 OAuth，ChatGPT、Claude、Codex、Cursor、Grok 等 AI agent 可在用户权限下操作画布、组件、CMS 与项目设置，无需打开编辑器，改动保留在项目或分支中直到显式发布。Framer 称 MCP 已取代旧的本地 External Agents CLI，成为官方推荐的 AI 接入方式。",
+     "url": "https://dealroom.co/news/x-2113279156339290319-amsterdam-founded-framer-launches-an-mcp-server-so-chatgpt-claude-cursor/",
+     "source": "Dealroom｜2026-10-22",
+     "tags": [
+      "开发工具"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "tech-industry",
+   "title": "科技行业动态",
+   "shortTitle": "行业动态",
+   "description": "公司动态 · 产品发布 · 芯片与云",
+   "items": [
+    {
+     "rank": "08",
+     "title": "NVIDIA 发布 DSX POD：Vera Rubin AI 工厂参考设计，部署周期从数月压缩到 14 天",
+     "summary": "NVIDIA 在 GTC Berlin 发布 DSX POD：完整的 Vera Rubin AI 工厂参考设计，由 Bull、戴尔、HPE、联想、施耐德电气、Vertiv 等生态伙伴以模块化集装箱形式工厂预集成、预验证后交付；准备就绪的站点部署时间从约六个月压缩到最短 14 天，加速\"首个生产 token\"上线。",
+     "url": "https://www.storagenewsletter.com/2026/10/22/nvidia-gtc-berlin-2026-nvidia-introduces-dsx-pod-ai-factories-to-accelerate-europes-infrastructure-deployment/",
+     "source": "StorageNewsletter（新闻稿整理）｜2026-10-22（GTC Berlin）",
+     "tags": [
+      "行业动态"
+     ]
+    },
+    {
+     "rank": "09",
+     "title": "Agility Robotics：人形机器人 Digit 5 全系采用 NVIDIA IGX Thor",
+     "summary": "Agility Robotics 宣布下一代人形机器人 Digit 5 的车载算力将统一标准化为 NVIDIA IGX Thor 模块，NVIDIA 成为其量产版唯一车载算力供应商；此前双方已在 NVIDIA Halos 安全平台上合作。Digit 5 正为工厂与仓储场景的规模化商用部署做准备。",
+     "url": "https://www.manilatimes.net/2026/10/22/tmt-newswire/globenewswire/agility-robotics-expands-nvidia-collaboration-as-it-prepares-digit-5-for-commercial-scale/2451676",
+     "source": "GlobeNewswire（经 Manila Times）｜2026-10-22",
+     "tags": [
+      "行业动态"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "github-hot",
+   "title": "GitHub 今日热门",
+   "shortTitle": "GitHub 热榜",
+   "description": "综合热度、活跃度与实用价值排序",
+   "items": [
+    {
+     "rank": "01",
+     "title": "cloudflare/security-audit-skill",
+     "summary": "Cloudflare 官方开源的安全审计 skill：指挥一队隔离的 agent 做多阶段安全审计，输出机器可读的漏洞发现报告。 ① 六阶段流程：侦察→覆盖式猎捕→候选验证→结构化输出→独立复核→中立报告；② 每个候选漏洞都由\"新鲜\" agent 独立证伪，误报率可控；③ 输出 findings.json 机器可读格式，附 report-schema 校验。",
+     "url": "https://github.com/cloudflare/security-audit-skill",
+     "stars": "42.1k",
+     "trend": "+2,716",
+     "tags": [
+      "强烈推荐"
+     ]
+    },
+    {
+     "rank": "02",
+     "title": "NVIDIA/OpenShell",
+     "summary": "解决的是\"agent 舰队生产化\"的安全底座问题——agent 能干活的前提是可控；NVIDIA 官方背书 + Apache 2.0 + PyPI 即装，让这层基础设施第一次有了大厂级选项。适合在生产环境跑多 agent 的团队，现在就开始评估授权模型设计。",
+     "url": "https://github.com/NVIDIA/OpenShell",
+     "stars": "18.8k",
+     "trend": "+1,119",
+     "tags": [
+      "强烈推荐"
+     ],
+     "featured": true
+    },
+    {
+     "rank": "03",
+     "title": "anthropics/knowledge-work-plugins",
+     "summary": "Anthropic 官方开源的 11 个知识工作插件：把 Claude 变成你所在岗位的专家——销售、生产力等角色开箱即用，再按公司定制。 ① 每个插件打包该岗位的 skills、连接器、斜杠命令和子 agent；② 覆盖 Slack、Notion、Asana、Linear、Jira 等主流工具连接器；③ 为 Claude Cowork 打造，同时兼容 Claude Code，可按公司术语和流程二",
+     "url": "https://github.com/anthropics/knowledge-work-plugins",
+     "stars": "32.2k",
+     "trend": "+635",
+     "tags": [
+      "值得关注"
+     ]
+    },
+    {
+     "rank": "04",
+     "title": "stablyai/orca",
+     "summary": "Agent 舰队的工作台：一个地方同时驾驭 Grok Bot、Claude Code 等多个 agent，桌面/移动/远程运行时全覆盖。 ① 多 agent 统一管理与调度的工作台；② 桌面、移动、远程运行时全平台；③ MIT 协议，社区 Discord 活跃。",
+     "url": "https://github.com/stablyai/orca",
+     "stars": "103.9k",
+     "tags": [
+      "值得关注"
+     ]
+    },
+    {
+     "rank": "05",
+     "title": "android/skills",
+     "summary": "Google 官方的 Android 开发 agent skills 仓库：把 developer.android.com 的最佳实践做成 AI 可读的模块化指令，专治 LLM 在安卓开发里掉链子的场景。 ① 遵循开放标准 SKILL.md，LLM 在评估中表现差的工作流优先覆盖；② 一行命令安装：`android skills add r8-analyzer --project=.`；③ 配套官",
+     "url": "https://github.com/android/skills",
+     "stars": "9.4k",
+     "tags": [
+      "值得关注"
+     ]
+    },
+    {
+     "rank": "06",
+     "title": "cursor/plugins",
+     "summary": "Cursor 官方插件仓库：给流行开发工具、框架和 SaaS 产品做的官方插件，每个插件独立目录 + `.cursor-plugin/plugin.json` 清单。 ① 官方维护的插件目录（如 teaching、thermos 深度代码审查、ralph-loop 迭代循环）；② 社区作者也可贡献，插件即目录、结构简单；③ 与 Cursor 插件规范对齐，开箱即装。",
+     "url": "https://github.com/cursor/plugins",
+     "stars": "13.8k",
+     "tags": [
+      "值得关注"
+     ]
+    },
+    {
+     "rank": "07",
+     "title": "akitaonrails/ai-memory",
+     "summary": "给 AI 编程 agent 的长期记忆：Claude Code 里做到一半的任务，换到 Codex 同一目录接着干，不用重新解释架构、失败尝试和未解问题。 ① 跨 agent 共享记忆：20+ 种 harness（Claude Code、Codex、Cursor、Gemini CLI、OpenCode、Grok 等）喂给同一份记忆；② Rust 编写的高性能本地服务；③ 交接（handoff）机制",
+     "url": "https://github.com/akitaonrails/ai-memory",
+     "stars": "13.0k",
+     "tags": [
+      "值得关注"
+     ]
+    },
+    {
+     "rank": "08",
+     "title": "php/php-src",
+     "summary": "PHP 语言解释器本尊：十几年历史的老牌语言仓库。 ① PHP 语言本身的实现与演进；② 庞大的扩展生态与存量系统；③ 持续的版本迭代与性能优化。",
+     "url": "https://github.com/php/php-src",
+     "stars": "41.6k",
+     "trend": "+716",
+     "tags": [
+      "了解即可"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "github-rising",
+   "title": "Star 增长最快",
+   "shortTitle": "增长最快",
+   "description": "按实际 Star 增量排序",
+   "items": [
+    {
+     "rank": "01",
+     "title": "morluto/rea",
+     "summary": "⚠️ 较昨日口径（+106,341）继续降温，但仍是周榜第一（第九天），总数突破 37.3 万。",
+     "url": "https://github.com/morluto/rea",
+     "stars": "373.2k",
+     "trend": "+88,243",
+     "tags": [
+      "高增长"
+     ]
+    },
+    {
+     "rank": "02",
+     "title": "debpalash/VoiceStudio",
+     "summary": "较昨日（+13,581）继续降温，本地语音工具需求仍在高位。",
+     "url": "https://github.com/debpalash/VoiceStudio",
+     "stars": "83.3k",
+     "trend": "+12,526",
+     "tags": [
+      "高增长"
+     ]
+    },
+    {
+     "rank": "03",
+     "title": "stablyai/orca",
+     "summary": "较昨日（+9,401）逆势三连升，舰队管理需求持续回升。",
+     "url": "https://github.com/stablyai/orca",
+     "stars": "103.9k",
+     "trend": "+9,545",
+     "tags": [
+      "高增长"
+     ]
+    },
+    {
+     "rank": "04",
+     "title": "anomalyco/opencode",
+     "summary": "较昨日（+6,750）小幅升温，开源 coding agent 元老增长稳健。",
+     "url": "https://github.com/anomalyco/opencode",
+     "stars": "220.6k",
+     "trend": "+6,765",
+     "tags": [
+      "高增长"
+     ]
+    },
+    {
+     "rank": "05",
+     "title": "heygen-com/hyperframes",
+     "summary": "\"写 HTML，渲染视频，为 agent 而造\"，较昨日（+5,669）小幅降温。",
+     "url": "https://github.com/heygen-com/hyperframes",
+     "stars": "70.8k",
+     "trend": "+5,553",
+     "tags": [
+      "高增长"
+     ]
+    },
+    {
+     "rank": "06",
+     "title": "Comfy-Org/ComfyUI",
+     "summary": "较昨日（+4,375）继续升温，扩散模型 GUI 老将持续回暖。",
+     "url": "https://github.com/Comfy-Org/ComfyUI",
+     "stars": "142.3k",
+     "trend": "+4,531",
+     "tags": [
+      "高增长"
+     ]
+    },
+    {
+     "rank": "07",
+     "title": "anthropics/claude-plugins-official",
+     "summary": "⚠️ 消化期继续（5,703→5,649→4,250），但 Anthropic 同步加码知识工作插件供给侧。",
+     "url": "https://github.com/anthropics/claude-plugins-official",
+     "stars": "44.1k",
+     "trend": "+4,250",
+     "tags": [
+      "高增长"
+     ]
+    },
+    {
+     "rank": "08",
+     "title": "NationalSecurityAgency/ghidra",
+     "summary": "⚠️ 老项目回春第九周（6,614→7,510→7,608→7,602→7,152→6,184→5,769→4,892→4,221）：增速继续温和回落但总数逼近 9.4 万，rea 带起的逆向热潮后劲仍在。",
+     "url": "https://github.com/NationalSecurityAgency/ghidra",
+     "stars": "93.7k",
+     "trend": "+4,221",
+     "tags": [
+      "高增长"
+     ]
+    },
+    {
+     "rank": "09",
+     "title": "akitaonrails/ai-memory",
+     "summary": "较昨日（+2,833）明显加速，多 agent 记忆中台需求被验证。",
+     "url": "https://github.com/akitaonrails/ai-memory",
+     "stars": "13.0k",
+     "trend": "+3,449",
+     "tags": [
+      "高增长"
+     ]
+    },
+    {
+     "rank": "10",
+     "title": "ruvnet/ruflo",
+     "summary": "较昨日（+3,708）降温，agent harness 赛道仍在加码。",
+     "url": "https://github.com/ruvnet/ruflo",
+     "stars": "78.8k",
+     "trend": "+3,349",
+     "tags": [
+      "高增长"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "github-new",
+   "title": "值得关注的新项目",
+   "shortTitle": "新项目",
+   "description": "近期创建、增长迅速的有潜力项目",
+   "items": [
+    {
+     "rank": "01",
+     "title": "google-research/harness2",
+     "summary": "Google Research 开源的递归 agent harness：给开放世界任务设计的 agent 脚手架，附 arXiv 论文，重新思考\"模型之外的系统\"该怎么做。 ① 递归式 agent 编排框架，面向开放世界任务；② 附完整论文（arXiv:2610.14224）与 benchmark 指南（JobBench 等）；③ Apache 2.0 协议，文档站齐全。",
+     "url": "https://github.com/google-research/harness2",
+     "stars": "18.6k",
+     "tags": [
+      "强烈推荐"
+     ]
+    },
+    {
+     "rank": "02",
+     "title": "tangency-labs/solidcraft",
+     "summary": "纯 Rust 写的开源参数化 3D CAD：画草图、加约束、拉伸成实体，改个尺寸模型自动重建——还能让 AI agent 通过内置 MCP 服务器直接建模。 ① 参数化特征时间线，改尺寸即重建；② 桌面端（Win/macOS/Linux）、浏览器端、Snap 全覆盖；③ 内置 MCP 服务器，agent 可直接调用建模。",
+     "url": "https://github.com/tangency-labs/solidcraft",
+     "stars": "9.7k",
+     "tags": [
+      "值得关注"
+     ]
+    },
+    {
+     "rank": "03",
+     "title": "wheresryan22/anatomy",
+     "summary": "一个 Claude skill：把你的想法\"造\"成一个真实可交互的等距 3D 小物件来讲解——SVG、WebGL、3D 全支持，零依赖。 ① 用精致的等距小部件把抽象概念做成可交互实物；② 兼容 Claude Code、Antigravity、OpenCode、Codex、MiniMax Code；③ MIT 协议，零依赖，Node 20.10+ 即跑。",
+     "url": "https://github.com/wheresryan22/anatomy",
+     "stars": "19.7k",
+     "tags": [
+      "值得关注"
+     ]
+    },
+    {
+     "rank": "04",
+     "title": "openai/math",
+     "summary": "OpenAI 开源的内部模型数学手稿：模型在开放数学问题上的产出，719 篇手稿、372 个家族，部分附 Lean 形式化证明。 ① 719 篇数学手稿按学科分类归档；② 部分结果附 Lean 形式化证明，持续更新；③ 坦诚标注\"未形式化的结果可能有问题\"，社区可参与修正。",
+     "url": "https://github.com/openai/math",
+     "stars": "15.4k",
+     "tags": [
+      "了解即可"
+     ]
+    }
+   ]
+  }
+ ],
+ "_pipelines": {
+  "github": {
+   "digest": [
+    {
+     "title": "大厂\"官方 skill ",
+     "text": "大厂\"官方 skill 化\"全面开花：NVIDIA OpenShell（agent 安全运行时，24h +1,119 新上日榜）、Anthropic knowledge-work-plugins（11 个知识工作插件）、android/skills（官方安卓开发 skills 周增 +1,471）、cursor/plugins（官方插件库周增 +1,946）——\"把官方方法论装进 agent\"已成各大厂标准动作。"
+    },
+    {
+     "title": "增速格局分化",
+     "text": "增速格局分化：security-audit-skill 连续四天日榜第一但 24h 增量从 +2,979 回落到 +2,716；rea 周增量 +88,243 继续降温但仍是周榜第一（第九天）；orca 周增量 +9,545 逆势三连升；ai-memory 周增量加速到 +3,449。"
+    },
+    {
+     "title": "新物种三连击",
+     "text": "新物种三连击：google-research/harness2（Google Research 递归 agent harness，附 arXiv 论文）、openai/math（OpenAI 内部模型数学手稿开源，719 篇）、SolidCraft（纯 Rust 参数化 3D CAD，内置 MCP 让 agent 直接建模）；国产紫微斗数排盘引擎上日榜。"
+    }
+   ],
+   "highlight": "大厂\"官方 skill 化\"全面开花：NVIDIA OpenShell（agent 安全运行时，24h +1,119 新上日榜）、Anthropic knowledge-work-plugins（11 个知识工作插件）、android/skills（官方安卓开发 skills 周增 +1,471）、cursor/plugins（官方插件库周增 +1,946）——\"把官方方法论装进 agent\"已成各大厂标准动作。",
+   "date": "2026-10-24"
+  },
+  "tech-news": {
+   "digest": [
+    {
+     "title": "Recursive 开源",
+     "text": "Recursive 开源 40B MoE 本地编程模型 Flint：Apache 2.0 权重，M4 Pro 上 125+ tok/s，小团队加 AI 四个月从零训练。"
+    },
+    {
+     "title": "速览",
+     "text": "讯飞星火 X2.6 发布（293B MoE、百万上下文，号称全程国产算力训练）；DeepSeek 正完成约 150 亿美元融资（彭博）。"
+    },
+    {
+     "title": "OpenAI Decis",
+     "text": "OpenAI Decisions API 正式 GA：决策型推理快 10 倍；1Password 推出 Agent 凭证平台，密码不出 vault。"
+    }
+   ],
+   "highlight": "Recursive 开源 40B MoE 本地编程模型 Flint：Apache 2.0 权重，M4 Pro 上 125+ tok/s，小团队加 AI 四个月从零训练。",
+   "date": "2026-10-23"
+  }
+ },
+ "digest": [
+  {
+   "title": "大厂\"官方 skill ",
+   "text": "大厂\"官方 skill 化\"全面开花：NVIDIA OpenShell（agent 安全运行时，24h +1,119 新上日榜）、Anthropic knowledge-work-plugins（11 个知识工作插件）、android/skills（官方安卓开发 skills 周增 +1,471）、cursor/plugins（官方插件库周增 +1,946）——\"把官方方法论装进 agent\"已成各大厂标准动作。"
+  },
+  {
+   "title": "Recursive 开源",
+   "text": "Recursive 开源 40B MoE 本地编程模型 Flint：Apache 2.0 权重，M4 Pro 上 125+ tok/s，小团队加 AI 四个月从零训练。"
+  }
+ ],
+ "intro": "大厂\"官方 skill 化\"全面开花：NVIDIA OpenShell（agent 安全运行时，24h +1,119 新上日榜）、Anthropic knowledge-work-plugins（11 个知识工作插件）、android/skills（官方安卓开发 skills 周增 +1,471）、cursor/plugins（官方插件库周增 +1,946）——\"把官方方法论装进 agent\"已成各大厂标准动作。 Recursive 开源 40B MoE 本地编程模型 Flint：Apache 2.0 权重，M4 Pro 上 125+ tok/s，小团队加 AI 四个月从零训练。",
+ "tasks": [
+  {
+   "icon": "GH",
+   "name": "GitHub 开源情报",
+   "detail": "Trending · Star 增速 · 新项目",
+   "time": "08:30"
+  },
+  {
+   "icon": "NW",
+   "name": "科技新闻日报",
+   "detail": "新闻聚合 · 中文简报",
+   "time": "09:00"
+  }
+ ],
+ "date": "2026-10-24",
+ "issue": "024",
+ "updatedAt": "00:36 更新"
+}
