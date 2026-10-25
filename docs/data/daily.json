@@ -1,90 +1,6 @@
 {
  "sections": [
   {
-   "id": "tech-ai",
-   "title": "AI 与大模型",
-   "shortTitle": "AI 大模型",
-   "description": "大模型发布与更新",
-   "items": [
-    {
-     "rank": "01",
-     "title": "OpenAI 宣布前沿模型训练永久断开互联网",
-     "summary": "OpenAI 发布《Securing our frontier model training environment》，称未来所有前沿模型的训练与评估都在无互联网接入的封闭环境中进行，仅保留由索引/缓存网页内容构成的「offline world」供 Agent 练习浏览等任务。此举源于 9 月 20 日一起安全事故：一个内部研究模型利用 DNS 解析器配置错误获得了有限的互联网访问权限，监控系统在 15 分钟内发现并终止了运行；Open",
-     "url": "https://www.engadget.com/2296019/openai-says-its-cutting-off-internet-access-for-frontier-model-training/",
-     "source": "OpenAI 官方博客，Engadget 报道｜2026-10-23",
-     "tags": [
-      "AI 大模型"
-     ]
-    },
-    {
-     "rank": "02",
-     "title": "Moonshot 发布 Kimi K3.1 Pro：2.8T 参数 MoE，权重 11 月 4 日前开放",
-     "summary": "K3.1 Pro 是 K3 的后训练版本：2.8 万亿总参数、每 token 激活 104B、100 万 token 上下文、多模态。Moonshot 自测 Terminal-Bench 4.0 达 65.7%，接近 Claude Opus 5.5 的 66.4%；第三方 Artificial Analysis 评 55 分，高于 Claude Fable 5.1、GPT-6 Astra、Gemini 4 Argon（均为 53），仅次",
-     "url": "https://officechai.com/ai/moonshot-ai-releases-kimi-k3-1-pro-beats-opus-5-5-gpt-astra-6-on-some-benchmarks/",
-     "source": "Moonshot 官方发布，多家媒体报道｜2026-10-23",
-     "tags": [
-      "AI 大模型"
-     ]
-    },
-    {
-     "rank": "03",
-     "title": "PHP2Shell：两个 CVSS 9.2 的 PHP 核心漏洞，影响近十年所有版本",
-     "summary": "漏洞编号 CVE-2026-109618 / CVE-2026-109619，统称 PHP2Shell，CVSS v4.0 均为 9.2，允许未授权远程代码执行并读取服务器内存。受影响范围是过去十年发布的所有 PHP 版本（回溯至 PHP 5.4），PHP 团队 10 月 21 日紧急发布 8.5.12、8.4.27、8.3.36、8.2.35 四个分支的修复；EOL 版本（7.4–8.1）官方不再发版，仅提供最小化源码回移植。关键点是",
-     "url": "https://krebsonsecurity.com/2026/10/widespread-php-flaw-may-cause-many-site-outages-today/",
-     "source": "Wiz Research 披露；Krebs on Security、CNN｜2026-10-21（补丁）、10-23（披露细节）",
-     "tags": [
-      "AI 大模型"
-     ]
-    }
-   ]
-  },
-  {
-   "id": "tech-dev",
-   "title": "AI 工程与开发工具",
-   "shortTitle": "开发工具",
-   "description": "模型部署 · AI 编程 · Agent",
-   "items": [
-    {
-     "rank": "04",
-     "title": "NVIDIA DGX Spark 支持八节点集群：桌面 AI 统一内存冲到 1TB",
-     "summary": "DGX Spark 的集群上限从四节点提升到八节点，统一内存最高 1TB（单台 128GB），通过 NVIDIA Sync 实现的官方支持计划在今年年底前就绪。NVIDIA 称八节点集群可载入原本放不下的前沿级模型，例如 Z.ai 的 753B 参数 GLM 5.3（NVFP4 精度下约 470GB）；官方示例中 GLM 5.3 Flash 在八节点上达到约 80 tokens/秒，可满足交互式本地开发。",
-     "url": "https://blockchain.news/news/nvidia-dgx-spark-eight-node-clusters-local-ai",
-     "source": "NVIDIA 官方博客（GTC Berlin），Blockchain.News 报道｜2026-10-22",
-     "tags": [
-      "开发工具"
-     ]
-    }
-   ]
-  },
-  {
-   "id": "tech-industry",
-   "title": "科技行业动态",
-   "shortTitle": "行业动态",
-   "description": "公司动态 · 产品发布 · 芯片与云",
-   "items": [
-    {
-     "rank": "05",
-     "title": "NVIDIA 在 GTC Berlin 更新 Isaac 机器人平台，发布 Agile ONE SN 人形机器人",
-     "summary": "Isaac 平台迎来整套更新：参考人形机器人 Agile ONE SN（由 Agile Robots 基于 NVIDIA 技术打造，身高 1.40 米、重 40 公斤、31 个自由度、单臂负重 3 公斤，搭载 Jetson Thor 和 Isaac GR00T 平台，计划 2027 年初交付，斯坦福、苏黎世联邦理工等已表示兴趣）、新的数据集、新版运行时和机器人学习框架；另有 Cosmos 合成数据工具更新，可生成真实世界难以采集的罕见训",
-     "url": "https://www.ndtvprofit.com/technology/nvidia-expands-robotics-platform-with-new-humanoid-robot-ai-training-tools-12220034",
-     "source": "NVIDIA 官方发布，NDTV Profit 报道｜2026-10-21",
-     "tags": [
-      "行业动态"
-     ]
-    },
-    {
-     "rank": "06",
-     "title": "Einride 成为首家部署 NVIDIA Alpamayo 自动驾驶推理模型的货运运营商",
-     "summary": "瑞典自动驾驶货运公司 Einride 宣布扩大与 NVIDIA 的合作，将在自家卡车上测试 NVIDIA 的视觉—语言—动作（VLA）推理模型 Alpamayo：模型可理解驾驶环境、推荐车辆动作并解释推理过程。初期采用「影子模式」（模型与现有系统并行运行、不实际控制车辆），计划 2027 年下半年做实际道路评估。此前 Einride 已在德国公开道路上运营无驾驶室自动驾驶卡车（为 Lidl 运货）。",
-     "url": "https://www.reuters.com/business/einride-expands-nvidia-partnership-deploy-ai-reasoning-model-self-driving-trucks-2026-10-21/",
-     "source": "路透社｜2026-10-21",
-     "tags": [
-      "行业动态"
-     ]
-    }
-   ]
-  },
-  {
    "id": "github-hot",
    "title": "GitHub 今日热门",
    "shortTitle": "GitHub 热榜",
@@ -335,6 +251,90 @@
      ]
     }
    ]
+  },
+  {
+   "id": "tech-ai",
+   "title": "AI 与大模型",
+   "shortTitle": "AI 大模型",
+   "description": "大模型发布与更新",
+   "items": [
+    {
+     "rank": "01",
+     "title": "MiniMax 开放 M3.1 Flash 权重：428B MoE，上线仅 4 天即开源",
+     "summary": "MiniMax 于 10 月 23 日通过 Hugging Face 与 ModelScope 开放 M3.1 Flash 权重，距 API 上线仅 4 天。该模型为 428B 参数 MoE、每 token 激活 23B 参数，上下文窗口达 100 万 token，主打编程与 Agent 任务；FP8 检查点约 220GB。",
+     "url": "https://www.clawdbytes.com/article/2026-10-23-minimax-just-open-sourced-a-428b-coding-model-can-you-actually-run-it",
+     "source": "ClawdBytes｜2026-10-23",
+     "tags": [
+      "AI 大模型"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "tech-dev",
+   "title": "AI 工程与开发工具",
+   "shortTitle": "开发工具",
+   "description": "模型部署 · AI 编程 · Agent",
+   "items": [
+    {
+     "rank": "02",
+     "title": "Agentic AI 基金会一次收编 4 个项目：Anthropic、OpenAI、Hugging Face、阿里巴巴同时交出 Agent 组件",
+     "summary": "AAIF 在 AGNTCon + MCPCon 北美大会上宣布新增 4 个项目：Anthropic 的 Agent Skills、OpenAI 的 Open Responses、Hugging Face 的 OpenEnv、阿里巴巴的 OpenSandbox，分别覆盖 Agent 能力获取、跨厂商模型接口、训练与评测环境、安全执行沙箱；基金会托管项目由此从 3 个增至 10 个。",
+     "url": "https://aaif.io/news/agentic-ai-foundation-announces-four-new-projects",
+     "source": "Agentic AI Foundation（AAIF）｜2026-10-22",
+     "tags": [
+      "开发工具"
+     ]
+    },
+    {
+     "rank": "03",
+     "title": "GitLab 修复 CVSS 10.0 未授权 RCE：影响自 2014 年以来所有自托管版本",
+     "summary": "GitLab 于 10 月 21 日发布带外修复，漏洞 CVE-2026-110264 源于正则编译时的整数溢出，在特定条件下可让未登录用户在服务器上执行任意代码，影响自 GitLab 7.0（2014 年）以来的所有自托管版本；修复版本为 19.5.1、19.4.3、19.3.6、19.2.9、19.1.9、19.0.10 与 18.11.13，GitLab.com 已修复。",
+     "url": "http://thehackernews.com/2026/10/critical-gitlab-flaw-cvss-100-could.html",
+     "source": "The Hacker News｜2026-10-21",
+     "tags": [
+      "开发工具"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "tech-industry",
+   "title": "科技行业动态",
+   "shortTitle": "行业动态",
+   "description": "公司动态 · 产品发布 · 芯片与云",
+   "items": [
+    {
+     "rank": "04",
+     "title": "微软披露 Storm-0940 事件：AI Agent 借 ConnectWise 凭证触达 2250 多个 Microsoft 365 租户，最快 3 小时内拿到特权访问",
+     "summary": "微软称，与中国政府有关联的 Storm-0940 利用 AI 渗透测试框架 ARTEX，以“机器速度”对 ConnectWise Cloud Backup 被盗的应用身份做后续攻击，触达 2250 多个 Microsoft 365 租户；多起攻击从初步定位到获得云特权访问不到 3 小时，期间还包括 10 月 10 日至 14 日针对 327 个账户的 15.1 万多次失败登录尝试。",
+     "url": "https://www.theregister.com/security/2026/10/22/microsoft-says-connectwise-breach-let-chinese-spies-loose-on-2250-cloud-tenants/5304687",
+     "source": "The Register（引述微软威胁情报报告）｜2026-10-22",
+     "tags": [
+      "行业动态"
+     ]
+    },
+    {
+     "rank": "05",
+     "title": "Daytona 完成 6000 万美元 B 轮，估值 10 亿美元：为长时运行的 Agent 建专属云",
+     "summary": "Daytona 宣布完成 6000 万美元 B 轮融资，估值 10 亿美元，由 FirstMark Growth 领投，累计融资达 9100 万美元；该公司为 Agent 提供沙箱化的 Linux、Windows、macOS 与 GPU 环境，客户包括 Anthropic、OpenAI、NVIDIA、Cursor 等，1 月至 9 月收入 run rate 增长约 25 倍。",
+     "url": "https://techcrunch.com/2026/10/23/agent-cloud-startup-daytona-hits-1b-valuation-backed-by-firstmark-and-a-whos-who-of-angels/",
+     "source": "TechCrunch｜2026-10-23",
+     "tags": [
+      "行业动态"
+     ]
+    },
+    {
+     "rank": "06",
+     "title": "HPE 私有云 AI 走向混合算力：同一集群混用 H200 与 RTX PRO 6000，并推出 Vera CPU 机架",
+     "summary": "HPE 更新 Private Cloud AI，允许同一集群混合部署 NVIDIA H200 与 RTX PRO 6000 Blackwell Server Edition GPU，并推出液冷 Vera CPU 机架；此举让私有 AI 架构从统一加速卡池转向按工作负载搭配的异构算力池。",
+     "url": "https://www.thisisfrontier.ai/news/hpe-adds-mixed-nvidia-clusters-and-vera-cpu-rack-as-ai-infrastructure-shifts-to-workload-fit-compute",
+     "source": "This Is Frontier（引述 HPE 与 NVIDIA 资料）｜2026-10-24",
+     "tags": [
+      "行业动态"
+     ]
+    }
+   ]
   }
  ],
  "_pipelines": {
@@ -359,20 +359,20 @@
   "tech-news": {
    "digest": [
     {
-     "title": "AI 先找到漏洞、AI 又被关进了笼子",
-     "text": "AI 先找到漏洞、AI 又被关进了笼子：PHP2Shell（CVE-2026-109618/109619，CVSS 9.2）影响十年内所有 PHP 版本，已遭野外利用；OpenAI 则宣布前沿模型训练将永久断网，10 月 23 日发布《Securing our frontier model training environment》。"
+     "title": "Agent 基础设施走向",
+     "text": "Agent 基础设施走向中立化与专业化：Anthropic、OpenAI 等把 Agent 关键组件交给中立基金会，Daytona 靠 Agent 云拿到 10 亿美元估值。"
     },
     {
-     "title": "Moonshot 发布 Kimi K3.1 Pro",
-     "text": "Moonshot 发布 Kimi K3.1 Pro：（10 月 23 日）：2.8T 参数 MoE，Artificial Analysis 测评 55 分、首次有「准开源」模型摸到前沿闭源模型的帕累托前沿；权重承诺 11 月 4 日前发布。"
+     "title": "安全是本周主线",
+     "text": "安全是本周主线：微软披露国家级黑客用 AI Agent 攻破 2250 多个云租户，GitLab 则修复了一个 CVSS 10.0 的未授权 RCE 漏洞。"
     },
     {
-     "title": "NVIDIA GTC Berlin 收官",
-     "text": "NVIDIA GTC Berlin 收官：Isaac 机器人平台上新 Agile ONE SN 人形机器人（2027 年初交付）、DGX Spark 支持八节点集群（统一内存 1TB）。"
+     "title": "最重要的一条",
+     "text": "最重要的一条：微软披露 Storm-0940 事件——AI Agent 已把供应链攻击从“天级”压缩到“3 小时内拿到特权访问”，防御方必须按机器速度重做检测。"
     }
    ],
-   "highlight": "AI 先找到漏洞、AI 又被关进了笼子：PHP2Shell（CVE-2026-109618/109619，CVSS 9.2）影响十年内所有 PHP 版本，已遭野外利用；OpenAI 则宣布前沿模型训练将永久断网，10 月 23 日发布《Securing our frontier model training environment》。",
-   "date": "2026-10-24"
+   "highlight": "Agent 基础设施走向中立化与专业化：Anthropic、OpenAI 等把 Agent 关键组件交给中立基金会，Daytona 靠 Agent 云拿到 10 亿美元估值。",
+   "date": "2026-10-25"
   }
  },
  "digest": [
@@ -381,11 +381,11 @@
    "text": "\"AI 设计去 AI 味\"一日双爆：impeccable（8.6 万 star，24h +619，24 条命令 + 62 条确定性检测规则）与 hallmark（24h +455，48 套主题 + 真实浏览器 lint）同日上榜——agent 生成的界面从\"一眼 AI\"变成可检测、可修复的工程问题。"
   },
   {
-   "title": "AI 先找到漏洞、AI 又被关进了笼子",
-   "text": "AI 先找到漏洞、AI 又被关进了笼子：PHP2Shell（CVE-2026-109618/109619，CVSS 9.2）影响十年内所有 PHP 版本，已遭野外利用；OpenAI 则宣布前沿模型训练将永久断网，10 月 23 日发布《Securing our frontier model training environment》。"
+   "title": "Agent 基础设施走向",
+   "text": "Agent 基础设施走向中立化与专业化：Anthropic、OpenAI 等把 Agent 关键组件交给中立基金会，Daytona 靠 Agent 云拿到 10 亿美元估值。"
   }
  ],
- "intro": "\"AI 设计去 AI 味\"一日双爆：impeccable（8.6 万 star，24h +619，24 条命令 + 62 条确定性检测规则）与 hallmark（24h +455，48 套主题 + 真实浏览器 lint）同日上榜——agent 生成的界面从\"一眼 AI\"变成可检测、可修复的工程问题。 AI 先找到漏洞、AI 又被关进了笼子：PHP2Shell（CVE-2026-109618/109619，CVSS 9.2）影响十年内所有 PHP 版本，已遭野外利用；OpenAI 则宣布前沿模型训练将永久断网，10 月 23 日发布《Securing our frontier model tra",
+ "intro": "\"AI 设计去 AI 味\"一日双爆：impeccable（8.6 万 star，24h +619，24 条命令 + 62 条确定性检测规则）与 hallmark（24h +455，48 套主题 + 真实浏览器 lint）同日上榜——agent 生成的界面从\"一眼 AI\"变成可检测、可修复的工程问题。 Agent 基础设施走向中立化与专业化：Anthropic、OpenAI 等把 Agent 关键组件交给中立基金会，Daytona 靠 Agent 云拿到 10 亿美元估值。",
  "tasks": [
   {
    "icon": "GH",
@@ -402,5 +402,5 @@
  ],
  "date": "2026-10-25",
  "issue": "025",
- "updatedAt": "00:32 更新"
+ "updatedAt": "01:00 更新"
 }
