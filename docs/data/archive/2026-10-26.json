@@ -1,90 +1,6 @@
 {
  "sections": [
   {
-   "id": "tech-ai",
-   "title": "AI 与大模型",
-   "shortTitle": "AI 大模型",
-   "description": "大模型发布与更新",
-   "items": [
-    {
-     "rank": "01",
-     "title": "MiniMax 开放 M3.1 Flash 权重：428B MoE，上线仅 4 天即开源",
-     "summary": "MiniMax 于 10 月 23 日通过 Hugging Face 与 ModelScope 开放 M3.1 Flash 权重，距 API 上线仅 4 天。该模型为 428B 参数 MoE、每 token 激活 23B 参数，上下文窗口达 100 万 token，主打编程与 Agent 任务；FP8 检查点约 220GB。",
-     "url": "https://www.clawdbytes.com/article/2026-10-23-minimax-just-open-sourced-a-428b-coding-model-can-you-actually-run-it",
-     "source": "ClawdBytes｜2026-10-23",
-     "tags": [
-      "AI 大模型"
-     ]
-    }
-   ]
-  },
-  {
-   "id": "tech-dev",
-   "title": "AI 工程与开发工具",
-   "shortTitle": "开发工具",
-   "description": "模型部署 · AI 编程 · Agent",
-   "items": [
-    {
-     "rank": "02",
-     "title": "Agentic AI 基金会一次收编 4 个项目：Anthropic、OpenAI、Hugging Face、阿里巴巴同时交出 Agent 组件",
-     "summary": "AAIF 在 AGNTCon + MCPCon 北美大会上宣布新增 4 个项目：Anthropic 的 Agent Skills、OpenAI 的 Open Responses、Hugging Face 的 OpenEnv、阿里巴巴的 OpenSandbox，分别覆盖 Agent 能力获取、跨厂商模型接口、训练与评测环境、安全执行沙箱；基金会托管项目由此从 3 个增至 10 个。",
-     "url": "https://aaif.io/news/agentic-ai-foundation-announces-four-new-projects",
-     "source": "Agentic AI Foundation（AAIF）｜2026-10-22",
-     "tags": [
-      "开发工具"
-     ]
-    },
-    {
-     "rank": "03",
-     "title": "GitLab 修复 CVSS 10.0 未授权 RCE：影响自 2014 年以来所有自托管版本",
-     "summary": "GitLab 于 10 月 21 日发布带外修复，漏洞 CVE-2026-110264 源于正则编译时的整数溢出，在特定条件下可让未登录用户在服务器上执行任意代码，影响自 GitLab 7.0（2014 年）以来的所有自托管版本；修复版本为 19.5.1、19.4.3、19.3.6、19.2.9、19.1.9、19.0.10 与 18.11.13，GitLab.com 已修复。",
-     "url": "http://thehackernews.com/2026/10/critical-gitlab-flaw-cvss-100-could.html",
-     "source": "The Hacker News｜2026-10-21",
-     "tags": [
-      "开发工具"
-     ]
-    }
-   ]
-  },
-  {
-   "id": "tech-industry",
-   "title": "科技行业动态",
-   "shortTitle": "行业动态",
-   "description": "公司动态 · 产品发布 · 芯片与云",
-   "items": [
-    {
-     "rank": "04",
-     "title": "微软披露 Storm-0940 事件：AI Agent 借 ConnectWise 凭证触达 2250 多个 Microsoft 365 租户，最快 3 小时内拿到特权访问",
-     "summary": "微软称，与中国政府有关联的 Storm-0940 利用 AI 渗透测试框架 ARTEX，以“机器速度”对 ConnectWise Cloud Backup 被盗的应用身份做后续攻击，触达 2250 多个 Microsoft 365 租户；多起攻击从初步定位到获得云特权访问不到 3 小时，期间还包括 10 月 10 日至 14 日针对 327 个账户的 15.1 万多次失败登录尝试。",
-     "url": "https://www.theregister.com/security/2026/10/22/microsoft-says-connectwise-breach-let-chinese-spies-loose-on-2250-cloud-tenants/5304687",
-     "source": "The Register（引述微软威胁情报报告）｜2026-10-22",
-     "tags": [
-      "行业动态"
-     ]
-    },
-    {
-     "rank": "05",
-     "title": "Daytona 完成 6000 万美元 B 轮，估值 10 亿美元：为长时运行的 Agent 建专属云",
-     "summary": "Daytona 宣布完成 6000 万美元 B 轮融资，估值 10 亿美元，由 FirstMark Growth 领投，累计融资达 9100 万美元；该公司为 Agent 提供沙箱化的 Linux、Windows、macOS 与 GPU 环境，客户包括 Anthropic、OpenAI、NVIDIA、Cursor 等，1 月至 9 月收入 run rate 增长约 25 倍。",
-     "url": "https://techcrunch.com/2026/10/23/agent-cloud-startup-daytona-hits-1b-valuation-backed-by-firstmark-and-a-whos-who-of-angels/",
-     "source": "TechCrunch｜2026-10-23",
-     "tags": [
-      "行业动态"
-     ]
-    },
-    {
-     "rank": "06",
-     "title": "HPE 私有云 AI 走向混合算力：同一集群混用 H200 与 RTX PRO 6000，并推出 Vera CPU 机架",
-     "summary": "HPE 更新 Private Cloud AI，允许同一集群混合部署 NVIDIA H200 与 RTX PRO 6000 Blackwell Server Edition GPU，并推出液冷 Vera CPU 机架；此举让私有 AI 架构从统一加速卡池转向按工作负载搭配的异构算力池。",
-     "url": "https://www.thisisfrontier.ai/news/hpe-adds-mixed-nvidia-clusters-and-vera-cpu-rack-as-ai-infrastructure-shifts-to-workload-fit-compute",
-     "source": "This Is Frontier（引述 HPE 与 NVIDIA 资料）｜2026-10-24",
-     "tags": [
-      "行业动态"
-     ]
-    }
-   ]
-  },
-  {
    "id": "github-hot",
    "title": "GitHub 今日热门",
    "shortTitle": "GitHub 热榜",
@@ -334,6 +250,80 @@
      ]
     }
    ]
+  },
+  {
+   "id": "tech-ai",
+   "title": "AI 与大模型",
+   "shortTitle": "AI 大模型",
+   "description": "大模型发布与更新",
+   "items": [
+    {
+     "rank": "01",
+     "title": "Anthropic 为企业用户统一 Claude 聊天与 Cowork",
+     "summary": "企业版 Claude 不再让用户先在聊天与 Cowork 之间二选一：对话以聊天开始，需要运行代码或处理文件时，同一对话会在 Anthropic 管理的隔离云沙箱中转入 Cowork 会话，完成后回到聊天。该统一体验先在企业计划中提供，现有组织默认关闭，11 月 16 日起默认开启。",
+     "url": "https://www.pymnts.com/news/artificial-intelligence/2026/anthropic-merges-claude-chat-and-cowork-for-enterprise-users/",
+     "source": "PYMNTS｜2026-10-25（Anthropic 于 10 月 23 日宣布）",
+     "tags": [
+      "AI 大模型"
+     ]
+    },
+    {
+     "rank": "02",
+     "title": "Google Messages 开始推送 Gemini 驱动的 Enhanced Protection",
+     "summary": "Google Messages 的可选 Enhanced Protection 模式开始在部分用户端出现：对陌生发件人的多轮对话，云端 Gemini 模型会在 Android Private AI Compute 的加密环境中分析上下文，识别“先建立信任、再索要钱款或验证码”的慢热型诈骗；设备端 Gemini Nano 则实时评估陌生链接，推送前给出更清晰的警告。",
+     "url": "https://www.siliconreport.com/google-messages-rolls-out-enhanced-protection-mode-to-counter-scams",
+     "source": "SiliconReport｜2026-10-24（该功能于 10 月 14 日宣布）",
+     "tags": [
+      "AI 大模型"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "tech-dev",
+   "title": "AI 工程与开发工具",
+   "shortTitle": "开发工具",
+   "description": "模型部署 · AI 编程 · Agent",
+   "items": [
+    {
+     "rank": "03",
+     "title": "Ollama v0.40.11：macOS 语音生成与 d3 决策模型",
+     "summary": "Ollama v0.40.11 在 macOS 上新增语音生成：`ollama run` 可边生成边朗读，应用也可通过 OpenAI 兼容的 `/v1/audio/speech` 端点流式获取音频；同时引入源自 vLLM Semantic Router 的 d3 决策模型家族（2B、4B、9B、27B），可对文本、结构化状态或图像做分类、是非判断与选项打分。",
+     "url": "https://releasebot.io/updates/ollama",
+     "source": "Releasebot（Ollama 发布记录）｜2026-10-24",
+     "tags": [
+      "开发工具"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "tech-industry",
+   "title": "科技行业动态",
+   "shortTitle": "行业动态",
+   "description": "公司动态 · 产品发布 · 芯片与云",
+   "items": [
+    {
+     "rank": "04",
+     "title": "SpaceX 称已完成 400 亿美元 GPU 债务融资",
+     "summary": "马斯克表示 SpaceX 已完成 400 亿美元债务融资，用于购买 GPU，首批交付预计在 2027 年第一、二季度，芯片主要来自 NVIDIA；他同时警告信贷收紧可能导致规模较小的 AI 基建公司出现失败与整合。最终条款、贷款方与到期结构尚未公开。",
+     "url": "https://tech-insider.org/musk-spacex-40-billion-gpu-debt-nvidia-2026/",
+     "source": "Tech Insider｜2026-10-26（马斯克于 10 月 25 日发帖，彭博等跟进报道）",
+     "tags": [
+      "行业动态"
+     ]
+    },
+    {
+     "rank": "05",
+     "title": "Apollo 首席经济学家：AI 对科技业之外的公司“零财务回报”",
+     "summary": "Apollo 首席经济学家 Torsten Slok 观察剔除 Alphabet、Amazon、Apple、Meta、Microsoft、NVIDIA、Tesla 后的“S&P 493”后指出，其利润率与人均营收表现平平，没有证据显示 AI 带来了生产率回报；他认为“AI 是很好的计算器，但在商业中，智能大多是判断”，涉及问责、信任与文化等难以量化的因素。",
+     "url": "https://techcrunch.com/2026/10/25/ai-delivers-zero-financial-payoff-to-most-companies-according-to-apollo-economist/",
+     "source": "TechCrunch｜2026-10-25",
+     "tags": [
+      "行业动态"
+     ]
+    }
+   ]
   }
  ],
  "_pipelines": {
@@ -358,20 +348,20 @@
   "tech-news": {
    "digest": [
     {
-     "title": "Agent 基础设施走向",
-     "text": "Agent 基础设施走向中立化与专业化：Anthropic、OpenAI 等把 Agent 关键组件交给中立基金会，Daytona 靠 Agent 云拿到 10 亿美元估值。"
+     "title": "速览",
+     "text": "Anthropic 把 Claude 聊天与 Cowork 合并为企业统一体验，Agent 从问答工具走向常驻工作空间。"
     },
     {
-     "title": "安全是本周主线",
-     "text": "安全是本周主线：微软披露国家级黑客用 AI Agent 攻破 2250 多个云租户，GitLab 则修复了一个 CVSS 10.0 的未授权 RCE 漏洞。"
+     "title": "速览",
+     "text": "SpaceX 称已完成 400 亿美元 GPU 债务融资，AI 算力扩张仍在加杠杆，而 Apollo 则质疑非科技公司的 AI 回报。"
     },
     {
-     "title": "最重要的一条",
-     "text": "最重要的一条：微软披露 Storm-0940 事件——AI Agent 已把供应链攻击从“天级”压缩到“3 小时内拿到特权访问”，防御方必须按机器速度重做检测。"
+     "title": "本轮最重要的一条是 An",
+     "text": "本轮最重要的一条是 Anthropic 的统一 Claude：它直接改变企业员工每天使用 Agent 的入口与权限形态。"
     }
    ],
-   "highlight": "Agent 基础设施走向中立化与专业化：Anthropic、OpenAI 等把 Agent 关键组件交给中立基金会，Daytona 靠 Agent 云拿到 10 亿美元估值。",
-   "date": "2026-10-25"
+   "highlight": "Anthropic 把 Claude 聊天与 Cowork 合并为企业统一体验，Agent 从问答工具走向常驻工作空间。",
+   "date": "2026-10-26"
   }
  },
  "digest": [
@@ -380,11 +370,11 @@
    "text": "安全 skill 龙头越涨越稳：security-audit-skill 单日增量从 +2,264 回升到 +2,878，连续六天日榜第一，周增量同步升到 +15,072——\"大厂把方法论 skill 化\"这条线仍在加速兑现。"
   },
   {
-   "title": "Agent 基础设施走向",
-   "text": "Agent 基础设施走向中立化与专业化：Anthropic、OpenAI 等把 Agent 关键组件交给中立基金会，Daytona 靠 Agent 云拿到 10 亿美元估值。"
+   "title": "速览",
+   "text": "Anthropic 把 Claude 聊天与 Cowork 合并为企业统一体验，Agent 从问答工具走向常驻工作空间。"
   }
  ],
- "intro": "安全 skill 龙头越涨越稳：security-audit-skill 单日增量从 +2,264 回升到 +2,878，连续六天日榜第一，周增量同步升到 +15,072——\"大厂把方法论 skill 化\"这条线仍在加速兑现。 Agent 基础设施走向中立化与专业化：Anthropic、OpenAI 等把 Agent 关键组件交给中立基金会，Daytona 靠 Agent 云拿到 10 亿美元估值。",
+ "intro": "安全 skill 龙头越涨越稳：security-audit-skill 单日增量从 +2,264 回升到 +2,878，连续六天日榜第一，周增量同步升到 +15,072——\"大厂把方法论 skill 化\"这条线仍在加速兑现。 Anthropic 把 Claude 聊天与 Cowork 合并为企业统一体验，Agent 从问答工具走向常驻工作空间。",
  "tasks": [
   {
    "icon": "GH",
@@ -401,5 +391,5 @@
  ],
  "date": "2026-10-26",
  "issue": "026",
- "updatedAt": "00:32 更新"
+ "updatedAt": "00:59 更新"
 }
