@@ -1,0 +1,405 @@
+{
+ "sections": [
+  {
+   "id": "tech-ai",
+   "title": "AI 与大模型",
+   "shortTitle": "AI 大模型",
+   "description": "大模型发布与更新",
+   "items": [
+    {
+     "rank": "01",
+     "title": "MiniMax 开放 M3.1 Flash 权重：428B MoE，上线仅 4 天即开源",
+     "summary": "MiniMax 于 10 月 23 日通过 Hugging Face 与 ModelScope 开放 M3.1 Flash 权重，距 API 上线仅 4 天。该模型为 428B 参数 MoE、每 token 激活 23B 参数，上下文窗口达 100 万 token，主打编程与 Agent 任务；FP8 检查点约 220GB。",
+     "url": "https://www.clawdbytes.com/article/2026-10-23-minimax-just-open-sourced-a-428b-coding-model-can-you-actually-run-it",
+     "source": "ClawdBytes｜2026-10-23",
+     "tags": [
+      "AI 大模型"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "tech-dev",
+   "title": "AI 工程与开发工具",
+   "shortTitle": "开发工具",
+   "description": "模型部署 · AI 编程 · Agent",
+   "items": [
+    {
+     "rank": "02",
+     "title": "Agentic AI 基金会一次收编 4 个项目：Anthropic、OpenAI、Hugging Face、阿里巴巴同时交出 Agent 组件",
+     "summary": "AAIF 在 AGNTCon + MCPCon 北美大会上宣布新增 4 个项目：Anthropic 的 Agent Skills、OpenAI 的 Open Responses、Hugging Face 的 OpenEnv、阿里巴巴的 OpenSandbox，分别覆盖 Agent 能力获取、跨厂商模型接口、训练与评测环境、安全执行沙箱；基金会托管项目由此从 3 个增至 10 个。",
+     "url": "https://aaif.io/news/agentic-ai-foundation-announces-four-new-projects",
+     "source": "Agentic AI Foundation（AAIF）｜2026-10-22",
+     "tags": [
+      "开发工具"
+     ]
+    },
+    {
+     "rank": "03",
+     "title": "GitLab 修复 CVSS 10.0 未授权 RCE：影响自 2014 年以来所有自托管版本",
+     "summary": "GitLab 于 10 月 21 日发布带外修复，漏洞 CVE-2026-110264 源于正则编译时的整数溢出，在特定条件下可让未登录用户在服务器上执行任意代码，影响自 GitLab 7.0（2014 年）以来的所有自托管版本；修复版本为 19.5.1、19.4.3、19.3.6、19.2.9、19.1.9、19.0.10 与 18.11.13，GitLab.com 已修复。",
+     "url": "http://thehackernews.com/2026/10/critical-gitlab-flaw-cvss-100-could.html",
+     "source": "The Hacker News｜2026-10-21",
+     "tags": [
+      "开发工具"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "tech-industry",
+   "title": "科技行业动态",
+   "shortTitle": "行业动态",
+   "description": "公司动态 · 产品发布 · 芯片与云",
+   "items": [
+    {
+     "rank": "04",
+     "title": "微软披露 Storm-0940 事件：AI Agent 借 ConnectWise 凭证触达 2250 多个 Microsoft 365 租户，最快 3 小时内拿到特权访问",
+     "summary": "微软称，与中国政府有关联的 Storm-0940 利用 AI 渗透测试框架 ARTEX，以“机器速度”对 ConnectWise Cloud Backup 被盗的应用身份做后续攻击，触达 2250 多个 Microsoft 365 租户；多起攻击从初步定位到获得云特权访问不到 3 小时，期间还包括 10 月 10 日至 14 日针对 327 个账户的 15.1 万多次失败登录尝试。",
+     "url": "https://www.theregister.com/security/2026/10/22/microsoft-says-connectwise-breach-let-chinese-spies-loose-on-2250-cloud-tenants/5304687",
+     "source": "The Register（引述微软威胁情报报告）｜2026-10-22",
+     "tags": [
+      "行业动态"
+     ]
+    },
+    {
+     "rank": "05",
+     "title": "Daytona 完成 6000 万美元 B 轮，估值 10 亿美元：为长时运行的 Agent 建专属云",
+     "summary": "Daytona 宣布完成 6000 万美元 B 轮融资，估值 10 亿美元，由 FirstMark Growth 领投，累计融资达 9100 万美元；该公司为 Agent 提供沙箱化的 Linux、Windows、macOS 与 GPU 环境，客户包括 Anthropic、OpenAI、NVIDIA、Cursor 等，1 月至 9 月收入 run rate 增长约 25 倍。",
+     "url": "https://techcrunch.com/2026/10/23/agent-cloud-startup-daytona-hits-1b-valuation-backed-by-firstmark-and-a-whos-who-of-angels/",
+     "source": "TechCrunch｜2026-10-23",
+     "tags": [
+      "行业动态"
+     ]
+    },
+    {
+     "rank": "06",
+     "title": "HPE 私有云 AI 走向混合算力：同一集群混用 H200 与 RTX PRO 6000，并推出 Vera CPU 机架",
+     "summary": "HPE 更新 Private Cloud AI，允许同一集群混合部署 NVIDIA H200 与 RTX PRO 6000 Blackwell Server Edition GPU，并推出液冷 Vera CPU 机架；此举让私有 AI 架构从统一加速卡池转向按工作负载搭配的异构算力池。",
+     "url": "https://www.thisisfrontier.ai/news/hpe-adds-mixed-nvidia-clusters-and-vera-cpu-rack-as-ai-infrastructure-shifts-to-workload-fit-compute",
+     "source": "This Is Frontier（引述 HPE 与 NVIDIA 资料）｜2026-10-24",
+     "tags": [
+      "行业动态"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "github-hot",
+   "title": "GitHub 今日热门",
+   "shortTitle": "GitHub 热榜",
+   "description": "综合热度、活跃度与实用价值排序",
+   "items": [
+    {
+     "rank": "01",
+     "title": "cloudflare/security-audit-skill",
+     "summary": "解决了\"agent 写代码快、安全审计跟不上\"的问题——六阶段流程、每个漏洞候选由独立 agent 证伪、输出机器可读报告，连续六天日榜第一且双口径同步回升。做 agent 安全或想给代码做深度审计的人，这是目前最成体系的开源方案。",
+     "url": "https://github.com/cloudflare/security-audit-skill",
+     "stars": "46.9k",
+     "trend": "+2,878",
+     "tags": [
+      "强烈推荐"
+     ],
+     "featured": true
+    },
+    {
+     "rank": "02",
+     "title": "debpalash/VoiceStudio",
+     "summary": "开源、完全本地的 ElevenLabs 平替：语音克隆、声音设计、视频配音、听写、转录、有声书制作，支持 646 种语言，全部离线跑。 ① 本地语音克隆与声音设计，不上传音频到云端；② 视频配音、听写、转录、有声书一条龙；③ 646 种语言覆盖，个人与小团队的本地语音工作站。",
+     "url": "https://github.com/debpalash/VoiceStudio",
+     "stars": "86.8k",
+     "trend": "+1,592",
+     "tags": [
+      "值得关注"
+     ]
+    },
+    {
+     "rank": "03",
+     "title": "Nutlope/hallmark",
+     "summary": "一个\"拒绝 AI 味\"的设计 skill：给 Claude Code、Cursor、Codex 用的反 AI-slop 设计工具，48 套主题任选，生成后在真实浏览器里 lint 成品。 ① 48 套材质主题，先定调再建页面，围绕访客真正要做的事布局；② 真实浏览器 lint：揪出每标题上方的 eyebrow、通篇空框架、\"感谢注册但根本没发邮件\"的假表单等机器味；③ 分层门槛：Floor（对比度",
+     "url": "https://github.com/Nutlope/hallmark",
+     "stars": "33.7k",
+     "trend": "+1,317",
+     "tags": [
+      "值得关注"
+     ]
+    },
+    {
+     "rank": "04",
+     "title": "pbakaus/impeccable",
+     "summary": "给 AI 编程 agent 的设计语言：1 个 skill、24 条命令、62 条确定性检测规则，专治\"AI 生成的界面一眼就是 AI 做的\"。 ① `/impeccable init` 先把产品事实写进 PRODUCT.md，让 agent 分清\"产品真相\"与\"视觉风格\"；② 24 条命令构成共享设计词汇（polish、audit、critique 等）；③ 62 条确定性检测规则 + 真实浏览",
+     "url": "https://github.com/pbakaus/impeccable",
+     "stars": "87.7k",
+     "trend": "+1,092",
+     "tags": [
+      "强烈推荐"
+     ]
+    },
+    {
+     "rank": "05",
+     "title": "makecindy/cindy",
+     "summary": "开源、开箱即用的 AI agent：把多个 harness、模型和工具收进一个 agent，直接在你自己的电脑上干活，中文文档齐全。 ① 多 harness、多模型、多工具合一，不用自己拼装 agent 工作流；② 在本地项目和应用里完成真实任务，开箱即用；③ Apache 2.0 协议，官网 cindy.app 提供下载，Node 22 + pnpm 技术栈。",
+     "url": "https://github.com/makecindy/cindy",
+     "stars": "4.8k",
+     "trend": "+675",
+     "tags": [
+      "值得关注"
+     ]
+    },
+    {
+     "rank": "06",
+     "title": "pollen-robotics/microduck",
+     "summary": "一只 25 厘米、800 克的双足鸭机器人：靠强化学习策略走路，开源了整套\"大脑\"代码。 ① 50Hz 控制回路驱动 15 个舵机，策略来自强化学习训练（另有 microduck_rl 训练仓库）；② Rockchip RK3566 上跑一 handful 守护进程：控制、无线电、摄像头、OTA 更新；③ 完整文档：速查表、架构说明、贡献指南，硬件可从官网购买。",
+     "url": "https://github.com/pollen-robotics/microduck",
+     "stars": "11.6k",
+     "trend": "+647",
+     "tags": [
+      "值得关注"
+     ]
+    },
+    {
+     "rank": "07",
+     "title": "multica-ai/andrej-karpathy-skills",
+     "summary": "一个文件治好 agent 的\"自作聪明\"：把 Andrej Karpathy 对 LLM 写代码的观察提炼成一份 CLAUDE.md，贴进项目就能让 agent 少犯低级错误。 ① 四条原则直击 Karpathy 点名的毛病：不核实假设就一路狂奔、不管理困惑、不给 trade-off、不在该顶嘴时顶嘴；② 专治\"100 行能写完偏写 1000 行\"的过度抽象和顺手改无关代码；③ 中英双语 READ",
+     "url": "https://github.com/multica-ai/andrej-karpathy-skills",
+     "stars": "223.8k",
+     "tags": [
+      "强烈推荐"
+     ]
+    },
+    {
+     "rank": "08",
+     "title": "pingdotgg/t3code",
+     "summary": "agent 的\"遥控器\"：手机 App、网页、桌面端三端齐全的 agent harness 控制面，在外面也能管家里电脑上跑着的 agent。 ① 一个控制面同时管 Claude Code、Codex、Cursor、Grok Build、OpenCode、Google Antigravity，用你自己的订阅；② iOS / Android / Web / Electron 桌面全覆盖，远程就绪；③",
+     "url": "https://github.com/pingdotgg/t3code",
+     "stars": "30.1k",
+     "tags": [
+      "值得关注"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "github-rising",
+   "title": "Star 增长最快",
+   "shortTitle": "增长最快",
+   "description": "按实际 Star 增量排序",
+   "items": [
+    {
+     "rank": "01",
+     "title": "cloudflare/security-audit-skill",
+     "summary": "较昨日（+12,680）同步升温，双口径回升，安全 skill 龙头地位继续巩固。",
+     "url": "https://github.com/cloudflare/security-audit-skill",
+     "stars": "46.9k",
+     "trend": "+15,072",
+     "tags": [
+      "高增长"
+     ]
+    },
+    {
+     "rank": "02",
+     "title": "stablyai/orca",
+     "summary": "较昨日（+9,828）小幅回落，四连升止步，但仍是周榜第二，舰队管理需求高位企稳。",
+     "url": "https://github.com/stablyai/orca",
+     "stars": "105.8k",
+     "trend": "+9,622",
+     "tags": [
+      "高增长"
+     ]
+    },
+    {
+     "rank": "03",
+     "title": "Graphify-Labs/graphify",
+     "summary": "较昨日（+6,868）小幅升温，代码库知识图谱路线稳态增长。",
+     "url": "https://github.com/Graphify-Labs/graphify",
+     "stars": "135.2k",
+     "trend": "+6,903",
+     "tags": [
+      "高增长"
+     ]
+    },
+    {
+     "rank": "04",
+     "title": "anomalyco/opencode",
+     "summary": "较昨日（+6,857）降温，开源 coding agent 元老增长放缓但体量仍在扩大。",
+     "url": "https://github.com/anomalyco/opencode",
+     "stars": "221.5k",
+     "trend": "+5,921",
+     "tags": [
+      "高增长"
+     ]
+    },
+    {
+     "rank": "05",
+     "title": "heygen-com/hyperframes",
+     "summary": "\"写 HTML，渲染视频，为 agent 而造\"，较昨日（+5,633）基本持平。",
+     "url": "https://github.com/heygen-com/hyperframes",
+     "stars": "72.2k",
+     "trend": "+5,612",
+     "tags": [
+      "高增长"
+     ]
+    },
+    {
+     "rank": "06",
+     "title": "Comfy-Org/ComfyUI",
+     "summary": "较昨日（+4,648）继续升温，扩散模型 GUI 老将持续回暖。",
+     "url": "https://github.com/Comfy-Org/ComfyUI",
+     "stars": "142.9k",
+     "trend": "+4,790",
+     "tags": [
+      "高增长"
+     ]
+    },
+    {
+     "rank": "07",
+     "title": "akitaonrails/ai-memory",
+     "summary": "较昨日（+3,541）小幅降温，多 agent 记忆中台需求仍在高位。",
+     "url": "https://github.com/akitaonrails/ai-memory",
+     "stars": "13.5k",
+     "trend": "+3,254",
+     "tags": [
+      "高增长"
+     ]
+    },
+    {
+     "rank": "08",
+     "title": "ruvnet/ruflo",
+     "summary": "较昨日（+3,241）降温，agent harness 赛道仍在加码。",
+     "url": "https://github.com/ruvnet/ruflo",
+     "stars": "79.3k",
+     "trend": "+2,987",
+     "tags": [
+      "高增长"
+     ]
+    },
+    {
+     "rank": "09",
+     "title": "multica-ai/andrej-karpathy-skills",
+     "summary": "单文件 CLAUDE.md 重回周榜，Karpathy 准则被新一波 agent 用户重新发现。",
+     "url": "https://github.com/multica-ai/andrej-karpathy-skills",
+     "stars": "223.8k",
+     "trend": "+2,937",
+     "tags": [
+      "高增长"
+     ]
+    },
+    {
+     "rank": "10",
+     "title": "anthropics/knowledge-work-plugins",
+     "summary": "较昨日周榜口径（+2,631）小幅升温，Anthropic 知识工作插件供给侧继续扩张。",
+     "url": "https://github.com/anthropics/knowledge-work-plugins",
+     "stars": "33.0k",
+     "trend": "+2,790",
+     "tags": [
+      "高增长"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "github-new",
+   "title": "值得关注的新项目",
+   "shortTitle": "新项目",
+   "description": "近期创建、增长迅速的有潜力项目",
+   "items": [
+    {
+     "rank": "01",
+     "title": "rehan-remade/universal-modder",
+     "summary": "指着任何一个 PC 游戏，让 AI agent 给它做 mod：找游戏、认引擎、读代码、做 mod、生成美术音效、进游戏实测、剪展示视频，全流程 agent 包办。 ① skills + 工具 + 共享知识库，让 Claude Code、Codex、Cursor、Gemini CLI 等 agent 都能 mod 游戏；② 逆向、美术/3D/音频生成（fal）、游戏内测试、展示视频一条龙；③ 学到",
+     "url": "https://github.com/rehan-remade/universal-modder",
+     "stars": "9.0k",
+     "tags": [
+      "值得关注"
+     ]
+    },
+    {
+     "rank": "02",
+     "title": "KKKKhazix/AIHOT",
+     "summary": "一个\"自己找热点、自己写日报\"的网站框架：把信源和精选标准换成你的行业，它就是你的行业热点站。 ① 多条信源流进中间的精选层，再分发到法律、人力、金融等各个行业分站；② Node 24 + PostgreSQL 17 + Docker Compose，自托管部署；③ MIT 协议，换信源、换标准即可复用到任何垂直领域。",
+     "url": "https://github.com/KKKKhazix/AIHOT",
+     "stars": "8.6k",
+     "tags": [
+      "值得关注"
+     ]
+    },
+    {
+     "rank": "03",
+     "title": "Zagitta/gpu-unlock",
+     "summary": "一个 Linux 内核模块：把 RTX 3000 系列显卡的 FP/BF16 指令发射速率解锁到专业卡同等水平，跑本地推理直接翻倍算力。 ① 在驱动加载前完成解锁并写速度选择器，不用每次驱动更新都手动打补丁；② GA102/GA103/GA104/GA106 全系覆盖，3090 Ti 实测 dense GEMM 性能翻倍；③ 既不是 UEFI 程序也不是魔改驱动，维护成本低。",
+     "url": "https://github.com/Zagitta/gpu-unlock",
+     "stars": "6.7k",
+     "tags": [
+      "值得关注"
+     ]
+    }
+   ]
+  }
+ ],
+ "_pipelines": {
+  "github": {
+   "digest": [
+    {
+     "title": "安全 skill 龙头越",
+     "text": "安全 skill 龙头越涨越稳：security-audit-skill 单日增量从 +2,264 回升到 +2,878，连续六天日榜第一，周增量同步升到 +15,072——\"大厂把方法论 skill 化\"这条线仍在加速兑现。"
+    },
+    {
+     "title": "去 AI 味\"设计双雄",
+     "text": "\"去 AI 味\"设计双雄二次爆发：hallmark 24h +1,317（昨日 +455）、impeccable +1,092（昨日 +619），双双较昨日翻倍；VoiceStudio 以 +1,592 重回日榜，本地语音工具需求仍在高位。"
+    },
+    {
+     "title": "agent 控制层再添新",
+     "text": "agent 控制层再添新玩家：Karpathy 观察提炼的单文件 CLAUDE.md 周增 +2,937、T3 Code 移动端控 agent 周增 +1,770——\"怎么管 agent\"正在从零散工具变成一层基础设施。"
+    }
+   ],
+   "highlight": "安全 skill 龙头越涨越稳：security-audit-skill 单日增量从 +2,264 回升到 +2,878，连续六天日榜第一，周增量同步升到 +15,072——\"大厂把方法论 skill 化\"这条线仍在加速兑现。",
+   "date": "2026-10-26"
+  },
+  "tech-news": {
+   "digest": [
+    {
+     "title": "Agent 基础设施走向",
+     "text": "Agent 基础设施走向中立化与专业化：Anthropic、OpenAI 等把 Agent 关键组件交给中立基金会，Daytona 靠 Agent 云拿到 10 亿美元估值。"
+    },
+    {
+     "title": "安全是本周主线",
+     "text": "安全是本周主线：微软披露国家级黑客用 AI Agent 攻破 2250 多个云租户，GitLab 则修复了一个 CVSS 10.0 的未授权 RCE 漏洞。"
+    },
+    {
+     "title": "最重要的一条",
+     "text": "最重要的一条：微软披露 Storm-0940 事件——AI Agent 已把供应链攻击从“天级”压缩到“3 小时内拿到特权访问”，防御方必须按机器速度重做检测。"
+    }
+   ],
+   "highlight": "Agent 基础设施走向中立化与专业化：Anthropic、OpenAI 等把 Agent 关键组件交给中立基金会，Daytona 靠 Agent 云拿到 10 亿美元估值。",
+   "date": "2026-10-25"
+  }
+ },
+ "digest": [
+  {
+   "title": "安全 skill 龙头越",
+   "text": "安全 skill 龙头越涨越稳：security-audit-skill 单日增量从 +2,264 回升到 +2,878，连续六天日榜第一，周增量同步升到 +15,072——\"大厂把方法论 skill 化\"这条线仍在加速兑现。"
+  },
+  {
+   "title": "Agent 基础设施走向",
+   "text": "Agent 基础设施走向中立化与专业化：Anthropic、OpenAI 等把 Agent 关键组件交给中立基金会，Daytona 靠 Agent 云拿到 10 亿美元估值。"
+  }
+ ],
+ "intro": "安全 skill 龙头越涨越稳：security-audit-skill 单日增量从 +2,264 回升到 +2,878，连续六天日榜第一，周增量同步升到 +15,072——\"大厂把方法论 skill 化\"这条线仍在加速兑现。 Agent 基础设施走向中立化与专业化：Anthropic、OpenAI 等把 Agent 关键组件交给中立基金会，Daytona 靠 Agent 云拿到 10 亿美元估值。",
+ "tasks": [
+  {
+   "icon": "GH",
+   "name": "GitHub 开源情报",
+   "detail": "Trending · Star 增速 · 新项目",
+   "time": "08:30"
+  },
+  {
+   "icon": "NW",
+   "name": "科技新闻日报",
+   "detail": "新闻聚合 · 中文简报",
+   "time": "09:00"
+  }
+ ],
+ "date": "2026-10-26",
+ "issue": "026",
+ "updatedAt": "00:32 更新"
+}
