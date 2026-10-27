@@ -1,80 +1,6 @@
 {
  "sections": [
   {
-   "id": "tech-ai",
-   "title": "AI 与大模型",
-   "shortTitle": "AI 大模型",
-   "description": "大模型发布与更新",
-   "items": [
-    {
-     "rank": "01",
-     "title": "Anthropic 为企业用户统一 Claude 聊天与 Cowork",
-     "summary": "企业版 Claude 不再让用户先在聊天与 Cowork 之间二选一：对话以聊天开始，需要运行代码或处理文件时，同一对话会在 Anthropic 管理的隔离云沙箱中转入 Cowork 会话，完成后回到聊天。该统一体验先在企业计划中提供，现有组织默认关闭，11 月 16 日起默认开启。",
-     "url": "https://www.pymnts.com/news/artificial-intelligence/2026/anthropic-merges-claude-chat-and-cowork-for-enterprise-users/",
-     "source": "PYMNTS｜2026-10-25（Anthropic 于 10 月 23 日宣布）",
-     "tags": [
-      "AI 大模型"
-     ]
-    },
-    {
-     "rank": "02",
-     "title": "Google Messages 开始推送 Gemini 驱动的 Enhanced Protection",
-     "summary": "Google Messages 的可选 Enhanced Protection 模式开始在部分用户端出现：对陌生发件人的多轮对话，云端 Gemini 模型会在 Android Private AI Compute 的加密环境中分析上下文，识别“先建立信任、再索要钱款或验证码”的慢热型诈骗；设备端 Gemini Nano 则实时评估陌生链接，推送前给出更清晰的警告。",
-     "url": "https://www.siliconreport.com/google-messages-rolls-out-enhanced-protection-mode-to-counter-scams",
-     "source": "SiliconReport｜2026-10-24（该功能于 10 月 14 日宣布）",
-     "tags": [
-      "AI 大模型"
-     ]
-    }
-   ]
-  },
-  {
-   "id": "tech-dev",
-   "title": "AI 工程与开发工具",
-   "shortTitle": "开发工具",
-   "description": "模型部署 · AI 编程 · Agent",
-   "items": [
-    {
-     "rank": "03",
-     "title": "Ollama v0.40.11：macOS 语音生成与 d3 决策模型",
-     "summary": "Ollama v0.40.11 在 macOS 上新增语音生成：`ollama run` 可边生成边朗读，应用也可通过 OpenAI 兼容的 `/v1/audio/speech` 端点流式获取音频；同时引入源自 vLLM Semantic Router 的 d3 决策模型家族（2B、4B、9B、27B），可对文本、结构化状态或图像做分类、是非判断与选项打分。",
-     "url": "https://releasebot.io/updates/ollama",
-     "source": "Releasebot（Ollama 发布记录）｜2026-10-24",
-     "tags": [
-      "开发工具"
-     ]
-    }
-   ]
-  },
-  {
-   "id": "tech-industry",
-   "title": "科技行业动态",
-   "shortTitle": "行业动态",
-   "description": "公司动态 · 产品发布 · 芯片与云",
-   "items": [
-    {
-     "rank": "04",
-     "title": "SpaceX 称已完成 400 亿美元 GPU 债务融资",
-     "summary": "马斯克表示 SpaceX 已完成 400 亿美元债务融资，用于购买 GPU，首批交付预计在 2027 年第一、二季度，芯片主要来自 NVIDIA；他同时警告信贷收紧可能导致规模较小的 AI 基建公司出现失败与整合。最终条款、贷款方与到期结构尚未公开。",
-     "url": "https://tech-insider.org/musk-spacex-40-billion-gpu-debt-nvidia-2026/",
-     "source": "Tech Insider｜2026-10-26（马斯克于 10 月 25 日发帖，彭博等跟进报道）",
-     "tags": [
-      "行业动态"
-     ]
-    },
-    {
-     "rank": "05",
-     "title": "Apollo 首席经济学家：AI 对科技业之外的公司“零财务回报”",
-     "summary": "Apollo 首席经济学家 Torsten Slok 观察剔除 Alphabet、Amazon、Apple、Meta、Microsoft、NVIDIA、Tesla 后的“S&P 493”后指出，其利润率与人均营收表现平平，没有证据显示 AI 带来了生产率回报；他认为“AI 是很好的计算器，但在商业中，智能大多是判断”，涉及问责、信任与文化等难以量化的因素。",
-     "url": "https://techcrunch.com/2026/10/25/ai-delivers-zero-financial-payoff-to-most-companies-according-to-apollo-economist/",
-     "source": "TechCrunch｜2026-10-25",
-     "tags": [
-      "行业动态"
-     ]
-    }
-   ]
-  },
-  {
    "id": "github-hot",
    "title": "GitHub 今日热门",
    "shortTitle": "GitHub 热榜",
@@ -348,6 +274,110 @@
      ]
     }
    ]
+  },
+  {
+   "id": "tech-ai",
+   "title": "AI 与大模型",
+   "shortTitle": "AI 大模型",
+   "description": "大模型发布与更新",
+   "items": [
+    {
+     "rank": "01",
+     "title": "OpenAI 发布 GPT-6.1 Terra：中档模型降价一半，主攻电脑操作与日常办公",
+     "summary": "OpenAI 发布 GPT-6.1 Terra，接替 GPT-5.6 Terra，定位为日常主力模型。标准 API 定价为每百万输入 token 1 美元、输出 5 美元、缓存输入 0.05 美元，比前代与 GPT-6.1 Sol 低约 50%；上下文 105 万 token，最大输出 12.8 万 token。官方称其在 Terminal-Bench 4.0 最高推理强度下达 50.3%，远高于前代的 21.5%，且任务完成速度比 A",
+     "url": "https://siliconangle.com/2026/10/26/openai-launches-gpt-6-1-terra-for-faster-better-performing-ai-agents-at-half-the-price/",
+     "source": "SiliconANGLE、PYMNTS｜2026-10-26",
+     "tags": [
+      "AI 大模型"
+     ]
+    },
+    {
+     "rank": "02",
+     "title": "Cursor 接入 DeepSeek V4.1 Flash：CursorBench 最高档 47.7%，单任务成本不到 1 美元",
+     "summary": "Cursor 上线 DeepSeek V4.1 Flash，提供 Low、Medium、High、Max 四档 effort；Max 档在 CursorBench 4.0 上达 47.7%，四档单任务成本均在 0.60 至 0.98 美元之间。模型本身为 552B MoE（每 token 激活 8B），上下文 100 万 token，权重以 MIT 协议开放。",
+     "url": "https://alphasignal.ai/news/cursor-adds-deepseek-v4-1-flash-hitting-47-7-for-under-1-per-task",
+     "source": "AlphaSignal｜2026-10-26",
+     "tags": [
+      "AI 大模型"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "tech-dev",
+   "title": "AI 工程与开发工具",
+   "shortTitle": "开发工具",
+   "description": "模型部署 · AI 编程 · Agent",
+   "items": [
+    {
+     "rank": "03",
+     "title": "NVIDIA Run:ai 正式开源，Lambda 率先集成进托管 Kubernetes 服务",
+     "summary": "NVIDIA 在 GTC Berlin 期间将 Run:ai 开源，作为 DSX AI 工厂软件栈的一部分；AI 云厂商 Lambda 宣布将其集成进托管 Kubernetes 服务（LKS），用于跨团队、跨项目调度 GPU 负载，LKS 则负责底层集群健康与故障 GPU 节点隔离。",
+     "url": "https://www.storagenewsletter.com/2026/10/26/nvidia-gtc-berlin-2026-lambda-to-integrate-open-source-nvidia-runai-with-its-managed-kubernetes-service/",
+     "source": "StorageNewsletter（Lambda 官方通稿）｜2026-10-26",
+     "tags": [
+      "开发工具"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "tech-industry",
+   "title": "科技行业动态",
+   "shortTitle": "行业动态",
+   "description": "公司动态 · 产品发布 · 芯片与云",
+   "items": [
+    {
+     "rank": "04",
+     "title": "苹果 27.2 系统全线更新，Siri AI 扩展至法日韩葡西五种语言",
+     "summary": "苹果发布 iOS、iPadOS、macOS、watchOS、visionOS 的 27.2 更新，Siri AI 新增法语、日语、韩语、葡萄牙语、西班牙语支持，可 recall 既往对话，并能读取 Messages 照片、日历参与者、语音留言等更多个人上下文；新增 Excluded Apps 设置，可一处管理 Siri 与搜索的数据访问权限。iOS、iPadOS 与 watchOS 上的 Siri AI 在欧盟仍不可用，中国内地同样不在",
+     "url": "https://applemagazine.com/apple-27-2-updates-october-26/",
+     "source": "AppleMagazine、MacRumors｜2026-10-26",
+     "tags": [
+      "行业动态"
+     ]
+    },
+    {
+     "rank": "05",
+     "title": "苹果发布新款 iPad mini：8.5 英寸 OLED 屏、A20 Pro 芯片，699 美元起",
+     "summary": "苹果发布新款 iPad mini，8.5 英寸 OLED 屏、A20 Pro 芯片、IP67 防护，支持 Wi-Fi 7、蓝牙 6，前置摄像头移至横向边框；美国起售价 699 美元（128GB Wi-Fi），10 月 28 日开启预购，11 月 6 日发售。苹果营销主管 Greg Joswiak 表示本周还将有更多发布。",
+     "url": "https://appleinsider.com/articles/26/10/26/ipad-mini-is-just-the-start-of-an-exciting-week-says-apple?utm_medium=social&utm_source=ai_forums",
+     "source": "AppleInsider｜2026-10-26",
+     "tags": [
+      "行业动态"
+     ]
+    },
+    {
+     "rank": "06",
+     "title": "黄仁勋放风：NVIDIA 拟对 AI Agent 软件收取约 2000 美元/GPU/年授权费",
+     "summary": "黄仁勋在 GTC Berlin 问答中表示，软件授权将成为 NVIDIA 业务中越来越重要的一部分，举例称运行 AI 工厂中全部 Agent 软件的费用“约为每 GPU 每年 2000 美元”。该数字仅为举例，未公布适用产品范围、生效时间，也未说明与现行每 GPU 每年 4500 美元的 AI Enterprise 订阅的关系。",
+     "url": "https://www.techspot.com/news/114333-nvidia-ai-chips-already-make-billions-now-jensen.html",
+     "source": "TechSpot（首报 The Register）｜2026-10-26（言论出自 10 月 22 日 GTC Berlin 问答）",
+     "tags": [
+      "行业动态"
+     ]
+    },
+    {
+     "rank": "07",
+     "title": "DeepSeek V4.1-Flash-1017 登顶 OpenRouter 周调用量，中国模型调用量连续 26 周居首",
+     "summary": "OpenRouter 数据显示，10 月 19 日至 25 日一周，全球大模型总调用量 188 万亿 token，环比增 14.63%；DeepSeek V4.1-Flash-1017 以 33.6 万亿 token、环比增 801% 居首，前五名均为中国模型；同期中国模型周调用量 93.54 万亿 token，美国模型 22.47 万亿 token，中国模型已连续 26 周居首。",
+     "url": "https://www.chaincatcher.com/en/article/2298906",
+     "source": "ChainCatcher（引自科创板日报与 OpenRouter 数据）｜2026-10-26",
+     "tags": [
+      "行业动态"
+     ]
+    },
+    {
+     "rank": "08",
+     "title": "SWI Compute 浮出水面：手握 3.6GW 电力，在欧洲建 NVIDIA AI 工厂",
+     "summary": "SWI Compute 结束隐身状态，依托母公司 SWI Group 六年间在欧洲与美国 확보的 3.6GW 电力容量，建设并运营 NVIDIA AI 工厂；公司 8 月成为 NVIDIA 首选云合作伙伴，已订购约 10 亿美元 NVIDIA 系统并签下首批客户。英国首座 AI 工厂首期 30MW，约 7000 块 Rubin GPU 与 3500 颗 Vera CPU，计划 2027 年底上线，园区远期规划 530MW，2029 年前",
+     "url": "https://www.morningstar.com/news/pr-newswire/20261026ln79997/swi-compute-emerges-from-stealth-to-turn-gigawatts-of-power-into-nvidia-ai-factories-starting-in-europe",
+     "source": "PR Newswire（经 Morningstar）｜2026-10-26",
+     "tags": [
+      "行业动态"
+     ]
+    }
+   ]
   }
  ],
  "_pipelines": {
@@ -372,20 +402,20 @@
   "tech-news": {
    "digest": [
     {
-     "title": "速览",
-     "text": "Anthropic 把 Claude 聊天与 Cowork 合并为企业统一体验，Agent 从问答工具走向常驻工作空间。"
+     "title": "OpenAI 发布 GP",
+     "text": "OpenAI 发布 GPT-6.1 Terra：中档模型 API 降价一半，主攻电脑操作与日常办公任务。"
     },
     {
      "title": "速览",
-     "text": "SpaceX 称已完成 400 亿美元 GPU 债务融资，AI 算力扩张仍在加杠杆，而 Apollo 则质疑非科技公司的 AI 回报。"
+     "text": "Cursor 接入 DeepSeek V4.1 Flash，单任务成本不到 1 美元；DeepSeek 同日登顶 OpenRouter 周调用量榜首。"
     },
     {
-     "title": "本轮最重要的一条是 An",
-     "text": "本轮最重要的一条是 Anthropic 的统一 Claude：它直接改变企业员工每天使用 Agent 的入口与权限形态。"
+     "title": "速览",
+     "text": "苹果 27.2 系统全线更新并发布新款 iPad mini；黄仁勋放风 NVIDIA 拟对 Agent 软件收取年费。"
     }
    ],
-   "highlight": "Anthropic 把 Claude 聊天与 Cowork 合并为企业统一体验，Agent 从问答工具走向常驻工作空间。",
-   "date": "2026-10-26"
+   "highlight": "OpenAI 发布 GPT-6.1 Terra：中档模型 API 降价一半，主攻电脑操作与日常办公任务。",
+   "date": "2026-10-27"
   }
  },
  "digest": [
@@ -394,11 +424,11 @@
    "text": "设计 skill 三连涨：hallmark 24h +2,244（连续三天爬升）、impeccable +1,506 同步走高，国产 huashu-design（+251）首次上榜——\"去 AI 味\"从双雄对决扩散成集团军。"
   },
   {
-   "title": "速览",
-   "text": "Anthropic 把 Claude 聊天与 Cowork 合并为企业统一体验，Agent 从问答工具走向常驻工作空间。"
+   "title": "OpenAI 发布 GP",
+   "text": "OpenAI 发布 GPT-6.1 Terra：中档模型 API 降价一半，主攻电脑操作与日常办公任务。"
   }
  ],
- "intro": "设计 skill 三连涨：hallmark 24h +2,244（连续三天爬升）、impeccable +1,506 同步走高，国产 huashu-design（+251）首次上榜——\"去 AI 味\"从双雄对决扩散成集团军。 Anthropic 把 Claude 聊天与 Cowork 合并为企业统一体验，Agent 从问答工具走向常驻工作空间。",
+ "intro": "设计 skill 三连涨：hallmark 24h +2,244（连续三天爬升）、impeccable +1,506 同步走高，国产 huashu-design（+251）首次上榜——\"去 AI 味\"从双雄对决扩散成集团军。 OpenAI 发布 GPT-6.1 Terra：中档模型 API 降价一半，主攻电脑操作与日常办公任务。",
  "tasks": [
   {
    "icon": "GH",
@@ -415,5 +445,5 @@
  ],
  "date": "2026-10-27",
  "issue": "027",
- "updatedAt": "00:54 更新"
+ "updatedAt": "01:01 更新"
 }
