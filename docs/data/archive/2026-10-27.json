@@ -1,0 +1,419 @@
+{
+ "sections": [
+  {
+   "id": "tech-ai",
+   "title": "AI 与大模型",
+   "shortTitle": "AI 大模型",
+   "description": "大模型发布与更新",
+   "items": [
+    {
+     "rank": "01",
+     "title": "Anthropic 为企业用户统一 Claude 聊天与 Cowork",
+     "summary": "企业版 Claude 不再让用户先在聊天与 Cowork 之间二选一：对话以聊天开始，需要运行代码或处理文件时，同一对话会在 Anthropic 管理的隔离云沙箱中转入 Cowork 会话，完成后回到聊天。该统一体验先在企业计划中提供，现有组织默认关闭，11 月 16 日起默认开启。",
+     "url": "https://www.pymnts.com/news/artificial-intelligence/2026/anthropic-merges-claude-chat-and-cowork-for-enterprise-users/",
+     "source": "PYMNTS｜2026-10-25（Anthropic 于 10 月 23 日宣布）",
+     "tags": [
+      "AI 大模型"
+     ]
+    },
+    {
+     "rank": "02",
+     "title": "Google Messages 开始推送 Gemini 驱动的 Enhanced Protection",
+     "summary": "Google Messages 的可选 Enhanced Protection 模式开始在部分用户端出现：对陌生发件人的多轮对话，云端 Gemini 模型会在 Android Private AI Compute 的加密环境中分析上下文，识别“先建立信任、再索要钱款或验证码”的慢热型诈骗；设备端 Gemini Nano 则实时评估陌生链接，推送前给出更清晰的警告。",
+     "url": "https://www.siliconreport.com/google-messages-rolls-out-enhanced-protection-mode-to-counter-scams",
+     "source": "SiliconReport｜2026-10-24（该功能于 10 月 14 日宣布）",
+     "tags": [
+      "AI 大模型"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "tech-dev",
+   "title": "AI 工程与开发工具",
+   "shortTitle": "开发工具",
+   "description": "模型部署 · AI 编程 · Agent",
+   "items": [
+    {
+     "rank": "03",
+     "title": "Ollama v0.40.11：macOS 语音生成与 d3 决策模型",
+     "summary": "Ollama v0.40.11 在 macOS 上新增语音生成：`ollama run` 可边生成边朗读，应用也可通过 OpenAI 兼容的 `/v1/audio/speech` 端点流式获取音频；同时引入源自 vLLM Semantic Router 的 d3 决策模型家族（2B、4B、9B、27B），可对文本、结构化状态或图像做分类、是非判断与选项打分。",
+     "url": "https://releasebot.io/updates/ollama",
+     "source": "Releasebot（Ollama 发布记录）｜2026-10-24",
+     "tags": [
+      "开发工具"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "tech-industry",
+   "title": "科技行业动态",
+   "shortTitle": "行业动态",
+   "description": "公司动态 · 产品发布 · 芯片与云",
+   "items": [
+    {
+     "rank": "04",
+     "title": "SpaceX 称已完成 400 亿美元 GPU 债务融资",
+     "summary": "马斯克表示 SpaceX 已完成 400 亿美元债务融资，用于购买 GPU，首批交付预计在 2027 年第一、二季度，芯片主要来自 NVIDIA；他同时警告信贷收紧可能导致规模较小的 AI 基建公司出现失败与整合。最终条款、贷款方与到期结构尚未公开。",
+     "url": "https://tech-insider.org/musk-spacex-40-billion-gpu-debt-nvidia-2026/",
+     "source": "Tech Insider｜2026-10-26（马斯克于 10 月 25 日发帖，彭博等跟进报道）",
+     "tags": [
+      "行业动态"
+     ]
+    },
+    {
+     "rank": "05",
+     "title": "Apollo 首席经济学家：AI 对科技业之外的公司“零财务回报”",
+     "summary": "Apollo 首席经济学家 Torsten Slok 观察剔除 Alphabet、Amazon、Apple、Meta、Microsoft、NVIDIA、Tesla 后的“S&P 493”后指出，其利润率与人均营收表现平平，没有证据显示 AI 带来了生产率回报；他认为“AI 是很好的计算器，但在商业中，智能大多是判断”，涉及问责、信任与文化等难以量化的因素。",
+     "url": "https://techcrunch.com/2026/10/25/ai-delivers-zero-financial-payoff-to-most-companies-according-to-apollo-economist/",
+     "source": "TechCrunch｜2026-10-25",
+     "tags": [
+      "行业动态"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "github-hot",
+   "title": "GitHub 今日热门",
+   "shortTitle": "GitHub 热榜",
+   "description": "综合热度、活跃度与实用价值排序",
+   "items": [
+    {
+     "rank": "01",
+     "title": "debpalash/VoiceStudio",
+     "summary": "开源、完全本地的 ElevenLabs 平替：语音克隆、声音设计、视频配音、听写、转录、有声书制作，支持 646 种语言，全部离线跑。 ① 本地语音克隆与声音设计，不上传音频到云端；② 视频配音、听写、转录、有声书一条龙；③ 646 种语言覆盖，个人与小团队的本地语音工作站。",
+     "url": "https://github.com/debpalash/VoiceStudio",
+     "stars": "89.2k",
+     "trend": "+2,297",
+     "tags": [
+      "值得关注"
+     ]
+    },
+    {
+     "rank": "02",
+     "title": "Nutlope/hallmark",
+     "summary": "解决了\"agent 生成的界面一眼就是 AI 做的\"的问题——48 套主题先定调、真实浏览器 lint 成品，单日增量三天三级跳到 +2,244。适合用 agent 做落地页、产品官网的人，装上就能把出品从\"能看\"拉到\"能发\"。",
+     "url": "https://github.com/Nutlope/hallmark",
+     "stars": "36.3k",
+     "trend": "+2,244",
+     "tags": [
+      "值得关注"
+     ],
+     "featured": true
+    },
+    {
+     "rank": "03",
+     "title": "pbakaus/impeccable",
+     "summary": "给 AI 编程 agent 的设计语言：1 个 skill、24 条命令、62 条确定性检测规则，专治\"AI 生成的界面一眼就是 AI 做的\"。 ① `/impeccable init` 先把产品事实写进 PRODUCT.md，让 agent 分清\"产品真相\"与\"视觉风格\"；② 24 条命令构成共享设计词汇（polish、audit、critique 等）；③ 62 条确定性检测规则 + 真实浏览",
+     "url": "https://github.com/pbakaus/impeccable",
+     "stars": "89.2k",
+     "trend": "+1,506",
+     "tags": [
+      "强烈推荐"
+     ]
+    },
+    {
+     "rank": "04",
+     "title": "TauricResearch/TradingAgents",
+     "summary": "多 agent 协同的 LLM 金融交易框架：一群各司其职的 agent（分析师、研究员、交易员、风控）像真实交易团队一样辩论、决策。 ① 多 agent 分工协作模拟真实交易团队流程；② 基于 arXiv 论文（2412.20138）的公开实现，研究与工程可对照；③ 支持多模型、多数据源接入，交易策略可复现、可回测。",
+     "url": "https://github.com/TauricResearch/TradingAgents",
+     "stars": "116.1k",
+     "trend": "+1,395",
+     "tags": [
+      "值得关注"
+     ]
+    },
+    {
+     "rank": "05",
+     "title": "makecindy/cindy",
+     "summary": "开源、开箱即用的 AI agent：把多个 harness、模型和工具收进一个 agent，直接在你自己的电脑上干活，中文文档齐全。 ① 多 harness、多模型、多工具合一，不用自己拼装 agent 工作流；② 在本地项目和应用里完成真实任务，开箱即用；③ Apache 2.0 协议，官网 cindy.app 提供下载，Node 22 + pnpm 技术栈。",
+     "url": "https://github.com/makecindy/cindy",
+     "stars": "6.5k",
+     "trend": "+1,296",
+     "tags": [
+      "值得关注"
+     ]
+    },
+    {
+     "rank": "06",
+     "title": "JetBrains/thinkrail",
+     "summary": "JetBrains 孵化中的 agent IDE：以 pi coding agent 为核心，用\"living specs\"（活文档）让 IDE 越用越懂你的项目。 ① 围绕 pi agent 搭建的完整 IDE 界面，任务隔离在独立工作区；② living specs 给 agent 持久的项目知识，可复用的 skills 沉淀用法；③ 正在加入完整扩展支持，目标是\"越用越好用的 agent I",
+     "url": "https://github.com/JetBrains/thinkrail",
+     "stars": "2.9k",
+     "trend": "+1,173",
+     "tags": [
+      "值得关注"
+     ]
+    },
+    {
+     "rank": "07",
+     "title": "affaan-m/ECC",
+     "summary": "agent harness 的\"性能优化系统\"：用 skills、直觉（instincts）、记忆、安全、研究优先开发五件套，让 Claude Code、Codex、OpenCode、Cursor 等 agent 干活更快更稳。 ① 面向多 harness 的统一优化层，不绑定单一 agent；② 记忆与安全机制减少重复劳动与误操作；③ 研究优先的开发流程，中英在内的多语言 README。",
+     "url": "https://github.com/affaan-m/ECC",
+     "stars": "289.8k",
+     "trend": "+896",
+     "tags": [
+      "了解即可"
+     ]
+    },
+    {
+     "rank": "08",
+     "title": "pollen-robotics/microduck",
+     "summary": "一只 25 厘米、800 克的双足鸭机器人：靠强化学习策略走路，开源了整套\"大脑\"代码。 ① 50Hz 控制回路驱动 15 个舵机，策略来自强化学习训练（另有 microduck_rl 训练仓库）；② Rockchip RK3566 上跑一 handful 守护进程：控制、无线电、摄像头、OTA 更新；③ 完整文档：速查表、架构说明、贡献指南，硬件可从官网购买。",
+     "url": "https://github.com/pollen-robotics/microduck",
+     "stars": "12.4k",
+     "trend": "+843",
+     "tags": [
+      "值得关注"
+     ]
+    },
+    {
+     "rank": "09",
+     "title": "Panniantong/Agent-Reach",
+     "summary": "给 AI agent 的\"眼睛\"：一条命令读遍 Twitter、Reddit、YouTube、GitHub、Bilibili、小红书等全网内容，专治 agent 够不着登录墙后和中文平台的痛点。 ① 一个 CLI 覆盖多平台内容读取与搜索；② 覆盖中文平台（Bilibili、小红书），补上多数 agent 工具链的中文缺口；③ 零 API 费用，输出干净的结构化数据。",
+     "url": "https://github.com/Panniantong/Agent-Reach",
+     "stars": "103.6k",
+     "trend": "+746",
+     "tags": [
+      "值得关注"
+     ]
+    },
+    {
+     "rank": "10",
+     "title": "NVIDIA/SkillSpector",
+     "summary": "NVIDIA 出品的 agent skill 安全扫描器：装 skill 之前先扫一遍，揪出漏洞、恶意模式、提示词注入、数据外泄与供应链风险。 ① 扫描 Claude Code、Codex、MCP 等 skill 的安全风险；② 基于实测数据：分析的 31,132 个 skill 中 26.1% 含漏洞、5.2% 疑似恶意；③ NVIDIA Verified Skills 管线的一环，通过扫描的 ",
+     "url": "https://github.com/NVIDIA/SkillSpector",
+     "stars": "22.2k",
+     "trend": "+214",
+     "tags": [
+      "值得关注"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "github-rising",
+   "title": "Star 增长最快",
+   "shortTitle": "增长最快",
+   "description": "按实际 Star 增量排序",
+   "items": [
+    {
+     "rank": "01",
+     "title": "cloudflare/security-audit-skill",
+     "summary": "较昨日（+15,072）再创本报告周榜新高：日榜连冠终结，但周口径不降反升——龙头从\"日榜爆款\"切换到了\"周榜稳态\"。",
+     "url": "https://github.com/cloudflare/security-audit-skill",
+     "stars": "48.6k",
+     "trend": "+16,593",
+     "tags": [
+      "高增长"
+     ]
+    },
+    {
+     "rank": "02",
+     "title": "stablyai/orca",
+     "summary": "较昨日（+9,622）小幅回落，四连升止步，但仍是周榜第二，舰队管理需求高位企稳。",
+     "url": "https://github.com/stablyai/orca",
+     "stars": "107.1k",
+     "trend": "+9,241",
+     "tags": [
+      "高增长"
+     ]
+    },
+    {
+     "rank": "03",
+     "title": "Graphify-Labs/graphify",
+     "summary": "较昨日（+6,903）继续升温，代码库知识图谱路线稳态增长。",
+     "url": "https://github.com/Graphify-Labs/graphify",
+     "stars": "136.1k",
+     "trend": "+7,183",
+     "tags": [
+      "高增长"
+     ]
+    },
+    {
+     "rank": "04",
+     "title": "heygen-com/hyperframes",
+     "summary": "\"写 HTML，渲染视频，为 agent 而造\"，较昨日（+5,612）基本持平。",
+     "url": "https://github.com/heygen-com/hyperframes",
+     "stars": "73.1k",
+     "trend": "+5,540",
+     "tags": [
+      "高增长"
+     ]
+    },
+    {
+     "rank": "05",
+     "title": "anomalyco/opencode",
+     "summary": "较昨日（+5,921）降温，开源 coding agent 元老增长放缓但体量仍在扩大。",
+     "url": "https://github.com/anomalyco/opencode",
+     "stars": "222.0k",
+     "trend": "+5,070",
+     "tags": [
+      "高增长"
+     ]
+    },
+    {
+     "rank": "06",
+     "title": "Comfy-Org/ComfyUI",
+     "summary": "较昨日（+4,790）降温，扩散模型 GUI 老将高位回落。",
+     "url": "https://github.com/Comfy-Org/ComfyUI",
+     "stars": "143.3k",
+     "trend": "+4,109",
+     "tags": [
+      "高增长"
+     ]
+    },
+    {
+     "rank": "07",
+     "title": "TauricResearch/TradingAgents",
+     "summary": "首次进入本报告周榜，多 agent 交易框架被重新发现。",
+     "url": "https://github.com/TauricResearch/TradingAgents",
+     "stars": "116.1k",
+     "trend": "+3,437",
+     "tags": [
+      "高增长"
+     ]
+    },
+    {
+     "rank": "08",
+     "title": "multica-ai/andrej-karpathy-skills",
+     "summary": "较昨日（+2,937）继续升温，单文件 CLAUDE.md 持续被新一波 agent 用户发现。",
+     "url": "https://github.com/multica-ai/andrej-karpathy-skills",
+     "stars": "224.6k",
+     "trend": "+3,286",
+     "tags": [
+      "高增长"
+     ]
+    },
+    {
+     "rank": "09",
+     "title": "akitaonrails/ai-memory",
+     "summary": "较昨日（+3,254）降温，多 agent 记忆中台需求仍在高位。",
+     "url": "https://github.com/akitaonrails/ai-memory",
+     "stars": "13.8k",
+     "trend": "+2,838",
+     "tags": [
+      "高增长"
+     ]
+    },
+    {
+     "rank": "10",
+     "title": "anthropics/knowledge-work-plugins",
+     "summary": "较昨日（+2,790）小幅升温，Anthropic 知识工作插件供给侧继续扩张。",
+     "url": "https://github.com/anthropics/knowledge-work-plugins",
+     "stars": "33.2k",
+     "trend": "+2,822",
+     "tags": [
+      "高增长"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "github-new",
+   "title": "值得关注的新项目",
+   "shortTitle": "新项目",
+   "description": "近期创建、增长迅速的有潜力项目",
+   "items": [
+    {
+     "rank": "01",
+     "title": "Gathin23/cleanyourtv",
+     "summary": "电视去臃肿工具：通过 Wi-Fi 给任何安卓电视 / Google TV 瘦身，还你一个 Apple TV 风格的干净主页。 ① 无线连接电视卸载臃肿预装应用，无需 root；② 换上极简主页，电视开机不再是广告墙；③ 一键操作，普通用户也能上手。",
+     "url": "https://github.com/Gathin23/cleanyourtv",
+     "stars": "39.3k",
+     "tags": [
+      "值得关注"
+     ]
+    },
+    {
+     "rank": "02",
+     "title": "Zagitta/gpu-unlock",
+     "summary": "一个 Linux 内核模块：把 RTX 3000 系列显卡的 FP/BF16 指令发射速率解锁到专业卡同等水平，跑本地推理直接翻倍算力。 ① 在驱动加载前完成解锁并写速度选择器，不用每次驱动更新都手动打补丁；② GA102/GA103/GA104/GA106 全系覆盖，3090 Ti 实测 dense GEMM 性能翻倍；③ 既不是 UEFI 程序也不是魔改驱动，维护成本低。",
+     "url": "https://github.com/Zagitta/gpu-unlock",
+     "stars": "9.7k",
+     "tags": [
+      "值得关注"
+     ]
+    },
+    {
+     "rank": "03",
+     "title": "KnifeLemon/Filee",
+     "summary": "免费开源的文件格式转换器：按住一个键、把文件拖到光标处弹出的圆环菜单上，263 种格式离线互转，不上传、不装 Office。 ① 拖拽转换：图片、PDF、Word、Excel、PPT、视频、音频、电子书、压缩包 263 种格式；② 全程离线，文件不经过任何服务器；③ 另有命令行模式，可进脚本批量处理。",
+     "url": "https://github.com/KnifeLemon/Filee",
+     "stars": "13.2k",
+     "tags": [
+      "值得关注"
+     ]
+    }
+   ]
+  }
+ ],
+ "_pipelines": {
+  "github": {
+   "digest": [
+    {
+     "title": "设计 skill 三连涨",
+     "text": "设计 skill 三连涨：hallmark 24h +2,244（连续三天爬升）、impeccable +1,506 同步走高，国产 huashu-design（+251）首次上榜——\"去 AI 味\"从双雄对决扩散成集团军。"
+    },
+    {
+     "title": "安全 skill 龙头换",
+     "text": "安全 skill 龙头换挡：security-audit-skill 跌出日榜（七日连冠终结），但周增 +16,593 反创本报告新高；同日 NVIDIA SkillSpector 上榜——\"skill 装之前先验货\"正在成为标配动作。"
+    },
+    {
+     "title": "agent 控制层继续扩",
+     "text": "agent 控制层继续扩容：cindy 三连涨 +1,296、JetBrains thinkrail 带着 pi agent 的 IDE 首上日榜、28.9 万 star 的 ECC 首次露面——\"怎么管 agent\"正在从工具之争变成平台之争。"
+    }
+   ],
+   "highlight": "设计 skill 三连涨：hallmark 24h +2,244（连续三天爬升）、impeccable +1,506 同步走高，国产 huashu-design（+251）首次上榜——\"去 AI 味\"从双雄对决扩散成集团军。",
+   "date": "2026-10-27"
+  },
+  "tech-news": {
+   "digest": [
+    {
+     "title": "速览",
+     "text": "Anthropic 把 Claude 聊天与 Cowork 合并为企业统一体验，Agent 从问答工具走向常驻工作空间。"
+    },
+    {
+     "title": "速览",
+     "text": "SpaceX 称已完成 400 亿美元 GPU 债务融资，AI 算力扩张仍在加杠杆，而 Apollo 则质疑非科技公司的 AI 回报。"
+    },
+    {
+     "title": "本轮最重要的一条是 An",
+     "text": "本轮最重要的一条是 Anthropic 的统一 Claude：它直接改变企业员工每天使用 Agent 的入口与权限形态。"
+    }
+   ],
+   "highlight": "Anthropic 把 Claude 聊天与 Cowork 合并为企业统一体验，Agent 从问答工具走向常驻工作空间。",
+   "date": "2026-10-26"
+  }
+ },
+ "digest": [
+  {
+   "title": "设计 skill 三连涨",
+   "text": "设计 skill 三连涨：hallmark 24h +2,244（连续三天爬升）、impeccable +1,506 同步走高，国产 huashu-design（+251）首次上榜——\"去 AI 味\"从双雄对决扩散成集团军。"
+  },
+  {
+   "title": "速览",
+   "text": "Anthropic 把 Claude 聊天与 Cowork 合并为企业统一体验，Agent 从问答工具走向常驻工作空间。"
+  }
+ ],
+ "intro": "设计 skill 三连涨：hallmark 24h +2,244（连续三天爬升）、impeccable +1,506 同步走高，国产 huashu-design（+251）首次上榜——\"去 AI 味\"从双雄对决扩散成集团军。 Anthropic 把 Claude 聊天与 Cowork 合并为企业统一体验，Agent 从问答工具走向常驻工作空间。",
+ "tasks": [
+  {
+   "icon": "GH",
+   "name": "GitHub 开源情报",
+   "detail": "Trending · Star 增速 · 新项目",
+   "time": "08:30"
+  },
+  {
+   "icon": "NW",
+   "name": "科技新闻日报",
+   "detail": "新闻聚合 · 中文简报",
+   "time": "09:00"
+  }
+ ],
+ "date": "2026-10-27",
+ "issue": "027",
+ "updatedAt": "00:54 更新"
+}
