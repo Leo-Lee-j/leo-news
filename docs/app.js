@@ -49,7 +49,7 @@
 
   function renderFilters() {
     const counts = Object.fromEntries(state.data.sections.map(section => [section.id, section.items.length]));
-    const tabs = [`<button class="filter-tab ${state.filter === 'all' ? 'is-selected' : ''}" data-filter="all" type="button">全部内容 <span class="tab-count">${flatItems().length}</span></button>`];
+    const tabs = [`<button class="filter-tab ${state.filter === 'all' ? 'is-selected' : ''}" data-filter="all" type="button">全部内容 <span class="tab-count" id="allCount">${flatItems().length}</span></button>`];
     state.data.sections.forEach(section => {
       categoryNames[section.id] = section.shortTitle || section.title;
       tabs.push(`<button class="filter-tab ${state.filter === section.id ? 'is-selected' : ''}" data-filter="${escapeHtml(section.id)}" type="button">${escapeHtml(section.shortTitle || section.title)} <span class="tab-count">${counts[section.id]}</span></button>`);
