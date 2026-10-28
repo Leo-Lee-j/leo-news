@@ -31,19 +31,21 @@
   const typeBadge = (item) => `<span class="type-label">${escapeHtml(item.shortTitle || item.sectionTitle || 'UPDATE')}</span>`;
   const tagsHtml = (tags = []) => tags.length ? `<div class="topic-tags">${tags.map(tag => `<span class="topic-tag">${escapeHtml(tag)}</span>`).join('')}</div>` : '';
 
+  const setText = (id, value) => { const el = $(`#${id}`); if (!el) throw new Error(`missing element #${id}`); el.textContent = value; };
+
   function renderHeader() {
     const data = state.data;
-    $('#editionDate').textContent = formatDate(data.date);
-    $('#dailyIntro').textContent = data.intro || '收集重要更新，保持简洁，持续归档。';
-    $('#readTime').textContent = data.readTime || `约 ${Math.max(1, Math.round(flatItems().length * 0.45))} 分钟阅读`;
-    $('#itemCount').textContent = `${flatItems().length} 条精选内容`;
-    $('#issueNumber').textContent = data.issue || String(new Date(data.date).getDate()).padStart(3, '0');
-    $('#metricTopics').textContent = String(data.sections.length).padStart(2, '0');
-    $('#metricEntries').textContent = String(flatItems().length).padStart(2, '0');
-    $('#metricTasks').textContent = String((data.tasks || []).length).padStart(2, '0');
-    $('#allCount').textContent = flatItems().length;
-    $('#updatedAt').textContent = data.updatedAt || '今日更新';
-    $('#metricNoteText').textContent = data.isDemo ? '当前展示样例数据 · 接入任务后自动更新' : '每日更新 · 按主题归档 · 持续扩展';
+    setText('editionDate', formatDate(data.date));
+    setText('dailyIntro', data.intro || '收集重要更新，保持简洁，持续归档。');
+    setText('readTime', data.readTime || `约 ${Math.max(1, Math.round(flatItems().length * 0.45))} 分钟阅读`);
+    setText('itemCount', `${flatItems().length} 条精选内容`);
+    setText('issueNumber', data.issue || String(new Date(data.date).getDate()).padStart(3, '0'));
+    setText('metricTopics', String(data.sections.length).padStart(2, '0'));
+    setText('metricEntries', String(flatItems().length).padStart(2, '0'));
+    setText('metricTasks', String((data.tasks || []).length).padStart(2, '0'));
+    setText('allCount', flatItems().length);
+    setText('updatedAt', data.updatedAt || '今日更新');
+    setText('metricNoteText', data.isDemo ? '当前展示样例数据 · 接入任务后自动更新' : '每日更新 · 按主题归档 · 持续扩展');
     document.title = `Muse Daily — ${data.date || '每日技术简报'}`;
   }
 
