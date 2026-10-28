@@ -180,7 +180,7 @@
               state.data = await loadJson(`./data/archive/${select.value}.json`);
               state.filter = 'all'; state.query = ''; $('#searchInput').value = '';
               renderAll(); toast(`已切换到 ${select.value} 的日报`);
-            } catch (e) { toast('历史日报载入失败'); }
+            } catch (e) { toast(`历史日报载入失败：${e && e.message ? e.message : e}`); }
           });
         }
       } catch (e) { /* archive not available yet */ }
