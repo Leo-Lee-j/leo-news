@@ -1,281 +1,6 @@
 {
  "sections": [
   {
-   "id": "github-hot",
-   "title": "GitHub 今日热门",
-   "shortTitle": "GitHub 热榜",
-   "description": "综合热度、活跃度与实用价值排序",
-   "items": [
-    {
-     "rank": "01",
-     "title": "Nutlope/hallmark",
-     "summary": "解决了\"agent 生成的界面一眼就是 AI 做的\"的问题——48 套主题先定调、真实浏览器 lint 成品，单日增量四天四级跳到 +2,830，今日日榜实际第一。适合用 agent 做落地页、产品官网的人，装上就能把出品从\"能看\"拉到\"能发\"。",
-     "url": "https://github.com/Nutlope/hallmark",
-     "stars": "39.0k",
-     "trend": "+2,830",
-     "tags": [
-      "强烈推荐"
-     ],
-     "featured": true
-    },
-    {
-     "rank": "02",
-     "title": "makecindy/cindy",
-     "summary": "开源、开箱即用的 AI agent：把多个 harness、模型和工具收进一个 agent，直接在你自己的电脑上干活，中文文档齐全。 ① 多 harness、多模型、多工具合一，不用自己拼装 agent 工作流；② 在本地项目和应用里完成真实任务，开箱即用；③ Apache 2.0 协议，官网 cindy.app 提供下载，Node 22 + pnpm 技术栈。",
-     "url": "https://github.com/makecindy/cindy",
-     "stars": "7.5k",
-     "trend": "+1,465",
-     "tags": [
-      "值得关注"
-     ]
-    },
-    {
-     "rank": "03",
-     "title": "HKUDS/DeepTutor",
-     "summary": "港大出品的终身个性化 AI 家教：不是答题机，而是长期陪伴学习的导师系统，带完整文档站 deeptutor.info。 ① 面向\"终身学习\"的个性化辅导框架，而非单次问答；② 覆盖多学科的辅导能力，文档与协作入口齐全；③ 学术团队背景，设计上更强调教学过程而非直接给答案。",
-     "url": "https://github.com/HKUDS/DeepTutor",
-     "stars": "45.9k",
-     "trend": "+1,598",
-     "tags": [
-      "值得关注"
-     ]
-    },
-    {
-     "rank": "04",
-     "title": "pbakaus/impeccable",
-     "summary": "给 AI 编程 agent 的设计语言：1 个 skill、24 条命令、62 条确定性检测规则，专治\"AI 生成的界面一眼就是 AI 做的\"。 ① `/impeccable init` 先把产品事实写进 PRODUCT.md，让 agent 分清\"产品真相\"与\"视觉风格\"；② 24 条命令构成共享设计词汇（polish、audit、critique 等）；③ 62 条确定性检测规则 + 真实浏览",
-     "url": "https://github.com/pbakaus/impeccable",
-     "stars": "90.5k",
-     "trend": "+1,449",
-     "tags": [
-      "强烈推荐"
-     ]
-    },
-    {
-     "rank": "05",
-     "title": "elayadesign/ai-design-skills",
-     "summary": "一组可按需安装的设计 skill 合集：给 Claude Code、Cursor、Codex、Windsurf 等工具用的落地页设计 skill，每个 skill 自成一个文件夹。 ① landing-page-design skill：从需求访谈、页面结构、转化文案到完整视觉系统（字体、间距、圆角、动效）一条龙；② 按需安装，只取自己要的 skill，不绑整套框架；③ 兼容一切能读 Markdo",
-     "url": "https://github.com/elayadesign/ai-design-skills",
-     "stars": "9.3k",
-     "trend": "+1,395",
-     "tags": [
-      "值得关注"
-     ]
-    },
-    {
-     "rank": "06",
-     "title": "JetBrains/thinkrail",
-     "summary": "JetBrains 孵化中的 agent IDE：以 pi coding agent 为核心，用\"living specs\"（活文档）让 IDE 越用越懂你的项目。 ① 围绕 pi agent 搭建的完整 IDE 界面，任务隔离在独立工作区；② living specs 给 agent 持久的项目知识，可复用的 skills 沉淀用法；③ 正在加入完整扩展支持，目标是\"越用越好用的 agent I",
-     "url": "https://github.com/JetBrains/thinkrail",
-     "stars": "4.0k",
-     "trend": "+1,204",
-     "tags": [
-      "值得关注"
-     ]
-    },
-    {
-     "rank": "07",
-     "title": "affaan-m/ECC",
-     "summary": "agent harness 的\"性能优化系统\"：用 skills、直觉（instincts）、记忆、安全、研究优先开发五件套，让 Claude Code、Codex、OpenCode、Cursor 等 agent 干活更快更稳。 ① 面向多 harness 的统一优化层，不绑定单一 agent；② 记忆与安全机制减少重复劳动与误操作；③ 研究优先的开发流程，中英在内的多语言 README。",
-     "url": "https://github.com/affaan-m/ECC",
-     "stars": "290.9k",
-     "trend": "+1,165",
-     "tags": [
-      "了解即可"
-     ]
-    },
-    {
-     "rank": "08",
-     "title": "gitroomhq/postiz-app",
-     "summary": "开源的 agentic 社交媒体排期工具：一次写好内容，自动排期、发布、分析 across 多平台，自托管或用云端都行。 ① 社交内容排期、自动发布与数据分析一条龙；② AGPL 3.0 开源版可自托管，也有开箱即用的云端版；③ 定位\"agentic\"：让 agent 参与内容调度流程，而不只是定时器。",
-     "url": "https://github.com/gitroomhq/postiz-app",
-     "stars": "39.4k",
-     "trend": "+951",
-     "tags": [
-      "值得关注"
-     ]
-    },
-    {
-     "rank": "09",
-     "title": "nightly-labs/openbot",
-     "summary": "本地优先的 AI 队友桌面工作区：把 Codex、Claude、Grok 等 agent 收进一个桌面应用，每个 agent 有独立工作区、任务队列、文件共享与浏览器控制。 ① 一个桌面应用跑多个 agent：Codex、Claude Code、Grok CLI、OpenCode、Gemini、Cursor CLI 等；② 每个 agent 独立工作区与对话，支持任务队列、文件传输、内嵌浏览器、a",
-     "url": "https://github.com/nightly-labs/openbot",
-     "stars": "2.4k",
-     "trend": "+777",
-     "tags": [
-      "了解即可"
-     ]
-    },
-    {
-     "rank": "10",
-     "title": "obra/superpowers",
-     "summary": "一套完整的 agent 软件开发方法论：一组可组合的 skill 加初始指令，让你的 coding agent 按固定工作流开发，覆盖 Claude Code、Codex、Cursor 等十余种工具。 ① 完整开发方法论：从开工到出问题时的处理流程都有固定套路；② 可组合的 skills 体系，不绑定单一 agent，十余种主流工具通用；③ 配套社区与商业服务，方法论之外还有持续更新。",
-     "url": "https://github.com/obra/superpowers",
-     "stars": "306.4k",
-     "trend": "+617",
-     "tags": [
-      "了解即可"
-     ]
-    }
-   ]
-  },
-  {
-   "id": "github-rising",
-   "title": "Star 增长最快",
-   "shortTitle": "增长最快",
-   "description": "按实际 Star 增量排序",
-   "items": [
-    {
-     "rank": "01",
-     "title": "cloudflare/security-audit-skill",
-     "summary": "较昨日（+16,593）小幅回落，但仍是周榜第一：龙头从\"日榜爆款\"切换到\"周榜稳态\"后高位企稳。",
-     "url": "https://github.com/cloudflare/security-audit-skill",
-     "stars": "50.2k",
-     "trend": "+16,388",
-     "tags": [
-      "高增长"
-     ]
-    },
-    {
-     "rank": "02",
-     "title": "stablyai/orca",
-     "summary": "较昨日（+9,241）小幅回落，舰队管理需求高位企稳。",
-     "url": "https://github.com/stablyai/orca",
-     "stars": "108.1k",
-     "trend": "+8,802",
-     "tags": [
-      "高增长"
-     ]
-    },
-    {
-     "rank": "03",
-     "title": "Graphify-Labs/graphify",
-     "summary": "较昨日（+7,183）继续升温，代码库知识图谱路线稳态增长。",
-     "url": "https://github.com/Graphify-Labs/graphify",
-     "stars": "137.0k",
-     "trend": "+7,268",
-     "tags": [
-      "高增长"
-     ]
-    },
-    {
-     "rank": "04",
-     "title": "TauricResearch/TradingAgents",
-     "summary": "较昨日（+3,437）大幅升温，多 agent 交易框架被持续重新发现。",
-     "url": "https://github.com/TauricResearch/TradingAgents",
-     "stars": "117.3k",
-     "trend": "+4,882",
-     "tags": [
-      "高增长"
-     ]
-    },
-    {
-     "rank": "05",
-     "title": "anomalyco/opencode",
-     "summary": "较昨日（+5,070）降温，开源 coding agent 元老增长放缓但体量仍在扩大。",
-     "url": "https://github.com/anomalyco/opencode",
-     "stars": "222.4k",
-     "trend": "+4,334",
-     "tags": [
-      "高增长"
-     ]
-    },
-    {
-     "rank": "06",
-     "title": "multica-ai/andrej-karpathy-skills",
-     "summary": "较昨日（+3,286）继续升温，单文件 CLAUDE.md 持续被新一波 agent 用户发现。",
-     "url": "https://github.com/multica-ai/andrej-karpathy-skills",
-     "stars": "225.5k",
-     "trend": "+4,039",
-     "tags": [
-      "高增长"
-     ]
-    },
-    {
-     "rank": "07",
-     "title": "AgriciDaniel/claude-seo",
-     "summary": "首次进入本报告周榜：26 个子 skill + 19 个子 agent 的 SEO 全家桶，agent 时代的 SEO 正在变成一门 skill 工程。",
-     "url": "https://github.com/AgriciDaniel/claude-seo",
-     "stars": "22.7k",
-     "trend": "+3,081",
-     "tags": [
-      "高增长"
-     ]
-    },
-    {
-     "rank": "08",
-     "title": "anthropics/knowledge-work-plugins",
-     "summary": "较昨日（+2,822）基本持平，Anthropic 知识工作插件供给侧继续扩张。",
-     "url": "https://github.com/anthropics/knowledge-work-plugins",
-     "stars": "33.4k",
-     "trend": "+2,789",
-     "tags": [
-      "高增长"
-     ]
-    },
-    {
-     "rank": "09",
-     "title": "ruvnet/ruflo",
-     "summary": "首次进入本报告周榜：自称\"最初的 agent harness\"，多玩家 swarm 编排路线重回视野。",
-     "url": "https://github.com/ruvnet/ruflo",
-     "stars": "79.8k",
-     "trend": "+2,296",
-     "tags": [
-      "高增长"
-     ]
-    },
-    {
-     "rank": "10",
-     "title": "akitaonrails/ai-memory",
-     "summary": "较昨日（+2,838）降温，多 agent 记忆中台需求仍在高位。",
-     "url": "https://github.com/akitaonrails/ai-memory",
-     "stars": "14.1k",
-     "trend": "+2,239",
-     "tags": [
-      "高增长"
-     ]
-    }
-   ]
-  },
-  {
-   "id": "github-new",
-   "title": "值得关注的新项目",
-   "shortTitle": "新项目",
-   "description": "近期创建、增长迅速的有潜力项目",
-   "items": [
-    {
-     "rank": "01",
-     "title": "Gathin23/cleanyourtv",
-     "summary": "电视去臃肿工具：通过 Wi-Fi 给任何安卓电视 / Google TV 瘦身，还你一个 Apple TV 风格的干净主页。 ① 无线连接电视卸载臃肿预装应用，无需 root；② 换上极简主页，电视开机不再是广告墙；③ 一键操作，普通用户也能上手。",
-     "url": "https://github.com/Gathin23/cleanyourtv",
-     "stars": "41.8k",
-     "tags": [
-      "值得关注"
-     ]
-    },
-    {
-     "rank": "02",
-     "title": "Zagitta/gpu-unlock",
-     "summary": "一个 Linux 内核模块：把 RTX 3000 系列显卡的 FP/BF16 指令发射速率解锁到专业卡同等水平，跑本地推理直接翻倍算力。 ① 在驱动加载前完成解锁并写速度选择器，不用每次驱动更新都手动打补丁；② GA102/GA103/GA104/GA106 全系覆盖，3090 Ti 实测 dense GEMM 性能翻倍；③ 既不是 UEFI 程序也不是魔改驱动，维护成本低。",
-     "url": "https://github.com/Zagitta/gpu-unlock",
-     "stars": "11.3k",
-     "tags": [
-      "值得关注"
-     ]
-    },
-    {
-     "rank": "03",
-     "title": "KnifeLemon/Filee",
-     "summary": "免费开源的文件格式转换器：按住一个键、把文件拖到光标处弹出的圆环菜单上，263 种格式离线互转，不上传、不装 Office。 ① 拖拽转换：图片、PDF、Word、Excel、PPT、视频、音频、电子书、压缩包 263 种格式；② 全程离线，文件不经过任何服务器；③ 另有命令行模式，可进脚本批量处理。",
-     "url": "https://github.com/KnifeLemon/Filee",
-     "stars": "14.7k",
-     "tags": [
-      "值得关注"
-     ]
-    }
-   ]
-  },
-  {
    "id": "tech-ai",
    "title": "AI 与大模型",
    "shortTitle": "AI 大模型",
@@ -378,26 +103,300 @@
      ]
     }
    ]
+  },
+  {
+   "id": "github-hot",
+   "title": "GitHub 今日热门",
+   "shortTitle": "GitHub 热榜",
+   "description": "综合热度、活跃度与实用价值排序",
+   "items": [
+    {
+     "rank": "01",
+     "title": "HKUDS/DeepTutor",
+     "summary": "解决了\"AI 家教只能答题、不能长期陪伴\"的问题——港大团队的终身个性化辅导框架，单日增量从 +1,598 涨到 +2,371 登顶日榜。适合想做 AI 教育、学习助手的人，学术派样本值得拆解。",
+     "url": "https://github.com/HKUDS/DeepTutor",
+     "stars": "48.0k",
+     "trend": "+2,371",
+     "tags": [
+      "强烈推荐"
+     ],
+     "featured": true
+    },
+    {
+     "rank": "02",
+     "title": "elayadesign/ai-design-skills",
+     "summary": "一组可按需安装的设计 skill 合集：给 Claude Code、Cursor、Codex、Windsurf 等工具用的落地页设计 skill，每个 skill 自成一个文件夹。 ① landing-page-design skill：从需求访谈、页面结构、转化文案到完整视觉系统（字体、间距、圆角、动效）一条龙；② 按需安装，只取自己要的 skill，不绑整套框架；③ 兼容一切能读 Markdo",
+     "url": "https://github.com/elayadesign/ai-design-skills",
+     "stars": "11.1k",
+     "trend": "+2,139",
+     "tags": [
+      "强烈推荐"
+     ]
+    },
+    {
+     "rank": "03",
+     "title": "Nutlope/hallmark",
+     "summary": "一个\"拒绝 AI 味\"的设计 skill：给 Claude Code、Cursor、Codex 用的反 AI-slop 设计工具，50 套主题任选，生成后在真实浏览器里 lint 成品。 ① 50 套材质主题，先定调再建页面，围绕访客真正要做的事布局；② 真实浏览器 lint：揪出每标题上方的 eyebrow、通篇空框架、\"感谢注册但根本没发邮件\"的假表单等机器味；③ 分层门槛：Floor（对比度",
+     "url": "https://github.com/Nutlope/hallmark",
+     "stars": "40.7k",
+     "trend": "+2,110",
+     "tags": [
+      "强烈推荐"
+     ]
+    },
+    {
+     "rank": "04",
+     "title": "pbakaus/impeccable",
+     "summary": "给 AI 编程 agent 的设计语言：1 个 skill、24 条命令、62 条确定性检测规则，专治\"AI 生成的界面一眼就是 AI 做的\"。 ① `/impeccable init` 先把产品事实写进 PRODUCT.md，让 agent 分清\"产品真相\"与\"视觉风格\"；② 24 条命令构成共享设计词汇（polish、audit、critique 等）；③ 62 条确定性检测规则 + 真实浏览",
+     "url": "https://github.com/pbakaus/impeccable",
+     "stars": "92.6k",
+     "trend": "+1,472",
+     "tags": [
+      "强烈推荐"
+     ]
+    },
+    {
+     "rank": "05",
+     "title": "obra/superpowers",
+     "summary": "一套完整的 agent 软件开发方法论：一组可组合的 skill 加初始指令，让你的 coding agent 按固定工作流开发，覆盖 Claude Code、Codex、Cursor 等十余种工具。 ① 完整开发方法论：从开工到出问题时的处理流程都有固定套路；② 可组合的 skills 体系，不绑定单一 agent，十余种主流工具通用；③ 配套社区与商业服务，方法论之外还有持续更新。",
+     "url": "https://github.com/obra/superpowers",
+     "stars": "307.4k",
+     "trend": "+1,095",
+     "tags": [
+      "了解即可"
+     ]
+    },
+    {
+     "rank": "06",
+     "title": "JetBrains/thinkrail",
+     "summary": "JetBrains 孵化中的 agent IDE：以 pi coding agent 为核心，用\"living specs\"（活文档）让 IDE 越用越懂你的项目。 ① 围绕 pi agent 搭建的完整 IDE 界面，任务隔离在独立工作区；② living specs 给 agent 持久的项目知识，可复用的 skills 沉淀用法；③ 正在加入完整扩展支持，目标是\"越用越好用的 agent I",
+     "url": "https://github.com/JetBrains/thinkrail",
+     "stars": "5.0k",
+     "trend": "+1,068",
+     "tags": [
+      "值得关注"
+     ]
+    },
+    {
+     "rank": "07",
+     "title": "nightly-labs/openbot",
+     "summary": "本地优先的 AI 队友桌面工作区：把 Codex、Claude、Grok 等 agent 收进一个桌面应用，每个 agent 有独立工作区、任务队列、文件共享与浏览器控制。 ① 一个桌面应用跑多个 agent：Codex、Claude Code、Grok CLI、OpenCode、Gemini、Cursor CLI 等；② 每个 agent 独立工作区与对话，支持任务队列、文件传输、内嵌浏览器、a",
+     "url": "https://github.com/nightly-labs/openbot",
+     "stars": "3.2k",
+     "trend": "+1,054",
+     "tags": [
+      "了解即可"
+     ]
+    },
+    {
+     "rank": "08",
+     "title": "ruvnet/RuView",
+     "summary": "用普通 WiFi 信号做空间感知：不装摄像头，就能实时感知房间里的人体姿态、呼吸心率与存在检测，ESP32 节点 + 预训练模型全开源。 ① WiFi CSI 信号转实时姿态估计、呼吸与心率监测，无需任何视频像素；② ESP32 CSI 节点固件、模型与用户指南全链路公开；③ 同一作者 ruvnet 的 agent harness ruflo 也在周榜，RF 感知与 agent 编排是同一团队的两",
+     "url": "https://github.com/ruvnet/RuView",
+     "stars": "101.0k",
+     "trend": "+557",
+     "tags": [
+      "值得关注"
+     ]
+    },
+    {
+     "rank": "09",
+     "title": "makecindy/cindy",
+     "summary": "开源、开箱即用的 AI agent：把多个 harness、模型和工具收进一个 agent，直接在你自己的电脑上干活，中文文档齐全。 ① 多 harness、多模型、多工具合一，不用自己拼装 agent 工作流；② 在本地项目和应用里完成真实任务，开箱即用；③ Apache 2.0 协议，官网 cindy.app 提供下载，Node 22 + pnpm 技术栈。",
+     "url": "https://github.com/makecindy/cindy",
+     "stars": "8.1k",
+     "trend": "+728",
+     "tags": [
+      "值得关注"
+     ]
+    },
+    {
+     "rank": "10",
+     "title": "Leonxlnx/taste-skill",
+     "summary": "给 coding agent\"品味\"的 skill：用艺术指导、参考图与浏览器实测代替通用 AI 页面，让 agent 生成的界面先有审美再谈功能，另有桌面应用 TasteCode。 ① 艺术指导 + 参考图机制，给 agent 明确的审美锚点；② 生成后用浏览器实测而非只看代码，成品先过眼再交付；③ MIT 协议，另有 TasteCode 桌面应用，把 taste-skill 做成内置设计 ag",
+     "url": "https://github.com/Leonxlnx/taste-skill",
+     "stars": "104.5k",
+     "tags": [
+      "值得关注"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "github-rising",
+   "title": "Star 增长最快",
+   "shortTitle": "增长最快",
+   "description": "按实际 Star 增量排序",
+   "items": [
+    {
+     "rank": "01",
+     "title": "cloudflare/security-audit-skill",
+     "summary": "较昨日（+16,388）继续小幅回落，但仍是周榜第一：龙头从\"日榜爆款\"切换到\"周榜稳态\"后高位企稳。",
+     "url": "https://github.com/cloudflare/security-audit-skill",
+     "stars": "51.7k",
+     "trend": "+16,002",
+     "tags": [
+      "高增长"
+     ]
+    },
+    {
+     "rank": "02",
+     "title": "pbakaus/impeccable",
+     "summary": "首次进入本报告周榜：规则派设计语言日榜周榜双榜齐进，方法论正在被持续采用。",
+     "url": "https://github.com/pbakaus/impeccable",
+     "stars": "92.6k",
+     "trend": "+7,283",
+     "tags": [
+      "高增长"
+     ]
+    },
+    {
+     "rank": "03",
+     "title": "Graphify-Labs/graphify",
+     "summary": "较昨日（+7,268）小幅回落，代码库知识图谱路线稳态增长。",
+     "url": "https://github.com/Graphify-Labs/graphify",
+     "stars": "137.8k",
+     "trend": "+6,662",
+     "tags": [
+      "高增长"
+     ]
+    },
+    {
+     "rank": "04",
+     "title": "TauricResearch/TradingAgents",
+     "summary": "较昨日（+4,882）继续升温，多 agent 交易框架被持续重新发现。",
+     "url": "https://github.com/TauricResearch/TradingAgents",
+     "stars": "117.9k",
+     "trend": "+5,322",
+     "tags": [
+      "高增长"
+     ]
+    },
+    {
+     "rank": "05",
+     "title": "multica-ai/andrej-karpathy-skills",
+     "summary": "较昨日（+4,039）继续升温，单文件 CLAUDE.md 持续被新一波 agent 用户发现。",
+     "url": "https://github.com/multica-ai/andrej-karpathy-skills",
+     "stars": "226.0k",
+     "trend": "+4,293",
+     "tags": [
+      "高增长"
+     ]
+    },
+    {
+     "rank": "06",
+     "title": "Leonxlnx/taste-skill",
+     "summary": "首次进入本报告周榜：给 agent\"品味\"的审美锚点派，设计 skill 赛道第四极。",
+     "url": "https://github.com/Leonxlnx/taste-skill",
+     "stars": "104.5k",
+     "trend": "+3,940",
+     "tags": [
+      "高增长"
+     ]
+    },
+    {
+     "rank": "07",
+     "title": "AgriciDaniel/claude-seo",
+     "summary": "较昨日（+3,081）继续升温，26 个子 skill + 19 个子 agent 的 SEO 全家桶，agent 时代的 SEO 正在变成一门 skill 工程。",
+     "url": "https://github.com/AgriciDaniel/claude-seo",
+     "stars": "23.4k",
+     "trend": "+3,516",
+     "tags": [
+      "高增长"
+     ]
+    },
+    {
+     "rank": "08",
+     "title": "anomalyco/opencode",
+     "summary": "较昨日（+4,334）降温，开源 coding agent 元老增长放缓但体量仍在扩大。",
+     "url": "https://github.com/anomalyco/opencode",
+     "stars": "222.8k",
+     "trend": "+3,498",
+     "tags": [
+      "高增长"
+     ]
+    },
+    {
+     "rank": "09",
+     "title": "anthropics/knowledge-work-plugins",
+     "summary": "较昨日（+2,789）小幅回落，Anthropic 知识工作插件供给侧继续扩张。",
+     "url": "https://github.com/anthropics/knowledge-work-plugins",
+     "stars": "33.7k",
+     "trend": "+2,612",
+     "tags": [
+      "高增长"
+     ]
+    },
+    {
+     "rank": "10",
+     "title": "ruvnet/ruflo",
+     "summary": "较昨日（+2,296）降温，自称\"最初的 agent harness\"，多玩家 swarm 编排路线重回视野。",
+     "url": "https://github.com/ruvnet/ruflo",
+     "stars": "80.0k",
+     "trend": "+1,930",
+     "tags": [
+      "高增长"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "github-new",
+   "title": "值得关注的新项目",
+   "shortTitle": "新项目",
+   "description": "近期创建、增长迅速的有潜力项目",
+   "items": [
+    {
+     "rank": "01",
+     "title": "Gathin23/cleanyourtv",
+     "summary": "电视去臃肿工具：通过 Wi-Fi 给任何安卓电视 / Google TV 瘦身，还你一个 Apple TV 风格的干净主页。 ① 无线连接电视卸载臃肿预装应用，无需 root；② 换上极简主页，电视开机不再是广告墙；③ 一键操作，普通用户也能上手。",
+     "url": "https://github.com/Gathin23/cleanyourtv",
+     "stars": "43.8k",
+     "tags": [
+      "值得关注"
+     ]
+    },
+    {
+     "rank": "02",
+     "title": "Zagitta/gpu-unlock",
+     "summary": "一个 Linux 内核模块：把 GeForce 显卡的 FP/BF16 指令发射速率解锁到专业卡同等水平，跑本地推理直接翻倍算力。 ① 在驱动加载前完成解锁并写速度选择器，不用每次驱动更新都手动打补丁；② API 描述已扩展到 20/30/40 系覆盖，3090 Ti 实测 dense GEMM 性能翻倍；③ 既不是 UEFI 程序也不是魔改驱动，维护成本低。",
+     "url": "https://github.com/Zagitta/gpu-unlock",
+     "stars": "12.4k",
+     "tags": [
+      "值得关注"
+     ]
+    },
+    {
+     "rank": "03",
+     "title": "KnifeLemon/Filee",
+     "summary": "免费开源的文件格式转换器：按住一个键、把文件拖到光标处弹出的圆环菜单上，263 种格式离线互转，不上传、不装 Office。 ① 拖拽转换：图片、PDF、Word、Excel、PPT、视频、音频、电子书、压缩包 263 种格式；② 全程离线，文件不经过任何服务器；③ 另有命令行模式，可进脚本批量处理。",
+     "url": "https://github.com/KnifeLemon/Filee",
+     "stars": "16.3k",
+     "tags": [
+      "值得关注"
+     ]
+    }
+   ]
   }
  ],
  "_pipelines": {
   "github": {
    "digest": [
     {
-     "title": "设计 skill 四连涨",
-     "text": "设计 skill 四连涨：hallmark 24h +2,830 再创新高、impeccable +1,449 高位企稳，新军 ai-design-skills 首登日榜 +1,395——\"去 AI 味\"赛道从双雄对决扩成三足鼎立。"
+     "title": "设计 skill 从三足",
+     "text": "设计 skill 从三足鼎立扩成四方格局：ai-design-skills 24h +2,139 再创新高，hallmark、impeccable 高位企稳，taste-skill 周增 +3,940 首登周榜——\"去 AI 味\"赛道的方法论比拼全面铺开。"
     },
     {
-     "title": "agent 控制层继续扩",
-     "text": "agent 控制层继续扩容：cindy +1,465 四连涨、thinkrail +1,204 稳步爬升、openbot 回榜、30.6 万 star 的 superpowers 首次露面——\"怎么管 agent\"的方法论之争全面铺开。"
+     "title": "教育 AI 继续领跑",
+     "text": "教育 AI 继续领跑：港大 DeepTutor 24h +2,371 创本报告新高，终身个性化辅导路线从首登日榜到登顶只用了一天；WiFi 感知项目 RuView 以 10.1 万 star 首登日榜，无摄像头空间感知成为新看点。"
     },
     {
-     "title": "教育 AI 杀出重围",
-     "text": "教育 AI 杀出重围：港大 DeepTutor 首登日榜 +1,598，终身个性化辅导路线拿下 4.5 万 star；安全龙头 security-audit-skill 周增 +16,388 仍居周榜第一，但较昨日高点小幅回落。"
+     "title": "agent 控制层分化",
+     "text": "agent 控制层分化：superpowers、openbot 双双回升，cindy 却从 +1,465 大幅回落到 +728；安全龙头 security-audit-skill 周增 +16,002 仍居周榜第一，但较昨日高点继续小幅回落。"
     }
    ],
-   "highlight": "设计 skill 四连涨：hallmark 24h +2,830 再创新高、impeccable +1,449 高位企稳，新军 ai-design-skills 首登日榜 +1,395——\"去 AI 味\"赛道从双雄对决扩成三足鼎立。",
-   "date": "2026-10-28"
+   "highlight": "设计 skill 从三足鼎立扩成四方格局：ai-design-skills 24h +2,139 再创新高，hallmark、impeccable 高位企稳，taste-skill 周增 +3,940 首登周榜——\"去 AI 味\"赛道的方法论比拼全面铺开。",
+   "date": "2026-10-29"
   },
   "tech-news": {
    "digest": [
@@ -420,15 +419,15 @@
  },
  "digest": [
   {
-   "title": "设计 skill 四连涨",
-   "text": "设计 skill 四连涨：hallmark 24h +2,830 再创新高、impeccable +1,449 高位企稳，新军 ai-design-skills 首登日榜 +1,395——\"去 AI 味\"赛道从双雄对决扩成三足鼎立。"
+   "title": "设计 skill 从三足",
+   "text": "设计 skill 从三足鼎立扩成四方格局：ai-design-skills 24h +2,139 再创新高，hallmark、impeccable 高位企稳，taste-skill 周增 +3,940 首登周榜——\"去 AI 味\"赛道的方法论比拼全面铺开。"
   },
   {
    "title": "速览",
    "text": "Google DeepMind 发布世界模型 Genie 4，首次原生生成声音与对话，场景一致性约 2 分钟。"
   }
  ],
- "intro": "设计 skill 四连涨：hallmark 24h +2,830 再创新高、impeccable +1,449 高位企稳，新军 ai-design-skills 首登日榜 +1,395——\"去 AI 味\"赛道从双雄对决扩成三足鼎立。 Google DeepMind 发布世界模型 Genie 4，首次原生生成声音与对话，场景一致性约 2 分钟。",
+ "intro": "设计 skill 从三足鼎立扩成四方格局：ai-design-skills 24h +2,139 再创新高，hallmark、impeccable 高位企稳，taste-skill 周增 +3,940 首登周榜——\"去 AI 味\"赛道的方法论比拼全面铺开。 Google DeepMind 发布世界模型 Genie 4，首次原生生成声音与对话，场景一致性约 2 分钟。",
  "tasks": [
   {
    "icon": "GH",
@@ -443,7 +442,7 @@
    "time": "09:00"
   }
  ],
- "date": "2026-10-28",
- "issue": "028",
- "updatedAt": "01:01 更新"
+ "date": "2026-10-29",
+ "issue": "029",
+ "updatedAt": "00:33 更新"
 }
