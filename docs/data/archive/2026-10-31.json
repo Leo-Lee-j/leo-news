@@ -1,0 +1,434 @@
+{
+ "sections": [
+  {
+   "id": "tech-ai",
+   "title": "AI 与大模型",
+   "shortTitle": "AI 大模型",
+   "description": "大模型发布与更新",
+   "items": [
+    {
+     "rank": "01",
+     "title": "Mistral Large 4 权重正式开放下载：1 万亿参数 MoE，API 价格腰斩",
+     "summary": "Mistral 于 10 月 29 日开放 Large 4（代号 Le Chonk）权重下载。该模型为原生多模态 MoE，总参数约 1 万亿、每 token 激活约 520 亿，上下文 100 万 token，支持 160 多种语言；API 定价降至每百万 token 输入 0.70 美元、输出 2.10 美元，约为 10 月 6 日预览价的一半。Mistral 称其在 FrontierCode 2.0 开放模型中排名第一（19.7%）",
+     "url": "https://www.testingcatalog.com/mistral-opens-large-4-weights-for-coding-and-security/",
+     "source": "TestingCatalog、Mistral AI 公告｜2026-10-29",
+     "tags": [
+      "AI 大模型"
+     ]
+    },
+    {
+     "rank": "02",
+     "title": "OpenAI 重写 Model Spec：五大价值观统领模型行为",
+     "summary": "OpenAI 于 10 月 29 日更新公开行为规范 Model Spec，围绕五大价值观重组：忠实于人类意图、最小化伤害、诚实透明、人类能动性、关怀。其中“忠实于人类意图”为基础，要求模型理解用户、开发者与 OpenAI 真正想要什么，而非机械执行字面指令；同时大部分细化风格指南被废止，风格改为随用户偏好自适应。OpenAI 坦言现有模型尚未完全体现新规范。",
+     "url": "https://www.reuters.com/business/openai-says-human-intent-center-updated-ai-model-guidelines-2026-10-29/",
+     "source": "Reuters｜2026-10-29",
+     "tags": [
+      "AI 大模型"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "tech-dev",
+   "title": "AI 工程与开发工具",
+   "shortTitle": "开发工具",
+   "description": "模型部署 · AI 编程 · Agent",
+   "items": [
+    {
+     "rank": "03",
+     "title": "Baseten 发布 joey-1：2B 参数开放权重决策模型，百万 token 仅 1 美分",
+     "summary": "Baseten 于 10 月 29 日发布 joey-1，一个 20 亿参数的决策模型，可通过 Baseten Model API 使用，权重同步开放下载，定价为每百万 token 0.01 美元。它与 10 月 21 日发布的 mammoth-1（27B）、elephant-1（9B）同属一个决策模型家族，共享数据配方与 API，切换只需改一行配置。决策模型不生成文本，而是对给定问题返回标签与置信度，适用于工单分流、垃圾与钓鱼检测、提",
+     "url": "https://www.unite.ai/baseten-releases-joey-1-a-2b-open-weights-decision-model/",
+     "source": "Unite.AI、Baseten 公告｜2026-10-29",
+     "tags": [
+      "开发工具"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "tech-industry",
+   "title": "科技行业动态",
+   "shortTitle": "行业动态",
+   "description": "公司动态 · 产品发布 · 芯片与云",
+   "items": [
+    {
+     "rank": "04",
+     "title": "Alphabet Q3：云收入翻倍至 307 亿美元，仍因 91 亿美元负现金流大跌",
+     "summary": "Alphabet 截至 9 月 30 日的季度营收 1276 亿美元，同比增长 25%；Google Cloud 收入翻倍至 307 亿美元，同比增长 103%。但季度资本开支达 514 亿美元，自由现金流为负 91 亿美元，长期债务从 2025 年底的 465 亿美元增至 1251 亿美元，财报公布后股价盘后下跌超 10%，为近四年首次营收与盈利双双不及预期。",
+     "url": "https://nexttab.beehiiv.com/p/google-cloud-doubled-and-alphabet-still-fell-10",
+     "source": "NextTab（引 CNBC）｜2026-10-29",
+     "tags": [
+      "行业动态"
+     ]
+    },
+    {
+     "rank": "05",
+     "title": "三星 Q3 利润创纪录：营业利润 107.44 万亿韩元，芯片占 99%",
+     "summary": "三星电子 7～9 月季度营业利润 107.44 万亿韩元，同比激增 783.1%，营收 195.25 万亿韩元，同比增长 126.9%，净利润 75.13 万亿韩元，同比增长 514.6%，均为历史新高，且是连续第四个季度营收与营业利润双创纪录。半导体业务营业利润 106.5 万亿韩元，占总利润的 99.1%；其中存储业务收入 140.7 万亿韩元，同比增长 427%，HBM4 销售额环比增长超两倍。三星预计 AI 相关存储需求将持续加",
+     "url": "https://m-en.yna.co.kr/view/AEN20261029002652320",
+     "source": "Yonhap News Agency｜2026-10-29",
+     "tags": [
+      "行业动态"
+     ]
+    },
+    {
+     "rank": "06",
+     "title": "微软 Q3 文件披露：单季从 OpenAI 获得 100 亿美元收入",
+     "summary": "微软财报文件显示，截至 9 月 30 日的季度中，与 OpenAI 的商业安排带来 100 亿美元收入，约占其 923 亿美元季度总营收的 11%；文件未拆分收入分成与 Azure 服务各自的占比，截至季末 OpenAI 对微软的应付款为 72 亿美元，高于 6 月底的 60 亿美元。",
+     "url": "https://www.implicator.ai/alphabet-cloud-cash-microsoft-openai-revenue/",
+     "source": "Implicator（引微软财报文件）｜2026-10-29",
+     "tags": [
+      "行业动态"
+     ]
+    },
+    {
+     "rank": "07",
+     "title": "假冒 ChatGPT/Claude 桌面应用传播挖矿木马 Yoba：借签名程序侧加载",
+     "summary": "攻击者以 GPT-5.6 Sol、GPT-6 Astra、Claude Opus 等名义在 GitHub 上建立假冒项目与 GitHub Pages 页面，诱导用户下载所谓桌面应用。压缩包内含 OpenAI 或 Anthropic 的正版签名可执行文件，借 DLL 侧加载链路植入 YobaDropper/YobaLoader，最终部署 XMRig 挖矿程序，并通过 Telegram 与 DNS-over-HTTPS 获取指令。Check",
+     "url": "https://thehackernews.com/2026/10/fake-chatgpt-and-claude-apps-abuse.html",
+     "source": "The Hacker News（引 Check Point Research）｜2026-10-29",
+     "tags": [
+      "行业动态"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "github-hot",
+   "title": "GitHub 今日热门",
+   "shortTitle": "GitHub 热榜",
+   "description": "综合热度、活跃度与实用价值排序",
+   "items": [
+    {
+     "rank": "01",
+     "title": "pbakaus/impeccable",
+     "summary": "解决了 AI 生成界面千篇一律、缺乏设计品味的问题；双榜加速且逼近 10 万 star，是本周确定性最强的趋势；适合所有用 AI 写前端的开发者，值得立刻装上体验。",
+     "url": "https://github.com/pbakaus/impeccable",
+     "tags": [
+      "强烈推荐"
+     ],
+     "featured": true
+    },
+    {
+     "rank": "02",
+     "title": "HKUDS/DeepTutor",
+     "summary": "面向终身学习的个性化 AI 家教系统，把\"因材施教\"做成可部署的开源产品。 个性化辅导对话、学习进度追踪、自适应教学内容，配有独立文档站 deeptutor.info。",
+     "url": "https://github.com/HKUDS/DeepTutor",
+     "tags": [
+      "值得关注"
+     ]
+    },
+    {
+     "rank": "03",
+     "title": "thedotmack/claude-mem",
+     "summary": "给 agent 的跨会话持久记忆：记录每轮会话做了什么，用 AI 压缩后在未来会话中注入相关上下文。 会话行为自动捕获、AI 压缩摘要、按需注入历史上下文，支持 Claude Code、Codex、Gemini、Copilot、OpenCode 等多平台。",
+     "url": "https://github.com/thedotmack/claude-mem",
+     "tags": [
+      "值得关注"
+     ]
+    },
+    {
+     "rank": "04",
+     "title": "pingdotgg/t3code",
+     "summary": "Agent harness 的\"遥控器\"：用手机、网页或桌面端随时操控本机上跑着的 coding agent。 iOS / Android / Web / Electron 全端覆盖，统一控制 Claude Code、Codex、Cursor、Grok Build、OpenCode 等 agent。",
+     "url": "https://github.com/pingdotgg/t3code",
+     "tags": [
+      "值得关注"
+     ]
+    },
+    {
+     "rank": "05",
+     "title": "lightpanda-io/browser",
+     "summary": "从零用 Zig 编写的无头浏览器，专为 AI agent 和自动化而生，不是 Chromium 的换壳。 极低资源占用（官方称比 Chromium 轻 16 倍、快 9 倍）、面向自动化场景设计，适合 agent 批量浏览、抓取与测试。",
+     "url": "https://github.com/lightpanda-io/browser",
+     "tags": [
+      "值得关注"
+     ]
+    },
+    {
+     "rank": "06",
+     "title": "mattpocock/skills",
+     "summary": "来自一线工程师 `.agents` 目录的 skill 合集，主打\"给真正的工程师用\"的 agent 技能。 覆盖日常开发流程的实用 skill，可直接放进自己的 agent 配置复用。",
+     "url": "https://github.com/mattpocock/skills",
+     "tags": [
+      "了解即可"
+     ]
+    },
+    {
+     "rank": "07",
+     "title": "Renhuai123/ziwei-doushu",
+     "summary": "基于倪海厦《天纪》体系的紫微斗数开源排盘引擎，含完整排盘算法、四化系统与格局知识库。 完整排盘算法、古籍原文数据、开源解读数据，代码 MIT 协议、数据集 CC BY 4.0。",
+     "url": "https://github.com/Renhuai123/ziwei-doushu",
+     "tags": [
+      "了解即可"
+     ]
+    },
+    {
+     "rank": "08",
+     "title": "milind-soni/OpenMausBot",
+     "summary": "开源版 Grok Bot 替代品：给机器人配一台自己的虚拟机，让它能真正动手操作电脑。 虚拟机沙箱执行环境、机器人自主操作能力，开源可自托管。",
+     "url": "https://github.com/milind-soni/OpenMausBot",
+     "tags": [
+      "了解即可"
+     ]
+    },
+    {
+     "rank": "09",
+     "title": "CopilotKit/OpenBot",
+     "summary": "开源 AI 同事：每个同事独占一台电脑，配浏览器、文件与工具，所有动作事前决策、事后留痕。 每 agent 独立机器环境、动作全程可审计、可接入任意 AG-UI agent。",
+     "url": "https://github.com/CopilotKit/OpenBot",
+     "tags": [
+      "了解即可"
+     ]
+    },
+    {
+     "rank": "10",
+     "title": "JetBrains/thinkrail",
+     "summary": "JetBrains 出品的轻量 IDE，让你\"用 pi 随性编程\"：IDE 会围绕你的工作方式自我调整。 轻量启动、围绕个人习惯自适应的编辑体验，面向 vibe coding 场景。",
+     "url": "https://github.com/JetBrains/thinkrail",
+     "tags": [
+      "了解即可"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "github-rising",
+   "title": "Star 增长最快",
+   "shortTitle": "增长最快",
+   "description": "按实际 Star 增量排序",
+   "items": [
+    {
+     "rank": "01",
+     "title": "cloudflare/security-audit-skill",
+     "summary": "较昨日（+14,320）继续回落，但仍稳居周榜第一：龙头从爆款切换到稳态后进入缓慢降温通道。",
+     "url": "https://github.com/cloudflare/security-audit-skill",
+     "stars": "54.1k",
+     "trend": "+12,838",
+     "tags": [
+      "高增长"
+     ]
+    },
+    {
+     "rank": "02",
+     "title": "pbakaus/impeccable",
+     "summary": "较昨日（+9,713）继续加速，距离 10 万 star 只差一步：规则派设计语言正在成为本周最大赢家。",
+     "url": "https://github.com/pbakaus/impeccable",
+     "stars": "97.0k",
+     "trend": "+11,323",
+     "tags": [
+      "高增长"
+     ]
+    },
+    {
+     "rank": "03",
+     "title": "affaan-m/ECC",
+     "summary": "首次进入本报告周榜：自称\"agent harness 性能优化系统\"，以 skill、直觉、记忆、安全为卖点，覆盖 Claude Code、Codex、Opencode、Cursor 等平台。",
+     "url": "https://github.com/affaan-m/ECC",
+     "stars": "293.4k",
+     "trend": "+6,506",
+     "tags": [
+      "高增长"
+     ]
+    },
+    {
+     "rank": "04",
+     "title": "TauricResearch/TradingAgents",
+     "summary": "较昨日（+5,557）基本持平，多 agent 交易框架被持续重新发现。",
+     "url": "https://github.com/TauricResearch/TradingAgents",
+     "stars": "118.7k",
+     "trend": "+5,490",
+     "tags": [
+      "高增长"
+     ]
+    },
+    {
+     "rank": "05",
+     "title": "obra/superpowers",
+     "summary": "较昨日（+4,894）再度升温，30.9 万 star 的方法论巨无霸双榜齐进，仍在扩大领先。",
+     "url": "https://github.com/obra/superpowers",
+     "stars": "309.4k",
+     "trend": "+5,474",
+     "tags": [
+      "高增长"
+     ]
+    },
+    {
+     "rank": "06",
+     "title": "Leonxlnx/taste-skill",
+     "summary": "较昨日（+4,359）继续升温，给 agent\"品味\"的审美锚点派稳步扩张。",
+     "url": "https://github.com/Leonxlnx/taste-skill",
+     "stars": "106.3k",
+     "trend": "+4,712",
+     "tags": [
+      "高增长"
+     ]
+    },
+    {
+     "rank": "07",
+     "title": "AgriciDaniel/claude-seo",
+     "summary": "较昨日（+4,110）继续升温，26 个子 skill + 19 个子 agent 的 SEO 全家桶，agent 时代的 SEO 正在变成一门 skill 工程。",
+     "url": "https://github.com/AgriciDaniel/claude-seo",
+     "stars": "24.5k",
+     "trend": "+4,478",
+     "tags": [
+      "高增长"
+     ]
+    },
+    {
+     "rank": "08",
+     "title": "multica-ai/andrej-karpathy-skills",
+     "summary": "较昨日（+4,250）基本持平，单文件 CLAUDE.md 持续被新一波 agent 用户发现。",
+     "url": "https://github.com/multica-ai/andrej-karpathy-skills",
+     "stars": "226.9k",
+     "trend": "+4,178",
+     "tags": [
+      "高增长"
+     ]
+    },
+    {
+     "rank": "09",
+     "title": "pingdotgg/t3code",
+     "summary": "首次进入本报告周榜：手机遥控 agent 的新姿势正在出圈。",
+     "url": "https://github.com/pingdotgg/t3code",
+     "stars": "32.7k",
+     "trend": "+2,775",
+     "tags": [
+      "高增长"
+     ]
+    },
+    {
+     "rank": "10",
+     "title": "anthropics/knowledge-work-plugins",
+     "summary": "较昨日（+2,504）有所回落，Anthropic 知识工作插件供给侧继续扩张。",
+     "url": "https://github.com/anthropics/knowledge-work-plugins",
+     "stars": "34.0k",
+     "trend": "+2,083",
+     "tags": [
+      "高增长"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "github-new",
+   "title": "值得关注的新项目",
+   "shortTitle": "新项目",
+   "description": "近期创建、增长迅速的有潜力项目",
+   "items": [
+    {
+     "rank": "01",
+     "title": "wheresryan22/anatomy",
+     "summary": "一个会\"把想法做成实物\"的 agent skill：用精细的等距插画把复杂机器和系统讲清楚。 生成带众多精细部件的交互式等距图，输出 SVG，支持 WebGL 着色器与 3D 效果，兼容 Claude Code、Antigravity、OpenCode、Codex 等。",
+     "url": "https://github.com/wheresryan22/anatomy",
+     "tags": [
+      "值得关注"
+     ]
+    },
+    {
+     "rank": "02",
+     "title": "google-research/harness2",
+     "summary": "Google Research 的递归 agent 框架：让 agent 在开放世界里一层层拆解、调用子 agent 完成复杂任务。 递归式 agent 编排、配套评测基准 JobBench、附 arXiv 论文，Apache 2.0 协议。",
+     "url": "https://github.com/google-research/harness2",
+     "tags": [
+      "值得关注"
+     ]
+    },
+    {
+     "rank": "03",
+     "title": "openai/math",
+     "summary": "OpenAI 公开的内部模型数学研究手稿与证明材料合集，含 Lean 形式化成果。 模型在开放数学问题上的产出、不同验证阶段的证明材料、持续更新的 Lean 形式化版本。",
+     "url": "https://github.com/openai/math",
+     "tags": [
+      "了解即可"
+     ]
+    },
+    {
+     "rank": "04",
+     "title": "storytold/wordcraft",
+     "summary": "纯 Rust 从零复刻的开源 Word：功能区、样式、表格、修订、引用、邮件合并一应俱全。 读写 .docx、原生支持 macOS / Windows / Linux / BSD、浏览器端通过 WebAssembly 运行。",
+     "url": "https://github.com/storytold/wordcraft",
+     "tags": [
+      "强烈推荐"
+     ]
+    },
+    {
+     "rank": "05",
+     "title": "tangency-labs/solidcraft",
+     "summary": "纯 Rust 的开源参数化 3D CAD：画草图、加约束、按特征时间线生成实体，改一个尺寸模型自动重建。 参数化建模、特征时间线、桌面 / 浏览器双端运行、内置 MCP 服务器可让 AI agent 直接建模。",
+     "url": "https://github.com/tangency-labs/solidcraft",
+     "tags": [
+      "值得关注"
+     ]
+    }
+   ]
+  }
+ ],
+ "_pipelines": {
+  "github": {
+   "digest": [
+    {
+     "title": "Agent skills",
+     "text": "Agent skills 仍是绝对主角：impeccable 日榜周榜双双加速、Anthropic 官方 skills 仓库新进周榜、anatomy 等新 skill 持续涌现，skill 已成为 agent 能力的标准分发单位。"
+    },
+    {
+     "title": "硬核基础设施集中爆发",
+     "text": "硬核基础设施集中爆发：Zig 编写的无头浏览器 Lightpanda、纯 Rust 复刻的 Word 与参数化 CAD、Google 的递归 agent 框架 Harness²，本地化与自托管路线继续升温。"
+    },
+    {
+     "title": "昨日新项目持续发酵",
+     "text": "昨日新项目持续发酵：电视去臃肿工具 cleanyourtv 两周内逼近 4.7 万 star，DeepSeek 推理框架 DeepInfer 稳居新项目前列，十月新项目整体成色很强。"
+    }
+   ],
+   "highlight": "Agent skills 仍是绝对主角：impeccable 日榜周榜双双加速、Anthropic 官方 skills 仓库新进周榜、anatomy 等新 skill 持续涌现，skill 已成为 agent 能力的标准分发单位。",
+   "date": "2026-10-31"
+  },
+  "tech-news": {
+   "digest": [
+    {
+     "title": "速览",
+     "text": "Mistral Large 4 权重正式开放下载，1 万亿参数 MoE 模型可自托管，API 价格腰斩。"
+    },
+    {
+     "title": "速览",
+     "text": "Alphabet 云收入翻倍仍因 91 亿美元负现金流大跌，三星 Q3 利润则创下纪录，AI 账本明显分化。"
+    },
+    {
+     "title": "速览",
+     "text": "OpenAI 重写 Model Spec，五大价值观统领模型行为；假冒 ChatGPT/Claude 应用借签名程序传播挖矿木马，值得警惕。"
+    }
+   ],
+   "highlight": "Mistral Large 4 权重正式开放下载，1 万亿参数 MoE 模型可自托管，API 价格腰斩。",
+   "date": "2026-10-30"
+  }
+ },
+ "digest": [
+  {
+   "title": "Agent skills",
+   "text": "Agent skills 仍是绝对主角：impeccable 日榜周榜双双加速、Anthropic 官方 skills 仓库新进周榜、anatomy 等新 skill 持续涌现，skill 已成为 agent 能力的标准分发单位。"
+  },
+  {
+   "title": "速览",
+   "text": "Mistral Large 4 权重正式开放下载，1 万亿参数 MoE 模型可自托管，API 价格腰斩。"
+  }
+ ],
+ "intro": "Agent skills 仍是绝对主角：impeccable 日榜周榜双双加速、Anthropic 官方 skills 仓库新进周榜、anatomy 等新 skill 持续涌现，skill 已成为 agent 能力的标准分发单位。 Mistral Large 4 权重正式开放下载，1 万亿参数 MoE 模型可自托管，API 价格腰斩。",
+ "tasks": [
+  {
+   "icon": "GH",
+   "name": "GitHub 开源情报",
+   "detail": "Trending · Star 增速 · 新项目",
+   "time": "08:30"
+  },
+  {
+   "icon": "NW",
+   "name": "科技新闻日报",
+   "detail": "新闻聚合 · 中文简报",
+   "time": "09:00"
+  }
+ ],
+ "date": "2026-10-31",
+ "issue": "031",
+ "updatedAt": "00:38 更新"
+}
