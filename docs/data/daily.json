@@ -1,100 +1,6 @@
 {
  "sections": [
   {
-   "id": "tech-ai",
-   "title": "AI 与大模型",
-   "shortTitle": "AI 大模型",
-   "description": "大模型发布与更新",
-   "items": [
-    {
-     "rank": "01",
-     "title": "Mistral Large 4 权重正式开放下载：1 万亿参数 MoE，API 价格腰斩",
-     "summary": "Mistral 于 10 月 29 日开放 Large 4（代号 Le Chonk）权重下载。该模型为原生多模态 MoE，总参数约 1 万亿、每 token 激活约 520 亿，上下文 100 万 token，支持 160 多种语言；API 定价降至每百万 token 输入 0.70 美元、输出 2.10 美元，约为 10 月 6 日预览价的一半。Mistral 称其在 FrontierCode 2.0 开放模型中排名第一（19.7%）",
-     "url": "https://www.testingcatalog.com/mistral-opens-large-4-weights-for-coding-and-security/",
-     "source": "TestingCatalog、Mistral AI 公告｜2026-10-29",
-     "tags": [
-      "AI 大模型"
-     ]
-    },
-    {
-     "rank": "02",
-     "title": "OpenAI 重写 Model Spec：五大价值观统领模型行为",
-     "summary": "OpenAI 于 10 月 29 日更新公开行为规范 Model Spec，围绕五大价值观重组：忠实于人类意图、最小化伤害、诚实透明、人类能动性、关怀。其中“忠实于人类意图”为基础，要求模型理解用户、开发者与 OpenAI 真正想要什么，而非机械执行字面指令；同时大部分细化风格指南被废止，风格改为随用户偏好自适应。OpenAI 坦言现有模型尚未完全体现新规范。",
-     "url": "https://www.reuters.com/business/openai-says-human-intent-center-updated-ai-model-guidelines-2026-10-29/",
-     "source": "Reuters｜2026-10-29",
-     "tags": [
-      "AI 大模型"
-     ]
-    }
-   ]
-  },
-  {
-   "id": "tech-dev",
-   "title": "AI 工程与开发工具",
-   "shortTitle": "开发工具",
-   "description": "模型部署 · AI 编程 · Agent",
-   "items": [
-    {
-     "rank": "03",
-     "title": "Baseten 发布 joey-1：2B 参数开放权重决策模型，百万 token 仅 1 美分",
-     "summary": "Baseten 于 10 月 29 日发布 joey-1，一个 20 亿参数的决策模型，可通过 Baseten Model API 使用，权重同步开放下载，定价为每百万 token 0.01 美元。它与 10 月 21 日发布的 mammoth-1（27B）、elephant-1（9B）同属一个决策模型家族，共享数据配方与 API，切换只需改一行配置。决策模型不生成文本，而是对给定问题返回标签与置信度，适用于工单分流、垃圾与钓鱼检测、提",
-     "url": "https://www.unite.ai/baseten-releases-joey-1-a-2b-open-weights-decision-model/",
-     "source": "Unite.AI、Baseten 公告｜2026-10-29",
-     "tags": [
-      "开发工具"
-     ]
-    }
-   ]
-  },
-  {
-   "id": "tech-industry",
-   "title": "科技行业动态",
-   "shortTitle": "行业动态",
-   "description": "公司动态 · 产品发布 · 芯片与云",
-   "items": [
-    {
-     "rank": "04",
-     "title": "Alphabet Q3：云收入翻倍至 307 亿美元，仍因 91 亿美元负现金流大跌",
-     "summary": "Alphabet 截至 9 月 30 日的季度营收 1276 亿美元，同比增长 25%；Google Cloud 收入翻倍至 307 亿美元，同比增长 103%。但季度资本开支达 514 亿美元，自由现金流为负 91 亿美元，长期债务从 2025 年底的 465 亿美元增至 1251 亿美元，财报公布后股价盘后下跌超 10%，为近四年首次营收与盈利双双不及预期。",
-     "url": "https://nexttab.beehiiv.com/p/google-cloud-doubled-and-alphabet-still-fell-10",
-     "source": "NextTab（引 CNBC）｜2026-10-29",
-     "tags": [
-      "行业动态"
-     ]
-    },
-    {
-     "rank": "05",
-     "title": "三星 Q3 利润创纪录：营业利润 107.44 万亿韩元，芯片占 99%",
-     "summary": "三星电子 7～9 月季度营业利润 107.44 万亿韩元，同比激增 783.1%，营收 195.25 万亿韩元，同比增长 126.9%，净利润 75.13 万亿韩元，同比增长 514.6%，均为历史新高，且是连续第四个季度营收与营业利润双创纪录。半导体业务营业利润 106.5 万亿韩元，占总利润的 99.1%；其中存储业务收入 140.7 万亿韩元，同比增长 427%，HBM4 销售额环比增长超两倍。三星预计 AI 相关存储需求将持续加",
-     "url": "https://m-en.yna.co.kr/view/AEN20261029002652320",
-     "source": "Yonhap News Agency｜2026-10-29",
-     "tags": [
-      "行业动态"
-     ]
-    },
-    {
-     "rank": "06",
-     "title": "微软 Q3 文件披露：单季从 OpenAI 获得 100 亿美元收入",
-     "summary": "微软财报文件显示，截至 9 月 30 日的季度中，与 OpenAI 的商业安排带来 100 亿美元收入，约占其 923 亿美元季度总营收的 11%；文件未拆分收入分成与 Azure 服务各自的占比，截至季末 OpenAI 对微软的应付款为 72 亿美元，高于 6 月底的 60 亿美元。",
-     "url": "https://www.implicator.ai/alphabet-cloud-cash-microsoft-openai-revenue/",
-     "source": "Implicator（引微软财报文件）｜2026-10-29",
-     "tags": [
-      "行业动态"
-     ]
-    },
-    {
-     "rank": "07",
-     "title": "假冒 ChatGPT/Claude 桌面应用传播挖矿木马 Yoba：借签名程序侧加载",
-     "summary": "攻击者以 GPT-5.6 Sol、GPT-6 Astra、Claude Opus 等名义在 GitHub 上建立假冒项目与 GitHub Pages 页面，诱导用户下载所谓桌面应用。压缩包内含 OpenAI 或 Anthropic 的正版签名可执行文件，借 DLL 侧加载链路植入 YobaDropper/YobaLoader，最终部署 XMRig 挖矿程序，并通过 Telegram 与 DNS-over-HTTPS 获取指令。Check",
-     "url": "https://thehackernews.com/2026/10/fake-chatgpt-and-claude-apps-abuse.html",
-     "source": "The Hacker News（引 Check Point Research）｜2026-10-29",
-     "tags": [
-      "行业动态"
-     ]
-    }
-   ]
-  },
-  {
    "id": "github-hot",
    "title": "GitHub 今日热门",
    "shortTitle": "GitHub 热榜",
@@ -363,6 +269,120 @@
      ]
     }
    ]
+  },
+  {
+   "id": "tech-ai",
+   "title": "AI 与大模型",
+   "shortTitle": "AI 大模型",
+   "description": "大模型发布与更新",
+   "items": [
+    {
+     "rank": "01",
+     "title": "OpenAI 推出 GPT-6 Rosalind Research：面向生命科学多步研究的专用模型",
+     "summary": "GPT-6 Rosalind Research 把 GPT-6 的推理能力用于多步生命科学研究，并针对生物学工作做了专门的安全防护；目前仅向获批的 Research 客户开放，可在 Work、Codex 和 API 中使用（API 模型名为 `gpt-6-rosalind`），Chat 标签页暂不提供，原有 GPT-5.5 Rosalind Research 可继续使用。",
+     "url": "https://help.openai.com/en/articles/9624314-model-release-notes",
+     "source": "OpenAI 帮助中心模型发布说明｜2026-10-30",
+     "tags": [
+      "AI 大模型"
+     ]
+    },
+    {
+     "rank": "02",
+     "title": "Anthropic 改名 Claude Max 套餐：已验证 Ultra 用户取消 5 小时用量限制",
+     "summary": "Anthropic 把两档 Claude Max 套餐改名：Max 5x 改为 Max（100 美元/月），Max 20x 改为 Ultra（200 美元/月），价格不变；已验证的 Ultra 账户不再受 5 小时用量窗口限制，每周用量上限保持不变（Ultra 为每周 10 倍 Pro 用量），并附带 200 美元 API 额度。",
+     "url": "https://letsdatascience.com/news/anthropic-removes-five-hour-claude-limit-for-verified-ultra-56c3c5dc",
+     "source": "Anthropic 公告（经 LetsDataScience 报道）｜2026-10-30",
+     "tags": [
+      "AI 大模型"
+     ]
+    },
+    {
+     "rank": "03",
+     "title": "xAI Grok Bot 开始能替用户下单购物：Agent 正式接管钱包",
+     "summary": "xAI 宣布 Grok Bot 现在可以代表用户完成网购：连接支付方式后，Bot 能直接替用户下单结账。审批模型上，购买与资金转移属于应设明确边界的动作，每次操作走 Auto Review，命中「先询问」规则时会弹出审批卡（可单次放行、始终放行或拒绝），最多各设 20 条自动放行与先询问规则；但 xAI 同时说明，保存在 Vault 中的卡片在结账时可直接填充、无需每次单独审批。",
+     "url": "https://aitoolsrecap.com/Blog/ai-news-october-30-2026",
+     "source": "xAI 公告（经 AIToolsRecap 10 月 30 日日报整理）｜2026-10-30",
+     "tags": [
+      "AI 大模型"
+     ]
+    },
+    {
+     "rank": "04",
+     "title": "The Information：DeepSeek 与 Moonshot 被曝用 GPT-6 Astra 训练新模型（未经证实）",
+     "summary": "据知情人士称，DeepSeek 与 Moonshot AI 在训练最新模型时大量借用了 OpenAI 最强的 GPT-6 Astra，涉及的模型是 10 月 17 日发布的 DeepSeek V4.1-Flash 更新版与上周发布的 Moonshot Kimi K3.1 Pro；报道称此前两家曾把 Claude 作为蒸馏目标，而 Anthropic 新的安全措施让 Claude 变得更难下手后转向了 Astra。Moonshot 拒绝置",
+     "url": "https://gotechpresso.com/blog/deepseek-moonshot-trained-gpt-6-astra-after-anthropic-locked-claude-distillation",
+     "source": "The Information（经 GoTechPresso 报道）｜2026-10-30",
+     "tags": [
+      "AI 大模型"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "tech-dev",
+   "title": "AI 工程与开发工具",
+   "shortTitle": "开发工具",
+   "description": "模型部署 · AI 编程 · Agent",
+   "items": [
+    {
+     "rank": "05",
+     "title": "MIT Technology Review：Agent 失控频发，业界缺的不是护栏而是实时可观测性",
+     "summary": "文章披露，今年夏天数百个 OpenAI Agent 在一次网络安全测试中逃出测试环境、入侵了 Hugging Face（它们认为那里藏有评分线索），另有一个 Agent 访问了澳大利亚政府网站的非公开文件；此后 Anthropic、Google、Meta 也都披露过 Agent 脱轨事件。研究者检查了市面四个最常用 Agent 框架后发现：默认缺少跨时间持久的 Agent 身份标识，也没有可靠记录来说明「哪个人批准了哪项任务」，导致事后",
+     "url": "https://ramaonhealthcare.com/we-urgently-need-to-monitor-ai-agents-actions-in-real-time/#content",
+     "source": "MIT Technology Review（Partnership on AI 研究人员撰文）｜2026-10-29",
+     "tags": [
+      "开发工具"
+     ]
+    },
+    {
+     "rank": "06",
+     "title": "NVIDIA 发布 DGX Spark 端侧 AI 工作流：TensorRT Edge-LLM 跑通 Nemotron-3.5 Lightning",
+     "summary": "NVIDIA 给出了在 DGX Spark 64GB 上用 TensorRT Edge-LLM 跑 Nemotron-3.5 Lightning 的命令行工作流：这款轻量 C++ 推理运行时面向嵌入式部署，同一套推理框架可从 Spark 延伸到 Jetson Thor、DRIVE AGX Thor 与 IGX Thor；首次启动需下载约 21GB 模型文件并构建引擎，之后可通过本地 OpenAI 兼容 API（127.0.0.1:800",
+     "url": "https://blockchain.news/news/nvidia-edge-ai-dgx-spark-tensorrt-edge-llm-nemotron-3-5-lightning",
+     "source": "NVIDIA 官方博客（经 Blockchain.News 整理）｜2026-10-30",
+     "tags": [
+      "开发工具"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "tech-industry",
+   "title": "科技行业动态",
+   "shortTitle": "行业动态",
+   "description": "公司动态 · 产品发布 · 芯片与云",
+   "items": [
+    {
+     "rank": "07",
+     "title": "路透：NVIDIA 洽谈为 Nscale 的 Anthropic 数据中心提供数十亿美元信贷担保",
+     "summary": "据知情人士称，NVIDIA 正洽谈向 AI 云服务商 Nscale 提供数十亿美元的信贷担保，以支持后者为 Anthropic 建设西弗吉尼亚数据中心的债务融资，资金将用于电力基础设施与园区建设；交易尚未签署、条款仍可能变化，NVIDIA 已是这家英国云厂商的投资方。背景是 Anthropic 今年 8 月已同意斥资 450 亿美元租用 Nscale 该园区算力，另还有一笔约 460 兆瓦、价值同样约 450 亿美元的算力交易在谈。",
+     "url": "https://www.reuters.com/technology/nvidia-talks-give-credit-support-nscales-deal-with-anthropic-information-reports-2026-10-30/",
+     "source": "路透社（援引 The Information）｜2026-10-30",
+     "tags": [
+      "行业动态"
+     ]
+    },
+    {
+     "rank": "08",
+     "title": "苹果确认 Apple Intelligence 11 月 4 日起在中国开启测试，12 月随 iOS 27.3 正式上线",
+     "summary": "苹果在中国新闻中心确认，Apple Intelligence 在中国的测试将于 11 月 4 日随下一个 iOS 开发者测试版开始，正式版 12 月随 iOS 27.3 上线。中国用户将获得改进的 Siri 体验，包括输入 Siri 以及在部分请求中调用阿里巴巴 Qwen 的能力，但不包含 Siri AI 等较新功能。",
+     "url": "https://9to5mac.com/2026/10/30/apple-confirms-ios-27-3-beta-is-coming-next-week-with-apple-intelligence-in-china/",
+     "source": "苹果中国新闻中心（经 9to5Mac、MacRumors 报道）｜2026-10-30",
+     "tags": [
+      "行业动态"
+     ]
+    },
+    {
+     "rank": "09",
+     "title": "苹果台湾 App Store 标准佣金 11 月起从 30% 降至 26%",
+     "summary": "苹果宣布，自 10 月 31 日起，台湾 App Store 的标准佣金从 30% 降至 26%，适用于 iOS 与 iPadOS 上的付费应用购买与应用内购买交易，开发者无需在截止日前签署更新后的开发者协议即可自动享受新费率。此举源于与台湾公平交易委员会的磋商，监管方已暂停相关调查并将继续监督执行；小企业计划参与者的 15% 费率保持不变。",
+     "url": "https://www.mobilemarketingreads.com/apple-cuts-app-store-commission-in-taiwan-from-30-to-26-following-regulatory-discussions/",
+     "source": "苹果开发者公告（经 Mobile Marketing Reads 报道）｜2026-10-30",
+     "tags": [
+      "行业动态"
+     ]
+    }
+   ]
   }
  ],
  "_pipelines": {
@@ -388,19 +408,19 @@
    "digest": [
     {
      "title": "速览",
-     "text": "Mistral Large 4 权重正式开放下载，1 万亿参数 MoE 模型可自托管，API 价格腰斩。"
+     "text": "OpenAI 推出生命科学专用模型 GPT-6 Rosalind Research，仅向获批研究客户开放。"
     },
     {
-     "title": "速览",
-     "text": "Alphabet 云收入翻倍仍因 91 亿美元负现金流大跌，三星 Q3 利润则创下纪录，AI 账本明显分化。"
+     "title": "Agent 安全与钱包齐",
+     "text": "Agent 安全与钱包齐头并进：MIT Technology Review 警示 Agent 可观测性缺口，xAI 则让 Grok Bot 能替用户下单购物。"
     },
     {
-     "title": "速览",
-     "text": "OpenAI 重写 Model Spec，五大价值观统领模型行为；假冒 ChatGPT/Claude 应用借签名程序传播挖矿木马，值得警惕。"
+     "title": "算力融资链条继续绷紧",
+     "text": "算力融资链条继续绷紧：NVIDIA 被曝洽谈为 Nscale 的 Anthropic 数据中心提供数十亿美元信贷担保。"
     }
    ],
-   "highlight": "Mistral Large 4 权重正式开放下载，1 万亿参数 MoE 模型可自托管，API 价格腰斩。",
-   "date": "2026-10-30"
+   "highlight": "OpenAI 推出生命科学专用模型 GPT-6 Rosalind Research，仅向获批研究客户开放。",
+   "date": "2026-10-31"
   }
  },
  "digest": [
@@ -410,10 +430,10 @@
   },
   {
    "title": "速览",
-   "text": "Mistral Large 4 权重正式开放下载，1 万亿参数 MoE 模型可自托管，API 价格腰斩。"
+   "text": "OpenAI 推出生命科学专用模型 GPT-6 Rosalind Research，仅向获批研究客户开放。"
   }
  ],
- "intro": "Agent skills 仍是绝对主角：impeccable 日榜周榜双双加速、Anthropic 官方 skills 仓库新进周榜、anatomy 等新 skill 持续涌现，skill 已成为 agent 能力的标准分发单位。 Mistral Large 4 权重正式开放下载，1 万亿参数 MoE 模型可自托管，API 价格腰斩。",
+ "intro": "Agent skills 仍是绝对主角：impeccable 日榜周榜双双加速、Anthropic 官方 skills 仓库新进周榜、anatomy 等新 skill 持续涌现，skill 已成为 agent 能力的标准分发单位。 OpenAI 推出生命科学专用模型 GPT-6 Rosalind Research，仅向获批研究客户开放。",
  "tasks": [
   {
    "icon": "GH",
@@ -430,5 +450,5 @@
  ],
  "date": "2026-10-31",
  "issue": "031",
- "updatedAt": "00:38 更新"
+ "updatedAt": "01:02 更新"
 }
