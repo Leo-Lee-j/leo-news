@@ -1,130 +1,6 @@
 {
  "sections": [
   {
-   "id": "tech-ai",
-   "title": "AI 与大模型",
-   "shortTitle": "AI 大模型",
-   "description": "大模型发布与更新",
-   "items": [
-    {
-     "rank": "01",
-     "title": "xAI 宣布 Grok API 11 月 7 日起默认加隐形水印",
-     "summary": "xAI 将从 11 月 7 日起对 grok-4.7、grok-4.6、grok-4.5、grok-4.3、grok-4.20 五款模型的 API 文本输出默认启用不可见统计水印，覆盖 api.x.ai、Responses API 与 Chat Completions API。团队管理员可在 xAI Console 中按模型关闭水印，但仅限法律与合规等特定情形；面向消费者的 Grok 产品不受影响。",
-     "url": "https://www.tokenpost.com/news/technology/45622",
-     "source": "TokenPost｜2026-10-31",
-     "tags": [
-      "AI 大模型"
-     ]
-    },
-    {
-     "rank": "02",
-     "title": "Anthropic 把 Claude 水印扩展到 4 款旧模型，但两款留有参数漏洞",
-     "summary": "Anthropic 通过邮件通知 API 客户，将文本水印扩展到 Claude Mythos 5、Opus 4.7、Opus 4.6 与 Sonnet 4.6；Opus 5.5 等新模型此前已带水印。漏洞在于 Opus 4.6 与 Sonnet 4.6 上，水印仅在 temperature、top_p、top_k 三个采样参数保持默认值时才生效，改动其中任意一个即可输出无水印文本；Anthropic 已提醒依赖水印做合规的客户保持默认设",
-     "url": "https://the-decoder.com/anthropics-watermark-rollout-leaves-a-loophole-on-two-older-claude-models/",
-     "source": "The Decoder｜2026-10-31",
-     "tags": [
-      "AI 大模型"
-     ]
-    }
-   ]
-  },
-  {
-   "id": "tech-dev",
-   "title": "AI 工程与开发工具",
-   "shortTitle": "开发工具",
-   "description": "模型部署 · AI 编程 · Agent",
-   "items": [
-    {
-     "rank": "03",
-     "title": "DeepSeek 发布 Super-agent 架构探索：让 Agent 从单会话走向多任务协作",
-     "summary": "DeepSeek Harness 团队 10 月 31 日发表《Super-agent Design Exploration》技术文章，指出主流 Agent 仍以孤立单会话运行，限制了多任务协作规模。新架构用双层设计、事件驱动处理、异步多通道交互、存算分离与外部看门狗，把会话管理收归系统、把人推到决策层；配套原型 deepseek-ai/dsh-superagent-prototype 已开源，内部实例已持续运行，参与 issue 复现",
-     "url": "https://www.kucoin.com/news/flash/deepseek-unveils-new-super-agent-architecture-for-multi-task-collaboration",
-     "source": "KuCoin News（转引 ChainThink）｜2026-10-31",
-     "tags": [
-      "开发工具"
-     ]
-    },
-    {
-     "rank": "04",
-     "title": "ModelBest 与 OpenBMB 开源 MiniCPM-OCR 系列：1.3B 解析模型加 2B 质检模型",
-     "summary": "MiniCPM-OCR 系列包含两款模型：1.3B 参数的 MiniCPM-OCR 1.0，专注高效文档解析；2B 参数的 MiniCPM-OCR Jev，号称首个 OCR 结果判定模型，像“AI 质检员”一样逐页评估解析质量，减少人工逐页复核。系列已在 GitHub、Hugging Face 与 ModelScope 上线，支持 vLLM、SGLang、llama.cpp 与 Ollama，首日即适配 AMD、Arm、Intel、NV",
-     "url": "https://www.manilatimes.net/2026/11/01/tmt-newswire/pr-newswire/modelbest-and-openbmb-open-source-minicpm-ocr-series-delivering-high-performance-document-parsing-and-ai-powered-quality-control/2458824/amp",
-     "source": "PR Newswire（经 Manila Times）｜2026-11-01",
-     "tags": [
-      "开发工具"
-     ]
-    },
-    {
-     "rank": "05",
-     "title": "小米开源 Xiaomi-OCR-0：0.8B 参数的文档理解小模型",
-     "summary": "小米 10 月 30 日晚公开 Xiaomi-OCR-0，一个仅 0.8B 参数的开源文档理解模型，基于 Qwen3.5-0.8B-Base，约 1.7 亿训练样本，Apache 2.0 协议。单个模型同时覆盖三项任务：页面转 Markdown（含表格与 LaTeX 公式）、按 JSON Schema 抽取关键信息、针对文档图像问答；小米称其在 OmniDocBench v1.6 上得分 96.83，1B 以下模型中解析性能居首。项目地",
-     "url": "https://lapaasvoice.com/xiaomi-unveils-xiaomi-ocr-0-a-0-8b-open-source-ai-model-for-reading-complex-documents/",
-     "source": "Lapaas Voice｜2026-10-31",
-     "tags": [
-      "开发工具"
-     ]
-    },
-    {
-     "rank": "06",
-     "title": "ChatGPT 分享链接曾可接管账户：Parameter 披露 MathLive 链式漏洞，OpenAI 已于 10 月 26 日修复",
-     "summary": "安全公司 Parameter 披露，攻击者可制作含交互图表与 HTML 预览的公开分享对话，受害者打开链接后，攻击代码即以 chatgpt.com 身份在其登录会话中运行，可枚举对话列表、读取未分享过的私人对话并外发。根因是图表加载的 MathLive 库接受任意来源的 postMessage 并把 HTML 写入主页面，加之未加沙箱的 iframe 与 YouTube JSONP 端点绕过 CSP。OpenAI 10 月 21 日复现",
-     "url": "https://www.parameter.ai/labs/we-found-a-gap-at-openai",
-     "source": "Parameter Labs｜2026-10-28（10 月 31 日登 Hacker News 热榜）",
-     "tags": [
-      "开发工具"
-     ]
-    },
-    {
-     "rank": "07",
-     "title": "Deepgram 收购 Daily：Pipecat 语音 Agent 框架转入独立基金会",
-     "summary": "语音 AI 公司 Deepgram 宣布收购实时音视频基础设施公司 Daily，后者是开源语音 Agent 框架 Pipecat 的创造者。Pipecat 将继续在现有 BSD 2-Clause 协议下完全免费开源，并与多家贡献组织共同成立独立的 Pipecat 基金会，保持厂商中立；Daily 联合创始人 Kwindla Hultman Kramer 将加入 Deepgram 担任开源负责人；交易价格未披露。Deepgram 同期还与",
-     "url": "https://deepgram.com/blog/daily-pipecat-deepgram",
-     "source": "Deepgram 官方博客｜2026-10-29",
-     "tags": [
-      "开发工具"
-     ]
-    }
-   ]
-  },
-  {
-   "id": "tech-industry",
-   "title": "科技行业动态",
-   "shortTitle": "行业动态",
-   "description": "公司动态 · 产品发布 · 芯片与云",
-   "items": [
-    {
-     "rank": "08",
-     "title": "NVIDIA 向 Meta 股票发行投入 30 亿美元，成 AI 繁荣的“中央银行”",
-     "summary": "NVIDIA 向 Meta 本周的股票发行投入 30 亿美元，与其围绕 Muse 模型家族的扩大合作同步推进。法新社梳理，NVIDIA 已通过入股、贷款与担保深度介入 AI 产业链：持有 OpenAI、Anthropic 与 xAI 的股份，投资 CoreWeave、Nebius 等新云厂商，并承诺在无人接手时买下 CoreWeave 最多 63 亿美元的闲置算力；两家直接客户占其 2026 财年收入的 22% 与 14%。",
-     "url": "https://www.malaymail.com/news/money/2026/10/31/nvidia-is-becoming-the-bank-of-the-ai-boom-could-it-also-be-fuelling-a-bubble/241246",
-     "source": "法新社（经 Malay Mail）｜2026-10-31",
-     "tags": [
-      "行业动态"
-     ]
-    },
-    {
-     "rank": "09",
-     "title": "加拿大宣布向 Cohere 投资最高 16 亿加元，押注主权 AI",
-     "summary": "加拿大总理 Mark Carney 宣布，联邦政府承诺向多伦多 AI 公司 Cohere 进行最高 16 亿加元的商业股权投资，分阶段拨付，并定期报告进展；同轮私人投资者包括 NVIDIA、Bell 与德国 Schwarz 集团。作为条件，Cohere 承诺 2030 年前在加拿大新增至少 1000 个高薪技术岗位，并向加拿大算力追加投资至少 17 亿加元；其 Series E 轮目标融资最高 70 亿加元，投后估值约 357 亿加元。",
-     "url": "https://www.pm.gc.ca/en/news/news-releases/2026/10/29/canada-announces-landmark-investment-cohere-scale-secure-sovereign-ai",
-     "source": "加拿大总理办公室｜2026-10-29",
-     "tags": [
-      "行业动态"
-     ]
-    },
-    {
-     "rank": "10",
-     "title": "亚马逊 Q3：AWS 收入 460 亿美元、同比增长 39%，创近五年最快增速",
-     "summary": "亚马逊三季度财报显示，AWS 收入同比增长 39% 至 460 亿美元，创近五年最快增速，年化收入跑道达 1840 亿美元，CEO Andy Jassy 预计 2027 与 2028 年增速均将超过 40%，电话会上披露的签约 backlog 达 5780 亿美元，同比翻倍有余。但集团整体表现不及预期：总收入 2019 亿美元、同比增长 12%，每股收益 1.89 美元低于预期的 1.97 美元；过去 12 个月自由现金流为负 424 ",
-     "url": "https://www.geekwire.com/2026/aws-growth-hits-39-its-fastest-in-nearly-five-years-as-amazon-misses-on-earnings/",
-     "source": "GeekWire｜2026-10-29",
-     "tags": [
-      "行业动态"
-     ]
-    }
-   ]
-  },
-  {
    "id": "github-hot",
    "title": "GitHub 今日热门",
    "shortTitle": "GitHub 热榜",
@@ -393,6 +269,120 @@
      ]
     }
    ]
+  },
+  {
+   "id": "tech-ai",
+   "title": "AI 与大模型",
+   "shortTitle": "AI 大模型",
+   "description": "大模型发布与更新",
+   "items": [
+    {
+     "rank": "01",
+     "title": "OpenAI：12 月起 ChatGPT 与 Codex 共享用量池，按 Token 计费",
+     "summary": "OpenAI 帮助中心更新显示，12 月起 Plus、Pro 与 Business 套餐的用量额度将在 ChatGPT 与 Codex 之间共享，按 Token 而非消息条数计量；模型越强、任务越复杂，消耗越快。快速问答模式 Instant chat 不计入该额度，剩余额度与重置时间可在设置中的 Usage 查看。",
+     "url": "https://www.tokenpost.com/news/technology/45608",
+     "source": "TokenPost｜2026-10-31",
+     "tags": [
+      "AI 大模型"
+     ]
+    },
+    {
+     "rank": "02",
+     "title": "Anthropic 修订版使用政策 11 月 12 日生效，监控与武器红线收紧",
+     "summary": "Anthropic 重写后的使用政策将于 11 月 12 日生效：未经同意的监控无论实时还是事后分析均被禁止，Claude 不得决定或建议调查、逮捕对象，也不得用于构建监控工具；武器禁令明确覆盖武器软件与零部件，以及为无人机等自主载具加装武器。对个性化拉票与竞选定向的全面禁令被取消，改为聚焦欺骗选民与干扰选举。",
+     "url": "https://aitoolsrecap.com/Blog/ai-news-november-01-2026",
+     "source": "AIToolsRecap｜2026-11-01",
+     "tags": [
+      "AI 大模型"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "tech-dev",
+   "title": "AI 工程与开发工具",
+   "shortTitle": "开发工具",
+   "description": "模型部署 · AI 编程 · Agent",
+   "items": [
+    {
+     "rank": "03",
+     "title": "Nace AI 开源 27B 决策模型 Drex Max，可在消费级设备本地运行",
+     "summary": "Nace AI 于 11 月 1 日以 Open RAIL-M 协议开源 Drex Max v1，这是一个 27B 参数的稠密决策模型，单次前向推理即可输出每个选项的概率，无需生成文本；上下文窗口 262144 Token，提供 bf16、Q8_0 GGUF 与 Q4 量化版本及 llama.cpp、Ollama 分支。公开 Decision Index 0.4 得分 67.52，比上一代 Drex v2.0 高 6.27 分。",
+     "url": "https://wisevoter.com/world/2026/11/01/nace-ai-open-sources-drex-max-v1",
+     "source": "WiseVoter｜2026-11-01",
+     "tags": [
+      "开发工具"
+     ]
+    },
+    {
+     "rank": "04",
+     "title": "NVIDIA 发布 DeepSeek V4.1 Flash NVFP4 量化版，体积缩水约 75 GiB",
+     "summary": "NVIDIA 用 Model Optimizer 对 DeepSeek-V4.1-Flash-1017 做后训练量化，发布 NVFP4 版本，检查点从约 475 GiB 降至约 400 GiB；在 GPQA Diamond、SciCode、Terminal-Bench 2.1 等六项推理、编程、视觉与长上下文基准上，得分波动不超过 0.70 分，面向 Blackwell GPU、通过 vLLM 部署，沿用 MIT 协议。",
+     "url": "https://alphasignal.ai/news/nvidia-shrinks-deepseek-v4-1-flash-by-75-gib-with-almost-no-quality-loss",
+     "source": "AlphaSignal｜2026-11-01",
+     "tags": [
+      "开发工具"
+     ]
+    },
+    {
+     "rank": "05",
+     "title": "Cursor 市集遭篡改的 Claude Code 扩展植入 SSH 后门，卸载也无法清除",
+     "summary": "10 月 29 日约 2:27 至 13:35（太平洋时间），Cursor 的 VS Code 扩展市集分发了被篡改的 Claude Code 扩展 2.1.312 与 2.1.313，冒用 anthropic.claude-code 的真实发布者身份；恶意加载器会向 ~/.ssh/authorized_keys 写入标注为 svc-telemetry 的攻击者公钥，并留下独立于扩展目录的持久化脚本。Cursor 称最多 5000 名用",
+     "url": "https://wizroo.com/claude-code-extension-backdoor-survives-uninstall-and-update/",
+     "source": "Wizroo｜2026-11-01",
+     "tags": [
+      "开发工具"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "tech-industry",
+   "title": "科技行业动态",
+   "shortTitle": "行业动态",
+   "description": "公司动态 · 产品发布 · 芯片与云",
+   "items": [
+    {
+     "rank": "06",
+     "title": "Google、微软、OpenAI、Anthropic 联手支持统一 robots.txt 训练退出标识",
+     "summary": "四家公司于 10 月 30 日宣布支持同一个 robots.txt 标识 `__usage_ai-training`：网站写一行规则即可向所有参与方声明不希望内容被用于生成式 AI 训练。Google 计划 2027 年初支持，并将其同时视为 Gemini 实时引用（grounding）的退出；微软从 2027 年 2 月 1 日起执行，且 3 月 1 日后不再把 NoArchive、NoCache 视为训练与 grounding 信号",
+     "url": "https://tech-insider.org/ai-training-opt-out-standard-openai-google-microsoft-anthropic-robots-txt-2026/",
+     "source": "Tech Insider｜2026-11-01",
+     "tags": [
+      "行业动态"
+     ]
+    },
+    {
+     "rank": "07",
+     "title": "WSJ：OpenAI 本轮融资目标缩水至约 200 亿美元，估值约 1.25 万亿美元",
+     "summary": "据华尔街日报报道，OpenAI 将本轮融资目标从 300 亿美元下调至约 200 亿美元，估值约 1.25 万亿美元，目前已落实约 110 亿美元；背景是上周五科技股抛售，以及 Anthropic 即将 IPO 对投资者的争夺。",
+     "url": "https://wesearch.press/s/openai-raises-less-than-half-of-30b-target-d289974c",
+     "source": "华尔街日报（经 WeSearch 转引）｜2026-10-31",
+     "tags": [
+      "行业动态"
+     ]
+    },
+    {
+     "rank": "08",
+     "title": "Chainalysis 披露遭 AI Agent 攻击，部分客户信息泄露",
+     "summary": "区块链分析公司 Chainalysis 于 10 月 30 日披露，外部攻击者利用其所称的“进攻性 Agent 技术”入侵内部系统与工具，获取了部分非敏感客户信息，包括用户 ID、姓名、邮箱与组织角色；调查材料、凭证与会话令牌未泄露，公司正在修补漏洞并强化安全措施。",
+     "url": "https://www.digitaltoday.co.kr/en/view/122245/chainalysis-partly-exposes-customer-data-in-ai-agent-hack",
+     "source": "DigitalToday（转引 The Hacker News）｜2026-11-01",
+     "tags": [
+      "行业动态"
+     ]
+    },
+    {
+     "rank": "09",
+     "title": "中国多项 AI 与算力行业标准 11 月 1 日起实施，产业竞争转向平台工程",
+     "summary": "11 月 1 日起，多项国家级 AI、算力与具身智能行业标准正式实施，包括中国信通院牵头的大模型平台系列标准（覆盖数据处理、训练、推理、资源调度与运维，其中 4 项当日实施）、具身智能数据集质量要求及评价方法，以及《分布式计算 算力度量方法》。报道称我国 AI 核心产业规模已突破 1.2 万亿元，部署大模型的企业超 8 万家。",
+     "url": "https://news.qq.com/rain/a/20261029A0355T00",
+     "source": "腾讯新闻｜2026-10-29",
+     "tags": [
+      "行业动态"
+     ]
+    }
+   ]
   }
  ],
  "_pipelines": {
@@ -417,20 +407,20 @@
   "tech-news": {
    "digest": [
     {
-     "title": "水印成行业标配",
-     "text": "水印成行业标配：xAI 宣布 Grok API 11 月 7 日起默认加隐形水印，Anthropic 同日把水印扩展到 4 款旧 Claude 模型——但两款旧模型留了一个改参数即可绕过的口子。"
+     "title": "速览",
+     "text": "OpenAI 宣布 12 月起 ChatGPT 与 Codex 共享一个 Token 用量池，聊天与编程从此共用同一预算。"
     },
     {
-     "title": "开源小模型扎堆",
-     "text": "开源小模型扎堆：DeepSeek 发布 Super-agent 架构探索，MiniCPM-OCR 与小米 Xiaomi-OCR-0 同日开源，文档解析进入“小而专”的竞争。"
+     "title": "速览",
+     "text": "Anthropic 修订版使用政策 11 月 12 日生效，监控、武器与自主硬件的红线全面收紧。"
     },
     {
-     "title": "资本与主权 AI 继续加",
-     "text": "资本与主权 AI 继续加码：NVIDIA 向 Meta 股票发行投入 30 亿美元，加拿大宣布向 Cohere 投资最高 16 亿加元，AWS 三季度收入 460 亿美元、同比增长 39%。"
+     "title": "最值得关注的是开发者安全",
+     "text": "最值得关注的是开发者安全连环警报：Cursor 市集遭篡改的 Claude Code 扩展植入 SSH 后门，Chainalysis 也披露遭 AI Agent 攻击致客户信息泄露。"
     }
    ],
-   "highlight": "水印成行业标配：xAI 宣布 Grok API 11 月 7 日起默认加隐形水印，Anthropic 同日把水印扩展到 4 款旧 Claude 模型——但两款旧模型留了一个改参数即可绕过的口子。",
-   "date": "2026-11-01"
+   "highlight": "OpenAI 宣布 12 月起 ChatGPT 与 Codex 共享一个 Token 用量池，聊天与编程从此共用同一预算。",
+   "date": "2026-11-02"
   }
  },
  "digest": [
@@ -439,11 +429,11 @@
    "text": "t3code 单日 +3,094 领跑日榜：手机遥控本机 agent 从\"新姿势\"变成出圈爆款，agent 的控制面正在从桌面窗口走向口袋。"
   },
   {
-   "title": "水印成行业标配",
-   "text": "水印成行业标配：xAI 宣布 Grok API 11 月 7 日起默认加隐形水印，Anthropic 同日把水印扩展到 4 款旧 Claude 模型——但两款旧模型留了一个改参数即可绕过的口子。"
+   "title": "速览",
+   "text": "OpenAI 宣布 12 月起 ChatGPT 与 Codex 共享一个 Token 用量池，聊天与编程从此共用同一预算。"
   }
  ],
- "intro": "t3code 单日 +3,094 领跑日榜：手机遥控本机 agent 从\"新姿势\"变成出圈爆款，agent 的控制面正在从桌面窗口走向口袋。 水印成行业标配：xAI 宣布 Grok API 11 月 7 日起默认加隐形水印，Anthropic 同日把水印扩展到 4 款旧 Claude 模型——但两款旧模型留了一个改参数即可绕过的口子。",
+ "intro": "t3code 单日 +3,094 领跑日榜：手机遥控本机 agent 从\"新姿势\"变成出圈爆款，agent 的控制面正在从桌面窗口走向口袋。 OpenAI 宣布 12 月起 ChatGPT 与 Codex 共享一个 Token 用量池，聊天与编程从此共用同一预算。",
  "tasks": [
   {
    "icon": "GH",
@@ -460,5 +450,5 @@
  ],
  "date": "2026-11-02",
  "issue": "033",
- "updatedAt": "00:33 更新"
+ "updatedAt": "01:01 更新"
 }
