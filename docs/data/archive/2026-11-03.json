@@ -1,120 +1,6 @@
 {
  "sections": [
   {
-   "id": "tech-ai",
-   "title": "AI 与大模型",
-   "shortTitle": "AI 大模型",
-   "description": "大模型发布与更新",
-   "items": [
-    {
-     "rank": "01",
-     "title": "OpenAI：12 月起 ChatGPT 与 Codex 共享用量池，按 Token 计费",
-     "summary": "OpenAI 帮助中心更新显示，12 月起 Plus、Pro 与 Business 套餐的用量额度将在 ChatGPT 与 Codex 之间共享，按 Token 而非消息条数计量；模型越强、任务越复杂，消耗越快。快速问答模式 Instant chat 不计入该额度，剩余额度与重置时间可在设置中的 Usage 查看。",
-     "url": "https://www.tokenpost.com/news/technology/45608",
-     "source": "TokenPost｜2026-10-31",
-     "tags": [
-      "AI 大模型"
-     ]
-    },
-    {
-     "rank": "02",
-     "title": "Anthropic 修订版使用政策 11 月 12 日生效，监控与武器红线收紧",
-     "summary": "Anthropic 重写后的使用政策将于 11 月 12 日生效：未经同意的监控无论实时还是事后分析均被禁止，Claude 不得决定或建议调查、逮捕对象，也不得用于构建监控工具；武器禁令明确覆盖武器软件与零部件，以及为无人机等自主载具加装武器。对个性化拉票与竞选定向的全面禁令被取消，改为聚焦欺骗选民与干扰选举。",
-     "url": "https://aitoolsrecap.com/Blog/ai-news-november-01-2026",
-     "source": "AIToolsRecap｜2026-11-01",
-     "tags": [
-      "AI 大模型"
-     ]
-    }
-   ]
-  },
-  {
-   "id": "tech-dev",
-   "title": "AI 工程与开发工具",
-   "shortTitle": "开发工具",
-   "description": "模型部署 · AI 编程 · Agent",
-   "items": [
-    {
-     "rank": "03",
-     "title": "Nace AI 开源 27B 决策模型 Drex Max，可在消费级设备本地运行",
-     "summary": "Nace AI 于 11 月 1 日以 Open RAIL-M 协议开源 Drex Max v1，这是一个 27B 参数的稠密决策模型，单次前向推理即可输出每个选项的概率，无需生成文本；上下文窗口 262144 Token，提供 bf16、Q8_0 GGUF 与 Q4 量化版本及 llama.cpp、Ollama 分支。公开 Decision Index 0.4 得分 67.52，比上一代 Drex v2.0 高 6.27 分。",
-     "url": "https://wisevoter.com/world/2026/11/01/nace-ai-open-sources-drex-max-v1",
-     "source": "WiseVoter｜2026-11-01",
-     "tags": [
-      "开发工具"
-     ]
-    },
-    {
-     "rank": "04",
-     "title": "NVIDIA 发布 DeepSeek V4.1 Flash NVFP4 量化版，体积缩水约 75 GiB",
-     "summary": "NVIDIA 用 Model Optimizer 对 DeepSeek-V4.1-Flash-1017 做后训练量化，发布 NVFP4 版本，检查点从约 475 GiB 降至约 400 GiB；在 GPQA Diamond、SciCode、Terminal-Bench 2.1 等六项推理、编程、视觉与长上下文基准上，得分波动不超过 0.70 分，面向 Blackwell GPU、通过 vLLM 部署，沿用 MIT 协议。",
-     "url": "https://alphasignal.ai/news/nvidia-shrinks-deepseek-v4-1-flash-by-75-gib-with-almost-no-quality-loss",
-     "source": "AlphaSignal｜2026-11-01",
-     "tags": [
-      "开发工具"
-     ]
-    },
-    {
-     "rank": "05",
-     "title": "Cursor 市集遭篡改的 Claude Code 扩展植入 SSH 后门，卸载也无法清除",
-     "summary": "10 月 29 日约 2:27 至 13:35（太平洋时间），Cursor 的 VS Code 扩展市集分发了被篡改的 Claude Code 扩展 2.1.312 与 2.1.313，冒用 anthropic.claude-code 的真实发布者身份；恶意加载器会向 ~/.ssh/authorized_keys 写入标注为 svc-telemetry 的攻击者公钥，并留下独立于扩展目录的持久化脚本。Cursor 称最多 5000 名用",
-     "url": "https://wizroo.com/claude-code-extension-backdoor-survives-uninstall-and-update/",
-     "source": "Wizroo｜2026-11-01",
-     "tags": [
-      "开发工具"
-     ]
-    }
-   ]
-  },
-  {
-   "id": "tech-industry",
-   "title": "科技行业动态",
-   "shortTitle": "行业动态",
-   "description": "公司动态 · 产品发布 · 芯片与云",
-   "items": [
-    {
-     "rank": "06",
-     "title": "Google、微软、OpenAI、Anthropic 联手支持统一 robots.txt 训练退出标识",
-     "summary": "四家公司于 10 月 30 日宣布支持同一个 robots.txt 标识 `__usage_ai-training`：网站写一行规则即可向所有参与方声明不希望内容被用于生成式 AI 训练。Google 计划 2027 年初支持，并将其同时视为 Gemini 实时引用（grounding）的退出；微软从 2027 年 2 月 1 日起执行，且 3 月 1 日后不再把 NoArchive、NoCache 视为训练与 grounding 信号",
-     "url": "https://tech-insider.org/ai-training-opt-out-standard-openai-google-microsoft-anthropic-robots-txt-2026/",
-     "source": "Tech Insider｜2026-11-01",
-     "tags": [
-      "行业动态"
-     ]
-    },
-    {
-     "rank": "07",
-     "title": "WSJ：OpenAI 本轮融资目标缩水至约 200 亿美元，估值约 1.25 万亿美元",
-     "summary": "据华尔街日报报道，OpenAI 将本轮融资目标从 300 亿美元下调至约 200 亿美元，估值约 1.25 万亿美元，目前已落实约 110 亿美元；背景是上周五科技股抛售，以及 Anthropic 即将 IPO 对投资者的争夺。",
-     "url": "https://wesearch.press/s/openai-raises-less-than-half-of-30b-target-d289974c",
-     "source": "华尔街日报（经 WeSearch 转引）｜2026-10-31",
-     "tags": [
-      "行业动态"
-     ]
-    },
-    {
-     "rank": "08",
-     "title": "Chainalysis 披露遭 AI Agent 攻击，部分客户信息泄露",
-     "summary": "区块链分析公司 Chainalysis 于 10 月 30 日披露，外部攻击者利用其所称的“进攻性 Agent 技术”入侵内部系统与工具，获取了部分非敏感客户信息，包括用户 ID、姓名、邮箱与组织角色；调查材料、凭证与会话令牌未泄露，公司正在修补漏洞并强化安全措施。",
-     "url": "https://www.digitaltoday.co.kr/en/view/122245/chainalysis-partly-exposes-customer-data-in-ai-agent-hack",
-     "source": "DigitalToday（转引 The Hacker News）｜2026-11-01",
-     "tags": [
-      "行业动态"
-     ]
-    },
-    {
-     "rank": "09",
-     "title": "中国多项 AI 与算力行业标准 11 月 1 日起实施，产业竞争转向平台工程",
-     "summary": "11 月 1 日起，多项国家级 AI、算力与具身智能行业标准正式实施，包括中国信通院牵头的大模型平台系列标准（覆盖数据处理、训练、推理、资源调度与运维，其中 4 项当日实施）、具身智能数据集质量要求及评价方法，以及《分布式计算 算力度量方法》。报道称我国 AI 核心产业规模已突破 1.2 万亿元，部署大模型的企业超 8 万家。",
-     "url": "https://news.qq.com/rain/a/20261029A0355T00",
-     "source": "腾讯新闻｜2026-10-29",
-     "tags": [
-      "行业动态"
-     ]
-    }
-   ]
-  },
-  {
    "id": "github-hot",
    "title": "GitHub 今日热门",
    "shortTitle": "GitHub 热榜",
@@ -383,6 +269,100 @@
      ]
     }
    ]
+  },
+  {
+   "id": "tech-ai",
+   "title": "AI 与大模型",
+   "shortTitle": "AI 大模型",
+   "description": "大模型发布与更新",
+   "items": [
+    {
+     "rank": "01",
+     "title": "OpenAI 与 Anthropic 下一代旗舰周末同遭泄露，GPT-6.2 Astra 与 Claude 5.5 传闻升温（未经证实）",
+     "summary": "Codex 后端出现 gpt-6.2-astra 的使用痕迹，Anthropic 官网源码中则出现 Claude Mythos 5.5 与 Fable 5.5，其中 Fable 传支持 100 万上下文。两家公司均未正式官宣，发布时间仍是推测。",
+     "url": "https://www.chaincatcher.com/en/article/2300866",
+     "source": "ChainCatcher｜2026-11-01～11-02",
+     "tags": [
+      "AI 大模型"
+     ]
+    },
+    {
+     "rank": "02",
+     "title": "DeepSeek 发布开源自主编程 Agent“Super-agent”原型，瞄准 Claude Code",
+     "summary": "DeepSeek Harness 团队在微信帖中发布开源原型 Super-agent，可主动监听开发者群聊中的编码反馈，未被召唤也可提出修复建议；官方目标是“尽量少占用人力、尽量多给价值”，GitHub 上附有用户手册。",
+     "url": "https://www.business-standard.com/technology/tech-news/deepseek-drops-enhanced-coding-agent-with-aim-to-rival-anthropic-126110100865_1.html",
+     "source": "Business Standard（援引 Bloomberg）｜2026-11-01",
+     "tags": [
+      "AI 大模型"
+     ]
+    },
+    {
+     "rank": "03",
+     "title": "Anthropic 收紧 Claude Code：不再复刻特定已有游戏",
+     "summary": "Anthropic 在 Claude Code 系统提示中新增两句：鼓励原创游戏、同类型作品与用户自有素材，但不得复刻某一特定已有游戏，即使改名或自称原创也不行；工程师 Addy Osmani 公开确认了这一改动。",
+     "url": "https://automater.ai/news/anthropic-claude-code-game-clone-limits/",
+     "source": "The Verge（经 Automater 整理）｜2026-11-02",
+     "tags": [
+      "AI 大模型"
+     ]
+    },
+    {
+     "rank": "04",
+     "title": "度小满联合港科大等发布轩辕 4.5：首个自进化金融增强大模型",
+     "summary": "轩辕 4.5 在 2026 香港金融科技周开幕式上发布，包含大语言模型与多模态模型两部分，RSI 自进化技术用于训练与智能体场景适配；官方称核心金融场景效果提升 30%，成本约为通用模型的 10%。",
+     "url": "https://finance.sina.com.cn/jjxw/2026-11-02/doc-inixiiqz0497859.shtml",
+     "source": "新浪财经｜2026-11-02",
+     "tags": [
+      "AI 大模型"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "tech-dev",
+   "title": "AI 工程与开发工具",
+   "shortTitle": "开发工具",
+   "description": "模型部署 · AI 编程 · Agent",
+   "items": [
+    {
+     "rank": "05",
+     "title": "NVIDIA 发布 DSX OS 开源服务 Recovery：为分布式训练自动“断点续跑”",
+     "summary": "Recovery 是 DSX OS 的集群级开源服务，用应用日志、GPU 指标与调度信号检测崩溃、挂起与掉队，再做归因、隔离与检查点重启；一个生产集群 7 月 9 日至 10 月 9 日日均覆盖近 200 个任务、约 8550 次异常检测，平均检测 69 秒、恢复动作 94 秒。",
+     "url": "https://blockchain.news/news/nvidia-automated-recovery-distributed-training",
+     "source": "NVIDIA 博客（经 Blockchain.News 整理）｜2026-11-02",
+     "tags": [
+      "开发工具"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "tech-industry",
+   "title": "科技行业动态",
+   "shortTitle": "行业动态",
+   "description": "公司动态 · 产品发布 · 芯片与云",
+   "items": [
+    {
+     "rank": "06",
+     "title": "Marvell 1150 亿美元全股票收购 Lumentum，押注 AI 数据中心光互连",
+     "summary": "交易含债务的企业价值为 1150 亿美元，每股以 1132 美元股票支付，较 10 月 28 日未受影响收盘价溢价 23.9%，股权价值 1025.4 亿美元；合并后目标市场达 5500 亿美元，预计 2028 年上半年完成，Marvell 股东约持股 67%。",
+     "url": "https://www.reuters.com/legal/transactional/marvell-buy-lumentum-115-billion-deal-ai-data-center-bet-2026-11-02/",
+     "source": "Reuters｜2026-11-02",
+     "tags": [
+      "行业动态"
+     ]
+    },
+    {
+     "rank": "07",
+     "title": "苹果 2026 财年 Q4：营收 1145 亿美元创 9 月季度纪录",
+     "summary": "季度营收 1145 亿美元，同比增长 12%，每股收益 2.10 美元，同比增长 14%，毛利率 47.9%（含关税退款约 1 个百分点的有利影响）；iPhone 创 9 月季度纪录、服务收入创历史新高，全年营收 4790 亿美元。",
+     "url": "https://www.apple.com/ca/newsroom/2026/11/apple-reports-fourth-quarter-results/",
+     "source": "Apple 官方新闻稿｜2026-11-02",
+     "tags": [
+      "行业动态"
+     ]
+    }
+   ]
   }
  ],
  "_pipelines": {
@@ -408,19 +388,19 @@
    "digest": [
     {
      "title": "速览",
-     "text": "OpenAI 宣布 12 月起 ChatGPT 与 Codex 共享一个 Token 用量池，聊天与编程从此共用同一预算。"
+     "text": "OpenAI 与 Anthropic 的下一代旗舰在周末同遭泄露，但两家均未官宣，11 月旗舰对决的预期升温。"
     },
     {
-     "title": "速览",
-     "text": "Anthropic 修订版使用政策 11 月 12 日生效，监控、武器与自主硬件的红线全面收紧。"
+     "title": "DeepSeek 开源自",
+     "text": "DeepSeek 开源自主编程 Agent 原型，Anthropic 则给 Claude Code 划出游戏 IP 红线：主动式 Agent 的能力与边界在同步推进。"
     },
     {
-     "title": "最值得关注的是开发者安全",
-     "text": "最值得关注的是开发者安全连环警报：Cursor 市集遭篡改的 Claude Code 扩展植入 SSH 后门，Chainalysis 也披露遭 AI Agent 攻击致客户信息泄露。"
+     "title": "最重要的一条是 Marv",
+     "text": "最重要的一条是 Marvell 以 1150 亿美元收购 Lumentum：这是真实落地的千亿级布局，押注 AI 数据中心的光互连瓶颈；苹果 Q4 营收 1145 亿美元也创下 9 月季度纪录。"
     }
    ],
-   "highlight": "OpenAI 宣布 12 月起 ChatGPT 与 Codex 共享一个 Token 用量池，聊天与编程从此共用同一预算。",
-   "date": "2026-11-02"
+   "highlight": "OpenAI 与 Anthropic 的下一代旗舰在周末同遭泄露，但两家均未官宣，11 月旗舰对决的预期升温。",
+   "date": "2026-11-03"
   }
  },
  "digest": [
@@ -430,10 +410,10 @@
   },
   {
    "title": "速览",
-   "text": "OpenAI 宣布 12 月起 ChatGPT 与 Codex 共享一个 Token 用量池，聊天与编程从此共用同一预算。"
+   "text": "OpenAI 与 Anthropic 的下一代旗舰在周末同遭泄露，但两家均未官宣，11 月旗舰对决的预期升温。"
   }
  ],
- "intro": "设计 skill 双雄之争见分晓：Impeccable 以周增 +11,754 守住榜首并正式突破 10 万 star，\"反 AI 味\"赛道迎来第一个十万级选手。 OpenAI 宣布 12 月起 ChatGPT 与 Codex 共享一个 Token 用量池，聊天与编程从此共用同一预算。",
+ "intro": "设计 skill 双雄之争见分晓：Impeccable 以周增 +11,754 守住榜首并正式突破 10 万 star，\"反 AI 味\"赛道迎来第一个十万级选手。 OpenAI 与 Anthropic 的下一代旗舰在周末同遭泄露，但两家均未官宣，11 月旗舰对决的预期升温。",
  "tasks": [
   {
    "icon": "GH",
@@ -450,5 +430,5 @@
  ],
  "date": "2026-11-03",
  "issue": "034",
- "updatedAt": "00:48 更新"
+ "updatedAt": "01:04 更新"
 }
