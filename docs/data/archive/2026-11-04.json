@@ -1,0 +1,425 @@
+{
+ "sections": [
+  {
+   "id": "tech-ai",
+   "title": "AI 与大模型",
+   "shortTitle": "AI 大模型",
+   "description": "大模型发布与更新",
+   "items": [
+    {
+     "rank": "01",
+     "title": "OpenAI 与 Anthropic 下一代旗舰周末同遭泄露，GPT-6.2 Astra 与 Claude 5.5 传闻升温（未经证实）",
+     "summary": "Codex 后端出现 gpt-6.2-astra 的使用痕迹，Anthropic 官网源码中则出现 Claude Mythos 5.5 与 Fable 5.5，其中 Fable 传支持 100 万上下文。两家公司均未正式官宣，发布时间仍是推测。",
+     "url": "https://www.chaincatcher.com/en/article/2300866",
+     "source": "ChainCatcher｜2026-11-01～11-02",
+     "tags": [
+      "AI 大模型"
+     ]
+    },
+    {
+     "rank": "02",
+     "title": "DeepSeek 发布开源自主编程 Agent“Super-agent”原型，瞄准 Claude Code",
+     "summary": "DeepSeek Harness 团队在微信帖中发布开源原型 Super-agent，可主动监听开发者群聊中的编码反馈，未被召唤也可提出修复建议；官方目标是“尽量少占用人力、尽量多给价值”，GitHub 上附有用户手册。",
+     "url": "https://www.business-standard.com/technology/tech-news/deepseek-drops-enhanced-coding-agent-with-aim-to-rival-anthropic-126110100865_1.html",
+     "source": "Business Standard（援引 Bloomberg）｜2026-11-01",
+     "tags": [
+      "AI 大模型"
+     ]
+    },
+    {
+     "rank": "03",
+     "title": "Anthropic 收紧 Claude Code：不再复刻特定已有游戏",
+     "summary": "Anthropic 在 Claude Code 系统提示中新增两句：鼓励原创游戏、同类型作品与用户自有素材，但不得复刻某一特定已有游戏，即使改名或自称原创也不行；工程师 Addy Osmani 公开确认了这一改动。",
+     "url": "https://automater.ai/news/anthropic-claude-code-game-clone-limits/",
+     "source": "The Verge（经 Automater 整理）｜2026-11-02",
+     "tags": [
+      "AI 大模型"
+     ]
+    },
+    {
+     "rank": "04",
+     "title": "度小满联合港科大等发布轩辕 4.5：首个自进化金融增强大模型",
+     "summary": "轩辕 4.5 在 2026 香港金融科技周开幕式上发布，包含大语言模型与多模态模型两部分，RSI 自进化技术用于训练与智能体场景适配；官方称核心金融场景效果提升 30%，成本约为通用模型的 10%。",
+     "url": "https://finance.sina.com.cn/jjxw/2026-11-02/doc-inixiiqz0497859.shtml",
+     "source": "新浪财经｜2026-11-02",
+     "tags": [
+      "AI 大模型"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "tech-dev",
+   "title": "AI 工程与开发工具",
+   "shortTitle": "开发工具",
+   "description": "模型部署 · AI 编程 · Agent",
+   "items": [
+    {
+     "rank": "05",
+     "title": "NVIDIA 发布 DSX OS 开源服务 Recovery：为分布式训练自动“断点续跑”",
+     "summary": "Recovery 是 DSX OS 的集群级开源服务，用应用日志、GPU 指标与调度信号检测崩溃、挂起与掉队，再做归因、隔离与检查点重启；一个生产集群 7 月 9 日至 10 月 9 日日均覆盖近 200 个任务、约 8550 次异常检测，平均检测 69 秒、恢复动作 94 秒。",
+     "url": "https://blockchain.news/news/nvidia-automated-recovery-distributed-training",
+     "source": "NVIDIA 博客（经 Blockchain.News 整理）｜2026-11-02",
+     "tags": [
+      "开发工具"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "tech-industry",
+   "title": "科技行业动态",
+   "shortTitle": "行业动态",
+   "description": "公司动态 · 产品发布 · 芯片与云",
+   "items": [
+    {
+     "rank": "06",
+     "title": "Marvell 1150 亿美元全股票收购 Lumentum，押注 AI 数据中心光互连",
+     "summary": "交易含债务的企业价值为 1150 亿美元，每股以 1132 美元股票支付，较 10 月 28 日未受影响收盘价溢价 23.9%，股权价值 1025.4 亿美元；合并后目标市场达 5500 亿美元，预计 2028 年上半年完成，Marvell 股东约持股 67%。",
+     "url": "https://www.reuters.com/legal/transactional/marvell-buy-lumentum-115-billion-deal-ai-data-center-bet-2026-11-02/",
+     "source": "Reuters｜2026-11-02",
+     "tags": [
+      "行业动态"
+     ]
+    },
+    {
+     "rank": "07",
+     "title": "苹果 2026 财年 Q4：营收 1145 亿美元创 9 月季度纪录",
+     "summary": "季度营收 1145 亿美元，同比增长 12%，每股收益 2.10 美元，同比增长 14%，毛利率 47.9%（含关税退款约 1 个百分点的有利影响）；iPhone 创 9 月季度纪录、服务收入创历史新高，全年营收 4790 亿美元。",
+     "url": "https://www.apple.com/ca/newsroom/2026/11/apple-reports-fourth-quarter-results/",
+     "source": "Apple 官方新闻稿｜2026-11-02",
+     "tags": [
+      "行业动态"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "github-hot",
+   "title": "GitHub 今日热门",
+   "shortTitle": "GitHub 热榜",
+   "description": "综合热度、活跃度与实用价值排序",
+   "items": [
+    {
+     "rank": "01",
+     "title": "vercel-labs/agent-desktop",
+     "summary": "解决了\"agent 只能看文字、摸不到桌面应用\"的问题；单日 +3,791 全场第一且较昨日明显提速，是今日确定性最强的趋势；适合做 agent 工具链与自动化的开发者，值得跟进其接口设计。",
+     "url": "https://github.com/vercel-labs/agent-desktop",
+     "tags": [
+      "强烈推荐"
+     ],
+     "featured": true
+    },
+    {
+     "rank": "02",
+     "title": "pingdotgg/t3code",
+     "summary": "Agent harness 的\"遥控器\"：用手机、网页或桌面端随时操控本机上跑着的 coding agent。 iOS / Android / Web / Electron 全端覆盖，统一控制 Claude Code、Codex、Cursor、Grok Build、OpenCode、Antigravity 等 agent，官方宣称不卖任何东西、完全开源可 fork。",
+     "url": "https://github.com/pingdotgg/t3code",
+     "tags": [
+      "强烈推荐"
+     ]
+    },
+    {
+     "rank": "03",
+     "title": "D4Vinci/Scrapling",
+     "summary": "全能型 Python 爬虫框架：从单次请求到大规模爬取，一套工具覆盖抓取全流程。 单请求与全量爬取统一接口、面向大规模抓取场景设计、配套教程与社区支持，适合从脚本到生产级爬虫的各种需求。",
+     "url": "https://github.com/D4Vinci/Scrapling",
+     "tags": [
+      "值得关注"
+     ]
+    },
+    {
+     "rank": "04",
+     "title": "thedotmack/claude-mem",
+     "summary": "给 agent 的跨会话持久记忆：记录每轮会话做了什么，用 AI 压缩后在未来会话中注入相关上下文。 会话行为自动捕获、AI 压缩摘要、按需注入历史上下文，支持 Claude Code、Codex、Gemini、Copilot、OpenCode 等多平台。",
+     "url": "https://github.com/thedotmack/claude-mem",
+     "tags": [
+      "强烈推荐"
+     ]
+    },
+    {
+     "rank": "05",
+     "title": "Donchitos/Claude-Code-Game-Studios",
+     "summary": "把 Claude Code 变成完整游戏开发工作室：49 个 AI agent、72 个工作流 skill，复刻真实工作室层级协作。 多 agent 分工协作、72 个游戏开发工作流 skill、按真实工作室层级组织，面向\"用 agent 做游戏\"的完整流程。",
+     "url": "https://github.com/Donchitos/Claude-Code-Game-Studios",
+     "tags": [
+      "值得关注"
+     ]
+    },
+    {
+     "rank": "06",
+     "title": "mattpocock/skills",
+     "summary": "\"给真正做工程的人\"的 agent skill 合集：作者日常真实工程中用的 skill，主打拒绝 vibe coding、回归扎实开发流程。 覆盖真实应用开发全流程的 skill 集合，作者自述区别于 GSD、BMAD、Spec-Kit 这类\"接管流程\"的方法论，强调在流程中保留工程师主导权。",
+     "url": "https://github.com/mattpocock/skills",
+     "tags": [
+      "值得关注"
+     ]
+    },
+    {
+     "rank": "07",
+     "title": "JustVugg/colibri",
+     "summary": "纯 C、零依赖的微型 MoE 推理引擎：把专家权重存在磁盘上、按需流式读入，让普通硬件也能跑前沿大模型。 纯 C 实现零依赖、热专家放 GPU、温专家放内存、冷专家从 NVMe 流式加载的分层推理，面向\"用已有硬件跑大模型\"的场景。",
+     "url": "https://github.com/JustVugg/colibri",
+     "tags": [
+      "值得关注"
+     ]
+    },
+    {
+     "rank": "08",
+     "title": "floci-io/floci",
+     "summary": "免费开源的 AWS 本地模拟器替代品：一条 `docker compose up` 就能在本机跑起\"任意云\"，无需账号、无需 token、无功能门。 本地模拟 AWS 服务、Docker 一键启动、主打\"轻、免费、无门槛\"，面向云上应用的本地开发与测试场景。",
+     "url": "https://github.com/floci-io/floci",
+     "tags": [
+      "值得关注"
+     ]
+    },
+    {
+     "rank": "09",
+     "title": "max-sixty/worktrunk",
+     "summary": "为并行 agent 工作流设计的 Git worktree 管理 CLI：让多个 agent 各自在独立 worktree 里干活、互不干扰。 简化 worktree 创建与切换、面向\"多个 agent 并行开发同一仓库\"场景设计、Rust 实现、MIT / Apache 双协议。",
+     "url": "https://github.com/max-sixty/worktrunk",
+     "tags": [
+      "值得关注"
+     ]
+    },
+    {
+     "rank": "10",
+     "title": "pbakaus/impeccable",
+     "summary": "给 coding agent 的设计词汇表，让 AI 生成的界面不再是千篇一律的\"AI 味\"页面。 用 `polish` / `bolder` 引导生成方向，用 `critique` / `audit` 做设计评审，安装后在 Claude Code、Cursor、Codex 等二十余种工具中直接调用。",
+     "url": "https://github.com/pbakaus/impeccable",
+     "tags": [
+      "强烈推荐"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "github-rising",
+   "title": "Star 增长最快",
+   "shortTitle": "增长最快",
+   "description": "按实际 Star 增量排序",
+   "items": [
+    {
+     "rank": "01",
+     "title": "pingdotgg/t3code",
+     "summary": "较昨日（+9,770）再加速并反超 impeccable 登顶周榜：手机遥控 agent 正在出圈。",
+     "url": "https://github.com/pingdotgg/t3code",
+     "stars": "44.4k",
+     "trend": "+12,542",
+     "tags": [
+      "高增长"
+     ]
+    },
+    {
+     "rank": "02",
+     "title": "pbakaus/impeccable",
+     "summary": "较昨日（+11,754）小幅回落，让出榜首但已站稳 10 万 star 之上。",
+     "url": "https://github.com/pbakaus/impeccable",
+     "stars": "101.5k",
+     "trend": "+11,405",
+     "tags": [
+      "高增长"
+     ]
+    },
+    {
+     "rank": "03",
+     "title": "Nutlope/hallmark",
+     "summary": "较昨日（+10,517）继续回落，双雄格局未变，但增速曲线已进入降温通道。",
+     "url": "https://github.com/Nutlope/hallmark",
+     "stars": "47.0k",
+     "trend": "+8,765",
+     "tags": [
+      "高增长"
+     ]
+    },
+    {
+     "rank": "04",
+     "title": "cloudflare/security-audit-skill",
+     "summary": "较昨日（+9,155）继续小幅回落，仍稳居周榜前四。",
+     "url": "https://github.com/cloudflare/security-audit-skill",
+     "stars": "58.2k",
+     "trend": "+8,598",
+     "tags": [
+      "高增长"
+     ]
+    },
+    {
+     "rank": "05",
+     "title": "thedotmack/claude-mem",
+     "summary": "较昨日（+7,255）继续加速，日榜周榜双榜齐进。",
+     "url": "https://github.com/thedotmack/claude-mem",
+     "stars": "111.9k",
+     "trend": "+7,995",
+     "tags": [
+      "高增长"
+     ]
+    },
+    {
+     "rank": "06",
+     "title": "affaan-m/ECC",
+     "summary": "较昨日（+6,201）基本持平，自称\"agent harness 性能优化系统\"，覆盖 Claude Code、Codex、Opencode、Cursor 等平台。",
+     "url": "https://github.com/affaan-m/ECC",
+     "stars": "296.6k",
+     "trend": "+6,053",
+     "tags": [
+      "高增长"
+     ]
+    },
+    {
+     "rank": "07",
+     "title": "obra/superpowers",
+     "summary": "较昨日（+5,956）继续升温，31 万 star 的方法论巨无霸仍在扩大领先。",
+     "url": "https://github.com/obra/superpowers",
+     "stars": "311.9k",
+     "trend": "+5,994",
+     "tags": [
+      "高增长"
+     ]
+    },
+    {
+     "rank": "08",
+     "title": "multica-ai/andrej-karpathy-skills",
+     "summary": "首次进入本报告周榜前列：把 Karpathy 对 LLM 编程陷阱的观察浓缩成一份 CLAUDE.md，方法论类 skill 仍在被大规模收藏。",
+     "url": "https://github.com/multica-ai/andrej-karpathy-skills",
+     "stars": "229.1k",
+     "trend": "+3,921",
+     "tags": [
+      "高增长"
+     ]
+    },
+    {
+     "rank": "09",
+     "title": "JetBrains/thinkrail",
+     "summary": "较昨日（+4,812）回落，但仍在周榜前十：JetBrains 的轻量 vibe coding IDE 正在被认真对待。",
+     "url": "https://github.com/JetBrains/thinkrail",
+     "stars": "7.4k",
+     "trend": "+3,898",
+     "tags": [
+      "高增长"
+     ]
+    },
+    {
+     "rank": "10",
+     "title": "AgriciDaniel/claude-seo",
+     "summary": "首次进入本报告周榜前列：26 个子 skill + 19 个子 agent 的 SEO 全家桶，skill 赛道正在向垂直业务领域扩散。",
+     "url": "https://github.com/AgriciDaniel/claude-seo",
+     "stars": "26.3k",
+     "trend": "+3,751",
+     "tags": [
+      "高增长"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "github-new",
+   "title": "值得关注的新项目",
+   "shortTitle": "新项目",
+   "description": "近期创建、增长迅速的有潜力项目",
+   "items": [
+    {
+     "rank": "01",
+     "title": "storytold/craft-anything",
+     "summary": "ArtCraft 系列新作：帮你\"看懂任意软件如何工作，再自己动手做一个\"的工具。 延续 wordcraft / cadcraft / gridcraft / solidcraft 的纯 Rust 干净重实现路线，README 提供中英日韩多语言版本，定位在\"理解软件\"与\"动手复刻\"之间。",
+     "url": "https://github.com/storytold/craft-anything",
+     "tags": [
+      "值得关注"
+     ]
+    },
+    {
+     "rank": "02",
+     "title": "ccch1mneyyy/dsh-Go",
+     "summary": "把 DeepSeek Harness 装进口袋的 Android 客户端：手机上直接跑，也能遥控电脑上的 DSH。 Android 8+ 可用的手机端 Harness、手机本机运行与遥控电脑双模式、中文 README，瞄准\"agent 不只坐在桌前\"的场景。",
+     "url": "https://github.com/ccch1mneyyy/dsh-Go",
+     "tags": [
+      "值得关注"
+     ]
+    },
+    {
+     "rank": "03",
+     "title": "deepseek-ai/dsh-superagent-prototype",
+     "summary": "DeepSeek 刚开源的常驻式主动 coding agent 研究原型：监听 GitHub 与飞书，有人提需求就自己开工单、干活、提 PR 回复。 监听 GitHub / 飞书消息触发任务、每个任务独立 agent 会话与工作目录、Web 面板展示待人工处理事项，配套《探索 Super-agent 设计》文章思路。",
+     "url": "https://github.com/deepseek-ai/dsh-superagent-prototype",
+     "tags": [
+      "值得关注"
+     ]
+    },
+    {
+     "rank": "04",
+     "title": "heydamir/unslop",
+     "summary": "给 Claude Code 与 Codex 的\"去 AI 味\"skill：先找出紫色渐变、发光、emoji 标签等\"slop\"特征，再像设计师红线评审一样逐屏修复。 AI 味特征识别、按产品方向定设计基调、逐屏多轮修复流程，覆盖 Next.js、React 等常见技术栈。",
+     "url": "https://github.com/heydamir/unslop",
+     "tags": [
+      "值得关注"
+     ]
+    }
+   ]
+  }
+ ],
+ "_pipelines": {
+  "github": {
+   "digest": [
+    {
+     "title": "agent 的\"手\"与",
+     "text": "agent 的\"手\"与\"遥控器\"同时加速：agent-desktop 单日 +3,791 领跑日榜且较昨日 +2,275 明显提速，t3code 则以周增 +12,542 反超 impeccable 登顶周榜，computer use 与移动遥控两条控制面主线齐头并进。"
+    },
+    {
+     "title": "设计 skill 双雄进",
+     "text": "设计 skill 双雄进入降温通道但仍居周榜前三：impeccable 周增 +11,405、hallmark +8,765，skill 赛道则继续向外扩散——SEO、Karpathy 方法论、实战工程 skill 纷纷上榜。"
+    },
+    {
+     "title": "agent 随身化\"成",
+     "text": "\"agent 随身化\"成为新项目主线：DeepSeek 常驻 agent 原型四天冲到 16,712 star，配套的手机端 dsh-Go 与 ArtCraft 新作 craft-anything 同日冒头，agent 正在从桌面走向口袋。"
+    }
+   ],
+   "highlight": "agent 的\"手\"与\"遥控器\"同时加速：agent-desktop 单日 +3,791 领跑日榜且较昨日 +2,275 明显提速，t3code 则以周增 +12,542 反超 impeccable 登顶周榜，computer use 与移动遥控两条控制面主线齐头并进。",
+   "date": "2026-11-04"
+  },
+  "tech-news": {
+   "digest": [
+    {
+     "title": "速览",
+     "text": "OpenAI 与 Anthropic 的下一代旗舰在周末同遭泄露，但两家均未官宣，11 月旗舰对决的预期升温。"
+    },
+    {
+     "title": "DeepSeek 开源自",
+     "text": "DeepSeek 开源自主编程 Agent 原型，Anthropic 则给 Claude Code 划出游戏 IP 红线：主动式 Agent 的能力与边界在同步推进。"
+    },
+    {
+     "title": "最重要的一条是 Marv",
+     "text": "最重要的一条是 Marvell 以 1150 亿美元收购 Lumentum：这是真实落地的千亿级布局，押注 AI 数据中心的光互连瓶颈；苹果 Q4 营收 1145 亿美元也创下 9 月季度纪录。"
+    }
+   ],
+   "highlight": "OpenAI 与 Anthropic 的下一代旗舰在周末同遭泄露，但两家均未官宣，11 月旗舰对决的预期升温。",
+   "date": "2026-11-03"
+  }
+ },
+ "digest": [
+  {
+   "title": "agent 的\"手\"与",
+   "text": "agent 的\"手\"与\"遥控器\"同时加速：agent-desktop 单日 +3,791 领跑日榜且较昨日 +2,275 明显提速，t3code 则以周增 +12,542 反超 impeccable 登顶周榜，computer use 与移动遥控两条控制面主线齐头并进。"
+  },
+  {
+   "title": "速览",
+   "text": "OpenAI 与 Anthropic 的下一代旗舰在周末同遭泄露，但两家均未官宣，11 月旗舰对决的预期升温。"
+  }
+ ],
+ "intro": "agent 的\"手\"与\"遥控器\"同时加速：agent-desktop 单日 +3,791 领跑日榜且较昨日 +2,275 明显提速，t3code 则以周增 +12,542 反超 impeccable 登顶周榜，computer use 与移动遥控两条控制面主线齐头并进。 OpenAI 与 Anthropic 的下一代旗舰在周末同遭泄露，但两家均未官宣，11 月旗舰对决的预期升温。",
+ "tasks": [
+  {
+   "icon": "GH",
+   "name": "GitHub 开源情报",
+   "detail": "Trending · Star 增速 · 新项目",
+   "time": "08:30"
+  },
+  {
+   "icon": "NW",
+   "name": "科技新闻日报",
+   "detail": "新闻聚合 · 中文简报",
+   "time": "09:00"
+  }
+ ],
+ "date": "2026-11-04",
+ "issue": "035",
+ "updatedAt": "00:33 更新"
+}
