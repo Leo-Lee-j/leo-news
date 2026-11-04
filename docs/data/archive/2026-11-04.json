@@ -1,100 +1,6 @@
 {
  "sections": [
   {
-   "id": "tech-ai",
-   "title": "AI 与大模型",
-   "shortTitle": "AI 大模型",
-   "description": "大模型发布与更新",
-   "items": [
-    {
-     "rank": "01",
-     "title": "OpenAI 与 Anthropic 下一代旗舰周末同遭泄露，GPT-6.2 Astra 与 Claude 5.5 传闻升温（未经证实）",
-     "summary": "Codex 后端出现 gpt-6.2-astra 的使用痕迹，Anthropic 官网源码中则出现 Claude Mythos 5.5 与 Fable 5.5，其中 Fable 传支持 100 万上下文。两家公司均未正式官宣，发布时间仍是推测。",
-     "url": "https://www.chaincatcher.com/en/article/2300866",
-     "source": "ChainCatcher｜2026-11-01～11-02",
-     "tags": [
-      "AI 大模型"
-     ]
-    },
-    {
-     "rank": "02",
-     "title": "DeepSeek 发布开源自主编程 Agent“Super-agent”原型，瞄准 Claude Code",
-     "summary": "DeepSeek Harness 团队在微信帖中发布开源原型 Super-agent，可主动监听开发者群聊中的编码反馈，未被召唤也可提出修复建议；官方目标是“尽量少占用人力、尽量多给价值”，GitHub 上附有用户手册。",
-     "url": "https://www.business-standard.com/technology/tech-news/deepseek-drops-enhanced-coding-agent-with-aim-to-rival-anthropic-126110100865_1.html",
-     "source": "Business Standard（援引 Bloomberg）｜2026-11-01",
-     "tags": [
-      "AI 大模型"
-     ]
-    },
-    {
-     "rank": "03",
-     "title": "Anthropic 收紧 Claude Code：不再复刻特定已有游戏",
-     "summary": "Anthropic 在 Claude Code 系统提示中新增两句：鼓励原创游戏、同类型作品与用户自有素材，但不得复刻某一特定已有游戏，即使改名或自称原创也不行；工程师 Addy Osmani 公开确认了这一改动。",
-     "url": "https://automater.ai/news/anthropic-claude-code-game-clone-limits/",
-     "source": "The Verge（经 Automater 整理）｜2026-11-02",
-     "tags": [
-      "AI 大模型"
-     ]
-    },
-    {
-     "rank": "04",
-     "title": "度小满联合港科大等发布轩辕 4.5：首个自进化金融增强大模型",
-     "summary": "轩辕 4.5 在 2026 香港金融科技周开幕式上发布，包含大语言模型与多模态模型两部分，RSI 自进化技术用于训练与智能体场景适配；官方称核心金融场景效果提升 30%，成本约为通用模型的 10%。",
-     "url": "https://finance.sina.com.cn/jjxw/2026-11-02/doc-inixiiqz0497859.shtml",
-     "source": "新浪财经｜2026-11-02",
-     "tags": [
-      "AI 大模型"
-     ]
-    }
-   ]
-  },
-  {
-   "id": "tech-dev",
-   "title": "AI 工程与开发工具",
-   "shortTitle": "开发工具",
-   "description": "模型部署 · AI 编程 · Agent",
-   "items": [
-    {
-     "rank": "05",
-     "title": "NVIDIA 发布 DSX OS 开源服务 Recovery：为分布式训练自动“断点续跑”",
-     "summary": "Recovery 是 DSX OS 的集群级开源服务，用应用日志、GPU 指标与调度信号检测崩溃、挂起与掉队，再做归因、隔离与检查点重启；一个生产集群 7 月 9 日至 10 月 9 日日均覆盖近 200 个任务、约 8550 次异常检测，平均检测 69 秒、恢复动作 94 秒。",
-     "url": "https://blockchain.news/news/nvidia-automated-recovery-distributed-training",
-     "source": "NVIDIA 博客（经 Blockchain.News 整理）｜2026-11-02",
-     "tags": [
-      "开发工具"
-     ]
-    }
-   ]
-  },
-  {
-   "id": "tech-industry",
-   "title": "科技行业动态",
-   "shortTitle": "行业动态",
-   "description": "公司动态 · 产品发布 · 芯片与云",
-   "items": [
-    {
-     "rank": "06",
-     "title": "Marvell 1150 亿美元全股票收购 Lumentum，押注 AI 数据中心光互连",
-     "summary": "交易含债务的企业价值为 1150 亿美元，每股以 1132 美元股票支付，较 10 月 28 日未受影响收盘价溢价 23.9%，股权价值 1025.4 亿美元；合并后目标市场达 5500 亿美元，预计 2028 年上半年完成，Marvell 股东约持股 67%。",
-     "url": "https://www.reuters.com/legal/transactional/marvell-buy-lumentum-115-billion-deal-ai-data-center-bet-2026-11-02/",
-     "source": "Reuters｜2026-11-02",
-     "tags": [
-      "行业动态"
-     ]
-    },
-    {
-     "rank": "07",
-     "title": "苹果 2026 财年 Q4：营收 1145 亿美元创 9 月季度纪录",
-     "summary": "季度营收 1145 亿美元，同比增长 12%，每股收益 2.10 美元，同比增长 14%，毛利率 47.9%（含关税退款约 1 个百分点的有利影响）；iPhone 创 9 月季度纪录、服务收入创历史新高，全年营收 4790 亿美元。",
-     "url": "https://www.apple.com/ca/newsroom/2026/11/apple-reports-fourth-quarter-results/",
-     "source": "Apple 官方新闻稿｜2026-11-02",
-     "tags": [
-      "行业动态"
-     ]
-    }
-   ]
-  },
-  {
    "id": "github-hot",
    "title": "GitHub 今日热门",
    "shortTitle": "GitHub 热榜",
@@ -354,6 +260,100 @@
      ]
     }
    ]
+  },
+  {
+   "id": "tech-ai",
+   "title": "AI 与大模型",
+   "shortTitle": "AI 大模型",
+   "description": "大模型发布与更新",
+   "items": [
+    {
+     "rank": "01",
+     "title": "SemiAnalysis 发布 GDPx 基准：最强模型仅完成 12% 的高价值职业任务，金融与法律任务全军覆没",
+     "summary": "GDPx 由 206 个长任务、11 个专业领域（芯片设计、网络安全、生物、金融、法律、量化交易等）组成，默认单任务限时 8 小时，模型在其原生工具链（Claude Code、Codex、Antigravity）中运行。Anthropic Claude Opus 5.5 以 12.0% 居首，Google Gemini 4 Carbon 10.9%、OpenAI GPT-6 Astra 9.6%；二元评分下所有模型在金融和法律任务上均为",
+     "url": "https://dealroom.co/news/168814-semianalysis-launches-gdpx-the-best-ai-agent-completes-just-12-of-its-hi/",
+     "source": "Dealroom / SemiAnalysis｜2026-11-02",
+     "tags": [
+      "AI 大模型"
+     ]
+    },
+    {
+     "rank": "02",
+     "title": "美团 LongCat-2.5 正式上线：1.6T 参数原生多模态模型，主攻长程编程 Agent",
+     "summary": "LongCat-2.5 总参数 1.6T、每 token 激活约 48B，原生支持图文视频输入，上下文约 100 万 token，面向终端、浏览器、GUI 等长流程 Agent 任务；限时优惠价为输入 0.30 美元、输出 1.20 美元/百万 token。模型权重暂未上线 Hugging Face，目前仅 API 与聊天入口可用。",
+     "url": "https://www.thedevdrift.com/blog/meituan-longcat-2-5-multimodal-coding-agent-model-api",
+     "source": "LongCat API 更新日志 / 多家媒体｜2026-11-02",
+     "tags": [
+      "AI 大模型"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "tech-dev",
+   "title": "AI 工程与开发工具",
+   "shortTitle": "开发工具",
+   "description": "模型部署 · AI 编程 · Agent",
+   "items": [
+    {
+     "rank": "03",
+     "title": "DeepSeek 上线 Creator Mode：用自然语言为 Agent 现场造插件",
+     "summary": "Creator Mode 允许开发者用 plain English 描述需求，直接生成可扩展 DeepSeek Agent 能力的自定义插件，官方演示覆盖 3D 渲染、视频编辑等专业工作流；该功能构建于 DeepSeek Harness 基础设施之上，紧随 11 月 1 日开源的 Super-agent 原型之后推出。",
+     "url": "https://emergent.sh/news/deepseek-creator-mode-launches-build-ai",
+     "source": "Emergent.sh / DeepSeek Harness 团队｜2026-11-02",
+     "tags": [
+      "开发工具"
+     ]
+    },
+    {
+     "rank": "04",
+     "title": "Perplexity 开源 pplx-embed-v2-context：9B 与 0.6B 两档上下文感知嵌入模型",
+     "summary": "新模型族在生成文档片段向量时保留整篇文档的 wider context，面向文本、图像与视觉文档的检索与 RAG 系统；9B 版面向高性能检索，0.6B 版面向轻量部署，权重已上架 Perplexity 的 Hugging Face 组织主页，并附与 turbopuffer 合作的研究论文。",
+     "url": "https://lapaasvoice.com/perplexity-releases-open-weight-pplx-embed-v2-context-ai-models-in-9b-and-0-6b-sizes/",
+     "source": "LapaasVoice｜2026-11-03",
+     "tags": [
+      "开发工具"
+     ]
+    },
+    {
+     "rank": "05",
+     "title": "Deep Principle 开源 Hydrogen-1.0：基于 GLM-5.3 后训练的科学领域模型，MIT 协议",
+     "summary": "该模型由 Z.ai 的 GLM-5.3 经 Deep Principle 自有实验室数据后训练而来，面向化学、材料与生命科学，权重在 Hugging Face 与 ModelScope 开放（约 753B 参数规模，需 8 卡运行）。开发者自报 FrontierScience-Research 达 38.3%（GPT-6 Astra 为 33.3%）、GPQA Diamond 93.0%，尚未经独立验证。",
+     "url": "https://neuralbrew.ai/en/articles/2026/11/deep-principle-hydrogen-scientific-model-open-weights/",
+     "source": "NeuralBrew｜2026-11-02",
+     "tags": [
+      "开发工具"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "tech-industry",
+   "title": "科技行业动态",
+   "shortTitle": "行业动态",
+   "description": "公司动态 · 产品发布 · 芯片与云",
+   "items": [
+    {
+     "rank": "06",
+     "title": "谷歌把学校 AI 默认关闭，却让关掉 AI 的学校同时失去搜索",
+     "summary": "谷歌宣布学校管理的 K-12 学生账号默认关闭 Gemini、Gemini Notebook、Gemini in Classroom 等 AI 服务，须管理员手动开启；但保持关闭的学校将同时失去这些账号的 Google Search 访问权，谷歌称搜索已与 AI 深度集成；Guided Learning 功能将在未来几个月内进入搜索。",
+     "url": "https://appleinsider.com/articles/26/11/03/if-schools-turn-off-googles-ai-search-dies-with-it",
+     "source": "AppleInsider｜2026-11-03",
+     "tags": [
+      "行业动态"
+     ]
+    },
+    {
+     "rank": "07",
+     "title": "苹果 iOS 27.3 开发者预览上线：Siri AI 向第三方应用全面开放",
+     "summary": "随 11 月 3 日发布的 iOS 27.3 开发者预览，第三方开发者可把 Siri AI 能力接入自家应用，语音助手可访问用户个人上下文、理解自然语言请求并利用屏幕感知执行操作；新增“app skills”功能，允许把多个任务打包成一条语音指令；苹果自家日历、邮件、地图等应用同步获得扩展能力。",
+     "url": "https://rocketnews.com/2026/11/apple-starts-giving-siri-ai-access-to-third-party-apps/",
+     "source": "RocketNews｜2026-11-03",
+     "tags": [
+      "行业动态"
+     ]
+    }
+   ]
   }
  ],
  "_pipelines": {
@@ -378,20 +378,20 @@
   "tech-news": {
    "digest": [
     {
-     "title": "速览",
-     "text": "OpenAI 与 Anthropic 的下一代旗舰在周末同遭泄露，但两家均未官宣，11 月旗舰对决的预期升温。"
+     "title": "最值得关注的是 Semi",
+     "text": "最值得关注的是 SemiAnalysis 发布的 GDPx 基准：最强模型也只能完成 12% 的真实职业长任务，给 Agent 热潮泼了一盆冷水。"
     },
     {
-     "title": "DeepSeek 开源自",
-     "text": "DeepSeek 开源自主编程 Agent 原型，Anthropic 则给 Claude Code 划出游戏 IP 红线：主动式 Agent 的能力与边界在同步推进。"
+     "title": "美团 LongCat-2",
+     "text": "美团 LongCat-2.5 正式上线：1.6T 参数原生多模态模型，主攻长程编程 Agent，限时价低至 0.3 美元/百万输入 token。"
     },
     {
-     "title": "最重要的一条是 Marv",
-     "text": "最重要的一条是 Marvell 以 1150 亿美元收购 Lumentum：这是真实落地的千亿级布局，押注 AI 数据中心的光互连瓶颈；苹果 Q4 营收 1145 亿美元也创下 9 月季度纪录。"
+     "title": "11 月 3 日行业侧两",
+     "text": "11 月 3 日行业侧两件事：谷歌把学校 AI 默认关闭却捆绑搜索、苹果 iOS 27.3 开发者预览把 Siri AI 开放给第三方应用。"
     }
    ],
-   "highlight": "OpenAI 与 Anthropic 的下一代旗舰在周末同遭泄露，但两家均未官宣，11 月旗舰对决的预期升温。",
-   "date": "2026-11-03"
+   "highlight": "最值得关注的是 SemiAnalysis 发布的 GDPx 基准：最强模型也只能完成 12% 的真实职业长任务，给 Agent 热潮泼了一盆冷水。",
+   "date": "2026-11-04"
   }
  },
  "digest": [
@@ -400,11 +400,11 @@
    "text": "agent 的\"手\"与\"遥控器\"同时加速：agent-desktop 单日 +3,791 领跑日榜且较昨日 +2,275 明显提速，t3code 则以周增 +12,542 反超 impeccable 登顶周榜，computer use 与移动遥控两条控制面主线齐头并进。"
   },
   {
-   "title": "速览",
-   "text": "OpenAI 与 Anthropic 的下一代旗舰在周末同遭泄露，但两家均未官宣，11 月旗舰对决的预期升温。"
+   "title": "最值得关注的是 Semi",
+   "text": "最值得关注的是 SemiAnalysis 发布的 GDPx 基准：最强模型也只能完成 12% 的真实职业长任务，给 Agent 热潮泼了一盆冷水。"
   }
  ],
- "intro": "agent 的\"手\"与\"遥控器\"同时加速：agent-desktop 单日 +3,791 领跑日榜且较昨日 +2,275 明显提速，t3code 则以周增 +12,542 反超 impeccable 登顶周榜，computer use 与移动遥控两条控制面主线齐头并进。 OpenAI 与 Anthropic 的下一代旗舰在周末同遭泄露，但两家均未官宣，11 月旗舰对决的预期升温。",
+ "intro": "agent 的\"手\"与\"遥控器\"同时加速：agent-desktop 单日 +3,791 领跑日榜且较昨日 +2,275 明显提速，t3code 则以周增 +12,542 反超 impeccable 登顶周榜，computer use 与移动遥控两条控制面主线齐头并进。 最值得关注的是 SemiAnalysis 发布的 GDPx 基准：最强模型也只能完成 12% 的真实职业长任务，给 Agent 热潮泼了一盆冷水。",
  "tasks": [
   {
    "icon": "GH",
@@ -421,5 +421,5 @@
  ],
  "date": "2026-11-04",
  "issue": "035",
- "updatedAt": "00:33 更新"
+ "updatedAt": "01:00 更新"
 }
