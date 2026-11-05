@@ -1,100 +1,6 @@
 {
  "sections": [
   {
-   "id": "tech-ai",
-   "title": "AI 与大模型",
-   "shortTitle": "AI 大模型",
-   "description": "大模型发布与更新",
-   "items": [
-    {
-     "rank": "01",
-     "title": "SemiAnalysis 发布 GDPx 基准：最强模型仅完成 12% 的高价值职业任务，金融与法律任务全军覆没",
-     "summary": "GDPx 由 206 个长任务、11 个专业领域（芯片设计、网络安全、生物、金融、法律、量化交易等）组成，默认单任务限时 8 小时，模型在其原生工具链（Claude Code、Codex、Antigravity）中运行。Anthropic Claude Opus 5.5 以 12.0% 居首，Google Gemini 4 Carbon 10.9%、OpenAI GPT-6 Astra 9.6%；二元评分下所有模型在金融和法律任务上均为",
-     "url": "https://dealroom.co/news/168814-semianalysis-launches-gdpx-the-best-ai-agent-completes-just-12-of-its-hi/",
-     "source": "Dealroom / SemiAnalysis｜2026-11-02",
-     "tags": [
-      "AI 大模型"
-     ]
-    },
-    {
-     "rank": "02",
-     "title": "美团 LongCat-2.5 正式上线：1.6T 参数原生多模态模型，主攻长程编程 Agent",
-     "summary": "LongCat-2.5 总参数 1.6T、每 token 激活约 48B，原生支持图文视频输入，上下文约 100 万 token，面向终端、浏览器、GUI 等长流程 Agent 任务；限时优惠价为输入 0.30 美元、输出 1.20 美元/百万 token。模型权重暂未上线 Hugging Face，目前仅 API 与聊天入口可用。",
-     "url": "https://www.thedevdrift.com/blog/meituan-longcat-2-5-multimodal-coding-agent-model-api",
-     "source": "LongCat API 更新日志 / 多家媒体｜2026-11-02",
-     "tags": [
-      "AI 大模型"
-     ]
-    }
-   ]
-  },
-  {
-   "id": "tech-dev",
-   "title": "AI 工程与开发工具",
-   "shortTitle": "开发工具",
-   "description": "模型部署 · AI 编程 · Agent",
-   "items": [
-    {
-     "rank": "03",
-     "title": "DeepSeek 上线 Creator Mode：用自然语言为 Agent 现场造插件",
-     "summary": "Creator Mode 允许开发者用 plain English 描述需求，直接生成可扩展 DeepSeek Agent 能力的自定义插件，官方演示覆盖 3D 渲染、视频编辑等专业工作流；该功能构建于 DeepSeek Harness 基础设施之上，紧随 11 月 1 日开源的 Super-agent 原型之后推出。",
-     "url": "https://emergent.sh/news/deepseek-creator-mode-launches-build-ai",
-     "source": "Emergent.sh / DeepSeek Harness 团队｜2026-11-02",
-     "tags": [
-      "开发工具"
-     ]
-    },
-    {
-     "rank": "04",
-     "title": "Perplexity 开源 pplx-embed-v2-context：9B 与 0.6B 两档上下文感知嵌入模型",
-     "summary": "新模型族在生成文档片段向量时保留整篇文档的 wider context，面向文本、图像与视觉文档的检索与 RAG 系统；9B 版面向高性能检索，0.6B 版面向轻量部署，权重已上架 Perplexity 的 Hugging Face 组织主页，并附与 turbopuffer 合作的研究论文。",
-     "url": "https://lapaasvoice.com/perplexity-releases-open-weight-pplx-embed-v2-context-ai-models-in-9b-and-0-6b-sizes/",
-     "source": "LapaasVoice｜2026-11-03",
-     "tags": [
-      "开发工具"
-     ]
-    },
-    {
-     "rank": "05",
-     "title": "Deep Principle 开源 Hydrogen-1.0：基于 GLM-5.3 后训练的科学领域模型，MIT 协议",
-     "summary": "该模型由 Z.ai 的 GLM-5.3 经 Deep Principle 自有实验室数据后训练而来，面向化学、材料与生命科学，权重在 Hugging Face 与 ModelScope 开放（约 753B 参数规模，需 8 卡运行）。开发者自报 FrontierScience-Research 达 38.3%（GPT-6 Astra 为 33.3%）、GPQA Diamond 93.0%，尚未经独立验证。",
-     "url": "https://neuralbrew.ai/en/articles/2026/11/deep-principle-hydrogen-scientific-model-open-weights/",
-     "source": "NeuralBrew｜2026-11-02",
-     "tags": [
-      "开发工具"
-     ]
-    }
-   ]
-  },
-  {
-   "id": "tech-industry",
-   "title": "科技行业动态",
-   "shortTitle": "行业动态",
-   "description": "公司动态 · 产品发布 · 芯片与云",
-   "items": [
-    {
-     "rank": "06",
-     "title": "谷歌把学校 AI 默认关闭，却让关掉 AI 的学校同时失去搜索",
-     "summary": "谷歌宣布学校管理的 K-12 学生账号默认关闭 Gemini、Gemini Notebook、Gemini in Classroom 等 AI 服务，须管理员手动开启；但保持关闭的学校将同时失去这些账号的 Google Search 访问权，谷歌称搜索已与 AI 深度集成；Guided Learning 功能将在未来几个月内进入搜索。",
-     "url": "https://appleinsider.com/articles/26/11/03/if-schools-turn-off-googles-ai-search-dies-with-it",
-     "source": "AppleInsider｜2026-11-03",
-     "tags": [
-      "行业动态"
-     ]
-    },
-    {
-     "rank": "07",
-     "title": "苹果 iOS 27.3 开发者预览上线：Siri AI 向第三方应用全面开放",
-     "summary": "随 11 月 3 日发布的 iOS 27.3 开发者预览，第三方开发者可把 Siri AI 能力接入自家应用，语音助手可访问用户个人上下文、理解自然语言请求并利用屏幕感知执行操作；新增“app skills”功能，允许把多个任务打包成一条语音指令；苹果自家日历、邮件、地图等应用同步获得扩展能力。",
-     "url": "https://rocketnews.com/2026/11/apple-starts-giving-siri-ai-access-to-third-party-apps/",
-     "source": "RocketNews｜2026-11-03",
-     "tags": [
-      "行业动态"
-     ]
-    }
-   ]
-  },
-  {
    "id": "github-hot",
    "title": "GitHub 今日热门",
    "shortTitle": "GitHub 热榜",
@@ -363,6 +269,120 @@
      ]
     }
    ]
+  },
+  {
+   "id": "tech-ai",
+   "title": "AI 与大模型",
+   "shortTitle": "AI 大模型",
+   "description": "大模型发布与更新",
+   "items": [
+    {
+     "rank": "01",
+     "title": "OpenAI 发布 Images 2.6：ChatGPT 与 Codex 一键生成 GIF，API 双模型提速 50%",
+     "summary": "Images 2.6 已在 ChatGPT 与 Codex 全量上线，覆盖免费到付费全部档位与网页、桌面、移动端； headline 功能是一步生成循环 GIF，可调播放速度与单帧编辑。API 同步推出 GPT-Image-2.6 Flare（主打速度）与 Sunburst（主打质量），生成速度比上一代快 50%，OpenAI 称周图像生成量已从 9 月的 30 亿张升至 40 亿张。",
+     "url": "https://cryptobriefing.com/openai-images-2-6-global-rollout-chatgpt-codex/",
+     "source": "Crypto Briefing｜2026-11-04",
+     "tags": [
+      "AI 大模型"
+     ]
+    },
+    {
+     "rank": "02",
+     "title": "腾讯正式发布 Hy4：770B 参数 MoE，首添视觉理解与电脑操作能力",
+     "summary": "Hy4 为 770B 参数混合专家模型，每 token 激活 49B 参数，上下文超 100 万 token，首次在 Hunyuan 系列中加入原生视觉理解与电脑操作能力；已上线腾讯云 TokenHub、WorkBuddy、CodeBuddy、元宝等产品，API 上线期 5 折至 12 月 31 日。但需注意：腾讯称权重与系统卡将在“未来几天”发布，发布当日尚不能下载。",
+     "url": "https://tech-insider.org/tencent-hy4-open-source-770b-parameters-1m-token-context-2026/",
+     "source": "Tech Insider｜2026-11-04",
+     "tags": [
+      "AI 大模型"
+     ]
+    },
+    {
+     "rank": "03",
+     "title": "传 DeepSeek 拟用华为 Ascend 芯片训练 V5（未经证实）",
+     "summary": "据《科创板日报》11 月 3 日引述匿名业内人士的报道，DeepSeek 正研究用华为 Ascend 芯片训练下一代模型 V5；此前 Ascend 在 DeepSeek 生态中主要用于推理。DeepSeek 与华为均未官方证实，时间表、芯片数量与训练管线适配细节均未披露。",
+     "url": "https://imasters.com/news/deepseek-may-train-v5-model-on-huaweis-ascend-chips-chinese-newspaper-says",
+     "source": "TechNode 转引《科创板日报》｜2026-11-04（未经证实）",
+     "tags": [
+      "AI 大模型"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "tech-dev",
+   "title": "AI 工程与开发工具",
+   "shortTitle": "开发工具",
+   "description": "模型部署 · AI 编程 · Agent",
+   "items": [
+    {
+     "rank": "01",
+     "title": "Anthropic 上线 Claude message threads 公开测试：长会话首 token 延迟降约 35%",
+     "summary": "Claude API 的 message threads 进入公开测试：Agent 只需把会话发给 Claude 一次，后续每轮只传新增消息，不再重传全部历史与工具记录。Anthropic 称在 50 万～100 万 token 的超长请求上，首 token 中位延迟下降约 35%；Claude Code 多数用户已默认开启。价格与限速不变——因为 Claude 每轮仍会完整读取会话，token 用量并不减少；每个 thread 在最后",
+     "url": "https://unicornapi.net/blog/anthropic-claude-agents-send-only-new-messages-cut-wait-times",
+     "source": "Anthropic 公告（经 TNW 报道）｜2026-11-02",
+     "tags": [
+      "开发工具"
+     ]
+    },
+    {
+     "rank": "02",
+     "title": "Moonshot 开放 Kimi K3.1 Pro 权重：2.8T 参数 MoE，100 万上下文，附带收入门槛许可",
+     "summary": "Moonshot 如约在 Hugging Face 发布 moonshotai/Kimi-K3.1-Pro：2.8T 总参数、104B 激活参数，896 个专家（每 token 选 16 个），1,048,576 token 上下文，MXFP4 量化权重，推荐用 vLLM、SGLang、TokenSpeed 推理；API 价为 2 美元/百万输入 token、10 美元/百万输出 token。许可证为 MIT 风格但附条件：年收入超 2",
+     "url": "https://explainx.ai/blog/kimi-k3-1-pro-open-weights-benchmarks-price-terminal-bench-nov-4-2026",
+     "source": "ExplainX（援引 Moonshot 模型卡）｜2026-11-04",
+     "tags": [
+      "开发工具"
+     ]
+    },
+    {
+     "rank": "03",
+     "title": "NVIDIA 扩展开源 Agent Toolkit：把 Agent 推进工厂、药研与汽车 CAD，并用 OpenShell 沙箱兜底",
+     "summary": "NVIDIA 11 月 4 日扩展开源 Agent Toolkit，把 GTC Berlin 提出的“领域 Agent”路线落到生产场景：Agent Knowledge Foundation 与新推出的 Auto-Ontology 框架把企业结构化数据建成知识图谱，配 Kumo 系列模型做表格预测；OpenShell 开源运行时则在模型进程之外强制执行沙箱、默认拒绝出站网络与凭证隔离。标杆案例包括 Lila Sciences 的肿瘤药物",
+     "url": "https://unknownobserver.com/posts/nvidia-agent-toolkit-industrial-enterprise-workflows",
+     "source": "Unknown Observer（援引 NVIDIA 官方公告）｜2026-11-04",
+     "tags": [
+      "开发工具"
+     ]
+    },
+    {
+     "rank": "04",
+     "title": "Google Antigravity 上线 Cheminformatics Skills：Agent 可查化合物库、设计新分子",
+     "summary": "Google DeepMind 为 Antigravity 推出 Cheminformatics Skills：Agent 可用自然语言检索 PubChem、ChEMBL 等化合物数据库并提出候选新分子，确定性化学计算由 RDKit 工具链完成，面向药物研发早期环节；已向 Antigravity 企业版用户开放，另有面向科学家的高用量档免费名额（1 万名，滚动招募、需符合资格）。",
+     "url": "https://emergent.sh/news/google-antigravity-accelerates-drug-discovery",
+     "source": "Emergent（援引 Google DeepMind）｜2026-11-03",
+     "tags": [
+      "开发工具"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "tech-industry",
+   "title": "科技行业动态",
+   "shortTitle": "行业动态",
+   "description": "公司动态 · 产品发布 · 芯片与云",
+   "items": [
+    {
+     "rank": "01",
+     "title": "苹果 App Store 新规：含约会或浪漫 AI 伴侣功能的应用最低定为 18+",
+     "summary": "苹果在 App Store Connect 新增内容描述项：提供真人约会、恋爱关系功能，或提供浪漫/性互动虚拟伴侣的应用须如实申报，最低年龄分级为 18+；新问卷 11 月 16 日上线，开发者须在 2027 年 1 月 12 日前完成全部应用的申报。",
+     "url": "https://www.ndtvprofit.com/technology/apple-s-new-app-store-rule-explained-why-dating-and-ai-companion-apps-are-now-18-12281306/amp/1",
+     "source": "NDTV Profit（援引苹果开发者公告）｜2026-11-04",
+     "tags": [
+      "行业动态"
+     ]
+    },
+    {
+     "rank": "02",
+     "title": "NVIDIA 与思科合作 USFP：面向下一代 AI 工厂的 400Gb/s 每通道光模块",
+     "summary": "NVIDIA 与思科宣布合作开发 USFP（超密集小尺寸可插拔）光模块，单通道速率从 200Gb/s 提升至 400Gb/s，面向下一代 AI 工厂的以太网 Fabric；TE Connectivity 与安费诺参与 cage、连接器与模块建设，双方计划通过社区主导的多源项目制定开放行业规范。",
+     "url": "https://www.albawaba.com/business/pr/cisco-and-nvidia-collaborate-advance-1640609?overridden_route_name=entity.node.canonical&base_route_name=entity.node.canonical&page_manager_page=node_view&page_manager_page_variant=node_view-panels_variant-0&page_manager_page_variant_weight=0",
+     "source": "Al Bawaba（新闻稿）｜2026-11-04",
+     "tags": [
+      "行业动态"
+     ]
+    }
+   ]
   }
  ],
  "_pipelines": {
@@ -387,20 +407,20 @@
   "tech-news": {
    "digest": [
     {
-     "title": "最值得关注的是 Semi",
-     "text": "最值得关注的是 SemiAnalysis 发布的 GDPx 基准：最强模型也只能完成 12% 的真实职业长任务，给 Agent 热潮泼了一盆冷水。"
+     "title": "速览",
+     "text": "OpenAI 发布 Images 2.6，图像生成从静态走向一键 GIF 动画，API 双模型提速 50%。"
     },
     {
-     "title": "美团 LongCat-2",
-     "text": "美团 LongCat-2.5 正式上线：1.6T 参数原生多模态模型，主攻长程编程 Agent，限时价低至 0.3 美元/百万输入 token。"
+     "title": "11 月 4 日成开放权",
+     "text": "11 月 4 日成开放权重日：Moonshot 如约开放 Kimi K3.1 Pro 权重，腾讯 Hy4 正式发布但权重仍未上线。"
     },
     {
-     "title": "11 月 3 日行业侧两",
-     "text": "11 月 3 日行业侧两件事：谷歌把学校 AI 默认关闭却捆绑搜索、苹果 iOS 27.3 开发者预览把 Siri AI 开放给第三方应用。"
+     "title": "最重要的一条",
+     "text": "最重要的一条：OpenAI Images 2.6——周生成量已突破 40 亿张，图像模型正从“出图工具”变成产品内的动画与编辑基础设施。"
     }
    ],
-   "highlight": "最值得关注的是 SemiAnalysis 发布的 GDPx 基准：最强模型也只能完成 12% 的真实职业长任务，给 Agent 热潮泼了一盆冷水。",
-   "date": "2026-11-04"
+   "highlight": "OpenAI 发布 Images 2.6，图像生成从静态走向一键 GIF 动画，API 双模型提速 50%。",
+   "date": "2026-11-05"
   }
  },
  "digest": [
@@ -409,11 +429,11 @@
    "text": "agent 的\"手\"与\"脑\"同时被补课：agent-desktop 单日 +2,470 蝉联日榜第一，NVIDIA 同日以 auto-ontology（+2,050）空降日榜，computer use 的操作层与企业语义层在同一天双双爆发。"
   },
   {
-   "title": "最值得关注的是 Semi",
-   "text": "最值得关注的是 SemiAnalysis 发布的 GDPx 基准：最强模型也只能完成 12% 的真实职业长任务，给 Agent 热潮泼了一盆冷水。"
+   "title": "速览",
+   "text": "OpenAI 发布 Images 2.6，图像生成从静态走向一键 GIF 动画，API 双模型提速 50%。"
   }
  ],
- "intro": "agent 的\"手\"与\"脑\"同时被补课：agent-desktop 单日 +2,470 蝉联日榜第一，NVIDIA 同日以 auto-ontology（+2,050）空降日榜，computer use 的操作层与企业语义层在同一天双双爆发。 最值得关注的是 SemiAnalysis 发布的 GDPx 基准：最强模型也只能完成 12% 的真实职业长任务，给 Agent 热潮泼了一盆冷水。",
+ "intro": "agent 的\"手\"与\"脑\"同时被补课：agent-desktop 单日 +2,470 蝉联日榜第一，NVIDIA 同日以 auto-ontology（+2,050）空降日榜，computer use 的操作层与企业语义层在同一天双双爆发。 OpenAI 发布 Images 2.6，图像生成从静态走向一键 GIF 动画，API 双模型提速 50%。",
  "tasks": [
   {
    "icon": "GH",
@@ -430,5 +450,5 @@
  ],
  "date": "2026-11-05",
  "issue": "036",
- "updatedAt": "00:32 更新"
+ "updatedAt": "01:00 更新"
 }
