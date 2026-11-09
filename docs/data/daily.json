@@ -1,100 +1,6 @@
 {
  "sections": [
   {
-   "id": "tech-ai",
-   "title": "AI 与大模型",
-   "shortTitle": "AI 大模型",
-   "description": "大模型发布与更新",
-   "items": [
-    {
-     "rank": "01",
-     "title": "Thinking Machines 发布 Inkling 2 Small：594B MoE，权重下周 Apache 2.0 开放",
-     "summary": "Inkling 2 Small 是 Thinking Machines 第二代模型，594B 参数 MoE、每 token 激活 17B，支持图文输入与可变推理强度，上下文最长 1M tokens。Artificial Analysis Intelligence Index 得分 31，较第一代 Inkling 大幅提升。目前仅在自家 Tinker 平台提供托管推理与微调，输入 $0.30、输出 $1.00/百万 tokens；官方承诺",
-     "url": "https://cellcog.ai/blog/inkling-2-small/",
-     "source": "Thinking Machines Lab 官方发布｜2026-11-05",
-     "tags": [
-      "AI 大模型"
-     ]
-    },
-    {
-     "rank": "02",
-     "title": "Perplexity 推出 Teammates：常驻型工作 Agent，Max 订阅专享",
-     "summary": "Teammates 是 Perplexity Computer 上的常驻型 Agent：领一个持续性目标（如收件箱分流、竞品跟踪），自己规划、并行执行、多 Agent 协作，可接入 Slack 频道交接工作。新 Agent 默认使用 Claude Opus 5.5，可按任务切换模型。目前为研究预览，仅面向个人 Max 订阅用户（$200/月，年付约 $167/月），网页端先行，iOS 随后推出。",
-     "url": "https://www.digitaltrends.com/cool-tech/perplexitys-new-ai-coworkers-can-take-over-your-workload-but-they-dont-come-cheap/",
-     "source": "Perplexity 官方博客 / The Verge / Digital Trends｜2026-11-05",
-     "tags": [
-      "AI 大模型"
-     ]
-    }
-   ]
-  },
-  {
-   "id": "tech-dev",
-   "title": "AI 工程与开发工具",
-   "shortTitle": "开发工具",
-   "description": "模型部署 · AI 编程 · Agent",
-   "items": [
-    {
-     "rank": "01",
-     "title": "OpenRouter 重建 Auto Router 并推出 Auto Code：自称 Opus 5.5 级编程能力、成本低 74%",
-     "summary": "新一代 Auto Router（`openrouter/auto`）重建了路由技术栈，按 11 个因素（含实时价格、供应商健康度、缓存状态）为每次请求选模型，路由步骤 p90 从 1.96 秒降至 0.65 秒；新增编程专用路由 Auto Code（`openrouter/auto-code`），针对编码 harness 优化。官方称 Auto Code 在 5 项基准上与 Claude Opus 5.5 持平，单任务成本低约 74%（",
-     "url": "https://oprou.geek007.com/blog/announcements/auto-and-auto-code-routers/",
-     "source": "OpenRouter 官方公告｜2026-11-06",
-     "tags": [
-      "开发工具"
-     ]
-    },
-    {
-     "rank": "02",
-     "title": "Cursor 上线与编程 Agent 的实时语音通话",
-     "summary": "Cursor 2026.11.06 加入 Voice Chat with Agents：可与正在运行的编码 Agent 实时语音对话，口头描述改动、查询进度、听取更新。同一周 Cursor 还推出了 Build Live Apps（描述应用即获得数据库、认证与托管的分享链接）。同期 Claude Code 发布 v2.1.319，MCP 任务改为后台运行。",
-     "url": "https://www.fulcruminsights.io/ai-news/2026-11-07",
-     "source": "Cursor 官方 Changelog｜2026-11-06",
-     "tags": [
-      "开发工具"
-     ]
-    },
-    {
-     "rank": "03",
-     "title": "Anthropic 公开 Agent 记忆研究：离线“dreaming”整理记忆，长任务表现显著提升",
-     "summary": "Anthropic 发表《The components of agent memory》，把 Agent 记忆拆为四层（对话记录、笔记、表征、注入上下文），核心机制是“dreaming”：Agent 空闲时离线重读日志，修正错误笔记、合并重复内容、建成可导航的链接 wiki。实验数据：CL-Bench 数据库任务上 Opus 5.5 从 0.655 升至 0.838；约 35 万份内部文档的 wiki 问答中，仅用 wiki 的得分随 ",
-     "url": "https://interestingengineering.com/ai-robotics/anthropic-claude-dreaming-memory-research",
-     "source": "Anthropic 工程博客 / Interesting Engineering｜2026-11-06",
-     "tags": [
-      "开发工具"
-     ]
-    }
-   ]
-  },
-  {
-   "id": "tech-industry",
-   "title": "科技行业动态",
-   "shortTitle": "行业动态",
-   "description": "公司动态 · 产品发布 · 芯片与云",
-   "items": [
-    {
-     "rank": "01",
-     "title": "微软退出与 Oracle 的 AI 算力租赁协议：老款 NVIDIA 芯片不再满足需求",
-     "summary": "微软正逐步关闭 2023 年与 Oracle 签订的 AI 算力租赁协议，不再续约，原因是 Oracle 机房的老款 NVIDIA 芯片已无法满足微软不断演进的 AI 工作负载需求。该协议最初在 2023 年芯片短缺期签订，用于支撑 AI 版 Bing。报道称微软正在重估其向 CoreWeave、Nscale、Nebius 等外部供应商承诺的逾 800 亿美元算力租赁；Oracle 方面称其算力需求依然强劲，9 月以高于原价约 20% ",
-     "url": "https://aiagentupdate.com/post/microsoft-winds-down-oracle-rental-2026-11-07",
-     "source": "Bloomberg（11 月 6 日报道）/ 多家媒体｜2026-11-06",
-     "tags": [
-      "行业动态"
-     ]
-    },
-    {
-     "rank": "02",
-     "title": "Meta 无限期暂停强制 AI 训练条款：出版商反弹与多国监管施压",
-     "summary": "Meta 已无限期暂停其商业条款更新，该更新原要求 Meta Business 账户用户允许 Meta 爬取其 Facebook 页面链接的外部网站并用于 AI 训练，且无退出选项。Meta 发言人 10 月 28 日向路透社确认暂停，称将继续与利益相关方协商。此前巴西、挪威法院已发出初步禁令，英国竞争与市场管理局（CMA）于 10 月 30 日启动正式调查；原定 10 月 30 日生效的条款先被推迟至 11 月 20 日，现无新日期。",
-     "url": "https://www.tingatingatechnews.co.uk/article/95ff043a27dc",
-     "source": "Ars Technica｜2026-11-06",
-     "tags": [
-      "行业动态"
-     ]
-    }
-   ]
-  },
-  {
    "id": "github-hot",
    "title": "GitHub 今日热门",
    "shortTitle": "GitHub 热榜",
@@ -345,6 +251,110 @@
      ]
     }
    ]
+  },
+  {
+   "id": "tech-ai",
+   "title": "AI 与大模型",
+   "shortTitle": "AI 大模型",
+   "description": "大模型发布与更新",
+   "items": [
+    {
+     "rank": "01",
+     "title": "DeepMind AI 智能体发现 1024-bit RSA 两处弱点，2048-bit 密钥不受影响",
+     "summary": "在人类密码学家指导下，两个 AI 智能体发现已退役的 1024-bit RSA 存在两处弱点：一是 PKCS#1 v1.5 填充在攻击者可控约半数签名块时几乎失效，理论上 32 字节摘要的签名伪造可比现有最优方法快约 1600 倍；二是批量分解时每多一把同尺寸密钥的成本可降约 30 倍。实测部分是复现 9 月学术界的 1024-bit 攻击：1380 CPU 核心年压缩到 391 核心年，调试不到 4 天、仅约 20 条人类简短指令。",
+     "url": "https://www.webpronews.com/deepmind-ai-agents-legacy-1024-bit-rsa-weaknesses/",
+     "source": "Google DeepMind（Pushmeet Kohli）｜2026-11-06",
+     "tags": [
+      "AI 大模型"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "tech-dev",
+   "title": "AI 工程与开发工具",
+   "shortTitle": "开发工具",
+   "description": "模型部署 · AI 编程 · Agent",
+   "items": [
+    {
+     "rank": "02",
+     "title": "Claude Code 2.1.319：MCP 任务转入后台，无人值守运行可“拒绝而非等待”",
+     "summary": "MCP 服务器以任务形式运行的工具调用即刻转入后台，完成后通知 Claude，不再阻塞整个会话；新增 `permissions.denyInsteadOfPrompting` 设置，遇权限提示直接拒绝并继续执行，专为无人值守运行设计；LLM 网关后的自动模式收紧，无法校验的调用不再回退到内置分类器；同时修复 Bash 环境前缀权限绕过、`sed` 绕过与创建 worktree 时的沙箱逃逸，并新增 `/claude-api latenc",
+     "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.319",
+     "source": "Anthropic（GitHub Release）｜2026-11-06",
+     "tags": [
+      "开发工具"
+     ]
+    },
+    {
+     "rank": "03",
+     "title": "Google ADK 2.14：A2A 与执行环境转正，Agent 互联有了稳定基线",
+     "summary": "Agent Development Kit Python v2.14.0 将执行环境（本地、Daytona、E2B）、A2A（Agent-to-Agent）集成、评估与核心运行时共 26 个模块及 16 个工具集功能从实验状态毕业为稳定 API；新增 TeamsRunner（ADK Agent 接入 Microsoft Teams）、`adk generate_agent_card` 命令行生成 A2A 代理卡片、MongoDB 记忆服",
+     "url": "https://github.com/google/adk-python/releases/tag/v2.14.0",
+     "source": "Google（GitHub Release）｜2026-11-07",
+     "tags": [
+      "开发工具"
+     ]
+    },
+    {
+     "rank": "04",
+     "title": "OpenAI 与 Hacktron 结成安全合作，专查第三方服务连接处的漏洞",
+     "summary": "OpenAI 宣布与进攻性安全公司 Hacktron 合作，双方共同选定高优先级测试方向，首要聚焦系统与第三方服务连接处；Hacktron 由此获得经由 Daybreak Red（OpenAI 受限的进攻性安全研究通道）使用前沿模型的更大权限。双方结缘于漏洞赏金计划：Hacktron 7 月曾串联 Discourse 论坛的 libheif 堆溢出与单点登录缺陷，接管多名 OpenAI 员工的 ChatGPT 账号，OpenAI 约 1",
+     "url": "https://www.unite.ai/openai-partners-with-hacktron-to-test-third-party-service-connections/",
+     "source": "OpenAI｜2026-11-06",
+     "tags": [
+      "开发工具"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "tech-industry",
+   "title": "科技行业动态",
+   "shortTitle": "行业动态",
+   "description": "公司动态 · 产品发布 · 芯片与云",
+   "items": [
+    {
+     "rank": "05",
+     "title": "Anthropic 接受更低估值推进 IPO，目标感恩节前上市",
+     "summary": "尽管本周科技股大幅抛售，Anthropic 仍计划感恩节前上市，拟募资 800–1000 亿美元，估值目标 1.25–1.75 万亿美元，高于当前约 9650 亿美元的估值，但低于乐观投资者此前期望的 2 万亿美元；年化收入约 810 亿美元，高于 7 月底的约 650 亿美元。据 The Information 报道，路演将于下周启动。以上均为投资者消息，Anthropic 未官方确认时间表与定价。",
+     "url": "https://the-decoder.com/anthropic-pushes-ahead-with-pre-thanksgiving-ipo-despite-tech-selloff-accepts-lower-valuation/",
+     "source": "The Decoder（援引《金融时报》投资者消息）｜2026-11-07",
+     "tags": [
+      "行业动态"
+     ]
+    },
+    {
+     "rank": "06",
+     "title": "Google 接手 Crusoe 未完工的怀俄明数据中心，计划投资 170 亿美元",
+     "summary": "数据中心开发商 Crusoe 确认已将位于怀俄明州东南部的未完工数据中心项目出售给 Google，收购价未披露；Google 计划投资 170 亿美元开发该园区。该项目最初由 Crusoe 与 Tallgrass 合作开发，远期规划可达 10 吉瓦；配套电力包括与 AEP 签约的 702 兆瓦 Bloom Energy 燃料电池项目。Crusoe 仍在为 Google 开发得州阿马里洛附近的另一座园区。",
+     "url": "https://techcrunch.com/2026/11/06/crusoe-sells-troubled-wyoming-data-center-project-to-google/",
+     "source": "TechCrunch｜2026-11-07",
+     "tags": [
+      "行业动态"
+     ]
+    },
+    {
+     "rank": "07",
+     "title": "亚马逊让用户发短信指挥 Alexa 购物，Agent 开始接管钱包",
+     "summary": "亚马逊宣布，受邀的美国用户现可通过短信与 Alexa for Shopping 对话：搜索商品、比价、加购物车、下单并接收物流更新，可查看最长一年的价格历史并设置降价提醒；对话可在短信、网站、App 与 Echo 设备间接续。功能 11 月 6 日起向小范围受邀用户开放，未来数周扩展至数百万用户。亚马逊称过去 12 个月有 4 亿多用户使用过 Alexa for Shopping。值得注意的是，9 月亚马逊刚屏蔽 Meta 的 Muse",
+     "url": "https://techcrunch.com/2026/11/06/after-blocking-muse-amazon-now-lets-users-text-alexa-to-help-them-shop/",
+     "source": "TechCrunch｜2026-11-06",
+     "tags": [
+      "行业动态"
+     ]
+    },
+    {
+     "rank": "08",
+     "title": "特斯拉将停产 Cybertruck，约 7.1 万辆销量后落幕",
+     "summary": "马斯克上周五表示，特斯拉将于明年停产 Cybertruck。自 2023 年 11 月交付以来，该车型累计销量约 7.1 万辆；最初承诺的 500 英里续航与 4 万美元以下售价均未兑现。",
+     "url": "https://techcrunch.com/2026/11/08/techcrunch-mobility-the-cybertruck-experiment-is-over/",
+     "source": "TechCrunch｜2026-11-08",
+     "tags": [
+      "行业动态"
+     ]
+    }
+   ]
   }
  ],
  "_pipelines": {
@@ -369,20 +379,20 @@
   "tech-news": {
    "digest": [
     {
-     "title": "Thinking Mac",
-     "text": "Thinking Machines 发布第二代模型 Inkling 2 Small：594B MoE、Artificial Analysis 指数 31，Tinker 上线、输入 $0.30/百万 tokens，权重承诺下周以 Apache 2.0 开放。"
+     "title": "速览",
+     "text": "DeepMind 的 AI 智能体在已退役的 1024-bit RSA 上发现两处弱点，实测复现省下 3.5 倍算力，但 2048-bit 及以上密钥不受影响。"
     },
     {
      "title": "速览",
-     "text": "Perplexity 推出常驻型工作 Agent Teammates，Max 订阅（$200/月）专享研究预览；OpenRouter 同期重建 Auto Router 并推出 Auto Code，自称 Opus 5.5 级编程能力、单任务成本低 74%。"
+     "text": "Anthropic 顶着科技股抛售推进 IPO，估值目标降至 1.25–1.75 万亿美元，仍计划感恩节前上市、募资 800–1000 亿美元。"
     },
     {
      "title": "速览",
-     "text": "微软退出与 Oracle 的 AI 算力租赁协议，称老款 NVIDIA 芯片已不满足需求，并重估逾 800 亿美元的外部算力承诺。"
+     "text": "Google 以 170 亿美元接手 Crusoe 未完工的怀俄明数据中心；Claude Code 2.1.319 与 Google ADK 2.14 则让 Agent 更适合无人值守与生产部署。"
     }
    ],
-   "highlight": "Thinking Machines 发布第二代模型 Inkling 2 Small：594B MoE、Artificial Analysis 指数 31，Tinker 上线、输入 $0.30/百万 tokens，权重承诺下周以 Apache 2.0 开放。",
-   "date": "2026-11-08"
+   "highlight": "DeepMind 的 AI 智能体在已退役的 1024-bit RSA 上发现两处弱点，实测复现省下 3.5 倍算力，但 2048-bit 及以上密钥不受影响。",
+   "date": "2026-11-09"
   }
  },
  "digest": [
@@ -391,11 +401,11 @@
    "text": "sherlock 单日 +2,373 再夺日榜第一并冲破 10.3 万 star，2018 年的 OSINT 老工具连续两日登顶；OpenMausBot 日增 +1,439、周增 +7,621 双双加速，执行型 bot 仍在升温。"
   },
   {
-   "title": "Thinking Mac",
-   "text": "Thinking Machines 发布第二代模型 Inkling 2 Small：594B MoE、Artificial Analysis 指数 31，Tinker 上线、输入 $0.30/百万 tokens，权重承诺下周以 Apache 2.0 开放。"
+   "title": "速览",
+   "text": "DeepMind 的 AI 智能体在已退役的 1024-bit RSA 上发现两处弱点，实测复现省下 3.5 倍算力，但 2048-bit 及以上密钥不受影响。"
   }
  ],
- "intro": "sherlock 单日 +2,373 再夺日榜第一并冲破 10.3 万 star，2018 年的 OSINT 老工具连续两日登顶；OpenMausBot 日增 +1,439、周增 +7,621 双双加速，执行型 bot 仍在升温。 Thinking Machines 发布第二代模型 Inkling 2 Small：594B MoE、Artificial Analysis 指数 31，Tinker 上线、输入 $0.30/百万 tokens，权重承诺下周以 Apache 2.0 开放。",
+ "intro": "sherlock 单日 +2,373 再夺日榜第一并冲破 10.3 万 star，2018 年的 OSINT 老工具连续两日登顶；OpenMausBot 日增 +1,439、周增 +7,621 双双加速，执行型 bot 仍在升温。 DeepMind 的 AI 智能体在已退役的 1024-bit RSA 上发现两处弱点，实测复现省下 3.5 倍算力，但 2048-bit 及以上密钥不受影响。",
  "tasks": [
   {
    "icon": "GH",
@@ -412,5 +422,5 @@
  ],
  "date": "2026-11-09",
  "issue": "040",
- "updatedAt": "00:58 更新"
+ "updatedAt": "01:04 更新"
 }
