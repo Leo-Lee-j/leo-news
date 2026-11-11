@@ -1,90 +1,6 @@
 {
  "sections": [
   {
-   "id": "tech-ai",
-   "title": "AI 与大模型",
-   "shortTitle": "AI 大模型",
-   "description": "大模型发布与更新",
-   "items": [
-    {
-     "rank": "01",
-     "title": "Anthropic 发布 Claude Fable 5.2 与 Mythos 5.2，登顶智能指数榜首",
-     "summary": "Anthropic 推出 Claude Fable 5.2（通用版）与 Mythos 5.2（受限版），两者为同一底层模型。输出速度比 5.1 版最高快 30%，API 价格从 10 美元/50 美元降至 8 美元/40 美元（每百万输入/输出 token）；Fable 5.2 在 Artificial Analysis 智能指数 v5 上以 65 分登顶，为迄今最高分。",
-     "url": "https://www.macrumors.com/2026/11/09/anthropic-launches-claude-fable-5-2/",
-     "source": "MacRumors｜2026-11-09",
-     "tags": [
-      "AI 大模型"
-     ]
-    },
-    {
-     "rank": "02",
-     "title": "Meta 推出 Muse Ember：最小、最便宜的 Agent 专用模型",
-     "summary": "Meta Superintelligence Labs 发布 Muse Ember，专为 Agent 每天重复的工作设计：工具调用、编码子任务、路由、抽取与长文档解析。定价 0.10 美元/百万输入 token、0.50 美元/百万输出 token，1M 上下文，模型 ID 为 muse-ember-1.0，已上线 Muse Code 与 Meta Model API。Meta 称其在 Artificial Analysis 智能指数上",
-     "url": "https://techcrunch.com/2026/11/09/meta-releases-muse-ember-a-new-lightweight-model-for-agent-execution/",
-     "source": "TechCrunch｜2026-11-09",
-     "tags": [
-      "AI 大模型"
-     ]
-    }
-   ]
-  },
-  {
-   "id": "tech-dev",
-   "title": "AI 工程与开发工具",
-   "shortTitle": "开发工具",
-   "description": "模型部署 · AI 编程 · Agent",
-   "items": [
-    {
-     "rank": "03",
-     "title": "Google 发布 TPU 8tx 与 8i Max：机密计算与长上下文专用芯片",
-     "summary": "Google 推出第八代 TPU 的两个专用版本：TPU 8tx 面向政府与受监管行业的机密计算（与 AMD 合作），TPU 8i Max 面向长上下文、大内存 AI 任务，如数十个 Agent 协同处理整个代码库。两者预计 2027 年可用；Google 称 TPU 客户已近 100 家，包括 Apple、Meta 与 Oracle。",
-     "url": "https://gizmodo.com/google-has-two-new-weapons-in-its-fight-against-nvidia-2000837111",
-     "source": "Gizmodo｜2026-11-09（据 Bloomberg 报道）",
-     "tags": [
-      "开发工具"
-     ]
-    },
-    {
-     "rank": "04",
-     "title": "英伟达发布 GR00T 2 人形机器人世界动作模型，同步推出 Isaac Lab 3.0",
-     "summary": "英伟达在机器人学习大会（CoRL）上发布 GR00T 2，定位为开放式人形机器人世界动作模型，可从少量人类视频演示中学会灵巧的工业操作；同时推出仿真训练平台 Isaac Lab 3.0，以及与合作伙伴共建的 DexBench 与 VABAR 评测基准。Nexuni、富士康、西门子等正在测试或使用。",
-     "url": "https://runtimewire.com/article/nvidia-gr00t-2-open-world-action-model-corl-2026",
-     "source": "RuntimeWire｜2026-11-09（CoRL 大会）",
-     "tags": [
-      "开发工具"
-     ]
-    }
-   ]
-  },
-  {
-   "id": "tech-industry",
-   "title": "科技行业动态",
-   "shortTitle": "行业动态",
-   "description": "公司动态 · 产品发布 · 芯片与云",
-   "items": [
-    {
-     "rank": "05",
-     "title": "英伟达董事会启动对 CEO 黄仁勋的独立调查",
-     "summary": "英伟达董事会 11 月 8 日宣布成立独立董事委员会，调查 CEO 黄仁勋是否成为境外情报行动的目标。此前媒体报道称其与一名被美方认定为中国情报资产的新加坡公司前高管存在密切关系。黄仁勋已向员工承认对妻子不忠，并表示全力配合调查；公司称目前“没有理由相信”美国国家安全或公司机密受到影响。",
-     "url": "https://www.reuters.com/world/asia-pacific/what-we-know-about-nvidias-probe-into-ceo-jensen-huang-2026-11-09/",
-     "source": "Reuters｜2026-11-09",
-     "tags": [
-      "行业动态"
-     ]
-    },
-    {
-     "rank": "06",
-     "title": "一人操纵 12 个 AI Agent 窃取台北急救调度记录，暴露公共系统安全短板",
-     "summary": "Acronis 披露，一名攻击者用名为 BOSSAI 的 12 个 AI Agent 组成的攻击网络，在 12 天内针对 11 个国家数百个机构发起攻击，约 10 家确认被入侵。其中从台北 119 急救调度系统 API 拉取了 7 个区的出勤记录，还发现某消防部门病人平台自 2018 年起无登录即可访问心电图与救护车视频。研究人员称，Agent 在有登录验证的地方全部失败，只攻破了未设防的系统。",
-     "url": "https://thehackernews.com/2026/11/taiwan-based-hacker-used-bossai-ai.html",
-     "source": "The Hacker News｜2026-11-09（据 Acronis 威胁研究团队 11 月 4 日报告）",
-     "tags": [
-      "行业动态"
-     ]
-    }
-   ]
-  },
-  {
    "id": "github-hot",
    "title": "GitHub 今日热门",
    "shortTitle": "GitHub 热榜",
@@ -353,6 +269,90 @@
      ]
     }
    ]
+  },
+  {
+   "id": "tech-ai",
+   "title": "AI 与大模型",
+   "shortTitle": "AI 大模型",
+   "description": "大模型发布与更新",
+   "items": [
+    {
+     "rank": "01",
+     "title": "Google DeepMind 发布 Gemini Robotics 2.5，人形机器人上奔驰产线实测",
+     "summary": "Gemini Robotics 2.5 是 DeepMind 迄今最强的视觉-语言-动作（VLA）模型，在 200 多项任务上成功率比上一代提升 30% 至 100%，速度快 20% 至 30%。在奔驰工厂的概念验证中，Apptronik Apollo 2 人形机器人在真实产线上分拣汽车零部件，成功率达 96%。模型目前只向 Agile Robots、Apptronik、波士顿动力等合作伙伴开放，暂无公开 API。",
+     "url": "https://deepmind.google/blog/gemini-robotics-2-5-accelerates-real-world-physical-intelligence/",
+     "source": "Google DeepMind 官方博客｜2026-11-10",
+     "tags": [
+      "AI 大模型"
+     ]
+    },
+    {
+     "rank": "02",
+     "title": "马斯克：Grok 4.8 已进入强化学习，本周内向 Bot 用户软上线",
+     "summary": "马斯克称 Grok 4.8 预训练已完成，现进入强化学习阶段，评估分数“开始爬升”，本周晚些时候向 Bot 用户软上线。为此 xAI 抛弃了 JAX/SGLang，把整套强化学习与推理栈用 C/C++ 从头重写。马斯克 9 月曾称 4.8 为 2.5T 参数模型。本次未公布任何基准分数与定价。",
+     "url": "https://fourweekmba.com/ai-grok-4-8-in-rl-after-a-57-day-wait-as-xai-dumps-jax-for-cpp/",
+     "source": "马斯克 X 发文（FourWeekMBA 整理）｜2026-11-10",
+     "tags": [
+      "AI 大模型"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "tech-dev",
+   "title": "AI 工程与开发工具",
+   "shortTitle": "开发工具",
+   "description": "模型部署 · AI 编程 · Agent",
+   "items": [
+    {
+     "rank": "03",
+     "title": "DeepMind AlphaProof Code：AI 智能体 4 周完成 Signal 加密协议的形式化验证",
+     "summary": "AlphaProof Code 是一个多模型智能体框架：人类专家把 Signal 的安全目标写成形式化规约，再由 Gemini Carbon 驱动的证明智能体自动写证明，最终生成约 650 万行经 Lean 内核核查的证明代码，验证了 libsignal 核心加密代码（后量子 PQXDH 握手与 Triple Ratchet）直至编译后的 AArch64 机器码层面，耗时仅 4 周。验证产物已开源（github.com/google-d",
+     "url": "https://deepmind.google/blog/introducing-alphaproof-code/",
+     "source": "Google DeepMind 官方博客｜2026-11-10",
+     "tags": [
+      "开发工具"
+     ]
+    },
+    {
+     "rank": "04",
+     "title": "苹果被曝研发 Harbor 应用：把 Mac 变成私有 AI 推理服务器（传闻，未经证实）",
+     "summary": "爆料称苹果正在开发一款名为 Harbor 的 Mac 应用，可把 Mac 变成私有 AI 推理服务器，在 Apple Silicon 本地运行开源权重模型，数据不出本机；多台 Mac 可通过 Thunderbolt 5 组网，汇聚统一内存以跑更大模型、支撑更高并发。目前处于 Claris 品牌下的私人预览阶段，苹果官方未予证实。",
+     "url": "https://9to5mac.com/2026/11/10/apple-has-new-mac-app-coming-to-make-running-local-ai-models-easy/",
+     "source": "9to5Mac（爆料人 Aaron Perris）｜2026-11-10",
+     "tags": [
+      "开发工具"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "tech-industry",
+   "title": "科技行业动态",
+   "shortTitle": "行业动态",
+   "description": "公司动态 · 产品发布 · 芯片与云",
+   "items": [
+    {
+     "rank": "05",
+     "title": "英伟达首尔 AI Day：投资四家韩国 AI 初创，Rebellions R200 接入 NVLink Fusion",
+     "summary": "英伟达在首尔 AI Day 上宣布直接投资四家韩国 AI 初创公司——Point2、Upstage、Motif 与 RealWorld（投资流程尚未完成，未披露金额）；同时与 SK 电信、Rebellions 签署谅解备忘录，将 Rebellions 下一代 R200 NPU 通过 NVLink Fusion 接入英伟达 MGX 机架架构，GPU 负责推理预填充、NPU 负责解码，目标 2028 年在 SK 电信数据中心部署。英伟达还发",
+     "url": "https://technode.global/2026/11/10/nvidia-rebellions-skt-korean-sovereign-ai/",
+     "source": "TechNode｜2026-11-10",
+     "tags": [
+      "行业动态"
+     ]
+    },
+    {
+     "rank": "06",
+     "title": "Fireworks AI 泄露范围扩大：Notion AI 对话记录受影响，Cursor 亦在列",
+     "summary": "AI 推理平台 Fireworks AI 在 11 月 9 日的更新中承认，10 月 24 日攻击者经由一家托管其研发机器的第三方云服务商入侵，波及范围远超 10 月首次披露：客户账单与账户信息、部分客户的密钥、训练数据集与不完整模型权重均被访问。Notion 确认其 AI Insights 功能的聊天记录包含在被访问数据集中，影响不到 1% 的工作空间；Notion 已停用 Insights 功能并停止经 Fireworks 提供开源",
+     "url": "https://www.notion.com/en-gb/security/advisories/security-incident-involving-a-third-party-ai-vendor",
+     "source": "Notion 安全公告｜2026-11-09",
+     "tags": [
+      "行业动态"
+     ]
+    }
+   ]
   }
  ],
  "_pipelines": {
@@ -378,19 +378,19 @@
    "digest": [
     {
      "title": "速览",
-     "text": "Anthropic 发布 Claude Fable 5.2，登顶 Artificial Analysis 智能指数榜首，API 价格下调 20%。"
+     "text": "Google DeepMind 发布 Gemini Robotics 2.5，人形机器人在奔驰产线分拣成功率达 96%，并开源机器人越狱测试基准 ASIMOV-Jailbreak。"
     },
     {
      "title": "速览",
-     "text": "Meta 推出最轻量模型 Muse Ember，主打低成本 Agent 重复任务；Google 发布两款专用 TPU，英伟达董事会则启动对黄仁勋的独立调查。"
+     "text": "马斯克确认 Grok 4.8 已进入强化学习阶段，本周内向 Bot 用户软上线；xAI 为此重写了整套 C/C++ 训练与推理栈。"
     },
     {
-     "title": "最重要的一条",
-     "text": "最重要的一条：Claude Fable 5.2——新一代旗舰配置直接改写了模型能力与价格的标杆，同一天 Meta 的 Ember 则把 Agent 成本战推向新低。"
+     "title": "速览",
+     "text": "DeepMind 用 AI 智能体在 4 周内完成 Signal 加密协议核心代码的形式化验证，写出 650 万行机器核查证明。"
     }
    ],
-   "highlight": "Anthropic 发布 Claude Fable 5.2，登顶 Artificial Analysis 智能指数榜首，API 价格下调 20%。",
-   "date": "2026-11-10"
+   "highlight": "Google DeepMind 发布 Gemini Robotics 2.5，人形机器人在奔驰产线分拣成功率达 96%，并开源机器人越狱测试基准 ASIMOV-Jailbreak。",
+   "date": "2026-11-11"
   }
  },
  "digest": [
@@ -400,10 +400,10 @@
   },
   {
    "title": "速览",
-   "text": "Anthropic 发布 Claude Fable 5.2，登顶 Artificial Analysis 智能指数榜首，API 价格下调 20%。"
+   "text": "Google DeepMind 发布 Gemini Robotics 2.5，人形机器人在奔驰产线分拣成功率达 96%，并开源机器人越狱测试基准 ASIMOV-Jailbreak。"
   }
  ],
- "intro": "astryx 单日 +3,108 连续两日登顶日榜，总数突破 2.2 万 star；sherlock 单日 +2,393 回落至第二，总数逼近 10.9 万。 Anthropic 发布 Claude Fable 5.2，登顶 Artificial Analysis 智能指数榜首，API 价格下调 20%。",
+ "intro": "astryx 单日 +3,108 连续两日登顶日榜，总数突破 2.2 万 star；sherlock 单日 +2,393 回落至第二，总数逼近 10.9 万。 Google DeepMind 发布 Gemini Robotics 2.5，人形机器人在奔驰产线分拣成功率达 96%，并开源机器人越狱测试基准 ASIMOV-Jailbreak。",
  "tasks": [
   {
    "icon": "GH",
@@ -420,5 +420,5 @@
  ],
  "date": "2026-11-11",
  "issue": "042",
- "updatedAt": "00:33 更新"
+ "updatedAt": "01:02 更新"
 }
