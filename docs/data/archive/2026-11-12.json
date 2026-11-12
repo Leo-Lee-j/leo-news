@@ -1,90 +1,6 @@
 {
  "sections": [
   {
-   "id": "tech-ai",
-   "title": "AI 与大模型",
-   "shortTitle": "AI 大模型",
-   "description": "大模型发布与更新",
-   "items": [
-    {
-     "rank": "01",
-     "title": "Google DeepMind 发布 Gemini Robotics 2.5，人形机器人上奔驰产线实测",
-     "summary": "Gemini Robotics 2.5 是 DeepMind 迄今最强的视觉-语言-动作（VLA）模型，在 200 多项任务上成功率比上一代提升 30% 至 100%，速度快 20% 至 30%。在奔驰工厂的概念验证中，Apptronik Apollo 2 人形机器人在真实产线上分拣汽车零部件，成功率达 96%。模型目前只向 Agile Robots、Apptronik、波士顿动力等合作伙伴开放，暂无公开 API。",
-     "url": "https://deepmind.google/blog/gemini-robotics-2-5-accelerates-real-world-physical-intelligence/",
-     "source": "Google DeepMind 官方博客｜2026-11-10",
-     "tags": [
-      "AI 大模型"
-     ]
-    },
-    {
-     "rank": "02",
-     "title": "马斯克：Grok 4.8 已进入强化学习，本周内向 Bot 用户软上线",
-     "summary": "马斯克称 Grok 4.8 预训练已完成，现进入强化学习阶段，评估分数“开始爬升”，本周晚些时候向 Bot 用户软上线。为此 xAI 抛弃了 JAX/SGLang，把整套强化学习与推理栈用 C/C++ 从头重写。马斯克 9 月曾称 4.8 为 2.5T 参数模型。本次未公布任何基准分数与定价。",
-     "url": "https://fourweekmba.com/ai-grok-4-8-in-rl-after-a-57-day-wait-as-xai-dumps-jax-for-cpp/",
-     "source": "马斯克 X 发文（FourWeekMBA 整理）｜2026-11-10",
-     "tags": [
-      "AI 大模型"
-     ]
-    }
-   ]
-  },
-  {
-   "id": "tech-dev",
-   "title": "AI 工程与开发工具",
-   "shortTitle": "开发工具",
-   "description": "模型部署 · AI 编程 · Agent",
-   "items": [
-    {
-     "rank": "03",
-     "title": "DeepMind AlphaProof Code：AI 智能体 4 周完成 Signal 加密协议的形式化验证",
-     "summary": "AlphaProof Code 是一个多模型智能体框架：人类专家把 Signal 的安全目标写成形式化规约，再由 Gemini Carbon 驱动的证明智能体自动写证明，最终生成约 650 万行经 Lean 内核核查的证明代码，验证了 libsignal 核心加密代码（后量子 PQXDH 握手与 Triple Ratchet）直至编译后的 AArch64 机器码层面，耗时仅 4 周。验证产物已开源（github.com/google-d",
-     "url": "https://deepmind.google/blog/introducing-alphaproof-code/",
-     "source": "Google DeepMind 官方博客｜2026-11-10",
-     "tags": [
-      "开发工具"
-     ]
-    },
-    {
-     "rank": "04",
-     "title": "苹果被曝研发 Harbor 应用：把 Mac 变成私有 AI 推理服务器（传闻，未经证实）",
-     "summary": "爆料称苹果正在开发一款名为 Harbor 的 Mac 应用，可把 Mac 变成私有 AI 推理服务器，在 Apple Silicon 本地运行开源权重模型，数据不出本机；多台 Mac 可通过 Thunderbolt 5 组网，汇聚统一内存以跑更大模型、支撑更高并发。目前处于 Claris 品牌下的私人预览阶段，苹果官方未予证实。",
-     "url": "https://9to5mac.com/2026/11/10/apple-has-new-mac-app-coming-to-make-running-local-ai-models-easy/",
-     "source": "9to5Mac（爆料人 Aaron Perris）｜2026-11-10",
-     "tags": [
-      "开发工具"
-     ]
-    }
-   ]
-  },
-  {
-   "id": "tech-industry",
-   "title": "科技行业动态",
-   "shortTitle": "行业动态",
-   "description": "公司动态 · 产品发布 · 芯片与云",
-   "items": [
-    {
-     "rank": "05",
-     "title": "英伟达首尔 AI Day：投资四家韩国 AI 初创，Rebellions R200 接入 NVLink Fusion",
-     "summary": "英伟达在首尔 AI Day 上宣布直接投资四家韩国 AI 初创公司——Point2、Upstage、Motif 与 RealWorld（投资流程尚未完成，未披露金额）；同时与 SK 电信、Rebellions 签署谅解备忘录，将 Rebellions 下一代 R200 NPU 通过 NVLink Fusion 接入英伟达 MGX 机架架构，GPU 负责推理预填充、NPU 负责解码，目标 2028 年在 SK 电信数据中心部署。英伟达还发",
-     "url": "https://technode.global/2026/11/10/nvidia-rebellions-skt-korean-sovereign-ai/",
-     "source": "TechNode｜2026-11-10",
-     "tags": [
-      "行业动态"
-     ]
-    },
-    {
-     "rank": "06",
-     "title": "Fireworks AI 泄露范围扩大：Notion AI 对话记录受影响，Cursor 亦在列",
-     "summary": "AI 推理平台 Fireworks AI 在 11 月 9 日的更新中承认，10 月 24 日攻击者经由一家托管其研发机器的第三方云服务商入侵，波及范围远超 10 月首次披露：客户账单与账户信息、部分客户的密钥、训练数据集与不完整模型权重均被访问。Notion 确认其 AI Insights 功能的聊天记录包含在被访问数据集中，影响不到 1% 的工作空间；Notion 已停用 Insights 功能并停止经 Fireworks 提供开源",
-     "url": "https://www.notion.com/en-gb/security/advisories/security-incident-involving-a-third-party-ai-vendor",
-     "source": "Notion 安全公告｜2026-11-09",
-     "tags": [
-      "行业动态"
-     ]
-    }
-   ]
-  },
-  {
    "id": "github-hot",
    "title": "GitHub 今日热门",
    "shortTitle": "GitHub 热榜",
@@ -353,6 +269,110 @@
      ]
     }
    ]
+  },
+  {
+   "id": "tech-ai",
+   "title": "AI 与大模型",
+   "shortTitle": "AI 大模型",
+   "description": "大模型发布与更新",
+   "items": [
+    {
+     "rank": "01",
+     "title": "谷歌发布 Gemini Decisions API，Gemini Decision 1 一次回答 1000 个问题",
+     "summary": "新端点由 Gemini Decision 1 驱动，专为“有界选择”设计：一次请求可携带最多 25.6 万 token 的多模态输入（文本、图片、音频、视频、PDF）并回答最多 1000 个是非、选择或评分问题，返回概率与置信度而非生成文本，端到端延迟 150～250 毫秒。定价为每百万输入 token 0.10 美元，输出不计费，AI Studio 提供免费层。",
+     "url": "https://blog.google/innovation-and-ai/technology/developers-tools/gemini-decisions-api/",
+     "source": "Google DeepMind 官方博客｜2026-11-11",
+     "tags": [
+      "AI 大模型"
+     ]
+    },
+    {
+     "rank": "02",
+     "title": "谷歌 Gemini 4 Carbon 全面开放，优惠价 11 月 30 日到期",
+     "summary": "Gemini 4 Carbon 即日起向所有付费 API 开发者、企业与科学家开放，Google AI Ultra 订阅用户也可在 Gemini 应用、搜索 AI Mode 与 Antigravity 中使用。此前两周它仅向 Fairwind 计划的网络安全防御者开放。定价为每百万输入 token 2 美元、输出 10 美元，11 月 30 日后翻倍至 4 美元 / 20 美元。谷歌称其为迄今最强模型，擅长长程 Agent 工作流与网络",
+     "url": "https://deepmind.google/blog/gemini-4-carbon-is-now-available/",
+     "source": "Google DeepMind｜2026-11-10",
+     "tags": [
+      "AI 大模型"
+     ]
+    },
+    {
+     "rank": "03",
+     "title": "Anthropic 发布 Claude Whiteboards 与 Sheets，Claude 可参会并边开会边干活",
+     "summary": "Claude Whiteboards 与 Claude Sheets 以 beta 上线，面向付费订阅用户：白板可把实时讨论转成共享计划与待办，表格支持多人协作的追踪器与预算（含 144 个函数、10 万单元格上限）；同时 Claude Data（原 Dashboards）正式 GA，可连接 CRM 与数据仓库生成仪表盘与数据故事；交互式连接器（Adobe、Atlassian、Salesforce 等）也同步 GA。Claude Mee",
+     "url": "https://www.unite.ai/anthropic-launches-claude-whiteboards-and-sheets-in-beta/",
+     "source": "Anthropic｜2026-11-10",
+     "tags": [
+      "AI 大模型"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "tech-dev",
+   "title": "AI 工程与开发工具",
+   "shortTitle": "开发工具",
+   "description": "模型部署 · AI 编程 · Agent",
+   "items": [
+    {
+     "rank": "04",
+     "title": "亚马逊用 Strands Decider 替代 Claude Sonnet 4.6，工单分类成本降 98%",
+     "summary": "亚马逊内部大型工单系统（客户升级、容量请求、告警、安全发现，分 20 类）原本用 Claude Sonnet 4.6 打标签，两名工程师将其替换为开源决策模型 Strands Decider（最终选用基于 Gemma 4 的 E4B 构建，跑在 SageMaker 的单张 A10G 实例上）。单张工单成本从 0.0222 美元降至约 0.0005 美元，每百万张约 2.22 万美元降至约 500 美元，降幅 98%，团队称分类效果与 S",
+     "url": "https://strandsagents.com/blog/amazon-saves-millions-replacing-sonnet-with-strands-decider/",
+     "source": "Strands Agents（亚马逊工程师案例）｜2026-11-09",
+     "tags": [
+      "开发工具"
+     ]
+    },
+    {
+     "rank": "05",
+     "title": "Grok Build 被曝 3.5 万个应用无需登录即可访问，含 SpaceXSI 自家机密",
+     "summary": "安全公司 Claroc 在 11 月 10 日发布的“GhostShares 2”报告中称，Grok Build 发布的每个应用都有独立的 grok.me 子域名，域名由随机词组成，可通过被动 DNS 枚举发现。Claroc 尝试了 43551 个地址，其中 37571 个仍在线，35578 个（94.7%）无需登录即可打开并读取其中数据，估计 650～800 个含有真正私密数据。24 个属于 SpaceXSI 与 X 员工的应用（含新",
+     "url": "https://ifynx.com/blog/grok-build-apps-exposed-ghostshares-claroc-ai-app-builder-security-checklist-gulf-egypt/",
+     "source": "Claroc 安全研究 / Ars Technica｜2026-11-10",
+     "tags": [
+      "开发工具"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "tech-industry",
+   "title": "科技行业动态",
+   "shortTitle": "行业动态",
+   "description": "公司动态 · 产品发布 · 芯片与云",
+   "items": [
+    {
+     "rank": "06",
+     "title": "Anthropic 更新招股书：英伟达、谷歌等 7 家供应商拟认购 260 亿美元，11 月 19 日上市",
+     "summary": "更新后的招股文件显示，7 家科技公司计划在 Anthropic IPO 中以私募方式合计认购 260 亿美元股份：英伟达与谷歌各 100 亿美元，AMD 25 亿美元，博通、美光与微软各 10 亿美元，台积电合作伙伴 5 亿美元。IPO 发行 8.25 亿股，定价区间每股 70～78 美元，预计 11 月 18 日定价、11 月 19 日在纳斯达克开始交易；认购方同时也是向 Anthropic 供应芯片、设备与云算力的供应商，认购以 I",
+     "url": "https://bytevyte.com/anthropic-ipo-supplier-placement-2026-11-11/",
+     "source": "Anthropic 更新后招股书（11 月 10 日提交）｜2026-11-11",
+     "tags": [
+      "行业动态"
+     ]
+    },
+    {
+     "rank": "07",
+     "title": "英伟达与 xAI 加入微软、贝莱德、MGX 的 AI 基础设施联盟",
+     "summary": "英伟达与马斯克的 xAI 加入由微软、贝莱德与阿布扎比 MGX 支持的 AI 基础设施联盟，该联盟于 11 月 11 日更名为 AI Infrastructure Partnership，目标是扩大美国 AI 基础设施建设。联盟此前已汇聚云厂商、芯片商与主权资本，此次扩容把 xAI 的算力需求与英伟达的硬件供给进一步绑进同一投资框架。",
+     "url": "https://turbo.gadgets360.com/en/ai/nvidia-elon-musk-xai-microsoft-blackrock-mgx-develop-ai-infrastructure-7966640?utm_source=website&utm_medium=content&utm_campaign=gadgets360turbo",
+     "source": "Gadgets 360｜2026-11-11",
+     "tags": [
+      "行业动态"
+     ]
+    },
+    {
+     "rank": "08",
+     "title": "美联航禁止第三方 AI Agent 代订机票，违者订单可直接取消",
+     "summary": "美联航 11 月 11 日修订运输合同，新增规则禁止使用 AI Agent 订票、改票、办理乘机手续或购买座位、升舱等服务，相关预订可被无通知取消；禁令覆盖官网、App 以及旅行社与聚合平台渠道，且即使用户全程监督批准也不例外。美联航给出的理由是隐私与账户安全风险、误购与里程滥用，以及可能违反 FAA 与美国交通部规定；AI 仍可查询航班与价格，但下单必须由用户本人完成。11 月 11 日之前的 Agent 预订不受影响。",
+     "url": "https://www.usatoday.com/story/travel/airline-news/2026/11/11/united-ai-travel-agents-booking/92728156007/",
+     "source": "USA TODAY｜2026-11-11",
+     "tags": [
+      "行业动态"
+     ]
+    }
+   ]
   }
  ],
  "_pipelines": {
@@ -377,20 +397,20 @@
   "tech-news": {
    "digest": [
     {
-     "title": "速览",
-     "text": "Google DeepMind 发布 Gemini Robotics 2.5，人形机器人在奔驰产线分拣成功率达 96%，并开源机器人越狱测试基准 ASIMOV-Jailbreak。"
+     "title": "谷歌连发两弹",
+     "text": "谷歌连发两弹：Gemini 4 Carbon 全面开放，Gemini Decisions API 让模型“只做选择、不写字”。"
+    },
+    {
+     "title": "Anthropic 把 ",
+     "text": "Anthropic 把 Claude 变成会议室同事：Whiteboards 与 Sheets 上线，IPO 又获英伟达、谷歌等供应商 260 亿美元认购。"
     },
     {
      "title": "速览",
-     "text": "马斯克确认 Grok 4.8 已进入强化学习阶段，本周内向 Bot 用户软上线；xAI 为此重写了整套 C/C++ 训练与推理栈。"
-    },
-    {
-     "title": "速览",
-     "text": "DeepMind 用 AI 智能体在 4 周内完成 Signal 加密协议核心代码的形式化验证，写出 650 万行机器核查证明。"
+     "text": "美联航率先禁止第三方 AI Agent 代订机票；Grok Build 被曝 3.5 万个应用无需登录即可访问。"
     }
    ],
-   "highlight": "Google DeepMind 发布 Gemini Robotics 2.5，人形机器人在奔驰产线分拣成功率达 96%，并开源机器人越狱测试基准 ASIMOV-Jailbreak。",
-   "date": "2026-11-11"
+   "highlight": "谷歌连发两弹：Gemini 4 Carbon 全面开放，Gemini Decisions API 让模型“只做选择、不写字”。",
+   "date": "2026-11-12"
   }
  },
  "digest": [
@@ -399,11 +419,11 @@
    "text": "astryx 单日 +2,776 连续三日登顶日榜，总数逼近 2.5 万 star；开源个人理财应用 sure 单日 +1,078 首次冲进日榜前三。"
   },
   {
-   "title": "速览",
-   "text": "Google DeepMind 发布 Gemini Robotics 2.5，人形机器人在奔驰产线分拣成功率达 96%，并开源机器人越狱测试基准 ASIMOV-Jailbreak。"
+   "title": "谷歌连发两弹",
+   "text": "谷歌连发两弹：Gemini 4 Carbon 全面开放，Gemini Decisions API 让模型“只做选择、不写字”。"
   }
  ],
- "intro": "astryx 单日 +2,776 连续三日登顶日榜，总数逼近 2.5 万 star；开源个人理财应用 sure 单日 +1,078 首次冲进日榜前三。 Google DeepMind 发布 Gemini Robotics 2.5，人形机器人在奔驰产线分拣成功率达 96%，并开源机器人越狱测试基准 ASIMOV-Jailbreak。",
+ "intro": "astryx 单日 +2,776 连续三日登顶日榜，总数逼近 2.5 万 star；开源个人理财应用 sure 单日 +1,078 首次冲进日榜前三。 谷歌连发两弹：Gemini 4 Carbon 全面开放，Gemini Decisions API 让模型“只做选择、不写字”。",
  "tasks": [
   {
    "icon": "GH",
@@ -420,5 +440,5 @@
  ],
  "date": "2026-11-12",
  "issue": "043",
- "updatedAt": "00:34 更新"
+ "updatedAt": "01:02 更新"
 }
