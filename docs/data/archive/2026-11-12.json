@@ -1,0 +1,424 @@
+{
+ "sections": [
+  {
+   "id": "tech-ai",
+   "title": "AI 与大模型",
+   "shortTitle": "AI 大模型",
+   "description": "大模型发布与更新",
+   "items": [
+    {
+     "rank": "01",
+     "title": "Google DeepMind 发布 Gemini Robotics 2.5，人形机器人上奔驰产线实测",
+     "summary": "Gemini Robotics 2.5 是 DeepMind 迄今最强的视觉-语言-动作（VLA）模型，在 200 多项任务上成功率比上一代提升 30% 至 100%，速度快 20% 至 30%。在奔驰工厂的概念验证中，Apptronik Apollo 2 人形机器人在真实产线上分拣汽车零部件，成功率达 96%。模型目前只向 Agile Robots、Apptronik、波士顿动力等合作伙伴开放，暂无公开 API。",
+     "url": "https://deepmind.google/blog/gemini-robotics-2-5-accelerates-real-world-physical-intelligence/",
+     "source": "Google DeepMind 官方博客｜2026-11-10",
+     "tags": [
+      "AI 大模型"
+     ]
+    },
+    {
+     "rank": "02",
+     "title": "马斯克：Grok 4.8 已进入强化学习，本周内向 Bot 用户软上线",
+     "summary": "马斯克称 Grok 4.8 预训练已完成，现进入强化学习阶段，评估分数“开始爬升”，本周晚些时候向 Bot 用户软上线。为此 xAI 抛弃了 JAX/SGLang，把整套强化学习与推理栈用 C/C++ 从头重写。马斯克 9 月曾称 4.8 为 2.5T 参数模型。本次未公布任何基准分数与定价。",
+     "url": "https://fourweekmba.com/ai-grok-4-8-in-rl-after-a-57-day-wait-as-xai-dumps-jax-for-cpp/",
+     "source": "马斯克 X 发文（FourWeekMBA 整理）｜2026-11-10",
+     "tags": [
+      "AI 大模型"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "tech-dev",
+   "title": "AI 工程与开发工具",
+   "shortTitle": "开发工具",
+   "description": "模型部署 · AI 编程 · Agent",
+   "items": [
+    {
+     "rank": "03",
+     "title": "DeepMind AlphaProof Code：AI 智能体 4 周完成 Signal 加密协议的形式化验证",
+     "summary": "AlphaProof Code 是一个多模型智能体框架：人类专家把 Signal 的安全目标写成形式化规约，再由 Gemini Carbon 驱动的证明智能体自动写证明，最终生成约 650 万行经 Lean 内核核查的证明代码，验证了 libsignal 核心加密代码（后量子 PQXDH 握手与 Triple Ratchet）直至编译后的 AArch64 机器码层面，耗时仅 4 周。验证产物已开源（github.com/google-d",
+     "url": "https://deepmind.google/blog/introducing-alphaproof-code/",
+     "source": "Google DeepMind 官方博客｜2026-11-10",
+     "tags": [
+      "开发工具"
+     ]
+    },
+    {
+     "rank": "04",
+     "title": "苹果被曝研发 Harbor 应用：把 Mac 变成私有 AI 推理服务器（传闻，未经证实）",
+     "summary": "爆料称苹果正在开发一款名为 Harbor 的 Mac 应用，可把 Mac 变成私有 AI 推理服务器，在 Apple Silicon 本地运行开源权重模型，数据不出本机；多台 Mac 可通过 Thunderbolt 5 组网，汇聚统一内存以跑更大模型、支撑更高并发。目前处于 Claris 品牌下的私人预览阶段，苹果官方未予证实。",
+     "url": "https://9to5mac.com/2026/11/10/apple-has-new-mac-app-coming-to-make-running-local-ai-models-easy/",
+     "source": "9to5Mac（爆料人 Aaron Perris）｜2026-11-10",
+     "tags": [
+      "开发工具"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "tech-industry",
+   "title": "科技行业动态",
+   "shortTitle": "行业动态",
+   "description": "公司动态 · 产品发布 · 芯片与云",
+   "items": [
+    {
+     "rank": "05",
+     "title": "英伟达首尔 AI Day：投资四家韩国 AI 初创，Rebellions R200 接入 NVLink Fusion",
+     "summary": "英伟达在首尔 AI Day 上宣布直接投资四家韩国 AI 初创公司——Point2、Upstage、Motif 与 RealWorld（投资流程尚未完成，未披露金额）；同时与 SK 电信、Rebellions 签署谅解备忘录，将 Rebellions 下一代 R200 NPU 通过 NVLink Fusion 接入英伟达 MGX 机架架构，GPU 负责推理预填充、NPU 负责解码，目标 2028 年在 SK 电信数据中心部署。英伟达还发",
+     "url": "https://technode.global/2026/11/10/nvidia-rebellions-skt-korean-sovereign-ai/",
+     "source": "TechNode｜2026-11-10",
+     "tags": [
+      "行业动态"
+     ]
+    },
+    {
+     "rank": "06",
+     "title": "Fireworks AI 泄露范围扩大：Notion AI 对话记录受影响，Cursor 亦在列",
+     "summary": "AI 推理平台 Fireworks AI 在 11 月 9 日的更新中承认，10 月 24 日攻击者经由一家托管其研发机器的第三方云服务商入侵，波及范围远超 10 月首次披露：客户账单与账户信息、部分客户的密钥、训练数据集与不完整模型权重均被访问。Notion 确认其 AI Insights 功能的聊天记录包含在被访问数据集中，影响不到 1% 的工作空间；Notion 已停用 Insights 功能并停止经 Fireworks 提供开源",
+     "url": "https://www.notion.com/en-gb/security/advisories/security-incident-involving-a-third-party-ai-vendor",
+     "source": "Notion 安全公告｜2026-11-09",
+     "tags": [
+      "行业动态"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "github-hot",
+   "title": "GitHub 今日热门",
+   "shortTitle": "GitHub 热榜",
+   "description": "综合热度、活跃度与实用价值排序",
+   "items": [
+    {
+     "rank": "01",
+     "title": "meta/astryx",
+     "summary": "解决了\"设计系统只给人用、agent 参与构建时没有章法\"的问题；单日 +2,776 连续三日登顶，总数逼近 2.5 万 star；适合做 React 界面与设计系统的开发者，Beta 阶段先读文档再接入。",
+     "url": "https://github.com/meta/astryx",
+     "tags": [
+      "强烈推荐"
+     ],
+     "featured": true
+    },
+    {
+     "rank": "02",
+     "title": "we-promise/sure",
+     "summary": "开源的个人理财应用：收支、净资产与支出分析做成干净的仪表盘，还内置一个能回答理财问题的 AI 助手。 现金流、净资产与支出分析仪表盘、内置 AI 助手回答储蓄与支出问题、Ruby 实现、开源可自行部署。",
+     "url": "https://github.com/we-promise/sure",
+     "tags": [
+      "值得关注"
+     ]
+    },
+    {
+     "rank": "03",
+     "title": "addyosmani/agent-skills",
+     "summary": "面向 AI 编程 agent 的生产级工程 skill 合集：把资深工程师的工作方式写成 agent 能直接用的 skill。 生产级工程实践 skill、覆盖代码审查、重构、测试等开发场景、持续更新。",
+     "url": "https://github.com/addyosmani/agent-skills",
+     "tags": [
+      "值得关注"
+     ]
+    },
+    {
+     "rank": "04",
+     "title": "vercel-labs/agent-browser",
+     "summary": "Vercel Labs 给 AI agent 的浏览器：一个 Rust 命令行工具，让 agent 像人一样一步步打开网页、读页面、点元素。 原生 Rust CLI、把页面以无障碍树快照返回给 agent（每个元素带 `@e1` 这样的引用编号）、按引用操作元素并反复读取校验、支持主流 agent 框架调用。",
+     "url": "https://github.com/vercel-labs/agent-browser",
+     "tags": [
+      "值得关注"
+     ]
+    },
+    {
+     "rank": "05",
+     "title": "homeassistant-ai/ha-mcp",
+     "summary": "Home Assistant 官方的 MCP 服务器：让 Claude、ChatGPT 等 AI 助手直接配置与操控你家里的智能家居。 87 个工具覆盖 Home Assistant 的配置与自动化、支持 Claude 与 ChatGPT 等主流助手、配套 E2E 测试与版本化发布，README 在 master 分支。",
+     "url": "https://github.com/homeassistant-ai/ha-mcp",
+     "tags": [
+      "值得关注"
+     ]
+    },
+    {
+     "rank": "06",
+     "title": "shadcn/improve",
+     "summary": "shadcn 写给 agent 的代码审计 skill：让最强的模型只做\"读代码、判断优先级、写实施方案\"，执行交给便宜模型。 全量 / 快速 / 深度 / 安全等多档审计模式、输出自包含的 Markdown 实施方案（plans/ 目录）、skill 本身不写一行代码，\"方案就是产品\"、一行 npx 安装，兼容 Agent Skills 格式。",
+     "url": "https://github.com/shadcn/improve",
+     "tags": [
+      "值得关注"
+     ]
+    },
+    {
+     "rank": "07",
+     "title": "ZhuLinsen/daily_stock_analysis",
+     "summary": "LLM 驱动的多市场股票智能分析系统：多源行情、实时新闻、决策看板与自动推送，零成本定时运行。 多市场行情与实时新闻聚合、LLM 生成分析与决策建议、看板展示与自动推送、GitHub Actions 定时运行零成本、Docker 部署，配套 arXiv 论文。",
+     "url": "https://github.com/ZhuLinsen/daily_stock_analysis",
+     "tags": [
+      "了解即可"
+     ]
+    },
+    {
+     "rank": "08",
+     "title": "herdrdev/herdr",
+     "summary": "给 coding agent 住的\"运行时\"：多台机器上的 agent 会话统一管理，断线、重启也不丢活。 后台服务托管终端会话，关闭客户端或断网也不停工、机器重启后恢复布局并可续跑支持的 agent 会话、多台机器（本地 + SSH）合并到一个窗口、每个面板标注工作 / 阻塞 / 空闲状态、agent 可通过 CLI 与 socket API 互相驱动。",
+     "url": "https://github.com/herdrdev/herdr",
+     "tags": [
+      "了解即可"
+     ]
+    },
+    {
+     "rank": "09",
+     "title": "GoogleChrome/modern-web-guidance-src",
+     "summary": "Chrome 官方给 coding agent 的现代 Web 开发指导 skill：把 Web 平台最佳实践与浏览器兼容性数据直接嵌进 agent。 面向 coding agent 的现代 Web 指导 skill、覆盖最佳实践与浏览器兼容性数据、帮 agent 避开 legacy 写法、用上现代 Web 平台能力，由 Chrome、Edge、Firefox 与 MDN 团队共同维护。",
+     "url": "https://github.com/GoogleChrome/modern-web-guidance-src",
+     "tags": [
+      "了解即可"
+     ]
+    },
+    {
+     "rank": "10",
+     "title": "openai/codex-security",
+     "summary": "OpenAI 的 Codex 安全扫描工具：在 Codex 里或用 CLI / SDK 找漏洞、验证修复、生成补丁。 扫描仓库、指定路径或 Git 变更、深度扫描去重、可验证候选发现并生成补丁、起草 SECURITY.md 与威胁模型、导出 SARIF / JSON / CSV、对接 Linear、Jira 与 GitHub。",
+     "url": "https://github.com/openai/codex-security",
+     "tags": [
+      "了解即可"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "github-rising",
+   "title": "Star 增长最快",
+   "shortTitle": "增长最快",
+   "description": "按实际 Star 增量排序",
+   "items": [
+    {
+     "rank": "01",
+     "title": "cloudflare/security-audit-skill",
+     "summary": "较昨日（+10,967）继续加速，总数突破 7 万 star：agent 安全审计 skill 的热度仍在高位，仓库更新仍停留在 2026-09-14，热度是内容回流而非新版本驱动。",
+     "url": "https://github.com/cloudflare/security-audit-skill",
+     "stars": "70.4k",
+     "trend": "+11,507",
+     "tags": [
+      "高增长"
+     ]
+    },
+    {
+     "rank": "02",
+     "title": "mattpocock/skills",
+     "summary": "较昨日（+9,872）小幅回落，总数突破 32.2 万 star：实战派 skill 合集地位稳固。",
+     "url": "https://github.com/mattpocock/skills",
+     "stars": "322.0k",
+     "trend": "+9,575",
+     "tags": [
+      "高增长"
+     ]
+    },
+    {
+     "rank": "03",
+     "title": "milind-soni/OpenMausBot",
+     "summary": "较昨日（+8,951）继续加速，总数突破 2.1 万 star：开源版 Grok Bot 替代品，执行型 bot 的新样本。",
+     "url": "https://github.com/milind-soni/OpenMausBot",
+     "stars": "21.2k",
+     "trend": "+9,257",
+     "tags": [
+      "高增长"
+     ]
+    },
+    {
+     "rank": "04",
+     "title": "NVIDIA/auto-ontology",
+     "summary": "较昨日（+9,621）明显回落，总数较昨日 +389：agent 语义层正在成为新刚需。",
+     "url": "https://github.com/NVIDIA/auto-ontology",
+     "stars": "11.8k",
+     "trend": "+7,947",
+     "tags": [
+      "高增长"
+     ]
+    },
+    {
+     "rank": "05",
+     "title": "vercel-labs/agent-desktop",
+     "summary": "较昨日（+9,502）明显回落，总数突破 2.2 万 star：不用截图的桌面操作 CLI，与 agent-browser 组成 Vercel 的\"agent 电脑使用\"工具链。",
+     "url": "https://github.com/vercel-labs/agent-desktop",
+     "stars": "22.1k",
+     "trend": "+7,772",
+     "tags": [
+      "高增长"
+     ]
+    },
+    {
+     "rank": "06",
+     "title": "D4Vinci/Scrapling",
+     "summary": "较昨日（+7,291）回落，总数稳在 10 万 star 之上：agent 抓取需求持续反哺成熟爬虫框架。",
+     "url": "https://github.com/D4Vinci/Scrapling",
+     "stars": "101.6k",
+     "trend": "+5,814",
+     "tags": [
+      "高增长"
+     ]
+    },
+    {
+     "rank": "07",
+     "title": "anthropics/skills",
+     "summary": "较昨日（+5,014）继续加速，总数逼近 19.4 万 star：官方 skill 供给侧扩张仍在继续。",
+     "url": "https://github.com/anthropics/skills",
+     "stars": "193.1k",
+     "trend": "+5,738",
+     "tags": [
+      "高增长"
+     ]
+    },
+    {
+     "rank": "08",
+     "title": "vercel-labs/agent-browser",
+     "summary": "较昨日（+3,606）继续加速，总数逼近 5 万 star：agent 上网干活的基础设施件。",
+     "url": "https://github.com/vercel-labs/agent-browser",
+     "stars": "49.9k",
+     "trend": "+4,183",
+     "tags": [
+      "高增长"
+     ]
+    },
+    {
+     "rank": "09",
+     "title": "Donchitos/Claude-Code-Game-Studios",
+     "summary": "较昨日（+3,730）回落：49 个 agent 的游戏开发工作室，多 agent 协作的组织形态样本。",
+     "url": "https://github.com/Donchitos/Claude-Code-Game-Studios",
+     "stars": "38.5k",
+     "trend": "+3,150",
+     "tags": [
+      "高增长"
+     ]
+    },
+    {
+     "rank": "10",
+     "title": "zed-industries/zed",
+     "summary": "老牌高性能编辑器重回周榜：agent 时代的编辑器之争仍在继续。",
+     "url": "https://github.com/zed-industries/zed",
+     "stars": "94.7k",
+     "trend": "+2,310",
+     "tags": [
+      "高增长"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "github-new",
+   "title": "值得关注的新项目",
+   "shortTitle": "新项目",
+   "description": "近期创建、增长迅速的有潜力项目",
+   "items": [
+    {
+     "rank": "01",
+     "title": "storytold/craft-anything",
+     "summary": "ArtCraft 系列新作：帮你\"看懂任意软件如何工作，再自己动手做一个\"的工具。 延续 wordcraft / cadcraft / gridcraft / solidcraft 的纯 Rust 干净重实现路线，README 提供中英日韩多语言版本，定位在\"理解软件\"与\"动手复刻\"之间。",
+     "url": "https://github.com/storytold/craft-anything",
+     "tags": [
+      "值得关注"
+     ]
+    },
+    {
+     "rank": "02",
+     "title": "ccch1mneyyy/dsh-Go",
+     "summary": "把 DeepSeek Harness 装进口袋的 Android 客户端：手机上直接跑，也能遥控电脑上的 DSH。 Android 8+ 可用的手机端 Harness、手机本机运行与遥控电脑双模式、中文 README，瞄准\"agent 不只坐在桌前\"的场景。",
+     "url": "https://github.com/ccch1mneyyy/dsh-Go",
+     "tags": [
+      "值得关注"
+     ]
+    },
+    {
+     "rank": "03",
+     "title": "deepseek-ai/dsh-superagent-prototype",
+     "summary": "DeepSeek 刚开源的常驻式主动 coding agent 研究原型：监听 GitHub 与飞书，有人提需求就自己开工单、干活、提 PR 回复。 监听 GitHub / 飞书消息触发任务、每个任务独立 agent 会话与工作目录、Web 面板展示待人工处理事项，配套《探索 Super-agent 设计》文章思路。",
+     "url": "https://github.com/deepseek-ai/dsh-superagent-prototype",
+     "tags": [
+      "值得关注"
+     ]
+    },
+    {
+     "rank": "04",
+     "title": "JuneYaooo/rea-video",
+     "summary": "逆向一切视频：逐个镜头看一段视频是拍的、AI 生成的还是代码做的，再告诉你怎么复刻。 逐镜头分析视频来源（实拍 / AI 生成 / 代码生成）、给出复刻思路、可在 Claude Code / Codex 里运行、提供中英日韩等多语言 README。",
+     "url": "https://github.com/JuneYaooo/rea-video",
+     "tags": [
+      "了解即可"
+     ]
+    },
+    {
+     "rank": "05",
+     "title": "rddmwmddr/android-ad-cleaner",
+     "summary": "关掉国产安卓手机系统里的广告、热搜、资讯推荐与营销推送：不 root、可还原，还支持 AI 智能体一键执行。 一键关闭国产安卓系统广告与营销推送、不 root、可还原、提供桌面客户端（插上手机点几下即可）、支持 AI 智能体一键执行，最新版 v0.4.3 刚修复手机版闪退。",
+     "url": "https://github.com/rddmwmddr/android-ad-cleaner",
+     "tags": [
+      "了解即可"
+     ]
+    }
+   ]
+  }
+ ],
+ "_pipelines": {
+  "github": {
+   "digest": [
+    {
+     "title": "速览",
+     "text": "astryx 单日 +2,776 连续三日登顶日榜，总数逼近 2.5 万 star；开源个人理财应用 sure 单日 +1,078 首次冲进日榜前三。"
+    },
+    {
+     "title": "速览",
+     "text": "Cloudflare 安全审计 skill 周增 +11,507 冲上周榜第一；t3code 七连冠后首次跌出周榜前列，但总数仍涨至 5.7 万 star。"
+    },
+    {
+     "title": "新面孔集中在\"agent",
+     "text": "新面孔集中在\"agent 的基础设施\"：shadcn 的代码审计规划 skill improve、Chrome 官方现代 Web 指导 skill、OpenAI 的 Codex 安全扫描同日上榜；新项目 rea-video 与国产安卓去广告工具 android-ad-cleaner 闯进新项目榜。"
+    }
+   ],
+   "highlight": "astryx 单日 +2,776 连续三日登顶日榜，总数逼近 2.5 万 star；开源个人理财应用 sure 单日 +1,078 首次冲进日榜前三。",
+   "date": "2026-11-12"
+  },
+  "tech-news": {
+   "digest": [
+    {
+     "title": "速览",
+     "text": "Google DeepMind 发布 Gemini Robotics 2.5，人形机器人在奔驰产线分拣成功率达 96%，并开源机器人越狱测试基准 ASIMOV-Jailbreak。"
+    },
+    {
+     "title": "速览",
+     "text": "马斯克确认 Grok 4.8 已进入强化学习阶段，本周内向 Bot 用户软上线；xAI 为此重写了整套 C/C++ 训练与推理栈。"
+    },
+    {
+     "title": "速览",
+     "text": "DeepMind 用 AI 智能体在 4 周内完成 Signal 加密协议核心代码的形式化验证，写出 650 万行机器核查证明。"
+    }
+   ],
+   "highlight": "Google DeepMind 发布 Gemini Robotics 2.5，人形机器人在奔驰产线分拣成功率达 96%，并开源机器人越狱测试基准 ASIMOV-Jailbreak。",
+   "date": "2026-11-11"
+  }
+ },
+ "digest": [
+  {
+   "title": "速览",
+   "text": "astryx 单日 +2,776 连续三日登顶日榜，总数逼近 2.5 万 star；开源个人理财应用 sure 单日 +1,078 首次冲进日榜前三。"
+  },
+  {
+   "title": "速览",
+   "text": "Google DeepMind 发布 Gemini Robotics 2.5，人形机器人在奔驰产线分拣成功率达 96%，并开源机器人越狱测试基准 ASIMOV-Jailbreak。"
+  }
+ ],
+ "intro": "astryx 单日 +2,776 连续三日登顶日榜，总数逼近 2.5 万 star；开源个人理财应用 sure 单日 +1,078 首次冲进日榜前三。 Google DeepMind 发布 Gemini Robotics 2.5，人形机器人在奔驰产线分拣成功率达 96%，并开源机器人越狱测试基准 ASIMOV-Jailbreak。",
+ "tasks": [
+  {
+   "icon": "GH",
+   "name": "GitHub 开源情报",
+   "detail": "Trending · Star 增速 · 新项目",
+   "time": "08:30"
+  },
+  {
+   "icon": "NW",
+   "name": "科技新闻日报",
+   "detail": "新闻聚合 · 中文简报",
+   "time": "09:00"
+  }
+ ],
+ "date": "2026-11-12",
+ "issue": "043",
+ "updatedAt": "00:34 更新"
+}
