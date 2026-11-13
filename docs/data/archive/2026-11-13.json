@@ -1,0 +1,426 @@
+{
+ "sections": [
+  {
+   "id": "tech-ai",
+   "title": "AI 与大模型",
+   "shortTitle": "AI 大模型",
+   "description": "大模型发布与更新",
+   "items": [
+    {
+     "rank": "01",
+     "title": "谷歌发布 Gemini Decisions API，Gemini Decision 1 一次回答 1000 个问题",
+     "summary": "新端点由 Gemini Decision 1 驱动，专为“有界选择”设计：一次请求可携带最多 25.6 万 token 的多模态输入（文本、图片、音频、视频、PDF）并回答最多 1000 个是非、选择或评分问题，返回概率与置信度而非生成文本，端到端延迟 150～250 毫秒。定价为每百万输入 token 0.10 美元，输出不计费，AI Studio 提供免费层。",
+     "url": "https://blog.google/innovation-and-ai/technology/developers-tools/gemini-decisions-api/",
+     "source": "Google DeepMind 官方博客｜2026-11-11",
+     "tags": [
+      "AI 大模型"
+     ]
+    },
+    {
+     "rank": "02",
+     "title": "谷歌 Gemini 4 Carbon 全面开放，优惠价 11 月 30 日到期",
+     "summary": "Gemini 4 Carbon 即日起向所有付费 API 开发者、企业与科学家开放，Google AI Ultra 订阅用户也可在 Gemini 应用、搜索 AI Mode 与 Antigravity 中使用。此前两周它仅向 Fairwind 计划的网络安全防御者开放。定价为每百万输入 token 2 美元、输出 10 美元，11 月 30 日后翻倍至 4 美元 / 20 美元。谷歌称其为迄今最强模型，擅长长程 Agent 工作流与网络",
+     "url": "https://deepmind.google/blog/gemini-4-carbon-is-now-available/",
+     "source": "Google DeepMind｜2026-11-10",
+     "tags": [
+      "AI 大模型"
+     ]
+    },
+    {
+     "rank": "03",
+     "title": "Anthropic 发布 Claude Whiteboards 与 Sheets，Claude 可参会并边开会边干活",
+     "summary": "Claude Whiteboards 与 Claude Sheets 以 beta 上线，面向付费订阅用户：白板可把实时讨论转成共享计划与待办，表格支持多人协作的追踪器与预算（含 144 个函数、10 万单元格上限）；同时 Claude Data（原 Dashboards）正式 GA，可连接 CRM 与数据仓库生成仪表盘与数据故事；交互式连接器（Adobe、Atlassian、Salesforce 等）也同步 GA。Claude Mee",
+     "url": "https://www.unite.ai/anthropic-launches-claude-whiteboards-and-sheets-in-beta/",
+     "source": "Anthropic｜2026-11-10",
+     "tags": [
+      "AI 大模型"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "tech-dev",
+   "title": "AI 工程与开发工具",
+   "shortTitle": "开发工具",
+   "description": "模型部署 · AI 编程 · Agent",
+   "items": [
+    {
+     "rank": "04",
+     "title": "亚马逊用 Strands Decider 替代 Claude Sonnet 4.6，工单分类成本降 98%",
+     "summary": "亚马逊内部大型工单系统（客户升级、容量请求、告警、安全发现，分 20 类）原本用 Claude Sonnet 4.6 打标签，两名工程师将其替换为开源决策模型 Strands Decider（最终选用基于 Gemma 4 的 E4B 构建，跑在 SageMaker 的单张 A10G 实例上）。单张工单成本从 0.0222 美元降至约 0.0005 美元，每百万张约 2.22 万美元降至约 500 美元，降幅 98%，团队称分类效果与 S",
+     "url": "https://strandsagents.com/blog/amazon-saves-millions-replacing-sonnet-with-strands-decider/",
+     "source": "Strands Agents（亚马逊工程师案例）｜2026-11-09",
+     "tags": [
+      "开发工具"
+     ]
+    },
+    {
+     "rank": "05",
+     "title": "Grok Build 被曝 3.5 万个应用无需登录即可访问，含 SpaceXSI 自家机密",
+     "summary": "安全公司 Claroc 在 11 月 10 日发布的“GhostShares 2”报告中称，Grok Build 发布的每个应用都有独立的 grok.me 子域名，域名由随机词组成，可通过被动 DNS 枚举发现。Claroc 尝试了 43551 个地址，其中 37571 个仍在线，35578 个（94.7%）无需登录即可打开并读取其中数据，估计 650～800 个含有真正私密数据。24 个属于 SpaceXSI 与 X 员工的应用（含新",
+     "url": "https://ifynx.com/blog/grok-build-apps-exposed-ghostshares-claroc-ai-app-builder-security-checklist-gulf-egypt/",
+     "source": "Claroc 安全研究 / Ars Technica｜2026-11-10",
+     "tags": [
+      "开发工具"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "tech-industry",
+   "title": "科技行业动态",
+   "shortTitle": "行业动态",
+   "description": "公司动态 · 产品发布 · 芯片与云",
+   "items": [
+    {
+     "rank": "06",
+     "title": "Anthropic 更新招股书：英伟达、谷歌等 7 家供应商拟认购 260 亿美元，11 月 19 日上市",
+     "summary": "更新后的招股文件显示，7 家科技公司计划在 Anthropic IPO 中以私募方式合计认购 260 亿美元股份：英伟达与谷歌各 100 亿美元，AMD 25 亿美元，博通、美光与微软各 10 亿美元，台积电合作伙伴 5 亿美元。IPO 发行 8.25 亿股，定价区间每股 70～78 美元，预计 11 月 18 日定价、11 月 19 日在纳斯达克开始交易；认购方同时也是向 Anthropic 供应芯片、设备与云算力的供应商，认购以 I",
+     "url": "https://bytevyte.com/anthropic-ipo-supplier-placement-2026-11-11/",
+     "source": "Anthropic 更新后招股书（11 月 10 日提交）｜2026-11-11",
+     "tags": [
+      "行业动态"
+     ]
+    },
+    {
+     "rank": "07",
+     "title": "英伟达与 xAI 加入微软、贝莱德、MGX 的 AI 基础设施联盟",
+     "summary": "英伟达与马斯克的 xAI 加入由微软、贝莱德与阿布扎比 MGX 支持的 AI 基础设施联盟，该联盟于 11 月 11 日更名为 AI Infrastructure Partnership，目标是扩大美国 AI 基础设施建设。联盟此前已汇聚云厂商、芯片商与主权资本，此次扩容把 xAI 的算力需求与英伟达的硬件供给进一步绑进同一投资框架。",
+     "url": "https://turbo.gadgets360.com/en/ai/nvidia-elon-musk-xai-microsoft-blackrock-mgx-develop-ai-infrastructure-7966640?utm_source=website&utm_medium=content&utm_campaign=gadgets360turbo",
+     "source": "Gadgets 360｜2026-11-11",
+     "tags": [
+      "行业动态"
+     ]
+    },
+    {
+     "rank": "08",
+     "title": "美联航禁止第三方 AI Agent 代订机票，违者订单可直接取消",
+     "summary": "美联航 11 月 11 日修订运输合同，新增规则禁止使用 AI Agent 订票、改票、办理乘机手续或购买座位、升舱等服务，相关预订可被无通知取消；禁令覆盖官网、App 以及旅行社与聚合平台渠道，且即使用户全程监督批准也不例外。美联航给出的理由是隐私与账户安全风险、误购与里程滥用，以及可能违反 FAA 与美国交通部规定；AI 仍可查询航班与价格，但下单必须由用户本人完成。11 月 11 日之前的 Agent 预订不受影响。",
+     "url": "https://www.usatoday.com/story/travel/airline-news/2026/11/11/united-ai-travel-agents-booking/92728156007/",
+     "source": "USA TODAY｜2026-11-11",
+     "tags": [
+      "行业动态"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "github-hot",
+   "title": "GitHub 今日热门",
+   "shortTitle": "GitHub 热榜",
+   "description": "综合热度、活跃度与实用价值排序",
+   "items": [
+    {
+     "rank": "01",
+     "title": "meta/astryx",
+     "summary": "解决了\"设计系统只给人用、agent 参与构建时没有章法\"的问题；单日 +1,830 连续四日登顶，总数突破 2.6 万 star；适合做 React 界面与设计系统的开发者，Beta 阶段先读文档再接入。",
+     "url": "https://github.com/meta/astryx",
+     "tags": [
+      "强烈推荐"
+     ],
+     "featured": true
+    },
+    {
+     "rank": "02",
+     "title": "we-promise/sure",
+     "summary": "开源的个人理财应用：收支、净资产与支出分析做成干净的仪表盘，还内置一个能回答理财问题的 AI 助手。 现金流、净资产与支出分析仪表盘、内置 AI 助手回答储蓄与支出问题、Ruby 实现、开源可自行部署。",
+     "url": "https://github.com/we-promise/sure",
+     "tags": [
+      "值得关注"
+     ]
+    },
+    {
+     "rank": "03",
+     "title": "addyosmani/agent-skills",
+     "summary": "面向 AI 编程 agent 的生产级工程 skill 合集：把资深工程师的工作方式写成 agent 能直接用的 skill。 生产级工程实践 skill、覆盖代码审查、重构、测试等开发场景、持续更新。",
+     "url": "https://github.com/addyosmani/agent-skills",
+     "tags": [
+      "值得关注"
+     ]
+    },
+    {
+     "rank": "04",
+     "title": "GoogleChrome/modern-web-guidance-src",
+     "summary": "Chrome 官方给 coding agent 的现代 Web 开发指导 skill：把 Web 平台最佳实践与浏览器兼容性数据直接嵌进 agent。 面向 coding agent 的现代 Web 指导 skill、覆盖最佳实践与浏览器兼容性数据、帮 agent 避开 legacy 写法、用上现代 Web 平台能力，由 Chrome、Edge、Firefox 与 MDN 团队共同维护。",
+     "url": "https://github.com/GoogleChrome/modern-web-guidance-src",
+     "tags": [
+      "值得关注"
+     ]
+    },
+    {
+     "rank": "05",
+     "title": "openai/codex-security",
+     "summary": "OpenAI 的 Codex 安全扫描工具：在 Codex 里或用 CLI / SDK 找漏洞、验证修复、生成补丁。 扫描仓库、指定路径或 Git 变更、深度扫描去重、可验证候选发现并生成补丁、起草 SECURITY.md 与威胁模型、导出 SARIF / JSON / CSV、对接 Linear、Jira 与 GitHub。",
+     "url": "https://github.com/openai/codex-security",
+     "tags": [
+      "值得关注"
+     ]
+    },
+    {
+     "rank": "06",
+     "title": "CopilotKit/OpenBot",
+     "summary": "给 AI 同事用的自托管工作台：每个 AI 同事都有一台自己的电脑——浏览器、文件与工具齐全，每一步先决策、事后留记录。 模块化、可自托管的 AI 同事工作空间、自选模型、自带 agent（兼容 AG-UI）、基础设施完全归自己所有、支持 Mac 下载与 Kubernetes 部署。",
+     "url": "https://github.com/CopilotKit/OpenBot",
+     "tags": [
+      "值得关注"
+     ]
+    },
+    {
+     "rank": "07",
+     "title": "QwenLM/qwen-code",
+     "summary": "阿里 Qwen 的开源 AI 编程 agent：住在终端里，也能进编辑器、桌面、浏览器与聊天工具。 终端里的 AI 编程 agent、覆盖编辑器、桌面应用、浏览器与聊天场景、提供中文等多语言文档、npm 安装。",
+     "url": "https://github.com/QwenLM/qwen-code",
+     "tags": [
+      "了解即可"
+     ]
+    },
+    {
+     "rank": "08",
+     "title": "vercel-labs/agent-browser",
+     "summary": "Vercel Labs 给 AI agent 的浏览器：一个 Rust 命令行工具，让 agent 像人一样一步步打开网页、读页面、点元素。 原生 Rust CLI、把页面以无障碍树快照返回给 agent（每个元素带 `@e1` 这样的引用编号）、按引用操作元素并反复读取校验、支持主流 agent 框架调用。",
+     "url": "https://github.com/vercel-labs/agent-browser",
+     "tags": [
+      "值得关注"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "github-rising",
+   "title": "Star 增长最快",
+   "shortTitle": "增长最快",
+   "description": "按实际 Star 增量排序",
+   "items": [
+    {
+     "rank": "01",
+     "title": "cloudflare/security-audit-skill",
+     "summary": "较昨日（+11,507）小幅回落，总数突破 7.1 万 star：agent 安全审计 skill 的热度仍在高位，仓库更新仍停留在 2026-09-14，热度是内容回流而非新版本驱动。",
+     "url": "https://github.com/cloudflare/security-audit-skill",
+     "stars": "71.2k",
+     "trend": "+10,700",
+     "tags": [
+      "高增长"
+     ]
+    },
+    {
+     "rank": "02",
+     "title": "milind-soni/OpenMausBot",
+     "summary": "较昨日（+9,257）小幅回落，总数较昨日 +485：开源版 Grok Bot 替代品，执行型 bot 的新样本。",
+     "url": "https://github.com/milind-soni/OpenMausBot",
+     "stars": "21.7k",
+     "trend": "+9,104",
+     "tags": [
+      "高增长"
+     ]
+    },
+    {
+     "rank": "03",
+     "title": "mattpocock/skills",
+     "summary": "较昨日（+9,575）回落，总数突破 32.3 万 star：实战派 skill 合集地位稳固。",
+     "url": "https://github.com/mattpocock/skills",
+     "stars": "323.0k",
+     "trend": "+8,731",
+     "tags": [
+      "高增长"
+     ]
+    },
+    {
+     "rank": "04",
+     "title": "vercel-labs/agent-desktop",
+     "summary": "较昨日（+7,772）回落，总数较昨日 +637：不用截图的桌面操作 CLI，与 agent-browser 组成 Vercel 的\"agent 电脑使用\"工具链。",
+     "url": "https://github.com/vercel-labs/agent-desktop",
+     "stars": "22.7k",
+     "trend": "+6,414",
+     "tags": [
+      "高增长"
+     ]
+    },
+    {
+     "rank": "05",
+     "title": "anthropics/skills",
+     "summary": "较昨日（+5,738）继续加速，总数逼近 19.4 万 star：官方 skill 供给侧扩张仍在继续。",
+     "url": "https://github.com/anthropics/skills",
+     "stars": "193.7k",
+     "trend": "+6,055",
+     "tags": [
+      "高增长"
+     ]
+    },
+    {
+     "rank": "06",
+     "title": "NVIDIA/auto-ontology",
+     "summary": "较昨日（+7,947）明显回落，总数较昨日 +409：agent 语义层正在成为新刚需。",
+     "url": "https://github.com/NVIDIA/auto-ontology",
+     "stars": "12.2k",
+     "trend": "+5,802",
+     "tags": [
+      "高增长"
+     ]
+    },
+    {
+     "rank": "07",
+     "title": "D4Vinci/Scrapling",
+     "summary": "较昨日（+5,814）回落，总数稳在 10 万 star 之上：agent 抓取需求持续反哺成熟爬虫框架。",
+     "url": "https://github.com/D4Vinci/Scrapling",
+     "stars": "102.1k",
+     "trend": "+4,743",
+     "tags": [
+      "高增长"
+     ]
+    },
+    {
+     "rank": "08",
+     "title": "vercel-labs/agent-browser",
+     "summary": "较昨日（+4,183）继续加速，总数突破 5 万 star：agent 上网干活的基础设施件。",
+     "url": "https://github.com/vercel-labs/agent-browser",
+     "stars": "50.3k",
+     "trend": "+4,601",
+     "tags": [
+      "高增长"
+     ]
+    },
+    {
+     "rank": "09",
+     "title": "zed-industries/zed",
+     "summary": "较昨日（+2,310）基本持平，总数逼近 9.5 万 star：老牌高性能编辑器重回周榜，agent 时代的编辑器之争仍在继续。",
+     "url": "https://github.com/zed-industries/zed",
+     "stars": "94.8k",
+     "trend": "+2,339",
+     "tags": [
+      "高增长"
+     ]
+    },
+    {
+     "rank": "10",
+     "title": "google/skills",
+     "summary": "较昨日总数 +127：Google 官方 skill 仓库稳步跟进，官方 skill 供给侧持续扩张。",
+     "url": "https://github.com/google/skills",
+     "stars": "24.1k",
+     "trend": "+1,933",
+     "tags": [
+      "高增长"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "github-new",
+   "title": "值得关注的新项目",
+   "shortTitle": "新项目",
+   "description": "近期创建、增长迅速的有潜力项目",
+   "items": [
+    {
+     "rank": "01",
+     "title": "storytold/craft-anything",
+     "summary": "ArtCraft 系列新作：帮你\"看懂任意软件如何工作，再自己动手做一个\"的工具。 延续 wordcraft / cadcraft / gridcraft / solidcraft 的纯 Rust 干净重实现路线，README 提供中英日韩多语言版本，定位在\"理解软件\"与\"动手复刻\"之间。",
+     "url": "https://github.com/storytold/craft-anything",
+     "tags": [
+      "值得关注"
+     ]
+    },
+    {
+     "rank": "02",
+     "title": "ccch1mneyyy/dsh-Go",
+     "summary": "把 DeepSeek Harness 装进口袋的 Android 客户端：手机上直接跑，也能遥控电脑上的 DSH。 Android 8+ 可用的手机端 Harness、手机本机运行与遥控电脑双模式、中文 README，瞄准\"agent 不只坐在桌前\"的场景。",
+     "url": "https://github.com/ccch1mneyyy/dsh-Go",
+     "tags": [
+      "值得关注"
+     ]
+    },
+    {
+     "rank": "03",
+     "title": "janestreet/agent_skills",
+     "summary": "Jane Street 开源的 agent skill 合集：把投研公司的做事方法写成 agent 能直接用的 skill。 每个 skill 一个目录、内含 SKILL.md 指令文件，首个 skill 是苏格拉底式导师（socratic-tutor）：诊断、技能地图分级、一次一问、间隔复习与期末测评，README 在 master 分支。",
+     "url": "https://github.com/janestreet/agent_skills",
+     "tags": [
+      "了解即可"
+     ]
+    },
+    {
+     "rank": "04",
+     "title": "anefzaoui/misterdownloadmanager",
+     "summary": "纯 Rust 从头写的开源下载器：对标 IDM 的速度，免费、跨平台，还带浏览器扩展。 纯 Rust 干净重写（clean-room 实现）、Windows / macOS / Linux 三端可用、配套浏览器扩展、官网提供下载与帮助文档。",
+     "url": "https://github.com/anefzaoui/misterdownloadmanager",
+     "tags": [
+      "了解即可"
+     ]
+    },
+    {
+     "rank": "05",
+     "title": "deepseek-ai/dsh-superagent-prototype",
+     "summary": "DeepSeek 刚开源的常驻式主动 coding agent 研究原型：监听 GitHub 与飞书，有人提需求就自己开工单、干活、提 PR 回复。 监听 GitHub / 飞书消息触发任务、每个任务独立 agent 会话与工作目录、Web 面板展示待人工处理事项，配套《探索 Super-agent 设计》文章思路。",
+     "url": "https://github.com/deepseek-ai/dsh-superagent-prototype",
+     "tags": [
+      "值得关注"
+     ]
+    }
+   ]
+  }
+ ],
+ "_pipelines": {
+  "github": {
+   "digest": [
+    {
+     "title": "速览",
+     "text": "astryx 单日 +1,830 连续四日登顶日榜，总数突破 2.6 万 star；Chrome 官方现代 Web 指导 skill 单日 +739 大幅加速，总数较昨日 +1,165。"
+    },
+    {
+     "title": "速览",
+     "text": "Cloudflare 安全审计 skill 周增 +10,700 蝉联周榜第一；agent-browser 周增 +4,601、总数突破 5 万 star；t3code 首次跌出周榜前列，但总数仍涨至 5.8 万 star。"
+    },
+    {
+     "title": "新面孔集中出现",
+     "text": "新面孔集中出现：CopilotKit 的 AI 同事工作台 OpenBot 与 Qwen 终端编程 agent qwen-code 同日进日榜；Jane Street 的 agent skill 与纯 Rust 下载器 misterdownloadmanager 闯进新项目榜。"
+    }
+   ],
+   "highlight": "astryx 单日 +1,830 连续四日登顶日榜，总数突破 2.6 万 star；Chrome 官方现代 Web 指导 skill 单日 +739 大幅加速，总数较昨日 +1,165。",
+   "date": "2026-11-13"
+  },
+  "tech-news": {
+   "digest": [
+    {
+     "title": "谷歌连发两弹",
+     "text": "谷歌连发两弹：Gemini 4 Carbon 全面开放，Gemini Decisions API 让模型“只做选择、不写字”。"
+    },
+    {
+     "title": "Anthropic 把 ",
+     "text": "Anthropic 把 Claude 变成会议室同事：Whiteboards 与 Sheets 上线，IPO 又获英伟达、谷歌等供应商 260 亿美元认购。"
+    },
+    {
+     "title": "速览",
+     "text": "美联航率先禁止第三方 AI Agent 代订机票；Grok Build 被曝 3.5 万个应用无需登录即可访问。"
+    }
+   ],
+   "highlight": "谷歌连发两弹：Gemini 4 Carbon 全面开放，Gemini Decisions API 让模型“只做选择、不写字”。",
+   "date": "2026-11-12"
+  }
+ },
+ "digest": [
+  {
+   "title": "速览",
+   "text": "astryx 单日 +1,830 连续四日登顶日榜，总数突破 2.6 万 star；Chrome 官方现代 Web 指导 skill 单日 +739 大幅加速，总数较昨日 +1,165。"
+  },
+  {
+   "title": "谷歌连发两弹",
+   "text": "谷歌连发两弹：Gemini 4 Carbon 全面开放，Gemini Decisions API 让模型“只做选择、不写字”。"
+  }
+ ],
+ "intro": "astryx 单日 +1,830 连续四日登顶日榜，总数突破 2.6 万 star；Chrome 官方现代 Web 指导 skill 单日 +739 大幅加速，总数较昨日 +1,165。 谷歌连发两弹：Gemini 4 Carbon 全面开放，Gemini Decisions API 让模型“只做选择、不写字”。",
+ "tasks": [
+  {
+   "icon": "GH",
+   "name": "GitHub 开源情报",
+   "detail": "Trending · Star 增速 · 新项目",
+   "time": "08:30"
+  },
+  {
+   "icon": "NW",
+   "name": "科技新闻日报",
+   "detail": "新闻聚合 · 中文简报",
+   "time": "09:00"
+  }
+ ],
+ "date": "2026-11-13",
+ "issue": "044",
+ "updatedAt": "00:36 更新"
+}
