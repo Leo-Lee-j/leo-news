@@ -1,276 +1,6 @@
 {
  "sections": [
   {
-   "id": "github-hot",
-   "title": "GitHub 今日热门",
-   "shortTitle": "GitHub 热榜",
-   "description": "综合热度、活跃度与实用价值排序",
-   "items": [
-    {
-     "rank": "01",
-     "title": "meta/astryx",
-     "summary": "解决了\"设计系统只给人用、agent 参与构建时没有章法\"的问题；单日 +2,776 连续三日登顶，总数逼近 2.5 万 star；适合做 React 界面与设计系统的开发者，Beta 阶段先读文档再接入。",
-     "url": "https://github.com/meta/astryx",
-     "tags": [
-      "强烈推荐"
-     ],
-     "featured": true
-    },
-    {
-     "rank": "02",
-     "title": "we-promise/sure",
-     "summary": "开源的个人理财应用：收支、净资产与支出分析做成干净的仪表盘，还内置一个能回答理财问题的 AI 助手。 现金流、净资产与支出分析仪表盘、内置 AI 助手回答储蓄与支出问题、Ruby 实现、开源可自行部署。",
-     "url": "https://github.com/we-promise/sure",
-     "tags": [
-      "值得关注"
-     ]
-    },
-    {
-     "rank": "03",
-     "title": "addyosmani/agent-skills",
-     "summary": "面向 AI 编程 agent 的生产级工程 skill 合集：把资深工程师的工作方式写成 agent 能直接用的 skill。 生产级工程实践 skill、覆盖代码审查、重构、测试等开发场景、持续更新。",
-     "url": "https://github.com/addyosmani/agent-skills",
-     "tags": [
-      "值得关注"
-     ]
-    },
-    {
-     "rank": "04",
-     "title": "vercel-labs/agent-browser",
-     "summary": "Vercel Labs 给 AI agent 的浏览器：一个 Rust 命令行工具，让 agent 像人一样一步步打开网页、读页面、点元素。 原生 Rust CLI、把页面以无障碍树快照返回给 agent（每个元素带 `@e1` 这样的引用编号）、按引用操作元素并反复读取校验、支持主流 agent 框架调用。",
-     "url": "https://github.com/vercel-labs/agent-browser",
-     "tags": [
-      "值得关注"
-     ]
-    },
-    {
-     "rank": "05",
-     "title": "homeassistant-ai/ha-mcp",
-     "summary": "Home Assistant 官方的 MCP 服务器：让 Claude、ChatGPT 等 AI 助手直接配置与操控你家里的智能家居。 87 个工具覆盖 Home Assistant 的配置与自动化、支持 Claude 与 ChatGPT 等主流助手、配套 E2E 测试与版本化发布，README 在 master 分支。",
-     "url": "https://github.com/homeassistant-ai/ha-mcp",
-     "tags": [
-      "值得关注"
-     ]
-    },
-    {
-     "rank": "06",
-     "title": "shadcn/improve",
-     "summary": "shadcn 写给 agent 的代码审计 skill：让最强的模型只做\"读代码、判断优先级、写实施方案\"，执行交给便宜模型。 全量 / 快速 / 深度 / 安全等多档审计模式、输出自包含的 Markdown 实施方案（plans/ 目录）、skill 本身不写一行代码，\"方案就是产品\"、一行 npx 安装，兼容 Agent Skills 格式。",
-     "url": "https://github.com/shadcn/improve",
-     "tags": [
-      "值得关注"
-     ]
-    },
-    {
-     "rank": "07",
-     "title": "ZhuLinsen/daily_stock_analysis",
-     "summary": "LLM 驱动的多市场股票智能分析系统：多源行情、实时新闻、决策看板与自动推送，零成本定时运行。 多市场行情与实时新闻聚合、LLM 生成分析与决策建议、看板展示与自动推送、GitHub Actions 定时运行零成本、Docker 部署，配套 arXiv 论文。",
-     "url": "https://github.com/ZhuLinsen/daily_stock_analysis",
-     "tags": [
-      "了解即可"
-     ]
-    },
-    {
-     "rank": "08",
-     "title": "herdrdev/herdr",
-     "summary": "给 coding agent 住的\"运行时\"：多台机器上的 agent 会话统一管理，断线、重启也不丢活。 后台服务托管终端会话，关闭客户端或断网也不停工、机器重启后恢复布局并可续跑支持的 agent 会话、多台机器（本地 + SSH）合并到一个窗口、每个面板标注工作 / 阻塞 / 空闲状态、agent 可通过 CLI 与 socket API 互相驱动。",
-     "url": "https://github.com/herdrdev/herdr",
-     "tags": [
-      "了解即可"
-     ]
-    },
-    {
-     "rank": "09",
-     "title": "GoogleChrome/modern-web-guidance-src",
-     "summary": "Chrome 官方给 coding agent 的现代 Web 开发指导 skill：把 Web 平台最佳实践与浏览器兼容性数据直接嵌进 agent。 面向 coding agent 的现代 Web 指导 skill、覆盖最佳实践与浏览器兼容性数据、帮 agent 避开 legacy 写法、用上现代 Web 平台能力，由 Chrome、Edge、Firefox 与 MDN 团队共同维护。",
-     "url": "https://github.com/GoogleChrome/modern-web-guidance-src",
-     "tags": [
-      "了解即可"
-     ]
-    },
-    {
-     "rank": "10",
-     "title": "openai/codex-security",
-     "summary": "OpenAI 的 Codex 安全扫描工具：在 Codex 里或用 CLI / SDK 找漏洞、验证修复、生成补丁。 扫描仓库、指定路径或 Git 变更、深度扫描去重、可验证候选发现并生成补丁、起草 SECURITY.md 与威胁模型、导出 SARIF / JSON / CSV、对接 Linear、Jira 与 GitHub。",
-     "url": "https://github.com/openai/codex-security",
-     "tags": [
-      "了解即可"
-     ]
-    }
-   ]
-  },
-  {
-   "id": "github-rising",
-   "title": "Star 增长最快",
-   "shortTitle": "增长最快",
-   "description": "按实际 Star 增量排序",
-   "items": [
-    {
-     "rank": "01",
-     "title": "cloudflare/security-audit-skill",
-     "summary": "较昨日（+10,967）继续加速，总数突破 7 万 star：agent 安全审计 skill 的热度仍在高位，仓库更新仍停留在 2026-09-14，热度是内容回流而非新版本驱动。",
-     "url": "https://github.com/cloudflare/security-audit-skill",
-     "stars": "70.4k",
-     "trend": "+11,507",
-     "tags": [
-      "高增长"
-     ]
-    },
-    {
-     "rank": "02",
-     "title": "mattpocock/skills",
-     "summary": "较昨日（+9,872）小幅回落，总数突破 32.2 万 star：实战派 skill 合集地位稳固。",
-     "url": "https://github.com/mattpocock/skills",
-     "stars": "322.0k",
-     "trend": "+9,575",
-     "tags": [
-      "高增长"
-     ]
-    },
-    {
-     "rank": "03",
-     "title": "milind-soni/OpenMausBot",
-     "summary": "较昨日（+8,951）继续加速，总数突破 2.1 万 star：开源版 Grok Bot 替代品，执行型 bot 的新样本。",
-     "url": "https://github.com/milind-soni/OpenMausBot",
-     "stars": "21.2k",
-     "trend": "+9,257",
-     "tags": [
-      "高增长"
-     ]
-    },
-    {
-     "rank": "04",
-     "title": "NVIDIA/auto-ontology",
-     "summary": "较昨日（+9,621）明显回落，总数较昨日 +389：agent 语义层正在成为新刚需。",
-     "url": "https://github.com/NVIDIA/auto-ontology",
-     "stars": "11.8k",
-     "trend": "+7,947",
-     "tags": [
-      "高增长"
-     ]
-    },
-    {
-     "rank": "05",
-     "title": "vercel-labs/agent-desktop",
-     "summary": "较昨日（+9,502）明显回落，总数突破 2.2 万 star：不用截图的桌面操作 CLI，与 agent-browser 组成 Vercel 的\"agent 电脑使用\"工具链。",
-     "url": "https://github.com/vercel-labs/agent-desktop",
-     "stars": "22.1k",
-     "trend": "+7,772",
-     "tags": [
-      "高增长"
-     ]
-    },
-    {
-     "rank": "06",
-     "title": "D4Vinci/Scrapling",
-     "summary": "较昨日（+7,291）回落，总数稳在 10 万 star 之上：agent 抓取需求持续反哺成熟爬虫框架。",
-     "url": "https://github.com/D4Vinci/Scrapling",
-     "stars": "101.6k",
-     "trend": "+5,814",
-     "tags": [
-      "高增长"
-     ]
-    },
-    {
-     "rank": "07",
-     "title": "anthropics/skills",
-     "summary": "较昨日（+5,014）继续加速，总数逼近 19.4 万 star：官方 skill 供给侧扩张仍在继续。",
-     "url": "https://github.com/anthropics/skills",
-     "stars": "193.1k",
-     "trend": "+5,738",
-     "tags": [
-      "高增长"
-     ]
-    },
-    {
-     "rank": "08",
-     "title": "vercel-labs/agent-browser",
-     "summary": "较昨日（+3,606）继续加速，总数逼近 5 万 star：agent 上网干活的基础设施件。",
-     "url": "https://github.com/vercel-labs/agent-browser",
-     "stars": "49.9k",
-     "trend": "+4,183",
-     "tags": [
-      "高增长"
-     ]
-    },
-    {
-     "rank": "09",
-     "title": "Donchitos/Claude-Code-Game-Studios",
-     "summary": "较昨日（+3,730）回落：49 个 agent 的游戏开发工作室，多 agent 协作的组织形态样本。",
-     "url": "https://github.com/Donchitos/Claude-Code-Game-Studios",
-     "stars": "38.5k",
-     "trend": "+3,150",
-     "tags": [
-      "高增长"
-     ]
-    },
-    {
-     "rank": "10",
-     "title": "zed-industries/zed",
-     "summary": "老牌高性能编辑器重回周榜：agent 时代的编辑器之争仍在继续。",
-     "url": "https://github.com/zed-industries/zed",
-     "stars": "94.7k",
-     "trend": "+2,310",
-     "tags": [
-      "高增长"
-     ]
-    }
-   ]
-  },
-  {
-   "id": "github-new",
-   "title": "值得关注的新项目",
-   "shortTitle": "新项目",
-   "description": "近期创建、增长迅速的有潜力项目",
-   "items": [
-    {
-     "rank": "01",
-     "title": "storytold/craft-anything",
-     "summary": "ArtCraft 系列新作：帮你\"看懂任意软件如何工作，再自己动手做一个\"的工具。 延续 wordcraft / cadcraft / gridcraft / solidcraft 的纯 Rust 干净重实现路线，README 提供中英日韩多语言版本，定位在\"理解软件\"与\"动手复刻\"之间。",
-     "url": "https://github.com/storytold/craft-anything",
-     "tags": [
-      "值得关注"
-     ]
-    },
-    {
-     "rank": "02",
-     "title": "ccch1mneyyy/dsh-Go",
-     "summary": "把 DeepSeek Harness 装进口袋的 Android 客户端：手机上直接跑，也能遥控电脑上的 DSH。 Android 8+ 可用的手机端 Harness、手机本机运行与遥控电脑双模式、中文 README，瞄准\"agent 不只坐在桌前\"的场景。",
-     "url": "https://github.com/ccch1mneyyy/dsh-Go",
-     "tags": [
-      "值得关注"
-     ]
-    },
-    {
-     "rank": "03",
-     "title": "deepseek-ai/dsh-superagent-prototype",
-     "summary": "DeepSeek 刚开源的常驻式主动 coding agent 研究原型：监听 GitHub 与飞书，有人提需求就自己开工单、干活、提 PR 回复。 监听 GitHub / 飞书消息触发任务、每个任务独立 agent 会话与工作目录、Web 面板展示待人工处理事项，配套《探索 Super-agent 设计》文章思路。",
-     "url": "https://github.com/deepseek-ai/dsh-superagent-prototype",
-     "tags": [
-      "值得关注"
-     ]
-    },
-    {
-     "rank": "04",
-     "title": "JuneYaooo/rea-video",
-     "summary": "逆向一切视频：逐个镜头看一段视频是拍的、AI 生成的还是代码做的，再告诉你怎么复刻。 逐镜头分析视频来源（实拍 / AI 生成 / 代码生成）、给出复刻思路、可在 Claude Code / Codex 里运行、提供中英日韩等多语言 README。",
-     "url": "https://github.com/JuneYaooo/rea-video",
-     "tags": [
-      "了解即可"
-     ]
-    },
-    {
-     "rank": "05",
-     "title": "rddmwmddr/android-ad-cleaner",
-     "summary": "关掉国产安卓手机系统里的广告、热搜、资讯推荐与营销推送：不 root、可还原，还支持 AI 智能体一键执行。 一键关闭国产安卓系统广告与营销推送、不 root、可还原、提供桌面客户端（插上手机点几下即可）、支持 AI 智能体一键执行，最新版 v0.4.3 刚修复手机版闪退。",
-     "url": "https://github.com/rddmwmddr/android-ad-cleaner",
-     "tags": [
-      "了解即可"
-     ]
-    }
-   ]
-  },
-  {
    "id": "tech-ai",
    "title": "AI 与大模型",
    "shortTitle": "AI 大模型",
@@ -373,6 +103,258 @@
      ]
     }
    ]
+  },
+  {
+   "id": "github-hot",
+   "title": "GitHub 今日热门",
+   "shortTitle": "GitHub 热榜",
+   "description": "综合热度、活跃度与实用价值排序",
+   "items": [
+    {
+     "rank": "01",
+     "title": "meta/astryx",
+     "summary": "解决了\"设计系统只给人用、agent 参与构建时没有章法\"的问题；单日 +1,830 连续四日登顶，总数突破 2.6 万 star；适合做 React 界面与设计系统的开发者，Beta 阶段先读文档再接入。",
+     "url": "https://github.com/meta/astryx",
+     "tags": [
+      "强烈推荐"
+     ],
+     "featured": true
+    },
+    {
+     "rank": "02",
+     "title": "we-promise/sure",
+     "summary": "开源的个人理财应用：收支、净资产与支出分析做成干净的仪表盘，还内置一个能回答理财问题的 AI 助手。 现金流、净资产与支出分析仪表盘、内置 AI 助手回答储蓄与支出问题、Ruby 实现、开源可自行部署。",
+     "url": "https://github.com/we-promise/sure",
+     "tags": [
+      "值得关注"
+     ]
+    },
+    {
+     "rank": "03",
+     "title": "addyosmani/agent-skills",
+     "summary": "面向 AI 编程 agent 的生产级工程 skill 合集：把资深工程师的工作方式写成 agent 能直接用的 skill。 生产级工程实践 skill、覆盖代码审查、重构、测试等开发场景、持续更新。",
+     "url": "https://github.com/addyosmani/agent-skills",
+     "tags": [
+      "值得关注"
+     ]
+    },
+    {
+     "rank": "04",
+     "title": "GoogleChrome/modern-web-guidance-src",
+     "summary": "Chrome 官方给 coding agent 的现代 Web 开发指导 skill：把 Web 平台最佳实践与浏览器兼容性数据直接嵌进 agent。 面向 coding agent 的现代 Web 指导 skill、覆盖最佳实践与浏览器兼容性数据、帮 agent 避开 legacy 写法、用上现代 Web 平台能力，由 Chrome、Edge、Firefox 与 MDN 团队共同维护。",
+     "url": "https://github.com/GoogleChrome/modern-web-guidance-src",
+     "tags": [
+      "值得关注"
+     ]
+    },
+    {
+     "rank": "05",
+     "title": "openai/codex-security",
+     "summary": "OpenAI 的 Codex 安全扫描工具：在 Codex 里或用 CLI / SDK 找漏洞、验证修复、生成补丁。 扫描仓库、指定路径或 Git 变更、深度扫描去重、可验证候选发现并生成补丁、起草 SECURITY.md 与威胁模型、导出 SARIF / JSON / CSV、对接 Linear、Jira 与 GitHub。",
+     "url": "https://github.com/openai/codex-security",
+     "tags": [
+      "值得关注"
+     ]
+    },
+    {
+     "rank": "06",
+     "title": "CopilotKit/OpenBot",
+     "summary": "给 AI 同事用的自托管工作台：每个 AI 同事都有一台自己的电脑——浏览器、文件与工具齐全，每一步先决策、事后留记录。 模块化、可自托管的 AI 同事工作空间、自选模型、自带 agent（兼容 AG-UI）、基础设施完全归自己所有、支持 Mac 下载与 Kubernetes 部署。",
+     "url": "https://github.com/CopilotKit/OpenBot",
+     "tags": [
+      "值得关注"
+     ]
+    },
+    {
+     "rank": "07",
+     "title": "QwenLM/qwen-code",
+     "summary": "阿里 Qwen 的开源 AI 编程 agent：住在终端里，也能进编辑器、桌面、浏览器与聊天工具。 终端里的 AI 编程 agent、覆盖编辑器、桌面应用、浏览器与聊天场景、提供中文等多语言文档、npm 安装。",
+     "url": "https://github.com/QwenLM/qwen-code",
+     "tags": [
+      "了解即可"
+     ]
+    },
+    {
+     "rank": "08",
+     "title": "vercel-labs/agent-browser",
+     "summary": "Vercel Labs 给 AI agent 的浏览器：一个 Rust 命令行工具，让 agent 像人一样一步步打开网页、读页面、点元素。 原生 Rust CLI、把页面以无障碍树快照返回给 agent（每个元素带 `@e1` 这样的引用编号）、按引用操作元素并反复读取校验、支持主流 agent 框架调用。",
+     "url": "https://github.com/vercel-labs/agent-browser",
+     "tags": [
+      "值得关注"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "github-rising",
+   "title": "Star 增长最快",
+   "shortTitle": "增长最快",
+   "description": "按实际 Star 增量排序",
+   "items": [
+    {
+     "rank": "01",
+     "title": "cloudflare/security-audit-skill",
+     "summary": "较昨日（+11,507）小幅回落，总数突破 7.1 万 star：agent 安全审计 skill 的热度仍在高位，仓库更新仍停留在 2026-09-14，热度是内容回流而非新版本驱动。",
+     "url": "https://github.com/cloudflare/security-audit-skill",
+     "stars": "71.2k",
+     "trend": "+10,700",
+     "tags": [
+      "高增长"
+     ]
+    },
+    {
+     "rank": "02",
+     "title": "milind-soni/OpenMausBot",
+     "summary": "较昨日（+9,257）小幅回落，总数较昨日 +485：开源版 Grok Bot 替代品，执行型 bot 的新样本。",
+     "url": "https://github.com/milind-soni/OpenMausBot",
+     "stars": "21.7k",
+     "trend": "+9,104",
+     "tags": [
+      "高增长"
+     ]
+    },
+    {
+     "rank": "03",
+     "title": "mattpocock/skills",
+     "summary": "较昨日（+9,575）回落，总数突破 32.3 万 star：实战派 skill 合集地位稳固。",
+     "url": "https://github.com/mattpocock/skills",
+     "stars": "323.0k",
+     "trend": "+8,731",
+     "tags": [
+      "高增长"
+     ]
+    },
+    {
+     "rank": "04",
+     "title": "vercel-labs/agent-desktop",
+     "summary": "较昨日（+7,772）回落，总数较昨日 +637：不用截图的桌面操作 CLI，与 agent-browser 组成 Vercel 的\"agent 电脑使用\"工具链。",
+     "url": "https://github.com/vercel-labs/agent-desktop",
+     "stars": "22.7k",
+     "trend": "+6,414",
+     "tags": [
+      "高增长"
+     ]
+    },
+    {
+     "rank": "05",
+     "title": "anthropics/skills",
+     "summary": "较昨日（+5,738）继续加速，总数逼近 19.4 万 star：官方 skill 供给侧扩张仍在继续。",
+     "url": "https://github.com/anthropics/skills",
+     "stars": "193.7k",
+     "trend": "+6,055",
+     "tags": [
+      "高增长"
+     ]
+    },
+    {
+     "rank": "06",
+     "title": "NVIDIA/auto-ontology",
+     "summary": "较昨日（+7,947）明显回落，总数较昨日 +409：agent 语义层正在成为新刚需。",
+     "url": "https://github.com/NVIDIA/auto-ontology",
+     "stars": "12.2k",
+     "trend": "+5,802",
+     "tags": [
+      "高增长"
+     ]
+    },
+    {
+     "rank": "07",
+     "title": "D4Vinci/Scrapling",
+     "summary": "较昨日（+5,814）回落，总数稳在 10 万 star 之上：agent 抓取需求持续反哺成熟爬虫框架。",
+     "url": "https://github.com/D4Vinci/Scrapling",
+     "stars": "102.1k",
+     "trend": "+4,743",
+     "tags": [
+      "高增长"
+     ]
+    },
+    {
+     "rank": "08",
+     "title": "vercel-labs/agent-browser",
+     "summary": "较昨日（+4,183）继续加速，总数突破 5 万 star：agent 上网干活的基础设施件。",
+     "url": "https://github.com/vercel-labs/agent-browser",
+     "stars": "50.3k",
+     "trend": "+4,601",
+     "tags": [
+      "高增长"
+     ]
+    },
+    {
+     "rank": "09",
+     "title": "zed-industries/zed",
+     "summary": "较昨日（+2,310）基本持平，总数逼近 9.5 万 star：老牌高性能编辑器重回周榜，agent 时代的编辑器之争仍在继续。",
+     "url": "https://github.com/zed-industries/zed",
+     "stars": "94.8k",
+     "trend": "+2,339",
+     "tags": [
+      "高增长"
+     ]
+    },
+    {
+     "rank": "10",
+     "title": "google/skills",
+     "summary": "较昨日总数 +127：Google 官方 skill 仓库稳步跟进，官方 skill 供给侧持续扩张。",
+     "url": "https://github.com/google/skills",
+     "stars": "24.1k",
+     "trend": "+1,933",
+     "tags": [
+      "高增长"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "github-new",
+   "title": "值得关注的新项目",
+   "shortTitle": "新项目",
+   "description": "近期创建、增长迅速的有潜力项目",
+   "items": [
+    {
+     "rank": "01",
+     "title": "storytold/craft-anything",
+     "summary": "ArtCraft 系列新作：帮你\"看懂任意软件如何工作，再自己动手做一个\"的工具。 延续 wordcraft / cadcraft / gridcraft / solidcraft 的纯 Rust 干净重实现路线，README 提供中英日韩多语言版本，定位在\"理解软件\"与\"动手复刻\"之间。",
+     "url": "https://github.com/storytold/craft-anything",
+     "tags": [
+      "值得关注"
+     ]
+    },
+    {
+     "rank": "02",
+     "title": "ccch1mneyyy/dsh-Go",
+     "summary": "把 DeepSeek Harness 装进口袋的 Android 客户端：手机上直接跑，也能遥控电脑上的 DSH。 Android 8+ 可用的手机端 Harness、手机本机运行与遥控电脑双模式、中文 README，瞄准\"agent 不只坐在桌前\"的场景。",
+     "url": "https://github.com/ccch1mneyyy/dsh-Go",
+     "tags": [
+      "值得关注"
+     ]
+    },
+    {
+     "rank": "03",
+     "title": "janestreet/agent_skills",
+     "summary": "Jane Street 开源的 agent skill 合集：把投研公司的做事方法写成 agent 能直接用的 skill。 每个 skill 一个目录、内含 SKILL.md 指令文件，首个 skill 是苏格拉底式导师（socratic-tutor）：诊断、技能地图分级、一次一问、间隔复习与期末测评，README 在 master 分支。",
+     "url": "https://github.com/janestreet/agent_skills",
+     "tags": [
+      "了解即可"
+     ]
+    },
+    {
+     "rank": "04",
+     "title": "anefzaoui/misterdownloadmanager",
+     "summary": "纯 Rust 从头写的开源下载器：对标 IDM 的速度，免费、跨平台，还带浏览器扩展。 纯 Rust 干净重写（clean-room 实现）、Windows / macOS / Linux 三端可用、配套浏览器扩展、官网提供下载与帮助文档。",
+     "url": "https://github.com/anefzaoui/misterdownloadmanager",
+     "tags": [
+      "了解即可"
+     ]
+    },
+    {
+     "rank": "05",
+     "title": "deepseek-ai/dsh-superagent-prototype",
+     "summary": "DeepSeek 刚开源的常驻式主动 coding agent 研究原型：监听 GitHub 与飞书，有人提需求就自己开工单、干活、提 PR 回复。 监听 GitHub / 飞书消息触发任务、每个任务独立 agent 会话与工作目录、Web 面板展示待人工处理事项，配套《探索 Super-agent 设计》文章思路。",
+     "url": "https://github.com/deepseek-ai/dsh-superagent-prototype",
+     "tags": [
+      "值得关注"
+     ]
+    }
+   ]
   }
  ],
  "_pipelines": {
@@ -380,19 +362,19 @@
    "digest": [
     {
      "title": "速览",
-     "text": "astryx 单日 +2,776 连续三日登顶日榜，总数逼近 2.5 万 star；开源个人理财应用 sure 单日 +1,078 首次冲进日榜前三。"
+     "text": "astryx 单日 +1,830 连续四日登顶日榜，总数突破 2.6 万 star；Chrome 官方现代 Web 指导 skill 单日 +739 大幅加速，总数较昨日 +1,165。"
     },
     {
      "title": "速览",
-     "text": "Cloudflare 安全审计 skill 周增 +11,507 冲上周榜第一；t3code 七连冠后首次跌出周榜前列，但总数仍涨至 5.7 万 star。"
+     "text": "Cloudflare 安全审计 skill 周增 +10,700 蝉联周榜第一；agent-browser 周增 +4,601、总数突破 5 万 star；t3code 首次跌出周榜前列，但总数仍涨至 5.8 万 star。"
     },
     {
-     "title": "新面孔集中在\"agent",
-     "text": "新面孔集中在\"agent 的基础设施\"：shadcn 的代码审计规划 skill improve、Chrome 官方现代 Web 指导 skill、OpenAI 的 Codex 安全扫描同日上榜；新项目 rea-video 与国产安卓去广告工具 android-ad-cleaner 闯进新项目榜。"
+     "title": "新面孔集中出现",
+     "text": "新面孔集中出现：CopilotKit 的 AI 同事工作台 OpenBot 与 Qwen 终端编程 agent qwen-code 同日进日榜；Jane Street 的 agent skill 与纯 Rust 下载器 misterdownloadmanager 闯进新项目榜。"
     }
    ],
-   "highlight": "astryx 单日 +2,776 连续三日登顶日榜，总数逼近 2.5 万 star；开源个人理财应用 sure 单日 +1,078 首次冲进日榜前三。",
-   "date": "2026-11-12"
+   "highlight": "astryx 单日 +1,830 连续四日登顶日榜，总数突破 2.6 万 star；Chrome 官方现代 Web 指导 skill 单日 +739 大幅加速，总数较昨日 +1,165。",
+   "date": "2026-11-13"
   },
   "tech-news": {
    "digest": [
@@ -416,14 +398,14 @@
  "digest": [
   {
    "title": "速览",
-   "text": "astryx 单日 +2,776 连续三日登顶日榜，总数逼近 2.5 万 star；开源个人理财应用 sure 单日 +1,078 首次冲进日榜前三。"
+   "text": "astryx 单日 +1,830 连续四日登顶日榜，总数突破 2.6 万 star；Chrome 官方现代 Web 指导 skill 单日 +739 大幅加速，总数较昨日 +1,165。"
   },
   {
    "title": "谷歌连发两弹",
    "text": "谷歌连发两弹：Gemini 4 Carbon 全面开放，Gemini Decisions API 让模型“只做选择、不写字”。"
   }
  ],
- "intro": "astryx 单日 +2,776 连续三日登顶日榜，总数逼近 2.5 万 star；开源个人理财应用 sure 单日 +1,078 首次冲进日榜前三。 谷歌连发两弹：Gemini 4 Carbon 全面开放，Gemini Decisions API 让模型“只做选择、不写字”。",
+ "intro": "astryx 单日 +1,830 连续四日登顶日榜，总数突破 2.6 万 star；Chrome 官方现代 Web 指导 skill 单日 +739 大幅加速，总数较昨日 +1,165。 谷歌连发两弹：Gemini 4 Carbon 全面开放，Gemini Decisions API 让模型“只做选择、不写字”。",
  "tasks": [
   {
    "icon": "GH",
@@ -438,7 +420,7 @@
    "time": "09:00"
   }
  ],
- "date": "2026-11-12",
- "issue": "043",
- "updatedAt": "01:02 更新"
+ "date": "2026-11-13",
+ "issue": "044",
+ "updatedAt": "00:36 更新"
 }
