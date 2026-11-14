@@ -1,100 +1,6 @@
 {
  "sections": [
   {
-   "id": "tech-ai",
-   "title": "AI 与大模型",
-   "shortTitle": "AI 大模型",
-   "description": "大模型发布与更新",
-   "items": [
-    {
-     "rank": "01",
-     "title": "Google 发布 Gemini 4 Hydrogen：Gemini 4 首次进入免费层",
-     "summary": "Gemini 4 家族的快速档 Hydrogen 正式发布，定位日常编码与 Agent 工作流的执行引擎，默认 high 思考档在 Artificial Analysis 智能指数上得 51 分，略高于 Argon 的 50 分，任务完成速度比 Gemini 3.8 Flash 快 2.5 倍；定价 1.5 美元/百万输入 token、7.5 美元/百万输出 token，100 万 token 上下文全程同价。",
-     "url": "https://blog.google/intl/en-in/products/introducing-gemini-4-hydrogen/",
-     "source": "Google 官方博客｜2026-11-12",
-     "tags": [
-      "AI 大模型"
-     ]
-    },
-    {
-     "rank": "02",
-     "title": "DeepMind 发布 AlphaGenome 2：按细胞类型预测 DNA 变异效应",
-     "summary": "新一代 DNA 序列模型 AlphaGenome 2 可针对指定组织、细胞类型或细胞状态，预测 DNA 变异如何影响基因表达等分子表型；基于 1.07 亿多个人类与小鼠单细胞图谱训练，在 TenK10K 免疫数据集上以 90% 精确度找回 30% 的因果表达变异，约为上一代（16%）的近两倍；即日起通过 AlphaGenome API 向非商业研究免费开放，商业研究为私有预览。",
-     "url": "https://deepmind.google/blog/alphagenome-2-deciphering-how-cells-read-dna-to-better-understand-disease/",
-     "source": "Google DeepMind 官方博客｜2026-11-11",
-     "tags": [
-      "AI 大模型"
-     ]
-    },
-    {
-     "rank": "03",
-     "title": "Thinking Machines 开放 Inkling 2 Small 权重：594B MoE，Apache 2.0",
-     "summary": "Thinking Machines Lab 兑现发布时的承诺，在 Hugging Face 上开放 Inkling 2 Small 完整权重，Apache 2.0 协议；该模型为 594B 参数 MoE，每 token 仅激活 17B，上下文 100 万 token，支持图像输入，在 Artificial Analysis 智能指数上得 31 分，高于上一代 Inkling Small 的 13 分。",
-     "url": "https://alphasignal.ai/news/thinking-machines-opens-inkling-2-small-s-594b-weights-to-developers",
-     "source": "AlphaSignal｜2026-11-12",
-     "tags": [
-      "AI 大模型"
-     ]
-    }
-   ]
-  },
-  {
-   "id": "tech-dev",
-   "title": "AI 工程与开发工具",
-   "shortTitle": "开发工具",
-   "description": "模型部署 · AI 编程 · Agent",
-   "items": [
-    {
-     "rank": "04",
-     "title": "Runway 开源机器人世界动作模型 Praxis-1：27B 参数，Apache 2.0",
-     "summary": "Runway 发布 Praxis-1，27B 参数的 MoE 扩散 Transformer，同时预测视频与机器人动作，权重与代码以 Apache 2.0 开源，可商用；在 NVIDIA RoboLab-120 基准上取得 46.2% 成功率，高于 FLUX 3 Action（42.9%）与 π0.5（28.0%）；提供 base、DROID 单臂与 YAM 双臂三个检查点，支持 Hugging Face、GitHub 与 vLLM-Om",
-     "url": "https://www.therobotreport.com/runways-praxis-1-world-action-model-for-robotics-is-now-available/",
-     "source": "The Robot Report｜2026-11-12",
-     "tags": [
-      "开发工具"
-     ]
-    },
-    {
-     "rank": "05",
-     "title": "Salesforce 发布开源语音转录模型 SOV-Transcribe-1：词错率 2.3%",
-     "summary": "Salesforce 发布 SOV-Transcribe-1，26.6B 参数的开源权重语音转文本模型，权重已上架 Hugging Face；在 Artificial Analysis 词错率指数（AA-WER）上以 2.3% 词错率排名开源权重第一、全部 44 个模型中第七；属于 Salesforce 主权 AI（Sovereign AI）计划，面向政府与受监管行业。",
-     "url": "https://cryptobriefing.com/salesforce-sov-transcribe-1-open-weights-speech-model/",
-     "source": "Crypto Briefing｜2026-11-12",
-     "tags": [
-      "开发工具"
-     ]
-    },
-    {
-     "rank": "06",
-     "title": "AWS 把 DeepSeek V4 三款模型上架 SageMaker JumpStart",
-     "summary": "DeepSeek-V4-Pro、V4-Flash 与 V4.1-Flash 现已登陆 Amazon SageMaker JumpStart，三款均为 MIT 协议的开源权重 MoE 模型，上下文均为 100 万 token；V4-Pro 总参数 1.6T、每 token 激活 49B，V4-Flash 为 284B/激活 13B，V4.1-Flash 采用新型因果编码器-解码器（CED）架构，KV 缓存约为 V4-Flash 的四分之一",
-     "url": "https://letsdatascience.com/news/aws-adds-deepseek-v4-pro-flash-and-v41-flash-to-sagemaker-ju-1167912a",
-     "source": "AWS 官方公告（经 LetsDataScience 报道）｜2026-11-11",
-     "tags": [
-      "开发工具"
-     ]
-    }
-   ]
-  },
-  {
-   "id": "tech-industry",
-   "title": "科技行业动态",
-   "shortTitle": "行业动态",
-   "description": "公司动态 · 产品发布 · 芯片与云",
-   "items": [
-    {
-     "rank": "07",
-     "title": "黄仁勋辞任 NVIDIA CEO，CFO Colette Kress 临时接任",
-     "summary": "NVIDIA 董事会宣布，联合创始人黄仁勋即日起辞去总裁、CEO 及董事职务；CFO Colette Kress 兼任临时 CEO，同时继续负责财务工作，董事 Harvey C. Jones 出任公司史上首位董事长；董事会已启动永久 CEO 遴选，将考虑内外部候选人；官方公告未说明辞职原因，也未更新 11 月 8 日宣布的独立调查进展。",
-     "url": "https://www.moneycontrol.com/technology/nvidia-ceo-jensen-huang-resigns-with-immediate-effect-colette-kress-appointed-interim-ceo-article-14078494.html/amp",
-     "source": "NVIDIA 官方公告（经 Moneycontrol 报道）｜2026-11-12",
-     "tags": [
-      "行业动态"
-     ]
-    }
-   ]
-  },
-  {
    "id": "github-hot",
    "title": "GitHub 今日热门",
    "shortTitle": "GitHub 热榜",
@@ -363,6 +269,100 @@
      ]
     }
    ]
+  },
+  {
+   "id": "tech-ai",
+   "title": "AI 与大模型",
+   "shortTitle": "AI 大模型",
+   "description": "大模型发布与更新",
+   "items": [
+    {
+     "rank": "01",
+     "title": "阿里 Qwen4-Max 开启限时预览：100 万上下文，11 月 25 日下线",
+     "summary": "Qwen4 家族首个模型 Qwen4-Max-Preview 上线，定位新一代旗舰多模态模型，融合文本、图像与视频理解及深度推理，上下文 100 万 token，最大输出 393,216 token。预览期仅 11 月 11 日 10:00 至 11 月 25 日 24:00，结束后下线，仅支持 Token Plan 订阅，不支持按量计费。",
+     "url": "https://aigocode.com/blog/zh-9633d04d84fb",
+     "source": "通义千问官方 / 阿里云百炼文档｜2026-11-11",
+     "tags": [
+      "AI 大模型"
+     ]
+    },
+    {
+     "rank": "02",
+     "title": "OpenAI 解散独立机器人团队，通用模型直接接管机器人",
+     "summary": "OpenAI 已解散独立机器人团队，研究人员并入首席研究官 Mark Chen 领导的核心研究团队，应用与硬件人员划归总裁 Greg Brockman 负责的应用部门。公司确认这不是退出机器人领域，首个人形机器人公开演示目标仍为 2027 年。",
+     "url": "https://seekingalpha.com/news/4672622-openai-dissolves-stand-alone-robotics-team-report",
+     "source": "Fortune（独家）｜2026-11-13",
+     "tags": [
+      "AI 大模型"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "tech-dev",
+   "title": "AI 工程与开发工具",
+   "shortTitle": "开发工具",
+   "description": "模型部署 · AI 编程 · Agent",
+   "items": [
+    {
+     "rank": "03",
+     "title": "Edge0-145B 开源权重：145B 参数模型宣称单块 GPU 可跑",
+     "summary": "Edge0 发布 Edge0-145B 与 Edge0-120B 开放权重模型，145B 为潜在稀疏 MoE，总参数 145B、每 token 激活约 10.12B，上下文 256K，配套推理框架 edge0-infer 与 edge0-strata。官方宣称峰值显存 29GB、解码 80+ token/秒，单块消费级 GPU 可跑。",
+     "url": "https://explainx.ai/blog/edge0-145b-open-on-device-laptop-agent-model-november-2026",
+     "source": "Edge0 官方博客 / Hugging Face｜2026-11-12",
+     "tags": [
+      "开发工具"
+     ]
+    },
+    {
+     "rank": "04",
+     "title": "LMSYS 发起 SGLang 联盟，英伟达、AMD、谷歌、Meta 等联合定推理路线图",
+     "summary": "SGLang 背后的非营利组织 LMSYS Org 在旧金山首届 SGLang 峰会上发起 SGLang 联盟，创始成员包括 NVIDIA、AMD、Intel、Google、Meta、Cloudflare、Modal 与 RadixArk。SGLang 已运行在数十万块 GPU 上，支撑 Meta、微软、谷歌、亚马逊等公司的生产推理部署。",
+     "url": "https://upside.pandobit.com/en/news/2026/11/lmsys-org-launches-sglang-consortium-with-nvidia-amd-intel-google-meta-1642059/",
+     "source": "LMSYS Org / Yahoo Finance｜2026-11-12",
+     "tags": [
+      "开发工具"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "tech-industry",
+   "title": "科技行业动态",
+   "shortTitle": "行业动态",
+   "description": "公司动态 · 产品发布 · 芯片与云",
+   "items": [
+    {
+     "rank": "05",
+     "title": "微软 365 全球宕机超 24 小时，Outlook、Teams、Copilot 大面积中断",
+     "summary": "故障始于 11 月 12 日 16:17 UTC，美洲 Exchange Online 邮箱先失联，随后扩至全球 Outlook、Teams、SharePoint、Copilot 与 Defender XDR，Downdetector 峰值收到约 13 万份 Outlook 故障报告，覆盖 74 个国家。微软称系内部技术问题、非网络攻击，恢复的服务器在承接流量后会再次失联，截至 11 月 13 日下午多数服务才陆续恢复，正式根因报告尚未",
+     "url": "https://www.usatoday.com/story/tech/2026/11/13/microsoft-dismisses-cyberattack-speculation-amid-outage/92759759007/",
+     "source": "USA Today / 微软 365 状态更新｜2026-11-13",
+     "tags": [
+      "行业动态"
+     ]
+    },
+    {
+     "rank": "06",
+     "title": "黄仁勋辞职余波：英伟达员工请愿要求其回归，马斯克声援，董事会接洽 Arm CEO",
+     "summary": "黄仁勋 11 月 12 日辞任后，英伟达内部建议箱一篇呼吁董事会恢复其职务的帖子获得 1600 多条评论，离职前 Blind 民调显示约 88% 的员工希望他留任，马斯克公开表示将签署请愿书。金融时报称董事会已接洽 Arm CEO Rene Haas，但英伟达董事会表示尚未接触任何继任候选人；英伟达股价本周下跌 13%，为 2025 年 4 月以来最差一周。",
+     "url": "https://www.hypefresh.com/nvidia-employees-petition-for-jensen-huangs-return-as-ceo-after-resignation/",
+     "source": "WIRED / 金融时报 / 路透社｜2026-11-13",
+     "tags": [
+      "行业动态"
+     ]
+    },
+    {
+     "rank": "07",
+     "title": "Claude 11 月 13 日两度大规模故障，官网、API 与 Claude Code 均受影响",
+     "summary": "Anthropic 当天两次发布 major 级别故障：9:58 UTC 起 claude.ai、Claude Code 与平台登录报错，11:58 UTC 解决；13:09 UTC 再次出现大面积错误，波及 claude.ai、Claude API 与 Claude Code，15:38 UTC 恢复。同一天微软 365 也在宕机，两起故障相互独立。",
+     "url": "https://llmlatency.dev/incidents",
+     "source": "Anthropic 状态页 / llmlatency.dev｜2026-11-13",
+     "tags": [
+      "行业动态"
+     ]
+    }
+   ]
   }
  ],
  "_pipelines": {
@@ -388,19 +388,19 @@
    "digest": [
     {
      "title": "速览",
-     "text": "Google 发布 Gemini 4 Hydrogen，Gemini 4 系列首次进入免费层，定价 1.5/7.5 美元每百万 token。"
+     "text": "微软 365 全球宕机超 24 小时，Outlook、Teams、Copilot 均受影响，微软称非网络攻击、根因尚未公布。"
     },
     {
      "title": "速览",
-     "text": "黄仁勋辞任 NVIDIA CEO，CFO Colette Kress 临时接任，董事会启动继任者遴选。"
+     "text": "OpenAI 解散独立机器人团队并入核心研究部门，押注 GPT-6 Astra 等通用模型直接控制机器人。"
     },
     {
-     "title": "开放权重一日三连",
-     "text": "开放权重一日三连：Thinking Machines 开放 Inkling 2 Small 权重，Runway 开源机器人模型 Praxis-1，Salesforce 发布语音转录模型 SOV-Transcribe-1。"
+     "title": "阿里 Qwen4-Max",
+     "text": "阿里 Qwen4-Max 开启限时预览：100 万上下文、最大输出 39 万 token，11 月 25 日下线且未公布跑分与定价。"
     }
    ],
-   "highlight": "Google 发布 Gemini 4 Hydrogen，Gemini 4 系列首次进入免费层，定价 1.5/7.5 美元每百万 token。",
-   "date": "2026-11-13"
+   "highlight": "微软 365 全球宕机超 24 小时，Outlook、Teams、Copilot 均受影响，微软称非网络攻击、根因尚未公布。",
+   "date": "2026-11-14"
   }
  },
  "digest": [
@@ -410,10 +410,10 @@
   },
   {
    "title": "速览",
-   "text": "Google 发布 Gemini 4 Hydrogen，Gemini 4 系列首次进入免费层，定价 1.5/7.5 美元每百万 token。"
+   "text": "微软 365 全球宕机超 24 小时，Outlook、Teams、Copilot 均受影响，微软称非网络攻击、根因尚未公布。"
   }
  ],
- "intro": "Chrome 官方现代 Web 指导 skill 单日 +1,925 登顶日榜，总数较昨日净增 1,933 至 4,834；阿里开源代码评审工具 open-code-review 与 Tailscale 的 tailcat 同日新进日榜。 Google 发布 Gemini 4 Hydrogen，Gemini 4 系列首次进入免费层，定价 1.5/7.5 美元每百万 token。",
+ "intro": "Chrome 官方现代 Web 指导 skill 单日 +1,925 登顶日榜，总数较昨日净增 1,933 至 4,834；阿里开源代码评审工具 open-code-review 与 Tailscale 的 tailcat 同日新进日榜。 微软 365 全球宕机超 24 小时，Outlook、Teams、Copilot 均受影响，微软称非网络攻击、根因尚未公布。",
  "tasks": [
   {
    "icon": "GH",
@@ -430,5 +430,5 @@
  ],
  "date": "2026-11-14",
  "issue": "045",
- "updatedAt": "00:39 更新"
+ "updatedAt": "01:00 更新"
 }
