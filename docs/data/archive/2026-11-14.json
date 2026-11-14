@@ -1,0 +1,434 @@
+{
+ "sections": [
+  {
+   "id": "tech-ai",
+   "title": "AI 与大模型",
+   "shortTitle": "AI 大模型",
+   "description": "大模型发布与更新",
+   "items": [
+    {
+     "rank": "01",
+     "title": "Google 发布 Gemini 4 Hydrogen：Gemini 4 首次进入免费层",
+     "summary": "Gemini 4 家族的快速档 Hydrogen 正式发布，定位日常编码与 Agent 工作流的执行引擎，默认 high 思考档在 Artificial Analysis 智能指数上得 51 分，略高于 Argon 的 50 分，任务完成速度比 Gemini 3.8 Flash 快 2.5 倍；定价 1.5 美元/百万输入 token、7.5 美元/百万输出 token，100 万 token 上下文全程同价。",
+     "url": "https://blog.google/intl/en-in/products/introducing-gemini-4-hydrogen/",
+     "source": "Google 官方博客｜2026-11-12",
+     "tags": [
+      "AI 大模型"
+     ]
+    },
+    {
+     "rank": "02",
+     "title": "DeepMind 发布 AlphaGenome 2：按细胞类型预测 DNA 变异效应",
+     "summary": "新一代 DNA 序列模型 AlphaGenome 2 可针对指定组织、细胞类型或细胞状态，预测 DNA 变异如何影响基因表达等分子表型；基于 1.07 亿多个人类与小鼠单细胞图谱训练，在 TenK10K 免疫数据集上以 90% 精确度找回 30% 的因果表达变异，约为上一代（16%）的近两倍；即日起通过 AlphaGenome API 向非商业研究免费开放，商业研究为私有预览。",
+     "url": "https://deepmind.google/blog/alphagenome-2-deciphering-how-cells-read-dna-to-better-understand-disease/",
+     "source": "Google DeepMind 官方博客｜2026-11-11",
+     "tags": [
+      "AI 大模型"
+     ]
+    },
+    {
+     "rank": "03",
+     "title": "Thinking Machines 开放 Inkling 2 Small 权重：594B MoE，Apache 2.0",
+     "summary": "Thinking Machines Lab 兑现发布时的承诺，在 Hugging Face 上开放 Inkling 2 Small 完整权重，Apache 2.0 协议；该模型为 594B 参数 MoE，每 token 仅激活 17B，上下文 100 万 token，支持图像输入，在 Artificial Analysis 智能指数上得 31 分，高于上一代 Inkling Small 的 13 分。",
+     "url": "https://alphasignal.ai/news/thinking-machines-opens-inkling-2-small-s-594b-weights-to-developers",
+     "source": "AlphaSignal｜2026-11-12",
+     "tags": [
+      "AI 大模型"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "tech-dev",
+   "title": "AI 工程与开发工具",
+   "shortTitle": "开发工具",
+   "description": "模型部署 · AI 编程 · Agent",
+   "items": [
+    {
+     "rank": "04",
+     "title": "Runway 开源机器人世界动作模型 Praxis-1：27B 参数，Apache 2.0",
+     "summary": "Runway 发布 Praxis-1，27B 参数的 MoE 扩散 Transformer，同时预测视频与机器人动作，权重与代码以 Apache 2.0 开源，可商用；在 NVIDIA RoboLab-120 基准上取得 46.2% 成功率，高于 FLUX 3 Action（42.9%）与 π0.5（28.0%）；提供 base、DROID 单臂与 YAM 双臂三个检查点，支持 Hugging Face、GitHub 与 vLLM-Om",
+     "url": "https://www.therobotreport.com/runways-praxis-1-world-action-model-for-robotics-is-now-available/",
+     "source": "The Robot Report｜2026-11-12",
+     "tags": [
+      "开发工具"
+     ]
+    },
+    {
+     "rank": "05",
+     "title": "Salesforce 发布开源语音转录模型 SOV-Transcribe-1：词错率 2.3%",
+     "summary": "Salesforce 发布 SOV-Transcribe-1，26.6B 参数的开源权重语音转文本模型，权重已上架 Hugging Face；在 Artificial Analysis 词错率指数（AA-WER）上以 2.3% 词错率排名开源权重第一、全部 44 个模型中第七；属于 Salesforce 主权 AI（Sovereign AI）计划，面向政府与受监管行业。",
+     "url": "https://cryptobriefing.com/salesforce-sov-transcribe-1-open-weights-speech-model/",
+     "source": "Crypto Briefing｜2026-11-12",
+     "tags": [
+      "开发工具"
+     ]
+    },
+    {
+     "rank": "06",
+     "title": "AWS 把 DeepSeek V4 三款模型上架 SageMaker JumpStart",
+     "summary": "DeepSeek-V4-Pro、V4-Flash 与 V4.1-Flash 现已登陆 Amazon SageMaker JumpStart，三款均为 MIT 协议的开源权重 MoE 模型，上下文均为 100 万 token；V4-Pro 总参数 1.6T、每 token 激活 49B，V4-Flash 为 284B/激活 13B，V4.1-Flash 采用新型因果编码器-解码器（CED）架构，KV 缓存约为 V4-Flash 的四分之一",
+     "url": "https://letsdatascience.com/news/aws-adds-deepseek-v4-pro-flash-and-v41-flash-to-sagemaker-ju-1167912a",
+     "source": "AWS 官方公告（经 LetsDataScience 报道）｜2026-11-11",
+     "tags": [
+      "开发工具"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "tech-industry",
+   "title": "科技行业动态",
+   "shortTitle": "行业动态",
+   "description": "公司动态 · 产品发布 · 芯片与云",
+   "items": [
+    {
+     "rank": "07",
+     "title": "黄仁勋辞任 NVIDIA CEO，CFO Colette Kress 临时接任",
+     "summary": "NVIDIA 董事会宣布，联合创始人黄仁勋即日起辞去总裁、CEO 及董事职务；CFO Colette Kress 兼任临时 CEO，同时继续负责财务工作，董事 Harvey C. Jones 出任公司史上首位董事长；董事会已启动永久 CEO 遴选，将考虑内外部候选人；官方公告未说明辞职原因，也未更新 11 月 8 日宣布的独立调查进展。",
+     "url": "https://www.moneycontrol.com/technology/nvidia-ceo-jensen-huang-resigns-with-immediate-effect-colette-kress-appointed-interim-ceo-article-14078494.html/amp",
+     "source": "NVIDIA 官方公告（经 Moneycontrol 报道）｜2026-11-12",
+     "tags": [
+      "行业动态"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "github-hot",
+   "title": "GitHub 今日热门",
+   "shortTitle": "GitHub 热榜",
+   "description": "综合热度、活跃度与实用价值排序",
+   "items": [
+    {
+     "rank": "01",
+     "title": "GoogleChrome/modern-web-guidance-src",
+     "summary": "解决了\"agent 写前端时不知道什么才是现代写法\"的问题；单日 +1,925 连续两日登顶，总数单日净增 1,933 至 4,834；适合用 agent 写前端的开发者，按文档接入 skill 即可。",
+     "url": "https://github.com/GoogleChrome/modern-web-guidance-src",
+     "tags": [
+      "强烈推荐"
+     ],
+     "featured": true
+    },
+    {
+     "rank": "02",
+     "title": "we-promise/sure",
+     "summary": "开源的个人理财应用：收支、净资产与支出分析做成干净的仪表盘，还内置一个能回答理财问题的 AI 助手。 现金流、净资产与支出分析仪表盘、内置 AI 助手回答储蓄与支出问题、Ruby 实现、开源可自行部署。",
+     "url": "https://github.com/we-promise/sure",
+     "tags": [
+      "值得关注"
+     ]
+    },
+    {
+     "rank": "03",
+     "title": "openai/codex-security",
+     "summary": "OpenAI 的 Codex 安全扫描工具：在 Codex 里或用 CLI / SDK 找漏洞、验证修复、生成补丁。 扫描仓库、指定路径或 Git 变更、深度扫描去重、可验证候选发现并生成补丁、起草 SECURITY.md 与威胁模型、导出 SARIF / JSON / CSV、对接 Linear、Jira 与 GitHub。",
+     "url": "https://github.com/openai/codex-security",
+     "tags": [
+      "值得关注"
+     ]
+    },
+    {
+     "rank": "04",
+     "title": "ZhuLinsen/daily_stock_analysis",
+     "summary": "LLM 驱动的多市场股票智能分析系统：多源行情、实时新闻、决策看板与自动推送，零成本定时运行。 多市场行情与实时新闻聚合、LLM 生成分析与决策建议、看板展示与自动推送、GitHub Actions 定时运行零成本、Docker 部署，配套 arXiv 论文。",
+     "url": "https://github.com/ZhuLinsen/daily_stock_analysis",
+     "tags": [
+      "了解即可"
+     ]
+    },
+    {
+     "rank": "05",
+     "title": "tailscale/tailcat",
+     "summary": "像 netcat 一样用，但走 Tailscale 的数据平面、不走控制平面：两台机器之间直接拉一条 WireGuard 加密隧道传数据。 复用 Tailscale 开源组件的 netcat 式 CLI 与 Go 库、点对点 WireGuard 加密隧道、DERP 做 NAT 穿透与中继兜底、连接元数据带外交换、可作 CLI 也可作库调用。",
+     "url": "https://github.com/tailscale/tailcat",
+     "tags": [
+      "值得关注"
+     ]
+    },
+    {
+     "rank": "06",
+     "title": "alibaba/open-code-review",
+     "summary": "阿里开源的代码评审工具：确定性流水线 + LLM agent 混合架构，给出精确到行的评审意见，号称经阿里规模实战检验。 确定性流水线与 LLM agent 混合评审、精确到行的评论、内置多语言规则集（空指针、线程安全、XSS、SQL 注入等）、兼容 OpenAI 与 Anthropic 模型、Go 实现。",
+     "url": "https://github.com/alibaba/open-code-review",
+     "tags": [
+      "值得关注"
+     ]
+    },
+    {
+     "rank": "07",
+     "title": "backnotprop/plannotator",
+     "summary": "给 agent 协作配的\"批注工作台\"：在计划、文档、产物上直接批注、审 diff、给 agent 一键回反馈，不用再来回切窗口。 批注计划、规格、Markdown、HTML 等交互产物、审 diff 与 PR、反馈一键发回 agent、收件箱式工作面，兼容 Amp、Claude Code、Codex、Copilot、Droid、Gemini CLI、Kiro、opencode。",
+     "url": "https://github.com/backnotprop/plannotator",
+     "tags": [
+      "了解即可"
+     ]
+    },
+    {
+     "rank": "08",
+     "title": "block/buzz",
+     "summary": "Block（Square 母公司）开源的自托管协作空间：人与 agent 在同一个房间里一起干活， relay 掌握在自己手里。 自托管的人机协作工作空间、人与 agent 共享同一个房间与上下文、自己掌握 relay、Apache 2.0 协议；注意 1.0 已迁移到 block/buzz-app，本仓库为仍在维护的 0.X。",
+     "url": "https://github.com/block/buzz",
+     "tags": [
+      "了解即可"
+     ]
+    },
+    {
+     "rank": "09",
+     "title": "louislam/uptime-kuma",
+     "summary": "好看又好用的自托管监控工具：给网站、服务做可用性监控，挂了就通知你。 自托管的可用性监控、漂亮的监控面板、多渠道通知、JavaScript 实现、部署简单。",
+     "url": "https://github.com/louislam/uptime-kuma",
+     "tags": [
+      "了解即可"
+     ]
+    },
+    {
+     "rank": "10",
+     "title": "ChromeDevTools/chrome-devtools-mcp",
+     "summary": "Chrome DevTools 官方给 coding agent 的 MCP 服务器：让 agent 直接用浏览器开发者工具的能力调试网页。 把 Chrome DevTools 能力通过 MCP 交给 coding agent、覆盖调试与性能分析场景、TypeScript 实现。",
+     "url": "https://github.com/ChromeDevTools/chrome-devtools-mcp",
+     "tags": [
+      "了解即可"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "github-rising",
+   "title": "Star 增长最快",
+   "shortTitle": "增长最快",
+   "description": "按实际 Star 增量排序",
+   "items": [
+    {
+     "rank": "01",
+     "title": "sherlock-project/sherlock",
+     "summary": "较昨日总数 +565：2018 年的老项目突然空降周榜第一，属典型的\"老项目突然回春\"，仓库昨日仍在更新——按用户名跨社交网络找账号的经典工具，热度回流值得观察后续是否持续。",
+     "url": "https://github.com/sherlock-project/sherlock",
+     "stars": "111.1k",
+     "trend": "+13,364",
+     "tags": [
+      "高增长"
+     ]
+    },
+    {
+     "rank": "02",
+     "title": "cloudflare/security-audit-skill",
+     "summary": "较昨日（+10,700）回落，总数较昨日 +720：agent 安全审计 skill 的热度仍在高位，仓库更新仍停留在 2026-09-14，热度是内容回流而非新版本驱动。",
+     "url": "https://github.com/cloudflare/security-audit-skill",
+     "stars": "71.9k",
+     "trend": "+8,829",
+     "tags": [
+      "高增长"
+     ]
+    },
+    {
+     "rank": "03",
+     "title": "milind-soni/OpenMausBot",
+     "summary": "较昨日（+9,104）回落，总数较昨日 +474：开源版 Grok Bot 替代品，执行型 bot 的新样本。",
+     "url": "https://github.com/milind-soni/OpenMausBot",
+     "stars": "22.2k",
+     "trend": "+7,763",
+     "tags": [
+      "高增长"
+     ]
+    },
+    {
+     "rank": "04",
+     "title": "mattpocock/skills",
+     "summary": "较昨日（+8,731）回落，总数较昨日 +815：实战派 skill 合集地位稳固。",
+     "url": "https://github.com/mattpocock/skills",
+     "stars": "323.8k",
+     "trend": "+7,599",
+     "tags": [
+      "高增长"
+     ]
+    },
+    {
+     "rank": "05",
+     "title": "anthropics/skills",
+     "summary": "较昨日（+6,055）继续加速，总数较昨日 +443：官方 skill 供给侧扩张仍在继续。",
+     "url": "https://github.com/anthropics/skills",
+     "stars": "194.1k",
+     "trend": "+6,169",
+     "tags": [
+      "高增长"
+     ]
+    },
+    {
+     "rank": "06",
+     "title": "google/elephant-goldfish-model",
+     "summary": "首次进入本报告周榜：Google 的 agent 设计评审插件——\"大象\"攥着上下文写规格，\"金鱼\"用全新视角审稿、揪出未言明的假设，适合在动手写代码前先把设计想清楚。",
+     "url": "https://github.com/google/elephant-goldfish-model",
+     "stars": "18.6k",
+     "trend": "+5,560",
+     "tags": [
+      "高增长"
+     ]
+    },
+    {
+     "rank": "07",
+     "title": "vercel-labs/agent-desktop",
+     "summary": "较昨日（+6,414）回落，总数较昨日 +586：不用截图的桌面操作 CLI，与 agent-browser 组成 Vercel 的\"agent 电脑使用\"工具链。",
+     "url": "https://github.com/vercel-labs/agent-desktop",
+     "stars": "23.3k",
+     "trend": "+5,408",
+     "tags": [
+      "高增长"
+     ]
+    },
+    {
+     "rank": "08",
+     "title": "vercel-labs/agent-browser",
+     "summary": "较昨日（+4,601）小幅回落，总数较昨日 +393、稳在 5 万 star 之上：agent 上网干活的基础设施件。",
+     "url": "https://github.com/vercel-labs/agent-browser",
+     "stars": "50.7k",
+     "trend": "+4,360",
+     "tags": [
+      "高增长"
+     ]
+    },
+    {
+     "rank": "09",
+     "title": "NVIDIA/auto-ontology",
+     "summary": "较昨日（+5,802）回落，总数较昨日 +314：agent 语义层正在成为新刚需。",
+     "url": "https://github.com/NVIDIA/auto-ontology",
+     "stars": "12.6k",
+     "trend": "+4,108",
+     "tags": [
+      "高增长"
+     ]
+    },
+    {
+     "rank": "10",
+     "title": "ZhuLinsen/daily_stock_analysis",
+     "summary": "较昨日总数 +1,363：LLM 炒股助手方向最成熟的中文样本。",
+     "url": "https://github.com/ZhuLinsen/daily_stock_analysis",
+     "stars": "71.6k",
+     "trend": "+3,778",
+     "tags": [
+      "高增长"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "github-new",
+   "title": "值得关注的新项目",
+   "shortTitle": "新项目",
+   "description": "近期创建、增长迅速的有潜力项目",
+   "items": [
+    {
+     "rank": "01",
+     "title": "storytold/craft-anything",
+     "summary": "ArtCraft 系列新作：帮你\"看懂任意软件如何工作，再自己动手做一个\"的工具。 延续 wordcraft / cadcraft / gridcraft / solidcraft 的纯 Rust 干净重实现路线，README 提供中英日韩多语言版本，定位在\"理解软件\"与\"动手复刻\"之间。",
+     "url": "https://github.com/storytold/craft-anything",
+     "tags": [
+      "值得关注"
+     ]
+    },
+    {
+     "rank": "02",
+     "title": "ccch1mneyyy/dsh-Go",
+     "summary": "把 DeepSeek Harness 装进口袋的 Android 客户端：手机上直接跑，也能遥控电脑上的 DSH。 Android 8+ 可用的手机端 Harness、手机本机运行与遥控电脑双模式、中文 README，瞄准\"agent 不只坐在桌前\"的场景。",
+     "url": "https://github.com/ccch1mneyyy/dsh-Go",
+     "tags": [
+      "值得关注"
+     ]
+    },
+    {
+     "rank": "03",
+     "title": "janestreet/agent_skills",
+     "summary": "Jane Street 开源的 agent skill 合集：把投研公司的做事方法写成 agent 能直接用的 skill。 每个 skill 一个目录、内含 SKILL.md 指令文件，首个 skill 是苏格拉底式导师（socratic-tutor）：诊断、技能地图分级、一次一问、间隔复习与期末测评，README 在 master 分支。",
+     "url": "https://github.com/janestreet/agent_skills",
+     "tags": [
+      "了解即可"
+     ]
+    },
+    {
+     "rank": "04",
+     "title": "unclebob/ub-mode",
+     "summary": "Uncle Bob（《代码整洁之道》作者）给 agent 的工程纪律 skill：写代码先\"让它跑起来\"，再\"把它弄对\"，全程用确定性质量门把关。 两阶段方法论（先跑通：TDD、第一性原理、做减法；再弄对：修根因、可验证的小步、测行为而非实现）、配套确定性质量门工具（CRAP 复杂度 < 10、重复度 < 0.8、变异测试）、写日志、护上下文窗口、小步提交。",
+     "url": "https://github.com/unclebob/ub-mode",
+     "tags": [
+      "值得关注"
+     ]
+    },
+    {
+     "rank": "05",
+     "title": "kingcharleslzy-ai/dsh-purge",
+     "summary": "DeepSeek Harness 的社区维护版自托管控件：86 条宿主补丁、25 层状态自检，让 DSH 更专注地辅助学习与动手实验。 DSH 自托管控件（社区版）、宿主兼容与状态诊断、提示词管理、更新与本机备份回滚、左侧栏整页设置，当前版本 1.7.14、适配 DSH Desktop 0.2.2-rc.3。",
+     "url": "https://github.com/kingcharleslzy-ai/dsh-purge",
+     "tags": [
+      "了解即可"
+     ]
+    }
+   ]
+  }
+ ],
+ "_pipelines": {
+  "github": {
+   "digest": [
+    {
+     "title": "速览",
+     "text": "Chrome 官方现代 Web 指导 skill 单日 +1,925 登顶日榜，总数较昨日净增 1,933 至 4,834；阿里开源代码评审工具 open-code-review 与 Tailscale 的 tailcat 同日新进日榜。"
+    },
+    {
+     "title": "速览",
+     "text": "sherlock 周增 +13,364 空降周榜第一，老项目突然回春；Google 的 agent 设计评审插件 elephant-goldfish-model 周增 +5,560 首次进周榜。"
+    },
+    {
+     "title": "新项目继续兑现",
+     "text": "新项目继续兑现：craft-anything 单日净增 1,587、总数突破 3.1 万 star；Uncle Bob 的 agent skill ub-mode 与 DSH 社区插件 dsh-purge 闯进新项目榜。"
+    }
+   ],
+   "highlight": "Chrome 官方现代 Web 指导 skill 单日 +1,925 登顶日榜，总数较昨日净增 1,933 至 4,834；阿里开源代码评审工具 open-code-review 与 Tailscale 的 tailcat 同日新进日榜。",
+   "date": "2026-11-14"
+  },
+  "tech-news": {
+   "digest": [
+    {
+     "title": "速览",
+     "text": "Google 发布 Gemini 4 Hydrogen，Gemini 4 系列首次进入免费层，定价 1.5/7.5 美元每百万 token。"
+    },
+    {
+     "title": "速览",
+     "text": "黄仁勋辞任 NVIDIA CEO，CFO Colette Kress 临时接任，董事会启动继任者遴选。"
+    },
+    {
+     "title": "开放权重一日三连",
+     "text": "开放权重一日三连：Thinking Machines 开放 Inkling 2 Small 权重，Runway 开源机器人模型 Praxis-1，Salesforce 发布语音转录模型 SOV-Transcribe-1。"
+    }
+   ],
+   "highlight": "Google 发布 Gemini 4 Hydrogen，Gemini 4 系列首次进入免费层，定价 1.5/7.5 美元每百万 token。",
+   "date": "2026-11-13"
+  }
+ },
+ "digest": [
+  {
+   "title": "速览",
+   "text": "Chrome 官方现代 Web 指导 skill 单日 +1,925 登顶日榜，总数较昨日净增 1,933 至 4,834；阿里开源代码评审工具 open-code-review 与 Tailscale 的 tailcat 同日新进日榜。"
+  },
+  {
+   "title": "速览",
+   "text": "Google 发布 Gemini 4 Hydrogen，Gemini 4 系列首次进入免费层，定价 1.5/7.5 美元每百万 token。"
+  }
+ ],
+ "intro": "Chrome 官方现代 Web 指导 skill 单日 +1,925 登顶日榜，总数较昨日净增 1,933 至 4,834；阿里开源代码评审工具 open-code-review 与 Tailscale 的 tailcat 同日新进日榜。 Google 发布 Gemini 4 Hydrogen，Gemini 4 系列首次进入免费层，定价 1.5/7.5 美元每百万 token。",
+ "tasks": [
+  {
+   "icon": "GH",
+   "name": "GitHub 开源情报",
+   "detail": "Trending · Star 增速 · 新项目",
+   "time": "08:30"
+  },
+  {
+   "icon": "NW",
+   "name": "科技新闻日报",
+   "detail": "新闻聚合 · 中文简报",
+   "time": "09:00"
+  }
+ ],
+ "date": "2026-11-14",
+ "issue": "045",
+ "updatedAt": "00:39 更新"
+}
