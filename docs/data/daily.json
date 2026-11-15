@@ -1,100 +1,6 @@
 {
  "sections": [
   {
-   "id": "tech-ai",
-   "title": "AI 与大模型",
-   "shortTitle": "AI 大模型",
-   "description": "大模型发布与更新",
-   "items": [
-    {
-     "rank": "01",
-     "title": "阿里 Qwen4-Max 开启限时预览：100 万上下文，11 月 25 日下线",
-     "summary": "Qwen4 家族首个模型 Qwen4-Max-Preview 上线，定位新一代旗舰多模态模型，融合文本、图像与视频理解及深度推理，上下文 100 万 token，最大输出 393,216 token。预览期仅 11 月 11 日 10:00 至 11 月 25 日 24:00，结束后下线，仅支持 Token Plan 订阅，不支持按量计费。",
-     "url": "https://aigocode.com/blog/zh-9633d04d84fb",
-     "source": "通义千问官方 / 阿里云百炼文档｜2026-11-11",
-     "tags": [
-      "AI 大模型"
-     ]
-    },
-    {
-     "rank": "02",
-     "title": "OpenAI 解散独立机器人团队，通用模型直接接管机器人",
-     "summary": "OpenAI 已解散独立机器人团队，研究人员并入首席研究官 Mark Chen 领导的核心研究团队，应用与硬件人员划归总裁 Greg Brockman 负责的应用部门。公司确认这不是退出机器人领域，首个人形机器人公开演示目标仍为 2027 年。",
-     "url": "https://seekingalpha.com/news/4672622-openai-dissolves-stand-alone-robotics-team-report",
-     "source": "Fortune（独家）｜2026-11-13",
-     "tags": [
-      "AI 大模型"
-     ]
-    }
-   ]
-  },
-  {
-   "id": "tech-dev",
-   "title": "AI 工程与开发工具",
-   "shortTitle": "开发工具",
-   "description": "模型部署 · AI 编程 · Agent",
-   "items": [
-    {
-     "rank": "03",
-     "title": "Edge0-145B 开源权重：145B 参数模型宣称单块 GPU 可跑",
-     "summary": "Edge0 发布 Edge0-145B 与 Edge0-120B 开放权重模型，145B 为潜在稀疏 MoE，总参数 145B、每 token 激活约 10.12B，上下文 256K，配套推理框架 edge0-infer 与 edge0-strata。官方宣称峰值显存 29GB、解码 80+ token/秒，单块消费级 GPU 可跑。",
-     "url": "https://explainx.ai/blog/edge0-145b-open-on-device-laptop-agent-model-november-2026",
-     "source": "Edge0 官方博客 / Hugging Face｜2026-11-12",
-     "tags": [
-      "开发工具"
-     ]
-    },
-    {
-     "rank": "04",
-     "title": "LMSYS 发起 SGLang 联盟，英伟达、AMD、谷歌、Meta 等联合定推理路线图",
-     "summary": "SGLang 背后的非营利组织 LMSYS Org 在旧金山首届 SGLang 峰会上发起 SGLang 联盟，创始成员包括 NVIDIA、AMD、Intel、Google、Meta、Cloudflare、Modal 与 RadixArk。SGLang 已运行在数十万块 GPU 上，支撑 Meta、微软、谷歌、亚马逊等公司的生产推理部署。",
-     "url": "https://upside.pandobit.com/en/news/2026/11/lmsys-org-launches-sglang-consortium-with-nvidia-amd-intel-google-meta-1642059/",
-     "source": "LMSYS Org / Yahoo Finance｜2026-11-12",
-     "tags": [
-      "开发工具"
-     ]
-    }
-   ]
-  },
-  {
-   "id": "tech-industry",
-   "title": "科技行业动态",
-   "shortTitle": "行业动态",
-   "description": "公司动态 · 产品发布 · 芯片与云",
-   "items": [
-    {
-     "rank": "05",
-     "title": "微软 365 全球宕机超 24 小时，Outlook、Teams、Copilot 大面积中断",
-     "summary": "故障始于 11 月 12 日 16:17 UTC，美洲 Exchange Online 邮箱先失联，随后扩至全球 Outlook、Teams、SharePoint、Copilot 与 Defender XDR，Downdetector 峰值收到约 13 万份 Outlook 故障报告，覆盖 74 个国家。微软称系内部技术问题、非网络攻击，恢复的服务器在承接流量后会再次失联，截至 11 月 13 日下午多数服务才陆续恢复，正式根因报告尚未",
-     "url": "https://www.usatoday.com/story/tech/2026/11/13/microsoft-dismisses-cyberattack-speculation-amid-outage/92759759007/",
-     "source": "USA Today / 微软 365 状态更新｜2026-11-13",
-     "tags": [
-      "行业动态"
-     ]
-    },
-    {
-     "rank": "06",
-     "title": "黄仁勋辞职余波：英伟达员工请愿要求其回归，马斯克声援，董事会接洽 Arm CEO",
-     "summary": "黄仁勋 11 月 12 日辞任后，英伟达内部建议箱一篇呼吁董事会恢复其职务的帖子获得 1600 多条评论，离职前 Blind 民调显示约 88% 的员工希望他留任，马斯克公开表示将签署请愿书。金融时报称董事会已接洽 Arm CEO Rene Haas，但英伟达董事会表示尚未接触任何继任候选人；英伟达股价本周下跌 13%，为 2025 年 4 月以来最差一周。",
-     "url": "https://www.hypefresh.com/nvidia-employees-petition-for-jensen-huangs-return-as-ceo-after-resignation/",
-     "source": "WIRED / 金融时报 / 路透社｜2026-11-13",
-     "tags": [
-      "行业动态"
-     ]
-    },
-    {
-     "rank": "07",
-     "title": "Claude 11 月 13 日两度大规模故障，官网、API 与 Claude Code 均受影响",
-     "summary": "Anthropic 当天两次发布 major 级别故障：9:58 UTC 起 claude.ai、Claude Code 与平台登录报错，11:58 UTC 解决；13:09 UTC 再次出现大面积错误，波及 claude.ai、Claude API 与 Claude Code，15:38 UTC 恢复。同一天微软 365 也在宕机，两起故障相互独立。",
-     "url": "https://llmlatency.dev/incidents",
-     "source": "Anthropic 状态页 / llmlatency.dev｜2026-11-13",
-     "tags": [
-      "行业动态"
-     ]
-    }
-   ]
-  },
-  {
    "id": "github-hot",
    "title": "GitHub 今日热门",
    "shortTitle": "GitHub 热榜",
@@ -363,6 +269,120 @@
      ]
     }
    ]
+  },
+  {
+   "id": "tech-ai",
+   "title": "AI 与大模型",
+   "shortTitle": "AI 大模型",
+   "description": "大模型发布与更新",
+   "items": [
+    {
+     "rank": "01",
+     "title": "OpenAI 推出 ChatGPT Wallet，dots Agent 可代用户结账",
+     "summary": "OpenAI 推出 ChatGPT Wallet，配合 9 月底上线的常驻 Agent“dots”使用。与美国运通、Mastercard、Visa 合作，采用支付 token 化方案：Agent 下单时看不到用户真实卡号，每笔购买都需用户复核并通过安全校验。首批仅面向美国 18 岁以上 ChatGPT Pro 订阅用户，须持有符合条件的美国发卡行信用卡，逐步放量。",
+     "url": "https://9to5mac.com/2026/11/13/openai-launches-chatgpt-wallet-enabling-dot-agents-to-make-purchases/",
+     "source": "9to5Mac｜2026-11-13",
+     "tags": [
+      "AI 大模型"
+     ]
+    },
+    {
+     "rank": "02",
+     "title": "四家非营利组织起诉五大 AI 实验室，要求法院冻结前沿模型开发",
+     "summary": "Irreplaceable Education Fund、Public Citizen、Heat Initiative 与 Alliance for Secure AI 在旧金山高等法院起诉 Anthropic、Google、Meta、OpenAI 与 SpaceX 超级智能部门，要求紧急禁令，禁止五家公司开发或部署比 2026 年 11 月 12 日现有水平更强的 AI 系统，直至能证明系统处于人类控制之下。诉状援引加州《反不正当竞争",
+     "url": "https://www.aljazeera.com/amp/news/2026/11/12/us-nonprofits-sue-tech-giants-to-halt-ai-development",
+     "source": "Al Jazeera｜2026-11-12",
+     "tags": [
+      "AI 大模型"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "tech-dev",
+   "title": "AI 工程与开发工具",
+   "shortTitle": "开发工具",
+   "description": "模型部署 · AI 编程 · Agent",
+   "items": [
+    {
+     "rank": "03",
+     "title": "Anthropic 升级 Claude Code Projects：协调器更主动，并行线程可访问本地电脑",
+     "summary": "Anthropic 于 11 月 13 日更新 Claude Code Projects：一个协调器对话负责拆解任务、派发并行线程、审阅结果并汇总，每个线程是独立的 Claude Code 云端会话，在各自的分支与代码副本上工作，还可继续拆分子 Agent；新增的共享记忆沉淀项目决策，手机上也能遥控进度，合上电脑后任务继续跑。本轮更新后，部分线程还可访问本地电脑与文件夹。Beta 先面向使用云端会话的 Pro 与 Max 用户逐步开放。",
+     "url": "https://pivotnews.ai/build/anthropic-rebuilds-claude-projects-around-coordinated",
+     "source": "Pivot News｜2026-11-14",
+     "tags": [
+      "开发工具"
+     ]
+    },
+    {
+     "rank": "04",
+     "title": "DeepSeek 把 App 能力开放上 API：搜索、文件解析与语音都可调用",
+     "summary": "DeepSeek 于 11 月 13 日把消费端 App 的能力开放给开发者：deepseek-flash（V4.1-Flash-1017）在 Messages、Responses 与 Chat Completions 三种接口中内置联网搜索、图片搜索、深度思考搜索、文件解析、URL 读取、安全检查与语音功能；搜索、抓取、OCR、语音识别与合成功能也可作为独立 API 单独调用。搜索与抓取定价 0.75 美元/千次成功请求，OCR 为 ",
+     "url": "https://www.kucoin.com/news/flash/deepseek-expands-api-toolkit-with-new-model-and-standalone-features",
+     "source": "KuCoin News｜2026-11-13",
+     "tags": [
+      "开发工具"
+     ]
+    },
+    {
+     "rank": "05",
+     "title": "llama.cpp 与 ggml 发布 1.0.0：本地 AI 迎来稳定的公开 API 承诺",
+     "summary": "本地推理引擎 llama.cpp 与底层张量库 ggml 于 11 月 13 日双双发布 v1.0.0，正式采用语义化版本：此后破坏公开 C API 的改动只会出现在大版本号升级中。版本清理了 35 个已弃用函数，把 NextN 推测解码 API 提升进主头文件；ggml 方面新增 FP8 支持、可配置 YaRN 截断，并为 DeepSeek V4/V4.1 在 Apple Metal 上融合 MoE 路由。项目支持 150 多种模型架",
+     "url": "https://www.unite.ai/llama-cpp-v1-0-0-sets-api-stability-rules-for-local-ai-tools/",
+     "source": "Unite.AI｜2026-11-13",
+     "tags": [
+      "开发工具"
+     ]
+    },
+    {
+     "rank": "06",
+     "title": "Cognition 推出 Devin Apps：在 Devin 云电脑上建私有内部工具",
+     "summary": "Cognition 于 11 月 13 日推出 Devin Apps：用户用自然语言描述需求，Devin 直接在自己的云电脑上构建并托管为私有 Web 应用，团队通过链接登录使用，不对外公开。应用基于内存快照，闲置时休眠、按唤醒时间计费，适合内部工具场景，可连接 Linear、Jira、GitHub 等现有团队软件。功能向已激活账户逐步开放，定价尚未公布。",
+     "url": "https://news.tulsian.ai/news/company-news/cognition-launches-devin-apps-for-team-web-building.html",
+     "source": "Tulsian AI News｜2026-11-13",
+     "tags": [
+      "开发工具"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "tech-industry",
+   "title": "科技行业动态",
+   "shortTitle": "行业动态",
+   "description": "公司动态 · 产品发布 · 芯片与云",
+   "items": [
+    {
+     "rank": "07",
+     "title": "WSJ：英伟达被曝以担保与投资“资助买家”，循环融资帝国随黄仁勋辞职动摇",
+     "summary": "WSJ 调查称，英伟达用闲置现金向客户与供应链注资以拉动芯片销售：去年向 OpenAI 一轮融资承诺 300 亿美元，并为 OpenAI 与软银在俄亥俄州 4.3GW 数据中心项目中 1050 亿美元的租金支付提供担保；今年秋季又提出约 5000 亿美元的融资合作计划。报道称，8 月黄仁勋与时任 CFO 科莱特·克雷斯就一笔 2500 亿美元的 OpenAI 担保方案产生分歧，克雷斯将其砍至约 1250 亿美元。英伟达否认“循环融资”的",
+     "url": "https://www.wsj.com/livecoverage/stock-market-today-dow-sp-500-nasdaq-11-12-2026/card/nvidia-s-crisis-reverberates-across-its-circular-financing-empire-ZkICyO5dWbC3C6HShXGP",
+     "source": "The Wall Street Journal｜2026-11-13",
+     "tags": [
+      "行业动态"
+     ]
+    },
+    {
+     "rank": "08",
+     "title": "美国 FAA 全国停飞 4.5 小时：老旧路由器过载，逾万航班受影响",
+     "summary": "美国联邦航空管理局（FAA）于 11 月 14 日下午 3:54（美东时间）发布全国停飞令，至晚 8:15 解除，持续约 4.5 小时，为 25 年来最长的一次全国停飞。起因是承包商 L3Harris 在更换老旧铜线为光纤时，一台新路由器每 4～5 秒向系统发起逾千次连接请求，淹没了其他路由器，导致空管通信与雷达数据出现不一致。截至周六晚，约 6785 个航班取消、7343 个航班延误。官员强调无网络攻击或外国干预证据，FAA 新扩的 ",
+     "url": "https://www.aljazeera.com/news/2026/11/14/faa-ground-stop-lifted-why-were-us-flights-grounded-and-whats-next",
+     "source": "Al Jazeera｜2026-11-14",
+     "tags": [
+      "行业动态"
+     ]
+    },
+    {
+     "rank": "09",
+     "title": "Cursor 公布安全事件调查结论：泄露的 Fireworks 密钥是入侵起点",
+     "summary": "Cursor 于 11 月 13 日公布为期两周的调查结论：攻击者利用 Fireworks AI 泄露的一枚访问密钥，复制了 Cursor 与 Fireworks 共享的只读存储桶中的历史编码 Agent  traces（多为 2025 年未开启 Privacy Mode 的会话），其中少量未脱敏的凭证让攻击者得以深入内部系统，并于 10 月 29 日在 Cursor 的 VS Code 扩展市场缓存中植入带 SSH 后门的 Claud",
+     "url": "https://paktechstan.com/article/cursor-traces-its-october-breach-to-a-leaked-fireworks-key-closing-a-two-week-investigation",
+     "source": "Paktechstan｜2026-11-14",
+     "tags": [
+      "行业动态"
+     ]
+    }
+   ]
   }
  ],
  "_pipelines": {
@@ -388,19 +408,19 @@
    "digest": [
     {
      "title": "速览",
-     "text": "微软 365 全球宕机超 24 小时，Outlook、Teams、Copilot 均受影响，微软称非网络攻击、根因尚未公布。"
+     "text": "OpenAI 上线 ChatGPT Wallet，dots 常驻 Agent 首次可以代用户结账，Agent 从“帮你查”正式走向“帮你买”。"
     },
     {
      "title": "速览",
-     "text": "OpenAI 解散独立机器人团队并入核心研究部门，押注 GPT-6 Astra 等通用模型直接控制机器人。"
+     "text": "WSJ 调查称英伟达以担保与投资“资助买家”消化芯片，黄仁勋辞职余波未平，AI 算力繁荣背后的资金链受到质疑。"
     },
     {
-     "title": "阿里 Qwen4-Max",
-     "text": "阿里 Qwen4-Max 开启限时预览：100 万上下文、最大输出 39 万 token，11 月 25 日下线且未公布跑分与定价。"
+     "title": "速览",
+     "text": "Anthropic 升级 Claude Code Projects、DeepSeek 开放 App 能力上 API、llama.cpp 迎来 1.0，开发者工具一日密集更新。"
     }
    ],
-   "highlight": "微软 365 全球宕机超 24 小时，Outlook、Teams、Copilot 均受影响，微软称非网络攻击、根因尚未公布。",
-   "date": "2026-11-14"
+   "highlight": "OpenAI 上线 ChatGPT Wallet，dots 常驻 Agent 首次可以代用户结账，Agent 从“帮你查”正式走向“帮你买”。",
+   "date": "2026-11-15"
   }
  },
  "digest": [
@@ -410,10 +430,10 @@
   },
   {
    "title": "速览",
-   "text": "微软 365 全球宕机超 24 小时，Outlook、Teams、Copilot 均受影响，微软称非网络攻击、根因尚未公布。"
+   "text": "OpenAI 上线 ChatGPT Wallet，dots 常驻 Agent 首次可以代用户结账，Agent 从“帮你查”正式走向“帮你买”。"
   }
  ],
- "intro": "Chrome 官方现代 Web 指导 skill 单日 +1,231 连续三日登顶日榜，总数突破 6,000 star；阿里 open-code-review 单日 +893、总数 5.1 万，确定性规则 + LLM 的代码评审混合架构持续受关注。 微软 365 全球宕机超 24 小时，Outlook、Teams、Copilot 均受影响，微软称非网络攻击、根因尚未公布。",
+ "intro": "Chrome 官方现代 Web 指导 skill 单日 +1,231 连续三日登顶日榜，总数突破 6,000 star；阿里 open-code-review 单日 +893、总数 5.1 万，确定性规则 + LLM 的代码评审混合架构持续受关注。 OpenAI 上线 ChatGPT Wallet，dots 常驻 Agent 首次可以代用户结账，Agent 从“帮你查”正式走向“帮你买”。",
  "tasks": [
   {
    "icon": "GH",
@@ -430,5 +450,5 @@
  ],
  "date": "2026-11-15",
  "issue": "046",
- "updatedAt": "00:40 更新"
+ "updatedAt": "01:02 更新"
 }
