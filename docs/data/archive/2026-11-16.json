@@ -1,120 +1,6 @@
 {
  "sections": [
   {
-   "id": "tech-ai",
-   "title": "AI 与大模型",
-   "shortTitle": "AI 大模型",
-   "description": "大模型发布与更新",
-   "items": [
-    {
-     "rank": "01",
-     "title": "OpenAI 推出 ChatGPT Wallet，dots Agent 可代用户结账",
-     "summary": "OpenAI 推出 ChatGPT Wallet，配合 9 月底上线的常驻 Agent“dots”使用。与美国运通、Mastercard、Visa 合作，采用支付 token 化方案：Agent 下单时看不到用户真实卡号，每笔购买都需用户复核并通过安全校验。首批仅面向美国 18 岁以上 ChatGPT Pro 订阅用户，须持有符合条件的美国发卡行信用卡，逐步放量。",
-     "url": "https://9to5mac.com/2026/11/13/openai-launches-chatgpt-wallet-enabling-dot-agents-to-make-purchases/",
-     "source": "9to5Mac｜2026-11-13",
-     "tags": [
-      "AI 大模型"
-     ]
-    },
-    {
-     "rank": "02",
-     "title": "四家非营利组织起诉五大 AI 实验室，要求法院冻结前沿模型开发",
-     "summary": "Irreplaceable Education Fund、Public Citizen、Heat Initiative 与 Alliance for Secure AI 在旧金山高等法院起诉 Anthropic、Google、Meta、OpenAI 与 SpaceX 超级智能部门，要求紧急禁令，禁止五家公司开发或部署比 2026 年 11 月 12 日现有水平更强的 AI 系统，直至能证明系统处于人类控制之下。诉状援引加州《反不正当竞争",
-     "url": "https://www.aljazeera.com/amp/news/2026/11/12/us-nonprofits-sue-tech-giants-to-halt-ai-development",
-     "source": "Al Jazeera｜2026-11-12",
-     "tags": [
-      "AI 大模型"
-     ]
-    }
-   ]
-  },
-  {
-   "id": "tech-dev",
-   "title": "AI 工程与开发工具",
-   "shortTitle": "开发工具",
-   "description": "模型部署 · AI 编程 · Agent",
-   "items": [
-    {
-     "rank": "03",
-     "title": "Anthropic 升级 Claude Code Projects：协调器更主动，并行线程可访问本地电脑",
-     "summary": "Anthropic 于 11 月 13 日更新 Claude Code Projects：一个协调器对话负责拆解任务、派发并行线程、审阅结果并汇总，每个线程是独立的 Claude Code 云端会话，在各自的分支与代码副本上工作，还可继续拆分子 Agent；新增的共享记忆沉淀项目决策，手机上也能遥控进度，合上电脑后任务继续跑。本轮更新后，部分线程还可访问本地电脑与文件夹。Beta 先面向使用云端会话的 Pro 与 Max 用户逐步开放。",
-     "url": "https://pivotnews.ai/build/anthropic-rebuilds-claude-projects-around-coordinated",
-     "source": "Pivot News｜2026-11-14",
-     "tags": [
-      "开发工具"
-     ]
-    },
-    {
-     "rank": "04",
-     "title": "DeepSeek 把 App 能力开放上 API：搜索、文件解析与语音都可调用",
-     "summary": "DeepSeek 于 11 月 13 日把消费端 App 的能力开放给开发者：deepseek-flash（V4.1-Flash-1017）在 Messages、Responses 与 Chat Completions 三种接口中内置联网搜索、图片搜索、深度思考搜索、文件解析、URL 读取、安全检查与语音功能；搜索、抓取、OCR、语音识别与合成功能也可作为独立 API 单独调用。搜索与抓取定价 0.75 美元/千次成功请求，OCR 为 ",
-     "url": "https://www.kucoin.com/news/flash/deepseek-expands-api-toolkit-with-new-model-and-standalone-features",
-     "source": "KuCoin News｜2026-11-13",
-     "tags": [
-      "开发工具"
-     ]
-    },
-    {
-     "rank": "05",
-     "title": "llama.cpp 与 ggml 发布 1.0.0：本地 AI 迎来稳定的公开 API 承诺",
-     "summary": "本地推理引擎 llama.cpp 与底层张量库 ggml 于 11 月 13 日双双发布 v1.0.0，正式采用语义化版本：此后破坏公开 C API 的改动只会出现在大版本号升级中。版本清理了 35 个已弃用函数，把 NextN 推测解码 API 提升进主头文件；ggml 方面新增 FP8 支持、可配置 YaRN 截断，并为 DeepSeek V4/V4.1 在 Apple Metal 上融合 MoE 路由。项目支持 150 多种模型架",
-     "url": "https://www.unite.ai/llama-cpp-v1-0-0-sets-api-stability-rules-for-local-ai-tools/",
-     "source": "Unite.AI｜2026-11-13",
-     "tags": [
-      "开发工具"
-     ]
-    },
-    {
-     "rank": "06",
-     "title": "Cognition 推出 Devin Apps：在 Devin 云电脑上建私有内部工具",
-     "summary": "Cognition 于 11 月 13 日推出 Devin Apps：用户用自然语言描述需求，Devin 直接在自己的云电脑上构建并托管为私有 Web 应用，团队通过链接登录使用，不对外公开。应用基于内存快照，闲置时休眠、按唤醒时间计费，适合内部工具场景，可连接 Linear、Jira、GitHub 等现有团队软件。功能向已激活账户逐步开放，定价尚未公布。",
-     "url": "https://news.tulsian.ai/news/company-news/cognition-launches-devin-apps-for-team-web-building.html",
-     "source": "Tulsian AI News｜2026-11-13",
-     "tags": [
-      "开发工具"
-     ]
-    }
-   ]
-  },
-  {
-   "id": "tech-industry",
-   "title": "科技行业动态",
-   "shortTitle": "行业动态",
-   "description": "公司动态 · 产品发布 · 芯片与云",
-   "items": [
-    {
-     "rank": "07",
-     "title": "WSJ：英伟达被曝以担保与投资“资助买家”，循环融资帝国随黄仁勋辞职动摇",
-     "summary": "WSJ 调查称，英伟达用闲置现金向客户与供应链注资以拉动芯片销售：去年向 OpenAI 一轮融资承诺 300 亿美元，并为 OpenAI 与软银在俄亥俄州 4.3GW 数据中心项目中 1050 亿美元的租金支付提供担保；今年秋季又提出约 5000 亿美元的融资合作计划。报道称，8 月黄仁勋与时任 CFO 科莱特·克雷斯就一笔 2500 亿美元的 OpenAI 担保方案产生分歧，克雷斯将其砍至约 1250 亿美元。英伟达否认“循环融资”的",
-     "url": "https://www.wsj.com/livecoverage/stock-market-today-dow-sp-500-nasdaq-11-12-2026/card/nvidia-s-crisis-reverberates-across-its-circular-financing-empire-ZkICyO5dWbC3C6HShXGP",
-     "source": "The Wall Street Journal｜2026-11-13",
-     "tags": [
-      "行业动态"
-     ]
-    },
-    {
-     "rank": "08",
-     "title": "美国 FAA 全国停飞 4.5 小时：老旧路由器过载，逾万航班受影响",
-     "summary": "美国联邦航空管理局（FAA）于 11 月 14 日下午 3:54（美东时间）发布全国停飞令，至晚 8:15 解除，持续约 4.5 小时，为 25 年来最长的一次全国停飞。起因是承包商 L3Harris 在更换老旧铜线为光纤时，一台新路由器每 4～5 秒向系统发起逾千次连接请求，淹没了其他路由器，导致空管通信与雷达数据出现不一致。截至周六晚，约 6785 个航班取消、7343 个航班延误。官员强调无网络攻击或外国干预证据，FAA 新扩的 ",
-     "url": "https://www.aljazeera.com/news/2026/11/14/faa-ground-stop-lifted-why-were-us-flights-grounded-and-whats-next",
-     "source": "Al Jazeera｜2026-11-14",
-     "tags": [
-      "行业动态"
-     ]
-    },
-    {
-     "rank": "09",
-     "title": "Cursor 公布安全事件调查结论：泄露的 Fireworks 密钥是入侵起点",
-     "summary": "Cursor 于 11 月 13 日公布为期两周的调查结论：攻击者利用 Fireworks AI 泄露的一枚访问密钥，复制了 Cursor 与 Fireworks 共享的只读存储桶中的历史编码 Agent  traces（多为 2025 年未开启 Privacy Mode 的会话），其中少量未脱敏的凭证让攻击者得以深入内部系统，并于 10 月 29 日在 Cursor 的 VS Code 扩展市场缓存中植入带 SSH 后门的 Claud",
-     "url": "https://paktechstan.com/article/cursor-traces-its-october-breach-to-a-leaked-fireworks-key-closing-a-two-week-investigation",
-     "source": "Paktechstan｜2026-11-14",
-     "tags": [
-      "行业动态"
-     ]
-    }
-   ]
-  },
-  {
    "id": "github-hot",
    "title": "GitHub 今日热门",
    "shortTitle": "GitHub 热榜",
@@ -383,6 +269,92 @@
      ]
     }
    ]
+  },
+  {
+   "id": "tech-dev",
+   "title": "AI 工程与开发工具",
+   "shortTitle": "开发工具",
+   "description": "模型部署 · AI 编程 · Agent",
+   "items": [
+    {
+     "rank": "01",
+     "title": "llama.cpp 合并本地音频支持：ZONOS3-Mini 语音合成与 Higgs/VibeVoice 语音识别",
+     "summary": "llama.cpp 在 11 月 15 日合并了两组音频集成：ZONOS3-Mini 语音合成（b12424，支持 43 种语言，Apache 2.0），以及 Higgs Audio v3 语音转文字与微软 VibeVoice-ASR（b12426），本地推理又补上了一块语音拼图。",
+     "url": "https://cbp-news.com/en/news/llama-cpp-zonos3-higgs-vibevoice-audio/",
+     "source": "CBP News｜2026-11-15",
+     "tags": [
+      "开发工具"
+     ]
+    },
+    {
+     "rank": "02",
+     "title": "Claude Code 与 Codex 逆向 1994 年 Jeep 发动机电脑，仅用 3 美元 Arduino",
+     "summary": "开发者用 Claude Code 和 Codex 对一台 1994 年 Jeep 的 ECU（发动机控制单元）做了逆向工程，硬件成本只是一块约 3 美元的 Arduino，相关讨论登上 HN 首页热榜。",
+     "url": "https://thecontext.dev/en/topics/agents/",
+     "source": "Hacker News 社区热议｜2026-11-15",
+     "tags": [
+      "开发工具"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "tech-industry",
+   "title": "科技行业动态",
+   "shortTitle": "行业动态",
+   "description": "公司动态 · 产品发布 · 芯片与云",
+   "items": [
+    {
+     "rank": "03",
+     "title": "DRAM 反垄断诉讼获准继续：三星、SK 海力士、美光被控合谋限制供应",
+     "summary": "美国加州北区联邦法官 Noël Wise 于 11 月 14 日驳回三星、SK 海力士、美光的撤诉动议，认定原告对三家公司合谋限制常规 DRAM 供应的指控“合理可信”，案件进入下一阶段。三家公司合计占 2025 年第三季度全球 DRAM 收入的 91% 以上；诉状称常规 DRAM 合同价在截至 2025 年第三季度的一年里上涨 171.8%。",
+     "url": "https://www.tech-pulse.online/article/federal-judge-lets-dram-price-fixing-suit-stand-against-samsung-sk-hynix-and-micron",
+     "source": "Tech Pulse 等多家媒体｜2026-11-14（裁决）",
+     "tags": [
+      "行业动态"
+     ]
+    },
+    {
+     "rank": "04",
+     "title": "NYT：美商务部长 Lutnick 推动收窄海外 AI 芯片管制，涉家族企业利益重叠",
+     "summary": "NYT 披露，美国商务部长 Howard Lutnick 正推动一份比强硬派主张更窄的芯片出口管制方案：仅覆盖新加坡、马来西亚、泰国、印度尼西亚、巴西、南非、挪威 7 国，仅针对未来出货，中国客户租用海外数据中心训练 AI 时只需报备、无需自动申领许可。与此同时，其家族企业 Cantor Fitzgerald 曾为马来西亚 Bitdeer A201 数据中心（传闻客户为腾讯）安排最高 10 亿美元的股票发行。",
+     "url": "https://mlq.ai/news/lutnick-pushed-narrower-chip-rules-for-overseas-data-centers-that-overlap-with-cantors-business-nyt-reports/",
+     "source": "《纽约时报》（2026-11-15 报道），MLQ 等转载",
+     "tags": [
+      "行业动态"
+     ]
+    },
+    {
+     "rank": "05",
+     "title": "特斯拉 Cybercab 向个人开放订购：2.999 万美元车价加每月 299 美元强制订阅",
+     "summary": "特斯拉 11 月 13 日起邀请部分客户以个人名义购买无方向盘、无踏板的双座 Cybercab，税前售价 2.999 万美元，订金 1000 美元不可退，预计 12 月在奥斯汀交付。随附的《自动驾驶订阅协议》写明：“没有有效的 Autonomy Subscription，车辆将无法行驶”，订阅费每月 299 美元，特斯拉可提前一个月通知调价；车辆仅限在德州、佛罗里达 8 座城市的 Robotaxi 覆盖区内运行，且仅限个人使用。",
+     "url": "https://electrek.co/2026/11/14/tesla-cybercab-autonomy-subscription-agreement-terms/",
+     "source": "Electrek / The Verge｜2026-11-13（邀请），2026-11-14（协议细节）",
+     "tags": [
+      "行业动态"
+     ]
+    },
+    {
+     "rank": "06",
+     "title": "Anthropic IPO 临近：前 9 个月收入 332 亿美元，净亏损 1040 亿美元多为非现金项",
+     "summary": "Anthropic 11 月 10 日提交的修订版招股书显示：2026 年前 9 个月收入 332.4 亿美元，同比增长约 1200%；净亏损 1040 亿美元，但其中 943 亿美元是可转债等公允价值变动带来的非现金会计项，同期经营现金流为正 66 亿美元；第三季度收入约 170 亿美元，经营亏损 5.67 亿美元；10 月 31 日年化收入约 810 亿美元，算力与数据中心租赁承诺约 8950 亿美元。发行价区间 70–78 美元，",
+     "url": "https://www.aifintent.com/blog/anthropic-amended-s1-q3-revenue-17-billion-operating-loss-895-billion-compute",
+     "source": "AIF Intent / Greek Soup 解读 S-1/A 文件｜2026-11-10（文件），2026-11-15（解读）",
+     "tags": [
+      "行业动态"
+     ]
+    },
+    {
+     "rank": "07",
+     "title": "美国联合 8 国签署 AI 供应链“旧金山宣言”（Pax Silica）",
+     "summary": "美国国务院官员 Jacob Helberg 于 11 月 15 日宣布，美国与韩国、日本、澳大利亚、英国、以色列、印度、卡塔尔、阿联酋签署《旧金山宣言》，共同保护 AI 相关关键技术与供应链，覆盖半导体、关键矿产与能源；德国、瑞典、荷兰与欧盟委员会预计下周签署。该协议是美国主导的 AI 供应链合作倡议 Pax Silica 的一部分，签署时点正值特朗普与习近平定于 11 月 19 日在深圳 APEC 期间会晤前夕。",
+     "url": "https://www.ajupress.com/view/20261116091270243",
+     "source": "Aju Press｜2026-11-15",
+     "tags": [
+      "行业动态"
+     ]
+    }
+   ]
   }
  ],
  "_pipelines": {
@@ -407,20 +379,20 @@
   "tech-news": {
    "digest": [
     {
-     "title": "速览",
-     "text": "OpenAI 上线 ChatGPT Wallet，dots 常驻 Agent 首次可以代用户结账，Agent 从“帮你查”正式走向“帮你买”。"
+     "title": "DRAM 反垄断诉讼获准",
+     "text": "DRAM 反垄断诉讼获准继续：三星、SK 海力士、美光被控合谋限制常规内存供应，常规 DRAM 合同价一年上涨 171.8%，AI 抢 HBM 产能的代价正蔓延到每一台设备。"
     },
     {
-     "title": "速览",
-     "text": "WSJ 调查称英伟达以担保与投资“资助买家”消化芯片，黄仁勋辞职余波未平，AI 算力繁荣背后的资金链受到质疑。"
+     "title": "特斯拉 Cybercab",
+     "text": "特斯拉 Cybercab 向个人开放订购：2.999 万美元车价外加每月 299 美元强制订阅，停缴费用车就无法行驶，5 年总成本约 4.76 万美元。"
     },
     {
-     "title": "速览",
-     "text": "Anthropic 升级 Claude Code Projects、DeepSeek 开放 App 能力上 API、llama.cpp 迎来 1.0，开发者工具一日密集更新。"
+     "title": "美国芯片管制再生变数",
+     "text": "美国芯片管制再生变数：NYT 披露商务部长推动收窄海外数据中心规则；美日韩等 9 国签署 AI 供应链“旧金山宣言”，管制焦点从“卖芯片”转向“租算力”。"
     }
    ],
-   "highlight": "OpenAI 上线 ChatGPT Wallet，dots 常驻 Agent 首次可以代用户结账，Agent 从“帮你查”正式走向“帮你买”。",
-   "date": "2026-11-15"
+   "highlight": "DRAM 反垄断诉讼获准继续：三星、SK 海力士、美光被控合谋限制常规内存供应，常规 DRAM 合同价一年上涨 171.8%，AI 抢 HBM 产能的代价正蔓延到每一台设备。",
+   "date": "2026-11-16"
   }
  },
  "digest": [
@@ -429,11 +401,11 @@
    "text": "Chrome 官方现代 Web 指导 skill 单日 +1,219 四连登顶日榜，总数突破 7,100 star；univer 单日 +988、plannotator 单日 +866 紧随其后，agent 工具链继续领跑。"
   },
   {
-   "title": "速览",
-   "text": "OpenAI 上线 ChatGPT Wallet，dots 常驻 Agent 首次可以代用户结账，Agent 从“帮你查”正式走向“帮你买”。"
+   "title": "DRAM 反垄断诉讼获准",
+   "text": "DRAM 反垄断诉讼获准继续：三星、SK 海力士、美光被控合谋限制常规内存供应，常规 DRAM 合同价一年上涨 171.8%，AI 抢 HBM 产能的代价正蔓延到每一台设备。"
   }
  ],
- "intro": "Chrome 官方现代 Web 指导 skill 单日 +1,219 四连登顶日榜，总数突破 7,100 star；univer 单日 +988、plannotator 单日 +866 紧随其后，agent 工具链继续领跑。 OpenAI 上线 ChatGPT Wallet，dots 常驻 Agent 首次可以代用户结账，Agent 从“帮你查”正式走向“帮你买”。",
+ "intro": "Chrome 官方现代 Web 指导 skill 单日 +1,219 四连登顶日榜，总数突破 7,100 star；univer 单日 +988、plannotator 单日 +866 紧随其后，agent 工具链继续领跑。 DRAM 反垄断诉讼获准继续：三星、SK 海力士、美光被控合谋限制常规内存供应，常规 DRAM 合同价一年上涨 171.8%，AI 抢 HBM 产能的代价正蔓延到每一台设备。",
  "tasks": [
   {
    "icon": "GH",
@@ -450,5 +422,5 @@
  ],
  "date": "2026-11-16",
  "issue": "047",
- "updatedAt": "00:36 更新"
+ "updatedAt": "01:02 更新"
 }
