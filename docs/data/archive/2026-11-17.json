@@ -1,0 +1,426 @@
+{
+ "sections": [
+  {
+   "id": "tech-dev",
+   "title": "AI 工程与开发工具",
+   "shortTitle": "开发工具",
+   "description": "模型部署 · AI 编程 · Agent",
+   "items": [
+    {
+     "rank": "01",
+     "title": "llama.cpp 合并本地音频支持：ZONOS3-Mini 语音合成与 Higgs/VibeVoice 语音识别",
+     "summary": "llama.cpp 在 11 月 15 日合并了两组音频集成：ZONOS3-Mini 语音合成（b12424，支持 43 种语言，Apache 2.0），以及 Higgs Audio v3 语音转文字与微软 VibeVoice-ASR（b12426），本地推理又补上了一块语音拼图。",
+     "url": "https://cbp-news.com/en/news/llama-cpp-zonos3-higgs-vibevoice-audio/",
+     "source": "CBP News｜2026-11-15",
+     "tags": [
+      "开发工具"
+     ]
+    },
+    {
+     "rank": "02",
+     "title": "Claude Code 与 Codex 逆向 1994 年 Jeep 发动机电脑，仅用 3 美元 Arduino",
+     "summary": "开发者用 Claude Code 和 Codex 对一台 1994 年 Jeep 的 ECU（发动机控制单元）做了逆向工程，硬件成本只是一块约 3 美元的 Arduino，相关讨论登上 HN 首页热榜。",
+     "url": "https://thecontext.dev/en/topics/agents/",
+     "source": "Hacker News 社区热议｜2026-11-15",
+     "tags": [
+      "开发工具"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "tech-industry",
+   "title": "科技行业动态",
+   "shortTitle": "行业动态",
+   "description": "公司动态 · 产品发布 · 芯片与云",
+   "items": [
+    {
+     "rank": "03",
+     "title": "DRAM 反垄断诉讼获准继续：三星、SK 海力士、美光被控合谋限制供应",
+     "summary": "美国加州北区联邦法官 Noël Wise 于 11 月 14 日驳回三星、SK 海力士、美光的撤诉动议，认定原告对三家公司合谋限制常规 DRAM 供应的指控“合理可信”，案件进入下一阶段。三家公司合计占 2025 年第三季度全球 DRAM 收入的 91% 以上；诉状称常规 DRAM 合同价在截至 2025 年第三季度的一年里上涨 171.8%。",
+     "url": "https://www.tech-pulse.online/article/federal-judge-lets-dram-price-fixing-suit-stand-against-samsung-sk-hynix-and-micron",
+     "source": "Tech Pulse 等多家媒体｜2026-11-14（裁决）",
+     "tags": [
+      "行业动态"
+     ]
+    },
+    {
+     "rank": "04",
+     "title": "NYT：美商务部长 Lutnick 推动收窄海外 AI 芯片管制，涉家族企业利益重叠",
+     "summary": "NYT 披露，美国商务部长 Howard Lutnick 正推动一份比强硬派主张更窄的芯片出口管制方案：仅覆盖新加坡、马来西亚、泰国、印度尼西亚、巴西、南非、挪威 7 国，仅针对未来出货，中国客户租用海外数据中心训练 AI 时只需报备、无需自动申领许可。与此同时，其家族企业 Cantor Fitzgerald 曾为马来西亚 Bitdeer A201 数据中心（传闻客户为腾讯）安排最高 10 亿美元的股票发行。",
+     "url": "https://mlq.ai/news/lutnick-pushed-narrower-chip-rules-for-overseas-data-centers-that-overlap-with-cantors-business-nyt-reports/",
+     "source": "《纽约时报》（2026-11-15 报道），MLQ 等转载",
+     "tags": [
+      "行业动态"
+     ]
+    },
+    {
+     "rank": "05",
+     "title": "特斯拉 Cybercab 向个人开放订购：2.999 万美元车价加每月 299 美元强制订阅",
+     "summary": "特斯拉 11 月 13 日起邀请部分客户以个人名义购买无方向盘、无踏板的双座 Cybercab，税前售价 2.999 万美元，订金 1000 美元不可退，预计 12 月在奥斯汀交付。随附的《自动驾驶订阅协议》写明：“没有有效的 Autonomy Subscription，车辆将无法行驶”，订阅费每月 299 美元，特斯拉可提前一个月通知调价；车辆仅限在德州、佛罗里达 8 座城市的 Robotaxi 覆盖区内运行，且仅限个人使用。",
+     "url": "https://electrek.co/2026/11/14/tesla-cybercab-autonomy-subscription-agreement-terms/",
+     "source": "Electrek / The Verge｜2026-11-13（邀请），2026-11-14（协议细节）",
+     "tags": [
+      "行业动态"
+     ]
+    },
+    {
+     "rank": "06",
+     "title": "Anthropic IPO 临近：前 9 个月收入 332 亿美元，净亏损 1040 亿美元多为非现金项",
+     "summary": "Anthropic 11 月 10 日提交的修订版招股书显示：2026 年前 9 个月收入 332.4 亿美元，同比增长约 1200%；净亏损 1040 亿美元，但其中 943 亿美元是可转债等公允价值变动带来的非现金会计项，同期经营现金流为正 66 亿美元；第三季度收入约 170 亿美元，经营亏损 5.67 亿美元；10 月 31 日年化收入约 810 亿美元，算力与数据中心租赁承诺约 8950 亿美元。发行价区间 70–78 美元，",
+     "url": "https://www.aifintent.com/blog/anthropic-amended-s1-q3-revenue-17-billion-operating-loss-895-billion-compute",
+     "source": "AIF Intent / Greek Soup 解读 S-1/A 文件｜2026-11-10（文件），2026-11-15（解读）",
+     "tags": [
+      "行业动态"
+     ]
+    },
+    {
+     "rank": "07",
+     "title": "美国联合 8 国签署 AI 供应链“旧金山宣言”（Pax Silica）",
+     "summary": "美国国务院官员 Jacob Helberg 于 11 月 15 日宣布，美国与韩国、日本、澳大利亚、英国、以色列、印度、卡塔尔、阿联酋签署《旧金山宣言》，共同保护 AI 相关关键技术与供应链，覆盖半导体、关键矿产与能源；德国、瑞典、荷兰与欧盟委员会预计下周签署。该协议是美国主导的 AI 供应链合作倡议 Pax Silica 的一部分，签署时点正值特朗普与习近平定于 11 月 19 日在深圳 APEC 期间会晤前夕。",
+     "url": "https://www.ajupress.com/view/20261116091270243",
+     "source": "Aju Press｜2026-11-15",
+     "tags": [
+      "行业动态"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "github-hot",
+   "title": "GitHub 今日热门",
+   "shortTitle": "GitHub 热榜",
+   "description": "综合热度、活跃度与实用价值排序",
+   "items": [
+    {
+     "rank": "01",
+     "title": "dream-num/univer",
+     "summary": "解决了\"agent 进办公室却不会改表格、改文档\"的问题；单日 +1,828 断层登顶，总数突破 2.7 万 star，2022 年老项目借 agent 办公需求三连加速；适合想在产品里嵌入办公能力或给 agent 接办公能力的开发者，值得接入试一圈。",
+     "url": "https://github.com/dream-num/univer",
+     "tags": [
+      "强烈推荐"
+     ],
+     "featured": true
+    },
+    {
+     "rank": "02",
+     "title": "alibaba/open-code-review",
+     "summary": "阿里开源的代码评审工具：确定性流水线 + LLM agent 混合架构，给出精确到行的评审意见，号称经阿里规模实战检验。 确定性流水线与 LLM agent 混合评审、精确到行的评论、内置多语言规则集（空指针、线程安全、XSS、SQL 注入等）、兼容 OpenAI 与 Anthropic 模型、Go 实现。",
+     "url": "https://github.com/alibaba/open-code-review",
+     "tags": [
+      "值得关注"
+     ]
+    },
+    {
+     "rank": "03",
+     "title": "NVIDIA/SkillEvaluator",
+     "summary": "NVIDIA 出的 agent skill 评测框架：先过质量关，再实测\"装了这个 skill，agent 干活到底变好多少\"。 多层评测框架（质量门、语义重叠检测、合成评测数据集生成、实测 skill 对 agent 行为的影响）、Python 实现、配套论文 arXiv:2608.20614 与 NVIDIA 开发者博客。",
+     "url": "https://github.com/NVIDIA/SkillEvaluator",
+     "tags": [
+      "值得关注"
+     ]
+    },
+    {
+     "rank": "04",
+     "title": "ChromeDevTools/chrome-devtools-mcp",
+     "summary": "Chrome DevTools 官方给 coding agent 的 MCP 服务器：让 agent 直接用浏览器开发者工具的能力调试网页。 把 Chrome DevTools 能力通过 MCP 交给 coding agent、覆盖调试与性能分析场景、TypeScript 实现。",
+     "url": "https://github.com/ChromeDevTools/chrome-devtools-mcp",
+     "tags": [
+      "值得关注"
+     ]
+    },
+    {
+     "rank": "05",
+     "title": "tradermonty/claude-trading-skills",
+     "summary": "给个人投资者的 Claude Code 交易 skill 工具箱：市场分析、技术图表、经济数据与交易复盘，帮你把交易决策流程结构化。 覆盖市场复盘、风险管理、交易计划、交易日志与持续改进的 skill 工作流、面向长期投资 + ETF + 分红股为核心、纪律性波段为卫星的个人投资者、配套文档站。",
+     "url": "https://github.com/tradermonty/claude-trading-skills",
+     "tags": [
+      "值得关注"
+     ]
+    },
+    {
+     "rank": "06",
+     "title": "ag-ui-protocol/ag-ui",
+     "summary": "让 AI agent 接进前端应用的开放协议：agent 与界面之间用统一的事件流对话，agent 能实时感知用户上下文、驱动界面变化。 开放、轻量的事件驱动协议、标准化 agent 与前端应用的交互方式、支持 agent 实时获取用户上下文、TypeScript 实现、配套 npm 包。",
+     "url": "https://github.com/ag-ui-protocol/ag-ui",
+     "tags": [
+      "值得关注"
+     ]
+    },
+    {
+     "rank": "07",
+     "title": "backnotprop/plannotator",
+     "summary": "给 agent 协作配的\"批注工作台\"：在计划、文档、产物上直接批注、审 diff、给 agent 一键回反馈，不用再来回切窗口。 批注计划、规格、Markdown、HTML 等交互产物、审 diff 与 PR、反馈一键发回 agent、收件箱式工作面，兼容 Amp、Claude Code、Codex、Copilot、Droid、Gemini CLI、Kiro、opencode。",
+     "url": "https://github.com/backnotprop/plannotator",
+     "tags": [
+      "值得关注"
+     ]
+    },
+    {
+     "rank": "08",
+     "title": "google-labs-code/stitch-skills",
+     "summary": "Google Stitch 的 agent skill 合集：让 coding agent 按 Stitch 的设计能力出活，设计稿、构建与工具 skill 分开装。 遵循 Agent Skills 开放标准的 skill 库、覆盖设计（stitch-design）、构建（stitch-build）与工具（stitch-utilities）三组插件、兼容 Codex、Antigravity、Gem",
+     "url": "https://github.com/google-labs-code/stitch-skills",
+     "tags": [
+      "了解即可"
+     ]
+    },
+    {
+     "rank": "09",
+     "title": "kajisho5/ffmpeg-skill",
+     "summary": "给 coding agent 配的本地视频剪辑师：42 个 FFmpeg 工具 + 机器可读的剪辑规约，agent 能剪片、加字幕、调响度，还能自己检查成片。 42 个本地 FFmpeg 工具、机器可读的剪辑规约（剪切、字幕、重构画幅、响度、多平台导出）、MCP 服务器、兼容 Claude Code、Cursor、Codex、本地运行、无需云端与 API Key、Python 标准库实现。",
+     "url": "https://github.com/kajisho5/ffmpeg-skill",
+     "tags": [
+      "值得关注"
+     ]
+    },
+    {
+     "rank": "10",
+     "title": "google-research/paper-orchestra",
+     "summary": "Google Cloud AI Research 的多 agent 论文写作框架：把零散的想法与实验记录，编排成可投稿的 LaTeX 论文。 多 agent 流水线（提纲、文献综述、分节写作、精修、绘图）、把无约束的前期材料转成投稿级 LaTeX 稿件、自动生成图表与概念图、Python 实现。",
+     "url": "https://github.com/google-research/paper-orchestra",
+     "tags": [
+      "了解即可"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "github-rising",
+   "title": "Star 增长最快",
+   "shortTitle": "增长最快",
+   "description": "按实际 Star 增量排序",
+   "items": [
+    {
+     "rank": "01",
+     "title": "meta/astryx",
+     "summary": "较昨日（+13,501）回落，总数较昨日 +727、逼近 3 万 star：Meta 的 agent-ready 设计系统连续三日守住周榜第一，热度仍在高位。",
+     "url": "https://github.com/meta/astryx",
+     "stars": "29.6k",
+     "trend": "+10,939",
+     "tags": [
+      "高增长"
+     ]
+    },
+    {
+     "rank": "02",
+     "title": "sherlock-project/sherlock",
+     "summary": "较昨日（+10,412）回落，总数较昨日 +691、突破 11.3 万 star：2018 年的老项目连续四日稳居周榜前二，\"老项目突然回春\"的长尾仍在，仓库昨日仍在更新——按用户名跨社交网络找账号的经典工具。",
+     "url": "https://github.com/sherlock-project/sherlock",
+     "stars": "113.2k",
+     "trend": "+7,067",
+     "tags": [
+      "高增长"
+     ]
+    },
+    {
+     "rank": "03",
+     "title": "GoogleChrome/modern-web-guidance-src",
+     "summary": "较昨日总数 +824、逼近 8,000 star，仓库今日仍在更新：四连登顶日榜后首次跌出日榜，但周增仍居第三——官方 skill 的供给侧扩张仍在继续。",
+     "url": "https://github.com/GoogleChrome/modern-web-guidance-src",
+     "stars": "8.0k",
+     "trend": "+6,542",
+     "tags": [
+      "高增长"
+     ]
+    },
+    {
+     "rank": "04",
+     "title": "anthropics/skills",
+     "summary": "较昨日（+6,077）小幅回落，总数较昨日 +684、逼近 19.6 万 star：官方 skill 供给侧扩张仍在继续。",
+     "url": "https://github.com/anthropics/skills",
+     "stars": "196.0k",
+     "trend": "+5,666",
+     "tags": [
+      "高增长"
+     ]
+    },
+    {
+     "rank": "05",
+     "title": "we-promise/sure",
+     "summary": "较昨日（+4,556）小幅加速，总数较昨日 +301、突破 1.6 万 star：个人理财是\"人人都需要、却很少有好用的开源选择\"的赛道，干净仪表盘 + AI 助手问答的组合正好踩在需求上。",
+     "url": "https://github.com/we-promise/sure",
+     "stars": "16.0k",
+     "trend": "+4,679",
+     "tags": [
+      "高增长"
+     ]
+    },
+    {
+     "rank": "06",
+     "title": "ZhuLinsen/daily_stock_analysis",
+     "summary": "较昨日（+4,548）小幅回落，总数较昨日 +301、逼近 7.3 万 star：LLM 炒股助手方向最成熟的中文样本。",
+     "url": "https://github.com/ZhuLinsen/daily_stock_analysis",
+     "stars": "72.8k",
+     "trend": "+4,355",
+     "tags": [
+      "高增长"
+     ]
+    },
+    {
+     "rank": "07",
+     "title": "google/elephant-goldfish-model",
+     "summary": "较昨日（+5,060）回落，总数较昨日 +612、突破 2 万 star：Google 的 agent 设计评审插件——\"大象\"攥着上下文写规格，\"金鱼\"用全新视角审稿、揪出未言明的假设，适合在动手写代码前先把设计想清楚。",
+     "url": "https://github.com/google/elephant-goldfish-model",
+     "stars": "20.4k",
+     "trend": "+4,249",
+     "tags": [
+      "高增长"
+     ]
+    },
+    {
+     "rank": "08",
+     "title": "addyosmani/agent-skills",
+     "summary": "较昨日（+3,889）小幅加速，总数较昨日 +390：实战派 skill 合集的另一支，值得与 mattpocock 版对照着看。",
+     "url": "https://github.com/addyosmani/agent-skills",
+     "stars": "118.3k",
+     "trend": "+3,960",
+     "tags": [
+      "高增长"
+     ]
+    },
+    {
+     "rank": "09",
+     "title": "vercel-labs/agent-browser",
+     "summary": "较昨日（+4,217）回落，总数较昨日 +401、稳在 5.2 万 star 之上：agent 上网干活的基础设施件。",
+     "url": "https://github.com/vercel-labs/agent-browser",
+     "stars": "52.0k",
+     "trend": "+3,760",
+     "tags": [
+      "高增长"
+     ]
+    },
+    {
+     "rank": "10",
+     "title": "alibaba/open-code-review",
+     "summary": "单日增量较昨日 +691 继续加速：大厂代码评审能力开源的实用样本，值得接入试一圈。",
+     "url": "https://github.com/alibaba/open-code-review",
+     "stars": "52.9k",
+     "trend": "+3,056",
+     "tags": [
+      "高增长"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "github-new",
+   "title": "值得关注的新项目",
+   "shortTitle": "新项目",
+   "description": "近期创建、增长迅速的有潜力项目",
+   "items": [
+    {
+     "rank": "01",
+     "title": "storytold/craft-anything",
+     "summary": "ArtCraft 系列新作：帮你\"看懂任意软件如何工作，再自己动手做一个\"的工具。 延续 wordcraft / cadcraft / gridcraft / solidcraft 的纯 Rust 干净重实现路线，README 提供中英日韩多语言版本，定位在\"理解软件\"与\"动手复刻\"之间。",
+     "url": "https://github.com/storytold/craft-anything",
+     "tags": [
+      "值得关注"
+     ]
+    },
+    {
+     "rank": "02",
+     "title": "ccch1mneyyy/dsh-Go",
+     "summary": "把 DeepSeek Harness 装进口袋的 Android 客户端：手机上直接跑，也能遥控电脑上的 DSH。 Android 8+ 可用的手机端 Harness、手机本机运行与遥控电脑双模式、中文 README，瞄准\"agent 不只坐在桌前\"的场景。",
+     "url": "https://github.com/ccch1mneyyy/dsh-Go",
+     "tags": [
+      "值得关注"
+     ]
+    },
+    {
+     "rank": "03",
+     "title": "libracoder/kiri",
+     "summary": "小巧快速的容器运行时：跑你的 Docker 镜像，兼容 docker CLI、Compose 与 buildx，还自带免费的 Ngrok 替代品。 兼容 Docker 镜像与现有 docker CLI / Compose / buildx 工作流、macOS / Windows / Linux 三端可用、内置免费 Ngrok 替代（内网穿透）、Rust 实现、Apache-2.0 协议、支持 38",
+     "url": "https://github.com/libracoder/kiri",
+     "tags": [
+      "值得关注"
+     ]
+    },
+    {
+     "rank": "04",
+     "title": "anefzaoui/misterdownloadmanager",
+     "summary": "纯 Rust 从头写的开源下载器：对标 IDM 的速度，免费、跨平台，还带浏览器扩展。 纯 Rust 干净重写（clean-room 实现）、Windows / macOS / Linux 三端可用、配套浏览器扩展、官网提供下载与帮助文档。",
+     "url": "https://github.com/anefzaoui/misterdownloadmanager",
+     "tags": [
+      "值得关注"
+     ]
+    },
+    {
+     "rank": "05",
+     "title": "LNPANDY/NX2Apple",
+     "summary": "把自己的 Switch 游戏装进iPhone / iPad：一键构建的 macOS 应用，不用敲命令行。 基于 nxnative 的 Switch 游戏原生运行方案（非模拟器）、macOS / Windows 图形界面一键构建、游戏以未签名 IPA 形式装进iPhone / iPad、提供中英等多语言文档。",
+     "url": "https://github.com/LNPANDY/NX2Apple",
+     "tags": [
+      "了解即可"
+     ]
+    }
+   ]
+  }
+ ],
+ "_pipelines": {
+  "github": {
+   "digest": [
+    {
+     "title": "速览",
+     "text": "univer 单日 +1,828 断层登顶日榜，总数突破 2.7 万 star；SkillEvaluator 单日 +873、总数从 1,669 涨到 2,681，agent skill 评测方向加速。"
+    },
+    {
+     "title": "速览",
+     "text": "Chrome 官方现代 Web 指导 skill 四连登顶后跌出日榜，但周增 +6,542 仍居周榜第三；astryx 周增 +10,939 守住周榜第一，sherlock 周增 +7,067 回春长尾仍在。"
+    },
+    {
+     "title": "新项目继续兑现",
+     "text": "新项目继续兑现：craft-anything 单日净增 1,038、总数突破 3.4 万，dsh-Go 逼近 2.5 万；容器运行时 kiri、把 Switch 游戏装进 iPhone 的 NX2Apple 首次进入新项目榜。"
+    }
+   ],
+   "highlight": "univer 单日 +1,828 断层登顶日榜，总数突破 2.7 万 star；SkillEvaluator 单日 +873、总数从 1,669 涨到 2,681，agent skill 评测方向加速。",
+   "date": "2026-11-17"
+  },
+  "tech-news": {
+   "digest": [
+    {
+     "title": "DRAM 反垄断诉讼获准",
+     "text": "DRAM 反垄断诉讼获准继续：三星、SK 海力士、美光被控合谋限制常规内存供应，常规 DRAM 合同价一年上涨 171.8%，AI 抢 HBM 产能的代价正蔓延到每一台设备。"
+    },
+    {
+     "title": "特斯拉 Cybercab",
+     "text": "特斯拉 Cybercab 向个人开放订购：2.999 万美元车价外加每月 299 美元强制订阅，停缴费用车就无法行驶，5 年总成本约 4.76 万美元。"
+    },
+    {
+     "title": "美国芯片管制再生变数",
+     "text": "美国芯片管制再生变数：NYT 披露商务部长推动收窄海外数据中心规则；美日韩等 9 国签署 AI 供应链“旧金山宣言”，管制焦点从“卖芯片”转向“租算力”。"
+    }
+   ],
+   "highlight": "DRAM 反垄断诉讼获准继续：三星、SK 海力士、美光被控合谋限制常规内存供应，常规 DRAM 合同价一年上涨 171.8%，AI 抢 HBM 产能的代价正蔓延到每一台设备。",
+   "date": "2026-11-16"
+  }
+ },
+ "digest": [
+  {
+   "title": "速览",
+   "text": "univer 单日 +1,828 断层登顶日榜，总数突破 2.7 万 star；SkillEvaluator 单日 +873、总数从 1,669 涨到 2,681，agent skill 评测方向加速。"
+  },
+  {
+   "title": "DRAM 反垄断诉讼获准",
+   "text": "DRAM 反垄断诉讼获准继续：三星、SK 海力士、美光被控合谋限制常规内存供应，常规 DRAM 合同价一年上涨 171.8%，AI 抢 HBM 产能的代价正蔓延到每一台设备。"
+  }
+ ],
+ "intro": "univer 单日 +1,828 断层登顶日榜，总数突破 2.7 万 star；SkillEvaluator 单日 +873、总数从 1,669 涨到 2,681，agent skill 评测方向加速。 DRAM 反垄断诉讼获准继续：三星、SK 海力士、美光被控合谋限制常规内存供应，常规 DRAM 合同价一年上涨 171.8%，AI 抢 HBM 产能的代价正蔓延到每一台设备。",
+ "tasks": [
+  {
+   "icon": "GH",
+   "name": "GitHub 开源情报",
+   "detail": "Trending · Star 增速 · 新项目",
+   "time": "08:30"
+  },
+  {
+   "icon": "NW",
+   "name": "科技新闻日报",
+   "detail": "新闻聚合 · 中文简报",
+   "time": "09:00"
+  }
+ ],
+ "date": "2026-11-17",
+ "issue": "048",
+ "updatedAt": "00:34 更新"
+}
