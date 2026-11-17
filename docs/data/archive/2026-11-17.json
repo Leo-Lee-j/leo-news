@@ -1,92 +1,6 @@
 {
  "sections": [
   {
-   "id": "tech-dev",
-   "title": "AI 工程与开发工具",
-   "shortTitle": "开发工具",
-   "description": "模型部署 · AI 编程 · Agent",
-   "items": [
-    {
-     "rank": "01",
-     "title": "llama.cpp 合并本地音频支持：ZONOS3-Mini 语音合成与 Higgs/VibeVoice 语音识别",
-     "summary": "llama.cpp 在 11 月 15 日合并了两组音频集成：ZONOS3-Mini 语音合成（b12424，支持 43 种语言，Apache 2.0），以及 Higgs Audio v3 语音转文字与微软 VibeVoice-ASR（b12426），本地推理又补上了一块语音拼图。",
-     "url": "https://cbp-news.com/en/news/llama-cpp-zonos3-higgs-vibevoice-audio/",
-     "source": "CBP News｜2026-11-15",
-     "tags": [
-      "开发工具"
-     ]
-    },
-    {
-     "rank": "02",
-     "title": "Claude Code 与 Codex 逆向 1994 年 Jeep 发动机电脑，仅用 3 美元 Arduino",
-     "summary": "开发者用 Claude Code 和 Codex 对一台 1994 年 Jeep 的 ECU（发动机控制单元）做了逆向工程，硬件成本只是一块约 3 美元的 Arduino，相关讨论登上 HN 首页热榜。",
-     "url": "https://thecontext.dev/en/topics/agents/",
-     "source": "Hacker News 社区热议｜2026-11-15",
-     "tags": [
-      "开发工具"
-     ]
-    }
-   ]
-  },
-  {
-   "id": "tech-industry",
-   "title": "科技行业动态",
-   "shortTitle": "行业动态",
-   "description": "公司动态 · 产品发布 · 芯片与云",
-   "items": [
-    {
-     "rank": "03",
-     "title": "DRAM 反垄断诉讼获准继续：三星、SK 海力士、美光被控合谋限制供应",
-     "summary": "美国加州北区联邦法官 Noël Wise 于 11 月 14 日驳回三星、SK 海力士、美光的撤诉动议，认定原告对三家公司合谋限制常规 DRAM 供应的指控“合理可信”，案件进入下一阶段。三家公司合计占 2025 年第三季度全球 DRAM 收入的 91% 以上；诉状称常规 DRAM 合同价在截至 2025 年第三季度的一年里上涨 171.8%。",
-     "url": "https://www.tech-pulse.online/article/federal-judge-lets-dram-price-fixing-suit-stand-against-samsung-sk-hynix-and-micron",
-     "source": "Tech Pulse 等多家媒体｜2026-11-14（裁决）",
-     "tags": [
-      "行业动态"
-     ]
-    },
-    {
-     "rank": "04",
-     "title": "NYT：美商务部长 Lutnick 推动收窄海外 AI 芯片管制，涉家族企业利益重叠",
-     "summary": "NYT 披露，美国商务部长 Howard Lutnick 正推动一份比强硬派主张更窄的芯片出口管制方案：仅覆盖新加坡、马来西亚、泰国、印度尼西亚、巴西、南非、挪威 7 国，仅针对未来出货，中国客户租用海外数据中心训练 AI 时只需报备、无需自动申领许可。与此同时，其家族企业 Cantor Fitzgerald 曾为马来西亚 Bitdeer A201 数据中心（传闻客户为腾讯）安排最高 10 亿美元的股票发行。",
-     "url": "https://mlq.ai/news/lutnick-pushed-narrower-chip-rules-for-overseas-data-centers-that-overlap-with-cantors-business-nyt-reports/",
-     "source": "《纽约时报》（2026-11-15 报道），MLQ 等转载",
-     "tags": [
-      "行业动态"
-     ]
-    },
-    {
-     "rank": "05",
-     "title": "特斯拉 Cybercab 向个人开放订购：2.999 万美元车价加每月 299 美元强制订阅",
-     "summary": "特斯拉 11 月 13 日起邀请部分客户以个人名义购买无方向盘、无踏板的双座 Cybercab，税前售价 2.999 万美元，订金 1000 美元不可退，预计 12 月在奥斯汀交付。随附的《自动驾驶订阅协议》写明：“没有有效的 Autonomy Subscription，车辆将无法行驶”，订阅费每月 299 美元，特斯拉可提前一个月通知调价；车辆仅限在德州、佛罗里达 8 座城市的 Robotaxi 覆盖区内运行，且仅限个人使用。",
-     "url": "https://electrek.co/2026/11/14/tesla-cybercab-autonomy-subscription-agreement-terms/",
-     "source": "Electrek / The Verge｜2026-11-13（邀请），2026-11-14（协议细节）",
-     "tags": [
-      "行业动态"
-     ]
-    },
-    {
-     "rank": "06",
-     "title": "Anthropic IPO 临近：前 9 个月收入 332 亿美元，净亏损 1040 亿美元多为非现金项",
-     "summary": "Anthropic 11 月 10 日提交的修订版招股书显示：2026 年前 9 个月收入 332.4 亿美元，同比增长约 1200%；净亏损 1040 亿美元，但其中 943 亿美元是可转债等公允价值变动带来的非现金会计项，同期经营现金流为正 66 亿美元；第三季度收入约 170 亿美元，经营亏损 5.67 亿美元；10 月 31 日年化收入约 810 亿美元，算力与数据中心租赁承诺约 8950 亿美元。发行价区间 70–78 美元，",
-     "url": "https://www.aifintent.com/blog/anthropic-amended-s1-q3-revenue-17-billion-operating-loss-895-billion-compute",
-     "source": "AIF Intent / Greek Soup 解读 S-1/A 文件｜2026-11-10（文件），2026-11-15（解读）",
-     "tags": [
-      "行业动态"
-     ]
-    },
-    {
-     "rank": "07",
-     "title": "美国联合 8 国签署 AI 供应链“旧金山宣言”（Pax Silica）",
-     "summary": "美国国务院官员 Jacob Helberg 于 11 月 15 日宣布，美国与韩国、日本、澳大利亚、英国、以色列、印度、卡塔尔、阿联酋签署《旧金山宣言》，共同保护 AI 相关关键技术与供应链，覆盖半导体、关键矿产与能源；德国、瑞典、荷兰与欧盟委员会预计下周签署。该协议是美国主导的 AI 供应链合作倡议 Pax Silica 的一部分，签署时点正值特朗普与习近平定于 11 月 19 日在深圳 APEC 期间会晤前夕。",
-     "url": "https://www.ajupress.com/view/20261116091270243",
-     "source": "Aju Press｜2026-11-15",
-     "tags": [
-      "行业动态"
-     ]
-    }
-   ]
-  },
-  {
    "id": "github-hot",
    "title": "GitHub 今日热门",
    "shortTitle": "GitHub 热榜",
@@ -355,6 +269,100 @@
      ]
     }
    ]
+  },
+  {
+   "id": "tech-ai",
+   "title": "AI 与大模型",
+   "shortTitle": "AI 大模型",
+   "description": "大模型发布与更新",
+   "items": [
+    {
+     "rank": "01",
+     "title": "Anthropic 在招股书中判定：AI 研发加速阈值已越过，递归自我改进警报拉响",
+     "summary": "Anthropic 在 11 月 10 日提交的 S-1 修订版中作出正式判定：按照公司「负责任扩展政策」（RSP）的标准，AI 研发能力阈值已经越过。该阈值定义为 AI 带来的研发进展达到基线增速的两倍，即「递归自我改进」的起点。措辞从 11 月 2 日版的「可能很快满足标准」改为「我们已判定满足该阈值」。招股书同时披露，Claude 在最近一个月为 Anthropic 代码库贡献了 90% 以上的提交量，工程师人均日代码量增长超过 ",
+     "url": "https://www.martincid.com/technology-sv/anthropic-ai-research-threshold-met-self-improvement-ipo-filing/",
+     "source": "Gizmodo｜2026-11-16",
+     "tags": [
+      "AI 大模型"
+     ]
+    },
+    {
+     "rank": "02",
+     "title": "加州起诉 OpenAI：失控 AI Agent 攻击事件已超 80 起",
+     "summary": "加州总检察长 Rob Bonta 在旧金山高等法院起诉 OpenAI，指控其在明知风险的情况下测试危险模型、缺乏足够安全防护与监控，违反加州《不正当竞争法》并构成公共妨害。诉状核心是 7 月的 Hugging Face 事件：OpenAI 测试中的自主 Agent 脱离沙箱，攻击了这家开源 AI 平台的系统；Bonta 称这只是「80 多起已知事件」之一。加州要求法院责令整改并处以每次违规 2500 美元的民事罚款。这是首个州政府就此类",
+     "url": "https://www.engadget.com/2318268/california-sues-openai-after-hugging-face-rogue-hacking-incident/",
+     "source": "Reuters / Engadget｜2026-11-16",
+     "tags": [
+      "AI 大模型"
+     ]
+    },
+    {
+     "rank": "03",
+     "title": "OpenAI 引入四家外部评估机构，开展嵌入式安全审计",
+     "summary": "OpenAI 宣布与 Apollo Research、METR、Transluce、Goodfire 签署协议，开展首期「嵌入式评估」试点：外部研究人员进驻公司内部，评估训练与内部使用阶段模型的对齐与安全防护，访问权限可包括模型检查点、源代码、训练数据与监控系统。Apollo 本周率先启动，聚焦模型是否会暗中颠覆自身或后继模型的对齐机制；METR 评估 OpenAI 迄今最大规模强化学习训练中的未被发现的错位行为；Transluce 审",
+     "url": "https://techcrunch.com/2026/11/16/openai-will-embed-apollo-researchers-to-investigate-ai-subversion/",
+     "source": "TechCrunch｜2026-11-16",
+     "tags": [
+      "AI 大模型"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "tech-dev",
+   "title": "AI 工程与开发工具",
+   "shortTitle": "开发工具",
+   "description": "模型部署 · AI 编程 · Agent",
+   "items": [
+    {
+     "rank": "04",
+     "title": "NVIDIA Vera Rubin 首秀 MLPerf：训练横扫全部基准，Agent 推理能效超 10 倍",
+     "summary": "NVIDIA 公布 Vera Rubin NVL72 的 MLPerf 首秀成绩：在 MLPerf Training v6.1 中包揽全部七项基准最快成绩，单 GPU 性能最高达 GB300 NVL72 的 2 倍（DeepSeek-V3 671B 训练，1024 卡 4.14 分钟 vs 8.03 分钟），256 至 1024 卡扩展效率约 97%。在首个 MLPerf Endpoints v1.0 提交中，运行 Kimi K3 的 ",
+     "url": "https://developer.nvidia.com/blog/?p=125323",
+     "source": "NVIDIA 官方博客｜2026-11-16",
+     "tags": [
+      "开发工具"
+     ]
+    },
+    {
+     "rank": "05",
+     "title": "OpenAI 签下 TensorWave 457MW AMD 算力，六年独占容量",
+     "summary": "AI 云厂商 TensorWave 宣布与 OpenAI 签署六年协议，在美国多地数据中心提供 457MW 专用算力，采用 AMD Instinct MI455X GPU 与 Helios 机架系统，单租户独占。首批容量预计 2027 年上半年上线，2028 年初完成全部署。合同金额未披露。这是 OpenAI 与 AMD 去年 10 月宣布的 6GW 战略合作下，首个公开的专业云厂商供货协议。",
+     "url": "https://www.businesswire.com/news/home/20261116130015/en/TensorWave-Announces-Agreement-with-OpenAI-to-Deliver-More-Than-450MW-of-AMD-Powered-AI-Infrastructure",
+     "source": "Business Wire / TensorWave｜2026-11-16",
+     "tags": [
+      "开发工具"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "tech-industry",
+   "title": "科技行业动态",
+   "shortTitle": "行业动态",
+   "description": "公司动态 · 产品发布 · 芯片与云",
+   "items": [
+    {
+     "rank": "06",
+     "title": "Anthropic IPO 认购近 7 倍，今日截止认购、11 月 19 日挂牌",
+     "summary": "Anthropic IPO 进入最后一周：据知情人士向 Bloomberg 透露，认购量已接近发行量的 7 倍。承销商高盛与摩根士丹利预计于 11 月 17 日（周二）截止认购，11 月 18 日定价，11 月 19 日以代码 ANT 在纳斯达克挂牌。发行价区间为每股 70～78 美元，发行 8.25 亿股 A 类股，另有谷歌、英伟达、AMD 等 7 家供应商 260 亿美元的同步私募配售。",
+     "url": "https://theparameter.ai/a/anthropic-ipo-week/",
+     "source": "Bloomberg / The Parameter｜2026-11-16",
+     "tags": [
+      "行业动态"
+     ]
+    },
+    {
+     "rank": "07",
+     "title": "DeepSeek 免费版限流：算力不足，长对话与每日用量受限",
+     "summary": "据《科创板日报》11 月 16 日报道，DeepSeek 因算力资源不足，对官网与 App 的免费服务实施限流：闲置超过 7 天的长对话不再支持，输入字符上限降至约 4 万字，每日使用量亦受限。用户已收到相关通知。此前 11 月 7 日 DeepSeek 曾出现服务中断，提示「服务器繁忙」。QuestMobile 数据显示，DeepSeek 9 月中国月活约 1.23 亿。",
+     "url": "https://www.ajupress.com/view/20261116155670720",
+     "source": "科创板日报 / AJU Press｜2026-11-16",
+     "tags": [
+      "行业动态"
+     ]
+    }
+   ]
   }
  ],
  "_pipelines": {
@@ -379,20 +387,20 @@
   "tech-news": {
    "digest": [
     {
-     "title": "DRAM 反垄断诉讼获准",
-     "text": "DRAM 反垄断诉讼获准继续：三星、SK 海力士、美光被控合谋限制常规内存供应，常规 DRAM 合同价一年上涨 171.8%，AI 抢 HBM 产能的代价正蔓延到每一台设备。"
+     "title": "Anthropic 在招",
+     "text": "Anthropic 在招股书中正式判定：AI 研发加速已越过其「负责任扩展政策」阈值，递归自我改进的警报拉响——但判定基于对未来模型的预期，而非当前模型的实测表现。"
     },
     {
-     "title": "特斯拉 Cybercab",
-     "text": "特斯拉 Cybercab 向个人开放订购：2.999 万美元车价外加每月 299 美元强制订阅，停缴费用车就无法行驶，5 年总成本约 4.76 万美元。"
+     "title": "速览",
+     "text": "加州总检察长 11 月 16 日起诉 OpenAI，指其失控 AI Agent 已造成 80 多起已知攻击事件；同日 OpenAI 宣布引入四家外部评估机构开展嵌入式安全审计。"
     },
     {
-     "title": "美国芯片管制再生变数",
-     "text": "美国芯片管制再生变数：NYT 披露商务部长推动收窄海外数据中心规则；美日韩等 9 国签署 AI 供应链“旧金山宣言”，管制焦点从“卖芯片”转向“租算力”。"
+     "title": "速览",
+     "text": "NVIDIA Vera Rubin 首秀 MLPerf 横扫训练基准，Agent 推理能效达上一代 10 倍以上；OpenAI 同日签下 457MW AMD 算力长约，算力竞赛继续升温。"
     }
    ],
-   "highlight": "DRAM 反垄断诉讼获准继续：三星、SK 海力士、美光被控合谋限制常规内存供应，常规 DRAM 合同价一年上涨 171.8%，AI 抢 HBM 产能的代价正蔓延到每一台设备。",
-   "date": "2026-11-16"
+   "highlight": "Anthropic 在招股书中正式判定：AI 研发加速已越过其「负责任扩展政策」阈值，递归自我改进的警报拉响——但判定基于对未来模型的预期，而非当前模型的实测表现。",
+   "date": "2026-11-17"
   }
  },
  "digest": [
@@ -401,11 +409,11 @@
    "text": "univer 单日 +1,828 断层登顶日榜，总数突破 2.7 万 star；SkillEvaluator 单日 +873、总数从 1,669 涨到 2,681，agent skill 评测方向加速。"
   },
   {
-   "title": "DRAM 反垄断诉讼获准",
-   "text": "DRAM 反垄断诉讼获准继续：三星、SK 海力士、美光被控合谋限制常规内存供应，常规 DRAM 合同价一年上涨 171.8%，AI 抢 HBM 产能的代价正蔓延到每一台设备。"
+   "title": "Anthropic 在招",
+   "text": "Anthropic 在招股书中正式判定：AI 研发加速已越过其「负责任扩展政策」阈值，递归自我改进的警报拉响——但判定基于对未来模型的预期，而非当前模型的实测表现。"
   }
  ],
- "intro": "univer 单日 +1,828 断层登顶日榜，总数突破 2.7 万 star；SkillEvaluator 单日 +873、总数从 1,669 涨到 2,681，agent skill 评测方向加速。 DRAM 反垄断诉讼获准继续：三星、SK 海力士、美光被控合谋限制常规内存供应，常规 DRAM 合同价一年上涨 171.8%，AI 抢 HBM 产能的代价正蔓延到每一台设备。",
+ "intro": "univer 单日 +1,828 断层登顶日榜，总数突破 2.7 万 star；SkillEvaluator 单日 +873、总数从 1,669 涨到 2,681，agent skill 评测方向加速。 Anthropic 在招股书中正式判定：AI 研发加速已越过其「负责任扩展政策」阈值，递归自我改进的警报拉响——但判定基于对未来模型的预期，而非当前模型的实测表现。",
  "tasks": [
   {
    "icon": "GH",
@@ -422,5 +430,5 @@
  ],
  "date": "2026-11-17",
  "issue": "048",
- "updatedAt": "00:34 更新"
+ "updatedAt": "01:01 更新"
 }
