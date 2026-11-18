@@ -1,276 +1,6 @@
 {
  "sections": [
   {
-   "id": "github-hot",
-   "title": "GitHub 今日热门",
-   "shortTitle": "GitHub 热榜",
-   "description": "综合热度、活跃度与实用价值排序",
-   "items": [
-    {
-     "rank": "01",
-     "title": "dream-num/univer",
-     "summary": "解决了\"agent 进办公室却不会改表格、改文档\"的问题；单日 +1,828 断层登顶，总数突破 2.7 万 star，2022 年老项目借 agent 办公需求三连加速；适合想在产品里嵌入办公能力或给 agent 接办公能力的开发者，值得接入试一圈。",
-     "url": "https://github.com/dream-num/univer",
-     "tags": [
-      "强烈推荐"
-     ],
-     "featured": true
-    },
-    {
-     "rank": "02",
-     "title": "alibaba/open-code-review",
-     "summary": "阿里开源的代码评审工具：确定性流水线 + LLM agent 混合架构，给出精确到行的评审意见，号称经阿里规模实战检验。 确定性流水线与 LLM agent 混合评审、精确到行的评论、内置多语言规则集（空指针、线程安全、XSS、SQL 注入等）、兼容 OpenAI 与 Anthropic 模型、Go 实现。",
-     "url": "https://github.com/alibaba/open-code-review",
-     "tags": [
-      "值得关注"
-     ]
-    },
-    {
-     "rank": "03",
-     "title": "NVIDIA/SkillEvaluator",
-     "summary": "NVIDIA 出的 agent skill 评测框架：先过质量关，再实测\"装了这个 skill，agent 干活到底变好多少\"。 多层评测框架（质量门、语义重叠检测、合成评测数据集生成、实测 skill 对 agent 行为的影响）、Python 实现、配套论文 arXiv:2608.20614 与 NVIDIA 开发者博客。",
-     "url": "https://github.com/NVIDIA/SkillEvaluator",
-     "tags": [
-      "值得关注"
-     ]
-    },
-    {
-     "rank": "04",
-     "title": "ChromeDevTools/chrome-devtools-mcp",
-     "summary": "Chrome DevTools 官方给 coding agent 的 MCP 服务器：让 agent 直接用浏览器开发者工具的能力调试网页。 把 Chrome DevTools 能力通过 MCP 交给 coding agent、覆盖调试与性能分析场景、TypeScript 实现。",
-     "url": "https://github.com/ChromeDevTools/chrome-devtools-mcp",
-     "tags": [
-      "值得关注"
-     ]
-    },
-    {
-     "rank": "05",
-     "title": "tradermonty/claude-trading-skills",
-     "summary": "给个人投资者的 Claude Code 交易 skill 工具箱：市场分析、技术图表、经济数据与交易复盘，帮你把交易决策流程结构化。 覆盖市场复盘、风险管理、交易计划、交易日志与持续改进的 skill 工作流、面向长期投资 + ETF + 分红股为核心、纪律性波段为卫星的个人投资者、配套文档站。",
-     "url": "https://github.com/tradermonty/claude-trading-skills",
-     "tags": [
-      "值得关注"
-     ]
-    },
-    {
-     "rank": "06",
-     "title": "ag-ui-protocol/ag-ui",
-     "summary": "让 AI agent 接进前端应用的开放协议：agent 与界面之间用统一的事件流对话，agent 能实时感知用户上下文、驱动界面变化。 开放、轻量的事件驱动协议、标准化 agent 与前端应用的交互方式、支持 agent 实时获取用户上下文、TypeScript 实现、配套 npm 包。",
-     "url": "https://github.com/ag-ui-protocol/ag-ui",
-     "tags": [
-      "值得关注"
-     ]
-    },
-    {
-     "rank": "07",
-     "title": "backnotprop/plannotator",
-     "summary": "给 agent 协作配的\"批注工作台\"：在计划、文档、产物上直接批注、审 diff、给 agent 一键回反馈，不用再来回切窗口。 批注计划、规格、Markdown、HTML 等交互产物、审 diff 与 PR、反馈一键发回 agent、收件箱式工作面，兼容 Amp、Claude Code、Codex、Copilot、Droid、Gemini CLI、Kiro、opencode。",
-     "url": "https://github.com/backnotprop/plannotator",
-     "tags": [
-      "值得关注"
-     ]
-    },
-    {
-     "rank": "08",
-     "title": "google-labs-code/stitch-skills",
-     "summary": "Google Stitch 的 agent skill 合集：让 coding agent 按 Stitch 的设计能力出活，设计稿、构建与工具 skill 分开装。 遵循 Agent Skills 开放标准的 skill 库、覆盖设计（stitch-design）、构建（stitch-build）与工具（stitch-utilities）三组插件、兼容 Codex、Antigravity、Gem",
-     "url": "https://github.com/google-labs-code/stitch-skills",
-     "tags": [
-      "了解即可"
-     ]
-    },
-    {
-     "rank": "09",
-     "title": "kajisho5/ffmpeg-skill",
-     "summary": "给 coding agent 配的本地视频剪辑师：42 个 FFmpeg 工具 + 机器可读的剪辑规约，agent 能剪片、加字幕、调响度，还能自己检查成片。 42 个本地 FFmpeg 工具、机器可读的剪辑规约（剪切、字幕、重构画幅、响度、多平台导出）、MCP 服务器、兼容 Claude Code、Cursor、Codex、本地运行、无需云端与 API Key、Python 标准库实现。",
-     "url": "https://github.com/kajisho5/ffmpeg-skill",
-     "tags": [
-      "值得关注"
-     ]
-    },
-    {
-     "rank": "10",
-     "title": "google-research/paper-orchestra",
-     "summary": "Google Cloud AI Research 的多 agent 论文写作框架：把零散的想法与实验记录，编排成可投稿的 LaTeX 论文。 多 agent 流水线（提纲、文献综述、分节写作、精修、绘图）、把无约束的前期材料转成投稿级 LaTeX 稿件、自动生成图表与概念图、Python 实现。",
-     "url": "https://github.com/google-research/paper-orchestra",
-     "tags": [
-      "了解即可"
-     ]
-    }
-   ]
-  },
-  {
-   "id": "github-rising",
-   "title": "Star 增长最快",
-   "shortTitle": "增长最快",
-   "description": "按实际 Star 增量排序",
-   "items": [
-    {
-     "rank": "01",
-     "title": "meta/astryx",
-     "summary": "较昨日（+13,501）回落，总数较昨日 +727、逼近 3 万 star：Meta 的 agent-ready 设计系统连续三日守住周榜第一，热度仍在高位。",
-     "url": "https://github.com/meta/astryx",
-     "stars": "29.6k",
-     "trend": "+10,939",
-     "tags": [
-      "高增长"
-     ]
-    },
-    {
-     "rank": "02",
-     "title": "sherlock-project/sherlock",
-     "summary": "较昨日（+10,412）回落，总数较昨日 +691、突破 11.3 万 star：2018 年的老项目连续四日稳居周榜前二，\"老项目突然回春\"的长尾仍在，仓库昨日仍在更新——按用户名跨社交网络找账号的经典工具。",
-     "url": "https://github.com/sherlock-project/sherlock",
-     "stars": "113.2k",
-     "trend": "+7,067",
-     "tags": [
-      "高增长"
-     ]
-    },
-    {
-     "rank": "03",
-     "title": "GoogleChrome/modern-web-guidance-src",
-     "summary": "较昨日总数 +824、逼近 8,000 star，仓库今日仍在更新：四连登顶日榜后首次跌出日榜，但周增仍居第三——官方 skill 的供给侧扩张仍在继续。",
-     "url": "https://github.com/GoogleChrome/modern-web-guidance-src",
-     "stars": "8.0k",
-     "trend": "+6,542",
-     "tags": [
-      "高增长"
-     ]
-    },
-    {
-     "rank": "04",
-     "title": "anthropics/skills",
-     "summary": "较昨日（+6,077）小幅回落，总数较昨日 +684、逼近 19.6 万 star：官方 skill 供给侧扩张仍在继续。",
-     "url": "https://github.com/anthropics/skills",
-     "stars": "196.0k",
-     "trend": "+5,666",
-     "tags": [
-      "高增长"
-     ]
-    },
-    {
-     "rank": "05",
-     "title": "we-promise/sure",
-     "summary": "较昨日（+4,556）小幅加速，总数较昨日 +301、突破 1.6 万 star：个人理财是\"人人都需要、却很少有好用的开源选择\"的赛道，干净仪表盘 + AI 助手问答的组合正好踩在需求上。",
-     "url": "https://github.com/we-promise/sure",
-     "stars": "16.0k",
-     "trend": "+4,679",
-     "tags": [
-      "高增长"
-     ]
-    },
-    {
-     "rank": "06",
-     "title": "ZhuLinsen/daily_stock_analysis",
-     "summary": "较昨日（+4,548）小幅回落，总数较昨日 +301、逼近 7.3 万 star：LLM 炒股助手方向最成熟的中文样本。",
-     "url": "https://github.com/ZhuLinsen/daily_stock_analysis",
-     "stars": "72.8k",
-     "trend": "+4,355",
-     "tags": [
-      "高增长"
-     ]
-    },
-    {
-     "rank": "07",
-     "title": "google/elephant-goldfish-model",
-     "summary": "较昨日（+5,060）回落，总数较昨日 +612、突破 2 万 star：Google 的 agent 设计评审插件——\"大象\"攥着上下文写规格，\"金鱼\"用全新视角审稿、揪出未言明的假设，适合在动手写代码前先把设计想清楚。",
-     "url": "https://github.com/google/elephant-goldfish-model",
-     "stars": "20.4k",
-     "trend": "+4,249",
-     "tags": [
-      "高增长"
-     ]
-    },
-    {
-     "rank": "08",
-     "title": "addyosmani/agent-skills",
-     "summary": "较昨日（+3,889）小幅加速，总数较昨日 +390：实战派 skill 合集的另一支，值得与 mattpocock 版对照着看。",
-     "url": "https://github.com/addyosmani/agent-skills",
-     "stars": "118.3k",
-     "trend": "+3,960",
-     "tags": [
-      "高增长"
-     ]
-    },
-    {
-     "rank": "09",
-     "title": "vercel-labs/agent-browser",
-     "summary": "较昨日（+4,217）回落，总数较昨日 +401、稳在 5.2 万 star 之上：agent 上网干活的基础设施件。",
-     "url": "https://github.com/vercel-labs/agent-browser",
-     "stars": "52.0k",
-     "trend": "+3,760",
-     "tags": [
-      "高增长"
-     ]
-    },
-    {
-     "rank": "10",
-     "title": "alibaba/open-code-review",
-     "summary": "单日增量较昨日 +691 继续加速：大厂代码评审能力开源的实用样本，值得接入试一圈。",
-     "url": "https://github.com/alibaba/open-code-review",
-     "stars": "52.9k",
-     "trend": "+3,056",
-     "tags": [
-      "高增长"
-     ]
-    }
-   ]
-  },
-  {
-   "id": "github-new",
-   "title": "值得关注的新项目",
-   "shortTitle": "新项目",
-   "description": "近期创建、增长迅速的有潜力项目",
-   "items": [
-    {
-     "rank": "01",
-     "title": "storytold/craft-anything",
-     "summary": "ArtCraft 系列新作：帮你\"看懂任意软件如何工作，再自己动手做一个\"的工具。 延续 wordcraft / cadcraft / gridcraft / solidcraft 的纯 Rust 干净重实现路线，README 提供中英日韩多语言版本，定位在\"理解软件\"与\"动手复刻\"之间。",
-     "url": "https://github.com/storytold/craft-anything",
-     "tags": [
-      "值得关注"
-     ]
-    },
-    {
-     "rank": "02",
-     "title": "ccch1mneyyy/dsh-Go",
-     "summary": "把 DeepSeek Harness 装进口袋的 Android 客户端：手机上直接跑，也能遥控电脑上的 DSH。 Android 8+ 可用的手机端 Harness、手机本机运行与遥控电脑双模式、中文 README，瞄准\"agent 不只坐在桌前\"的场景。",
-     "url": "https://github.com/ccch1mneyyy/dsh-Go",
-     "tags": [
-      "值得关注"
-     ]
-    },
-    {
-     "rank": "03",
-     "title": "libracoder/kiri",
-     "summary": "小巧快速的容器运行时：跑你的 Docker 镜像，兼容 docker CLI、Compose 与 buildx，还自带免费的 Ngrok 替代品。 兼容 Docker 镜像与现有 docker CLI / Compose / buildx 工作流、macOS / Windows / Linux 三端可用、内置免费 Ngrok 替代（内网穿透）、Rust 实现、Apache-2.0 协议、支持 38",
-     "url": "https://github.com/libracoder/kiri",
-     "tags": [
-      "值得关注"
-     ]
-    },
-    {
-     "rank": "04",
-     "title": "anefzaoui/misterdownloadmanager",
-     "summary": "纯 Rust 从头写的开源下载器：对标 IDM 的速度，免费、跨平台，还带浏览器扩展。 纯 Rust 干净重写（clean-room 实现）、Windows / macOS / Linux 三端可用、配套浏览器扩展、官网提供下载与帮助文档。",
-     "url": "https://github.com/anefzaoui/misterdownloadmanager",
-     "tags": [
-      "值得关注"
-     ]
-    },
-    {
-     "rank": "05",
-     "title": "LNPANDY/NX2Apple",
-     "summary": "把自己的 Switch 游戏装进iPhone / iPad：一键构建的 macOS 应用，不用敲命令行。 基于 nxnative 的 Switch 游戏原生运行方案（非模拟器）、macOS / Windows 图形界面一键构建、游戏以未签名 IPA 形式装进iPhone / iPad、提供中英等多语言文档。",
-     "url": "https://github.com/LNPANDY/NX2Apple",
-     "tags": [
-      "了解即可"
-     ]
-    }
-   ]
-  },
-  {
    "id": "tech-ai",
    "title": "AI 与大模型",
    "shortTitle": "AI 大模型",
@@ -363,6 +93,272 @@
      ]
     }
    ]
+  },
+  {
+   "id": "github-hot",
+   "title": "GitHub 今日热门",
+   "shortTitle": "GitHub 热榜",
+   "description": "综合热度、活跃度与实用价值排序",
+   "items": [
+    {
+     "rank": "01",
+     "title": "obra/superpowers",
+     "summary": "解决了\"agent 写代码前不问需求、不出规格、直接开干\"的问题；单日 +1,917 登顶日榜，总数突破 31.9 万 star，是 agent 开发方法论方向体量最大的样本；适合用 coding agent 做开发的开发者，值得按安装说明接上试一圈。",
+     "url": "https://github.com/obra/superpowers",
+     "tags": [
+      "强烈推荐"
+     ],
+     "featured": true
+    },
+    {
+     "rank": "02",
+     "title": "dream-num/univer",
+     "summary": "开源的 AI 办公套件 SDK：用开源表格与文档打底，再接自己的应用或 agent，拼出一个\"AI 办公室\"。 开源的电子表格与文档组件、可接入自己的应用与 agent、覆盖编辑、计算、协作与文件处理场景、TypeScript 实现、文档与示例齐全。",
+     "url": "https://github.com/dream-num/univer",
+     "tags": [
+      "强烈推荐"
+     ]
+    },
+    {
+     "rank": "03",
+     "title": "ag-ui-protocol/ag-ui",
+     "summary": "让 AI agent 接进前端应用的开放协议：agent 与界面之间用统一的事件流对话，agent 能实时感知用户上下文、驱动界面变化。 开放、轻量的事件驱动协议、标准化 agent 与前端应用的交互方式、支持 agent 实时获取用户上下文、TypeScript 实现、配套 npm 包。",
+     "url": "https://github.com/ag-ui-protocol/ag-ui",
+     "tags": [
+      "值得关注"
+     ]
+    },
+    {
+     "rank": "04",
+     "title": "google-research/paper-orchestra",
+     "summary": "Google Cloud AI Research 的多 agent 论文写作框架：把零散的想法与实验记录，编排成可投稿的 LaTeX 论文。 多 agent 流水线（提纲、文献综述、分节写作、精修、绘图）、把无约束的前期材料转成投稿级 LaTeX 稿件、自动生成图表与概念图、Python 实现。",
+     "url": "https://github.com/google-research/paper-orchestra",
+     "tags": [
+      "值得关注"
+     ]
+    },
+    {
+     "rank": "05",
+     "title": "elementalsouls/Claude-BugHunter",
+     "summary": "给 Claude Code 配的漏洞挖掘与红队 skill 工具箱：83 个 skill、15 条斜杠命令，覆盖 24 类漏洞的 681 个已披露报告模式。 83 个漏洞挖掘 skill 与 15 条斜杠命令、681 个已披露报告模式（433 个逐条引用、可审计）、Burp MCP 集成、配套实战演练场（DVWA、OWASP Juice Shop、Hacker101 等）。",
+     "url": "https://github.com/elementalsouls/Claude-BugHunter",
+     "tags": [
+      "值得关注"
+     ]
+    },
+    {
+     "rank": "06",
+     "title": "affaan-m/ECC",
+     "summary": "agent harness 的性能优化系统：把 skill、直觉、记忆与安全机制打包成插件，让你用的 coding agent 干活更快、更稳。 面向 agent harness 的优化系统（skill、直觉、记忆、安全机制）、以 Claude Code 插件形式安装、覆盖 7 种 harness、OSS 部分 MIT 协议永久免费、配套多语言文档。",
+     "url": "https://github.com/affaan-m/ECC",
+     "tags": [
+      "值得关注"
+     ]
+    },
+    {
+     "rank": "07",
+     "title": "alibaba/open-code-review",
+     "summary": "阿里开源的代码评审工具：确定性流水线 + LLM agent 混合架构，给出精确到行的评审意见，号称经阿里规模实战检验。 确定性流水线与 LLM agent 混合评审、精确到行的评论、内置多语言规则集（空指针、线程安全、XSS、SQL 注入等）、兼容 OpenAI 与 Anthropic 模型、Go 实现。",
+     "url": "https://github.com/alibaba/open-code-review",
+     "tags": [
+      "值得关注"
+     ]
+    },
+    {
+     "rank": "08",
+     "title": "getarcaneapp/arcane",
+     "summary": "现代化的 Docker 管理工具：不用记一堆命令，用一个干净的界面管好容器，面向所有人设计。 现代化的 Docker 容器管理界面、v3 为当前主线（main 分支）、Go 实现、BSD-3-Clause 协议。",
+     "url": "https://github.com/getarcaneapp/arcane",
+     "tags": [
+      "值得关注"
+     ]
+    },
+    {
+     "rank": "09",
+     "title": "Tencent/LoopForge",
+     "summary": "腾讯开源的自托管 coding-agent 交付工作流：编排 CodeBuddy、Codex 与 Claude Code，让 agent 按流程交付代码。 自托管的 coding-agent 交付工作流、可编排 CodeBuddy、Codex 与 Claude Code、Go 实现。",
+     "url": "https://github.com/Tencent/LoopForge",
+     "tags": [
+      "值得关注"
+     ]
+    },
+    {
+     "rank": "10",
+     "title": "cursor/plugins",
+     "summary": "Cursor 官方插件规范与官方插件合集：插件机制是编辑器生态的下一块拼图，Cursor 把自家插件的写法与官方插件开源出来。 Cursor 插件规范、官方插件合集、TypeScript 实现。",
+     "url": "https://github.com/cursor/plugins",
+     "tags": [
+      "了解即可"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "github-rising",
+   "title": "Star 增长最快",
+   "shortTitle": "增长最快",
+   "description": "按实际 Star 增量排序",
+   "items": [
+    {
+     "rank": "01",
+     "title": "meta/astryx",
+     "summary": "较昨日（+10,939）回落，总数较昨日 +562、正式突破 3 万 star：Meta 的 agent-ready 设计系统连续四日守住周榜第一，仓库今日仍在更新。",
+     "url": "https://github.com/meta/astryx",
+     "stars": "30.1k",
+     "trend": "+8,700",
+     "tags": [
+      "高增长"
+     ]
+    },
+    {
+     "rank": "02",
+     "title": "GoogleChrome/modern-web-guidance-src",
+     "summary": "较昨日（+6,542）继续加速，总数较昨日 +466、突破 8,400 star，仓库今日仍在更新：Chrome 官方 skill 跌出日榜后周增反超至第二。",
+     "url": "https://github.com/GoogleChrome/modern-web-guidance-src",
+     "stars": "8.4k",
+     "trend": "+7,015",
+     "tags": [
+      "高增长"
+     ]
+    },
+    {
+     "rank": "03",
+     "title": "anthropics/skills",
+     "summary": "较昨日（+6,077）回落，总数较昨日 +683、逼近 19.7 万 star：官方 skill 供给侧扩张仍在继续。",
+     "url": "https://github.com/anthropics/skills",
+     "stars": "196.7k",
+     "trend": "+4,847",
+     "tags": [
+      "高增长"
+     ]
+    },
+    {
+     "rank": "04",
+     "title": "we-promise/sure",
+     "summary": "较昨日（+4,556）小幅加速，总数较昨日 +258、突破 1.6 万 star：个人理财是\"人人都需要、却很少有好用的开源选择\"的赛道，干净仪表盘 + AI 助手问答的组合正好踩在需求上。",
+     "url": "https://github.com/we-promise/sure",
+     "stars": "16.3k",
+     "trend": "+4,786",
+     "tags": [
+      "高增长"
+     ]
+    },
+    {
+     "rank": "05",
+     "title": "addyosmani/agent-skills",
+     "summary": "较昨日（+3,889）基本持平，总数较昨日 +326：实战派 skill 合集的另一支，值得与 mattpocock 版对照着看。",
+     "url": "https://github.com/addyosmani/agent-skills",
+     "stars": "118.7k",
+     "trend": "+3,884",
+     "tags": [
+      "高增长"
+     ]
+    },
+    {
+     "rank": "06",
+     "title": "obra/superpowers",
+     "summary": "单日登顶日榜、总数突破 31.9 万 star：agent 开发方法论方向体量最大的仓库之一。",
+     "url": "https://github.com/obra/superpowers",
+     "stars": "319.3k",
+     "tags": [
+      "高增长"
+     ]
+    },
+    {
+     "rank": "07",
+     "title": "dream-num/univer",
+     "summary": "较昨日（+1,828）略有回落，总数较昨日 +1,123、逼近 2.9 万 star：agent 办公套件方向的老项目四连加速。",
+     "url": "https://github.com/dream-num/univer",
+     "stars": "28.9k",
+     "tags": [
+      "高增长"
+     ]
+    },
+    {
+     "rank": "08",
+     "title": "ag-ui-protocol/ag-ui",
+     "summary": "较昨日（+791）接近翻倍，总数较昨日 +1,031、逼近 2 万 star：agent 与前端交互的协议层样本。",
+     "url": "https://github.com/ag-ui-protocol/ag-ui",
+     "stars": "20.0k",
+     "tags": [
+      "高增长"
+     ]
+    },
+    {
+     "rank": "09",
+     "title": "google-research/paper-orchestra",
+     "summary": "较昨日（+313）暴涨三倍多，总数较昨日 +1,476、接近翻倍：多 agent 论文写作方向突然加速。",
+     "url": "https://github.com/google-research/paper-orchestra",
+     "stars": "3.0k",
+     "tags": [
+      "高增长"
+     ]
+    },
+    {
+     "rank": "10",
+     "title": "elementalsouls/Claude-BugHunter",
+     "summary": "首次进入本报告日榜：83 个漏洞挖掘 skill + Burp MCP 集成的红队工具箱。",
+     "url": "https://github.com/elementalsouls/Claude-BugHunter",
+     "stars": "9.3k",
+     "trend": "+2,508",
+     "tags": [
+      "高增长"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "github-new",
+   "title": "值得关注的新项目",
+   "shortTitle": "新项目",
+   "description": "近期创建、增长迅速的有潜力项目",
+   "items": [
+    {
+     "rank": "01",
+     "title": "storytold/craft-anything",
+     "summary": "ArtCraft 系列新作：帮你\"看懂任意软件如何工作，再自己动手做一个\"的工具。 延续 wordcraft / cadcraft / gridcraft / solidcraft 的纯 Rust 干净重实现路线，README 提供中英日韩多语言版本，定位在\"理解软件\"与\"动手复刻\"之间。",
+     "url": "https://github.com/storytold/craft-anything",
+     "tags": [
+      "值得关注"
+     ]
+    },
+    {
+     "rank": "02",
+     "title": "ccch1mneyyy/dsh-Go",
+     "summary": "把 DeepSeek Harness 装进口袋的 Android 客户端：手机上直接跑，也能遥控电脑上的 DSH。 Android 8+ 可用的手机端 Harness、手机本机运行与遥控电脑双模式、中文 README，瞄准\"agent 不只坐在桌前\"的场景。",
+     "url": "https://github.com/ccch1mneyyy/dsh-Go",
+     "tags": [
+      "值得关注"
+     ]
+    },
+    {
+     "rank": "03",
+     "title": "pengchujin/aerial-tv",
+     "summary": "给国产电视的一块干净桌面：参照 tvOS 设计的开源 Android TV 桌面，没有广告，开机自动接管。 tvOS 风格的干净桌面、开机自动接管、无广告、面向小米、TCL 等国行电视、Kotlin 实现。",
+     "url": "https://github.com/pengchujin/aerial-tv",
+     "tags": [
+      "值得关注"
+     ]
+    },
+    {
+     "rank": "04",
+     "title": "libracoder/kiri",
+     "summary": "小巧快速的容器运行时：跑你的 Docker 镜像，兼容 docker CLI、Compose 与 buildx，还自带免费的 Ngrok 替代品。 兼容 Docker 镜像与现有 docker CLI / Compose / buildx 工作流、macOS / Windows / Linux 三端可用、内置免费 Ngrok 替代（内网穿透）、Rust 实现、Apache-2.0 协议、支持 38",
+     "url": "https://github.com/libracoder/kiri",
+     "tags": [
+      "值得关注"
+     ]
+    },
+    {
+     "rank": "05",
+     "title": "anefzaoui/misterdownloadmanager",
+     "summary": "纯 Rust 从头写的开源下载器：对标 IDM 的速度，免费、跨平台，还带浏览器扩展。 纯 Rust 干净重写（clean-room 实现）、Windows / macOS / Linux 三端可用、配套浏览器扩展、官网提供下载与帮助文档。",
+     "url": "https://github.com/anefzaoui/misterdownloadmanager",
+     "tags": [
+      "值得关注"
+     ]
+    }
+   ]
   }
  ],
  "_pipelines": {
@@ -370,19 +366,19 @@
    "digest": [
     {
      "title": "速览",
-     "text": "univer 单日 +1,828 断层登顶日榜，总数突破 2.7 万 star；SkillEvaluator 单日 +873、总数从 1,669 涨到 2,681，agent skill 评测方向加速。"
+     "text": "superpowers 单日 +1,917 登顶日榜、总数突破 31.9 万 star，univer +1,774、ag-ui +1,445 紧随其后，agent 方法论与协议层继续领跑；paper-orchestra 单日 +1,072、总数从 1,499 接近翻倍至 2,975，多 agent 写论文方向突然加速。"
     },
     {
      "title": "速览",
-     "text": "Chrome 官方现代 Web 指导 skill 四连登顶后跌出日榜，但周增 +6,542 仍居周榜第三；astryx 周增 +10,939 守住周榜第一，sherlock 周增 +7,067 回春长尾仍在。"
+     "text": "astryx 周增 +8,700 守住周榜第一并突破 3 万 star，Chrome 官方 skill 周增 +7,015 反超至第二；sherlock 与 elephant-goldfish 跌出周榜前十四，skill 供给侧热度出现分化。"
     },
     {
      "title": "新项目继续兑现",
-     "text": "新项目继续兑现：craft-anything 单日净增 1,038、总数突破 3.4 万，dsh-Go 逼近 2.5 万；容器运行时 kiri、把 Switch 游戏装进 iPhone 的 NX2Apple 首次进入新项目榜。"
+     "text": "新项目继续兑现：dsh-Go 单日净增 1,239、总数突破 2.6 万，kiri 单日净增 1,206、突破 1 万 star；国产电视干净桌面 aerial-tv 首次进入新项目榜。"
     }
    ],
-   "highlight": "univer 单日 +1,828 断层登顶日榜，总数突破 2.7 万 star；SkillEvaluator 单日 +873、总数从 1,669 涨到 2,681，agent skill 评测方向加速。",
-   "date": "2026-11-17"
+   "highlight": "superpowers 单日 +1,917 登顶日榜、总数突破 31.9 万 star，univer +1,774、ag-ui +1,445 紧随其后，agent 方法论与协议层继续领跑；paper-orchestra 单日 +1,072、总数从 1,499 接近翻倍至 2,975，多 agent 写论文方向突然加速。",
+   "date": "2026-11-18"
   },
   "tech-news": {
    "digest": [
@@ -406,14 +402,14 @@
  "digest": [
   {
    "title": "速览",
-   "text": "univer 单日 +1,828 断层登顶日榜，总数突破 2.7 万 star；SkillEvaluator 单日 +873、总数从 1,669 涨到 2,681，agent skill 评测方向加速。"
+   "text": "superpowers 单日 +1,917 登顶日榜、总数突破 31.9 万 star，univer +1,774、ag-ui +1,445 紧随其后，agent 方法论与协议层继续领跑；paper-orchestra 单日 +1,072、总数从 1,499 接近翻倍至 2,975，多 agent 写论文方向突然加速。"
   },
   {
    "title": "Anthropic 在招",
    "text": "Anthropic 在招股书中正式判定：AI 研发加速已越过其「负责任扩展政策」阈值，递归自我改进的警报拉响——但判定基于对未来模型的预期，而非当前模型的实测表现。"
   }
  ],
- "intro": "univer 单日 +1,828 断层登顶日榜，总数突破 2.7 万 star；SkillEvaluator 单日 +873、总数从 1,669 涨到 2,681，agent skill 评测方向加速。 Anthropic 在招股书中正式判定：AI 研发加速已越过其「负责任扩展政策」阈值，递归自我改进的警报拉响——但判定基于对未来模型的预期，而非当前模型的实测表现。",
+ "intro": "superpowers 单日 +1,917 登顶日榜、总数突破 31.9 万 star，univer +1,774、ag-ui +1,445 紧随其后，agent 方法论与协议层继续领跑；paper-orchestra 单日 +1,072、总数从 1,499 接近翻倍至 2,975，多 agent 写论文方向突然加速。 Anthropic 在招股书中正式判定：AI 研发加速已越过其「负责任扩展政策」阈值，递归自我改进的警报拉响——但判定基于对未来模型的预期，而非当前模型的实测表现。",
  "tasks": [
   {
    "icon": "GH",
@@ -428,7 +424,7 @@
    "time": "09:00"
   }
  ],
- "date": "2026-11-17",
- "issue": "048",
- "updatedAt": "01:01 更新"
+ "date": "2026-11-18",
+ "issue": "049",
+ "updatedAt": "00:37 更新"
 }
