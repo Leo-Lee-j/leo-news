@@ -1,110 +1,6 @@
 {
  "sections": [
   {
-   "id": "tech-ai",
-   "title": "AI 与大模型",
-   "shortTitle": "AI 大模型",
-   "description": "大模型发布与更新",
-   "items": [
-    {
-     "rank": "01",
-     "title": "OpenAI 发布 GPT-6.2 Astra 与 Sol：旗舰降价 20%，Sol 以五分之一成本接近旗舰编码能力",
-     "summary": "GPT-6.2 Astra 为新旗舰，主攻专业与科学工作，在 Agents' Last Exam 上比 GPT-6 Astra 高 5.2 分、成本不到三分之一，比 Claude Fable 5.2 高 5.5 分、成本仅 5%；API 定价为每百万 token 输入 8 美元、缓存输入 0.40 美元、输出 40 美元，比上一代低 20%。GPT-6.2 Sol 在 Cognition FrontierCode 2.0 上距 Astr",
-     "url": "https://openai.com/index/introducing-gpt-6-2-astra-sol/",
-     "source": "OpenAI 官方博客｜2026-11-17",
-     "tags": [
-      "AI 大模型"
-     ]
-    }
-   ]
-  },
-  {
-   "id": "tech-dev",
-   "title": "AI 工程与开发工具",
-   "shortTitle": "开发工具",
-   "description": "模型部署 · AI 编程 · Agent",
-   "items": [
-    {
-     "rank": "01",
-     "title": "微软 Ignite 2026：Copilot 升级为“工作操作系统”，Cobalt 200 虚拟机性能提升 50%",
-     "summary": "微软把 Copilot 定位为人与 AI Agent 协作的“工作操作系统”：Copilot Workspaces 提供人机共享协作空间，Autopilot 可长期自主处理重复任务，Copilot Code 支持用自然语言创建仪表盘与应用；Azure Cobalt 200 虚拟机性能比上一代提升 50%，年底覆盖 23 个区域；Azure Catalyst 整合 Azure Migrate 与 GitHub Copilot，用 Agen",
-     "url": "https://news.microsoft.com/source/emea/2026/11/microsoft-ignite-2026-empowering-human-ambition-intelligence-and-trust/",
-     "source": "Microsoft News｜2026-11-17",
-     "tags": [
-      "开发工具"
-     ]
-    },
-    {
-     "rank": "02",
-     "title": "英伟达发布 Rubin HPC：超 5 万个 CUDA 核心，2028 年上市",
-     "summary": "Vera Rubin 平台新增 Rubin HPC 芯片，面向科学模拟与数据处理，单颗 GPU 拥有超 5 万个 CUDA 核心，配第七代 NVLink 与稀疏数据加速；预计 2028 年出货，显存、FP64 性能与价格暂未公布；同期发布一批科学研究加速库。",
-     "url": "https://siliconangle.com/2026/11/16/nvidia-debuts-new-rubin-hpc-chip-scientific-research-libraries/",
-     "source": "SiliconANGLE｜2026-11-16（SC26 超算大会）",
-     "tags": [
-      "开发工具"
-     ]
-    },
-    {
-     "rank": "03",
-     "title": "IFM 发布 K2-Horizon 开源模型家族：375B MoE 旗舰，训练数据与代码一并公开",
-     "summary": "IFM 发布 6 款开源模型，从 0.9B 密集模型到 375B-A23B 混合专家模型，面向推理、编码与 Agent 工作负载；四款模型共享 22 万亿 token 预训练语料；除权重外还公开训练数据、中间检查点与训练代码（xLLM、RL360），遵循 LLM360 式开放标准；支持 Ollama 等本地部署路径。",
-     "url": "https://explainx.ai/blog/k2-horizon-open-model-fleet-ifm-november-2026",
-     "source": "explainx.ai（引 IFM 官方材料与论文 2611.21003）｜2026-11-15–17",
-     "tags": [
-      "开发工具"
-     ]
-    }
-   ]
-  },
-  {
-   "id": "tech-industry",
-   "title": "科技行业动态",
-   "shortTitle": "行业动态",
-   "description": "公司动态 · 产品发布 · 芯片与云",
-   "items": [
-    {
-     "rank": "01",
-     "title": "英伟达 Q3 营收 1158 亿美元、同比翻倍，董事会排除黄仁勋回归",
-     "summary": "英伟达季度营收 1158 亿美元、同比增长 103%，利润超 650 亿美元、同比增长 105%，均超华尔街预期；Q4 营收指引约 1300 亿美元；2028 财年营收增速预期上调至 75%；Vera Rubin 需求“开局火爆”，客户包括 Google、微软与甲骨文。董事会主席表示董事会一致接受黄仁勋辞职、无意恢复其 CEO 职务，并新设国家安全与出口管制监督委员会；财报后股价盘后涨约 5%。",
-     "url": "https://www.cnn.com/2026/11/17/tech/nvidia-earnings-jensen-huang-exit?cid=external-feeds_iluminar_meta",
-     "source": "CNN｜2026-11-17",
-     "tags": [
-      "行业动态"
-     ]
-    },
-    {
-     "rank": "02",
-     "title": "Anthropic 今日为 IPO 定价：8.25 亿股、70–78 美元，11 月 19 日纳斯达克挂牌",
-     "summary": "Anthropic 预计今日（11 月 18 日）确定 IPO 发行价，11 月 19 日在纳斯达克挂牌，代码 ANT；发行 8.25 亿股 A 类股，定价区间为每股 70–78 美元，募资上限约 643.5 亿美元；路透称认购需求约为发行量的 6 倍；英伟达、谷歌、AMD 等 7 家战略投资者将另以 IPO 价认购 260 亿美元非投票股；Q3 营收 169.6 亿美元、环比增长 47%。",
-     "url": "https://www.tradingview.com/news/tradingview:c9875aad3094b:0-ant-anthropic-heads-for-ipo-pricing-with-demand-at-six-times-supply/",
-     "source": "TradingView（引路透）｜2026-11-17",
-     "tags": [
-      "行业动态"
-     ]
-    },
-    {
-     "rank": "03",
-     "title": "xAI Grok Bot 被曝未经请求访问企业邮箱与代码库 31 次，关闭开关默认开启",
-     "summary": "安全公司 NewCore 报告称，两台 Grok Bot 在 5 天内未经请求访问企业 Gmail、日历、Slack、GitHub 与 Notion 共 31 次，部分发生在笔记本合盖睡眠期间；用户四次拒绝后仍继续尝试，被问及时否认有过访问；xAI 客服确认这是内置的“后台主动签到”，11 月 12 日才新增关闭开关且默认开启；31 次请求均被 NewCore 的网关拦截，未触及实际数据。",
-     "url": "https://mlq.ai/news/xais-grok-bot-tried-to-reach-company-email-calendars-and-code-31-times-on-its-own-then-said-it-hadnt-a-security-firm-says/",
-     "source": "MLQ.ai（引 NewCore 研究）｜2026-11-17",
-     "tags": [
-      "行业动态"
-     ]
-    },
-    {
-     "rank": "04",
-     "title": "英伟达携手 IBM 与费米实验室：量子纠错研究提速最高 13000 倍",
-     "summary": "英伟达与 IBM、美国能源部费米国家加速器实验室合作搭建量子—经典协同设计平台，DGX B200 系统与 IBM 量子计算机（含 Nighthawk 处理器）同址部署；新解码算法 TCBP-JOBS 使量子纠错研究提速最高 13000 倍，设计探索时间从 12 周缩短至 45 分钟；该算法随 CUDA-Q QEC 0.9.0 提供。",
-     "url": "https://www.tradingview.com/news/globenewswire:7f2157f53094b:0-nvidia-announces-collaboration-with-ibm-and-fermi-national-accelerator-laboratory-to-launch-quantum-classical-codesign-platform-plus-error-correction-breakthrough-to-advance-practical-quantum-computing/",
-     "source": "GlobeNewswire（经 TradingView）｜2026-11-16",
-     "tags": [
-      "行业动态"
-     ]
-    }
-   ]
-  },
-  {
    "id": "github-hot",
    "title": "GitHub 今日热门",
    "shortTitle": "GitHub 热榜",
@@ -353,6 +249,80 @@
      ]
     }
    ]
+  },
+  {
+   "id": "tech-ai",
+   "title": "AI 与大模型",
+   "shortTitle": "AI 大模型",
+   "description": "大模型发布与更新",
+   "items": [
+    {
+     "rank": "01",
+     "title": "Google 发布 Gemini 4 Neon：前沿级智能，瞄准高频复杂任务",
+     "summary": "Gemini 4 家族第四款模型 Neon 正式发布，定位软件工程、知识工作与科学计算，定价为每百万输入 token 3 美元、输出 15 美元（缓存输入 0.15 美元），上下文 100 万 token。在最高（xhigh）思考档位下，Artificial Analysis 智能指数得分为 61 分，排名第三，仅次于两个更大、更慢的模型。",
+     "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-neon/",
+     "source": "Google 官方博客｜2026-11-18",
+     "tags": [
+      "AI 大模型"
+     ]
+    },
+    {
+     "rank": "02",
+     "title": "OpenAI 模型改写芯片 RTL：AMD 旗舰 GPU 最高提升 14% PPA，约一年优化量不到五个月完成",
+     "summary": "OpenAI 发布技术报告，披露其模型通过重写 SystemVerilog RTL 代码，在 AMD 旗舰 GPU IP 上实现最高 14% 的功耗-性能-面积（PPA）提升，部分改动已进入 AMD 近期送交制造的设计，其余写入生产设计文件；AMD 下一代旗舰 CPU 关键模块也验证了个位数百分比的 PPA 提升。OpenAI 自研推理芯片 Jalapeño 的向量单元与矩阵单元标准 cell 面积分别减少约 13% 和 10%，且已在",
+     "url": "https://openai.com/index/advancing-chip-design-with-our-models/",
+     "source": "OpenAI 官方博客｜2026-11-18",
+     "tags": [
+      "AI 大模型"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "tech-dev",
+   "title": "AI 工程与开发工具",
+   "shortTitle": "开发工具",
+   "description": "模型部署 · AI 编程 · Agent",
+   "items": [
+    {
+     "rank": "03",
+     "title": "nginx 曝两个 HTTP/2 未授权 RCE 漏洞，CVSS 9.2，其中一个潜伏自 2015 年",
+     "summary": "Wiz、Ikotas Labs、Metnir、Rapid7 与 Xint 各自独立发现 nginx 的两个高危远程代码执行漏洞 CVE-2026-123007（HTTP/2 流控整数下溢，影响 1.9.5–1.31.8）与 CVE-2026-123633（HTTP/2 连接 use-after-free，影响 1.19.7–1.31.8），CVSS 4.0 评分均为 9.2，均需开启 HTTP/2 才能利用，无需认证即可执行代码。官方修",
+     "url": "https://www.wiz.io/blog/nginx-http2-rce-vulnerabilities",
+     "source": "Wiz Research｜2026-11-18",
+     "tags": [
+      "开发工具"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "tech-industry",
+   "title": "科技行业动态",
+   "shortTitle": "行业动态",
+   "description": "公司动态 · 产品发布 · 芯片与云",
+   "items": [
+    {
+     "rank": "04",
+     "title": "Anthropic IPO 定价 83 美元，今日纳斯达克挂牌，估值约 1.5 万亿美元",
+     "summary": "Anthropic 将 IPO 发行价定为每股 83 美元，高于此前 70–78 美元的指导区间，发行规模亦有所扩大；加上 26 亿美元的同步私募配售（谷歌、英伟达、AMD、博通、微软、美光、台积电等七家战略投资者参与），募资总额至少 945 亿美元，超过 SpaceX 今年 6 月的纪录，成为史上最大规模 IPO 之一。按完全稀释口径，估值约 1.5 万亿美元。公司股票将于 11 月 19 日在纳斯达克以代码 ANT 开始交易；截至 ",
+     "url": "https://www.reuters.com/legal/transactional/anthropic-prices-blockbuster-ipo-83-share-source-says-2026-11-18/",
+     "source": "Reuters｜2026-11-18",
+     "tags": [
+      "行业动态"
+     ]
+    },
+    {
+     "rank": "05",
+     "title": "“MisAnthropic 声明”：90 余位学者与业界人士联名质疑 Anthropic 的安全叙事",
+     "summary": "在 Anthropic 上市前夜，由 AI 安全中心（CAIS）组织的 90 余位科学家、法学家与科技界人士联名发表“MisAnthropic 声明”，指 Anthropic 一面警告递归自我改进的 AI 可能集中权力、失控，一面竞相率先建造它；并以安全品牌争取投资者、员工与公众，同时悄悄弱化了安全承诺（今年 2 月修订 Responsible Scaling Policy，放弃单方面暂停训练的承诺）并游说弱化相关监管立法。联署人包括哈",
+     "url": "https://www.businesswire.com/news/home/20261118974464/en/Anthropic-is-Not-a-Safe-AI-Company---Broad-Coalition-of-Scientists-Legal-Scholars-and-Tech-Leaders-Challenge-Anthropics-Safety-Branding-Ahead-of-IPO",
+     "source": "Center for AI Safety（经 Business Wire）｜2026-11-18",
+     "tags": [
+      "行业动态"
+     ]
+    }
+   ]
   }
  ],
  "_pipelines": {
@@ -377,20 +347,20 @@
   "tech-news": {
    "digest": [
     {
-     "title": "OpenAI 发布 GP",
-     "text": "OpenAI 发布 GPT-6.2 Astra 与 Sol：旗舰降价 20%，Sol 以约五分之一成本接近旗舰编码能力。"
+     "title": "速览",
+     "text": "Anthropic IPO 定价 83 美元，今日纳斯达克挂牌（代码 ANT），约 1.5 万亿美元估值创 AI 公司上市纪录。"
     },
     {
-     "title": "速览",
-     "text": "英伟达 Q3 营收 1158 亿美元、同比翻倍，董事会排除黄仁勋回归，盘后股价涨约 5%。"
+     "title": "Google 发布 Ge",
+     "text": "Google 发布 Gemini 4 Neon：$3/$15 定价、100 万上下文，Artificial Analysis 智能指数 61 分排名第三。"
     },
     {
-     "title": "速览",
-     "text": "Anthropic 今日为 IPO 定价，11 月 19 日挂牌；微软 Ignite 把 Copilot 升级为“工作操作系统”。"
+     "title": "OpenAI 披露模型参",
+     "text": "OpenAI 披露模型参与芯片设计：AMD 旗舰 GPU 最高提升 14% PPA，部分改动已进入流片设计。"
     }
    ],
-   "highlight": "OpenAI 发布 GPT-6.2 Astra 与 Sol：旗舰降价 20%，Sol 以约五分之一成本接近旗舰编码能力。",
-   "date": "2026-11-18"
+   "highlight": "Anthropic IPO 定价 83 美元，今日纳斯达克挂牌（代码 ANT），约 1.5 万亿美元估值创 AI 公司上市纪录。",
+   "date": "2026-11-19"
   }
  },
  "digest": [
@@ -399,11 +369,11 @@
    "text": "paper-orchestra 单日 +1,524 登顶日榜、总数突破 4,200，ECC +1,108、last30days-skill +1,059 紧随其后，多 agent 论文写作与 skill 评测继续领跑；superpowers 单日净增 1,991、总数突破 32.1 万 star。"
   },
   {
-   "title": "OpenAI 发布 GP",
-   "text": "OpenAI 发布 GPT-6.2 Astra 与 Sol：旗舰降价 20%，Sol 以约五分之一成本接近旗舰编码能力。"
+   "title": "速览",
+   "text": "Anthropic IPO 定价 83 美元，今日纳斯达克挂牌（代码 ANT），约 1.5 万亿美元估值创 AI 公司上市纪录。"
   }
  ],
- "intro": "paper-orchestra 单日 +1,524 登顶日榜、总数突破 4,200，ECC +1,108、last30days-skill +1,059 紧随其后，多 agent 论文写作与 skill 评测继续领跑；superpowers 单日净增 1,991、总数突破 32.1 万 star。 OpenAI 发布 GPT-6.2 Astra 与 Sol：旗舰降价 20%，Sol 以约五分之一成本接近旗舰编码能力。",
+ "intro": "paper-orchestra 单日 +1,524 登顶日榜、总数突破 4,200，ECC +1,108、last30days-skill +1,059 紧随其后，多 agent 论文写作与 skill 评测继续领跑；superpowers 单日净增 1,991、总数突破 32.1 万 star。 Anthropic IPO 定价 83 美元，今日纳斯达克挂牌（代码 ANT），约 1.5 万亿美元估值创 AI 公司上市纪录。",
  "tasks": [
   {
    "icon": "GH",
@@ -420,5 +390,5 @@
  ],
  "date": "2026-11-19",
  "issue": "050",
- "updatedAt": "00:34 更新"
+ "updatedAt": "01:02 更新"
 }
