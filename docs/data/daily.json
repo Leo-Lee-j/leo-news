@@ -258,20 +258,30 @@
    "items": [
     {
      "rank": "01",
-     "title": "Google 发布 Gemini 4 Neon：前沿级智能，瞄准高频复杂任务",
-     "summary": "Gemini 4 家族第四款模型 Neon 正式发布，定位软件工程、知识工作与科学计算，定价为每百万输入 token 3 美元、输出 15 美元（缓存输入 0.15 美元），上下文 100 万 token。在最高（xhigh）思考档位下，Artificial Analysis 智能指数得分为 61 分，排名第三，仅次于两个更大、更慢的模型。",
-     "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-neon/",
-     "source": "Google 官方博客｜2026-11-18",
+     "title": "Anthropic 上市首日收涨 17%，完全稀释估值约 1.75 万亿美元",
+     "summary": "Anthropic 以代码 ANT 在纳斯达克挂牌，IPO 定价 83 美元、募资约 813 亿美元，为史上最大 IPO。开盘价 111.50 美元（较发行价高 34%），盘中一度冲至 115 美元，收盘 97.17 美元、首日上涨 17%，完全稀释估值约 1.75 万亿美元；首日成交超 8.46 亿股，超过 SpaceX 上市首日的 5.22 亿股。",
+     "url": "https://www.reuters.com/legal/transactional/anthropics-15-trillion-debut-rewrites-venture-capitals-playbook-2026-11-19/",
+     "source": "Reuters｜2026-11-19",
      "tags": [
       "AI 大模型"
      ]
     },
     {
      "rank": "02",
-     "title": "OpenAI 模型改写芯片 RTL：AMD 旗舰 GPU 最高提升 14% PPA，约一年优化量不到五个月完成",
-     "summary": "OpenAI 发布技术报告，披露其模型通过重写 SystemVerilog RTL 代码，在 AMD 旗舰 GPU IP 上实现最高 14% 的功耗-性能-面积（PPA）提升，部分改动已进入 AMD 近期送交制造的设计，其余写入生产设计文件；AMD 下一代旗舰 CPU 关键模块也验证了个位数百分比的 PPA 提升。OpenAI 自研推理芯片 Jalapeño 的向量单元与矩阵单元标准 cell 面积分别减少约 13% 和 10%，且已在",
-     "url": "https://openai.com/index/advancing-chip-design-with-our-models/",
-     "source": "OpenAI 官方博客｜2026-11-18",
+     "title": "微软 Ignite 发布 7 款 MAI 模型：旗舰性能、零头价格",
+     "summary": "微软在 Ignite 2026 发布 7 款自研 MAI 模型：MAI Code 2（编码，号称达 GPT-6.1 Sol 98% 性能、价格约 40%，对 Claude Opus 5.5 为 96% 性能、5% 价格）、MAI Cyber 2 Flash（网络安全，GPT-6 Astra 同等质量、单任务成本不到 2%）、MAI Image 2.7（图像编辑，Artificial Analysis 排名第一）、MAI Code 2 F",
+     "url": "https://microsoft.ai/news/microsoft-ignite-2026/",
+     "source": "Microsoft AI｜2026-11-17",
+     "tags": [
+      "AI 大模型"
+     ]
+    },
+    {
+     "rank": "03",
+     "title": "OpenAI 内部报告：编程 Agent 独立完成 46% 的 2–4 小时研究任务",
+     "summary": "OpenAI 发布第二份研究加速报告《Research acceleration: The jagged frontier》。2026 年 3 月至 10 月，编程 Agent 无需人工干预完成 2–4 小时研究任务的成功率从 23% 升至 46%，4–8 小时任务从 13% 升至 35%。但能力分布极不均匀：监控训练任务成功率 79%，启动训练任务 35%，编写推理与服务栈代码仅 25%。研究员人均 Agent 日支出（按 API 标",
+     "url": "https://aiweekly.co/alerts/openai-says-coding-agents-finish-46-of-2-4-hour-research-tasks",
+     "source": "OpenAI（经 AI Weekly 报道）｜2026-11-18",
      "tags": [
       "AI 大模型"
      ]
@@ -285,11 +295,41 @@
    "description": "模型部署 · AI 编程 · Agent",
    "items": [
     {
-     "rank": "03",
-     "title": "nginx 曝两个 HTTP/2 未授权 RCE 漏洞，CVSS 9.2，其中一个潜伏自 2015 年",
-     "summary": "Wiz、Ikotas Labs、Metnir、Rapid7 与 Xint 各自独立发现 nginx 的两个高危远程代码执行漏洞 CVE-2026-123007（HTTP/2 流控整数下溢，影响 1.9.5–1.31.8）与 CVE-2026-123633（HTTP/2 连接 use-after-free，影响 1.19.7–1.31.8），CVSS 4.0 评分均为 9.2，均需开启 HTTP/2 才能利用，无需认证即可执行代码。官方修",
-     "url": "https://www.wiz.io/blog/nginx-http2-rce-vulnerabilities",
-     "source": "Wiz Research｜2026-11-18",
+     "rank": "04",
+     "title": "微软 agent-framework PyPI 遭投毒，ONNX Runtime 等仓库紧急下线",
+     "summary": "11 月 17 日，微软官方 Agent 开发框架 agent-framework 的 PyPI 包被发布了两个恶意版本 1.26.1 与 1.26.2（20:35 与 21:08 UTC），内含窃取 Azure 凭证、CI 与 API 密钥、GitHub Actions Token 的代码，通过 .pth 文件在每次 Python 启动时执行并外发到 webhook.site，约 45 分钟后被下架、回滚至干净的 1.26.0。同日晚",
+     "url": "https://ai-tldr.dev/releases/microsoft-agent-framework-pypi-compromise/",
+     "source": "Socket / Aikido / The Register（经 AI/TLDR 汇总）｜2026-11-17",
+     "tags": [
+      "开发工具"
+     ]
+    },
+    {
+     "rank": "05",
+     "title": "RadixArk 发布 DaisyRose-27B：纯 RL 把 Terminal-Bench 得分翻倍",
+     "summary": "SGLang 核心团队创立的 RadixArk 发布首款模型 DaisyRose-27B，基于 Qwen3.8-27B，仅用强化学习（无 SFT、无蒸馏），在约 1200 个精选长程 Agent 任务、最长 100 万 token 会话上训练 18 天、动用 144 张 H200。Terminal-Bench 4.1 pass@1 从基座的 5.6% 提升至 12.0%，其余编码、推理与指令遵循基准亦全面优于基座。权重以 Apache ",
+     "url": "https://www.radixark.com/blog/daisyrose-27b",
+     "source": "RadixArk 官方博客｜2026-11-18",
+     "tags": [
+      "开发工具"
+     ]
+    },
+    {
+     "rank": "06",
+     "title": "OVHcloud 发布首款开源模型 Olala mini 7A1B：8GB 显存可跑",
+     "summary": "欧洲云厂商 OVHcloud 发布首个自研模型家族 Olala，首款 Olala mini 7A1B 为 70 亿总参数、每 token 激活 10 亿参数的 MoE 模型，基于其 3 月收购的 Dragon LLM 架构，以 Apache 2.0 协议在 Hugging Face 开源（含基座权重与 GGUF 量化版），8GB 显存即可运行。OVHcloud 称训练动用了约 700 万欧元的公共算力，路线图规划 2026 年底前发布 ",
+     "url": "https://www.unite.ai/ovhcloud-introduces-olala-mini-7a1b-as-its-first-open-source-llm/",
+     "source": "Unite.AI｜2026-11-19",
+     "tags": [
+      "开发工具"
+     ]
+    },
+    {
+     "rank": "07",
+     "title": "DeepSeek 取消模型调用内搜索与抓取的单独计费",
+     "summary": "DeepSeek 调整 API 计价：自 11 月 18 日 12:00（北京时间）起，模型调用内触发的服务端搜索、图片搜索与网页抓取不再单独收费，仅按模型 token 计费，覆盖自家联网工具、Anthropic API 与 Responses API 的 web_search 工具。直接调用独立 Search / Fetch API 的仍按 5 元/千次成功请求收费。这项收费 11 月 1 日才开始，17 天后即取消。",
+     "url": "https://technode.com/2026/11/19/deepseek-drops-separate-fees-for-model-triggered-web-searches/",
+     "source": "TechNode｜2026-11-19",
      "tags": [
       "开发工具"
      ]
@@ -303,21 +343,11 @@
    "description": "公司动态 · 产品发布 · 芯片与云",
    "items": [
     {
-     "rank": "04",
-     "title": "Anthropic IPO 定价 83 美元，今日纳斯达克挂牌，估值约 1.5 万亿美元",
-     "summary": "Anthropic 将 IPO 发行价定为每股 83 美元，高于此前 70–78 美元的指导区间，发行规模亦有所扩大；加上 26 亿美元的同步私募配售（谷歌、英伟达、AMD、博通、微软、美光、台积电等七家战略投资者参与），募资总额至少 945 亿美元，超过 SpaceX 今年 6 月的纪录，成为史上最大规模 IPO 之一。按完全稀释口径，估值约 1.5 万亿美元。公司股票将于 11 月 19 日在纳斯达克以代码 ANT 开始交易；截至 ",
-     "url": "https://www.reuters.com/legal/transactional/anthropic-prices-blockbuster-ipo-83-share-source-says-2026-11-18/",
-     "source": "Reuters｜2026-11-18",
-     "tags": [
-      "行业动态"
-     ]
-    },
-    {
-     "rank": "05",
-     "title": "“MisAnthropic 声明”：90 余位学者与业界人士联名质疑 Anthropic 的安全叙事",
-     "summary": "在 Anthropic 上市前夜，由 AI 安全中心（CAIS）组织的 90 余位科学家、法学家与科技界人士联名发表“MisAnthropic 声明”，指 Anthropic 一面警告递归自我改进的 AI 可能集中权力、失控，一面竞相率先建造它；并以安全品牌争取投资者、员工与公众，同时悄悄弱化了安全承诺（今年 2 月修订 Responsible Scaling Policy，放弃单方面暂停训练的承诺）并游说弱化相关监管立法。联署人包括哈",
-     "url": "https://www.businesswire.com/news/home/20261118974464/en/Anthropic-is-Not-a-Safe-AI-Company---Broad-Coalition-of-Scientists-Legal-Scholars-and-Tech-Leaders-Challenge-Anthropics-Safety-Branding-Ahead-of-IPO",
-     "source": "Center for AI Safety（经 Business Wire）｜2026-11-18",
+     "rank": "08",
+     "title": "OpenAI Dots 企业版默认开启：常驻 Agent 进入企业标配",
+     "summary": "OpenAI 常驻 Agent 产品 Dots 在 Enterprise、Edu 与 Healthcare 工作区结束两周管理员预览，自 11 月 18 日起对未明确退出的合格工作区默认开启，每位成员可创建一个个人 dot，在对话间持续推进任务。Dots 由 GPT-6 Astra（部分任务用 GPT-6.1 Terra）驱动，拥有独立云端电脑与浏览器，可在 Slack、Teams 中触达；企业版在 2027 年 1 月 13 日前免费",
+     "url": "https://releasebot.io/updates/openai/chatgpt-enterprise-edu",
+     "source": "OpenAI 企业版更新日志（经 Releasebot）｜2026-11-18",
      "tags": [
       "行业动态"
      ]
@@ -348,19 +378,19 @@
    "digest": [
     {
      "title": "速览",
-     "text": "Anthropic IPO 定价 83 美元，今日纳斯达克挂牌（代码 ANT），约 1.5 万亿美元估值创 AI 公司上市纪录。"
+     "text": "Anthropic 上市首日收涨 17%，完全稀释估值约 1.75 万亿美元，创史上最大 IPO。"
     },
     {
-     "title": "Google 发布 Ge",
-     "text": "Google 发布 Gemini 4 Neon：$3/$15 定价、100 万上下文，Artificial Analysis 智能指数 61 分排名第三。"
+     "title": "速览",
+     "text": "微软 Ignite 一口气发布 7 款 MAI 模型，主打「旗舰性能、零头价格」，正式杀入模型价格战。"
     },
     {
-     "title": "OpenAI 披露模型参",
-     "text": "OpenAI 披露模型参与芯片设计：AMD 旗舰 GPU 最高提升 14% PPA，部分改动已进入流片设计。"
+     "title": "OpenAI 内部报告",
+     "text": "OpenAI 内部报告：编程 Agent 已能独立完成 46% 的 2–4 小时研究任务，但能力分布极不均匀，「锯齿状前沿」仍是现实。"
     }
    ],
-   "highlight": "Anthropic IPO 定价 83 美元，今日纳斯达克挂牌（代码 ANT），约 1.5 万亿美元估值创 AI 公司上市纪录。",
-   "date": "2026-11-19"
+   "highlight": "Anthropic 上市首日收涨 17%，完全稀释估值约 1.75 万亿美元，创史上最大 IPO。",
+   "date": "2026-11-20"
   }
  },
  "digest": [
@@ -370,10 +400,10 @@
   },
   {
    "title": "速览",
-   "text": "Anthropic IPO 定价 83 美元，今日纳斯达克挂牌（代码 ANT），约 1.5 万亿美元估值创 AI 公司上市纪录。"
+   "text": "Anthropic 上市首日收涨 17%，完全稀释估值约 1.75 万亿美元，创史上最大 IPO。"
   }
  ],
- "intro": "paper-orchestra 单日 +1,524 登顶日榜、总数突破 4,200，ECC +1,108、last30days-skill +1,059 紧随其后，多 agent 论文写作与 skill 评测继续领跑；superpowers 单日净增 1,991、总数突破 32.1 万 star。 Anthropic IPO 定价 83 美元，今日纳斯达克挂牌（代码 ANT），约 1.5 万亿美元估值创 AI 公司上市纪录。",
+ "intro": "paper-orchestra 单日 +1,524 登顶日榜、总数突破 4,200，ECC +1,108、last30days-skill +1,059 紧随其后，多 agent 论文写作与 skill 评测继续领跑；superpowers 单日净增 1,991、总数突破 32.1 万 star。 Anthropic 上市首日收涨 17%，完全稀释估值约 1.75 万亿美元，创史上最大 IPO。",
  "tasks": [
   {
    "icon": "GH",
@@ -388,7 +418,7 @@
    "time": "09:00"
   }
  ],
- "date": "2026-11-19",
- "issue": "050",
- "updatedAt": "01:02 更新"
+ "date": "2026-11-20",
+ "issue": "051",
+ "updatedAt": "01:00 更新"
 }
