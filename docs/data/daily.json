@@ -112,9 +112,9 @@
    "items": [
     {
      "rank": "01",
-     "title": "obra/superpowers",
-     "summary": "解决了\"agent 写代码前不问需求、不出规格、直接开干\"的问题；单日 +2,028 再登日榜第一，总数突破 32.2 万 star，是 agent 开发方法论方向体量最大的样本；适合用 coding agent 做开发的开发者，值得按安装说明接上试一圈。",
-     "url": "https://github.com/obra/superpowers",
+     "title": "elementalsouls/Claude-BugHunter",
+     "summary": "解决了\"agent 会写代码、却不会找漏洞\"的问题；单日 +1,622 再登日榜第一、总数突破 1.4 万 star，连续多日加速，83 个漏洞挖掘 skill + Burp MCP 集成的红队工具箱；适合做安全测试与漏洞挖掘的开发者与安全研究者，值得在授权范围内装上试一圈。",
+     "url": "https://github.com/elementalsouls/Claude-BugHunter",
      "tags": [
       "强烈推荐"
      ],
@@ -122,33 +122,6 @@
     },
     {
      "rank": "02",
-     "title": "elementalsouls/Claude-BugHunter",
-     "summary": "给 Claude Code 配的漏洞挖掘与红队 skill 工具箱：83 个 skill、15 条斜杠命令，覆盖 24 类漏洞的 681 个已披露报告模式。 83 个漏洞挖掘 skill 与 15 条斜杠命令、681 个已披露报告模式（433 个逐条引用、可审计）、Burp MCP 集成、配套实战演练场（DVWA、OWASP Juice Shop、Hacker101 等）。",
-     "url": "https://github.com/elementalsouls/Claude-BugHunter",
-     "tags": [
-      "强烈推荐"
-     ]
-    },
-    {
-     "rank": "03",
-     "title": "mvanhorn/last30days-skill",
-     "summary": "跨平台主题调研的 agent skill：让 agent 去 Reddit、X、YouTube、HN、Polymarket 上搜\"人怎么说\"，而不是只读编辑写好的文章。 跨平台调研 skill（Reddit、X、YouTube、HN、Polymarket 等）、按点赞、点踩与真金白银下注给信息打分、v4 流水线、多语言 README。",
-     "url": "https://github.com/mvanhorn/last30days-skill",
-     "tags": [
-      "值得关注"
-     ]
-    },
-    {
-     "rank": "04",
-     "title": "HKUDS/CLI-Anything",
-     "summary": "港大团队的\"让所有软件都 agent 原生\"：给命令行工具套一层 agent 友好的接口，让 agent 能直接操作原本只服务人类的软件。 把任意 CLI 软件变成 agent 可调用的接口、配套 CLI-Hub、Python 实现、研究型项目。",
-     "url": "https://github.com/HKUDS/CLI-Anything",
-     "tags": [
-      "值得关注"
-     ]
-    },
-    {
-     "rank": "05",
      "title": "firecrawl/firecrawl",
      "summary": "给 agent 用的网页数据基础设施：搜索、抓取、抽取结构化数据，再接 550 多个数据源，让 agent 能读懂整个互联网。 网页搜索、抓取与结构化抽取、550+ 数据源接入、TypeScript 实现、配套云端托管服务。",
      "url": "https://github.com/firecrawl/firecrawl",
@@ -157,34 +130,16 @@
      ]
     },
     {
-     "rank": "06",
-     "title": "cathrynlavery/diagram-design",
-     "summary": "让 agent 画\"设计师看了不皱眉\"的图：一个 agent skill，把图表画成单个自包含的 HTML + SVG 文件，按你的品牌风格来。 51 种图表类型、输出单个自包含 HTML + SVG 文件、按品牌风格出图、明确拒绝\"Mermaid 味\"的粗糙默认样式、适配 Claude Code、Codex、Copilot、Cursor 等 agent。",
-     "url": "https://github.com/cathrynlavery/diagram-design",
-     "tags": [
-      "值得关注"
-     ]
-    },
-    {
-     "rank": "07",
-     "title": "cursor/plugins",
-     "summary": "Cursor 官方插件规范与官方插件合集：插件机制是编辑器生态的下一块拼图，Cursor 把自家插件的写法与官方插件开源出来。 Cursor 插件规范、官方插件合集、TypeScript 实现。",
-     "url": "https://github.com/cursor/plugins",
+     "rank": "03",
+     "title": "XiaoYouChR/Ghost-Downloader-3",
+     "summary": "\"下载器的集大成者\"：一个开源下载工具，把多类下载场景收进一个客户端里。 多协议与多站点下载支持、Python 实现、桌面客户端。",
+     "url": "https://github.com/XiaoYouChR/Ghost-Downloader-3",
      "tags": [
       "了解即可"
      ]
     },
     {
-     "rank": "08",
-     "title": "mjmirza/app-store-compliance",
-     "summary": "帮你的 App 一次过审：把 App Store 与 Google Play 的审核规则做成公开 playbook，再配一套自动检查，提前堵住常见被拒原因。 App Store 与 Google Play 审核合规 playbook、上架前自动检查、Shell 实现、配套在线文档站。",
-     "url": "https://github.com/mjmirza/app-store-compliance",
-     "tags": [
-      "值得关注"
-     ]
-    },
-    {
-     "rank": "09",
+     "rank": "04",
      "title": "zhouxiaoka/autoclip",
      "summary": "开源 AI 视频剪辑桌面工具：贴一个链接，一键把播客、访谈、课程等长视频剪成短视频，顺带生成字幕、封面和发布文案。 长视频自动剪成短视频、自动生成字幕、封面与发布文案、适配抖音、小红书、TikTok、Reels、YouTube Shorts、B 站、本地剪辑与渲染、附带编辑器可手动调整。",
      "url": "https://github.com/zhouxiaoka/autoclip",
@@ -193,12 +148,57 @@
      ]
     },
     {
-     "rank": "10",
+     "rank": "05",
+     "title": "obra/superpowers",
+     "summary": "给 coding agent 的完整软件开发方法论：一套可组合的 skill 加上初始指令，让 agent 先问清需求、写出可读的规格再动手写代码。 可组合的 skill 集合覆盖开发全流程、先出规格再写代码的工作流、兼容 Claude Code、Codex、Cursor、Copilot、Gemini CLI 等十余种 agent。",
+     "url": "https://github.com/obra/superpowers",
+     "tags": [
+      "强烈推荐"
+     ]
+    },
+    {
+     "rank": "06",
+     "title": "mjmirza/app-store-compliance",
+     "summary": "帮你的 App 一次过审：把 App Store 与 Google Play 的审核规则做成公开 playbook，再配一套自动检查，提前堵住常见被拒原因。 App Store 与 Google Play 审核合规 playbook、上架前自动检查、Shell 实现、配套在线文档站。",
+     "url": "https://github.com/mjmirza/app-store-compliance",
+     "tags": [
+      "值得关注"
+     ]
+    },
+    {
+     "rank": "07",
      "title": "jingyaogong/minimind",
      "summary": "两小时从零训出你的 64M 大模型：一个极简的教学项目，把 LLM 训练的完整链路摊开给你看。 从零训练 64M 参数小模型的完整教学链路、两小时可跑通、Python 实现、中文 README。",
      "url": "https://github.com/jingyaogong/minimind",
      "tags": [
       "了解即可"
+     ]
+    },
+    {
+     "rank": "08",
+     "title": "HKUDS/CLI-Anything",
+     "summary": "港大团队的\"让所有软件都 agent 原生\"：给命令行工具套一层 agent 友好的接口，让 agent 能直接操作原本只服务人类的软件。 把任意 CLI 软件变成 agent 可调用的接口、配套 CLI-Hub、Python 实现、研究型项目。",
+     "url": "https://github.com/HKUDS/CLI-Anything",
+     "tags": [
+      "值得关注"
+     ]
+    },
+    {
+     "rank": "09",
+     "title": "toeverything/AFFiNE",
+     "summary": "下一代知识库：把文档、白板、数据库收进一个开源工作区，对标 Notion + Miro 的组合。 文档、白板与数据库一体的工作区、TypeScript 实现、可自托管、支持多人协作。",
+     "url": "https://github.com/toeverything/AFFiNE",
+     "tags": [
+      "值得关注"
+     ]
+    },
+    {
+     "rank": "10",
+     "title": "Tracer-Cloud/opensre",
+     "summary": "给 CI/CD 配的开源可靠性 agent：流水线挂了，它读失败日志、定位原因，再推一个修复给你审。 读失败的 CI 运行并追踪根因、生成修复供人工审核、自托管、可用自己的模型、Apache 2.0 协议、Python 实现。",
+     "url": "https://github.com/Tracer-Cloud/opensre",
+     "tags": [
+      "值得关注"
      ]
     }
    ]
@@ -212,10 +212,10 @@
     {
      "rank": "01",
      "title": "dream-num/univer",
-     "summary": "较昨日（+6,840）继续加速，总数较昨日 +556、突破 3 万 star：agent 办公套件方向的老项目反超登顶周榜。",
+     "summary": "较昨日（+7,248）继续加速，总数较昨日 +508、突破 3 万 star：agent 办公套件方向的老项目继续领跑周榜。",
      "url": "https://github.com/dream-num/univer",
-     "stars": "30.4k",
-     "trend": "+7,248",
+     "stars": "30.9k",
+     "trend": "+7,539",
      "tags": [
       "高增长"
      ]
@@ -223,43 +223,43 @@
     {
      "rank": "02",
      "title": "GoogleChrome/modern-web-guidance-src",
-     "summary": "较昨日（+7,257）略有回落，总数较昨日 +284：Chrome 官方 skill 让出周榜第一，仓库昨日仍在更新。",
+     "summary": "较昨日（+6,858）回落，总数较昨日 +412：Chrome 官方 skill 让出周榜第一后仍居第二，仓库昨日仍在更新。",
      "url": "https://github.com/GoogleChrome/modern-web-guidance-src",
-     "stars": "9.1k",
-     "trend": "+6,858",
+     "stars": "9.5k",
+     "trend": "+5,224",
      "tags": [
       "高增长"
      ]
     },
     {
      "rank": "03",
-     "title": "meta/astryx",
-     "summary": "较昨日（+6,250）回落，总数较昨日 +407，仓库今日仍在更新：Meta 的 agent-ready 设计系统退居周榜第三。",
-     "url": "https://github.com/meta/astryx",
-     "stars": "31.0k",
-     "trend": "+4,977",
+     "title": "alibaba/open-code-review",
+     "summary": "较昨日（+4,492）基本持平，总数较昨日 +387：大厂代码评审能力开源的样本周增维持高位。",
+     "url": "https://github.com/alibaba/open-code-review",
+     "stars": "54.8k",
+     "trend": "+4,457",
      "tags": [
       "高增长"
      ]
     },
     {
      "rank": "04",
-     "title": "alibaba/open-code-review",
-     "summary": "较昨日（+4,383）继续加速，总数较昨日 +221：大厂代码评审能力开源的样本周增再创新高。",
-     "url": "https://github.com/alibaba/open-code-review",
-     "stars": "54.4k",
-     "trend": "+4,492",
+     "title": "meta/astryx",
+     "summary": "较昨日（+4,977）回落，总数较昨日 +369，仓库今日仍在更新：Meta 的 agent-ready 设计系统退居周榜第四。",
+     "url": "https://github.com/meta/astryx",
+     "stars": "31.3k",
+     "trend": "+4,131",
      "tags": [
       "高增长"
      ]
     },
     {
      "rank": "05",
-     "title": "backnotprop/plannotator",
-     "summary": "较昨日（+3,290）继续加速，总数较昨日 +210，仓库今日仍在更新：\"人在回路\"工作台方向热度未熄。",
-     "url": "https://github.com/backnotprop/plannotator",
-     "stars": "13.7k",
-     "trend": "+3,468",
+     "title": "mvanhorn/last30days-skill",
+     "summary": "较昨日（+3,179）继续加速，总数较昨日 +640、突破 7.1 万 star：\"让 agent 按真实人气与下注给信息打分\"的调研思路热度未熄。",
+     "url": "https://github.com/mvanhorn/last30days-skill",
+     "stars": "71.4k",
+     "trend": "+3,788",
      "tags": [
       "高增长"
      ]
@@ -267,52 +267,54 @@
     {
      "rank": "06",
      "title": "ag-ui-protocol/ag-ui",
-     "summary": "较昨日（+3,221）继续加速，总数较昨日 +208：agent 与前端交互的协议层样本继续加速。",
+     "summary": "较昨日（+3,455）继续加速，总数较昨日 +179：agent 与前端交互的协议层样本继续加速。",
      "url": "https://github.com/ag-ui-protocol/ag-ui",
-     "stars": "20.6k",
-     "trend": "+3,455",
+     "stars": "20.8k",
+     "trend": "+3,621",
      "tags": [
       "高增长"
      ]
     },
     {
      "rank": "07",
-     "title": "tradermonty/claude-trading-skills",
-     "summary": "较昨日（+3,242）继续加速，总数较昨日 +169：面向股票投资者的 Claude Code skill 组合热度未熄。",
-     "url": "https://github.com/tradermonty/claude-trading-skills",
-     "stars": "7.2k",
-     "trend": "+3,385",
+     "title": "backnotprop/plannotator",
+     "summary": "较昨日（+3,468）继续加速，总数较昨日 +235，仓库今日仍在更新：\"人在回路\"工作台方向热度未熄。",
+     "url": "https://github.com/backnotprop/plannotator",
+     "stars": "13.9k",
+     "trend": "+3,555",
      "tags": [
       "高增长"
      ]
     },
     {
      "rank": "08",
-     "title": "ChromeDevTools/chrome-devtools-mcp",
-     "summary": "较昨日（+3,143）小幅加速，总数较昨日 +153：Chrome DevTools 的 coding agent 接入点热度未熄。",
-     "url": "https://github.com/ChromeDevTools/chrome-devtools-mcp",
-     "stars": "58.4k",
-     "trend": "+3,229",
+     "title": "tradermonty/claude-trading-skills",
+     "summary": "较昨日（+3,385）继续加速，总数较昨日 +190：面向股票投资者的 Claude Code skill 组合热度未熄。",
+     "url": "https://github.com/tradermonty/claude-trading-skills",
+     "stars": "7.4k",
+     "trend": "+3,471",
      "tags": [
       "高增长"
      ]
     },
     {
      "rank": "09",
-     "title": "obra/superpowers",
-     "summary": "单日再登日榜第一、总数突破 32.2 万 star：agent 开发方法论方向体量最大的仓库之一。",
-     "url": "https://github.com/obra/superpowers",
-     "stars": "322.1k",
+     "title": "ChromeDevTools/chrome-devtools-mcp",
+     "summary": "较昨日（+3,229）小幅加速，总数较昨日 +177：Chrome DevTools 的 coding agent 接入点热度未熄。",
+     "url": "https://github.com/ChromeDevTools/chrome-devtools-mcp",
+     "stars": "58.5k",
+     "trend": "+3,306",
      "tags": [
       "高增长"
      ]
     },
     {
      "rank": "10",
-     "title": "elementalsouls/Claude-BugHunter",
-     "summary": "单日净增 1,153，总数三天涨了三成多：agent 安全测试方向的红队工具箱继续加速。",
-     "url": "https://github.com/elementalsouls/Claude-BugHunter",
-     "stars": "12.5k",
+     "title": "kajisho5/ffmpeg-skill",
+     "summary": "较昨日（+2,998）继续加速，总数较昨日 +487：本地视频编辑 skill 热度未熄。",
+     "url": "https://github.com/kajisho5/ffmpeg-skill",
+     "stars": "8.8k",
+     "trend": "+3,268",
      "tags": [
       "高增长"
      ]
@@ -327,27 +329,9 @@
    "items": [
     {
      "rank": "01",
-     "title": "unclebob/ub-mode",
-     "summary": "Uncle Bob 亲自下场的 agent skill：让 agent 写代码时也守\"干净代码\"的规矩——先让它跑起来，再让它变对，用确定性的质量门把关。 强制 TDD 与\"先跑通、再做对\"的开发纪律、确定性质量门（Crapper 复杂度、Dryer 重复度、Mutator 变异测试）、小步提交与工作区清理、配套同名工具链。",
-     "url": "https://github.com/unclebob/ub-mode",
-     "tags": [
-      "值得关注"
-     ]
-    },
-    {
-     "rank": "02",
-     "title": "anhao/ai-pose-gallery-zh",
-     "summary": "中文版 AI 姿势参考图库：给 AI 画图准备的\"姿势 + 服装 + 人像\"中文参考库，1,439 组姿势、3,224 套服装、1,499 位人像一次备齐。 姿势库（1,439 组素体白模 + 深度图）、服装库（3,224 套，含中国历代服饰）、人像库（1,499 位）、6,162 条全中文参考数据、12,022 张本地高清图、集成 5 大 AI 图像协议直连工作台与 ComfyUI 自定义节点、",
-     "url": "https://github.com/anhao/ai-pose-gallery-zh",
-     "tags": [
-      "值得关注"
-     ]
-    },
-    {
-     "rank": "03",
-     "title": "Lee-xeo/Claude-Cage",
-     "summary": "给 Claude 配的轻量沙箱：把 Claude 关进虚拟机里干活，网络泄露、误操作都出不了笼子。 为 Claude 特化的轻量化虚拟机、彻底杜绝网络泄露、多平台适配、支持多账号管理、远程部署与移动端操控、Go 实现、MIT 协议。",
-     "url": "https://github.com/Lee-xeo/Claude-Cage",
+     "title": "erkamyaman/rust-anything",
+     "summary": "把你的应用重写成 Rust，并证明它行为没变：先录下原版应用的行为，再让 agent 一块一块重写，每块都对照录像验过才算数。 录制原版应用的行为作为对照、agent 分块重写 Rust 实现、每块重写都对照录制结果校验、多语言 README（含中文）、Rust 实现。",
+     "url": "https://github.com/erkamyaman/rust-anything",
      "tags": [
       "值得关注"
      ]
@@ -360,19 +344,19 @@
    "digest": [
     {
      "title": "速览",
-     "text": "superpowers 单日 +2,028 登顶日榜、总数突破 32.2 万 star，Claude-BugHunter 单日 +1,349、总数突破 1.25 万，连续三日加速，agent 安全测试方向继续领跑；CLI-Anything +898 回流日榜前三。"
+     "text": "Claude-BugHunter 单日 +1,622 再登日榜第一、总数突破 1.4 万 star，连续多日加速，agent 安全测试方向继续领跑；firecrawl 单日 +1,241 回流、总数突破 20.5 万；app-store-compliance 单日 +869，一天涨了近五成。"
     },
     {
-     "title": "周榜换位",
-     "text": "周榜换位：univer 周增 +7,248 反超登顶并突破 3 万 star，Chrome 官方 skill 周增 +6,858 居第二、astryx 周增 +4,977 回落至第三；plannotator 周增 +3,468、ffmpeg-skill 首次进入周榜。"
+     "title": "周榜",
+     "text": "周榜：univer 周增 +7,539 继续登顶并突破 3 万 star，Chrome 官方 skill 周增 +5,224 居第二；last30days-skill 周增 +3,788 加速、总数突破 7.1 万 star。"
     },
     {
-     "title": "新项目首次入榜",
-     "text": "新项目首次入榜：Uncle Bob 的 ub-mode（8,229 star）、中文版 AI 姿势参考图库（7,349 star）、Claude 轻量沙箱 Claude-Cage（6,871 star）；craft-anything 单日净增 1,479、总数突破 3.85 万。"
+     "title": "新面孔",
+     "text": "新面孔：CI/CD 可靠性 agent opensre 首次入榜日榜（+466），Rust 重写验证工具 rust-anything 创建 5 天即达 6,635 star；t3code、LoopForge 单日净增双双破千。"
     }
    ],
-   "highlight": "superpowers 单日 +2,028 登顶日榜、总数突破 32.2 万 star，Claude-BugHunter 单日 +1,349、总数突破 1.25 万，连续三日加速，agent 安全测试方向继续领跑；CLI-Anything +898 回流日榜前三。",
-   "date": "2026-11-20"
+   "highlight": "Claude-BugHunter 单日 +1,622 再登日榜第一、总数突破 1.4 万 star，连续多日加速，agent 安全测试方向继续领跑；firecrawl 单日 +1,241 回流、总数突破 20.5 万；app-store-compliance 单日 +869，一天涨了近五成。",
+   "date": "2026-11-21"
   },
   "tech-news": {
    "digest": [
@@ -396,14 +380,14 @@
  "digest": [
   {
    "title": "速览",
-   "text": "superpowers 单日 +2,028 登顶日榜、总数突破 32.2 万 star，Claude-BugHunter 单日 +1,349、总数突破 1.25 万，连续三日加速，agent 安全测试方向继续领跑；CLI-Anything +898 回流日榜前三。"
+   "text": "Claude-BugHunter 单日 +1,622 再登日榜第一、总数突破 1.4 万 star，连续多日加速，agent 安全测试方向继续领跑；firecrawl 单日 +1,241 回流、总数突破 20.5 万；app-store-compliance 单日 +869，一天涨了近五成。"
   },
   {
    "title": "速览",
    "text": "Anthropic 上市首日收涨 17%，完全稀释估值约 1.75 万亿美元，创史上最大 IPO。"
   }
  ],
- "intro": "superpowers 单日 +2,028 登顶日榜、总数突破 32.2 万 star，Claude-BugHunter 单日 +1,349、总数突破 1.25 万，连续三日加速，agent 安全测试方向继续领跑；CLI-Anything +898 回流日榜前三。 Anthropic 上市首日收涨 17%，完全稀释估值约 1.75 万亿美元，创史上最大 IPO。",
+ "intro": "Claude-BugHunter 单日 +1,622 再登日榜第一、总数突破 1.4 万 star，连续多日加速，agent 安全测试方向继续领跑；firecrawl 单日 +1,241 回流、总数突破 20.5 万；app-store-compliance 单日 +869，一天涨了近五成。 Anthropic 上市首日收涨 17%，完全稀释估值约 1.75 万亿美元，创史上最大 IPO。",
  "tasks": [
   {
    "icon": "GH",
@@ -418,7 +402,7 @@
    "time": "09:00"
   }
  ],
- "date": "2026-11-20",
- "issue": "051",
- "updatedAt": "01:12 更新"
+ "date": "2026-11-21",
+ "issue": "052",
+ "updatedAt": "00:34 更新"
 }
