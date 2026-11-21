@@ -1,110 +1,6 @@
 {
  "sections": [
   {
-   "id": "tech-ai",
-   "title": "AI 与大模型",
-   "shortTitle": "AI 大模型",
-   "description": "大模型发布与更新",
-   "items": [
-    {
-     "rank": "01",
-     "title": "Anthropic 上市首日收涨 17%，完全稀释估值约 1.75 万亿美元",
-     "summary": "Anthropic 以代码 ANT 在纳斯达克挂牌，IPO 定价 83 美元、募资约 813 亿美元，为史上最大 IPO。开盘价 111.50 美元（较发行价高 34%），盘中一度冲至 115 美元，收盘 97.17 美元、首日上涨 17%，完全稀释估值约 1.75 万亿美元；首日成交超 8.46 亿股，超过 SpaceX 上市首日的 5.22 亿股。",
-     "url": "https://www.reuters.com/legal/transactional/anthropics-15-trillion-debut-rewrites-venture-capitals-playbook-2026-11-19/",
-     "source": "Reuters｜2026-11-19",
-     "tags": [
-      "AI 大模型"
-     ]
-    },
-    {
-     "rank": "02",
-     "title": "微软 Ignite 发布 7 款 MAI 模型：旗舰性能、零头价格",
-     "summary": "微软在 Ignite 2026 发布 7 款自研 MAI 模型：MAI Code 2（编码，号称达 GPT-6.1 Sol 98% 性能、价格约 40%，对 Claude Opus 5.5 为 96% 性能、5% 价格）、MAI Cyber 2 Flash（网络安全，GPT-6 Astra 同等质量、单任务成本不到 2%）、MAI Image 2.7（图像编辑，Artificial Analysis 排名第一）、MAI Code 2 F",
-     "url": "https://microsoft.ai/news/microsoft-ignite-2026/",
-     "source": "Microsoft AI｜2026-11-17",
-     "tags": [
-      "AI 大模型"
-     ]
-    },
-    {
-     "rank": "03",
-     "title": "OpenAI 内部报告：编程 Agent 独立完成 46% 的 2–4 小时研究任务",
-     "summary": "OpenAI 发布第二份研究加速报告《Research acceleration: The jagged frontier》。2026 年 3 月至 10 月，编程 Agent 无需人工干预完成 2–4 小时研究任务的成功率从 23% 升至 46%，4–8 小时任务从 13% 升至 35%。但能力分布极不均匀：监控训练任务成功率 79%，启动训练任务 35%，编写推理与服务栈代码仅 25%。研究员人均 Agent 日支出（按 API 标",
-     "url": "https://aiweekly.co/alerts/openai-says-coding-agents-finish-46-of-2-4-hour-research-tasks",
-     "source": "OpenAI（经 AI Weekly 报道）｜2026-11-18",
-     "tags": [
-      "AI 大模型"
-     ]
-    }
-   ]
-  },
-  {
-   "id": "tech-dev",
-   "title": "AI 工程与开发工具",
-   "shortTitle": "开发工具",
-   "description": "模型部署 · AI 编程 · Agent",
-   "items": [
-    {
-     "rank": "04",
-     "title": "微软 agent-framework PyPI 遭投毒，ONNX Runtime 等仓库紧急下线",
-     "summary": "11 月 17 日，微软官方 Agent 开发框架 agent-framework 的 PyPI 包被发布了两个恶意版本 1.26.1 与 1.26.2（20:35 与 21:08 UTC），内含窃取 Azure 凭证、CI 与 API 密钥、GitHub Actions Token 的代码，通过 .pth 文件在每次 Python 启动时执行并外发到 webhook.site，约 45 分钟后被下架、回滚至干净的 1.26.0。同日晚",
-     "url": "https://ai-tldr.dev/releases/microsoft-agent-framework-pypi-compromise/",
-     "source": "Socket / Aikido / The Register（经 AI/TLDR 汇总）｜2026-11-17",
-     "tags": [
-      "开发工具"
-     ]
-    },
-    {
-     "rank": "05",
-     "title": "RadixArk 发布 DaisyRose-27B：纯 RL 把 Terminal-Bench 得分翻倍",
-     "summary": "SGLang 核心团队创立的 RadixArk 发布首款模型 DaisyRose-27B，基于 Qwen3.8-27B，仅用强化学习（无 SFT、无蒸馏），在约 1200 个精选长程 Agent 任务、最长 100 万 token 会话上训练 18 天、动用 144 张 H200。Terminal-Bench 4.1 pass@1 从基座的 5.6% 提升至 12.0%，其余编码、推理与指令遵循基准亦全面优于基座。权重以 Apache ",
-     "url": "https://www.radixark.com/blog/daisyrose-27b",
-     "source": "RadixArk 官方博客｜2026-11-18",
-     "tags": [
-      "开发工具"
-     ]
-    },
-    {
-     "rank": "06",
-     "title": "OVHcloud 发布首款开源模型 Olala mini 7A1B：8GB 显存可跑",
-     "summary": "欧洲云厂商 OVHcloud 发布首个自研模型家族 Olala，首款 Olala mini 7A1B 为 70 亿总参数、每 token 激活 10 亿参数的 MoE 模型，基于其 3 月收购的 Dragon LLM 架构，以 Apache 2.0 协议在 Hugging Face 开源（含基座权重与 GGUF 量化版），8GB 显存即可运行。OVHcloud 称训练动用了约 700 万欧元的公共算力，路线图规划 2026 年底前发布 ",
-     "url": "https://www.unite.ai/ovhcloud-introduces-olala-mini-7a1b-as-its-first-open-source-llm/",
-     "source": "Unite.AI｜2026-11-19",
-     "tags": [
-      "开发工具"
-     ]
-    },
-    {
-     "rank": "07",
-     "title": "DeepSeek 取消模型调用内搜索与抓取的单独计费",
-     "summary": "DeepSeek 调整 API 计价：自 11 月 18 日 12:00（北京时间）起，模型调用内触发的服务端搜索、图片搜索与网页抓取不再单独收费，仅按模型 token 计费，覆盖自家联网工具、Anthropic API 与 Responses API 的 web_search 工具。直接调用独立 Search / Fetch API 的仍按 5 元/千次成功请求收费。这项收费 11 月 1 日才开始，17 天后即取消。",
-     "url": "https://technode.com/2026/11/19/deepseek-drops-separate-fees-for-model-triggered-web-searches/",
-     "source": "TechNode｜2026-11-19",
-     "tags": [
-      "开发工具"
-     ]
-    }
-   ]
-  },
-  {
-   "id": "tech-industry",
-   "title": "科技行业动态",
-   "shortTitle": "行业动态",
-   "description": "公司动态 · 产品发布 · 芯片与云",
-   "items": [
-    {
-     "rank": "08",
-     "title": "OpenAI Dots 企业版默认开启：常驻 Agent 进入企业标配",
-     "summary": "OpenAI 常驻 Agent 产品 Dots 在 Enterprise、Edu 与 Healthcare 工作区结束两周管理员预览，自 11 月 18 日起对未明确退出的合格工作区默认开启，每位成员可创建一个个人 dot，在对话间持续推进任务。Dots 由 GPT-6 Astra（部分任务用 GPT-6.1 Terra）驱动，拥有独立云端电脑与浏览器，可在 Slack、Teams 中触达；企业版在 2027 年 1 月 13 日前免费",
-     "url": "https://releasebot.io/updates/openai/chatgpt-enterprise-edu",
-     "source": "OpenAI 企业版更新日志（经 Releasebot）｜2026-11-18",
-     "tags": [
-      "行业动态"
-     ]
-    }
-   ]
-  },
-  {
    "id": "github-hot",
    "title": "GitHub 今日热门",
    "shortTitle": "GitHub 热榜",
@@ -337,6 +233,120 @@
      ]
     }
    ]
+  },
+  {
+   "id": "tech-ai",
+   "title": "AI 与大模型",
+   "shortTitle": "AI 大模型",
+   "description": "大模型发布与更新",
+   "items": [
+    {
+     "rank": "01",
+     "title": "Claude Fable 5.2 攻克两个黑洞物理开放问题",
+     "summary": "Claude Fable 5.2 解决了黑洞物理中的两个开放问题：弱耦合下的 Hawking-Page 相变，以及模自举（modular bootstrap）上限 M₁ ≤ c/9.1266，相关证明已用 Lean 形式化验证。",
+     "url": "https://www.anthropic.com/research/claude-black-hole-physics",
+     "source": "Anthropic 研究博客｜2026-11-19",
+     "tags": [
+      "AI 大模型"
+     ]
+    },
+    {
+     "rank": "02",
+     "title": "Thinking Machines 发布 Inkling 2 Mini：26B 参数开放权重模型，可在笔记本上运行",
+     "summary": "Inkling 2 Mini 是循环 Transformer 架构的 MoE 模型，总参数 26.4B、每 token 激活 3.4B，中间 12 层每 token 循环 3 次；权重以 NVFP4 原生训练，整体约 20GB，Apache 2.0 协议，100 万上下文。官方称其在 DeepSWE v1.1（48.2%）等基准上领先所有 100B 以下开放权重模型，首日即支持 SGLang、vLLM、Ollama 等推理框架。",
+     "url": "https://www.testingcatalog.com/thinking-machines-releases-inkling-2-mini-looped-open-model/",
+     "source": "Thinking Machines Lab｜2026-11-20",
+     "tags": [
+      "AI 大模型"
+     ]
+    },
+    {
+     "rank": "03",
+     "title": "腾讯开放 Hy4 权重：770B 参数 MoE、100 万上下文，但改用自定义许可",
+     "summary": "腾讯在 Hy4 发布两周后放出权重：770B 总参数、每 token 激活 49B，原生多模态（文本、图像、视频理解），100 万 token 上下文，提供 vLLM 与 SGLang 部署指南。但权重改用自定义 Tencent Hy License 而非预览期的 Apache 2.0，大规模商业使用需另行书面授权。",
+     "url": "https://technode.com/2026-11-20/tencent-releases-hy4-model-weights-with-million-token-context/",
+     "source": "TechNode｜2026-11-20",
+     "tags": [
+      "AI 大模型"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "tech-dev",
+   "title": "AI 工程与开发工具",
+   "shortTitle": "开发工具",
+   "description": "模型部署 · AI 编程 · Agent",
+   "items": [
+    {
+     "rank": "04",
+     "title": "Claude Code 2.1.329：任务与 MCP 服务器可见性增强",
+     "summary": "Claude Code 2.1.329 带来更丰富的任务与 MCP 服务器可见性，扩展 Code Mode 支持，并在会话、内存占用、认证、代码评审与 VS Code 扩展等方面做了大量修复；同时优化了计划任务、电脑使用安全防护与自托管 Runner 行为。",
+     "url": "https://releasebot.io/updates/anthropic/claude",
+     "source": "Anthropic 发布说明（Releasebot 整理）｜2026-11-20",
+     "tags": [
+      "开发工具"
+     ]
+    },
+    {
+     "rank": "05",
+     "title": "OpenSSL 曝 CVE-2026-121481：CVSS 9.8，但 OpenSSL 自评为 Low",
+     "summary": "`EVP_EncodeBlock()` 在输入长度接近 INT_MAX（约 2GB）时整型溢出，可能写出调用方提供的输出缓冲区。CISA 富化数据给出 CVSS 3.1 9.8 分，但 OpenSSL 指出无已知攻击者可达路径、TLS/QUIC/CMS 代码从不编码如此大的缓冲区，按自身政策评为 Low；影响 4.0.0–4.0.3 与 4.1.0，修复版 4.0.4 与 4.1.1 定于 12 月 1 日发布。",
+     "url": "https://www.rapid7.com/db/vulnerabilities/cve-2026-121481/",
+     "source": "OpenSSL CVE 记录 / Rapid7｜2026-11-18",
+     "tags": [
+      "开发工具"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "tech-industry",
+   "title": "科技行业动态",
+   "shortTitle": "行业动态",
+   "description": "公司动态 · 产品发布 · 芯片与云",
+   "items": [
+    {
+     "rank": "06",
+     "title": "Anthropic 上市次日大跌约 9%，纳斯达克抹去 2026 年全部涨幅",
+     "summary": "美股周五重挫，纳斯达克跌 5.28%，抹去 2026 年全部涨幅，自 10 月 6 日历史高点以来市值蒸发约 8.7 万亿美元；标普 500 跌 3.7%，创 2020 年 2 月以来最长七连跌。Anthropic（ANT）上市次日收于 88.91 美元，跌约 8.5%，盘中一度逼近 83 美元的发行价；英伟达、Meta 跌超 3%。",
+     "url": "https://www.cnn.com/2026/11/20/investing/us-stocks-anthropic-ai?cid=external-feeds_iluminar_meta",
+     "source": "CNN｜2026-11-20",
+     "tags": [
+      "行业动态"
+     ]
+    },
+    {
+     "rank": "07",
+     "title": "路透独家：美国 SEC 正在调查英伟达的会计问题",
+     "summary": "两名知情人士称，美国 SEC 执法人员正在审查英伟达潜在的会计问题；调查何时启动、具体审查哪些事项尚不清楚。此前《华尔街日报》周二已报道 SEC 在调查英伟达，但未确认焦点。背景还包括英伟达去年改按客户总部所在地统计地区收入，导致新加坡从地区明细中消失，而同期新加坡销售额据称接近全球收入的一半。",
+     "url": "https://www.reuters.com/world/us-secs-nvidia-probe-is-examining-potential-accounting-issues-sources-say-2026-11-20/",
+     "source": "Reuters｜2026-11-20",
+     "tags": [
+      "行业动态"
+     ]
+    },
+    {
+     "rank": "08",
+     "title": "微软 Ignite：NVIDIA Vera Rubin NVL72 系统落地 Azure，开启预览",
+     "summary": "NVIDIA Vera Rubin NVL72 系统已在 Azure 数据中心运行，相关虚拟机扩大预览范围；同时推进 Vera Rubin 上的机密计算、Microsoft Foundry 的 Nemotron 3.5 模型定制与托管算力，Azure Local 支持 RTX PRO 6000 Blackwell GPU 与 Jetson Thor。微软称其 3 月首家完成 NVL72 验证、8 月交付首批生产系统；但本次未公布虚拟机系",
+     "url": "https://aiagentupdate.com/post/vera-rubin-azure-preview-2026-11-20",
+     "source": "NVIDIA / Microsoft Ignite｜2026-11-19",
+     "tags": [
+      "行业动态"
+     ]
+    },
+    {
+     "rank": "09",
+     "title": "微软发布 Windows Server 2028，进入公开预览",
+     "summary": "Windows Server 2028 在 Ignite 2026 上发布并进入公开预览（Insider build 29706）：Server Core 默认启用数百项硬化安全设置（Kerberos 优先于 NTLM、LSASS 保护、SMB 签名与加密、全配置文件防火墙），新增原生 NVMe 存储、NVMe over TCP/RDMA 与 ReFS 启动支持，支持 Intune 管理服务器，并为企业端侧 AI 推理引入 AMD In",
+     "url": "https://techcommunity.microsoft.com/blog/WindowsServerNewsandBestPractices/windows-server-2028-a-trusted-foundation-for-an-evolving-enterprise/4574112",
+     "source": "Microsoft Tech Community｜2026-11-17",
+     "tags": [
+      "行业动态"
+     ]
+    }
+   ]
   }
  ],
  "_pipelines": {
@@ -362,19 +372,19 @@
    "digest": [
     {
      "title": "速览",
-     "text": "Anthropic 上市首日收涨 17%，完全稀释估值约 1.75 万亿美元，创史上最大 IPO。"
+     "text": "Anthropic 上市次日大跌约 9%，纳斯达克抹去 2026 年全部涨幅，AI 抛售潮加剧。"
     },
     {
-     "title": "速览",
-     "text": "微软 Ignite 一口气发布 7 款 MAI 模型，主打「旗舰性能、零头价格」，正式杀入模型价格战。"
+     "title": "路透独家",
+     "text": "路透独家：美国 SEC 正在调查英伟达的会计问题，调查启动时间与具体事项尚未确定。"
     },
     {
-     "title": "OpenAI 内部报告",
-     "text": "OpenAI 内部报告：编程 Agent 已能独立完成 46% 的 2–4 小时研究任务，但能力分布极不均匀，「锯齿状前沿」仍是现实。"
+     "title": "Thinking Mac",
+     "text": "Thinking Machines 发布 Inkling 2 Mini：26B 参数循环 Transformer 开放权重，约 20GB 可在笔记本上跑。"
     }
    ],
-   "highlight": "Anthropic 上市首日收涨 17%，完全稀释估值约 1.75 万亿美元，创史上最大 IPO。",
-   "date": "2026-11-20"
+   "highlight": "Anthropic 上市次日大跌约 9%，纳斯达克抹去 2026 年全部涨幅，AI 抛售潮加剧。",
+   "date": "2026-11-21"
   }
  },
  "digest": [
@@ -384,10 +394,10 @@
   },
   {
    "title": "速览",
-   "text": "Anthropic 上市首日收涨 17%，完全稀释估值约 1.75 万亿美元，创史上最大 IPO。"
+   "text": "Anthropic 上市次日大跌约 9%，纳斯达克抹去 2026 年全部涨幅，AI 抛售潮加剧。"
   }
  ],
- "intro": "Claude-BugHunter 单日 +1,622 再登日榜第一、总数突破 1.4 万 star，连续多日加速，agent 安全测试方向继续领跑；firecrawl 单日 +1,241 回流、总数突破 20.5 万；app-store-compliance 单日 +869，一天涨了近五成。 Anthropic 上市首日收涨 17%，完全稀释估值约 1.75 万亿美元，创史上最大 IPO。",
+ "intro": "Claude-BugHunter 单日 +1,622 再登日榜第一、总数突破 1.4 万 star，连续多日加速，agent 安全测试方向继续领跑；firecrawl 单日 +1,241 回流、总数突破 20.5 万；app-store-compliance 单日 +869，一天涨了近五成。 Anthropic 上市次日大跌约 9%，纳斯达克抹去 2026 年全部涨幅，AI 抛售潮加剧。",
  "tasks": [
   {
    "icon": "GH",
@@ -404,5 +414,5 @@
  ],
  "date": "2026-11-21",
  "issue": "052",
- "updatedAt": "00:34 更新"
+ "updatedAt": "01:02 更新"
 }
