@@ -1,120 +1,6 @@
 {
  "sections": [
   {
-   "id": "tech-ai",
-   "title": "AI 与大模型",
-   "shortTitle": "AI 大模型",
-   "description": "大模型发布与更新",
-   "items": [
-    {
-     "rank": "01",
-     "title": "Claude Fable 5.2 攻克两个黑洞物理开放问题",
-     "summary": "Claude Fable 5.2 解决了黑洞物理中的两个开放问题：弱耦合下的 Hawking-Page 相变，以及模自举（modular bootstrap）上限 M₁ ≤ c/9.1266，相关证明已用 Lean 形式化验证。",
-     "url": "https://www.anthropic.com/research/claude-black-hole-physics",
-     "source": "Anthropic 研究博客｜2026-11-19",
-     "tags": [
-      "AI 大模型"
-     ]
-    },
-    {
-     "rank": "02",
-     "title": "Thinking Machines 发布 Inkling 2 Mini：26B 参数开放权重模型，可在笔记本上运行",
-     "summary": "Inkling 2 Mini 是循环 Transformer 架构的 MoE 模型，总参数 26.4B、每 token 激活 3.4B，中间 12 层每 token 循环 3 次；权重以 NVFP4 原生训练，整体约 20GB，Apache 2.0 协议，100 万上下文。官方称其在 DeepSWE v1.1（48.2%）等基准上领先所有 100B 以下开放权重模型，首日即支持 SGLang、vLLM、Ollama 等推理框架。",
-     "url": "https://www.testingcatalog.com/thinking-machines-releases-inkling-2-mini-looped-open-model/",
-     "source": "Thinking Machines Lab｜2026-11-20",
-     "tags": [
-      "AI 大模型"
-     ]
-    },
-    {
-     "rank": "03",
-     "title": "腾讯开放 Hy4 权重：770B 参数 MoE、100 万上下文，但改用自定义许可",
-     "summary": "腾讯在 Hy4 发布两周后放出权重：770B 总参数、每 token 激活 49B，原生多模态（文本、图像、视频理解），100 万 token 上下文，提供 vLLM 与 SGLang 部署指南。但权重改用自定义 Tencent Hy License 而非预览期的 Apache 2.0，大规模商业使用需另行书面授权。",
-     "url": "https://technode.com/2026-11-20/tencent-releases-hy4-model-weights-with-million-token-context/",
-     "source": "TechNode｜2026-11-20",
-     "tags": [
-      "AI 大模型"
-     ]
-    }
-   ]
-  },
-  {
-   "id": "tech-dev",
-   "title": "AI 工程与开发工具",
-   "shortTitle": "开发工具",
-   "description": "模型部署 · AI 编程 · Agent",
-   "items": [
-    {
-     "rank": "04",
-     "title": "Claude Code 2.1.329：任务与 MCP 服务器可见性增强",
-     "summary": "Claude Code 2.1.329 带来更丰富的任务与 MCP 服务器可见性，扩展 Code Mode 支持，并在会话、内存占用、认证、代码评审与 VS Code 扩展等方面做了大量修复；同时优化了计划任务、电脑使用安全防护与自托管 Runner 行为。",
-     "url": "https://releasebot.io/updates/anthropic/claude",
-     "source": "Anthropic 发布说明（Releasebot 整理）｜2026-11-20",
-     "tags": [
-      "开发工具"
-     ]
-    },
-    {
-     "rank": "05",
-     "title": "OpenSSL 曝 CVE-2026-121481：CVSS 9.8，但 OpenSSL 自评为 Low",
-     "summary": "`EVP_EncodeBlock()` 在输入长度接近 INT_MAX（约 2GB）时整型溢出，可能写出调用方提供的输出缓冲区。CISA 富化数据给出 CVSS 3.1 9.8 分，但 OpenSSL 指出无已知攻击者可达路径、TLS/QUIC/CMS 代码从不编码如此大的缓冲区，按自身政策评为 Low；影响 4.0.0–4.0.3 与 4.1.0，修复版 4.0.4 与 4.1.1 定于 12 月 1 日发布。",
-     "url": "https://www.rapid7.com/db/vulnerabilities/cve-2026-121481/",
-     "source": "OpenSSL CVE 记录 / Rapid7｜2026-11-18",
-     "tags": [
-      "开发工具"
-     ]
-    }
-   ]
-  },
-  {
-   "id": "tech-industry",
-   "title": "科技行业动态",
-   "shortTitle": "行业动态",
-   "description": "公司动态 · 产品发布 · 芯片与云",
-   "items": [
-    {
-     "rank": "06",
-     "title": "Anthropic 上市次日大跌约 9%，纳斯达克抹去 2026 年全部涨幅",
-     "summary": "美股周五重挫，纳斯达克跌 5.28%，抹去 2026 年全部涨幅，自 10 月 6 日历史高点以来市值蒸发约 8.7 万亿美元；标普 500 跌 3.7%，创 2020 年 2 月以来最长七连跌。Anthropic（ANT）上市次日收于 88.91 美元，跌约 8.5%，盘中一度逼近 83 美元的发行价；英伟达、Meta 跌超 3%。",
-     "url": "https://www.cnn.com/2026/11/20/investing/us-stocks-anthropic-ai?cid=external-feeds_iluminar_meta",
-     "source": "CNN｜2026-11-20",
-     "tags": [
-      "行业动态"
-     ]
-    },
-    {
-     "rank": "07",
-     "title": "路透独家：美国 SEC 正在调查英伟达的会计问题",
-     "summary": "两名知情人士称，美国 SEC 执法人员正在审查英伟达潜在的会计问题；调查何时启动、具体审查哪些事项尚不清楚。此前《华尔街日报》周二已报道 SEC 在调查英伟达，但未确认焦点。背景还包括英伟达去年改按客户总部所在地统计地区收入，导致新加坡从地区明细中消失，而同期新加坡销售额据称接近全球收入的一半。",
-     "url": "https://www.reuters.com/world/us-secs-nvidia-probe-is-examining-potential-accounting-issues-sources-say-2026-11-20/",
-     "source": "Reuters｜2026-11-20",
-     "tags": [
-      "行业动态"
-     ]
-    },
-    {
-     "rank": "08",
-     "title": "微软 Ignite：NVIDIA Vera Rubin NVL72 系统落地 Azure，开启预览",
-     "summary": "NVIDIA Vera Rubin NVL72 系统已在 Azure 数据中心运行，相关虚拟机扩大预览范围；同时推进 Vera Rubin 上的机密计算、Microsoft Foundry 的 Nemotron 3.5 模型定制与托管算力，Azure Local 支持 RTX PRO 6000 Blackwell GPU 与 Jetson Thor。微软称其 3 月首家完成 NVL72 验证、8 月交付首批生产系统；但本次未公布虚拟机系",
-     "url": "https://aiagentupdate.com/post/vera-rubin-azure-preview-2026-11-20",
-     "source": "NVIDIA / Microsoft Ignite｜2026-11-19",
-     "tags": [
-      "行业动态"
-     ]
-    },
-    {
-     "rank": "09",
-     "title": "微软发布 Windows Server 2028，进入公开预览",
-     "summary": "Windows Server 2028 在 Ignite 2026 上发布并进入公开预览（Insider build 29706）：Server Core 默认启用数百项硬化安全设置（Kerberos 优先于 NTLM、LSASS 保护、SMB 签名与加密、全配置文件防火墙），新增原生 NVMe 存储、NVMe over TCP/RDMA 与 ReFS 启动支持，支持 Intune 管理服务器，并为企业端侧 AI 推理引入 AMD In",
-     "url": "https://techcommunity.microsoft.com/blog/WindowsServerNewsandBestPractices/windows-server-2028-a-trusted-foundation-for-an-evolving-enterprise/4574112",
-     "source": "Microsoft Tech Community｜2026-11-17",
-     "tags": [
-      "行业动态"
-     ]
-    }
-   ]
-  },
-  {
    "id": "github-hot",
    "title": "GitHub 今日热门",
    "shortTitle": "GitHub 热榜",
@@ -347,6 +233,100 @@
      ]
     }
    ]
+  },
+  {
+   "id": "tech-ai",
+   "title": "AI 与大模型",
+   "shortTitle": "AI 大模型",
+   "description": "大模型发布与更新",
+   "items": [
+    {
+     "rank": "01",
+     "title": "Cursor 考虑逐步淘汰中国开源权重模型：众议院报告披露地缘风险考量",
+     "summary": "SpaceX 旗下 AI 编程平台 Cursor 向美国众议院国土安全委员会与中国问题特别委员会表示，将「探索逐步淘汰中国开发的开源权重模型，原因是地缘政治风险」。Cursor 的 Composer 2 编程模型基于月之暗面（Moonshot AI）的 Kimi K2.5 构建。报告同时指出，成本、可定制性与接近前沿的性能是美国企业采用中国模型的主因，而美国目前缺乏有竞争力的本土开源替代方案。",
+     "url": "https://aiweekly.co/alerts/cursor-tells-house-it-may-drop-chinese-open-weight-models",
+     "source": "CNBC（经众议院报告）｜2026-11-20",
+     "tags": [
+      "AI 大模型"
+     ]
+    },
+    {
+     "rank": "02",
+     "title": "OpenAI 发布 MedChemBench：GPT-6.2 Astra 药物化学推理达 84.5%",
+     "summary": "OpenAI 发布 MedChemBench，用于衡量大模型的药物化学推理能力。在内部评估的 11 款 GPT 模型中，GPT-6.2 Astra 在 xhigh 推理档位下获得 84.5% 的分数。",
+     "url": "https://kimkj.com/en/ai-board-en/?mod=document&uid=22700",
+     "source": "OpenAI（经 AI Nightly 综合报告）｜2026-11-20",
+     "tags": [
+      "AI 大模型"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "tech-dev",
+   "title": "AI 工程与开发工具",
+   "shortTitle": "开发工具",
+   "description": "模型部署 · AI 编程 · Agent",
+   "items": [
+    {
+     "rank": "03",
+     "title": "Google 推出 Semantic Governance Policies 预览：Agent 工具调用执行前先过审",
+     "summary": "Google 在 Gemini 平台推出 Semantic Governance Policies 预览版。Agent 的每一次工具调用在执行前都会经过两道检查：是否符合用自然语言写成的业务规则，以及是否偏离用户原始意图；不通过的调用会被替换为可配置的拒绝消息，裁决与理由记入 Cloud Logging。策略由法务、合规团队用自然语言编写，无需改代码或重新部署，支持 Gemini、Anthropic 与 OpenAI 兼容 API 的模",
+     "url": "https://letsdatascience.com/news/google-previews-semantic-governance-policies-to-check-ai-age-a9717cfa",
+     "source": "Google Developers Blog｜2026-11-20",
+     "tags": [
+      "开发工具"
+     ]
+    },
+    {
+     "rank": "04",
+     "title": "疑似中国关联攻击者用 Cairn AI Agent 11 分钟挖出 MONAI 零日漏洞",
+     "summary": "Amazon 威胁情报团队披露，疑似与中国有关联的攻击者使用开源自主渗透测试框架 Cairn，仅给 Agent 下达「获取 shell 权限」一条指令，Agent 自主在医疗影像标注软件 MONAI Label 中发现路径遍历零日漏洞，从映射 API 到任意文件写入仅用约 11 分钟，随后植入反向 shell 取得大学服务器 root 权限。该漏洞编号 CVE-2026-133968，CVSS 9.8，影响 MONAI Label 0.",
+     "url": "https://thehackernews.com/2026/11/attackers-ai-agents-found-zero-day-in.html",
+     "source": "Amazon Threat Intelligence｜2026-11-20",
+     "tags": [
+      "开发工具"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "tech-industry",
+   "title": "科技行业动态",
+   "shortTitle": "行业动态",
+   "description": "公司动态 · 产品发布 · 芯片与云",
+   "items": [
+    {
+     "rank": "05",
+     "title": "Signal 默认屏蔽 AI Agent 读屏：称系统级 Agent 已威胁端到端加密承诺",
+     "summary": "Signal 宣布默认开启截图屏蔽，防止操作系统内置的 AI Agent 读取私密聊天：在 iOS 27 上默认屏蔽应用内截图并新增「Block Siri AI」开关，在 Android 上检测到 AI 助手读屏时自动开启屏幕安全保护。Signal 总裁 Meredith Whittaker 称，深度集成进操作系统的 Agent 能力对保密性构成「生存威胁」。Signal 同时承认防护并不完整：无法阻止 Agent 通过文件系统读取本地",
+     "url": "https://thehackernews.com/2026/11/signal-blocks-ai-agents-from-reading.html",
+     "source": "Signal 官方博客｜2026-11-20",
+     "tags": [
+      "行业动态"
+     ]
+    },
+    {
+     "rank": "06",
+     "title": "特朗普威胁对海外数据中心征「重税」，台积电三星暂停部分对华芯片出货",
+     "summary": "美国总统特朗普 11 月 20 日在白宫记者会上表示，将不允许美国公司在海外建数据中心，否则将征收「重税」，理由是海外设施会让中国获得算力优势；但他未给出税率、时间表或实施方式，且承认事先未与幕僚讨论。同一周，美国商务部的新出口管制生效：全球数据中心向中国企业提供大规模先进芯片算力需获得美国许可，台积电与三星已暂停部分对华芯片出货并申请许可；众议院外交事务委员会同时披露，近 88 万颗英伟达与 AMD 的 AI 芯片（含 H200）已获",
+     "url": "https://gulfnews.com/world/americas/trump-threatens-tremendous-tax-on-us-companies-building-data-centres-overseas-1.500755531",
+     "source": "白宫记者会 / 美国商务部｜2026-11-20",
+     "tags": [
+      "行业动态"
+     ]
+    },
+    {
+     "rank": "07",
+     "title": "俄勒冈州起诉 OpenAI 索赔至少 20.35 亿美元，指控 ChatGPT 危害未成年人",
+     "summary": "俄勒冈州总检察长 Dan Rayfield 于 11 月 17 日在 Multnomah 县巡回法院起诉 OpenAI，指控其明知 ChatGPT 对儿童不安全却向家长保证安全，涉嫌设计聊天机器人培养未成年人情感依赖、给出谄媚回答并诱导自残、进食障碍等危险行为，青少年版的年龄验证与家长监督形同虚设。诉状共 56 页，索赔不低于 20.35 亿美元，并要求法院强制整改。这是继加州之后，又一个州政府就 AI 安全问题起诉 OpenAI。",
+     "url": "https://dig.watch/updates/oregon-sues-openai-chatgpt-child-safety-risks",
+     "source": "俄勒冈州司法部｜2026-11-17（11 月 20 日前后媒体集中报道）",
+     "tags": [
+      "行业动态"
+     ]
+    }
+   ]
   }
  ],
  "_pipelines": {
@@ -372,19 +352,19 @@
    "digest": [
     {
      "title": "速览",
-     "text": "Anthropic 上市次日大跌约 9%，纳斯达克抹去 2026 年全部涨幅，AI 抛售潮加剧。"
+     "text": "Cursor 考虑逐步淘汰中国开源权重模型，众议院报告称美国缺乏有竞争力的本土开源替代。"
     },
     {
-     "title": "路透独家",
-     "text": "路透独家：美国 SEC 正在调查英伟达的会计问题，调查启动时间与具体事项尚未确定。"
+     "title": "AI Agent 安全攻",
+     "text": "AI Agent 安全攻防同时升级：攻击方 11 分钟自主挖出医疗影像软件零日，防御方 Google、Signal 同日推出管控措施。"
     },
     {
-     "title": "Thinking Mac",
-     "text": "Thinking Machines 发布 Inkling 2 Mini：26B 参数循环 Transformer 开放权重，约 20GB 可在笔记本上跑。"
+     "title": "速览",
+     "text": "美国新一轮芯片与算力管制落地，特朗普威胁对海外建数据中心征「重税」，台积电、三星暂停部分对华出货。"
     }
    ],
-   "highlight": "Anthropic 上市次日大跌约 9%，纳斯达克抹去 2026 年全部涨幅，AI 抛售潮加剧。",
-   "date": "2026-11-21"
+   "highlight": "Cursor 考虑逐步淘汰中国开源权重模型，众议院报告称美国缺乏有竞争力的本土开源替代。",
+   "date": "2026-11-22"
   }
  },
  "digest": [
@@ -394,10 +374,10 @@
   },
   {
    "title": "速览",
-   "text": "Anthropic 上市次日大跌约 9%，纳斯达克抹去 2026 年全部涨幅，AI 抛售潮加剧。"
+   "text": "Cursor 考虑逐步淘汰中国开源权重模型，众议院报告称美国缺乏有竞争力的本土开源替代。"
   }
  ],
- "intro": "Claude-BugHunter 单日 +1,803 再登日榜第一、总数突破 1.6 万 star，连续四日加速，agent 安全测试方向继续领跑；firecrawl 单日 +1,006 回流、总数突破 20.6 万；app-store-compliance 单日 +720，一天涨了近四分之一。 Anthropic 上市次日大跌约 9%，纳斯达克抹去 2026 年全部涨幅，AI 抛售潮加剧。",
+ "intro": "Claude-BugHunter 单日 +1,803 再登日榜第一、总数突破 1.6 万 star，连续四日加速，agent 安全测试方向继续领跑；firecrawl 单日 +1,006 回流、总数突破 20.6 万；app-store-compliance 单日 +720，一天涨了近四分之一。 Cursor 考虑逐步淘汰中国开源权重模型，众议院报告称美国缺乏有竞争力的本土开源替代。",
  "tasks": [
   {
    "icon": "GH",
@@ -414,5 +394,5 @@
  ],
  "date": "2026-11-22",
  "issue": "053",
- "updatedAt": "00:38 更新"
+ "updatedAt": "01:02 更新"
 }
