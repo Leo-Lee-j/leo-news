@@ -1,0 +1,418 @@
+{
+ "sections": [
+  {
+   "id": "tech-ai",
+   "title": "AI 与大模型",
+   "shortTitle": "AI 大模型",
+   "description": "大模型发布与更新",
+   "items": [
+    {
+     "rank": "01",
+     "title": "Claude Fable 5.2 攻克两个黑洞物理开放问题",
+     "summary": "Claude Fable 5.2 解决了黑洞物理中的两个开放问题：弱耦合下的 Hawking-Page 相变，以及模自举（modular bootstrap）上限 M₁ ≤ c/9.1266，相关证明已用 Lean 形式化验证。",
+     "url": "https://www.anthropic.com/research/claude-black-hole-physics",
+     "source": "Anthropic 研究博客｜2026-11-19",
+     "tags": [
+      "AI 大模型"
+     ]
+    },
+    {
+     "rank": "02",
+     "title": "Thinking Machines 发布 Inkling 2 Mini：26B 参数开放权重模型，可在笔记本上运行",
+     "summary": "Inkling 2 Mini 是循环 Transformer 架构的 MoE 模型，总参数 26.4B、每 token 激活 3.4B，中间 12 层每 token 循环 3 次；权重以 NVFP4 原生训练，整体约 20GB，Apache 2.0 协议，100 万上下文。官方称其在 DeepSWE v1.1（48.2%）等基准上领先所有 100B 以下开放权重模型，首日即支持 SGLang、vLLM、Ollama 等推理框架。",
+     "url": "https://www.testingcatalog.com/thinking-machines-releases-inkling-2-mini-looped-open-model/",
+     "source": "Thinking Machines Lab｜2026-11-20",
+     "tags": [
+      "AI 大模型"
+     ]
+    },
+    {
+     "rank": "03",
+     "title": "腾讯开放 Hy4 权重：770B 参数 MoE、100 万上下文，但改用自定义许可",
+     "summary": "腾讯在 Hy4 发布两周后放出权重：770B 总参数、每 token 激活 49B，原生多模态（文本、图像、视频理解），100 万 token 上下文，提供 vLLM 与 SGLang 部署指南。但权重改用自定义 Tencent Hy License 而非预览期的 Apache 2.0，大规模商业使用需另行书面授权。",
+     "url": "https://technode.com/2026-11-20/tencent-releases-hy4-model-weights-with-million-token-context/",
+     "source": "TechNode｜2026-11-20",
+     "tags": [
+      "AI 大模型"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "tech-dev",
+   "title": "AI 工程与开发工具",
+   "shortTitle": "开发工具",
+   "description": "模型部署 · AI 编程 · Agent",
+   "items": [
+    {
+     "rank": "04",
+     "title": "Claude Code 2.1.329：任务与 MCP 服务器可见性增强",
+     "summary": "Claude Code 2.1.329 带来更丰富的任务与 MCP 服务器可见性，扩展 Code Mode 支持，并在会话、内存占用、认证、代码评审与 VS Code 扩展等方面做了大量修复；同时优化了计划任务、电脑使用安全防护与自托管 Runner 行为。",
+     "url": "https://releasebot.io/updates/anthropic/claude",
+     "source": "Anthropic 发布说明（Releasebot 整理）｜2026-11-20",
+     "tags": [
+      "开发工具"
+     ]
+    },
+    {
+     "rank": "05",
+     "title": "OpenSSL 曝 CVE-2026-121481：CVSS 9.8，但 OpenSSL 自评为 Low",
+     "summary": "`EVP_EncodeBlock()` 在输入长度接近 INT_MAX（约 2GB）时整型溢出，可能写出调用方提供的输出缓冲区。CISA 富化数据给出 CVSS 3.1 9.8 分，但 OpenSSL 指出无已知攻击者可达路径、TLS/QUIC/CMS 代码从不编码如此大的缓冲区，按自身政策评为 Low；影响 4.0.0–4.0.3 与 4.1.0，修复版 4.0.4 与 4.1.1 定于 12 月 1 日发布。",
+     "url": "https://www.rapid7.com/db/vulnerabilities/cve-2026-121481/",
+     "source": "OpenSSL CVE 记录 / Rapid7｜2026-11-18",
+     "tags": [
+      "开发工具"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "tech-industry",
+   "title": "科技行业动态",
+   "shortTitle": "行业动态",
+   "description": "公司动态 · 产品发布 · 芯片与云",
+   "items": [
+    {
+     "rank": "06",
+     "title": "Anthropic 上市次日大跌约 9%，纳斯达克抹去 2026 年全部涨幅",
+     "summary": "美股周五重挫，纳斯达克跌 5.28%，抹去 2026 年全部涨幅，自 10 月 6 日历史高点以来市值蒸发约 8.7 万亿美元；标普 500 跌 3.7%，创 2020 年 2 月以来最长七连跌。Anthropic（ANT）上市次日收于 88.91 美元，跌约 8.5%，盘中一度逼近 83 美元的发行价；英伟达、Meta 跌超 3%。",
+     "url": "https://www.cnn.com/2026/11/20/investing/us-stocks-anthropic-ai?cid=external-feeds_iluminar_meta",
+     "source": "CNN｜2026-11-20",
+     "tags": [
+      "行业动态"
+     ]
+    },
+    {
+     "rank": "07",
+     "title": "路透独家：美国 SEC 正在调查英伟达的会计问题",
+     "summary": "两名知情人士称，美国 SEC 执法人员正在审查英伟达潜在的会计问题；调查何时启动、具体审查哪些事项尚不清楚。此前《华尔街日报》周二已报道 SEC 在调查英伟达，但未确认焦点。背景还包括英伟达去年改按客户总部所在地统计地区收入，导致新加坡从地区明细中消失，而同期新加坡销售额据称接近全球收入的一半。",
+     "url": "https://www.reuters.com/world/us-secs-nvidia-probe-is-examining-potential-accounting-issues-sources-say-2026-11-20/",
+     "source": "Reuters｜2026-11-20",
+     "tags": [
+      "行业动态"
+     ]
+    },
+    {
+     "rank": "08",
+     "title": "微软 Ignite：NVIDIA Vera Rubin NVL72 系统落地 Azure，开启预览",
+     "summary": "NVIDIA Vera Rubin NVL72 系统已在 Azure 数据中心运行，相关虚拟机扩大预览范围；同时推进 Vera Rubin 上的机密计算、Microsoft Foundry 的 Nemotron 3.5 模型定制与托管算力，Azure Local 支持 RTX PRO 6000 Blackwell GPU 与 Jetson Thor。微软称其 3 月首家完成 NVL72 验证、8 月交付首批生产系统；但本次未公布虚拟机系",
+     "url": "https://aiagentupdate.com/post/vera-rubin-azure-preview-2026-11-20",
+     "source": "NVIDIA / Microsoft Ignite｜2026-11-19",
+     "tags": [
+      "行业动态"
+     ]
+    },
+    {
+     "rank": "09",
+     "title": "微软发布 Windows Server 2028，进入公开预览",
+     "summary": "Windows Server 2028 在 Ignite 2026 上发布并进入公开预览（Insider build 29706）：Server Core 默认启用数百项硬化安全设置（Kerberos 优先于 NTLM、LSASS 保护、SMB 签名与加密、全配置文件防火墙），新增原生 NVMe 存储、NVMe over TCP/RDMA 与 ReFS 启动支持，支持 Intune 管理服务器，并为企业端侧 AI 推理引入 AMD In",
+     "url": "https://techcommunity.microsoft.com/blog/WindowsServerNewsandBestPractices/windows-server-2028-a-trusted-foundation-for-an-evolving-enterprise/4574112",
+     "source": "Microsoft Tech Community｜2026-11-17",
+     "tags": [
+      "行业动态"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "github-hot",
+   "title": "GitHub 今日热门",
+   "shortTitle": "GitHub 热榜",
+   "description": "综合热度、活跃度与实用价值排序",
+   "items": [
+    {
+     "rank": "01",
+     "title": "elementalsouls/Claude-BugHunter",
+     "summary": "解决了\"agent 会写代码、却不会找漏洞\"的问题；单日 +1,803 再登日榜第一、总数突破 1.6 万 star，连续四日加速，83 个漏洞挖掘 skill + Burp MCP 集成的红队工具箱；适合做安全测试与漏洞挖掘的开发者与安全研究者，值得在授权范围内装上试一圈。",
+     "url": "https://github.com/elementalsouls/Claude-BugHunter",
+     "tags": [
+      "强烈推荐"
+     ],
+     "featured": true
+    },
+    {
+     "rank": "02",
+     "title": "firecrawl/firecrawl",
+     "summary": "给 agent 用的网页数据基础设施：搜索、抓取、抽取结构化数据，再接 550 多个数据源，让 agent 能读懂整个互联网。 网页搜索、抓取与结构化抽取、550+ 数据源接入、TypeScript 实现、配套云端托管服务。",
+     "url": "https://github.com/firecrawl/firecrawl",
+     "tags": [
+      "值得关注"
+     ]
+    },
+    {
+     "rank": "03",
+     "title": "obra/superpowers",
+     "summary": "给 coding agent 的完整软件开发方法论：一套可组合的 skill 加上初始指令，让 agent 先问清需求、写出可读的规格再动手写代码。 可组合的 skill 集合覆盖开发全流程、先出规格再写代码的工作流、兼容 Claude Code、Codex、Cursor、Copilot、Gemini CLI 等十余种 agent。",
+     "url": "https://github.com/obra/superpowers",
+     "tags": [
+      "强烈推荐"
+     ]
+    },
+    {
+     "rank": "04",
+     "title": "XiaoYouChR/Ghost-Downloader-3",
+     "summary": "\"下载器的集大成者\"：一个开源下载工具，把多类下载场景收进一个客户端里。 多协议与多站点下载支持、Python 实现、桌面客户端。",
+     "url": "https://github.com/XiaoYouChR/Ghost-Downloader-3",
+     "tags": [
+      "了解即可"
+     ]
+    },
+    {
+     "rank": "05",
+     "title": "HKUDS/CLI-Anything",
+     "summary": "港大团队的\"让所有软件都 agent 原生\"：给命令行工具套一层 agent 友好的接口，让 agent 能直接操作原本只服务人类的软件。 把任意 CLI 软件变成 agent 可调用的接口、配套 CLI-Hub、Python 实现、研究型项目。",
+     "url": "https://github.com/HKUDS/CLI-Anything",
+     "tags": [
+      "值得关注"
+     ]
+    },
+    {
+     "rank": "06",
+     "title": "mjmirza/app-store-compliance",
+     "summary": "帮你的 App 一次过审：把 App Store 与 Google Play 的审核规则做成公开 playbook，再配一套自动检查，提前堵住常见被拒原因。 App Store 与 Google Play 审核合规 playbook、上架前自动检查、Shell 实现、配套在线文档站。",
+     "url": "https://github.com/mjmirza/app-store-compliance",
+     "tags": [
+      "值得关注"
+     ]
+    },
+    {
+     "rank": "07",
+     "title": "zhouxiaoka/autoclip",
+     "summary": "开源 AI 视频剪辑桌面工具：贴一个链接，一键把播客、访谈、课程等长视频剪成短视频，顺带生成字幕、封面和发布文案。 长视频自动剪成短视频、自动生成字幕、封面与发布文案、适配抖音、小红书、TikTok、Reels、YouTube Shorts、B 站、本地剪辑与渲染、附带编辑器可手动调整。",
+     "url": "https://github.com/zhouxiaoka/autoclip",
+     "tags": [
+      "值得关注"
+     ]
+    },
+    {
+     "rank": "08",
+     "title": "cathrynlavery/diagram-design",
+     "summary": "让 agent 画\"设计师看了不皱眉\"的图：一个 agent skill，把图表画成单个自包含的 HTML + SVG 文件，按你的品牌风格来。 51 种图表类型、输出单个自包含 HTML + SVG 文件、按品牌风格出图、明确拒绝\"Mermaid 味\"的粗糙默认样式、适配 Claude Code、Codex、Copilot、Cursor 等 agent。",
+     "url": "https://github.com/cathrynlavery/diagram-design",
+     "tags": [
+      "值得关注"
+     ]
+    },
+    {
+     "rank": "09",
+     "title": "toeverything/AFFiNE",
+     "summary": "下一代知识库：把文档、白板、数据库收进一个开源工作区，对标 Notion + Miro 的组合。 文档、白板与数据库一体的工作区、TypeScript 实现、可自托管、支持多人协作。",
+     "url": "https://github.com/toeverything/AFFiNE",
+     "tags": [
+      "值得关注"
+     ]
+    },
+    {
+     "rank": "10",
+     "title": "mvanhorn/last30days-skill",
+     "summary": "跨平台主题调研的 agent skill：让 agent 去 Reddit、X、YouTube、HN、Polymarket 上搜\"人怎么说\"，而不是只读编辑写好的文章。 跨平台调研 skill（Reddit、X、YouTube、HN、Polymarket 等）、按点赞、点踩与真金白银下注给信息打分、v4 流水线、多语言 README。",
+     "url": "https://github.com/mvanhorn/last30days-skill",
+     "tags": [
+      "值得关注"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "github-rising",
+   "title": "Star 增长最快",
+   "shortTitle": "增长最快",
+   "description": "按实际 Star 增量排序",
+   "items": [
+    {
+     "rank": "01",
+     "title": "dream-num/univer",
+     "summary": "较昨日（+7,539）略有回落，总数较昨日 +158、突破 3.1 万 star：agent 办公套件方向的老项目继续领跑周榜。",
+     "url": "https://github.com/dream-num/univer",
+     "stars": "31.1k",
+     "trend": "+7,240",
+     "tags": [
+      "高增长"
+     ]
+    },
+    {
+     "rank": "02",
+     "title": "GoogleChrome/modern-web-guidance-src",
+     "summary": "较昨日（+5,224）回落，总数较昨日 +365：Chrome 官方 skill 让出周榜第一后仍居第二，仓库昨日仍在更新。",
+     "url": "https://github.com/GoogleChrome/modern-web-guidance-src",
+     "stars": "9.9k",
+     "trend": "+4,400",
+     "tags": [
+      "高增长"
+     ]
+    },
+    {
+     "rank": "03",
+     "title": "mvanhorn/last30days-skill",
+     "summary": "较昨日（+3,788）继续加速，总数较昨日 +555、逼近 7.2 万 star：\"让 agent 按真实人气与下注给信息打分\"的调研思路热度未熄。",
+     "url": "https://github.com/mvanhorn/last30days-skill",
+     "stars": "72.0k",
+     "trend": "+4,198",
+     "tags": [
+      "高增长"
+     ]
+    },
+    {
+     "rank": "04",
+     "title": "alibaba/open-code-review",
+     "summary": "较昨日（+4,457）回落，总数较昨日 +331：大厂代码评审能力开源的样本周增维持高位。",
+     "url": "https://github.com/alibaba/open-code-review",
+     "stars": "55.1k",
+     "trend": "+4,032",
+     "tags": [
+      "高增长"
+     ]
+    },
+    {
+     "rank": "05",
+     "title": "meta/astryx",
+     "summary": "较昨日（+4,131）略有回落，总数较昨日 +462，仓库今日仍在更新：Meta 的 agent-ready 设计系统退居周榜第五。",
+     "url": "https://github.com/meta/astryx",
+     "stars": "31.8k",
+     "trend": "+3,967",
+     "tags": [
+      "高增长"
+     ]
+    },
+    {
+     "rank": "06",
+     "title": "ag-ui-protocol/ag-ui",
+     "summary": "较昨日（+3,621）继续加速，总数较昨日 +195：agent 与前端交互的协议层样本继续加速。",
+     "url": "https://github.com/ag-ui-protocol/ag-ui",
+     "stars": "21.0k",
+     "trend": "+3,792",
+     "tags": [
+      "高增长"
+     ]
+    },
+    {
+     "rank": "07",
+     "title": "kajisho5/ffmpeg-skill",
+     "summary": "较昨日（+3,268）继续加速，总数较昨日 +440：本地视频编辑 skill 热度未熄。",
+     "url": "https://github.com/kajisho5/ffmpeg-skill",
+     "stars": "9.3k",
+     "trend": "+3,598",
+     "tags": [
+      "高增长"
+     ]
+    },
+    {
+     "rank": "08",
+     "title": "backnotprop/plannotator",
+     "summary": "较昨日（+3,555）略有回落，总数较昨日 +266，仓库今日仍在更新：\"人在回路\"工作台方向热度未熄。",
+     "url": "https://github.com/backnotprop/plannotator",
+     "stars": "14.2k",
+     "trend": "+3,396",
+     "tags": [
+      "高增长"
+     ]
+    },
+    {
+     "rank": "09",
+     "title": "tradermonty/claude-trading-skills",
+     "summary": "较昨日（+3,471）回落，总数较昨日 +186，仓库今日仍在更新：面向股票投资者的 Claude Code skill 组合热度未熄。",
+     "url": "https://github.com/tradermonty/claude-trading-skills",
+     "stars": "7.6k",
+     "trend": "+3,113",
+     "tags": [
+      "高增长"
+     ]
+    },
+    {
+     "rank": "10",
+     "title": "ChromeDevTools/chrome-devtools-mcp",
+     "summary": "较昨日（+3,306）回落，总数较昨日 +156：Chrome DevTools 的 coding agent 接入点热度未熄。",
+     "url": "https://github.com/ChromeDevTools/chrome-devtools-mcp",
+     "stars": "58.7k",
+     "trend": "+2,795",
+     "tags": [
+      "高增长"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "github-new",
+   "title": "值得关注的新项目",
+   "shortTitle": "新项目",
+   "description": "近期创建、增长迅速的有潜力项目",
+   "items": [
+    {
+     "rank": "01",
+     "title": "erkamyaman/rust-anything",
+     "summary": "把你的应用重写成 Rust，并证明它行为没变：先录下原版应用的行为，再让 agent 一块一块重写，每块都对照录像验过才算数。 录制原版应用的行为作为对照、agent 分块重写 Rust 实现、每块重写都对照录制结果校验、多语言 README（含中文）、Rust 实现。",
+     "url": "https://github.com/erkamyaman/rust-anything",
+     "tags": [
+      "值得关注"
+     ]
+    }
+   ]
+  }
+ ],
+ "_pipelines": {
+  "github": {
+   "digest": [
+    {
+     "title": "速览",
+     "text": "Claude-BugHunter 单日 +1,803 再登日榜第一、总数突破 1.6 万 star，连续四日加速，agent 安全测试方向继续领跑；firecrawl 单日 +1,006 回流、总数突破 20.6 万；app-store-compliance 单日 +720，一天涨了近四分之一。"
+    },
+    {
+     "title": "周榜",
+     "text": "周榜：univer 周增 +7,240 继续登顶并突破 3.1 万 star，Chrome 官方 skill 周增 +4,400 居第二；last30days-skill 周增 +4,198 加速、总数逼近 7.2 万 star。"
+    },
+    {
+     "title": "新面孔",
+     "text": "新面孔：今日新项目搜索未发现未报道过的新面孔；rust-anything 创建 6 天即达 7,417 star，单日净增 782，仍是最新最快的新项目。"
+    }
+   ],
+   "highlight": "Claude-BugHunter 单日 +1,803 再登日榜第一、总数突破 1.6 万 star，连续四日加速，agent 安全测试方向继续领跑；firecrawl 单日 +1,006 回流、总数突破 20.6 万；app-store-compliance 单日 +720，一天涨了近四分之一。",
+   "date": "2026-11-22"
+  },
+  "tech-news": {
+   "digest": [
+    {
+     "title": "速览",
+     "text": "Anthropic 上市次日大跌约 9%，纳斯达克抹去 2026 年全部涨幅，AI 抛售潮加剧。"
+    },
+    {
+     "title": "路透独家",
+     "text": "路透独家：美国 SEC 正在调查英伟达的会计问题，调查启动时间与具体事项尚未确定。"
+    },
+    {
+     "title": "Thinking Mac",
+     "text": "Thinking Machines 发布 Inkling 2 Mini：26B 参数循环 Transformer 开放权重，约 20GB 可在笔记本上跑。"
+    }
+   ],
+   "highlight": "Anthropic 上市次日大跌约 9%，纳斯达克抹去 2026 年全部涨幅，AI 抛售潮加剧。",
+   "date": "2026-11-21"
+  }
+ },
+ "digest": [
+  {
+   "title": "速览",
+   "text": "Claude-BugHunter 单日 +1,803 再登日榜第一、总数突破 1.6 万 star，连续四日加速，agent 安全测试方向继续领跑；firecrawl 单日 +1,006 回流、总数突破 20.6 万；app-store-compliance 单日 +720，一天涨了近四分之一。"
+  },
+  {
+   "title": "速览",
+   "text": "Anthropic 上市次日大跌约 9%，纳斯达克抹去 2026 年全部涨幅，AI 抛售潮加剧。"
+  }
+ ],
+ "intro": "Claude-BugHunter 单日 +1,803 再登日榜第一、总数突破 1.6 万 star，连续四日加速，agent 安全测试方向继续领跑；firecrawl 单日 +1,006 回流、总数突破 20.6 万；app-store-compliance 单日 +720，一天涨了近四分之一。 Anthropic 上市次日大跌约 9%，纳斯达克抹去 2026 年全部涨幅，AI 抛售潮加剧。",
+ "tasks": [
+  {
+   "icon": "GH",
+   "name": "GitHub 开源情报",
+   "detail": "Trending · Star 增速 · 新项目",
+   "time": "08:30"
+  },
+  {
+   "icon": "NW",
+   "name": "科技新闻日报",
+   "detail": "新闻聚合 · 中文简报",
+   "time": "09:00"
+  }
+ ],
+ "date": "2026-11-22",
+ "issue": "053",
+ "updatedAt": "00:38 更新"
+}
