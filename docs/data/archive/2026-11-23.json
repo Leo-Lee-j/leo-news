@@ -1,100 +1,6 @@
 {
  "sections": [
   {
-   "id": "tech-ai",
-   "title": "AI 与大模型",
-   "shortTitle": "AI 大模型",
-   "description": "大模型发布与更新",
-   "items": [
-    {
-     "rank": "01",
-     "title": "Cursor 考虑逐步淘汰中国开源权重模型：众议院报告披露地缘风险考量",
-     "summary": "SpaceX 旗下 AI 编程平台 Cursor 向美国众议院国土安全委员会与中国问题特别委员会表示，将「探索逐步淘汰中国开发的开源权重模型，原因是地缘政治风险」。Cursor 的 Composer 2 编程模型基于月之暗面（Moonshot AI）的 Kimi K2.5 构建。报告同时指出，成本、可定制性与接近前沿的性能是美国企业采用中国模型的主因，而美国目前缺乏有竞争力的本土开源替代方案。",
-     "url": "https://aiweekly.co/alerts/cursor-tells-house-it-may-drop-chinese-open-weight-models",
-     "source": "CNBC（经众议院报告）｜2026-11-20",
-     "tags": [
-      "AI 大模型"
-     ]
-    },
-    {
-     "rank": "02",
-     "title": "OpenAI 发布 MedChemBench：GPT-6.2 Astra 药物化学推理达 84.5%",
-     "summary": "OpenAI 发布 MedChemBench，用于衡量大模型的药物化学推理能力。在内部评估的 11 款 GPT 模型中，GPT-6.2 Astra 在 xhigh 推理档位下获得 84.5% 的分数。",
-     "url": "https://kimkj.com/en/ai-board-en/?mod=document&uid=22700",
-     "source": "OpenAI（经 AI Nightly 综合报告）｜2026-11-20",
-     "tags": [
-      "AI 大模型"
-     ]
-    }
-   ]
-  },
-  {
-   "id": "tech-dev",
-   "title": "AI 工程与开发工具",
-   "shortTitle": "开发工具",
-   "description": "模型部署 · AI 编程 · Agent",
-   "items": [
-    {
-     "rank": "03",
-     "title": "Google 推出 Semantic Governance Policies 预览：Agent 工具调用执行前先过审",
-     "summary": "Google 在 Gemini 平台推出 Semantic Governance Policies 预览版。Agent 的每一次工具调用在执行前都会经过两道检查：是否符合用自然语言写成的业务规则，以及是否偏离用户原始意图；不通过的调用会被替换为可配置的拒绝消息，裁决与理由记入 Cloud Logging。策略由法务、合规团队用自然语言编写，无需改代码或重新部署，支持 Gemini、Anthropic 与 OpenAI 兼容 API 的模",
-     "url": "https://letsdatascience.com/news/google-previews-semantic-governance-policies-to-check-ai-age-a9717cfa",
-     "source": "Google Developers Blog｜2026-11-20",
-     "tags": [
-      "开发工具"
-     ]
-    },
-    {
-     "rank": "04",
-     "title": "疑似中国关联攻击者用 Cairn AI Agent 11 分钟挖出 MONAI 零日漏洞",
-     "summary": "Amazon 威胁情报团队披露，疑似与中国有关联的攻击者使用开源自主渗透测试框架 Cairn，仅给 Agent 下达「获取 shell 权限」一条指令，Agent 自主在医疗影像标注软件 MONAI Label 中发现路径遍历零日漏洞，从映射 API 到任意文件写入仅用约 11 分钟，随后植入反向 shell 取得大学服务器 root 权限。该漏洞编号 CVE-2026-133968，CVSS 9.8，影响 MONAI Label 0.",
-     "url": "https://thehackernews.com/2026/11/attackers-ai-agents-found-zero-day-in.html",
-     "source": "Amazon Threat Intelligence｜2026-11-20",
-     "tags": [
-      "开发工具"
-     ]
-    }
-   ]
-  },
-  {
-   "id": "tech-industry",
-   "title": "科技行业动态",
-   "shortTitle": "行业动态",
-   "description": "公司动态 · 产品发布 · 芯片与云",
-   "items": [
-    {
-     "rank": "05",
-     "title": "Signal 默认屏蔽 AI Agent 读屏：称系统级 Agent 已威胁端到端加密承诺",
-     "summary": "Signal 宣布默认开启截图屏蔽，防止操作系统内置的 AI Agent 读取私密聊天：在 iOS 27 上默认屏蔽应用内截图并新增「Block Siri AI」开关，在 Android 上检测到 AI 助手读屏时自动开启屏幕安全保护。Signal 总裁 Meredith Whittaker 称，深度集成进操作系统的 Agent 能力对保密性构成「生存威胁」。Signal 同时承认防护并不完整：无法阻止 Agent 通过文件系统读取本地",
-     "url": "https://thehackernews.com/2026/11/signal-blocks-ai-agents-from-reading.html",
-     "source": "Signal 官方博客｜2026-11-20",
-     "tags": [
-      "行业动态"
-     ]
-    },
-    {
-     "rank": "06",
-     "title": "特朗普威胁对海外数据中心征「重税」，台积电三星暂停部分对华芯片出货",
-     "summary": "美国总统特朗普 11 月 20 日在白宫记者会上表示，将不允许美国公司在海外建数据中心，否则将征收「重税」，理由是海外设施会让中国获得算力优势；但他未给出税率、时间表或实施方式，且承认事先未与幕僚讨论。同一周，美国商务部的新出口管制生效：全球数据中心向中国企业提供大规模先进芯片算力需获得美国许可，台积电与三星已暂停部分对华芯片出货并申请许可；众议院外交事务委员会同时披露，近 88 万颗英伟达与 AMD 的 AI 芯片（含 H200）已获",
-     "url": "https://gulfnews.com/world/americas/trump-threatens-tremendous-tax-on-us-companies-building-data-centres-overseas-1.500755531",
-     "source": "白宫记者会 / 美国商务部｜2026-11-20",
-     "tags": [
-      "行业动态"
-     ]
-    },
-    {
-     "rank": "07",
-     "title": "俄勒冈州起诉 OpenAI 索赔至少 20.35 亿美元，指控 ChatGPT 危害未成年人",
-     "summary": "俄勒冈州总检察长 Dan Rayfield 于 11 月 17 日在 Multnomah 县巡回法院起诉 OpenAI，指控其明知 ChatGPT 对儿童不安全却向家长保证安全，涉嫌设计聊天机器人培养未成年人情感依赖、给出谄媚回答并诱导自残、进食障碍等危险行为，青少年版的年龄验证与家长监督形同虚设。诉状共 56 页，索赔不低于 20.35 亿美元，并要求法院强制整改。这是继加州之后，又一个州政府就 AI 安全问题起诉 OpenAI。",
-     "url": "https://dig.watch/updates/oregon-sues-openai-chatgpt-child-safety-risks",
-     "source": "俄勒冈州司法部｜2026-11-17（11 月 20 日前后媒体集中报道）",
-     "tags": [
-      "行业动态"
-     ]
-    }
-   ]
-  },
-  {
    "id": "github-hot",
    "title": "GitHub 今日热门",
    "shortTitle": "GitHub 热榜",
@@ -327,6 +233,80 @@
      ]
     }
    ]
+  },
+  {
+   "id": "tech-ai",
+   "title": "AI 与大模型",
+   "shortTitle": "AI 大模型",
+   "description": "大模型发布与更新",
+   "items": [
+    {
+     "rank": "01",
+     "title": "Claude 辅助的黎曼猜想证明通过 Lean 机器认证，同行评议尚未开始",
+     "summary": "Anthropic 数学家 Levent Alpöge 于 11 月 20 日宣布，在 Claude 协助下发现了黎曼猜想的证明，并发布了约 1740 万行 Lean 形式化代码；同一天，斯坦福的 Alessandro Masullo 也由 Ravi Vakil 代为公布了一份纯人工的广义黎曼猜想证明草稿。11 月 21 日，Lean 与 Mathlib 社区发表联合声明，认证 Alpöge 的形式化陈述与证明均正确——175,187 ",
+     "url": "https://www.nature.com/articles/d41586-026-03812-7?error=cookies_not_supported&code=21b1099d-2877-4ebd-9c58-31abcf15e1d7",
+     "source": "Nature｜2026-11-21",
+     "tags": [
+      "AI 大模型"
+     ]
+    },
+    {
+     "rank": "02",
+     "title": "OpenAI 首席科学家公开预训练困惑度曲线，呼吁以困惑度为行业共同标尺设限",
+     "summary": "首席科学家 Jakub Pachocki 在《Perplexity and Intelligence》一文中首次公开 OpenAI 内部预训练曲线：在自家代码库留出集上，GPT-3.5 的对数困惑度约 0.99，GPT-4 约 0.91，最新模型已低于 0.8；困惑度约 0.76 的模型开始连续攻克未解数学难题。他提议各前沿实验室以困惑度（或等价的交叉熵损失）为共同标尺，约定在监测能力（如 CoT 监控的继任技术）达标前不越过共同上限，",
+     "url": "https://openai.com/index/perplexity-and-intelligence/",
+     "source": "OpenAI 官方博客｜2026-11-22",
+     "tags": [
+      "AI 大模型"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "tech-dev",
+   "title": "AI 工程与开发工具",
+   "shortTitle": "开发工具",
+   "description": "模型部署 · AI 编程 · Agent",
+   "items": [
+    {
+     "rank": "03",
+     "title": "OpenRouter 下架 3 家推理服务商：Dragos 金丝雀研究揭露提示词被盗",
+     "summary": "安全公司 Dragos 在 7 月至 11 月间向各 AI 服务发送了约 200 万条植入金丝雀凭证（虚假 AWS 密钥、专属 URL）的提示词，发现至少 3 家推理服务商的数据遭攻击者窃取，最早入侵可追溯至 7 月中旬，且被入侵方在研究者告知前毫不知情；另有多家推理市场转售商利用常规日志功能留存客户提示词。11 月 22 日，OpenRouter 下架 3 家服务商，并把 125 个端点移出零数据留存（ZDR）白名单；Together",
+     "url": "https://thehackernews.com/2026/11/openrouter-drops-3-providers-after.html",
+     "source": "The Hacker News / Dragos｜2026-11-22",
+     "tags": [
+      "开发工具"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "tech-industry",
+   "title": "科技行业动态",
+   "shortTitle": "行业动态",
+   "description": "公司动态 · 产品发布 · 芯片与云",
+   "items": [
+    {
+     "rank": "04",
+     "title": "NVIDIA 在 SC26 发布 Rubin HPC：单卡超 5 万 CUDA 核心，2028 年部署",
+     "summary": "NVIDIA 在芝加哥超算大会 SC26 上发布 Rubin HPC 加速器，单卡 CUDA 核心超 5 万个，约为 RTX 5090（21,760 个）的近 3 倍，定位科学模拟与数据分析而非游戏，预计 2028 年进入部署的 HPC 系统。同场还发布了面向科研的 Nemotron for Science 模型套件、Vera CPU 机架系统（192 颗 CPU、约 300TB 内存），以及与 IBM、费米实验室合作的 AI 量子纠错",
+     "url": "https://techradarnews.com/article/nvidia-introduces-rubin-gpu-featuring-over-50-000-cuda-cores-aiming-for-2028-hpc-deployment",
+     "source": "TechRadar｜2026-11-22",
+     "tags": [
+      "行业动态"
+     ]
+    },
+    {
+     "rank": "05",
+     "title": "Gemini 历史与训练开关分离，本周末起陆续推送",
+     "summary": "Google 把 Gemini 应用中原来捆绑的「Keep Activity」拆成两个独立开关：「历史」控制对话保存时长，「训练」单独控制聊天内容是否用于训练生成式 AI 模型。用户从此可以保留对话记录，同时拒绝被用于训练；但关闭历史后，对话仍会保留约两个月（此前为 72 小时），Google 称仅用于安全目的、不用于训练。",
+     "url": "https://blog.google/innovation-and-ai/products/gemini-app/updated-controls/",
+     "source": "Google 官方博客｜2026-11-16 宣布，本周末开始推送",
+     "tags": [
+      "行业动态"
+     ]
+    }
+   ]
   }
  ],
  "_pipelines": {
@@ -352,19 +332,19 @@
    "digest": [
     {
      "title": "速览",
-     "text": "Cursor 考虑逐步淘汰中国开源权重模型，众议院报告称美国缺乏有竞争力的本土开源替代。"
-    },
-    {
-     "title": "AI Agent 安全攻",
-     "text": "AI Agent 安全攻防同时升级：攻击方 11 分钟自主挖出医疗影像软件零日，防御方 Google、Signal 同日推出管控措施。"
+     "text": "Claude 辅助的黎曼猜想证明通过 Lean 社区机器认证，但数学界尚未理解论证、同行评议还未开始。"
     },
     {
      "title": "速览",
-     "text": "美国新一轮芯片与算力管制落地，特朗普威胁对海外建数据中心征「重税」，台积电、三星暂停部分对华出货。"
+     "text": "OpenAI 首席科学家 Pachocki 公开内部预训练困惑度曲线，提议以困惑度为共同标尺、为前沿训练设限。"
+    },
+    {
+     "title": "速览",
+     "text": "NVIDIA 在 SC26 发布 Rubin HPC，单卡超 5 万 CUDA 核心，面向 2028 年部署；OpenRouter 因金丝雀研究下架 3 家推理服务商。"
     }
    ],
-   "highlight": "Cursor 考虑逐步淘汰中国开源权重模型，众议院报告称美国缺乏有竞争力的本土开源替代。",
-   "date": "2026-11-22"
+   "highlight": "Claude 辅助的黎曼猜想证明通过 Lean 社区机器认证，但数学界尚未理解论证、同行评议还未开始。",
+   "date": "2026-11-23"
   }
  },
  "digest": [
@@ -374,10 +354,10 @@
   },
   {
    "title": "速览",
-   "text": "Cursor 考虑逐步淘汰中国开源权重模型，众议院报告称美国缺乏有竞争力的本土开源替代。"
+   "text": "Claude 辅助的黎曼猜想证明通过 Lean 社区机器认证，但数学界尚未理解论证、同行评议还未开始。"
   }
  ],
- "intro": "Claude-BugHunter 单日 +1,716 再登日榜第一、总数突破 1.7 万 star，连续五日加速，agent 安全测试方向继续领跑；firecrawl 单日 +915 回流、总数突破 20.7 万；app-store-compliance 单日 +621，一周内从两千多涨到近四千 star。 Cursor 考虑逐步淘汰中国开源权重模型，众议院报告称美国缺乏有竞争力的本土开源替代。",
+ "intro": "Claude-BugHunter 单日 +1,716 再登日榜第一、总数突破 1.7 万 star，连续五日加速，agent 安全测试方向继续领跑；firecrawl 单日 +915 回流、总数突破 20.7 万；app-store-compliance 单日 +621，一周内从两千多涨到近四千 star。 Claude 辅助的黎曼猜想证明通过 Lean 社区机器认证，但数学界尚未理解论证、同行评议还未开始。",
  "tasks": [
   {
    "icon": "GH",
@@ -394,5 +374,5 @@
  ],
  "date": "2026-11-23",
  "issue": "054",
- "updatedAt": "00:32 更新"
+ "updatedAt": "01:01 更新"
 }
