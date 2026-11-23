@@ -1,0 +1,398 @@
+{
+ "sections": [
+  {
+   "id": "tech-ai",
+   "title": "AI 与大模型",
+   "shortTitle": "AI 大模型",
+   "description": "大模型发布与更新",
+   "items": [
+    {
+     "rank": "01",
+     "title": "Cursor 考虑逐步淘汰中国开源权重模型：众议院报告披露地缘风险考量",
+     "summary": "SpaceX 旗下 AI 编程平台 Cursor 向美国众议院国土安全委员会与中国问题特别委员会表示，将「探索逐步淘汰中国开发的开源权重模型，原因是地缘政治风险」。Cursor 的 Composer 2 编程模型基于月之暗面（Moonshot AI）的 Kimi K2.5 构建。报告同时指出，成本、可定制性与接近前沿的性能是美国企业采用中国模型的主因，而美国目前缺乏有竞争力的本土开源替代方案。",
+     "url": "https://aiweekly.co/alerts/cursor-tells-house-it-may-drop-chinese-open-weight-models",
+     "source": "CNBC（经众议院报告）｜2026-11-20",
+     "tags": [
+      "AI 大模型"
+     ]
+    },
+    {
+     "rank": "02",
+     "title": "OpenAI 发布 MedChemBench：GPT-6.2 Astra 药物化学推理达 84.5%",
+     "summary": "OpenAI 发布 MedChemBench，用于衡量大模型的药物化学推理能力。在内部评估的 11 款 GPT 模型中，GPT-6.2 Astra 在 xhigh 推理档位下获得 84.5% 的分数。",
+     "url": "https://kimkj.com/en/ai-board-en/?mod=document&uid=22700",
+     "source": "OpenAI（经 AI Nightly 综合报告）｜2026-11-20",
+     "tags": [
+      "AI 大模型"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "tech-dev",
+   "title": "AI 工程与开发工具",
+   "shortTitle": "开发工具",
+   "description": "模型部署 · AI 编程 · Agent",
+   "items": [
+    {
+     "rank": "03",
+     "title": "Google 推出 Semantic Governance Policies 预览：Agent 工具调用执行前先过审",
+     "summary": "Google 在 Gemini 平台推出 Semantic Governance Policies 预览版。Agent 的每一次工具调用在执行前都会经过两道检查：是否符合用自然语言写成的业务规则，以及是否偏离用户原始意图；不通过的调用会被替换为可配置的拒绝消息，裁决与理由记入 Cloud Logging。策略由法务、合规团队用自然语言编写，无需改代码或重新部署，支持 Gemini、Anthropic 与 OpenAI 兼容 API 的模",
+     "url": "https://letsdatascience.com/news/google-previews-semantic-governance-policies-to-check-ai-age-a9717cfa",
+     "source": "Google Developers Blog｜2026-11-20",
+     "tags": [
+      "开发工具"
+     ]
+    },
+    {
+     "rank": "04",
+     "title": "疑似中国关联攻击者用 Cairn AI Agent 11 分钟挖出 MONAI 零日漏洞",
+     "summary": "Amazon 威胁情报团队披露，疑似与中国有关联的攻击者使用开源自主渗透测试框架 Cairn，仅给 Agent 下达「获取 shell 权限」一条指令，Agent 自主在医疗影像标注软件 MONAI Label 中发现路径遍历零日漏洞，从映射 API 到任意文件写入仅用约 11 分钟，随后植入反向 shell 取得大学服务器 root 权限。该漏洞编号 CVE-2026-133968，CVSS 9.8，影响 MONAI Label 0.",
+     "url": "https://thehackernews.com/2026/11/attackers-ai-agents-found-zero-day-in.html",
+     "source": "Amazon Threat Intelligence｜2026-11-20",
+     "tags": [
+      "开发工具"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "tech-industry",
+   "title": "科技行业动态",
+   "shortTitle": "行业动态",
+   "description": "公司动态 · 产品发布 · 芯片与云",
+   "items": [
+    {
+     "rank": "05",
+     "title": "Signal 默认屏蔽 AI Agent 读屏：称系统级 Agent 已威胁端到端加密承诺",
+     "summary": "Signal 宣布默认开启截图屏蔽，防止操作系统内置的 AI Agent 读取私密聊天：在 iOS 27 上默认屏蔽应用内截图并新增「Block Siri AI」开关，在 Android 上检测到 AI 助手读屏时自动开启屏幕安全保护。Signal 总裁 Meredith Whittaker 称，深度集成进操作系统的 Agent 能力对保密性构成「生存威胁」。Signal 同时承认防护并不完整：无法阻止 Agent 通过文件系统读取本地",
+     "url": "https://thehackernews.com/2026/11/signal-blocks-ai-agents-from-reading.html",
+     "source": "Signal 官方博客｜2026-11-20",
+     "tags": [
+      "行业动态"
+     ]
+    },
+    {
+     "rank": "06",
+     "title": "特朗普威胁对海外数据中心征「重税」，台积电三星暂停部分对华芯片出货",
+     "summary": "美国总统特朗普 11 月 20 日在白宫记者会上表示，将不允许美国公司在海外建数据中心，否则将征收「重税」，理由是海外设施会让中国获得算力优势；但他未给出税率、时间表或实施方式，且承认事先未与幕僚讨论。同一周，美国商务部的新出口管制生效：全球数据中心向中国企业提供大规模先进芯片算力需获得美国许可，台积电与三星已暂停部分对华芯片出货并申请许可；众议院外交事务委员会同时披露，近 88 万颗英伟达与 AMD 的 AI 芯片（含 H200）已获",
+     "url": "https://gulfnews.com/world/americas/trump-threatens-tremendous-tax-on-us-companies-building-data-centres-overseas-1.500755531",
+     "source": "白宫记者会 / 美国商务部｜2026-11-20",
+     "tags": [
+      "行业动态"
+     ]
+    },
+    {
+     "rank": "07",
+     "title": "俄勒冈州起诉 OpenAI 索赔至少 20.35 亿美元，指控 ChatGPT 危害未成年人",
+     "summary": "俄勒冈州总检察长 Dan Rayfield 于 11 月 17 日在 Multnomah 县巡回法院起诉 OpenAI，指控其明知 ChatGPT 对儿童不安全却向家长保证安全，涉嫌设计聊天机器人培养未成年人情感依赖、给出谄媚回答并诱导自残、进食障碍等危险行为，青少年版的年龄验证与家长监督形同虚设。诉状共 56 页，索赔不低于 20.35 亿美元，并要求法院强制整改。这是继加州之后，又一个州政府就 AI 安全问题起诉 OpenAI。",
+     "url": "https://dig.watch/updates/oregon-sues-openai-chatgpt-child-safety-risks",
+     "source": "俄勒冈州司法部｜2026-11-17（11 月 20 日前后媒体集中报道）",
+     "tags": [
+      "行业动态"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "github-hot",
+   "title": "GitHub 今日热门",
+   "shortTitle": "GitHub 热榜",
+   "description": "综合热度、活跃度与实用价值排序",
+   "items": [
+    {
+     "rank": "01",
+     "title": "elementalsouls/Claude-BugHunter",
+     "summary": "解决了\"agent 会写代码、却不会找漏洞\"的问题；单日 +1,716 再登日榜第一、总数突破 1.7 万 star，连续五日加速，83 个漏洞挖掘 skill + Burp MCP 集成的红队工具箱；适合做安全测试与漏洞挖掘的开发者与安全研究者，值得在授权范围内装上试一圈。",
+     "url": "https://github.com/elementalsouls/Claude-BugHunter",
+     "tags": [
+      "强烈推荐"
+     ],
+     "featured": true
+    },
+    {
+     "rank": "02",
+     "title": "firecrawl/firecrawl",
+     "summary": "给 agent 用的网页数据基础设施：搜索、抓取、抽取结构化数据，再接 550 多个数据源，让 agent 能读懂整个互联网。 网页搜索、抓取与结构化抽取、550+ 数据源接入、TypeScript 实现、配套云端托管服务。",
+     "url": "https://github.com/firecrawl/firecrawl",
+     "tags": [
+      "值得关注"
+     ]
+    },
+    {
+     "rank": "03",
+     "title": "obra/superpowers",
+     "summary": "给 coding agent 的完整软件开发方法论：一套可组合的 skill 加上初始指令，让 agent 先问清需求、写出可读的规格再动手写代码。 可组合的 skill 集合覆盖开发全流程、先出规格再写代码的工作流、兼容 Claude Code、Codex、Cursor、Copilot、Gemini CLI 等十余种 agent。",
+     "url": "https://github.com/obra/superpowers",
+     "tags": [
+      "强烈推荐"
+     ]
+    },
+    {
+     "rank": "04",
+     "title": "XiaoYouChR/Ghost-Downloader-3",
+     "summary": "\"下载器的集大成者\"：一个开源下载工具，把多类下载场景收进一个客户端里。 多协议与多站点下载支持、Python 实现、桌面客户端。",
+     "url": "https://github.com/XiaoYouChR/Ghost-Downloader-3",
+     "tags": [
+      "了解即可"
+     ]
+    },
+    {
+     "rank": "05",
+     "title": "HKUDS/CLI-Anything",
+     "summary": "港大团队的\"让所有软件都 agent 原生\"：给命令行工具套一层 agent 友好的接口，让 agent 能直接操作原本只服务人类的软件。 把任意 CLI 软件变成 agent 可调用的接口、配套 CLI-Hub、Python 实现、研究型项目。",
+     "url": "https://github.com/HKUDS/CLI-Anything",
+     "tags": [
+      "值得关注"
+     ]
+    },
+    {
+     "rank": "06",
+     "title": "mvanhorn/last30days-skill",
+     "summary": "跨平台主题调研的 agent skill：让 agent 去 Reddit、X、YouTube、HN、Polymarket 上搜\"人怎么说\"，而不是只读编辑写好的文章。 跨平台调研 skill（Reddit、X、YouTube、HN、Polymarket 等）、按点赞、点踩与真金白银下注给信息打分、v4 流水线、多语言 README。",
+     "url": "https://github.com/mvanhorn/last30days-skill",
+     "tags": [
+      "值得关注"
+     ]
+    },
+    {
+     "rank": "07",
+     "title": "zhouxiaoka/autoclip",
+     "summary": "开源 AI 视频剪辑桌面工具：贴一个链接，一键把播客、访谈、课程等长视频剪成短视频，顺带生成字幕、封面和发布文案。 长视频自动剪成短视频、自动生成字幕、封面与发布文案、适配抖音、小红书、TikTok、Reels、YouTube Shorts、B 站、本地剪辑与渲染、附带编辑器可手动调整。",
+     "url": "https://github.com/zhouxiaoka/autoclip",
+     "tags": [
+      "值得关注"
+     ]
+    },
+    {
+     "rank": "08",
+     "title": "mjmirza/app-store-compliance",
+     "summary": "帮你的 App 一次过审：把 App Store 与 Google Play 的审核规则做成公开 playbook，再配一套自动检查，提前堵住常见被拒原因。 App Store 与 Google Play 审核合规 playbook、上架前自动检查、Shell 实现、配套在线文档站。",
+     "url": "https://github.com/mjmirza/app-store-compliance",
+     "tags": [
+      "值得关注"
+     ]
+    },
+    {
+     "rank": "09",
+     "title": "toeverything/AFFiNE",
+     "summary": "下一代知识库：把文档、白板、数据库收进一个开源工作区，对标 Notion + Miro 的组合。 文档、白板与数据库一体的工作区、TypeScript 实现、可自托管、支持多人协作。",
+     "url": "https://github.com/toeverything/AFFiNE",
+     "tags": [
+      "值得关注"
+     ]
+    },
+    {
+     "rank": "10",
+     "title": "cathrynlavery/diagram-design",
+     "summary": "让 agent 画\"设计师看了不皱眉\"的图：一个 agent skill，把图表画成单个自包含的 HTML + SVG 文件，按你的品牌风格来。 51 种图表类型、输出单个自包含 HTML + SVG 文件、按品牌风格出图、明确拒绝\"Mermaid 味\"的粗糙默认样式、适配 Claude Code、Codex、Copilot、Cursor 等 agent。",
+     "url": "https://github.com/cathrynlavery/diagram-design",
+     "tags": [
+      "值得关注"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "github-rising",
+   "title": "Star 增长最快",
+   "shortTitle": "增长最快",
+   "description": "按实际 Star 增量排序",
+   "items": [
+    {
+     "rank": "01",
+     "title": "dream-num/univer",
+     "summary": "较昨日（+7,240）回落，总数较昨日 +163、突破 3.1 万 star：agent 办公套件方向的老项目继续领跑周榜。",
+     "url": "https://github.com/dream-num/univer",
+     "stars": "31.3k",
+     "trend": "+6,436",
+     "tags": [
+      "高增长"
+     ]
+    },
+    {
+     "rank": "02",
+     "title": "mvanhorn/last30days-skill",
+     "summary": "较昨日（+4,198）继续加速，总数较昨日 +706、逼近 7.3 万 star：\"让 agent 按真实人气与下注给信息打分\"的调研思路热度未熄。",
+     "url": "https://github.com/mvanhorn/last30days-skill",
+     "stars": "72.7k",
+     "trend": "+4,731",
+     "tags": [
+      "高增长"
+     ]
+    },
+    {
+     "rank": "03",
+     "title": "kajisho5/ffmpeg-skill",
+     "summary": "较昨日（+3,598）继续加速，总数较昨日 +432，仓库今日仍在更新：本地视频编辑 skill 热度未熄。",
+     "url": "https://github.com/kajisho5/ffmpeg-skill",
+     "stars": "9.7k",
+     "trend": "+3,748",
+     "tags": [
+      "高增长"
+     ]
+    },
+    {
+     "rank": "04",
+     "title": "alibaba/open-code-review",
+     "summary": "较昨日（+4,032）回落，总数较昨日 +306：大厂代码评审能力开源的样本周增维持高位。",
+     "url": "https://github.com/alibaba/open-code-review",
+     "stars": "55.4k",
+     "trend": "+3,700",
+     "tags": [
+      "高增长"
+     ]
+    },
+    {
+     "rank": "05",
+     "title": "meta/astryx",
+     "summary": "较昨日（+3,967）略有回落，总数较昨日 +413，仓库今日仍在更新：Meta 的 agent-ready 设计系统退居周榜第五。",
+     "url": "https://github.com/meta/astryx",
+     "stars": "32.2k",
+     "trend": "+3,626",
+     "tags": [
+      "高增长"
+     ]
+    },
+    {
+     "rank": "06",
+     "title": "ag-ui-protocol/ag-ui",
+     "summary": "较昨日（+3,792）略有回落，总数较昨日 +177：agent 与前端交互的协议层样本热度未熄。",
+     "url": "https://github.com/ag-ui-protocol/ag-ui",
+     "stars": "21.2k",
+     "trend": "+3,620",
+     "tags": [
+      "高增长"
+     ]
+    },
+    {
+     "rank": "07",
+     "title": "GoogleChrome/modern-web-guidance-src",
+     "summary": "较昨日（+4,400）回落，总数较昨日 +312：Chrome 官方 skill 退居周榜第七，仓库昨日仍在更新。",
+     "url": "https://github.com/GoogleChrome/modern-web-guidance-src",
+     "stars": "10.2k",
+     "trend": "+3,575",
+     "tags": [
+      "高增长"
+     ]
+    },
+    {
+     "rank": "08",
+     "title": "backnotprop/plannotator",
+     "summary": "较昨日（+3,396）回落，总数较昨日 +263，仓库今日仍在更新：\"人在回路\"工作台方向热度未熄。",
+     "url": "https://github.com/backnotprop/plannotator",
+     "stars": "14.4k",
+     "trend": "+2,815",
+     "tags": [
+      "高增长"
+     ]
+    },
+    {
+     "rank": "09",
+     "title": "google-labs-code/stitch-skills",
+     "summary": "较昨日（+2,431）继续加速，总数较昨日 +488：Stitch MCP 的 agent skill 库热度未熄。",
+     "url": "https://github.com/google-labs-code/stitch-skills",
+     "stars": "11.9k",
+     "trend": "+2,683",
+     "tags": [
+      "高增长"
+     ]
+    },
+    {
+     "rank": "10",
+     "title": "tradermonty/claude-trading-skills",
+     "summary": "较昨日（+3,113）回落，总数较昨日 +167，仓库今日仍在更新：面向股票投资者的 Claude Code skill 组合热度未熄。",
+     "url": "https://github.com/tradermonty/claude-trading-skills",
+     "stars": "7.8k",
+     "trend": "+2,616",
+     "tags": [
+      "高增长"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "github-new",
+   "title": "值得关注的新项目",
+   "shortTitle": "新项目",
+   "description": "近期创建、增长迅速的有潜力项目",
+   "items": [
+    {
+     "rank": "01",
+     "title": "erkamyaman/rust-anything",
+     "summary": "把你的应用重写成 Rust，并证明它行为没变：先录下原版应用的行为，再让 agent 一块一块重写，每块都对照录像验过才算数。 录制原版应用的行为作为对照、agent 分块重写 Rust 实现、每块重写都对照录制结果校验、多语言 README（含中文）、Rust 实现。",
+     "url": "https://github.com/erkamyaman/rust-anything",
+     "tags": [
+      "值得关注"
+     ]
+    }
+   ]
+  }
+ ],
+ "_pipelines": {
+  "github": {
+   "digest": [
+    {
+     "title": "速览",
+     "text": "Claude-BugHunter 单日 +1,716 再登日榜第一、总数突破 1.7 万 star，连续五日加速，agent 安全测试方向继续领跑；firecrawl 单日 +915 回流、总数突破 20.7 万；app-store-compliance 单日 +621，一周内从两千多涨到近四千 star。"
+    },
+    {
+     "title": "周榜",
+     "text": "周榜：univer 周增 +6,436 继续登顶并突破 3.1 万 star，last30days-skill 周增 +4,731 加速升至第二、总数逼近 7.3 万 star；ffmpeg-skill 周增 +3,748 继续加速。"
+    },
+    {
+     "title": "新面孔",
+     "text": "新面孔：GTA VI 重编译项目 Leonida 创建 3 天即达 14,948 star，是今日最快的新项目（属游戏重编译方向，仅作观察记录）；rust-anything 创建 7 天即达 7,991 star，仍是最新最快的新项目。"
+    }
+   ],
+   "highlight": "Claude-BugHunter 单日 +1,716 再登日榜第一、总数突破 1.7 万 star，连续五日加速，agent 安全测试方向继续领跑；firecrawl 单日 +915 回流、总数突破 20.7 万；app-store-compliance 单日 +621，一周内从两千多涨到近四千 star。",
+   "date": "2026-11-23"
+  },
+  "tech-news": {
+   "digest": [
+    {
+     "title": "速览",
+     "text": "Cursor 考虑逐步淘汰中国开源权重模型，众议院报告称美国缺乏有竞争力的本土开源替代。"
+    },
+    {
+     "title": "AI Agent 安全攻",
+     "text": "AI Agent 安全攻防同时升级：攻击方 11 分钟自主挖出医疗影像软件零日，防御方 Google、Signal 同日推出管控措施。"
+    },
+    {
+     "title": "速览",
+     "text": "美国新一轮芯片与算力管制落地，特朗普威胁对海外建数据中心征「重税」，台积电、三星暂停部分对华出货。"
+    }
+   ],
+   "highlight": "Cursor 考虑逐步淘汰中国开源权重模型，众议院报告称美国缺乏有竞争力的本土开源替代。",
+   "date": "2026-11-22"
+  }
+ },
+ "digest": [
+  {
+   "title": "速览",
+   "text": "Claude-BugHunter 单日 +1,716 再登日榜第一、总数突破 1.7 万 star，连续五日加速，agent 安全测试方向继续领跑；firecrawl 单日 +915 回流、总数突破 20.7 万；app-store-compliance 单日 +621，一周内从两千多涨到近四千 star。"
+  },
+  {
+   "title": "速览",
+   "text": "Cursor 考虑逐步淘汰中国开源权重模型，众议院报告称美国缺乏有竞争力的本土开源替代。"
+  }
+ ],
+ "intro": "Claude-BugHunter 单日 +1,716 再登日榜第一、总数突破 1.7 万 star，连续五日加速，agent 安全测试方向继续领跑；firecrawl 单日 +915 回流、总数突破 20.7 万；app-store-compliance 单日 +621，一周内从两千多涨到近四千 star。 Cursor 考虑逐步淘汰中国开源权重模型，众议院报告称美国缺乏有竞争力的本土开源替代。",
+ "tasks": [
+  {
+   "icon": "GH",
+   "name": "GitHub 开源情报",
+   "detail": "Trending · Star 增速 · 新项目",
+   "time": "08:30"
+  },
+  {
+   "icon": "NW",
+   "name": "科技新闻日报",
+   "detail": "新闻聚合 · 中文简报",
+   "time": "09:00"
+  }
+ ],
+ "date": "2026-11-23",
+ "issue": "054",
+ "updatedAt": "00:32 更新"
+}
