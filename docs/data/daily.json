@@ -1,80 +1,6 @@
 {
  "sections": [
   {
-   "id": "tech-ai",
-   "title": "AI 与大模型",
-   "shortTitle": "AI 大模型",
-   "description": "大模型发布与更新",
-   "items": [
-    {
-     "rank": "01",
-     "title": "Claude 辅助的黎曼猜想证明通过 Lean 机器认证，同行评议尚未开始",
-     "summary": "Anthropic 数学家 Levent Alpöge 于 11 月 20 日宣布，在 Claude 协助下发现了黎曼猜想的证明，并发布了约 1740 万行 Lean 形式化代码；同一天，斯坦福的 Alessandro Masullo 也由 Ravi Vakil 代为公布了一份纯人工的广义黎曼猜想证明草稿。11 月 21 日，Lean 与 Mathlib 社区发表联合声明，认证 Alpöge 的形式化陈述与证明均正确——175,187 ",
-     "url": "https://www.nature.com/articles/d41586-026-03812-7?error=cookies_not_supported&code=21b1099d-2877-4ebd-9c58-31abcf15e1d7",
-     "source": "Nature｜2026-11-21",
-     "tags": [
-      "AI 大模型"
-     ]
-    },
-    {
-     "rank": "02",
-     "title": "OpenAI 首席科学家公开预训练困惑度曲线，呼吁以困惑度为行业共同标尺设限",
-     "summary": "首席科学家 Jakub Pachocki 在《Perplexity and Intelligence》一文中首次公开 OpenAI 内部预训练曲线：在自家代码库留出集上，GPT-3.5 的对数困惑度约 0.99，GPT-4 约 0.91，最新模型已低于 0.8；困惑度约 0.76 的模型开始连续攻克未解数学难题。他提议各前沿实验室以困惑度（或等价的交叉熵损失）为共同标尺，约定在监测能力（如 CoT 监控的继任技术）达标前不越过共同上限，",
-     "url": "https://openai.com/index/perplexity-and-intelligence/",
-     "source": "OpenAI 官方博客｜2026-11-22",
-     "tags": [
-      "AI 大模型"
-     ]
-    }
-   ]
-  },
-  {
-   "id": "tech-dev",
-   "title": "AI 工程与开发工具",
-   "shortTitle": "开发工具",
-   "description": "模型部署 · AI 编程 · Agent",
-   "items": [
-    {
-     "rank": "03",
-     "title": "OpenRouter 下架 3 家推理服务商：Dragos 金丝雀研究揭露提示词被盗",
-     "summary": "安全公司 Dragos 在 7 月至 11 月间向各 AI 服务发送了约 200 万条植入金丝雀凭证（虚假 AWS 密钥、专属 URL）的提示词，发现至少 3 家推理服务商的数据遭攻击者窃取，最早入侵可追溯至 7 月中旬，且被入侵方在研究者告知前毫不知情；另有多家推理市场转售商利用常规日志功能留存客户提示词。11 月 22 日，OpenRouter 下架 3 家服务商，并把 125 个端点移出零数据留存（ZDR）白名单；Together",
-     "url": "https://thehackernews.com/2026/11/openrouter-drops-3-providers-after.html",
-     "source": "The Hacker News / Dragos｜2026-11-22",
-     "tags": [
-      "开发工具"
-     ]
-    }
-   ]
-  },
-  {
-   "id": "tech-industry",
-   "title": "科技行业动态",
-   "shortTitle": "行业动态",
-   "description": "公司动态 · 产品发布 · 芯片与云",
-   "items": [
-    {
-     "rank": "04",
-     "title": "NVIDIA 在 SC26 发布 Rubin HPC：单卡超 5 万 CUDA 核心，2028 年部署",
-     "summary": "NVIDIA 在芝加哥超算大会 SC26 上发布 Rubin HPC 加速器，单卡 CUDA 核心超 5 万个，约为 RTX 5090（21,760 个）的近 3 倍，定位科学模拟与数据分析而非游戏，预计 2028 年进入部署的 HPC 系统。同场还发布了面向科研的 Nemotron for Science 模型套件、Vera CPU 机架系统（192 颗 CPU、约 300TB 内存），以及与 IBM、费米实验室合作的 AI 量子纠错",
-     "url": "https://techradarnews.com/article/nvidia-introduces-rubin-gpu-featuring-over-50-000-cuda-cores-aiming-for-2028-hpc-deployment",
-     "source": "TechRadar｜2026-11-22",
-     "tags": [
-      "行业动态"
-     ]
-    },
-    {
-     "rank": "05",
-     "title": "Gemini 历史与训练开关分离，本周末起陆续推送",
-     "summary": "Google 把 Gemini 应用中原来捆绑的「Keep Activity」拆成两个独立开关：「历史」控制对话保存时长，「训练」单独控制聊天内容是否用于训练生成式 AI 模型。用户从此可以保留对话记录，同时拒绝被用于训练；但关闭历史后，对话仍会保留约两个月（此前为 72 小时），Google 称仅用于安全目的、不用于训练。",
-     "url": "https://blog.google/innovation-and-ai/products/gemini-app/updated-controls/",
-     "source": "Google 官方博客｜2026-11-16 宣布，本周末开始推送",
-     "tags": [
-      "行业动态"
-     ]
-    }
-   ]
-  },
-  {
    "id": "github-hot",
    "title": "GitHub 今日热门",
    "shortTitle": "GitHub 热榜",
@@ -334,6 +260,100 @@
      ]
     }
    ]
+  },
+  {
+   "id": "tech-ai",
+   "title": "AI 与大模型",
+   "shortTitle": "AI 大模型",
+   "description": "大模型发布与更新",
+   "items": [
+    {
+     "rank": "01",
+     "title": "智谱发布新一代旗舰大模型 GLM-5.4，首用 Loop Transformer 架构",
+     "summary": "GLM-5.4 于 11 月 23 日上线 Coding Plan 订阅体系，当晚正式发布。它是智谱首款采用 Loop Transformer 架构的旗舰模型，对 28 层基座做两轮循环深度推演，以 750B 级参数量宣称达到比肩 3T 级模型的智能水平；新增视觉功能，Coding Plan 用户配额较 GLM-5.3 提升 50%。官方跑分暂未公布，智谱预计 12 月发布约 3 万亿参数的 GLM-5.5。",
+     "url": "https://www.thepaper.cn/newsDetail_forward_34539134",
+     "source": "澎湃新闻｜2026-11-23",
+     "tags": [
+      "AI 大模型"
+     ]
+    },
+    {
+     "rank": "02",
+     "title": "OpenAI 把 GPT-6.2 Sol 带进 ChatGPT 对话标签页",
+     "summary": "OpenAI 开始向 Plus、Pro、Business 与 Enterprise 用户推送为 Chat 标签调校的 GPT-6.2 Sol，针对日常对话优化，能更好处理复杂指令与联网检索。GPT-6.2 一周前首发于 Work 与 Codex，那两个入口的模型保持不变；Free 与 Go 套餐暂不开放。",
+     "url": "https://www.macrumors.com/2026/11/23/openai-gpt-6-2-sol-chatgpt/",
+     "source": "MacRumors｜2026-11-23",
+     "tags": [
+      "AI 大模型"
+     ]
+    },
+    {
+     "rank": "03",
+     "title": "蚂蚁 Ling-3.2-air 发布：124B 混合线性 MoE，MIT 协议开源权重",
+     "summary": "InclusionAI（蚂蚁集团）发布 Ling-3.2-air，原生多模态混合线性 MoE 架构，总参数 124B、每 token 激活 5.5B，在 Artificial Analysis Intelligence Index v5.0.1 上得分为 23；权重以 MIT 协议开源，发布当日即支持 vLLM 与 SGLang。",
+     "url": "https://www.startrise.io/models/",
+     "source": "Startrise 模型发布追踪｜2026-11-23",
+     "tags": [
+      "AI 大模型"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "tech-dev",
+   "title": "AI 工程与开发工具",
+   "shortTitle": "开发工具",
+   "description": "模型部署 · AI 编程 · Agent",
+   "items": [
+    {
+     "rank": "04",
+     "title": "Grok Bot 更新：能订酒店、接通私有 MCP，工具权限可逐项管控",
+     "summary": "Grok Bot 新增四项功能：酒店预订已上线（机票预订陆续推出），通过 Tailscale 接入私有网络内的 MCP 服务器（如家庭媒体服务器），每个连接器的每个工具可设 Always allow、Auto-review、Needs approval、Blocked 四档权限，桌面端支持图片标注后让 Bot 按标注修改。",
+     "url": "https://sunlitbitz.com/grok-bot-update/",
+     "source": "SunlitBitz（据 xAI Grok Bot 团队视频与官方更新日志）｜2026-11-23",
+     "tags": [
+      "开发工具"
+     ]
+    },
+    {
+     "rank": "05",
+     "title": "中国电信 Xing4.1-Preview 发布：285B MoE，面向 Agent 编程与长程任务",
+     "summary": "中国电信 AI 发布 Xing4.1-Preview，285B 总参数、17B 激活参数的 MoE 架构（MLA + DSA），原生 1M 上下文，面向 Agent 编程与长程任务；BF16 权重以 Apache 2.0 协议开源，API 已上线天翼 AI 平台。",
+     "url": "https://chinaairecord.com/models",
+     "source": "China AI Record（Hugging Face 官方账号数据）｜2026-11-23",
+     "tags": [
+      "开发工具"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "tech-industry",
+   "title": "科技行业动态",
+   "shortTitle": "行业动态",
+   "description": "公司动态 · 产品发布 · 芯片与云",
+   "items": [
+    {
+     "rank": "06",
+     "title": "英伟达董事会恢复黄仁勋 CEO 职务，股价单日大涨 30%",
+     "summary": "英伟达董事会 11 月 23 日宣布立即恢复黄仁勋的总裁兼 CEO 职务，距其 11 月 12 日辞职仅 11 天，CFO Colette Kress 同步回归原职。当日英伟达股价大涨逾 30%，市值一日增加约 1 万亿美元至 4 万亿美元以上，重回全球市值第二，仅次于苹果；微软、苹果、AMD 等科技股同步上涨。董事会同时宣布设立国家安全与出口管制专责委员会，并启动首席合规官招聘。",
+     "url": "https://www.businesstoday.in/amp/markets/story/wall-street-rallies-as-nvidia-surges-30-on-jensen-huangs-return-ai-stocks-lead-market-rebound-569184-2026-11-23",
+     "source": "Business Today｜2026-11-23",
+     "tags": [
+      "行业动态"
+     ]
+    },
+    {
+     "rank": "07",
+     "title": "弗吉尼亚与俄勒冈两州起诉 SpaceX：Grok 被指生成非自愿性化影像",
+     "summary": "弗吉尼亚州总检察长 Jay Jones 与俄勒冈州总检察长 Dan Rayfield 于 11 月 23 日分别依据消费者保护法起诉 SpaceX Super Intelligence（xAI 母公司），指控 Grok 的图像功能在缺乏足够防护的情况下生成涉及真实人物的非自愿性化影像，包括儿童性虐待影像，并以“安全”为卖点误导消费者。诉讼引用反数字仇恨中心的研究，估计 2025 年 12 月至 2026 年 1 月间 Grok 在 X ",
+     "url": "https://www.reuters.com/legal/government/virginia-oregon-sue-musks-spacex-over-grok-ais-creation-child-sexual-abuse-2026-11-23/",
+     "source": "Reuters｜2026-11-23",
+     "tags": [
+      "行业动态"
+     ]
+    }
+   ]
   }
  ],
  "_pipelines": {
@@ -359,19 +379,19 @@
    "digest": [
     {
      "title": "速览",
-     "text": "Claude 辅助的黎曼猜想证明通过 Lean 社区机器认证，但数学界尚未理解论证、同行评议还未开始。"
+     "text": "智谱 GLM-5.4、蚂蚁 Ling-3.2-air、中国电信 Xing4.1 三款大模型同日上线，开源与架构创新齐发。"
     },
     {
      "title": "速览",
-     "text": "OpenAI 首席科学家 Pachocki 公开内部预训练困惑度曲线，提议以困惑度为共同标尺、为前沿训练设限。"
+     "text": "英伟达董事会恢复黄仁勋 CEO 职务，股价单日大涨 30%、市值一日增加约 1 万亿美元。"
     },
     {
      "title": "速览",
-     "text": "NVIDIA 在 SC26 发布 Rubin HPC，单卡超 5 万 CUDA 核心，面向 2028 年部署；OpenRouter 因金丝雀研究下架 3 家推理服务商。"
+     "text": "弗吉尼亚与俄勒冈两州就 Grok 生成非自愿性化影像起诉 SpaceX，AI 安全治理进入司法追责阶段。"
     }
    ],
-   "highlight": "Claude 辅助的黎曼猜想证明通过 Lean 社区机器认证，但数学界尚未理解论证、同行评议还未开始。",
-   "date": "2026-11-23"
+   "highlight": "智谱 GLM-5.4、蚂蚁 Ling-3.2-air、中国电信 Xing4.1 三款大模型同日上线，开源与架构创新齐发。",
+   "date": "2026-11-24"
   }
  },
  "digest": [
@@ -381,10 +401,10 @@
   },
   {
    "title": "速览",
-   "text": "Claude 辅助的黎曼猜想证明通过 Lean 社区机器认证，但数学界尚未理解论证、同行评议还未开始。"
+   "text": "智谱 GLM-5.4、蚂蚁 Ling-3.2-air、中国电信 Xing4.1 三款大模型同日上线，开源与架构创新齐发。"
   }
  ],
- "intro": "Claude-BugHunter 单日 +2,029 再登日榜第一、总数逼近 2 万 star，连续六日加速，agent 安全测试方向继续领跑；Ghost-Downloader-3 单日 +1,087 回流、总数突破 1.6 万；app-store-compliance 单日 +761、总数逼近 5,000 star。 Claude 辅助的黎曼猜想证明通过 Lean 社区机器认证，但数学界尚未理解论证、同行评议还未开始。",
+ "intro": "Claude-BugHunter 单日 +2,029 再登日榜第一、总数逼近 2 万 star，连续六日加速，agent 安全测试方向继续领跑；Ghost-Downloader-3 单日 +1,087 回流、总数突破 1.6 万；app-store-compliance 单日 +761、总数逼近 5,000 star。 智谱 GLM-5.4、蚂蚁 Ling-3.2-air、中国电信 Xing4.1 三款大模型同日上线，开源与架构创新齐发。",
  "tasks": [
   {
    "icon": "GH",
@@ -401,5 +421,5 @@
  ],
  "date": "2026-11-24",
  "issue": "055",
- "updatedAt": "00:33 更新"
+ "updatedAt": "01:01 更新"
 }
