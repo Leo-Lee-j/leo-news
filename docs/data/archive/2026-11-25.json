@@ -1,100 +1,6 @@
 {
  "sections": [
   {
-   "id": "tech-ai",
-   "title": "AI 与大模型",
-   "shortTitle": "AI 大模型",
-   "description": "大模型发布与更新",
-   "items": [
-    {
-     "rank": "01",
-     "title": "智谱发布新一代旗舰大模型 GLM-5.4，首用 Loop Transformer 架构",
-     "summary": "GLM-5.4 于 11 月 23 日上线 Coding Plan 订阅体系，当晚正式发布。它是智谱首款采用 Loop Transformer 架构的旗舰模型，对 28 层基座做两轮循环深度推演，以 750B 级参数量宣称达到比肩 3T 级模型的智能水平；新增视觉功能，Coding Plan 用户配额较 GLM-5.3 提升 50%。官方跑分暂未公布，智谱预计 12 月发布约 3 万亿参数的 GLM-5.5。",
-     "url": "https://www.thepaper.cn/newsDetail_forward_34539134",
-     "source": "澎湃新闻｜2026-11-23",
-     "tags": [
-      "AI 大模型"
-     ]
-    },
-    {
-     "rank": "02",
-     "title": "OpenAI 把 GPT-6.2 Sol 带进 ChatGPT 对话标签页",
-     "summary": "OpenAI 开始向 Plus、Pro、Business 与 Enterprise 用户推送为 Chat 标签调校的 GPT-6.2 Sol，针对日常对话优化，能更好处理复杂指令与联网检索。GPT-6.2 一周前首发于 Work 与 Codex，那两个入口的模型保持不变；Free 与 Go 套餐暂不开放。",
-     "url": "https://www.macrumors.com/2026/11/23/openai-gpt-6-2-sol-chatgpt/",
-     "source": "MacRumors｜2026-11-23",
-     "tags": [
-      "AI 大模型"
-     ]
-    },
-    {
-     "rank": "03",
-     "title": "蚂蚁 Ling-3.2-air 发布：124B 混合线性 MoE，MIT 协议开源权重",
-     "summary": "InclusionAI（蚂蚁集团）发布 Ling-3.2-air，原生多模态混合线性 MoE 架构，总参数 124B、每 token 激活 5.5B，在 Artificial Analysis Intelligence Index v5.0.1 上得分为 23；权重以 MIT 协议开源，发布当日即支持 vLLM 与 SGLang。",
-     "url": "https://www.startrise.io/models/",
-     "source": "Startrise 模型发布追踪｜2026-11-23",
-     "tags": [
-      "AI 大模型"
-     ]
-    }
-   ]
-  },
-  {
-   "id": "tech-dev",
-   "title": "AI 工程与开发工具",
-   "shortTitle": "开发工具",
-   "description": "模型部署 · AI 编程 · Agent",
-   "items": [
-    {
-     "rank": "04",
-     "title": "Grok Bot 更新：能订酒店、接通私有 MCP，工具权限可逐项管控",
-     "summary": "Grok Bot 新增四项功能：酒店预订已上线（机票预订陆续推出），通过 Tailscale 接入私有网络内的 MCP 服务器（如家庭媒体服务器），每个连接器的每个工具可设 Always allow、Auto-review、Needs approval、Blocked 四档权限，桌面端支持图片标注后让 Bot 按标注修改。",
-     "url": "https://sunlitbitz.com/grok-bot-update/",
-     "source": "SunlitBitz（据 xAI Grok Bot 团队视频与官方更新日志）｜2026-11-23",
-     "tags": [
-      "开发工具"
-     ]
-    },
-    {
-     "rank": "05",
-     "title": "中国电信 Xing4.1-Preview 发布：285B MoE，面向 Agent 编程与长程任务",
-     "summary": "中国电信 AI 发布 Xing4.1-Preview，285B 总参数、17B 激活参数的 MoE 架构（MLA + DSA），原生 1M 上下文，面向 Agent 编程与长程任务；BF16 权重以 Apache 2.0 协议开源，API 已上线天翼 AI 平台。",
-     "url": "https://chinaairecord.com/models",
-     "source": "China AI Record（Hugging Face 官方账号数据）｜2026-11-23",
-     "tags": [
-      "开发工具"
-     ]
-    }
-   ]
-  },
-  {
-   "id": "tech-industry",
-   "title": "科技行业动态",
-   "shortTitle": "行业动态",
-   "description": "公司动态 · 产品发布 · 芯片与云",
-   "items": [
-    {
-     "rank": "06",
-     "title": "英伟达董事会恢复黄仁勋 CEO 职务，股价单日大涨 30%",
-     "summary": "英伟达董事会 11 月 23 日宣布立即恢复黄仁勋的总裁兼 CEO 职务，距其 11 月 12 日辞职仅 11 天，CFO Colette Kress 同步回归原职。当日英伟达股价大涨逾 30%，市值一日增加约 1 万亿美元至 4 万亿美元以上，重回全球市值第二，仅次于苹果；微软、苹果、AMD 等科技股同步上涨。董事会同时宣布设立国家安全与出口管制专责委员会，并启动首席合规官招聘。",
-     "url": "https://www.businesstoday.in/amp/markets/story/wall-street-rallies-as-nvidia-surges-30-on-jensen-huangs-return-ai-stocks-lead-market-rebound-569184-2026-11-23",
-     "source": "Business Today｜2026-11-23",
-     "tags": [
-      "行业动态"
-     ]
-    },
-    {
-     "rank": "07",
-     "title": "弗吉尼亚与俄勒冈两州起诉 SpaceX：Grok 被指生成非自愿性化影像",
-     "summary": "弗吉尼亚州总检察长 Jay Jones 与俄勒冈州总检察长 Dan Rayfield 于 11 月 23 日分别依据消费者保护法起诉 SpaceX Super Intelligence（xAI 母公司），指控 Grok 的图像功能在缺乏足够防护的情况下生成涉及真实人物的非自愿性化影像，包括儿童性虐待影像，并以“安全”为卖点误导消费者。诉讼引用反数字仇恨中心的研究，估计 2025 年 12 月至 2026 年 1 月间 Grok 在 X ",
-     "url": "https://www.reuters.com/legal/government/virginia-oregon-sue-musks-spacex-over-grok-ais-creation-child-sexual-abuse-2026-11-23/",
-     "source": "Reuters｜2026-11-23",
-     "tags": [
-      "行业动态"
-     ]
-    }
-   ]
-  },
-  {
    "id": "github-hot",
    "title": "GitHub 今日热门",
    "shortTitle": "GitHub 热榜",
@@ -354,6 +260,110 @@
      ]
     }
    ]
+  },
+  {
+   "id": "tech-ai",
+   "title": "AI 与大模型",
+   "shortTitle": "AI 大模型",
+   "description": "大模型发布与更新",
+   "items": [
+    {
+     "rank": "01",
+     "title": "Claude 助力攻克黎曼猜想：175,187 个 Lean 文件的机器验证证明，数学界仍在消化",
+     "summary": "Anthropic 数学家 Levent Alpöge 宣布与 Claude 合作完成了黎曼猜想的证明，并以约 1700 万行、175,187 个 Lean 4 文件的形式发布，覆盖黎曼猜想与广义黎曼猜想。MIT 数学家 Andrew Sutherland 等人独立用 Lean 内核复核通过，Lean FRO 与 Mathlib Initiative 联合声明“完全确信证明正确”。研究自 10 月 6 日启动，关键突破在 11 月 15",
+     "url": "https://www.scientificamerican.com/article/anthropic-mathematician-claims-to-prove-riemann-hypothesis-most-famous-problem-in-all-of-math/",
+     "source": "Scientific American｜2026-11-21（证明 11 月 20 日发布，Lean 社区 11 月 21 日认证）",
+     "tags": [
+      "AI 大模型"
+     ]
+    },
+    {
+     "rank": "02",
+     "title": "Anthropic 推出企业前沿防护 EFS 公测：最强模型也能零数据留存",
+     "summary": "Anthropic 正式推出 Enterprise Frontier Safeguards（EFS）公开测试，面向使用 Claude 最强模型（Fable、Mythos 系列）的合规企业。提示词与回复的加密副本存入客户自己的云存储桶，Anthropic 与云厂商均不留存数据，自动化安全监测只在客户云内扫描、发现可疑滥用时生成不含原文的安全报告。EFS 覆盖 Claude Platform、AWS 与 Google Cloud 上的 Cl",
+     "url": "https://docs.claude.com/en/release-notes/overview?entry=november-2-2026",
+     "source": "Anthropic 官方发布说明｜2026-11-23",
+     "tags": [
+      "AI 大模型"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "tech-dev",
+   "title": "AI 工程与开发工具",
+   "shortTitle": "开发工具",
+   "description": "模型部署 · AI 编程 · Agent",
+   "items": [
+    {
+     "rank": "03",
+     "title": "百度开源 ERNIE 5.5 Flash Preview 权重：280B MoE、Apache 2.0，但训练尚未完成",
+     "summary": "百度在 Hugging Face 与 ModelScope 上发布 ERNIE 5.5 Flash Preview 权重，Apache 2.0 协议。模型为 280B 总参数、每 token 激活 14B 的 MoE，上下文窗口 100 万 token，提供 FP4、FP8、BF16 三种下载格式，首日即有 SGLang 支持。百度同时明确警告：这是中间检查点，后训练尚未完成，部分能力可能不完整；Apache 2.0 仅覆盖本次 Pre",
+     "url": "https://superpowerdaily.com/posts/baidu-publishes-ernie-5-5-flash-preview-weights-under-apache-2-0",
+     "source": "Superpower Daily｜2026-11-24",
+     "tags": [
+      "开发工具"
+     ]
+    },
+    {
+     "rank": "04",
+     "title": "Aleph Alpha 发布 Kolibri 1.1：稀疏注意力让长文本推理更快，Apache 2.0 开源",
+     "summary": "德国 Aleph Alpha 发布 Kolibri 1.1，距上一代仅七周。模型总参数从 78B 降至 75B，每 token 激活 34.4B，权重以 Apache 2.0 开源。新引入的稀疏注意力只对上下文中最相关的 2048 个 token 与最近 128 个 token 计算注意力，长文本推理的 GPU 时间降至上一代的约 30%。",
+     "url": "https://www.kucoin.com/news/flash/germany-s-kolibri-1-1-model-open-sourced-gpu-inference-time-drops-to-30-of-previous-version",
+     "source": "KuCoin 快讯｜2026-11-24",
+     "tags": [
+      "开发工具"
+     ]
+    },
+    {
+     "rank": "05",
+     "title": "Anthropic 推出 Claude Ship：AI 按团队规则审 PR、修代码、合入",
+     "summary": "Anthropic 推出 Claude Ship，进入 Beta，面向 Claude Team 与 Enterprise 客户的 GitHub 仓库。它按开发团队设定的规则自动评审 Pull Request、修复代码问题并合入变更，Anthropic 还为企业客户提供 1 万美元额度的使用激励。限制是：使用零数据留存、HIPAA 配置或客户自管加密密钥的组织暂不可用。",
+     "url": "https://aitools.sh/news/claude-ship-github-limits/",
+     "source": "AI Tools｜2026-11-24（产品 11 月 23 日发布）",
+     "tags": [
+      "开发工具"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "tech-industry",
+   "title": "科技行业动态",
+   "shortTitle": "行业动态",
+   "description": "公司动态 · 产品发布 · 芯片与云",
+   "items": [
+    {
+     "rank": "06",
+     "title": "微软为 M365 史上最严重宕机拉响 Code Red：目标未来全球故障一小时内解决",
+     "summary": "微软在 11 月 12–13 日持续约 24 小时的 Microsoft 365 全球宕机后，启动最高级别内部动员“Code Red”，全面整改重大故障的预防与响应。宕机源于 7 月引入、未被发现的 Windows 可扩展性缺陷，影响 Exchange Online、Outlook、Teams、Copilot 等服务，波及多国政府、交易机构与航空通讯；M365 Core 总裁称这是 Exchange Online 史上影响客户最多的一次",
+     "url": "https://www.reuters.com/business/microsoft-declares-code-red-after-historic-outage-internal-memos-show-2026-11-24/",
+     "source": "Reuters｜2026-11-24",
+     "tags": [
+      "行业动态"
+     ]
+    },
+    {
+     "rank": "07",
+     "title": "美国把 Megaspeed 列入实体清单：涉英伟达芯片转口调查，阿里巴巴子公司同在列",
+     "summary": "美国商务部 11 月 23 日将新加坡云计算公司 Megaspeed 列入实体清单，同时列入的还有其关联方 Swiftdata、马来西亚子公司 Speedmatrix 等共 7 个实体，以及阿里巴巴新加坡子公司 Apex Enterprise Solutions。列入后，任何美国公司向其出口受管制技术均需许可证，原则上推定拒绝。Megaspeed 自 2024 年起被调查是否协助把先进英伟达 AI 芯片转口中国，公司否认违规；这是美国 ",
+     "url": "https://www.reuters.com/business/retail-consumer/what-we-know-about-megaspeed-nvidia-customer-blacklisted-by-us-2026-11-24/",
+     "source": "Reuters｜2026-11-24",
+     "tags": [
+      "行业动态"
+     ]
+    },
+    {
+     "rank": "08",
+     "title": "从零自研引擎的 Ladybird 浏览器进入 Alpha：macOS 与 Linux 可下载",
+     "summary": "独立浏览器 Ladybird 发布首个公开 Alpha（版本 2026.47.7），macOS 与 Linux 用户可直接下载，不再需要自行编译。其渲染引擎完全从零编写，不基于 Chromium、WebKit 或 Gecko，HTML、CSS、DOM、布局、JavaScript 与 WebAssembly 均为自研实现；团队正用 AI 辅助把部分 C++ 代码迁移到 Rust。路线图是 2027 年出 Beta，2028 年发布稳定版；",
+     "url": "https://ladybird.org/",
+     "source": "Ladybird 官网｜2026-11-23",
+     "tags": [
+      "行业动态"
+     ]
+    }
+   ]
   }
  ],
  "_pipelines": {
@@ -379,19 +389,19 @@
    "digest": [
     {
      "title": "速览",
-     "text": "智谱 GLM-5.4、蚂蚁 Ling-3.2-air、中国电信 Xing4.1 三款大模型同日上线，开源与架构创新齐发。"
+     "text": "Claude 协助完成黎曼猜想的 Lean 机器验证证明，Lean 社区已认证正确，但人类数学家仍需时间消化这份 1700 万行证明。"
     },
     {
      "title": "速览",
-     "text": "英伟达董事会恢复黄仁勋 CEO 职务，股价单日大涨 30%、市值一日增加约 1 万亿美元。"
+     "text": "微软为 M365 史上最严重宕机拉响最高级别 Code Red；美国同日把涉英伟达芯片转口调查的 Megaspeed 列入实体清单。"
     },
     {
      "title": "速览",
-     "text": "弗吉尼亚与俄勒冈两州就 Grok 生成非自愿性化影像起诉 SpaceX，AI 安全治理进入司法追责阶段。"
+     "text": "百度、Aleph Alpha 同日开源大模型权重，Anthropic 则以零数据留存方案 EFS 与代码评审工具 Claude Ship 加码企业市场。"
     }
    ],
-   "highlight": "智谱 GLM-5.4、蚂蚁 Ling-3.2-air、中国电信 Xing4.1 三款大模型同日上线，开源与架构创新齐发。",
-   "date": "2026-11-24"
+   "highlight": "Claude 协助完成黎曼猜想的 Lean 机器验证证明，Lean 社区已认证正确，但人类数学家仍需时间消化这份 1700 万行证明。",
+   "date": "2026-11-25"
   }
  },
  "digest": [
@@ -401,10 +411,10 @@
   },
   {
    "title": "速览",
-   "text": "智谱 GLM-5.4、蚂蚁 Ling-3.2-air、中国电信 Xing4.1 三款大模型同日上线，开源与架构创新齐发。"
+   "text": "Claude 协助完成黎曼猜想的 Lean 机器验证证明，Lean 社区已认证正确，但人类数学家仍需时间消化这份 1700 万行证明。"
   }
  ],
- "intro": "Claude-BugHunter 单日 +1,826 七度登顶日榜、总数突破 2.1 万 star，skill 数 83→84；CLI-Anything 单日 +1,074 升至第二；app-store-compliance 单日 +928、总数逼近 5,900 star。 智谱 GLM-5.4、蚂蚁 Ling-3.2-air、中国电信 Xing4.1 三款大模型同日上线，开源与架构创新齐发。",
+ "intro": "Claude-BugHunter 单日 +1,826 七度登顶日榜、总数突破 2.1 万 star，skill 数 83→84；CLI-Anything 单日 +1,074 升至第二；app-store-compliance 单日 +928、总数逼近 5,900 star。 Claude 协助完成黎曼猜想的 Lean 机器验证证明，Lean 社区已认证正确，但人类数学家仍需时间消化这份 1700 万行证明。",
  "tasks": [
   {
    "icon": "GH",
@@ -421,5 +431,5 @@
  ],
  "date": "2026-11-25",
  "issue": "056",
- "updatedAt": "00:37 更新"
+ "updatedAt": "01:02 更新"
 }
