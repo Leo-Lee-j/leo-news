@@ -1,0 +1,425 @@
+{
+ "sections": [
+  {
+   "id": "tech-ai",
+   "title": "AI 与大模型",
+   "shortTitle": "AI 大模型",
+   "description": "大模型发布与更新",
+   "items": [
+    {
+     "rank": "01",
+     "title": "智谱发布新一代旗舰大模型 GLM-5.4，首用 Loop Transformer 架构",
+     "summary": "GLM-5.4 于 11 月 23 日上线 Coding Plan 订阅体系，当晚正式发布。它是智谱首款采用 Loop Transformer 架构的旗舰模型，对 28 层基座做两轮循环深度推演，以 750B 级参数量宣称达到比肩 3T 级模型的智能水平；新增视觉功能，Coding Plan 用户配额较 GLM-5.3 提升 50%。官方跑分暂未公布，智谱预计 12 月发布约 3 万亿参数的 GLM-5.5。",
+     "url": "https://www.thepaper.cn/newsDetail_forward_34539134",
+     "source": "澎湃新闻｜2026-11-23",
+     "tags": [
+      "AI 大模型"
+     ]
+    },
+    {
+     "rank": "02",
+     "title": "OpenAI 把 GPT-6.2 Sol 带进 ChatGPT 对话标签页",
+     "summary": "OpenAI 开始向 Plus、Pro、Business 与 Enterprise 用户推送为 Chat 标签调校的 GPT-6.2 Sol，针对日常对话优化，能更好处理复杂指令与联网检索。GPT-6.2 一周前首发于 Work 与 Codex，那两个入口的模型保持不变；Free 与 Go 套餐暂不开放。",
+     "url": "https://www.macrumors.com/2026/11/23/openai-gpt-6-2-sol-chatgpt/",
+     "source": "MacRumors｜2026-11-23",
+     "tags": [
+      "AI 大模型"
+     ]
+    },
+    {
+     "rank": "03",
+     "title": "蚂蚁 Ling-3.2-air 发布：124B 混合线性 MoE，MIT 协议开源权重",
+     "summary": "InclusionAI（蚂蚁集团）发布 Ling-3.2-air，原生多模态混合线性 MoE 架构，总参数 124B、每 token 激活 5.5B，在 Artificial Analysis Intelligence Index v5.0.1 上得分为 23；权重以 MIT 协议开源，发布当日即支持 vLLM 与 SGLang。",
+     "url": "https://www.startrise.io/models/",
+     "source": "Startrise 模型发布追踪｜2026-11-23",
+     "tags": [
+      "AI 大模型"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "tech-dev",
+   "title": "AI 工程与开发工具",
+   "shortTitle": "开发工具",
+   "description": "模型部署 · AI 编程 · Agent",
+   "items": [
+    {
+     "rank": "04",
+     "title": "Grok Bot 更新：能订酒店、接通私有 MCP，工具权限可逐项管控",
+     "summary": "Grok Bot 新增四项功能：酒店预订已上线（机票预订陆续推出），通过 Tailscale 接入私有网络内的 MCP 服务器（如家庭媒体服务器），每个连接器的每个工具可设 Always allow、Auto-review、Needs approval、Blocked 四档权限，桌面端支持图片标注后让 Bot 按标注修改。",
+     "url": "https://sunlitbitz.com/grok-bot-update/",
+     "source": "SunlitBitz（据 xAI Grok Bot 团队视频与官方更新日志）｜2026-11-23",
+     "tags": [
+      "开发工具"
+     ]
+    },
+    {
+     "rank": "05",
+     "title": "中国电信 Xing4.1-Preview 发布：285B MoE，面向 Agent 编程与长程任务",
+     "summary": "中国电信 AI 发布 Xing4.1-Preview，285B 总参数、17B 激活参数的 MoE 架构（MLA + DSA），原生 1M 上下文，面向 Agent 编程与长程任务；BF16 权重以 Apache 2.0 协议开源，API 已上线天翼 AI 平台。",
+     "url": "https://chinaairecord.com/models",
+     "source": "China AI Record（Hugging Face 官方账号数据）｜2026-11-23",
+     "tags": [
+      "开发工具"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "tech-industry",
+   "title": "科技行业动态",
+   "shortTitle": "行业动态",
+   "description": "公司动态 · 产品发布 · 芯片与云",
+   "items": [
+    {
+     "rank": "06",
+     "title": "英伟达董事会恢复黄仁勋 CEO 职务，股价单日大涨 30%",
+     "summary": "英伟达董事会 11 月 23 日宣布立即恢复黄仁勋的总裁兼 CEO 职务，距其 11 月 12 日辞职仅 11 天，CFO Colette Kress 同步回归原职。当日英伟达股价大涨逾 30%，市值一日增加约 1 万亿美元至 4 万亿美元以上，重回全球市值第二，仅次于苹果；微软、苹果、AMD 等科技股同步上涨。董事会同时宣布设立国家安全与出口管制专责委员会，并启动首席合规官招聘。",
+     "url": "https://www.businesstoday.in/amp/markets/story/wall-street-rallies-as-nvidia-surges-30-on-jensen-huangs-return-ai-stocks-lead-market-rebound-569184-2026-11-23",
+     "source": "Business Today｜2026-11-23",
+     "tags": [
+      "行业动态"
+     ]
+    },
+    {
+     "rank": "07",
+     "title": "弗吉尼亚与俄勒冈两州起诉 SpaceX：Grok 被指生成非自愿性化影像",
+     "summary": "弗吉尼亚州总检察长 Jay Jones 与俄勒冈州总检察长 Dan Rayfield 于 11 月 23 日分别依据消费者保护法起诉 SpaceX Super Intelligence（xAI 母公司），指控 Grok 的图像功能在缺乏足够防护的情况下生成涉及真实人物的非自愿性化影像，包括儿童性虐待影像，并以“安全”为卖点误导消费者。诉讼引用反数字仇恨中心的研究，估计 2025 年 12 月至 2026 年 1 月间 Grok 在 X ",
+     "url": "https://www.reuters.com/legal/government/virginia-oregon-sue-musks-spacex-over-grok-ais-creation-child-sexual-abuse-2026-11-23/",
+     "source": "Reuters｜2026-11-23",
+     "tags": [
+      "行业动态"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "github-hot",
+   "title": "GitHub 今日热门",
+   "shortTitle": "GitHub 热榜",
+   "description": "综合热度、活跃度与实用价值排序",
+   "items": [
+    {
+     "rank": "01",
+     "title": "elementalsouls/Claude-BugHunter",
+     "summary": "解决了\"agent 会写代码、却不会找漏洞\"的问题；单日 +1,826 七度登顶日榜、总数突破 2.1 万 star，84 个漏洞挖掘 skill + Burp MCP 集成的红队工具箱；适合做安全测试与漏洞挖掘的开发者与安全研究者，值得在授权范围内装上试一圈。",
+     "url": "https://github.com/elementalsouls/Claude-BugHunter",
+     "tags": [
+      "强烈推荐"
+     ],
+     "featured": true
+    },
+    {
+     "rank": "02",
+     "title": "HKUDS/CLI-Anything",
+     "summary": "港大团队的\"让所有软件都 agent 原生\"：给命令行工具套一层 agent 友好的接口，让 agent 能直接操作原本只服务人类的软件。 把任意 CLI 软件变成 agent 可调用的接口、配套 CLI-Hub、Python 实现、研究型项目。",
+     "url": "https://github.com/HKUDS/CLI-Anything",
+     "tags": [
+      "值得关注"
+     ]
+    },
+    {
+     "rank": "03",
+     "title": "XiaoYouChR/Ghost-Downloader-3",
+     "summary": "\"下载器的集大成者\"：一个开源下载工具，把多类下载场景收进一个客户端里。 多协议与多站点下载支持、Python 实现、桌面客户端。",
+     "url": "https://github.com/XiaoYouChR/Ghost-Downloader-3",
+     "tags": [
+      "了解即可"
+     ]
+    },
+    {
+     "rank": "04",
+     "title": "obra/superpowers",
+     "summary": "给 coding agent 的完整软件开发方法论：一套可组合的 skill 加上初始指令，让 agent 先问清需求、写出可读的规格再动手写代码。 可组合的 skill 集合覆盖开发全流程、先出规格再写代码的工作流、兼容 Claude Code、Codex、Cursor、Copilot、Gemini CLI 等十余种 agent。",
+     "url": "https://github.com/obra/superpowers",
+     "tags": [
+      "强烈推荐"
+     ]
+    },
+    {
+     "rank": "05",
+     "title": "firecrawl/firecrawl",
+     "summary": "给 agent 用的网页数据基础设施：搜索、抓取、抽取结构化数据，再接 550 多个数据源，让 agent 能读懂整个互联网。 网页搜索、抓取与结构化抽取、550+ 数据源接入、TypeScript 实现、配套云端托管服务。",
+     "url": "https://github.com/firecrawl/firecrawl",
+     "tags": [
+      "值得关注"
+     ]
+    },
+    {
+     "rank": "06",
+     "title": "zhouxiaoka/autoclip",
+     "summary": "开源 AI 视频剪辑桌面工具：贴一个链接，一键把播客、访谈、课程等长视频剪成短视频，顺带生成字幕、封面和发布文案。 长视频自动剪成短视频、自动生成字幕、封面与发布文案、适配抖音、小红书、TikTok、Reels、YouTube Shorts、B 站、本地剪辑与渲染、附带编辑器可手动调整。",
+     "url": "https://github.com/zhouxiaoka/autoclip",
+     "tags": [
+      "值得关注"
+     ]
+    },
+    {
+     "rank": "07",
+     "title": "mjmirza/app-store-compliance",
+     "summary": "帮你的 App 一次过审：把 App Store 与 Google Play 的审核规则做成公开 playbook，再配一套自动检查，提前堵住常见被拒原因。 App Store 与 Google Play 审核合规 playbook、上架前自动检查、Shell 实现、配套在线文档站。",
+     "url": "https://github.com/mjmirza/app-store-compliance",
+     "tags": [
+      "值得关注"
+     ]
+    },
+    {
+     "rank": "08",
+     "title": "cathrynlavery/diagram-design",
+     "summary": "让 agent 画\"设计师看了不皱眉\"的图：一个 agent skill，把图表画成单个自包含的 HTML + SVG 文件，按你的品牌风格来。 51 种图表类型、输出单个自包含 HTML + SVG 文件、按品牌风格出图、明确拒绝\"Mermaid 味\"的粗糙默认样式、适配 Claude Code、Codex、Copilot、Cursor 等 agent。",
+     "url": "https://github.com/cathrynlavery/diagram-design",
+     "tags": [
+      "值得关注"
+     ]
+    },
+    {
+     "rank": "09",
+     "title": "jingyaogong/minimind",
+     "summary": "两小时从零训出你自己的 64M 大模型：大模型训练的\"最小可运行教学样本\"，从数据到训练全流程开源。 64M 参数小模型从零训练的完整流程、两小时可跑通、中文教学文档、Python 实现。",
+     "url": "https://github.com/jingyaogong/minimind",
+     "tags": [
+      "值得关注"
+     ]
+    },
+    {
+     "rank": "10",
+     "title": "mvanhorn/last30days-skill",
+     "summary": "跨平台主题调研的 agent skill：让 agent 去 Reddit、X、YouTube、HN、Polymarket 上搜\"人怎么说\"，而不是只读编辑写好的文章。 跨平台调研 skill（Reddit、X、YouTube、HN、Polymarket 等）、按点赞、点踩与真金白银下注给信息打分、v4 流水线、多语言 README。",
+     "url": "https://github.com/mvanhorn/last30days-skill",
+     "tags": [
+      "值得关注"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "github-rising",
+   "title": "Star 增长最快",
+   "shortTitle": "增长最快",
+   "description": "按实际 Star 增量排序",
+   "items": [
+    {
+     "rank": "01",
+     "title": "mvanhorn/last30days-skill",
+     "summary": "较昨日（+5,448）略有回落但仍守住周榜第一，总数较昨日 +771、突破 7.4 万 star：\"让 agent 按真实人气与下注给信息打分\"的调研思路热度未熄。",
+     "url": "https://github.com/mvanhorn/last30days-skill",
+     "stars": "74.2k",
+     "trend": "+5,369",
+     "tags": [
+      "高增长"
+     ]
+    },
+    {
+     "rank": "02",
+     "title": "dream-num/univer",
+     "summary": "较昨日（+4,324）回落至周榜第二，总数较昨日 +229：agent 办公套件方向的老项目周增维持高位。",
+     "url": "https://github.com/dream-num/univer",
+     "stars": "31.7k",
+     "trend": "+3,278",
+     "tags": [
+      "高增长"
+     ]
+    },
+    {
+     "rank": "03",
+     "title": "kajisho5/ffmpeg-skill",
+     "summary": "较昨日（+3,891）回落，总数较昨日 +451、突破 1 万 star，仓库昨日仍在更新：本地视频编辑 skill 热度未熄。",
+     "url": "https://github.com/kajisho5/ffmpeg-skill",
+     "stars": "10.7k",
+     "trend": "+2,993",
+     "tags": [
+      "高增长"
+     ]
+    },
+    {
+     "rank": "04",
+     "title": "meta/astryx",
+     "summary": "较昨日（+3,165）回落，总数较昨日 +301，仓库今日仍在更新：Meta 的 agent-ready 设计系统退居周榜第四。",
+     "url": "https://github.com/meta/astryx",
+     "stars": "32.9k",
+     "trend": "+2,890",
+     "tags": [
+      "高增长"
+     ]
+    },
+    {
+     "rank": "05",
+     "title": "alibaba/open-code-review",
+     "summary": "较昨日（+3,015）回落，总数较昨日 +361：大厂代码评审能力开源的样本周增维持高位。",
+     "url": "https://github.com/alibaba/open-code-review",
+     "stars": "56.0k",
+     "trend": "+2,638",
+     "tags": [
+      "高增长"
+     ]
+    },
+    {
+     "rank": "06",
+     "title": "google-labs-code/stitch-skills",
+     "summary": "较昨日（+2,572）略有回升，总数较昨日 +364，仓库昨日仍在更新：Stitch MCP 的 agent skill 库热度未熄。",
+     "url": "https://github.com/google-labs-code/stitch-skills",
+     "stars": "12.6k",
+     "trend": "+2,626",
+     "tags": [
+      "高增长"
+     ]
+    },
+    {
+     "rank": "07",
+     "title": "GoogleChrome/modern-web-guidance-src",
+     "summary": "较昨日（+2,694）回落，总数较昨日 +301，仓库昨日仍在更新：Chrome 官方 skill 退居周榜第七。",
+     "url": "https://github.com/GoogleChrome/modern-web-guidance-src",
+     "stars": "10.8k",
+     "trend": "+2,494",
+     "tags": [
+      "高增长"
+     ]
+    },
+    {
+     "rank": "08",
+     "title": "backnotprop/plannotator",
+     "summary": "较昨日（+2,395）回落，总数较昨日 +224，仓库今日仍在更新：\"人在回路\"工作台方向热度未熄。",
+     "url": "https://github.com/backnotprop/plannotator",
+     "stars": "14.9k",
+     "trend": "+1,956",
+     "tags": [
+      "高增长"
+     ]
+    },
+    {
+     "rank": "09",
+     "title": "ag-ui-protocol/ag-ui",
+     "summary": "较昨日（+2,966）回落，总数较昨日 +188：agent 与前端交互的协议层样本热度未熄。",
+     "url": "https://github.com/ag-ui-protocol/ag-ui",
+     "stars": "21.6k",
+     "trend": "+1,753",
+     "tags": [
+      "高增长"
+     ]
+    },
+    {
+     "rank": "10",
+     "title": "we-promise/sure",
+     "summary": "首次杀入周榜前十，总数较昨日 +237，仓库今日仍在更新：Ruby 实现的个人理财应用，\"人人参与开发\"的开源记账工具。",
+     "url": "https://github.com/we-promise/sure",
+     "stars": "17.8k",
+     "trend": "+1,567",
+     "tags": [
+      "高增长"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "github-new",
+   "title": "值得关注的新项目",
+   "shortTitle": "新项目",
+   "description": "近期创建、增长迅速的有潜力项目",
+   "items": [
+    {
+     "rank": "01",
+     "title": "Marvisak/VIctory",
+     "summary": "让 GTA VI 在 Windows 上原生运行：把主机的 x86-64 代码原样跑在自己进程里，底下再由它提供平台层并提前转换着色器与数据。 Xbox Series X|S 版 GTA VI 在 Windows 原生运行、着色器与管线提前转换、用户自备游戏文件、配套架构文档。",
+     "url": "https://github.com/Marvisak/VIctory",
+     "tags": [
+      "了解即可"
+     ]
+    },
+    {
+     "rank": "02",
+     "title": "xcl-dev/xcl",
+     "summary": "Xbox Series X|S 通往 Windows 的兼容层：Wine/Proton 那套思路搬到主机游戏上，让你已拥有的主机游戏直接在 PC 上跑。 GDK 游戏在 Windows 原生运行、无 CPU 模拟（x64 代码直接跑）、主机 GPU 代码重编译为 PC 着色器、自行实现主机系统库（kernelx、XGameRuntime、d3d12_xs 等）。",
+     "url": "https://github.com/xcl-dev/xcl",
+     "tags": [
+      "值得关注"
+     ]
+    },
+    {
+     "rank": "03",
+     "title": "erkamyaman/rust-anything",
+     "summary": "把你的应用重写成 Rust，并证明它行为没变：先录下原版应用的行为，再让 agent 一块一块重写，每块都对照录像验过才算数。 录制原版应用的行为作为对照、agent 分块重写 Rust 实现、每块重写都对照录制结果校验、多语言 README（含中文）、Rust 实现。",
+     "url": "https://github.com/erkamyaman/rust-anything",
+     "tags": [
+      "值得关注"
+     ]
+    },
+    {
+     "rank": "04",
+     "title": "mdiri-ai/SoduWork",
+     "summary": "给团队和它们的 agent 用的 AI 原生引擎：一次请求不以\"给出答案\"结束，而以\"提问的人签字确认\"结束，多 agent、多 harness、自托管。 多 harness 支持（Pi、OpenCode、DeepSeek、Qwen Code、Kimi Code、Codex 等）、多 agent 协作、团队请求驱动的工作流、自托管部署、中英双语文档。",
+     "url": "https://github.com/mdiri-ai/SoduWork",
+     "tags": [
+      "值得关注"
+     ]
+    }
+   ]
+  }
+ ],
+ "_pipelines": {
+  "github": {
+   "digest": [
+    {
+     "title": "速览",
+     "text": "Claude-BugHunter 单日 +1,826 七度登顶日榜、总数突破 2.1 万 star，skill 数 83→84；CLI-Anything 单日 +1,074 升至第二；app-store-compliance 单日 +928、总数逼近 5,900 star。"
+    },
+    {
+     "title": "周榜",
+     "text": "周榜：last30days-skill 周增 +5,369 守住第一并突破 7.4 万 star，univer、ffmpeg-skill、astryx 周增回落但仍居前列；个人理财应用 sure 周增 +1,567 首次杀入周榜前十。"
+    },
+    {
+     "title": "新面孔",
+     "text": "新面孔：GTA VI 上 PC 的 VIctory 创建 2 天即达 11,314 star（README 明确标注尚不可玩）；Xbox 兼容层 xcl 创建 5 天达 7,828 star；Leonida 仍返回 404，确认下架。"
+    }
+   ],
+   "highlight": "Claude-BugHunter 单日 +1,826 七度登顶日榜、总数突破 2.1 万 star，skill 数 83→84；CLI-Anything 单日 +1,074 升至第二；app-store-compliance 单日 +928、总数逼近 5,900 star。",
+   "date": "2026-11-25"
+  },
+  "tech-news": {
+   "digest": [
+    {
+     "title": "速览",
+     "text": "智谱 GLM-5.4、蚂蚁 Ling-3.2-air、中国电信 Xing4.1 三款大模型同日上线，开源与架构创新齐发。"
+    },
+    {
+     "title": "速览",
+     "text": "英伟达董事会恢复黄仁勋 CEO 职务，股价单日大涨 30%、市值一日增加约 1 万亿美元。"
+    },
+    {
+     "title": "速览",
+     "text": "弗吉尼亚与俄勒冈两州就 Grok 生成非自愿性化影像起诉 SpaceX，AI 安全治理进入司法追责阶段。"
+    }
+   ],
+   "highlight": "智谱 GLM-5.4、蚂蚁 Ling-3.2-air、中国电信 Xing4.1 三款大模型同日上线，开源与架构创新齐发。",
+   "date": "2026-11-24"
+  }
+ },
+ "digest": [
+  {
+   "title": "速览",
+   "text": "Claude-BugHunter 单日 +1,826 七度登顶日榜、总数突破 2.1 万 star，skill 数 83→84；CLI-Anything 单日 +1,074 升至第二；app-store-compliance 单日 +928、总数逼近 5,900 star。"
+  },
+  {
+   "title": "速览",
+   "text": "智谱 GLM-5.4、蚂蚁 Ling-3.2-air、中国电信 Xing4.1 三款大模型同日上线，开源与架构创新齐发。"
+  }
+ ],
+ "intro": "Claude-BugHunter 单日 +1,826 七度登顶日榜、总数突破 2.1 万 star，skill 数 83→84；CLI-Anything 单日 +1,074 升至第二；app-store-compliance 单日 +928、总数逼近 5,900 star。 智谱 GLM-5.4、蚂蚁 Ling-3.2-air、中国电信 Xing4.1 三款大模型同日上线，开源与架构创新齐发。",
+ "tasks": [
+  {
+   "icon": "GH",
+   "name": "GitHub 开源情报",
+   "detail": "Trending · Star 增速 · 新项目",
+   "time": "08:30"
+  },
+  {
+   "icon": "NW",
+   "name": "科技新闻日报",
+   "detail": "新闻聚合 · 中文简报",
+   "time": "09:00"
+  }
+ ],
+ "date": "2026-11-25",
+ "issue": "056",
+ "updatedAt": "00:37 更新"
+}
