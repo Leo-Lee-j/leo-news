@@ -1,110 +1,6 @@
 {
  "sections": [
   {
-   "id": "tech-ai",
-   "title": "AI 与大模型",
-   "shortTitle": "AI 大模型",
-   "description": "大模型发布与更新",
-   "items": [
-    {
-     "rank": "01",
-     "title": "Claude 助力攻克黎曼猜想：175,187 个 Lean 文件的机器验证证明，数学界仍在消化",
-     "summary": "Anthropic 数学家 Levent Alpöge 宣布与 Claude 合作完成了黎曼猜想的证明，并以约 1700 万行、175,187 个 Lean 4 文件的形式发布，覆盖黎曼猜想与广义黎曼猜想。MIT 数学家 Andrew Sutherland 等人独立用 Lean 内核复核通过，Lean FRO 与 Mathlib Initiative 联合声明“完全确信证明正确”。研究自 10 月 6 日启动，关键突破在 11 月 15",
-     "url": "https://www.scientificamerican.com/article/anthropic-mathematician-claims-to-prove-riemann-hypothesis-most-famous-problem-in-all-of-math/",
-     "source": "Scientific American｜2026-11-21（证明 11 月 20 日发布，Lean 社区 11 月 21 日认证）",
-     "tags": [
-      "AI 大模型"
-     ]
-    },
-    {
-     "rank": "02",
-     "title": "Anthropic 推出企业前沿防护 EFS 公测：最强模型也能零数据留存",
-     "summary": "Anthropic 正式推出 Enterprise Frontier Safeguards（EFS）公开测试，面向使用 Claude 最强模型（Fable、Mythos 系列）的合规企业。提示词与回复的加密副本存入客户自己的云存储桶，Anthropic 与云厂商均不留存数据，自动化安全监测只在客户云内扫描、发现可疑滥用时生成不含原文的安全报告。EFS 覆盖 Claude Platform、AWS 与 Google Cloud 上的 Cl",
-     "url": "https://docs.claude.com/en/release-notes/overview?entry=november-2-2026",
-     "source": "Anthropic 官方发布说明｜2026-11-23",
-     "tags": [
-      "AI 大模型"
-     ]
-    }
-   ]
-  },
-  {
-   "id": "tech-dev",
-   "title": "AI 工程与开发工具",
-   "shortTitle": "开发工具",
-   "description": "模型部署 · AI 编程 · Agent",
-   "items": [
-    {
-     "rank": "03",
-     "title": "百度开源 ERNIE 5.5 Flash Preview 权重：280B MoE、Apache 2.0，但训练尚未完成",
-     "summary": "百度在 Hugging Face 与 ModelScope 上发布 ERNIE 5.5 Flash Preview 权重，Apache 2.0 协议。模型为 280B 总参数、每 token 激活 14B 的 MoE，上下文窗口 100 万 token，提供 FP4、FP8、BF16 三种下载格式，首日即有 SGLang 支持。百度同时明确警告：这是中间检查点，后训练尚未完成，部分能力可能不完整；Apache 2.0 仅覆盖本次 Pre",
-     "url": "https://superpowerdaily.com/posts/baidu-publishes-ernie-5-5-flash-preview-weights-under-apache-2-0",
-     "source": "Superpower Daily｜2026-11-24",
-     "tags": [
-      "开发工具"
-     ]
-    },
-    {
-     "rank": "04",
-     "title": "Aleph Alpha 发布 Kolibri 1.1：稀疏注意力让长文本推理更快，Apache 2.0 开源",
-     "summary": "德国 Aleph Alpha 发布 Kolibri 1.1，距上一代仅七周。模型总参数从 78B 降至 75B，每 token 激活 34.4B，权重以 Apache 2.0 开源。新引入的稀疏注意力只对上下文中最相关的 2048 个 token 与最近 128 个 token 计算注意力，长文本推理的 GPU 时间降至上一代的约 30%。",
-     "url": "https://www.kucoin.com/news/flash/germany-s-kolibri-1-1-model-open-sourced-gpu-inference-time-drops-to-30-of-previous-version",
-     "source": "KuCoin 快讯｜2026-11-24",
-     "tags": [
-      "开发工具"
-     ]
-    },
-    {
-     "rank": "05",
-     "title": "Anthropic 推出 Claude Ship：AI 按团队规则审 PR、修代码、合入",
-     "summary": "Anthropic 推出 Claude Ship，进入 Beta，面向 Claude Team 与 Enterprise 客户的 GitHub 仓库。它按开发团队设定的规则自动评审 Pull Request、修复代码问题并合入变更，Anthropic 还为企业客户提供 1 万美元额度的使用激励。限制是：使用零数据留存、HIPAA 配置或客户自管加密密钥的组织暂不可用。",
-     "url": "https://aitools.sh/news/claude-ship-github-limits/",
-     "source": "AI Tools｜2026-11-24（产品 11 月 23 日发布）",
-     "tags": [
-      "开发工具"
-     ]
-    }
-   ]
-  },
-  {
-   "id": "tech-industry",
-   "title": "科技行业动态",
-   "shortTitle": "行业动态",
-   "description": "公司动态 · 产品发布 · 芯片与云",
-   "items": [
-    {
-     "rank": "06",
-     "title": "微软为 M365 史上最严重宕机拉响 Code Red：目标未来全球故障一小时内解决",
-     "summary": "微软在 11 月 12–13 日持续约 24 小时的 Microsoft 365 全球宕机后，启动最高级别内部动员“Code Red”，全面整改重大故障的预防与响应。宕机源于 7 月引入、未被发现的 Windows 可扩展性缺陷，影响 Exchange Online、Outlook、Teams、Copilot 等服务，波及多国政府、交易机构与航空通讯；M365 Core 总裁称这是 Exchange Online 史上影响客户最多的一次",
-     "url": "https://www.reuters.com/business/microsoft-declares-code-red-after-historic-outage-internal-memos-show-2026-11-24/",
-     "source": "Reuters｜2026-11-24",
-     "tags": [
-      "行业动态"
-     ]
-    },
-    {
-     "rank": "07",
-     "title": "美国把 Megaspeed 列入实体清单：涉英伟达芯片转口调查，阿里巴巴子公司同在列",
-     "summary": "美国商务部 11 月 23 日将新加坡云计算公司 Megaspeed 列入实体清单，同时列入的还有其关联方 Swiftdata、马来西亚子公司 Speedmatrix 等共 7 个实体，以及阿里巴巴新加坡子公司 Apex Enterprise Solutions。列入后，任何美国公司向其出口受管制技术均需许可证，原则上推定拒绝。Megaspeed 自 2024 年起被调查是否协助把先进英伟达 AI 芯片转口中国，公司否认违规；这是美国 ",
-     "url": "https://www.reuters.com/business/retail-consumer/what-we-know-about-megaspeed-nvidia-customer-blacklisted-by-us-2026-11-24/",
-     "source": "Reuters｜2026-11-24",
-     "tags": [
-      "行业动态"
-     ]
-    },
-    {
-     "rank": "08",
-     "title": "从零自研引擎的 Ladybird 浏览器进入 Alpha：macOS 与 Linux 可下载",
-     "summary": "独立浏览器 Ladybird 发布首个公开 Alpha（版本 2026.47.7），macOS 与 Linux 用户可直接下载，不再需要自行编译。其渲染引擎完全从零编写，不基于 Chromium、WebKit 或 Gecko，HTML、CSS、DOM、布局、JavaScript 与 WebAssembly 均为自研实现；团队正用 AI 辅助把部分 C++ 代码迁移到 Rust。路线图是 2027 年出 Beta，2028 年发布稳定版；",
-     "url": "https://ladybird.org/",
-     "source": "Ladybird 官网｜2026-11-23",
-     "tags": [
-      "行业动态"
-     ]
-    }
-   ]
-  },
-  {
    "id": "github-hot",
    "title": "GitHub 今日热门",
    "shortTitle": "GitHub 热榜",
@@ -373,6 +269,110 @@
      ]
     }
    ]
+  },
+  {
+   "id": "tech-ai",
+   "title": "AI 与大模型",
+   "shortTitle": "AI 大模型",
+   "description": "大模型发布与更新",
+   "items": [
+    {
+     "rank": "01",
+     "title": "OpenAI 发布矩阵乘法指数预印本：声称证明指数恰为 9/4",
+     "summary": "OpenAI 公开一篇预印本论文，声称证明了矩阵乘法的指数恰好是 9/4（即 Θ(n^2.25)），推翻了指数为 2 的猜想。该论文 11 月 25 日登顶 Hacker News 首页（872 分、483 条评论）。据 HN 讨论，OpenAI 近期发布的 4 篇新论文共涉及“Top 500 数学开放问题”中的 8 个问题。",
+     "url": "https://github.com/openai/math/blob/main/preprints/The-matrix-multiplication-exponent-is-nine-fourths-November-24-2026/paper.pdf",
+     "source": "OpenAI math 仓库预印本｜2026-11-24",
+     "tags": [
+      "AI 大模型"
+     ]
+    },
+    {
+     "rank": "02",
+     "title": "DeepSeek 完成约 150 亿美元融资，估值约 860 亿美元并筹备科创板 IPO",
+     "summary": "DeepSeek 完成第二轮外部融资，募资约 1000 亿元人民币（约 150 亿美元），公司隐含估值约 860 亿美元；创始人梁文锋身家升至约 550 亿美元，成为全球最富有的 AI 模型创造者。公司已聘请中信证券筹备科创板上市，招股书预计 2026 年底前提交，2027 年挂牌。",
+     "url": "https://www.ndtv.com/world-news/deepseek-founder-liang-wenfeng-is-richest-ai-moder-creator-wealth-jumps-to-55-billion-12371928/amp/1",
+     "source": "彭博（经 NDTV 等多家媒体转引）｜2026-11-24",
+     "tags": [
+      "AI 大模型"
+     ]
+    },
+    {
+     "rank": "03",
+     "title": "DeepMind 用 Gemini 4 智能体团队优化量子算法，最高提速 290 倍且全部经 Lean 形式化验证",
+     "summary": "Google DeepMind 与 Google Quantum AI 用多支 Gemini 4 智能体团队改进经典量子算法，所有结果均经 Lean 定理证明器验证，并开源了 Lean 库、问题定义与已验证解法。其中惯性约束聚变模拟成本降低 11.8 倍（所需纠错量子比特从 5650 降至 4338）、光化学分子模拟便宜 8 倍、细胞色素 P450 酶模拟提速 2.5 倍、Grover 算法特定实现提速 2.57 倍，arcsin 子程",
+     "url": "https://deepmind.google/blog/finding-faster-quantum-algorithms-with-agents-and-formal-verification/",
+     "source": "Google DeepMind 官方博客｜2026-11-23",
+     "tags": [
+      "AI 大模型"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "tech-dev",
+   "title": "AI 工程与开发工具",
+   "shortTitle": "开发工具",
+   "description": "模型部署 · AI 编程 · Agent",
+   "items": [
+    {
+     "rank": "04",
+     "title": "Claude 推出“Install as app”：Artifact 一键变成 Mac/Windows 桌面应用",
+     "summary": "Claude 新增“Install as app”功能（Beta）：用户用 Claude 生成的 Artifact（如计时器、文件管理器、系统监控工具）可直接安装为 Mac 或 Windows 桌面应用，拥有独立图标与窗口，无需打包、签名或配置 API key。功能覆盖全部套餐（含免费版），需 Claude Desktop 6.28899.0 及以上版本。",
+     "url": "https://www.macrumors.com/2026/11/25/claude-install-artifacts-desktop-apps/",
+     "source": "Anthropic（经 MacRumors、eWeek 等报道）｜2026-11-24",
+     "tags": [
+      "开发工具"
+     ]
+    },
+    {
+     "rank": "05",
+     "title": "英伟达低调开放 Nemotron-Labs-Image-30B-A3B 权重：30B 参数图像生成模型，仅激活 3B 参数",
+     "summary": "英伟达在 Hugging Face 上架了 Nemotron-Labs-Image-30B-A3B 的开放权重，这是一个自回归图像生成模型，采用混合 Mamba-2 架构的 MoE 设计，总参数 30B、每 token 仅激活 3B，是其 Nemotron-Labs-VisualCreation 框架的核心光栅渲染引擎。英伟达称其性能超过 GPT Image 2。",
+     "url": "https://wccftech.com/nvidia-quietly-releases-open-weights-for-nemotron-labs-image-30b-a3b/",
+     "source": "WCCFTech（信源为 Hugging Face）｜2026-11-25",
+     "tags": [
+      "开发工具"
+     ]
+    },
+    {
+     "rank": "06",
+     "title": "PrismML 发布 Ternary Bonsai 2.5 27B：三值量化压缩至 5.9GB，SWE-bench Verified 达 75.6",
+     "summary": "PrismML 发布 Ternary Bonsai 2.5 27B，基于 Qwen3.8 27B 的三值量化版本，权重压缩为 -1/0/1 三值，推理内存占用仅 5.9GB，以 Apache 2.0 协议开放权重，提供 GGUF 与 Apple Silicon 优化的 MLX 格式。厂商称其在 SWE-bench Verified 上得分 75.6，接近未压缩基座水平。",
+     "url": "https://kalpakkale.com/blog/prismml-ternary-bonsai-2-5-27b-open-weights-release-5-9gb-apache-2-0/",
+     "source": "PrismML（经 Kalpak Kale、GIGAZINE 报道）｜2026-11-24",
+     "tags": [
+      "开发工具"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "tech-industry",
+   "title": "科技行业动态",
+   "shortTitle": "行业动态",
+   "description": "公司动态 · 产品发布 · 芯片与云",
+   "items": [
+    {
+     "rank": "07",
+     "title": "苹果 Siri AI 进驻 8 个原生应用，App Intents 开发者预览同步开启",
+     "summary": "苹果正式在 8 个原生应用（日历、文件、邮件、地图、信息、照片、Safari、天气）中上线 Siri AI，可理解应用内上下文并执行多步操作；同时开放 App Intents 开发者预览，第三方开发者可构建“app skills”（多步骤技能）与跨应用请求，但目前仅限内部 TestFlight，App Store 提交预计 2027 年春季开放，首批面向用户的第三方集成预计 2027 年初上线；欧盟地区暂不可用。",
+     "url": "https://emergent.sh/news/apple-rolls-out-siri-ai-across-8-apps-opens",
+     "source": "Apple（经 Emergent、ASO World 等报道）｜2026-11-23",
+     "tags": [
+      "行业动态"
+     ]
+    },
+    {
+     "rank": "08",
+     "title": "微软确认 Azure API Management Classic 漏洞已被利用，敦促用户立即轮换密钥",
+     "summary": "微软确认 Azure API Management（APIM）Classic 各层级（Developer、Basic、Standard、Premium）存在漏洞，已被用于窃取存储的密钥与令牌；微软 11 月 18 日发现问题、19 日完成服务端封堵，但修复不会自动作废此前已被窃取的凭证。挪威国家安全局将针对 Equinor、Skagerak Energi 等能源企业的攻击与该漏洞关联。可能泄露的信息包括 Named Values 中的密",
+     "url": "https://www.bleepingcomputer.com/news/security/microsoft-azure-flaw-exploited-to-steal-customers-api-credentials/",
+     "source": "BleepingComputer / 微软 Azure Service Health 通告｜2026-11-25",
+     "tags": [
+      "行业动态"
+     ]
+    }
+   ]
   }
  ],
  "_pipelines": {
@@ -398,19 +398,19 @@
    "digest": [
     {
      "title": "速览",
-     "text": "Claude 协助完成黎曼猜想的 Lean 机器验证证明，Lean 社区已认证正确，但人类数学家仍需时间消化这份 1700 万行证明。"
+     "text": "OpenAI 发布矩阵乘法指数预印本，声称证明指数恰为 9/4，登顶 Hacker News——AI 科研正进入 Lean 形式化验证时代。"
     },
     {
      "title": "速览",
-     "text": "微软为 M365 史上最严重宕机拉响最高级别 Code Red；美国同日把涉英伟达芯片转口调查的 Megaspeed 列入实体清单。"
+     "text": "DeepSeek 完成约 150 亿美元融资，估值约 860 亿美元，并筹备科创板 IPO。"
     },
     {
      "title": "速览",
-     "text": "百度、Aleph Alpha 同日开源大模型权重，Anthropic 则以零数据留存方案 EFS 与代码评审工具 Claude Ship 加码企业市场。"
+     "text": "Claude 的 Artifact 可一键安装为 Mac/Windows 桌面应用；苹果 Siri AI 同步进驻 8 个原生应用。"
     }
    ],
-   "highlight": "Claude 协助完成黎曼猜想的 Lean 机器验证证明，Lean 社区已认证正确，但人类数学家仍需时间消化这份 1700 万行证明。",
-   "date": "2026-11-25"
+   "highlight": "OpenAI 发布矩阵乘法指数预印本，声称证明指数恰为 9/4，登顶 Hacker News——AI 科研正进入 Lean 形式化验证时代。",
+   "date": "2026-11-26"
   }
  },
  "digest": [
@@ -420,10 +420,10 @@
   },
   {
    "title": "速览",
-   "text": "Claude 协助完成黎曼猜想的 Lean 机器验证证明，Lean 社区已认证正确，但人类数学家仍需时间消化这份 1700 万行证明。"
+   "text": "OpenAI 发布矩阵乘法指数预印本，声称证明指数恰为 9/4，登顶 Hacker News——AI 科研正进入 Lean 形式化验证时代。"
   }
  ],
- "intro": "Claude-BugHunter 单日 +1,652 八度登顶日榜、总数逼近 2.3 万 star，skill 数 84→85、斜杠命令 15→16；t3code 单日净增 2,001、总数逼近 8 万，手机遥控 coding agent 的路线连续两日加速。 Claude 协助完成黎曼猜想的 Lean 机器验证证明，Lean 社区已认证正确，但人类数学家仍需时间消化这份 1700 万行证明。",
+ "intro": "Claude-BugHunter 单日 +1,652 八度登顶日榜、总数逼近 2.3 万 star，skill 数 84→85、斜杠命令 15→16；t3code 单日净增 2,001、总数逼近 8 万，手机遥控 coding agent 的路线连续两日加速。 OpenAI 发布矩阵乘法指数预印本，声称证明指数恰为 9/4，登顶 Hacker News——AI 科研正进入 Lean 形式化验证时代。",
  "tasks": [
   {
    "icon": "GH",
@@ -440,5 +440,5 @@
  ],
  "date": "2026-11-26",
  "issue": "057",
- "updatedAt": "00:38 更新"
+ "updatedAt": "01:01 更新"
 }
