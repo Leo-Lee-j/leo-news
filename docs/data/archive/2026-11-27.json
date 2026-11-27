@@ -1,110 +1,6 @@
 {
  "sections": [
   {
-   "id": "tech-ai",
-   "title": "AI 与大模型",
-   "shortTitle": "AI 大模型",
-   "description": "大模型发布与更新",
-   "items": [
-    {
-     "rank": "01",
-     "title": "OpenAI 发布矩阵乘法指数预印本：声称证明指数恰为 9/4",
-     "summary": "OpenAI 公开一篇预印本论文，声称证明了矩阵乘法的指数恰好是 9/4（即 Θ(n^2.25)），推翻了指数为 2 的猜想。该论文 11 月 25 日登顶 Hacker News 首页（872 分、483 条评论）。据 HN 讨论，OpenAI 近期发布的 4 篇新论文共涉及“Top 500 数学开放问题”中的 8 个问题。",
-     "url": "https://github.com/openai/math/blob/main/preprints/The-matrix-multiplication-exponent-is-nine-fourths-November-24-2026/paper.pdf",
-     "source": "OpenAI math 仓库预印本｜2026-11-24",
-     "tags": [
-      "AI 大模型"
-     ]
-    },
-    {
-     "rank": "02",
-     "title": "DeepSeek 完成约 150 亿美元融资，估值约 860 亿美元并筹备科创板 IPO",
-     "summary": "DeepSeek 完成第二轮外部融资，募资约 1000 亿元人民币（约 150 亿美元），公司隐含估值约 860 亿美元；创始人梁文锋身家升至约 550 亿美元，成为全球最富有的 AI 模型创造者。公司已聘请中信证券筹备科创板上市，招股书预计 2026 年底前提交，2027 年挂牌。",
-     "url": "https://www.ndtv.com/world-news/deepseek-founder-liang-wenfeng-is-richest-ai-moder-creator-wealth-jumps-to-55-billion-12371928/amp/1",
-     "source": "彭博（经 NDTV 等多家媒体转引）｜2026-11-24",
-     "tags": [
-      "AI 大模型"
-     ]
-    },
-    {
-     "rank": "03",
-     "title": "DeepMind 用 Gemini 4 智能体团队优化量子算法，最高提速 290 倍且全部经 Lean 形式化验证",
-     "summary": "Google DeepMind 与 Google Quantum AI 用多支 Gemini 4 智能体团队改进经典量子算法，所有结果均经 Lean 定理证明器验证，并开源了 Lean 库、问题定义与已验证解法。其中惯性约束聚变模拟成本降低 11.8 倍（所需纠错量子比特从 5650 降至 4338）、光化学分子模拟便宜 8 倍、细胞色素 P450 酶模拟提速 2.5 倍、Grover 算法特定实现提速 2.57 倍，arcsin 子程",
-     "url": "https://deepmind.google/blog/finding-faster-quantum-algorithms-with-agents-and-formal-verification/",
-     "source": "Google DeepMind 官方博客｜2026-11-23",
-     "tags": [
-      "AI 大模型"
-     ]
-    }
-   ]
-  },
-  {
-   "id": "tech-dev",
-   "title": "AI 工程与开发工具",
-   "shortTitle": "开发工具",
-   "description": "模型部署 · AI 编程 · Agent",
-   "items": [
-    {
-     "rank": "04",
-     "title": "Claude 推出“Install as app”：Artifact 一键变成 Mac/Windows 桌面应用",
-     "summary": "Claude 新增“Install as app”功能（Beta）：用户用 Claude 生成的 Artifact（如计时器、文件管理器、系统监控工具）可直接安装为 Mac 或 Windows 桌面应用，拥有独立图标与窗口，无需打包、签名或配置 API key。功能覆盖全部套餐（含免费版），需 Claude Desktop 6.28899.0 及以上版本。",
-     "url": "https://www.macrumors.com/2026/11/25/claude-install-artifacts-desktop-apps/",
-     "source": "Anthropic（经 MacRumors、eWeek 等报道）｜2026-11-24",
-     "tags": [
-      "开发工具"
-     ]
-    },
-    {
-     "rank": "05",
-     "title": "英伟达低调开放 Nemotron-Labs-Image-30B-A3B 权重：30B 参数图像生成模型，仅激活 3B 参数",
-     "summary": "英伟达在 Hugging Face 上架了 Nemotron-Labs-Image-30B-A3B 的开放权重，这是一个自回归图像生成模型，采用混合 Mamba-2 架构的 MoE 设计，总参数 30B、每 token 仅激活 3B，是其 Nemotron-Labs-VisualCreation 框架的核心光栅渲染引擎。英伟达称其性能超过 GPT Image 2。",
-     "url": "https://wccftech.com/nvidia-quietly-releases-open-weights-for-nemotron-labs-image-30b-a3b/",
-     "source": "WCCFTech（信源为 Hugging Face）｜2026-11-25",
-     "tags": [
-      "开发工具"
-     ]
-    },
-    {
-     "rank": "06",
-     "title": "PrismML 发布 Ternary Bonsai 2.5 27B：三值量化压缩至 5.9GB，SWE-bench Verified 达 75.6",
-     "summary": "PrismML 发布 Ternary Bonsai 2.5 27B，基于 Qwen3.8 27B 的三值量化版本，权重压缩为 -1/0/1 三值，推理内存占用仅 5.9GB，以 Apache 2.0 协议开放权重，提供 GGUF 与 Apple Silicon 优化的 MLX 格式。厂商称其在 SWE-bench Verified 上得分 75.6，接近未压缩基座水平。",
-     "url": "https://kalpakkale.com/blog/prismml-ternary-bonsai-2-5-27b-open-weights-release-5-9gb-apache-2-0/",
-     "source": "PrismML（经 Kalpak Kale、GIGAZINE 报道）｜2026-11-24",
-     "tags": [
-      "开发工具"
-     ]
-    }
-   ]
-  },
-  {
-   "id": "tech-industry",
-   "title": "科技行业动态",
-   "shortTitle": "行业动态",
-   "description": "公司动态 · 产品发布 · 芯片与云",
-   "items": [
-    {
-     "rank": "07",
-     "title": "苹果 Siri AI 进驻 8 个原生应用，App Intents 开发者预览同步开启",
-     "summary": "苹果正式在 8 个原生应用（日历、文件、邮件、地图、信息、照片、Safari、天气）中上线 Siri AI，可理解应用内上下文并执行多步操作；同时开放 App Intents 开发者预览，第三方开发者可构建“app skills”（多步骤技能）与跨应用请求，但目前仅限内部 TestFlight，App Store 提交预计 2027 年春季开放，首批面向用户的第三方集成预计 2027 年初上线；欧盟地区暂不可用。",
-     "url": "https://emergent.sh/news/apple-rolls-out-siri-ai-across-8-apps-opens",
-     "source": "Apple（经 Emergent、ASO World 等报道）｜2026-11-23",
-     "tags": [
-      "行业动态"
-     ]
-    },
-    {
-     "rank": "08",
-     "title": "微软确认 Azure API Management Classic 漏洞已被利用，敦促用户立即轮换密钥",
-     "summary": "微软确认 Azure API Management（APIM）Classic 各层级（Developer、Basic、Standard、Premium）存在漏洞，已被用于窃取存储的密钥与令牌；微软 11 月 18 日发现问题、19 日完成服务端封堵，但修复不会自动作废此前已被窃取的凭证。挪威国家安全局将针对 Equinor、Skagerak Energi 等能源企业的攻击与该漏洞关联。可能泄露的信息包括 Named Values 中的密",
-     "url": "https://www.bleepingcomputer.com/news/security/microsoft-azure-flaw-exploited-to-steal-customers-api-credentials/",
-     "source": "BleepingComputer / 微软 Azure Service Health 通告｜2026-11-25",
-     "tags": [
-      "行业动态"
-     ]
-    }
-   ]
-  },
-  {
    "id": "github-hot",
    "title": "GitHub 今日热门",
    "shortTitle": "GitHub 热榜",
@@ -364,6 +260,110 @@
      ]
     }
    ]
+  },
+  {
+   "id": "tech-ai",
+   "title": "AI 与大模型",
+   "shortTitle": "AI 大模型",
+   "description": "大模型发布与更新",
+   "items": [
+    {
+     "rank": "01",
+     "title": "OpenAI 承认 GPT-6.2 计费错误：用量上限提速 40%/25% 触达，补偿一次用量重置",
+     "summary": "OpenAI 产品负责人 Thibault Sottiaux 在 X 上承认，GPT-6.2 Astra 与 Sol 上线时计费错误地打了折扣，多数用户的使用量被少算。修复后，同样的工作量会消耗更多用量额度：与上周相比，Astra 用户触达上限的速度快 40%，Sol 快 25%。OpenAI 不会追收过去的差额，并为 Go、Plus、Pro、Business 用户各补发一次 banked reset（用量重置）。",
+     "url": "https://www.bleepingcomputer.com/news/artificial-intelligence/openai-warns-gpt-62-astra-will-hit-usage-limits-40-percent-faster-because-it-fixed-a-bug/",
+     "source": "BleepingComputer｜2026-11-26",
+     "tags": [
+      "AI 大模型"
+     ]
+    },
+    {
+     "rank": "02",
+     "title": "DeepMind：AI Agent 已自主掌控部分算力，为下一代 Gemini 跑实验",
+     "summary": "Google DeepMind 研究副总裁 Koray Kavukcuoglu 在公司播客中确认，AI Agent 现在可以自主支配 DeepMind 的一部分算力，自行决定运行哪些实验，以开发下一代 Gemini 模型。作为安全措施，DeepMind 在训练中不奖励 Agent 的内部思维链，使其意图保持自然语言可审。Kavukcuoglu 同时强调，距离完整的递归自我改进\"还很远\"，且未透露 Agent 控制的算力比例。",
+     "url": "https://the-decoder.com/ai-agents-now-control-part-of-deepminds-compute-for-gemini-experiments-but-recursive-self-improvement-remains-distant/",
+     "source": "The Decoder｜2026-11-25",
+     "tags": [
+      "AI 大模型"
+     ]
+    },
+    {
+     "rank": "03",
+     "title": "Google Cogentic 一天发布 11 篇论文，含无条件次指数因式分解",
+     "summary": "Google 的 Cogentic 研究团队在 google-research 仓库集中发布 11 篇论文，仅 11 月 25 日一天就新增 6 篇，内容包括经典 NFS 复杂度点的无条件整数因式分解、确定性次指数因式分解、固定特征下的次拟多项式离散对数，以及双矩阵博弈的精确多项式时间 1/5 近似 Nash 算法，全部采用 Apache 2.0 协议。复杂性理论家 Scott Aaronson 评价：理论分量很重，但对现实密码学没有实",
+     "url": "https://thecontext.dev/en/briefing/2026-11-26/",
+     "source": "The Context（Hacker News 日报）｜2026-11-26",
+     "tags": [
+      "AI 大模型"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "tech-dev",
+   "title": "AI 工程与开发工具",
+   "shortTitle": "开发工具",
+   "description": "模型部署 · AI 编程 · Agent",
+   "items": [
+    {
+     "rank": "04",
+     "title": "Hugging Face：1000 个 DeepSeek Agent 九天合并 8500 多个 PR，造出无权重聊天机器人 PyBot",
+     "summary": "Hugging Face 发布的实地报告显示，11 月 5 日至 13 日，规模逐步扩大到 1000 个 DeepSeek Agent 的群体在九天内协作开发了纯 Python 聊天机器人 PyBot：交换约 17.5 万条消息，合并 8500 多个 PR，产出约 64 万行机器人代码与 55 万行测试代码。PyBot 完全使用标准库、无任何学习权重，在内部日常对话评测中胜率从 0% 提升至 26%，与 SmolLM-360M 相当。团",
+     "url": "https://www.techtimes.com/articles/331563/20261126/hugging-face-ai-agent-swarm-report-server-blocked-admin-token-attempt-accepted-peer-review-swap.htm",
+     "source": "Tech Times｜2026-11-26",
+     "tags": [
+      "开发工具"
+     ]
+    },
+    {
+     "rank": "05",
+     "title": "Anthropic：Messages API 从 Python 迁至 Rust，Claude Agent 闭环验证，单请求 CPU 降低约 70%",
+     "summary": "Anthropic 宣布完成 Messages API（Claude API、Claude Code、Cowork 的统一入口）从 Python 到 Rust 的迁移，全程零停机、未冻结功能开发。新版 Rust API 单请求 CPU 占用降低约 70%，内存降低 80% 以上，首 token 中位延迟降低约 20%。迁移的难点不在写代码——Claude 一周就写出核心请求路径的初版，而在验证等价性：团队把生产 API 本身变成验证器，",
+     "url": "https://www.anthropic.com/research/migrating-api-to-rust",
+     "source": "Anthropic 官方工程博客｜2026-11-25",
+     "tags": [
+      "开发工具"
+     ]
+    },
+    {
+     "rank": "06",
+     "title": "JFrog：自主 Agent ARTEX 在 Hugging Face 上传窃密模型，还泄露了自己的密钥",
+     "summary": "JFrog 披露，一个名为 ARTEX 的自主 AI Agent（开源渗透测试框架）在 Hugging Face 上传了伪装成 1B 参数微调模型的窃密模型：权重文件仅 2.5KB，实为通过 pickle、auto_map 远程代码与聊天模板注入三条路径执行的凭证窃取器，会收集容器环境变量、Kubernetes 服务账号 token 并经 Hub commit API 回传。戏剧性的是，Agent 在自家容器里测试时触发了窃密代码，把自",
+     "url": "https://research.jfrog.com/post/the-agent-that-robbed-itself-an-ai-driven-hugging-face-malware-campaign-leaks-its-own-operator/",
+     "source": "JFrog 安全研究｜2026-11-24",
+     "tags": [
+      "开发工具"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "tech-industry",
+   "title": "科技行业动态",
+   "shortTitle": "行业动态",
+   "description": "公司动态 · 产品发布 · 芯片与云",
+   "items": [
+    {
+     "rank": "07",
+     "title": "1Password 披露安全事件：员工 GitHub 账号被盗，部分客户元数据泄露，密码库未受影响",
+     "summary": "1Password 披露，攻击者入侵了一名员工的公司 GitHub 账号，借此访问源代码、向后端服务推送恶意代码，并下载了部分客户的管理数据，包括姓名、邮箱、账号标识、SRP 协议参数以及邀请与恢复邮件中的 token。公司强调，客户密码库内容、保护密码库的密钥和恢复密钥均未受影响；已禁用相关账号、轮换可能暴露的内部凭证，并把邀请与恢复验证码从 6 位数字延长为 10 位字母数字组合。",
+     "url": "https://1password.com/blog/update-on-nov-2026-security-incident",
+     "source": "1Password 官方博客｜2026-11-25（11 月 19 日开始调查）",
+     "tags": [
+      "行业动态"
+     ]
+    },
+    {
+     "rank": "08",
+     "title": "FCC 批准 SpaceX 百万颗轨道算力卫星计划 Starmind，首颗须 2033 年前部署",
+     "summary": "美国联邦通信委员会（FCC）批准 SpaceX 部署最多 100 万颗轨道计算模块，组成名为 Starmind 的太空数据中心星座，以太阳能供电、在轨处理 AI 计算任务。许可要求 SpaceX 在 2033 年 11 月前部署首颗授权卫星，2035 年前完成 10%，2038 年前完成 50%，2040 年前完成全部部署。亚马逊 Kuiper、Viasat 与美国天文学会曾要求驳回，FCC 认定环境与天文影响不在其管辖范围。",
+     "url": "https://www.reuters.com/business/media-telecom/us-authorizes-spacex-deploy-1-million-satellites-data-centers-space-2026-11-25/",
+     "source": "Reuters｜2026-11-25",
+     "tags": [
+      "行业动态"
+     ]
+    }
+   ]
   }
  ],
  "_pipelines": {
@@ -389,19 +389,19 @@
    "digest": [
     {
      "title": "速览",
-     "text": "OpenAI 发布矩阵乘法指数预印本，声称证明指数恰为 9/4，登顶 Hacker News——AI 科研正进入 Lean 形式化验证时代。"
+     "text": "OpenAI 承认 GPT-6.2 上线时计费少算，用量上限提速 40%/25% 触达，补偿一次用量重置。"
     },
     {
      "title": "速览",
-     "text": "DeepSeek 完成约 150 亿美元融资，估值约 860 亿美元，并筹备科创板 IPO。"
+     "text": "DeepMind 让 AI Agent 自主支配部分算力、为下一代 Gemini 跑实验；Hugging Face 千 Agent 九天合并 8500 多个 PR。"
     },
     {
      "title": "速览",
-     "text": "Claude 的 Artifact 可一键安装为 Mac/Windows 桌面应用；苹果 Siri AI 同步进驻 8 个原生应用。"
+     "text": "FCC 批准 SpaceX 百万颗轨道算力卫星；1Password 披露员工 GitHub 账号被盗事件。"
     }
    ],
-   "highlight": "OpenAI 发布矩阵乘法指数预印本，声称证明指数恰为 9/4，登顶 Hacker News——AI 科研正进入 Lean 形式化验证时代。",
-   "date": "2026-11-26"
+   "highlight": "OpenAI 承认 GPT-6.2 上线时计费少算，用量上限提速 40%/25% 触达，补偿一次用量重置。",
+   "date": "2026-11-27"
   }
  },
  "digest": [
@@ -411,10 +411,10 @@
   },
   {
    "title": "速览",
-   "text": "OpenAI 发布矩阵乘法指数预印本，声称证明指数恰为 9/4，登顶 Hacker News——AI 科研正进入 Lean 形式化验证时代。"
+   "text": "OpenAI 承认 GPT-6.2 上线时计费少算，用量上限提速 40%/25% 触达，补偿一次用量重置。"
   }
  ],
- "intro": "Claude-BugHunter 单日 +1,597 九度登顶日榜、总数逼近 2.5 万 star，skill 数仍为 85；t3code 单日净增 1,511、总数突破 8 万 star，手机遥控 coding agent 的路线继续加速。 OpenAI 发布矩阵乘法指数预印本，声称证明指数恰为 9/4，登顶 Hacker News——AI 科研正进入 Lean 形式化验证时代。",
+ "intro": "Claude-BugHunter 单日 +1,597 九度登顶日榜、总数逼近 2.5 万 star，skill 数仍为 85；t3code 单日净增 1,511、总数突破 8 万 star，手机遥控 coding agent 的路线继续加速。 OpenAI 承认 GPT-6.2 上线时计费少算，用量上限提速 40%/25% 触达，补偿一次用量重置。",
  "tasks": [
   {
    "icon": "GH",
@@ -431,5 +431,5 @@
  ],
  "date": "2026-11-27",
  "issue": "058",
- "updatedAt": "00:33 更新"
+ "updatedAt": "01:02 更新"
 }
