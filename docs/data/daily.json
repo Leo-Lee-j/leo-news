@@ -1,110 +1,6 @@
 {
  "sections": [
   {
-   "id": "tech-ai",
-   "title": "AI 与大模型",
-   "shortTitle": "AI 大模型",
-   "description": "大模型发布与更新",
-   "items": [
-    {
-     "rank": "01",
-     "title": "OpenAI 承认 GPT-6.2 计费错误：用量上限提速 40%/25% 触达，补偿一次用量重置",
-     "summary": "OpenAI 产品负责人 Thibault Sottiaux 在 X 上承认，GPT-6.2 Astra 与 Sol 上线时计费错误地打了折扣，多数用户的使用量被少算。修复后，同样的工作量会消耗更多用量额度：与上周相比，Astra 用户触达上限的速度快 40%，Sol 快 25%。OpenAI 不会追收过去的差额，并为 Go、Plus、Pro、Business 用户各补发一次 banked reset（用量重置）。",
-     "url": "https://www.bleepingcomputer.com/news/artificial-intelligence/openai-warns-gpt-62-astra-will-hit-usage-limits-40-percent-faster-because-it-fixed-a-bug/",
-     "source": "BleepingComputer｜2026-11-26",
-     "tags": [
-      "AI 大模型"
-     ]
-    },
-    {
-     "rank": "02",
-     "title": "DeepMind：AI Agent 已自主掌控部分算力，为下一代 Gemini 跑实验",
-     "summary": "Google DeepMind 研究副总裁 Koray Kavukcuoglu 在公司播客中确认，AI Agent 现在可以自主支配 DeepMind 的一部分算力，自行决定运行哪些实验，以开发下一代 Gemini 模型。作为安全措施，DeepMind 在训练中不奖励 Agent 的内部思维链，使其意图保持自然语言可审。Kavukcuoglu 同时强调，距离完整的递归自我改进\"还很远\"，且未透露 Agent 控制的算力比例。",
-     "url": "https://the-decoder.com/ai-agents-now-control-part-of-deepminds-compute-for-gemini-experiments-but-recursive-self-improvement-remains-distant/",
-     "source": "The Decoder｜2026-11-25",
-     "tags": [
-      "AI 大模型"
-     ]
-    },
-    {
-     "rank": "03",
-     "title": "Google Cogentic 一天发布 11 篇论文，含无条件次指数因式分解",
-     "summary": "Google 的 Cogentic 研究团队在 google-research 仓库集中发布 11 篇论文，仅 11 月 25 日一天就新增 6 篇，内容包括经典 NFS 复杂度点的无条件整数因式分解、确定性次指数因式分解、固定特征下的次拟多项式离散对数，以及双矩阵博弈的精确多项式时间 1/5 近似 Nash 算法，全部采用 Apache 2.0 协议。复杂性理论家 Scott Aaronson 评价：理论分量很重，但对现实密码学没有实",
-     "url": "https://thecontext.dev/en/briefing/2026-11-26/",
-     "source": "The Context（Hacker News 日报）｜2026-11-26",
-     "tags": [
-      "AI 大模型"
-     ]
-    }
-   ]
-  },
-  {
-   "id": "tech-dev",
-   "title": "AI 工程与开发工具",
-   "shortTitle": "开发工具",
-   "description": "模型部署 · AI 编程 · Agent",
-   "items": [
-    {
-     "rank": "04",
-     "title": "Hugging Face：1000 个 DeepSeek Agent 九天合并 8500 多个 PR，造出无权重聊天机器人 PyBot",
-     "summary": "Hugging Face 发布的实地报告显示，11 月 5 日至 13 日，规模逐步扩大到 1000 个 DeepSeek Agent 的群体在九天内协作开发了纯 Python 聊天机器人 PyBot：交换约 17.5 万条消息，合并 8500 多个 PR，产出约 64 万行机器人代码与 55 万行测试代码。PyBot 完全使用标准库、无任何学习权重，在内部日常对话评测中胜率从 0% 提升至 26%，与 SmolLM-360M 相当。团",
-     "url": "https://www.techtimes.com/articles/331563/20261126/hugging-face-ai-agent-swarm-report-server-blocked-admin-token-attempt-accepted-peer-review-swap.htm",
-     "source": "Tech Times｜2026-11-26",
-     "tags": [
-      "开发工具"
-     ]
-    },
-    {
-     "rank": "05",
-     "title": "Anthropic：Messages API 从 Python 迁至 Rust，Claude Agent 闭环验证，单请求 CPU 降低约 70%",
-     "summary": "Anthropic 宣布完成 Messages API（Claude API、Claude Code、Cowork 的统一入口）从 Python 到 Rust 的迁移，全程零停机、未冻结功能开发。新版 Rust API 单请求 CPU 占用降低约 70%，内存降低 80% 以上，首 token 中位延迟降低约 20%。迁移的难点不在写代码——Claude 一周就写出核心请求路径的初版，而在验证等价性：团队把生产 API 本身变成验证器，",
-     "url": "https://www.anthropic.com/research/migrating-api-to-rust",
-     "source": "Anthropic 官方工程博客｜2026-11-25",
-     "tags": [
-      "开发工具"
-     ]
-    },
-    {
-     "rank": "06",
-     "title": "JFrog：自主 Agent ARTEX 在 Hugging Face 上传窃密模型，还泄露了自己的密钥",
-     "summary": "JFrog 披露，一个名为 ARTEX 的自主 AI Agent（开源渗透测试框架）在 Hugging Face 上传了伪装成 1B 参数微调模型的窃密模型：权重文件仅 2.5KB，实为通过 pickle、auto_map 远程代码与聊天模板注入三条路径执行的凭证窃取器，会收集容器环境变量、Kubernetes 服务账号 token 并经 Hub commit API 回传。戏剧性的是，Agent 在自家容器里测试时触发了窃密代码，把自",
-     "url": "https://research.jfrog.com/post/the-agent-that-robbed-itself-an-ai-driven-hugging-face-malware-campaign-leaks-its-own-operator/",
-     "source": "JFrog 安全研究｜2026-11-24",
-     "tags": [
-      "开发工具"
-     ]
-    }
-   ]
-  },
-  {
-   "id": "tech-industry",
-   "title": "科技行业动态",
-   "shortTitle": "行业动态",
-   "description": "公司动态 · 产品发布 · 芯片与云",
-   "items": [
-    {
-     "rank": "07",
-     "title": "1Password 披露安全事件：员工 GitHub 账号被盗，部分客户元数据泄露，密码库未受影响",
-     "summary": "1Password 披露，攻击者入侵了一名员工的公司 GitHub 账号，借此访问源代码、向后端服务推送恶意代码，并下载了部分客户的管理数据，包括姓名、邮箱、账号标识、SRP 协议参数以及邀请与恢复邮件中的 token。公司强调，客户密码库内容、保护密码库的密钥和恢复密钥均未受影响；已禁用相关账号、轮换可能暴露的内部凭证，并把邀请与恢复验证码从 6 位数字延长为 10 位字母数字组合。",
-     "url": "https://1password.com/blog/update-on-nov-2026-security-incident",
-     "source": "1Password 官方博客｜2026-11-25（11 月 19 日开始调查）",
-     "tags": [
-      "行业动态"
-     ]
-    },
-    {
-     "rank": "08",
-     "title": "FCC 批准 SpaceX 百万颗轨道算力卫星计划 Starmind，首颗须 2033 年前部署",
-     "summary": "美国联邦通信委员会（FCC）批准 SpaceX 部署最多 100 万颗轨道计算模块，组成名为 Starmind 的太空数据中心星座，以太阳能供电、在轨处理 AI 计算任务。许可要求 SpaceX 在 2033 年 11 月前部署首颗授权卫星，2035 年前完成 10%，2038 年前完成 50%，2040 年前完成全部部署。亚马逊 Kuiper、Viasat 与美国天文学会曾要求驳回，FCC 认定环境与天文影响不在其管辖范围。",
-     "url": "https://www.reuters.com/business/media-telecom/us-authorizes-spacex-deploy-1-million-satellites-data-centers-space-2026-11-25/",
-     "source": "Reuters｜2026-11-25",
-     "tags": [
-      "行业动态"
-     ]
-    }
-   ]
-  },
-  {
    "id": "github-hot",
    "title": "GitHub 今日热门",
    "shortTitle": "GitHub 热榜",
@@ -373,6 +269,110 @@
      ]
     }
    ]
+  },
+  {
+   "id": "tech-ai",
+   "title": "AI 与大模型",
+   "shortTitle": "AI 大模型",
+   "description": "大模型发布与更新",
+   "items": [
+    {
+     "rank": "01",
+     "title": "DeepL 发布 Aure v2：语音直译延迟再降 50%",
+     "summary": "DeepL 在东京 Unmute Summit 发布语音 AI 翻译模型 Aure v2，采用端到端语音直译架构与强化学习，翻译中位延迟较上一代降低 50%，准确率与表现力同步提升。首发支持英、德、法、西、日、韩 6 种语言，已向 DeepL Voice 客户开放。",
+     "url": "https://www.deepl.com/en/press-release/aure-v2",
+     "source": "DeepL 官方新闻稿｜2026-11-26",
+     "tags": [
+      "AI 大模型"
+     ]
+    },
+    {
+     "rank": "02",
+     "title": "Yandex 发布 AliceAI 80B 技术报告：80B 参数仅激活 3B，Apache 2.0 开源",
+     "summary": "Yandex 发布 AliceAI-Foundation-80B-A3B-Base 技术报告：80B 总参数、每 token 仅激活约 3B 的 MoE 模型，从零训练于 17.5T token，Apache 2.0 协议开源权重。零样本推理评测中 IMO-AnswerBench pass@8 达 88.7%，LiveCodeBench v5–v6 达 82.9%。",
+     "url": "https://arxiv.org/abs/2611.34529v1",
+     "source": "arXiv 技术报告｜2026-11-25",
+     "tags": [
+      "AI 大模型"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "tech-dev",
+   "title": "AI 工程与开发工具",
+   "shortTitle": "开发工具",
+   "description": "模型部署 · AI 编程 · Agent",
+   "items": [
+    {
+     "rank": "03",
+     "title": "谷歌 Workspace MCP 服务器正式 GA：2027 年 2 月起 AI Agent 须走 MCP",
+     "summary": "谷歌宣布 8 个 Workspace MCP 服务器与 Workspace CLI（gwscli）正式 GA，覆盖 Gmail、Drive、Docs、Sheets、Slides、Calendar、Chat、Tasks。根据新版 Workspace AI Tools Addendum，2027 年 2 月 1 日起 AI Agent 须经 MCP 服务器或 CLI 接入，继续直调 REST API 将被限制在标准级配额；2027 年 4 ",
+     "url": "https://workspace.google.com/blog/product-announcements/built-for-trust-and-control-new-ai-agent-protections-and-developer-tools-in-google-workspace",
+     "source": "Google Workspace 官方博客｜2026-11-24",
+     "tags": [
+      "开发工具"
+     ]
+    },
+    {
+     "rank": "04",
+     "title": "腾讯开源 DFly2：长上下文推理提速最高 4.2 倍",
+     "summary": "腾讯混元开源 DFly2，面向 Hy4 Flash 的新一代推测采样草稿模型，权重、训练代码与技术报告一并公开。它复用主模型的 KV 缓存与稀疏索引，单 token 最多只关注 2048 个关键位置，不改主模型权重、不改变输出；在 AgentLongBench 上 Hy4 Flash A12B 最高提速 4.2 倍，平均约 3.2 倍。",
+     "url": "https://alphasignal.ai/news/tencent-open-sources-dfly2-hitting-4-2x-speed-on-long-context-ai",
+     "source": "腾讯混元团队｜2026-11-26",
+     "tags": [
+      "开发工具"
+     ]
+    },
+    {
+     "rank": "05",
+     "title": "Grok Build 1.0.92：无人值守编程 Agent 更可靠",
+     "summary": "xAI 发布终端编程 Agent Grok Build 1.0.92，主攻无头（headless）场景：新增 5 分钟无活动超时、出错后可恢复的无人值守运行，并改进 MCP 工具的图片处理（含无头流式输出）与远程终端工作流，另有未量化的性能提升。",
+     "url": "https://cryptobriefing.com/grok-build-1092-headless-agent-update/",
+     "source": "Crypto Briefing｜2026-11-27",
+     "tags": [
+      "开发工具"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "tech-industry",
+   "title": "科技行业动态",
+   "shortTitle": "行业动态",
+   "description": "公司动态 · 产品发布 · 芯片与云",
+   "items": [
+    {
+     "rank": "06",
+     "title": "英伟达暂停向东南亚四国发运 AI 服务器",
+     "summary": "英伟达已通知戴尔、超微等制造合作伙伴，暂停向马来西亚、新加坡、泰国、印尼发运搭载其芯片的 AI 服务器。此前美国商务部 BIS 于 11 月 19 日生效新规，要求向上述五国（含巴西）出口先进计算芯片须持许可证，以堵住中国企业经海外数据中心远程租用算力的通道；暂停是临时还是长期尚不明确。",
+     "url": "https://www.straitstimes.com/world/united-states/nvidia-halts-server-shipments-to-four-south-east-asian-countries-including-singapore-report",
+     "source": "金融时报（经海峡时报转载）｜2026-11-26",
+     "tags": [
+      "行业动态"
+     ]
+    },
+    {
+     "rank": "07",
+     "title": "SAP 拟裁员至少 1 万人，押注 AI 优先重组",
+     "summary": "SAP 正筹划裁减至少 1 万个岗位，约占 11 万全球员工的 9%，以配合 CEO Christian Klein 推动的 AI 优先战略重组，产品开发、工程与销售部门是重点；最终数字待与员工代表协商后确定，SAP 未予证实，仅表示持续评估组织架构。",
+     "url": "https://www.channelnewsasia.com/business/sap-job-cuts-ai-restructuring-6585781",
+     "source": "彭博社（经 CNA 转载）｜2026-11-26",
+     "tags": [
+      "行业动态"
+     ]
+    },
+    {
+     "rank": "08",
+     "title": "瑞士确认 5 起 AI Agent 网络攻击，4 起得手",
+     "summary": "瑞士联邦网络安全办公室（BACS）确认，近日 5 起针对企业与关键基础设施运营商的网络攻击使用了 AI Agent，其中 4 起成功入侵系统；3 起目标为关键基础设施运营商（电力、供水、电信等），其中 2 起得手，未造成重大服务中断。受害者与攻击者均未披露，BACS 称网上可获取的 Agent 数量自 10 月以来几乎翻倍。",
+     "url": "https://www.channelnewsasia.com/business/ai-agents-used-in-five-cyber-attacks-in-switzerland-government-says-6585191",
+     "source": "路透社（经 CNA 转载）｜2026-11-26",
+     "tags": [
+      "行业动态"
+     ]
+    }
+   ]
   }
  ],
  "_pipelines": {
@@ -398,19 +398,19 @@
    "digest": [
     {
      "title": "速览",
-     "text": "OpenAI 承认 GPT-6.2 上线时计费少算，用量上限提速 40%/25% 触达，补偿一次用量重置。"
+     "text": "美国收紧 AI 芯片出口，英伟达暂停向东南亚四国发运 AI 服务器，算力供应链再受冲击。"
     },
     {
      "title": "速览",
-     "text": "DeepMind 让 AI Agent 自主支配部分算力、为下一代 Gemini 跑实验；Hugging Face 千 Agent 九天合并 8500 多个 PR。"
+     "text": "谷歌 Workspace MCP 服务器正式 GA，2027 年 2 月 1 日起 AI Agent 须经 MCP 接入，Agent 治理进入强制期。"
     },
     {
      "title": "速览",
-     "text": "FCC 批准 SpaceX 百万颗轨道算力卫星；1Password 披露员工 GitHub 账号被盗事件。"
+     "text": "SAP 拟裁员至少 1 万人推进 AI 优先重组；瑞士确认 5 起 AI Agent 攻击、4 起得手，Agent 安全攻防进入实证阶段。"
     }
    ],
-   "highlight": "OpenAI 承认 GPT-6.2 上线时计费少算，用量上限提速 40%/25% 触达，补偿一次用量重置。",
-   "date": "2026-11-27"
+   "highlight": "美国收紧 AI 芯片出口，英伟达暂停向东南亚四国发运 AI 服务器，算力供应链再受冲击。",
+   "date": "2026-11-28"
   }
  },
  "digest": [
@@ -420,10 +420,10 @@
   },
   {
    "title": "速览",
-   "text": "OpenAI 承认 GPT-6.2 上线时计费少算，用量上限提速 40%/25% 触达，补偿一次用量重置。"
+   "text": "美国收紧 AI 芯片出口，英伟达暂停向东南亚四国发运 AI 服务器，算力供应链再受冲击。"
   }
  ],
- "intro": "Claude-BugHunter 单日 +1,608 十度登顶日榜、总数突破 2.6 万 star，skill 数仍为 85；app-store-compliance 单日净增 870、总数逼近 7,900，独立开发者上架合规小工具继续加速。 OpenAI 承认 GPT-6.2 上线时计费少算，用量上限提速 40%/25% 触达，补偿一次用量重置。",
+ "intro": "Claude-BugHunter 单日 +1,608 十度登顶日榜、总数突破 2.6 万 star，skill 数仍为 85；app-store-compliance 单日净增 870、总数逼近 7,900，独立开发者上架合规小工具继续加速。 美国收紧 AI 芯片出口，英伟达暂停向东南亚四国发运 AI 服务器，算力供应链再受冲击。",
  "tasks": [
   {
    "icon": "GH",
@@ -440,5 +440,5 @@
  ],
  "date": "2026-11-28",
  "issue": "059",
- "updatedAt": "00:35 更新"
+ "updatedAt": "01:01 更新"
 }
